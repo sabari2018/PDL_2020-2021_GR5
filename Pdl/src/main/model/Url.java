@@ -1,4 +1,4 @@
-package src.main.java.model;
+package model;
 
 
 
@@ -7,11 +7,9 @@ import java.io.InputStream;
 
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.List;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.select.Elements;
 
 /**
  * <!-- begin-user-doc --> <!-- end-user-doc -->
@@ -23,7 +21,7 @@ import org.jsoup.select.Elements;
  * @author Romiche
  *
  */
-public class Url {
+public class Url extends FormatHTML {
 
 	public String url;
 	public Url urltest;

@@ -4,25 +4,36 @@
   <artifactId>PDL_2018-2019_GR3</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <build>
-    <sourceDirectory>Pdl/src</sourceDirectory>
-    <plugins>
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.0</version>
-        <configuration>
-          <source/>
-          <target/>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
+      <sourceDirectory>Pdl/src/main</sourceDirectory>
+      <testSourceDirectory>Pdl/src/test</testSourceDirectory>
+        <plugins>
+          <plugin>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.0</version>
+            <configuration>
+                <source/>
+                <target/>
+            </configuration>
+          </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>6</source>
+                    <target>6</target>
+                </configuration>
+            </plugin>
 
-  <dependencies>
+        </plugins>
+      </build>
+
+    <dependencies>
    <!-- https://mvnrepository.com/artifact/junit/junit -->
 <dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
     <version>4.12</version>
+    <scope>test</scope>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
 <dependency>

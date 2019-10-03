@@ -1,13 +1,9 @@
-package src.main.java.model;
+package model;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.Semaphore;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
