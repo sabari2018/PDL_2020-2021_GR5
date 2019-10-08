@@ -14,8 +14,12 @@ The global architecture is :
   
 #Dynamic model
   
-Actually, the project starts when Main is executed. This class permits to start an Wikipedia table extraction with two methods : by HTML and Wikitext. Actually the HTLM extraction runs go to the end even if this execution catch exeception. However the Wikitext extraction doesn't run competely. This extraction ends when a FileNotFoundException is throws.
+Actually, the project starts when Main is executed. This class permits to start an Wikipedia table extraction with two methods : by HTML and Wikitext. 
 
-The execution in the main is :
+The nominal scenario represents a Main execution without errors :
+ 
+![100% center](images/sequence-diagram.png)
 
-![50% center](images/sequence-diagram.png)
+First an Fichier object is created. This object permits to do operations on Wikipedia page.
+
+The first method "productUrls ()" lists all urls in a file. After the method "fichierToHTML ()" realizes HTML extraction. In the second part a new Fichier object is created and the method "productUrlsWikitext" creates a file with all wikitext urls. At the end, "FichierToWikitext" realizes wikitext extraction.
