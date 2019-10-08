@@ -18,4 +18,4 @@ Actually, the project starts when Main is executed. This class permits to start 
 
 The execution in the main is :
 
-/images/sequence-diagram.png
+!(/images/sequence-diagram.png)
