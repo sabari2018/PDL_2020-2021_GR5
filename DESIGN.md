@@ -14,12 +14,13 @@ The global architecture is :
   
 #Dynamic model
   
-Actually, the project starts when Main is executed. This class permits to start an Wikipedia table extraction with two methods : by HTML and Wikitext. 
+Actually, the project starts when Main is executed. This class allows to start a Wikipedia table extraction from two different formats : HTML or Wikitext. 
 
 The nominal scenario represents a Main execution without errors :
  
 ![100% center](images/sequence-diagram.png)
 
-First an Fichier object is created. This object permits to do operations on Wikipedia page.
+First a "Fichier" object is created. This object allows to do operations on an extracted Wikipedia page.
 
-The first method "productUrls ()" lists all urls in a file. After the method "fichierToHTML ()" realizes HTML extraction. In the second part a new Fichier object is created and the method "productUrlsWikitext" creates a file with all wikitext urls. At the end, "FichierToWikitext" realizes wikitext extraction.
+The first method "productUrls()" lists all urls in a file. After the method "fichierToHTML ()" realizes HTML extraction. In the second part a new "Fichier" object is created and the method "productUrlsWikitext" creates a file with all Wikitext urls. At the end, "FichierToWikitext" realizes the Wikitext extraction.
+
