@@ -33,4 +33,4 @@ The first method "productUrls()" lists all urls in a file. After the method "fic
 
 Tests results realised on 10/08/19
 
-| Test name | Finale Description |
+| Test name | Finale Description | |------------|-----------------|
