@@ -37,7 +37,7 @@ Actually, the project starts when Main class is executed. This class allows to s
 
 The nominal scenario represents a Main execution without errors :
  
-![100% center](images/diagramme_sequence.png)
+![100% center](images/diagramme_sequence.PNG)
 
 In the main, a Fichier object is created. This object contains a Set<Url> attribute, called ‘setUrl’ grouping all Wikipedia urls. This object will permit to do operations on Wikipedia page.
 
