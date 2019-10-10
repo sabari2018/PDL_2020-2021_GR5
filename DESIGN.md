@@ -12,7 +12,7 @@ The global architecture is :
   But we need to do modification on this architecture
   
   
-#Dynamic model
+# Dynamic model
   
 Actually, the project starts when Main is executed. This class allows to start a Wikipedia table extraction from two different formats : HTML or Wikitext. 
 
