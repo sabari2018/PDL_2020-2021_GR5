@@ -33,10 +33,10 @@ The first method "productUrls()" lists all urls in a file. After the method "fic
 
 Tests results realised on 10/08/19
 
-| ### Test name        | ### Finale Description      |
+| <h3>Test name</h3>        |  <h3>Finale Description</h3>      |
 | ------|-----|
 | **TestCSV**  	| Empty 	|
-| **TestFichier**  	| 	|
+| **TestFichier**  	| 	
 | TestRemove2  	| OK 	|
 | TestUrlFromFile  	| OK 	|
 | TestAdd2  	| OK 	|
@@ -56,10 +56,7 @@ Tests results realised on 10/08/19
 |  TestNonValidUrl  	| OK 	|
 | TestRedirectUrl  	| Failed => Assertion Error : lien redirigé	|
 | **TestWikiText**  	| 	|
-| TestNbLignes  	| Failed =>
-Assertion Error :
-Expected : 0
-Actual : 9	|
+| TestNbLignes  	| Failed => Assertion Error : <ul><li>Expected : 0</li> <li>Actual : 9</li></ul>	|
 | TestNewUrl  	| OK	|
 | TestNbTableau  	| OK	|
 
