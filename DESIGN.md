@@ -48,4 +48,18 @@ Tests results realised on 10/08/19
 | Testhtml  	| Error => Array Index Out Of Bounds Exception : Index 1 out of bounds for lenght 1 	|
 | TestTitle  	| Failed => Comparison failure 	|
 | TestNbColonnes  	| Failed => Assertion Error : Expected : 1 Actual : 10 	|
+| **TestPDL**	|  	|
+|  TestWiki	| Error  => null pointer exception	|
+| **TestURL**	|  	|
+|  TestToHTML  	|  OK	|
+|  TestValideUrl  	| Failed => AssertionError 	|
+|  TestNonValidUrl  	| OK 	|
+| TestRedirectUrl  	| Failed => Assertion Error : lien redirigé	|
+| **TestWikiText**  	| 	|
+| TestNbLignes  	| Failed =>
+Assertion Error :
+Expected : 0
+Actual : 9	|
+| TestNewUrl  	| OK	|
+| TestNbTableau  	| OK	|
 
