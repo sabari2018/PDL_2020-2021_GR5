@@ -35,8 +35,8 @@ Tests results realised on 10/08/19
 
 | <h3>Test name</h3>        |  <h3>Finale Description</h3>      |
 | ------|-----|
-| ** TestCSV**  	| Empty 	|
-| ** TestFichier**  	|  |
+| <bold>TestCSV</bold>  	| Empty 	|
+| **TestFichier**  	|  |
 | TestRemove2  	| OK 	|
 | TestUrlFromFile  	| OK 	|
 | TestAdd2  	| OK 	|
@@ -44,13 +44,13 @@ Tests results realised on 10/08/19
 | TestRemove  	| OK 	|
 | TestReadFile  	| Failed => Assertion Error : <ul><li>Expected : 312</li> <li>Actual : 314</li></ul>	|
 | TestAdd  	| OK 	|
-| ** TestHTML**  	| 	|
+| **TestHTML**  	| 	|
 | Testhtml  	| Error => Array Index Out Of Bounds Exception : Index 1 out of bounds for lenght 1 	|
 | TestTitle  	| Failed => Comparison failure 	|
 | TestNbColonnes  	| Failed => Assertion Error : <ul><li>Expected : 1</li> <li>Actual : 10</li></ul> 	|
-| ** TestPDL **	|  	|
+| **TestPDL**	|  	|
 |  TestWiki	| Error  => null pointer exception	|
-| ** TestURL **	|  	|
+| **TestURL**	|  	|
 |  TestToHTML  	|  OK	|
 |  TestValideUrl  	| Failed => AssertionError 	|
 |  TestNonValidUrl  	| OK 	|
