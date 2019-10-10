@@ -36,10 +36,8 @@ Tests results realised on 10/08/19
 | <h3>Test name</h3>        |  <h3>Finale Description</h3>      |
 | ------|-----|
 | **TestCSV**  	| Empty 	|
-| **TestFichier**  	| 
-| ------|
+| **TestFichier**  	|  |
 | TestRemove2  	| OK 	|
-| ------|-----|
 | TestUrlFromFile  	| OK 	|
 | TestAdd2  	| OK 	|
 | TestToString  	| OK 	|
