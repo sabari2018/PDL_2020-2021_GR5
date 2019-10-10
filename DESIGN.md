@@ -73,7 +73,7 @@ The first method "productUrls()" lists all urls in a file. After the method "fic
 Tests results realised on 10/08/19
 
 | <h3>Test name</h3>        |  <h3>Finale Description</h3>      |
-| ------|-----|
+|:------:|-----|
 | **TestCSV**  	| Empty 	|
 | **TestFichier**  	|||
 | <p style="color:#FFFF00;">TestRemove2 </p>	| OK 	|
