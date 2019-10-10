@@ -1,5 +1,8 @@
 ## Design 
 
+
+# Global architecture
+
 This project contains two packages : one "model" which contains all classes and "test" which contains all test classes.
 
 The global architecture is : 
@@ -15,6 +18,17 @@ Some class are not correctly named, especially the Url class which can be confus
 The project makes the use of a mix between French and English. It is not a correct practice. Some methods are in English like « headToCSV() : ProductionCSV » in the FormatWikiText class. Some are in French like « NombreCol() : int » in the FormatHTML class. Others are using a mix between French and English like the PremierSplit() : FormatHTML method in the FormatHTML class. There is a similar problem with the class names. We should program using a single language (English is a better solution as it is widely spoken, so easily understood by most of foreign developers) to avoid comprehension problems.
 A few attribute names should be changed because their name is not explicit. For example, the attribute « urlUrl : Url » of the « Fichier » class constructor. 
 Even if not causing technical difficulties, these coding conventions issues can cause misunderstanding for future developers and should be correcting using code refactoring with the IDE.
+
+# Class descriptions
+
+| Class | Extends | Description | 
+| --- | --- | --- |
+| Fichier | Url, FormatHTML, Thread (Java class) | Produces the different Wikipedia pages urls, triggers the HTML and Wikitext extraction |
+| FormatHTML | Thread (Java class) | Extracts the HTML tables form the Wikipedia pages and calls the CSV conversion methods |
+| FormatWikiText |  | Extracts the wikitext tables form the Wikipedia pages and calls the CSV conversion methods |
+| Main |  | Runs the program creates "Fichier" Objects |
+| ProductionCSV |  | Deals with the conversion of HTML and Wikitext tables into CSV |
+| Url | FormatHTML, Thread (Java class) | Contains the methods to test if the urls are valid |
 
   
 # Dynamic model
@@ -33,30 +47,4 @@ The first method "productUrls()" lists all urls in a file. After the method "fic
 
 Tests results realised on 10/08/19
 
-| <h3>Test name</h3>        |  <h3>Finale Description</h3>      |
-| ------|-----|
-| **TestCSV**  	| Empty 	|
-| **TestFichier**  	|||
-| <p style="color:#FFFF00;">TestRemove2 </p>	| OK 	|
-| TestUrlFromFile  	| OK 	|
-| TestAdd2  	| OK 	|
-| TestToString  	| OK 	|
-| TestRemove  	| OK 	|
-| TestReadFile  	| Failed => Assertion Error : <ul><li>Expected : 312</li> <li>Actual : 314</li></ul>	|
-| TestAdd  	| OK 	|
-| **TestHTML**  	| |
-| Testhtml  	| Error => Array Index Out Of Bounds Exception : Index 1 out of bounds for lenght 1 	|
-| TestTitle  	| Failed => Comparison failure 	|
-| TestNbColonnes  	| Failed => Assertion Error : <ul><li>Expected : 1</li> <li>Actual : 10</li></ul> 	|
-| **TestPDL**	| |
-|  TestWiki	| Error  => null pointer exception	|
-| **TestURL**	| |
-|  TestToHTML  	|  OK	|
-|  TestValideUrl  	| Failed => AssertionError 	|
-|  TestNonValidUrl  	| OK 	|
-| TestRedirectUrl  	| Failed => Assertion Error : lien redirigé	|
-| **TestWikiText**  	| |
-| TestNbLignes  	| Failed => Assertion Error : <ul><li>Expected : 0</li> <li>Actual : 9</li></ul>	|
-| TestNewUrl  	| OK	|
-| TestNbTableau  	| OK	|
-
+| Test name | Finale Description | |------------|:-----------------:|
