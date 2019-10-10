@@ -19,6 +19,18 @@ The project makes the use of a mix between French and English. It is not a corre
 A few attribute names should be changed because their name is not explicit. For example, the attribute « urlUrl : Url » of the « Fichier » class constructor. 
 Even if not causing technical difficulties, these coding conventions issues can cause misunderstanding for future developers and should be correcting using code refactoring with the IDE.
 
+# Class descriptions
+
+| Class | Extends | Description | 
+| --- | --- | --- |
+| Fichier | Url, FormatHTML, Thread (Java class) | Produces the different Wikipedia pages urls, triggers the HTML and Wikitext extraction |
+| FormatHTML | Thread (Java class) | Extracts the HTML tables form the Wikipedia pages and calls the CSV conversion methods |
+| FormatWikiText |  | Extracts the wikitext tables form the Wikipedia pages and calls the CSV conversion methods |
+| Main |  | Runs the program creates "Fichier" Objects |
+| ProductionCSV |  | Deals with the conversion of HTML and Wikitext tables into CSV |
+| Url | FormatHTML, Thread (Java class) | Contains the methods to test if the urls are valid |
+
+  
 ## Dynamic model
   
 Actually, the project starts when Main class is executed. This class allows to start a Wikipedia table extraction from two different formats : HTML or Wikitext. 
@@ -43,30 +55,6 @@ At the end, FichierToWikitext() is executed. This méthode creates a CSV file. T
 
 The rated scenario consists to realize the extraction of all tables contains on all Wikipedia pages defines in ‘wikiurls.txt’ in two different ways: using wiki text or HTML code. A successful extraction is, for all pages, a CSV file correctly established. That is to say a first line with the table column name and the other lines corresponding to table datas. The CSV must have a comma like separator.
 
-
-# Class descriptions
-
-| Class | Extends | Description | 
-| --- | --- | --- |
-| Fichier | Url, FormatHTML, Thread (Java class) | Produces the different Wikipedia pages urls, triggers the HTML and Wikitext extraction |
-| FormatHTML | Thread (Java class) | Extracts the HTML tables form the Wikipedia pages and calls the CSV conversion methods |
-| FormatWikiText |  | Extracts the wikitext tables form the Wikipedia pages and calls the CSV conversion methods |
-| Main |  | Runs the program creates "Fichier" Objects |
-| ProductionCSV |  | Deals with the conversion of HTML and Wikitext tables into CSV |
-| Url | FormatHTML, Thread (Java class) | Contains the methods to test if the urls are valid |
-
-  
-# Dynamic model
-  
-Actually, the project starts when Main is executed. This class allows to start a Wikipedia table extraction from two different formats : HTML or Wikitext. 
-
-The nominal scenario represents a Main execution without errors :
- 
-![100% center](images/sequence-diagram.png)
-
-First a "Fichier" object is created. This object allows to do operations on an extracted Wikipedia page.
-
-The first method "productUrls()" lists all urls in a file. After the method "fichierToHTML ()" realizes HTML extraction. In the second part a new "Fichier" object is created and the method "productUrlsWikitext" creates a file with all Wikitext urls. At the end, "FichierToWikitext" realizes the Wikitext extraction.
 
 # Tests Results
 
