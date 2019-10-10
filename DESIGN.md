@@ -37,7 +37,7 @@ Tests results realised on 10/08/19
 | ------|-----|
 | **TestCSV**  	| Empty 	|
 | **TestFichier**  	|||
-| <span style= "green">TestRemove2</span>  	| OK 	|
+| <span barkgound-color="green">TestRemove2</span>  	| OK 	|
 | TestUrlFromFile  	| OK 	|
 | TestAdd2  	| OK 	|
 | TestToString  	| OK 	|
