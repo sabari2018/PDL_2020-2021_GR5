@@ -4,7 +4,7 @@ This project contains two packages : one "model" which contains all classes and 
 
 The global architecture is : 
 
-![100% center] images/class_diagram_origin_V2.0.png
+![100% center](images/class_diagram_origin_V2.0.png)
 
 We spotted some issues like “useless” inheritance. On the diagram, we can see “Fichier” extends “Url” which extends “FormatHTML”. Inheritance normally allows to factorize common concepts shared by different subclasses in a single superclass. It allows also to isolate the concepts proper to each subclass and to redefine superclass operations if necessary. 
 We observed the code and we realized none of these concepts seemed to be applied. We did not see to what extent “FormatHTML”, “Url” and “Fichier” had so much common concepts. The inheritance did not follow any software logic. Moreover, if we removed the inheritance, the program was running with no difference.
