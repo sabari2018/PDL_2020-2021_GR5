@@ -55,6 +55,11 @@ At the end, FichierToWikitext() is executed. This méthode creates a CSV file. T
 
 The rated scenario consists to realize the extraction of all tables contains on all Wikipedia pages defines in ‘wikiurls.txt’ in two different ways: using wiki text or HTML code. A successful extraction is, for all pages, a CSV file correctly established. That is to say a first line with the table column name and the other lines corresponding to table datas. The CSV must have a comma like separator.
 
+An alternative run scenario is an execution whose scenario is not very common. An example is a table which contains images. The extraction of the cell will be different if it’s an image. Indeed, the HTML or wiki text tags surrounding the image are differents from those used for a simple text. Nevertheless, this scenario should lead to the creation of a properly formed csv file.
+
+An example of an exceptional scenario is the extraction of a Wikipedia page where the number of rows or columns is not the same within a same table (see below). This will lead to the launch of an exception that must be handled in order to not stop the program abruptly. In conclusion, no csv file will be formed from this table only.
+![100% center](images/exception_scenario.png)
+
 
 # Tests Results
 
