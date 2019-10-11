@@ -104,7 +104,7 @@ Tests results realised on 10/08/19
 | ProcessWikiUrl | | Produces the different Wikipedia urls from txt files and instantiate a List of objects WikiUrl. Then it triggers the HTML and Wiki Text extraction by calling Parser’s methods. |
 | WikiUrl |  | Contains 2 attributes : one to store the http url and the other one for the Wiki Text url |
 | Parser |  | SuperClass which factorizes some common attributes between ParserHTML and ParserWikiText |
-| ParserHTML |  | Specialization of Parser. Contains specifics methods to parse HTML |
+| ParserHTML | Parser | Specialization of Parser. Contains specifics methods to parse HTML |
 | ParserWikiText | Parser | Specialization of Parser. Contains specifics methods to parse Wiki Text |
 | Table |  | The "content" attribute of this class represents the contents of an array. This map contains a key (the line’s number) and a value (an array of String containing the text of each cell) |
 | Converter |  | Convert the Table obtained by the Parser into  a CSV file |
