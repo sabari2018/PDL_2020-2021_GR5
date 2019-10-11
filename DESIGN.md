@@ -16,7 +16,7 @@ Some operations do not follow traditional coding conventions:
 * Project's class "Url" could be confused with Java'a class "Url", the name need to be changed
 * French and english are mixed in the project, it need to be normalized
 * Some attribute name are can be confusing (i.e : urlUrl from the Url class...), attributes names need to be explicit
-* There are some unused methods or attributes.
+* There are some unused methods or attributes
 
 Even if not causing technical difficulties, these coding conventions issues can cause misunderstanding for future developers and should be corrected using code refactoring with the IDE.
 
@@ -109,7 +109,7 @@ Tests results realised on 10/08/19
 | Table |  | The "content" attribute of this class represents the contents of an array. This map contains a key (the line’s number) and a value (an array of String containing the text of each cell) |
 | Converter |  | Convert the Table obtained by the Parser into  a CSV file |
 
-In this proposal, we will try to remove the inefficient inheritances mentioned above.
+In this proposal, we will try to remove the inefficient inheritance mentioned above and also give a more specific role to each class. We will try to respect the coding conventions.
 
 This proposal is likely to be changed during development.
 
