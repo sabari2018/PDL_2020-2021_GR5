@@ -10,33 +10,33 @@ We continue the project « Wikipedia Matrix » started by the last group of M1
 
 Its goal is to collect and extract wikipedia's tables. These tables are on several Wikipedia pages (we use the url), the content of these tables will be rewritten and returned in CSV format.
 
-Two methods are used to read and analyze a Wikipedia page :
-* By the Wikitext code
-* By the HTML code
+We read and analyze a Wikipedia page by two methods:
+* With Wikitext code
+* With HTML code
 
 
 ## Objectives
 
 3 expected results :
 * Improvement of extractors. (source code, documentation, tests, continuous integration...)
-* Tools which allows us to evaluate ours extractors.
-* Make the software project easy to use by anyone. (with a complete and functional dataset)
+* Tools which allows us to evaluate our extractors.
+* Make the project easy to use by anyone. (with a complete and functional dataset)
 
 
 ## Actual functionality
 
-If you give a wikipedia page link that contains tables, the software will generate you the CSV for every valid tables in the page and exclude the ones that cannot be converted into CSV. 
+If you give a wikipedia page link that contains tables, the software will generate CSV for every valid tables in the page and exclude the ones that cannot be converted into CSV. 
 
 If you give a wikipedia page link that doesn't contains any valid tables or no tables at all, the software will inform you of this and won't generate any file. 
 
 If you give any other link than wikipedia, the software will tell you that the page you provide isn't compatible and won't generate any file. 
 
-At every steps you can check the list of link that you provided to the software and check if and how many table it can extract. 
+At every steps you can check the list of links that you provided to the software and check if and how many table it can extract. 
 
 
 ## Functionnality to develop
 
-We have to create tools allows us to test and evaluate ours extractors.
+We have to create tools allows us to test and evaluate our extractors.
 
 
 ## Project license
