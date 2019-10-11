@@ -68,7 +68,6 @@ Tests results realised on 10/08/19
 
 | <h3>Test name</h3>        |  <h3>Finale Description</h3>  |
 |:------:|-----|
-|<td colspan=2><b>TestCSV</b></td>|
 | **TestCSV**  | Empty |
 | **TestFichier**  	|||
 | <p style="color:#FFFF00;">TestRemove2 </p>	| OK |
