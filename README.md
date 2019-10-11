@@ -25,18 +25,22 @@ We read and analyze two Wikipedia page formats :
 
 ## Actual functionality
 
-If you give a Wikipedia page link that contains tables, the software will generate a CSV for every valid tables in the page and exclude the ones that cannot be converted into CSV. 
+The software takes a file with a list of wikipedia's pages title (taken from the page URL : with "\_" in place of " ") and process each  one to get the HTML and WikiText URL of the page.
+After testing the URL: it treat all the HTML code of each page and try to extract as much table as it can in CSV and then do the same for WikiText.
 
-If you give a Wikipedia page link that does not contain any valid tables or no tables at all, the software will inform you of this and will not generate any file. 
-
-If you give any other link than Wikipedia, the software will tell you that the page you provide isn't compatible and won't generate any file. 
-
-At every steps you can check the list of links that you provided to the software and check if and how many table it can extract. 
+Right now, the HTML treatment seems to work correctly, but the WikiText part always break at some point due to an unknown error.
 
 
 ## Functionnality to develop
 
-We have to create tools which allow us to test and evaluate our extractors.
+We now have to fix the WikiText extraction for it to work correctly.
+
+We would also have to create some new test in JUnit.
+
+We could then try to improve the software itself for it to run with better performances.
+
+In the end we need to implement a tool that will allow us to automatically evaluate tables extractions based on preset results and tests.
+
 
 
 ## Project license
