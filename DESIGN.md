@@ -101,3 +101,25 @@ Tests results realised on 10/08/19
 | TestNbLignes  	| Failed => Assertion Error : <ul><li>Expected : 0</li> <li>Actual : 9</li></ul> |
 | TestNewUrl  	| OK |
 | TestNbTableau  	| OK |
+
+# Improvements proposals
+
+![100% center](images/class_diagram_v2.png)
+
+| Class | Extends | Description | 
+| --- | --- | --- |
+| Main | | Runs the program by creating an instance of ProcessWikiUrl |
+| ProcessWikiUrl | | Produces the different Wikipedia urls from txt files and instantiate a List of objects WikiUrl.
+Then it triggers the HTML and Wiki Text extraction by calling Parser’s methods. |
+| WikiUrl |  | Contains 2 attributes : one to store the http url and the other one for the Wiki Text url |
+| Parser |  | SuperClass which factorizes some common attributes between ParserHTML and ParserWikiText |
+| ParserHTML |  | Specialization of Parser. Contains specifics methods to parse HTML |
+| ParserWikiText | Parser | Specialization of Parser. Contains specifics methods to parse Wiki Text |
+| Table |  | The "content" attribute of this class represents the contents of an array. This map contains a key (the line’s number) and a value (an array of String containing the text of each cell) |
+| Converter |  | Convert the Table obtained by the Parser into  a CSV file |
+
+In this proposal, we will try to remove the inefficient inheritances mentioned above.
+
+This proposal is likely to be changed during development.
+
+
