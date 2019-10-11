@@ -43,13 +43,13 @@ In the main, a Fichier object is created. This object contains a Set<Url> attrib
 
 First, productUrls () is called and fill ‘setUrl’. For that, this method read ‘wikiurls.txt’ which contains all Wikipedia pages that we want treat. Each page is add to the Set with this form:  https://en.wikipedia.org/wiki/ + page name.
 
-Then FichierToHTML () is executed and creates a CSV file. This file contains the HTML extraction from Wikipedia table contents. This file is present in ‘output/html’.
+Then FichierToHTML () is executed and realizes Wikipedia table extraction.  The extraction consits to create a CSV file for each table in a page and contains the HTML extraction from Wikipedia table contents. This file is present in ‘output/html’.
 
 To realize the table extraction form wiki text, a Fichier object is recreated to reinitialize ‘setUrl’ attribute.
 
 After, productUrlsWikitext ()is calling. This method has the same role that productUrls () but on this way, urls are stocked on this forme : https://en.wikipedia.org/w/index.php?title= + page name + &action=edit.
 
-At the end, FichierToWikitext() is executed. This méthode creates a CSV file. This file contains the HTML extraction from Wikipedia table contents and is present in ‘output/html’.
+At the end, FichierToWikitext() is executed. This méthode creates a CSV file for each table in a page. This file contains the HTML extraction from Wikipedia table contents and is present in ‘output/html’.
 
 ## Execution scenarios
 
