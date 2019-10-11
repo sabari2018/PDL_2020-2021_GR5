@@ -16,8 +16,8 @@ Then get the project with the HTTPS link :
   - Select "GitHub"
   - On "Git Repository URL" put the HTTPS link of this project
   - Set your project directory and parent directory as you wish
-  - Click "Clone" chen you'r ready
+  - Click "Clone" when you are ready
   - Open the project
-  - Open the Maven pannel (on the right) and click the refresh button if no project shown in
-  - Unfold the project in the maven pannel
+  - Open the Maven panel (on the right) and click the refresh button if no project is shown in
+  - Unfold the project in the maven panel
   - In "LifeCycle" select "Clean" and "Compile" and the project should be running properly
