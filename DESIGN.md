@@ -15,10 +15,17 @@ We spotted some issues like “useless” inheritances. On the diagram, we can s
 We observed the code and we realized none of these concepts seemed to be applied. We did not see to what extent “FormatHTML”, “Url” and “Fichier” had so much common concepts. The inheritance did not follow any software logic. Moreover, if we removed the inheritance, the program was running with no difference.
 We also spotted unused methods or attributes. We need to check if they have been forgotten or if they are just the beginning of unfinished implementations. After that we will remove unnecessary code to have a clean project.-------
 
-Some operations do not follow traditional coding conventions. All operations, except constructors should not start with a capital letter. For example, "PremierSplit() : FormatHTML" method in the FormatHTML class should be written "premierSplit() : FormatHTML" . This problem can be spotted on several other operations in the code.
+Some operations do not follow traditional coding conventions:
+* Some methods name start with a capital letter (that is a recurrent problem)
+* Project's class "Url" could be confused with Java'a class "Url", the name need to be changed
+* French and english are mixed in the project, it need to be normalized
+* Some attribute name are can be confusing (i.e : urlUrl from the Url class...), attributes names need to be explicit
+
+-------All operations, except constructors should not start with a capital letter. For example, "PremierSplit() : FormatHTML" method in the FormatHTML class should be written "premierSplit() : FormatHTML" . This problem can be spotted on several other operations in the code.
 Some classes are not correctly named, especially the Url class which can be confused with the java Url object. This class should bear a different name to avoid any misunderstandings.
 The project makes the use of a mix between French and English. It is not a correct practice. Some methods are in English like "headToCSV() : ProductionCSV" in the FormatWikiText class. Some are in French like "NombreCol() : int" in the FormatHTML class. Others are using a mix between French and English like "PremierSplit() : FormatHTML" method in the FormatHTML class. There is a similar problem with the class names. We should program using a single language (English is a better solution as it is widely spoken, so easily understood by most of foreign developers) to avoid comprehension problems.
-A few attribute names should be changed because their names are not explicit. For example, the attribute "urlUrl : Url" of the "Fichier" class constructor. 
+A few attribute names should be changed because their names are not explicit. For example, the attribute "urlUrl : Url" of the "Fichier" class constructor. -------
+
 Even if not causing technical difficulties, these coding conventions issues can cause misunderstanding for future developers and should be corrected using code refactoring with the IDE.
 
 # Class descriptions
