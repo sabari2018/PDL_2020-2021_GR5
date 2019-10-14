@@ -109,7 +109,7 @@ Tests results realised on 10/08/19
 | Table |  | The "content" attribute of this class represents the contents of an array. This map contains a key (the line’s number) and a value (an array of String containing the text of each cell) |
 | Converter |  | Convert the Table obtained by the Parser into  a CSV file |
 
-In this proposal, we will try to remove the inefficient inheritance mentioned above and also give a more specific role to each class. We will try to respect the coding conventions.
+In this proposal, we will remove the inefficient inheritances mentioned above and also give a more specific role to each class. We will enforce the respect of coding conventions and a better test coverage.
 
 This proposal is likely to be changed during development.
 
