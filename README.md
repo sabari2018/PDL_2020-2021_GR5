@@ -1,75 +1,64 @@
-# Wikipedia Matrix
+# Wikipedia Matrix : The Truth (2019 - 2020)
 
-This project is held at the University of Rennes 1, ISTIC, in Master 1 (MIAGE).
-The goal of our project is to carry out a software project with open technologies and data.
-Many challenges lie ahead, requiring skills in project management, modeling, and programming.
+This project is held at the University of Rennes 1, ISTIC, in Master 1 MIAGE.
 
+## Project context
 
+This project is a fork of « Wikipedia Matrix » started by the last group of M1 MIAGE (2018 - 2019). We have to correct it and improve it. 
 
-### Objective
+### What is the project « Wikipedia Matrix » ?
 
-The software aim to return you as much table as possible from a wikipedia page that you provide to it in CSV format. 
-It will try to exclude the table that cannot be parsed into CSV and inform you about how much table it can parse.
+The goal of "Wikipedia Matrix" is to collect and extract Wikipedia's tables. These tables are on several Wikipedia pages retrieved by their url. The content of these tables will be returned in files using CSV format.
 
-
-## Results
-
-We use one and one only URL of a Wikipedia page to produces a CSV file that contains its tables  (eg https://fr.wikipedia.org/wiki/Coupe_du_monde_de_football)
-
-The project analyzes Wikipedia page in two different ways:
-• By searching for the corresponding Wikitext code
-• By exploiting the HTML rendering of the Wikipedia page
-
-If you give a wikipedia page link that contains tables, the software will generate you the CSV for every valid tables in the page and exclude the ones that cannot be converted into CSV.
-If you give a wikipedia page link that doesn't contains any valid tables or no tables at all, the software will inform you of this and won't generate any file.
-If you give any other link than wikipedia, the software will tell you that the page you provide is not compatible and won't generate any file.
-At every steps you can check the list of link that you provided to the software and check if and how many table it can extract.
-
-## Prerequisites
-
-You will need a java compiler to compile and run the program properly. Alternatively you can choose one the bellow IDE to make it easier.
-IntelliJ IDEA
-Eclipse
-NetBeans
+We read and analyze two Wikipedia page formats :
+* HTML
+* Wikitext
 
 
-## Installing
+## Objectives
 
-Depending on the IDE that you chose, you will have to import the pom.xml file to your project. 
-This will allow Maven to automatically import the missing libraries to properly run the project.
-Everything is now set and you are ready to run the program.
-
-## Running the tests
-
-The Tests are located under:
-
-Pdl/src/src/main/java/model/test
-
-You can simply run them with your favorite IDE.
+3 expected results :
+* Improvement of extractors. (source code, documentation, tests, continuous integration...)
+* Tools which allow us to evaluate our extractors.
+* Make the project easy to use by anyone. (with a complete and functional dataset)
 
 
-## Deployment
+## Actual functionality
 
-No deployment of the project is planned on client servers/computers as the client didn't specifically asked to do it. 
-The project can only be used via console commands.
+The software takes a file with a list of wikipedia's pages title (taken from the page URL : with "\_" in place of " ") and process each  one to get the HTML and WikiText URL of the page.
+After testing the URL: it treat all the HTML code of each page and try to extract as much table as it can in CSV and then do the same for WikiText.
+
+Right now, the HTML treatment seems to work correctly, but the WikiText part always break at some point due to an unknown error.
 
 
-## Built With
+## Functionnality to develop
 
-*IntelliJ IDEA - The IDE mainly used by our crew.
-*Maven - Dependency Management.
-*Jsoup - The java based HTML Parser.
-*StarUML - The UML editor.
-*Word - The document editor used to create the specifications.
+We now have to fix the WikiText extraction for it to work correctly.
+
+We would also have to create some new test in JUnit.
+
+We could then try to improve the software itself for it to run with better performances.
+
+In the end we need to implement a tool that will allow us to automatically evaluate tables extractions based on preset results and tests.
+
+
+
+## Project license
+
+This project is licensed under the MIT License.
+
+
+## Technologies used
+
+* Git – The distributed version-control system used.
+* IntelliJ IDEA - The IDE mainly used by our crew.
+* Maven - Dependency Management. 
+* Jsoup - The java based HTML Parser.
+* JUnit - The unit testing framework used.
+* starUML and GenMyModel - UML editors. 
+* Word - The document editor used to create the specifications. 
+
 
 ## Authors
 
-**Adrien Royer** - **Romain Muckenhirn** - **Mani Rus** - Julien Lavazay - **Aquil Ali**
-
-
-## License
-
-This project is licensed under the MIT License
-
-
-
+Yaëlle Dubois, Maud Garçon, Emile Georget, Hélène Heinlé, Saly Knab, Edgar Lebreton.
