@@ -103,10 +103,10 @@ public class Fichier extends Url {
 					// System.out.println(line);
 					line = bufferread.readLine();
 					Url.add(new Url("https://en.wikipedia.org/wiki/" + line + "\n"));
-				}		
+				}
 				for (Url u : Url) {
 					//System.out.println(u.url);
-				}				
+				}
 				bufferread.close();
 				fileread.close();
 				this.setUrl = Url;
