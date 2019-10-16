@@ -7,8 +7,8 @@ import java.io.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import model.FormatHTML;
-import model.Url;
+import modelOrigin.FormatHTML;
+import modelOrigin.Url;
 
 /**
  * Classe de tests de la classe FormatHTML

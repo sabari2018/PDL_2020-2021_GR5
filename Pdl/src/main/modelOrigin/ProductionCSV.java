@@ -1,4 +1,4 @@
-package model;
+package modelOrigin;
 
 import java.io.File;
 import java.io.FileWriter;

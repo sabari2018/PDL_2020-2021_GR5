@@ -4,8 +4,8 @@ import static org.junit.Assert.*;
 
 
 import org.junit.Test;
-import model.Fichier;
-import model.Url;
+import modelOrigin.Fichier;
+import modelOrigin.Url;
 
 /**
  * Classe de tests de la classe Fichier

@@ -5,9 +5,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import model.Fichier;
-import model.FormatWikitext;
-import model.Url;
+import modelOrigin.Fichier;
+import modelOrigin.FormatWikitext;
+import modelOrigin.Url;
 import org.junit.Test;
 
 

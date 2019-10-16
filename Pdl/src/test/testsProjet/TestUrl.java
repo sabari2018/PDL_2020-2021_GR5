@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 import java.io.IOException;
 
 import org.junit.Test;
-import model.Url;
+import modelOrigin.Url;
 
 /**
  * Classe de tests de la classe Url

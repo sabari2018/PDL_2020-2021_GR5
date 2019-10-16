@@ -1,4 +1,6 @@
-package model;
+package modelOrigin;
+import modelOrigin.Fichier;
+
 import java.io.IOException;
 
 public class Main {

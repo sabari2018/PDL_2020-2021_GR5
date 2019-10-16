@@ -7,8 +7,8 @@ import java.io.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import model.FormatWikitext;
-import model.Url;
+import modelOrigin.FormatWikitext;
+import modelOrigin.Url;
 
 /**
  * Classe de tests de la classe FormatWikitext
