@@ -1,5 +1,8 @@
 package model;
 
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+
 /**
  *
  */
@@ -49,5 +52,19 @@ public abstract class Parser {
      */
     public void setNbRows(final int newNbRows) {
         this.nbRows = newNbRows;
+    }
+
+    /**
+     * @param url the page url
+     * @return the page
+     */
+    public Document getPageFromUrl(String url) {
+        Document page = null;
+        try {
+            page = Jsoup.connect(url).get();
+        } catch (Exception e) {
+
+        }
+        return page;
     }
 }
