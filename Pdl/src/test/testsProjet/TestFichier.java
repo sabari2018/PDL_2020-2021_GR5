@@ -24,19 +24,19 @@ public class TestFichier {
 	//final static File Wikiurls = new File("wikiurls.txt");
 	
 	/**
-	 * Test de la mÈthode addUrl()
+	 * Test de la m√©thode addUrl()
 	 * Ajoute un Url dans un Fichier
 	 * @return true si ajout dans fichier OK
 	 * @throws Exception
 	 */
 	@Test
 	public void TestAdd() throws Exception {
-		assertTrue("Url ajoutÈ", fichier.addUrl(url));
+		assertTrue("Url ajout√©", fichier.addUrl(url));
 	}
 	
 	/**
-	 * Test de la mÈthode addUrl()
-	 * @return false si le fichier existe dÈj‡
+	 * Test de la m√©thode addUrl()
+	 * @return false si le fichier existe d√©j√†
 	 * @throws Exception
 	 */
 	@Test
@@ -48,7 +48,7 @@ public class TestFichier {
 	
 	
 	/**
-	 * Test de la mÈthode removeUrl()
+	 * Test de la m√©thode removeUrl()
 	 * Supprime un Url dans un Fichier
 	 * @return true si suppression dans fichier OK
 	 * @throws Exception
@@ -60,19 +60,19 @@ public class TestFichier {
 	}
 	
 	/**
-	 * Test de la mÈthode removeUrl()
+	 * Test de la m√©thode removeUrl()
 	 * Supprime un Url dans un Fichier
-	 * @return false si l'Url n'est pas prÈsent dans le fichier
+	 * @return false si l'Url n'est pas pr√©sent dans le fichier
 	 * @throws Exception
 	 */
 	@Test
 	public void TestRemove2() throws Exception {
-		assertFalse("Url n'est pas prÈsent dans le fichier", fichier.removeUrl(url));
+		assertFalse("Url n'est pas pr√©sent dans le fichier", fichier.removeUrl(url));
 	}
 	
 	/**
-	 * Test de la mÈthode toString()
-	 * Affiche le fichier contenant les Urls ajoutÈ, sous forme de String
+	 * Test de la m√©thode toString()
+	 * Affiche le fichier contenant les Urls ajout√©, sous forme de String
 	 * 
 	 */
 	@Test
@@ -87,11 +87,11 @@ public class TestFichier {
 	
 	/**
 	 * Production des Urls dans un fichier 
-	 * (utilisation de la mÈthode productUrl() de la classe Fichier)
+	 * (utilisation de la m√©thode productUrl() de la classe Fichier)
 	 * Ensuite on parcourt tous les Urls du fichier
 	 * Et on test si ils existent ou non
 	 * Enfin, les assert testent si il y a bien 314 Urls valident 
-	 * et 22 non valident gr‚ce ‡ des variables comptants ces validitÈs.
+	 * et 22 non valident gr√¢ce √† des variables comptants ces validit√©s.
 	 * 
 	 */
 	@Test

@@ -37,9 +37,9 @@ public class FormatHTML extends Thread
 	/**
 	 * <!-- begin-user-doc -->
 	 * Renvoie la production sous format CSV de tous les tableaux de la page html courante.
-	 * Fait un premier tour dans la page html courante afin de dÃ©terminer le nombre de tableaux Ã  convertir.
+	 * Fait un premier tour dans la page html courante afin de déterminer le nombre de tableaux à convertir.
 	 * Ensuite boucle afin de traiter les tableaux 1 par 1
-	 * Puis les ajoute Ã  la production CSVfinal,
+	 * Puis les ajoute à la production CSVfinal,
 	 * On distingue deux traitements differents,celle de la tete du tableau, et celle du corps.
 	 * <!--  end-user-doc  -->
 	 * @throws IOException 

@@ -45,7 +45,7 @@ public class TestHTML {
 	
 	@Test
 	public void TestTitle() {
-		assertEquals(html.getTitle(),"Coupe du monde de football — Wikipédia");
+		assertEquals(html.getTitle(),"Coupe du monde de football - WikipÃ©dia");
 	}
 	
 	@Test

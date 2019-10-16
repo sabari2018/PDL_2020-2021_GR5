@@ -188,7 +188,7 @@ public class FormatWikitext
 			list.add(separateur[i]);
 		}
 
-		/** List = separateur, on travaille donc uniquement sur la liste Ã  partir de maintenant**/
+		/** List = separateur, on travaille donc uniquement sur la liste à  partir de maintenant**/
 
 		if(list.get(0).contains("class=")) {
 			list.remove(0);

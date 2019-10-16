@@ -38,7 +38,7 @@ public class TestWikitext {
 
 	/**
 	 * Test de la methode newUrl()
-	 * @return l'Url de la page wikitext aprËs avoir rÈcupÈrer celui de la page wikipÈdia correspondante
+	 * @return l'Url de la page wikitext apr√®s avoir r√©cup√©r√© celui de la page wikip√©dia correspondante
 	 * @throws IOException
 	 */
 	@Test
@@ -49,7 +49,7 @@ public class TestWikitext {
 	}
 
 	/**
-	 * Test gÈnÈral des mÈthodes wikitext........
+	 * Test g√©n√©ral des m√©thodes wikitext........
 	 * @throws IOException
 	 */
 	/*@Test
@@ -59,7 +59,7 @@ public class TestWikitext {
 
 	/**
 	 * Test de la methode wikiCountTabs()
-	 * @return le nombre de tableaux prÈsents sur la page wikipÈdia
+	 * @return le nombre de tableaux pr√©sents sur la page wikip√©dia
 	 * @throws IOException
 	 */
 	@Test
@@ -68,13 +68,13 @@ public class TestWikitext {
 	}
 
 	/**
-	 * Test de la mÈthode wikiCountLigne()
+	 * Test de la m√©thode wikiCountLigne()
 	 * @return le nombre de lignes de chaque tableau de la page
 	 * @throws IOException
 	 */
 	@Test
 	public void TestNbLignes() throws IOException {
-		//MÈthode ‡ revoir.... car elle split sur les scope=row
+		//M√©thode √† revoir.... car elle split sur les scope=row
 		System.out.println(wikitext.nblignes);
 		assertEquals(wikitext.nblignes, 9);
 	}

@@ -27,7 +27,7 @@ public class ProductionCSV
 	/**
 	 * 
 	 * Renvoie le CSV sous forme de string
-	 * @return 1 si le fichier CSV est créer
+	 * @return 1 si le fichier CSV est crÃ©er
 	 * @return 0 sinon
 	 * @generated fichier CSV
 	 * @ordered
@@ -50,7 +50,7 @@ public class ProductionCSV
 	/**
 	 * 
 	 * Renvoie le CSV sous forme de string
-	 * @return 1 si le fichier CSV est créer
+	 * @return 1 si le fichier CSV est crÃ©er
 	 * @return 0 sinon
 	 * @generated fichier CSV
 	 * @ordered
