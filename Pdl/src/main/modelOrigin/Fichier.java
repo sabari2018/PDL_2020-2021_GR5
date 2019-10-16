@@ -94,7 +94,7 @@ public class Fichier extends Url {
 	 */
 	public void productUrls() { 
 		try {
-			FileReader fileread = new FileReader(System.getProperty("user.dir") + "\\wikiurls.txt");
+			FileReader fileread = new FileReader(System.getProperty("user.dir") + File.separator +  "wikiurls.txt");
 			BufferedReader bufferread = new BufferedReader(fileread);
 			Set<Url> Url = new HashSet<Url>();
 			try {
@@ -121,7 +121,7 @@ public class Fichier extends Url {
 
 	public void productUrlsWikitext() { 
 		try {
-			FileReader fileread = new FileReader(System.getProperty("user.dir") + "\\wikiurls.txt");;
+			FileReader fileread = new FileReader(System.getProperty("user.dir") + File.separator +  "wikiurls.txt");;
 			BufferedReader bufferread = new BufferedReader(fileread);
 			Set<Url> Url = new HashSet<Url>();
 			try {
@@ -156,7 +156,7 @@ public class Fichier extends Url {
 			tabTraite[1] += tabThisUrlTraite[1]; 
 		}
 
-		File repertoire = new File(System.getProperty("user.dir") + "\\output\\html");
+		File repertoire = new File(System.getProperty("user.dir") + File.separator +  "output" + File.separator + "html");
 		int nbFile = repertoire.listFiles().length;
 		System.out.println("Nombre de tableau trouves : " + tabTraite[0]);
 		System.out.println("Nombre de tableau importe avec succes : " + tabTraite[1]);
