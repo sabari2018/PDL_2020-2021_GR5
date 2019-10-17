@@ -43,9 +43,7 @@ public class TestWikitext {
 	 */
 	@Test
 	public void TestNewUrl() {
-		wikitext = wikitext.recupererURL();
-		assertEquals(wikitext.wikitext.toString(),
-				"https://en.wikipedia.org/w/index.php?title=Comparison of BitTorrent tracker software&action=edit");
+		assertEquals(wikitext.recupererURL().toString(), "https://en.wikipedia.org/w/index.php?title=Comparison of BitTorrent tracker software&action=edit");
 	}
 
 	/**
