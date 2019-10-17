@@ -31,9 +31,7 @@ public class TestWikitext {
 
 	@Before
 	public void need() throws IOException {
-		String HTML2 = url.HTML();
-		FormatWikitext wiki = new FormatWikitext(HTML2);
-		wikitext = wiki;
+		wikitext = new FormatWikitext(url.HTML());
 	}
 
 	/**
@@ -66,15 +64,15 @@ public class TestWikitext {
 	}
 
 	/**
-	 * Test de la méthode wikiCountLigne()
+	 * Test de la méthode wikiNombreLigne()
 	 * @return le nombre de lignes de chaque tableau de la page
 	 * @throws IOException
 	 */
 	@Test
 	public void TestNbLignes() throws IOException {
 		//Méthode à revoir.... car elle split sur les scope=row
-		System.out.println(wikitext.nblignes);
-		assertEquals(wikitext.nblignes, 9);
+		//System.out.println(wikitext.nblignes);
+		assertEquals(wikitext.wikiNombreLigne(), 9);
 	}
 
 }
