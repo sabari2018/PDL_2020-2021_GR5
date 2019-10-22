@@ -1,9 +1,6 @@
 package model;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,7 +18,7 @@ public class ProcessWikiUrl {
 
     public void addWikiUrlFromFile(String fileName, boolean isFullUrl){
         try {
-            FileReader fileReader = new FileReader(System.getProperty("user.dir") + "\\" + fileName + ".txt");
+            FileReader fileReader = new FileReader(System.getProperty("user.dir") + File.separator + fileName + ".txt");
             BufferedReader bufferReader = new BufferedReader(fileReader);
 
             try {
