@@ -301,10 +301,11 @@ public class FormatWikitext
 		}
 	}
 
-	public String getTitle() {
+	public String getTitle() { //Meme code que getTitle de la class 'FormatHTML'
 		FormatWikitext clone = clone();
 		String[] first = clone.wikitext.split("<title>");
-		first = first[1].split("</title>");
+		//A ete modifié '</title>' en " - Wikipedia"
+		first = first[1].split(" - Wikipedia");
 		return first[0];
 	}
 
