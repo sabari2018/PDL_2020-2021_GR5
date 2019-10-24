@@ -3,6 +3,7 @@ package testsProjetOriginaux;
 import static org.junit.Assert.*;
 
 import java.io.*;
+import java.util.ArrayList;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -119,12 +120,86 @@ public class TestWikitext {
 	 * @throws IOException
 	 */
 	@Test
-	//Methode cassé
+	//Methode cassé erreur : ArrayIndexOutOfBoundsException
 	public void TestGetTab() throws IOException {
 		System.out.println("tab : "+ wikitext.getTableau());
 		//assertEquals(wikitext.getTableau(), wikitext.getT);
 	}
 
+	/**
+	 * Test de la méthode getHead()
+	 * @return l'en-tete du tableau
+	 * @throws IOException
+	 */
+	@Test
+	public void TestGetHead() throws IOException {
+		System.out.println("tab : "+ wikitext.getHead());
+		//assertEquals(wikitext.getTableau(), wikitext.getT);
+	}
 
+	/**
+	 * Test de la méthode headToCSV()
+	 * @return transforme l'en-tete en csv
+	 * @throws IOException
+	 */
+	@Test
+	public void TestHToCSV() throws IOException {
+		System.out.println("tab : "+ wikitext.headToCSV());
+		//assertEquals(wikitext.getTableau(), wikitext.getT);
+	}
 
+	/**
+	 * Test de la méthode getRow()
+	 * @return recupere les lignes du tableau
+	 * @throws IOException
+	 */
+	@Test
+	public void TestGetRow() throws IOException {
+		System.out.println("tab : "+ wikitext.getRow());
+		//assertEquals(wikitext.getTableau(), wikitext.getT);
+	}
+
+	/**
+	 * Test de la méthode isNullOrEmpty()
+	 * @return detecte si le string est vide (true) ou non (false)
+	 * @throws IOException
+	 */
+	@Test
+	public void TestNullEmpty() throws IOException {
+		assertEquals(wikitext.isNullOrEmpty(" "), true);
+	}
+
+	@Test
+	public void TestNullEmpty2() throws IOException {
+
+		assertEquals(wikitext.isNullOrEmpty(" azerty "), false);
+	}
+
+	/**
+	 * Test de la méthode addRetourLigneToRow()
+	 * @return detecte si le string est vide (true) ou non (false)
+	 * @return exemple :
+	 * liste : [Rouge
+	 * , Rouge
+	 * ]
+	 * @throws IOException
+	 */
+	@Test
+	public void TestaRLToR() throws IOException {
+		ArrayList<String> liste = new ArrayList<String>();
+		liste.add("Rouge");
+		liste.add("Rouge");
+		System.out.println("liste : "+ wikitext.addRetourLignetoRow(liste));
+	}
+
+	/**
+	 * Test de la méthode ToCSV()
+	 * @return créé un csv
+	 * @throws IOException
+	 */
+	@Test
+	public void TestToCSV() throws IOException {
+		wikitext.ToCSV();
+
+	}
 }
