@@ -13,6 +13,13 @@ public class Table {
     private String extractionType;
     private int numTable;
 
+    public Table (HashMap<Integer,String []> content, String title, String extractionType, int numTable) {
+        this.content = content;
+        this.title = title;
+        this.extractionType = extractionType;
+        this.numTable = numTable;
+    }
+
     /**
      *
      * @return the content of HTML page in a HashMap

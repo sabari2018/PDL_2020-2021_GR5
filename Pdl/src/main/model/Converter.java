@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Converter {
-    
+
     /**
      * Converts a Table to a CSV file
      * @param table Table to convert
@@ -21,9 +21,9 @@ public class Converter {
         String folderName;
 
         if (extractionType.equals("html")) {
-            folderName = File.separator+File.separator+"output"+File.separator+File.separator+"html"+File.separator+File.separator;
+            folderName = File.separator+"output"+File.separator+"html"+File.separator;
         }else {
-            folderName = File.separator+File.separator+"output"+File.separator+File.separator+"wikitext"+File.separator+File.separator;
+            folderName = File.separator+"output"+File.separator+"wikitext"+File.separator;
         }
 
         try {
@@ -31,11 +31,16 @@ public class Converter {
             for (Map.Entry entry : content.entrySet()) {
                 String [] tableContent = (String []) entry.getValue();
 
-                for (String cell : tableContent) {
-                    fileWriter.write(cell +",");
+                for (int i = 0; i < tableContent.length; i++) {
+                    if (i == tableContent.length-1) {
+                        fileWriter.write(tableContent[i]);
+                    }
+                    else {
+                        fileWriter.write(tableContent[i] +",");
+                    }
                 }
+                fileWriter.write("\n");
             }
-            fileWriter.write("\n");
             fileWriter.flush();
             fileWriter.close();
         }
@@ -43,7 +48,11 @@ public class Converter {
             System.out.println("Impossible to write in the CSV file"+ e.getMessage());
         }
 
-        File f = new File(System.getProperty("user.dir") + folderName + title.trim() + "-" + ".csv");
+        return this.fileIsCreated(folderName,title,nbTable);
+    }
+
+    public boolean fileIsCreated (String folderName, String title, String nbTable) {
+        File f = new File(System.getProperty("user.dir") + folderName + title.trim() + "-" +nbTable+ ".csv");
         if(f.exists()){
             return true;
         }
