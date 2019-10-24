@@ -22,15 +22,21 @@ public class TestProcessWikiUrl {
      * Test that generates an url from a title
      */
     /*@Test
-    urlValidTab.assertEquals("URL http generee", generateFullHttp(titleValid));*/
+    public void testGenerateFullHttp(){
+        urlValidTab.assertEquals("URL http generee", generateFullHttp(titleValid));
+    }*/
 
     /**
      * 2 Tests that test if the url is valid
      */
     /*@Test
-    assertTrue("URL valide", urlValid.isValid()); */
+    public void testIsValid1(){
+        assertTrue("URL valide", urlValid.isValid());
+    }*/
 
     /*@Test
-    assertFalse("URL non valide", urlNotValid.isValid()); */
+    public void testIsValid2(){
+        assertFalse("URL non valide", urlNotValid.isValid());
+    }*/
 
 }
