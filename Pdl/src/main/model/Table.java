@@ -3,46 +3,81 @@ package model;
 import java.util.HashMap;
 
 /**
- * A public type which represents a Wikipedia table
+ * A public type which represents a Wikipedia table.
  */
 
 public class Table {
 
-    private HashMap <Integer, String[]> content;
+    /**
+     * In this HashMap : key = number of the table's row.
+     * value = table of String. One case of this table
+     * corresponds to the content of one cell of the current row's.
+     */
+    private HashMap<Integer, String[]> content;
     private String title;
     private String extractionType;
     private int numTable;
 
     /**
-     *
+     * Empty constructor.
+     */
+    public Table() {
+        this.content = new HashMap<>();
+    }
+
+    /**
+     * @param title          title of the wikipedia page which contains the table.
+     *                       It will be used in {@link Converter} to form the csv fil's name.
+     * @param extractionType wikitext ot html
+     * @param numTable       number table's number in the wikipedia page
+     */
+    public Table(final String title, final String extractionType, final int numTable) {
+        this.content = new HashMap<>();
+        this.title = title;
+        this.extractionType = extractionType;
+        this.numTable = numTable;
+    }
+
+    /**
      * @return the content of HTML page in a HashMap
      */
-    public HashMap getContent () {
+    public HashMap getContent() {
         return this.content;
     }
 
     /**
-     *
      * @return Wikipedia title page
      */
-    public String getTitle () {
+    public String getTitle() {
         return this.title;
     }
 
     /**
-     *
      * @return the extraction type is html either wikitext
      */
-    public String getExtractionType () {
+    public String getExtractionType() {
         return this.extractionType;
     }
 
     /**
-     *
-     * @return position of the table in the Wikipedia page.
-     *          For example is the first table in the page this method returns 1
+     * @param extractionType theextraction type (wikitext or html)
      */
-    public int getNumTable () {
+    public void setExtractionType(final String extractionType) {
+        this.extractionType = extractionType;
+    }
+
+    /**
+     * @return position of the table in the Wikipedia page.
+     * For example is the first table in the page this method returns 1
+     */
+    public int getNumTable() {
         return this.numTable;
+    }
+
+    /**
+     * @param numTable the number of the table in the page
+     */
+    public void setNumTable(final int numTable) {
+        this.numTable = numTable;
     }
 }
