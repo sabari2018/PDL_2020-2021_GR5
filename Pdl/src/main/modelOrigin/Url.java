@@ -83,7 +83,7 @@ public class Url extends FormatHTML {
 		}
 	}
 
-	
+	//
 	public int[] UrlToHTML() throws IOException {
 		int [] nbTab = new int[2];
 		if(isValidUrl()) {
