@@ -1,27 +1,22 @@
 package testsProjet;
 
+import model.ProcessWikiUrl;
 import org.junit.Test;
-
-/**
- * @author Maud
- *
- * Tester differents URLs : valide ou non valide et sans tableau ou avec tableau
- */
 
 public class TestProcessWikiUrl {
 
-    /* String urlValid = "https://en.wikipedia.org/wiki/Comparison_of_Afrikaans_and_Dutch";
-    String urlNotValid = "https://fr.wikipedia.org/wiki/Comparison_of_Afrikaans_and_Dutch";
-    //String urlValidNoTab = "https://en.wikipedia.org/wiki/Takamchi";
-    String titleValid = "Comparison_of_Afrikaans_and_Dutch";
+    ProcessWikiUrl processWikiUrl;
 
     @Test
-    urlValidTab.assertEquals("URL http generee", generateFullHttp(titleValid));
+    public void testProcessWikiUrl(){
+        processWikiUrl = new ProcessWikiUrl();
 
-    @Test
-    assertTrue("URL valide", urlValid.isValid());
+        processWikiUrl.addWikiUrlFromFile("wikiurls", false, "en");
 
-    @Test
-    assertFalse("URL non valide", urlNotValid.isValid()); */
+        for(int i = 0; i < processWikiUrl.getListWikiUrl().size(); i++){
+            System.out.println(processWikiUrl.getListWikiUrl().get(i).getHtmlUrl());
+            System.out.println(processWikiUrl.getListWikiUrl().get(i).getWikiTextUrl());
+        }
+    }
 
 }

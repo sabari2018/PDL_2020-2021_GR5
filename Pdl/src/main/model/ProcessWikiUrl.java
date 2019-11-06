@@ -7,9 +7,17 @@ import java.util.List;
 public class ProcessWikiUrl {
 
     private List<WikiUrl> listWikiUrl;
+    private List<Table> listTable;
+    private ParserHTML parserHTML;
+    private ParserWikiText parserWikiText;
+    private Converter converter;
 
     public ProcessWikiUrl(){
         listWikiUrl = new ArrayList<WikiUrl>();
+        listTable = new ArrayList<Table>();
+        parserHTML = new ParserHTML();
+        parserWikiText = new ParserWikiText();
+        converter = new Converter();
     }
 
     public List<WikiUrl> getListWikiUrl() {
@@ -51,5 +59,17 @@ public class ProcessWikiUrl {
         catch(IllegalArgumentException argException){
             System.out.println(httpUrl + " : " + argException.getMessage());
         }
+    }
+
+    public void parseHTML(){
+
+    }
+
+    public void parseWikiText(){
+
+    }
+
+    public void Convert(){
+
     }
 }
