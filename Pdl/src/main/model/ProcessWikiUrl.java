@@ -16,7 +16,7 @@ public class ProcessWikiUrl {
         return listWikiUrl;
     }
 
-    public void addWikiUrlFromFile(String fileName, boolean isFullUrl){
+    public void addWikiUrlFromFile(String fileName, boolean isFullUrl, String language){
         try {
             FileReader fileReader = new FileReader(System.getProperty("user.dir") + File.separator + fileName + ".txt");
             BufferedReader bufferReader = new BufferedReader(fileReader);
@@ -27,7 +27,7 @@ public class ProcessWikiUrl {
                     if(isFullUrl){
                         addWikiUrl(line);
                     }else{ //if(isPageTitle)
-                        line = "https://en.wikipedia.org/wiki/" + line;
+                        line = "https://" + language + ".wikipedia.org/wiki/" + line;
                         addWikiUrl(line);
                     }
                     line = bufferReader.readLine();
@@ -45,6 +45,11 @@ public class ProcessWikiUrl {
     }
 
     public void addWikiUrl(String httpUrl){
-        listWikiUrl.add(new WikiUrl(httpUrl));
+        try{
+            listWikiUrl.add(new WikiUrl(httpUrl));
+        }
+        catch(IllegalArgumentException argException){
+            System.out.println(httpUrl + " : " + argException.getMessage());
+        }
     }
 }
