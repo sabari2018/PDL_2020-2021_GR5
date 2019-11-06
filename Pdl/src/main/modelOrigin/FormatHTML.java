@@ -51,17 +51,22 @@ public class FormatHTML extends Thread
 	public void ToCSV() throws IOException, InterruptedException {
 		String result = "";
 		FormatHTML clone = clone();
+		//Compte le nb de tableaux dans la page
 		String[] separateur = clone.html.split("wikitable");
 		nbtab = separateur.length -1;		
 		String title = getTitle();
 		int nbTabCreate = 0;
+		//Pour chaque tableau
 		for(int i = 0; i< nbtab; i++){
 			tabCourant = i+1;
+			//Traiter la tête
 			ProductionCSV head = headToCSV();
 			if(!head.csv.contains("NEPASTRAITER")){
+				//Traîter le corps
 				ProductionCSV body = BodyToCSV();
 				if(!body.csv.contains("NEPASTRAITER")){
 				result = (head.csv + "\n" +body.csv);
+				//Produire le fichier CSV
 				ProductionCSV prod = new ProductionCSV(result);
 				nbTabCreate += prod.generateCSVFromHtml(title, tabCourant);
 				this.nbtabSucces ++;
@@ -236,6 +241,7 @@ public class FormatHTML extends Thread
 			return html;
 		}
 		else{
+			//Change les <th> en <th>DEBUTDECASE et les <td> en <th>DEBUTDECASE
 			String replaceString=html.html.replaceAll("<th>","<th>DEBUTDECASE ");
 			replaceString = replaceString.replaceAll("<td[^>]*>","<th>DEBUTDECASE ");
 			replaceString = replaceString.replaceAll("/td>","/th>");
@@ -259,6 +265,7 @@ public class FormatHTML extends Thread
 	 */
 
 	public ProductionCSV headToCSV() {
+		//Parser la tête
 		FormatHTML html = headParse();
 		if(html.html.contains("NEPASTRAITER")){
 			return new ProductionCSV("NEPASTRAITER");
