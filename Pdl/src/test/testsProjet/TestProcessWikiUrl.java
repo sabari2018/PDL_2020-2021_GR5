@@ -1,22 +1,42 @@
 package testsProjet;
 
-import model.ProcessWikiUrl;
 import org.junit.Test;
+
+/**
+ * @author Maud
+ *
+ * Test different URLs: valid or invalid and without a table or with a table
+ */
 
 public class TestProcessWikiUrl {
 
-    ProcessWikiUrl processWikiUrl;
+     /**
+     * Creation of test url and test titles
+     */
+    /*String urlValid = "https://en.wikipedia.org/wiki/Comparison_of_Afrikaans_and_Dutch";
+    String urlNotValid = "https://fr.wikipedia.org/wiki/Comparison_of_Afrikaans_and_Dutch";
+    //String urlValidNoTab = "https://en.wikipedia.org/wiki/Takamchi";
+    String titleValid = "Comparison_of_Afrikaans_and_Dutch";*/
 
-    @Test
-    public void testProcessWikiUrl(){
-        processWikiUrl = new ProcessWikiUrl();
+    /**
+     * Test that generates an url from a title
+     */
+    /*@Test
+    public void testGenerateFullHttp(){
+        urlValidTab.assertEquals("URL http generee", generateFullHttp(titleValid));
+    }*/
 
-        processWikiUrl.addWikiUrlFromFile("wikiurls", false, "en");
+    /**
+     * 2 Tests that test if the url is valid
+     */
+    /*@Test
+    public void testIsValid1(){
+        assertTrue("URL valide", urlValid.isValid());
+    }*/
 
-        for(int i = 0; i < processWikiUrl.getListWikiUrl().size(); i++){
-            System.out.println(processWikiUrl.getListWikiUrl().get(i).getHtmlUrl());
-            System.out.println(processWikiUrl.getListWikiUrl().get(i).getWikiTextUrl());
-        }
-    }
+    /*@Test
+    public void testIsValid2(){
+        assertFalse("URL non valide", urlNotValid.isValid());
+    }*/
 
 }
