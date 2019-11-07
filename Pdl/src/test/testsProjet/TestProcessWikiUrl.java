@@ -1,6 +1,7 @@
 package testsProjet;
 
 import model.ProcessWikiUrl;
+import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -21,7 +22,9 @@ public class TestProcessWikiUrl {
 
     @Test
     public void testAddWikiUrlFromFile(){
+        processWikiUrlTest.addWikiUrlFromFile("wikiurlstest", false, "en");
 
+        Assert.assertEquals("La taille n'est pas bonne", processWikiUrlTest.getListWikiUrl().size(), 3);
     }
 
 }
