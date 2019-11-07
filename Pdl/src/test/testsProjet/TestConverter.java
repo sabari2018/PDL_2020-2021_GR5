@@ -52,4 +52,6 @@ public class TestConverter {
         file = new File(System.getProperty("user.dir") +folderName + tableWikitext.getTitle().trim() + "-" +tableWikitext.getNumTable()+ ".csv");
         file.delete();
     }
+
+    //Tester ne nombre de virgule sans tenir compte des ","
 }
