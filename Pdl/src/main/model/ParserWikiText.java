@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
  */
 public class ParserWikiText extends Parser {
 
-
+    private String urlWikiText;
     private final String HEAD_SEPARATOR = "\\|\\-";
     private final String ROW_SEPARATOR = "\\|\\-";
     private final String CELL_SEPARATOR = "(\\n)*\\| ";
@@ -20,11 +20,19 @@ public class ParserWikiText extends Parser {
     private ArrayList<Table> standardizedTables;
 
     /**
-     * @param urlWikiText url to acceed to get the wikitext
+     *
      */
-    public ParserWikiText(String urlWikiText) {
+    public ParserWikiText() {
         this.wikiTextTables = new ArrayList<>();
         this.standardizedTables = new ArrayList<Table>();
+    }
+
+    /**
+     * Set the url of the page we want to parse.
+     * @param urlWikiText new url to access
+     */
+    public void setUrlWikiText(String urlWikiText) {
+        this.urlWikiText = urlWikiText;
         Document doc = this.getPageFromUrl(urlWikiText);
         if (doc != null) {
             this.setTextToParse(doc.html());
@@ -63,6 +71,7 @@ public class ParserWikiText extends Parser {
 
     /**
      * Extract the tables of the page.
+     *
      * @return a list which contains the content of the tables
      */
     private ArrayList<String> extractTablesFromPage() {
@@ -78,6 +87,7 @@ public class ParserWikiText extends Parser {
 
     /**
      * Extract one table from the page.
+     *
      * @return the table
      */
     public String getTable() {
@@ -89,7 +99,6 @@ public class ParserWikiText extends Parser {
     }
 
     /**
-     *
      * @param wikiTable
      * @return
      */
@@ -124,6 +133,7 @@ public class ParserWikiText extends Parser {
 
     /**
      * Gets a row from a wikitext table.
+     *
      * @param table the table (in wikitext)
      * @return a table of String which contains the content of one row
      */
@@ -154,6 +164,7 @@ public class ParserWikiText extends Parser {
 
     /**
      * Gets the cells of the given row.
+     *
      * @param row the row
      * @return a table of String which contains the content of the row's cells
      */
@@ -165,6 +176,7 @@ public class ParserWikiText extends Parser {
 
     /**
      * Gets the number of tables in the Wikipedia page.
+     *
      * @return the number of tables
      */
     private int countWikiTab() {
@@ -175,4 +187,6 @@ public class ParserWikiText extends Parser {
         }
         return occur;
     }
+
+
 }
