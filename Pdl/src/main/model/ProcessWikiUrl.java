@@ -22,7 +22,7 @@ public class ProcessWikiUrl {
 
     /**
      *
-     * @return listWikiUrl
+     * @return list of all WikiUrl
      */
     public List<WikiUrl> getListWikiUrl() {
         return listWikiUrl;
@@ -76,8 +76,19 @@ public class ProcessWikiUrl {
         }
     }
 
+    /**
+     * Go through every HTMLUrl in listWikiUrl to get a list of Table for each of them,
+     * then add each Tables to listTable
+     */
     public void parseHTML(){
+        for(int i = 0; i < listWikiUrl.size(); i++){
+            parserHTML.setUrlHtml(listWikiUrl.get(i).getHtmlUrl());
+            ArrayList<Table> currentPageTables = parserHTML.parseHtml();
 
+            for(int j = 0; j < currentPageTables.size(); j++){
+                listTable.add(currentPageTables.get(j));
+            }
+        }
     }
 
     /**
@@ -95,7 +106,12 @@ public class ProcessWikiUrl {
         }
     }
 
+    /**
+     * Go through every Table in listTable and pass it to converter which create a CSV file for each of them
+     */
     public void Convert(){
-
+        for(int i = 0; i < listTable.size(); i++){
+            converter.convertToCSV(listTable.get(i));
+        }
     }
 }
