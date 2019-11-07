@@ -2,10 +2,12 @@ package testsProjet;
 
 import model.Converter;
 import model.Table;
+import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.io.File;
 import java.util.HashMap;
 
 public class TestConverter {
@@ -35,5 +37,19 @@ public class TestConverter {
     public void testConverter () {
         Assert.assertTrue("Conversion HTML : Le fichier n'a pas été crée",converter.convertToCSV(tableHTML));
         Assert.assertTrue("Conversion Wikitext : Le fichier n'a pas été crée",converter.convertToCSV(tableWikitext));
+
+        //Tester si le nom du fichier est correct + ajouter test intégration cf TestCSV.java
+    }
+
+    @AfterClass
+    public void deleteFile () {
+        String folderName = File.separator+"output"+File.separator+tableHTML.getExtractionType()+File.separator;
+        File file = new File(System.getProperty("user.dir") +folderName + tableHTML.getTitle().trim() + "-" +tableHTML.getNumTable()+ ".csv");
+        file.delete();
+
+
+        folderName = File.separator+"output"+File.separator+tableWikitext.getExtractionType()+File.separator;
+        file = new File(System.getProperty("user.dir") +folderName + tableWikitext.getTitle().trim() + "-" +tableWikitext.getNumTable()+ ".csv");
+        file.delete();
     }
 }
