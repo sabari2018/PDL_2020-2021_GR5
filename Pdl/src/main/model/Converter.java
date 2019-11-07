@@ -6,10 +6,15 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * A public type wich permits to convert a table into a CSV file
+ */
+
 public class Converter {
 
     /**
      * Converts a Table to a CSV file
+     * The name of this file has this form : Title of the title-number - Table position in the page
      * @param table Table to convert
      * @return true if the Table is converted false if is not
      */
@@ -51,6 +56,14 @@ public class Converter {
         return this.fileIsCreated(folderName,title,nbTable);
     }
 
+
+    /**
+     * Checks if the CSV file is created
+     * @param folderName folder name where the file wille be save
+     * @param title title of the page
+     * @param nbTable Table position in the page
+     * @return true if the CSV file is created false if is not
+     */
     public boolean fileIsCreated (String folderName, String title, String nbTable) {
         File f = new File(System.getProperty("user.dir") + folderName + title.trim() + "-" +nbTable+ ".csv");
         if(f.exists()){
