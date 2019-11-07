@@ -15,16 +15,19 @@ public class ParserHTML extends Parser {
      * The page to parse
      */
     private Document pageHtml;
+    private String url;
 
     /**
      * Parses an HTML page to generate an list of parsed tables ( represented by {@link Table} object).
      * A parsed table is represented by a Hashmap with an Integer key (the csv line number) and
      * a table of String which contains the values for this row.
      *
-     * @param pageToParse html page to parse
      * @return a list of {@link Table}
      */
-    public ArrayList<Table> parseHtml(String pageToParse) {
+    public ArrayList<Table> parseHtml() {
+
+        String pageToParse = getHtmlPage();
+
         int tabNumber = 0;
         ArrayList<Table> parsedTables = new ArrayList<Table>();
         ArrayList<String> tables = this.getTablesFromPage(pageToParse);
@@ -158,15 +161,29 @@ public class ParserHTML extends Parser {
 
 
     /**
-     * Sets the url and gets the html page to parse in a String format
+     * Sets the page url.
      *
      * @param url the url to set
      */
     public void setUrlHtml(String url) {
 
+        this.url=url;
+
+    }
+
+
+    /**
+     * Gets html page in a String format.
+     * @return the html page
+     */
+    public String getHtmlPage() {
+        String pageToParse="";
+
         pageHtml = this.getPageFromUrl(url);
         setTextToParse(pageHtml.html());
-        parseHtml(getTextToParse());
+        pageToParse=getTextToParse();
+
+        return pageToParse;
     }
 
 }
