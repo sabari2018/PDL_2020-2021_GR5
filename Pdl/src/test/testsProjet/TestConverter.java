@@ -36,4 +36,6 @@ public class TestConverter {
         Assert.assertTrue("Conversion HTML : Le fichier n'a pas été crée",converter.convertToCSV(tableHTML));
         Assert.assertTrue("Conversion Wikitext : Le fichier n'a pas été crée",converter.convertToCSV(tableWikitext));
     }
+
+    //Tester ne nombre de virgule sans tenir compte des ","
 }

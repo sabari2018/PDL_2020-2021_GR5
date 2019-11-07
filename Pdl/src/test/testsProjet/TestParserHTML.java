@@ -20,7 +20,7 @@ public class TestParserHTML {
 
     /**
      * Tests parser html :
-     * Pour chacun des cas on teste :
+     * Tester :
      *      - bon nb de ligne(s)
      *      - bon nb de colonne(s)
      *      - bon contenu
