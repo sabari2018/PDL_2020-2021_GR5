@@ -132,6 +132,7 @@ public class ParserHTML extends Parser {
      */
     public ArrayList<String> getCellsFromRow(String row) {
         String markedCells = row;
+
         ArrayList<String> extractedCells = new ArrayList<String>();
         markedCells = markedCells.replaceAll("<th[^>]*>", "<th>CELL_TO_EXTRACT");
         markedCells = markedCells.replaceAll("<td[^>]*>", "<td>CELL_TO_EXTRACT");
@@ -142,7 +143,7 @@ public class ParserHTML extends Parser {
                 split[i] = split[i].replaceAll("CELL_TO_EXTRACT", "");
             }
 
-            extractedCells.add(split[i]);
+            extractedCells.add(escapeComasAndQuotes(split[i]));
         }
         return extractedCells;
     }
@@ -156,7 +157,12 @@ public class ParserHTML extends Parser {
      * @return the reformatted data
      */
     public String escapeComasAndQuotes(String data) {
-        return null;
+        String escapedData = data;
+
+        if(data.contains(",") || data.contains("\"")) {
+            escapedData="\""+ escapedData +"\"";
+        }
+        return escapedData;
     }
 
 
