@@ -1,42 +1,56 @@
 package testsProjet;
 
+import model.ProcessWikiUrl;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.runners.MockitoJUnitRunner;
 
-/**
- * @author Maud
- *
- * Test different URLs: valid or invalid and without a table or with a table
- */
-
+@RunWith(MockitoJUnitRunner.class)
 public class TestProcessWikiUrl {
 
-     /**
-     * Creation of test url and test titles
-     */
-    /*String urlValid = "https://en.wikipedia.org/wiki/Comparison_of_Afrikaans_and_Dutch";
-    String urlNotValid = "https://fr.wikipedia.org/wiki/Comparison_of_Afrikaans_and_Dutch";
-    //String urlValidNoTab = "https://en.wikipedia.org/wiki/Takamchi";
-    String titleValid = "Comparison_of_Afrikaans_and_Dutch";*/
+    ProcessWikiUrl processWikiUrlTest;
 
-    /**
-     * Test that generates an url from a title
-     */
-    /*@Test
-    public void testGenerateFullHttp(){
-        urlValidTab.assertEquals("URL http generee", generateFullHttp(titleValid));
-    }*/
+    @Before
+    public void setUp(){
+        processWikiUrlTest = new ProcessWikiUrl();
+    }
 
-    /**
-     * 2 Tests that test if the url is valid
-     */
-    /*@Test
-    public void testIsValid1(){
-        assertTrue("URL valide", urlValid.isValid());
-    }*/
+    @Test
+    public void testAddWikiUrlFromFileValid(){
+        processWikiUrlTest.addWikiUrlFromFile("wikiurlstest", false, "en");
 
-    /*@Test
-    public void testIsValid2(){
-        assertFalse("URL non valide", urlNotValid.isValid());
-    }*/
+        Assert.assertEquals("La taille n'est pas bonne", processWikiUrlTest.getListWikiUrl().size(), 3);
+    }
 
+    @Test
+    public void testAddWikiUrlFromFileInvalid(){
+        processWikiUrlTest.addWikiUrlFromFile("wikiurlsinvalidtest", false, "en");
+
+        Assert.assertEquals("La taille n'est pas bonne", processWikiUrlTest.getListWikiUrl().size(), 0);
+    }
+
+    @Test
+    public void testAddWikiUrl(){
+        processWikiUrlTest.addWikiUrl("https://en.wikipedia.org/wiki/Comparison_of_World_War_I_tanks");
+
+        Assert.assertEquals("L'url ne s'est pas ajouté", processWikiUrlTest.getListWikiUrl().size(), 1);
+    }
+
+    @Test
+    public void testAddWikiUrlInvalid(){
+        processWikiUrlTest.addWikiUrl("https://en.wikipa.orgwikiorisoof_W_WarI_tks");
+
+        Assert.assertEquals("L'url s'est ajouté alors qu'elle ne devrait pas", processWikiUrlTest.getListWikiUrl().size(), 0);
+    }
+
+    @Test
+    public void testParseHTML(){
+        processWikiUrlTest.addWikiUrlFromFile("wikiurlstest", false, "en");
+        processWikiUrlTest.parseHTML();
+
+        Assert.assertNotEquals("Le parseur n'as rien parser", processWikiUrlTest.getListTable().size(), 0);
+    }
 }

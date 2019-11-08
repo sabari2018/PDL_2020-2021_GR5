@@ -31,10 +31,18 @@ public class WikiUrl {
         testAndAffectUrl(wikiTextUrlToTest, false);
     }
 
+    /**
+     *
+     * @return url of the html page
+     */
     public String getHtmlUrl() {
         return htmlUrl;
     }
 
+    /**
+     *
+     * @return url of the wikitext page
+     */
     public String getWikiTextUrl() {
         return wikiTextUrl;
     }
