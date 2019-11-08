@@ -23,7 +23,7 @@ public class ParserWikiText extends Parser {
      *
      */
     public ParserWikiText() {
-        this.wikiTextTables = new ArrayList<>();
+        this.wikiTextTables = new ArrayList<String>();
         this.standardizedTables = new ArrayList<Table>();
     }
 
@@ -75,7 +75,7 @@ public class ParserWikiText extends Parser {
      * @return a list which contains the content of the tables
      */
     private ArrayList<String> extractTablesFromPage() {
-        ArrayList<String> tablesFromPage = new ArrayList<>();
+        ArrayList<String> tablesFromPage = new ArrayList<String>();
         int nbWikiTables = this.countWikiTab();
         System.out.println("Nb tableaux : " + nbWikiTables);
         for (int i = 1; i <= nbWikiTables; i++) {

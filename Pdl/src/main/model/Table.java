@@ -29,7 +29,7 @@ public class Table {
      * Empty constructor.
      */
     public Table() {
-        this.content = new HashMap<>();
+        this.content = new HashMap<Integer, String[]>();
     }
 
     /**
@@ -39,7 +39,7 @@ public class Table {
      * @param numTable       number table's number in the wikipedia page
      */
     public Table(final String title, final String extractionType, final int numTable) {
-        this.content = new HashMap<>();
+        this.content = new HashMap<Integer, String[]>();
         this.title = title;
         this.extractionType = extractionType;
         this.numTable = numTable;
@@ -67,24 +67,10 @@ public class Table {
     }
 
     /**
-     * @param extractionType theextraction type (wikitext or html)
-     */
-    public void setExtractionType(final String extractionType) {
-        this.extractionType = extractionType;
-    }
-
-    /**
      * @return position of the table in the Wikipedia page.
      * For example is the first table in the page this method returns 1
      */
     public int getNumTable() {
         return this.numTable;
-    }
-
-    /**
-     * @param numTable the number of the table in the page
-     */
-    public void setNumTable(final int numTable) {
-        this.numTable = numTable;
     }
 }
