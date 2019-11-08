@@ -28,6 +28,13 @@ public class ProcessWikiUrl {
         return listWikiUrl;
     }
 
+    /**
+     *
+     * @return list of all Table parsed
+     */
+    public List<Table> getListTable() {
+        return listTable;
+    }
 
     /**
      * Fill listWikiUrl with url based on a file filled with either full URL or just name of wikipedia pages (every pages must be of the same language)

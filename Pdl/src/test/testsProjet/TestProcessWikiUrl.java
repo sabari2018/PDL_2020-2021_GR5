@@ -46,4 +46,11 @@ public class TestProcessWikiUrl {
         Assert.assertEquals("L'url s'est ajouté alors qu'elle ne devrait pas", processWikiUrlTest.getListWikiUrl().size(), 0);
     }
 
+    @Test
+    public void testParseHTML(){
+        processWikiUrlTest.addWikiUrlFromFile("wikiurlstest", false, "en");
+        processWikiUrlTest.parseHTML();
+
+        Assert.assertNotEquals("Le parseur n'as rien parser", processWikiUrlTest.getListTable().size(), 0);
+    }
 }
