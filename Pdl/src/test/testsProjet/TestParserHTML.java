@@ -1,6 +1,11 @@
 package testsProjet;
 
+import model.Parser;
 import org.junit.Test;
+
+import model.ParserHTML;
+
+import static org.junit.Assert.assertEquals;
 
 /**
  * Test the html parsing of a html url
@@ -11,12 +16,23 @@ public class TestParserHTML {
     /**
      * Creation of test url and test titles
     */
-   /* String urlValid = "https://en.wikipedia.org/wiki/Comparison_of_Afrikaans_and_Dutch";
 
+    ParserHTML p = new ParserHTML();
+
+
+    /**
+     * @return the contents tables of this page
+     * 1 line = the contents of 1 cell
+     * each table is seperate by =====Table===== and end by ============
+     * each row is seperate by *****ROW***** and end by *************
+     */
     @Test
     public void testParseHtml(){
-        assertEquals("parse", parseHtml(urlValid));
-    }*/
+        p.setUrlHtml("https://en.wikipedia.org/wiki/Comparison_between_Esperanto_and_Interlingua");
+        p.parseHtml();
+        //assertEquals("",p.parseHtml());
+    }
+
 
     /**
      * Tests parser html :
