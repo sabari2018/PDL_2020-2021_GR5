@@ -36,19 +36,35 @@ public class TestConverter {
 
         @Test
         public void testFileIsCreated () {
-            for (Table table : results.keySet()){
-                //Assert.assertTrue("Le fichier csv pour la page "+table.getTitle()+"n'a pas été rempli", converter.fileIsFilled());
+            for (Map.Entry<Table, File> entry : results.entrySet()){
+                Table table = entry.getKey();
+                File file = entry.getValue();
+                String message = "Le fichier csv pour la page "+ table.getTitle()+"n'a pas été rempli et le tableau n°"
+                        + table.getNumTable() + "pour l'extraction de type "+ table.getExtractionType();
+                Assert.assertTrue(message,converter.fileIsFilled(file));
             }
         }
 
         @Test
         public void checkNbRows () {
-
+            for (Map.Entry<Table, File> entry : results.entrySet()){
+                Table table = entry.getKey();
+                File file = entry.getValue();
+                String message = "Le nombre de ligne du tableau n°"+table.getNumTable()+" de la page "+table.getTitle()+
+                        "pour l'extraction de type "+table.getExtractionType()+ "ne correspond pas";
+                Assert.assertEquals(message, getNbRowsInTheTable(table), getNbRowsInTheCSV(file));
+            }
         }
 
         @Test
         public void checkNbColumn () {
-
+            for (Map.Entry<Table, File> entry : results.entrySet()){
+                Table table = entry.getKey();
+                File file = entry.getValue();
+                String message = "Le nombre de colonne du tableau n°"+table.getNumTable()+" de la page "+table.getTitle()+
+                        "pour l'extraction de type "+table.getExtractionType()+ "ne correspond pas";
+                Assert.assertEquals(message, getNbColumnInTheTable(table), getNbColumnsInTheCSV(file));
+            }
         }
 
         private int getNbColumnInTheTable (Table table) {
