@@ -7,6 +7,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
+ *
+ * @author hheinle
+ *
  * Parse wikiText and standardize it with the data structure {@link Table}.
  */
 public class ParserWikiText extends Parser {
