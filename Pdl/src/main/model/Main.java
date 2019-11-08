@@ -5,11 +5,10 @@ import model.ParserHTML;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
-        ParserHTML p = new ParserHTML();
-        p.setUrlHtml("https://en.wikipedia.org/wiki/Comparison_between_Esperanto_and_Interlingua");
-        p.parseHtml();
+   static  ProcessWikiUrl processWikiUrl;
 
+    public static void main(String[] args) throws IOException {
+        processWikiUrl.addWikiUrlFromFile("wikiurls", false, "en");
     }
 
 }
