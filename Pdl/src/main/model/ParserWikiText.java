@@ -66,8 +66,8 @@ public class ParserWikiText extends Parser {
             Table standardizeTable = new Table(this.titleOfCurrentPage, "wikitext", numTable);
             standardizeTable.getContent().put(0, this.getTableHead(table));
             String[] rows = this.getTableRow(table);
-            for (int i = 1; i < rows.length; i++) {
-                standardizeTable.getContent().put(i, this.getCells(rows[i]));
+            for (int i = 0; i < rows.length; i++) {
+                standardizeTable.getContent().put(i + 1, this.getCells(rows[i]));
             }
             this.standardizedTables.add(standardizeTable);
             numTable++;
