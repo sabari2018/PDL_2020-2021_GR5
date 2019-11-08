@@ -14,11 +14,11 @@ import java.util.regex.Pattern;
  */
 public class ParserWikiText extends Parser {
 
-    private static final String START_WIKITABLE = "{| class=\"wikitable\"";
-    private static final String END_WIKITABLE = "|}";
+    private static final String START_WIKITABLE = "\\{\\|.*class=\".*wikitable.*\"";
+    private static final String END_WIKITABLE = "\\|}";
     private static final String KEY_WORD_WIKITABLE = "wikitable";
-    private final String HEAD_SEPARATOR = "\\|\\-";
-    private final String ROW_SEPARATOR = "\\|\\-(\\n)\\|";
+    private final String HEAD_SEPARATOR = "\\|-";
+    private final String ROW_SEPARATOR = "\\|-(\\n)\\|";
     private final String CELL_SEPARATOR = "(\\n)*\\| ";
 
     private String urlWikiText;
@@ -102,8 +102,18 @@ public class ParserWikiText extends Parser {
      * @return the table
      */
     private String getTable() {
-        int startTable = this.getTextToParse().indexOf(START_WIKITABLE);
-        int endTable = this.getTextToParse().indexOf(END_WIKITABLE);
+        int startTable = 0;
+        int endTable = 0;
+        Pattern p = Pattern.compile(START_WIKITABLE);  // insert your pattern here
+        Matcher m = p.matcher(this.getTextToParse());
+        if (m.find()) {
+            startTable = m.start();
+        }
+        Pattern p2 = Pattern.compile(END_WIKITABLE);  // insert your pattern here
+        Matcher m2 = p2.matcher(this.getTextToParse());
+        if (m2.find()) {
+            endTable = m2.start();
+        }
         String oneTable = this.getTextToParse().substring(startTable + 2, endTable - 2);
         this.setTextToParse(this.getTextToParse().substring(endTable + 2));
         return oneTable;
