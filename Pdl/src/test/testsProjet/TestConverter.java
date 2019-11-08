@@ -1,9 +1,11 @@
 package testsProjet;
 
 import model.Converter;
+import model.ProcessWikiUrl;
 import model.Table;
 import org.junit.*;
 
+import javax.swing.*;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -12,44 +14,42 @@ import java.util.*;
 
 public class TestConverter {
 
-        private static HashMap<Table, File> resultHTML;
-        private static HashMap<Table, File> resultWiki;
+        private static HashMap<Table, File> results;
+        private Converter converter;
 
         @BeforeClass
         public static void setUp () {
-            //Init Page1
-            String [] ligne1 = {"Aspect","Esperanto","Interlangua"};
-            String [] ligne2 = {"Type","Designed","Naturalistic"};
-            String [] ligne3 = {"Gender","masculine","thirdPerson"};
+           //Récupérer toutes les Tables extraites et leur associé leur CSV
+            Converter converter = new Converter();
+            ProcessWikiUrl processWikiUrl = new ProcessWikiUrl();
+            processWikiUrl.parseWikiText();
+            List<Table> tableWiki = processWikiUrl.getListTable();
+            File file;
 
-            HashMap<Integer,String[]> content = new HashMap<Integer, String []>();
-            content.put(1,ligne1);
-            content.put(2, ligne2);
-            content.put(3,ligne3);
-
-            /*tableHTML = new Table(content,"Test tableau","html",1);
-            tableWikitext = new Table(content,"Test tableau","wikitext",1);
-            converter = new Converter();
-
-            String folderName = File.separator+"output"+File.separator+tableHTML.getExtractionType()+File.separator;
-            fileHTML = new File(System.getProperty("user.dir") +folderName + tableHTML.getTitle().trim() + "-" +tableHTML.getNumTable()+ ".csv");
-
-            folderName = File.separator+"output"+File.separator+tableWikitext.getExtractionType()+File.separator;
-            fileWikiText = new File(System.getProperty("user.dir") +folderName + tableWikitext.getTitle().trim() + "-" +tableWikitext.getNumTable()+ ".csv");
-        */
+            for (Table table : tableWiki) {
+                converter.convertToCSV(table);
+                file = converter.getCsvConvertFile();
+                results.put(table,file);
+            }
         }
 
 
         @Test
         public void testFileIsCreated () {
-           /* Assert.assertTrue("Conversion HTML : Le fichier n'a pas été crée",converter.convertToCSV(tableHTML));
-            Assert.assertTrue("Conversion Wikitext : Le fichier n'a pas été crée",converter.convertToCSV(tableWikitext));*/
-
-            //Tester si le nom du fichier est correct + ajouter test intégration cf TestCSV.java
+            for (Table table : results.keySet()){
+                //Assert.assertTrue("Le fichier csv pour la page "+table.getTitle()+"n'a pas été rempli", converter.fileIsFilled());
+            }
         }
 
+        @Test
+        public void checkNbRows () {
 
+        }
 
+        @Test
+        public void checkNbColumn () {
+
+        }
 
         private int getNbColumnInTheTable (Table table) {
             int nbColumn = 0;
@@ -69,7 +69,6 @@ public class TestConverter {
 
         private int getNbRowsInTheCSV (File file) {
             int nbRows = 0;
-
             try {
                 FileReader f = new FileReader(file);
                 BufferedReader buffered = new BufferedReader(f);
