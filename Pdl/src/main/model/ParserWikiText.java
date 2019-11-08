@@ -7,20 +7,27 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
+ *
+ * @author hheinle
+ *
  * Parse wikiText and standardize it with the data structure {@link Table}.
  */
 public class ParserWikiText extends Parser {
 
-    private String urlWikiText;
+    private static final String START_WIKITABLE = "{| class=\"wikitable\"";
+    private static final String END_WIKITABLE = "|}";
+    private static final String KEY_WORD_WIKITABLE = "wikitable";
     private final String HEAD_SEPARATOR = "\\|\\-";
-    private final String ROW_SEPARATOR = "\\|\\-";
+    private final String ROW_SEPARATOR = "\\|\\-(\\n)\\|";
     private final String CELL_SEPARATOR = "(\\n)*\\| ";
+
+    private String urlWikiText;
     private String titleOfCurrentPage;
     private ArrayList<String> wikiTextTables;
     private ArrayList<Table> standardizedTables;
 
     /**
-     *
+     * Empty Constructor.
      */
     public ParserWikiText() {
         this.wikiTextTables = new ArrayList<String>();
@@ -29,11 +36,13 @@ public class ParserWikiText extends Parser {
 
     /**
      * Set the url of the page we want to parse.
+     * In the same time, it set the attribute textToParse
+     *
      * @param urlWikiText new url to access
      */
-    public void setUrlWikiText(String urlWikiText) {
+    public void setUrlWikiText(final String urlWikiText) {
         this.urlWikiText = urlWikiText;
-        Document doc = this.getPageFromUrl(urlWikiText);
+        Document doc = this.getPageFromUrl(this.urlWikiText);
         if (doc != null) {
             this.setTextToParse(doc.html());
             this.titleOfCurrentPage = doc.title();
@@ -41,7 +50,8 @@ public class ParserWikiText extends Parser {
     }
 
     /**
-     * From a urlWikiText url, access to the page and take the table(s).
+     * From a urlWikiText url, access to the page and take the table(s) to put
+     * them in a list of objects {@link Table}.
      *
      * @return a list of {@link Table}. It's length is the same as the number
      * of tables in the Wikipedia page
@@ -49,7 +59,7 @@ public class ParserWikiText extends Parser {
     public ArrayList<Table> parseWikiText() {
 
         // extract all the tables of the Wikipedia page
-        // the result put in wikiTextTAbles is still in wikiText
+        // the result put in wikiTextTables is still in wikiText
         this.wikiTextTables = extractTablesFromPage();
 
         //transform the table (format = String) into format = Table
@@ -57,10 +67,9 @@ public class ParserWikiText extends Parser {
         int numTable = 1;
         for (String table : this.wikiTextTables) {
             Table standardizeTable = new Table(this.titleOfCurrentPage, "wikitext", numTable);
-            standardizeTable.getContent().put(0, this.getHead(table));
-            String[] rows = this.getRow(table);
+            standardizeTable.getContent().put(0, this.getTableHead(table));
+            String[] rows = this.getTableRow(table);
             for (int i = 0; i < rows.length; i++) {
-                // i+1 because at index 0, we have the head
                 standardizeTable.getContent().put(i + 1, this.getCells(rows[i]));
             }
             this.standardizedTables.add(standardizeTable);
@@ -77,9 +86,7 @@ public class ParserWikiText extends Parser {
     private ArrayList<String> extractTablesFromPage() {
         ArrayList<String> tablesFromPage = new ArrayList<String>();
         int nbWikiTables = this.countWikiTab();
-        System.out.println("Nb tableaux : " + nbWikiTables);
         for (int i = 1; i <= nbWikiTables; i++) {
-            System.out.println("Un tableau");
             tablesFromPage.add(this.getTable());
         }
         return tablesFromPage;
@@ -87,74 +94,93 @@ public class ParserWikiText extends Parser {
 
     /**
      * Extract one table from the page.
+     * As soon as a table is extracted, we remove it from
+     * the text to parse.
+     * Then, during the following extraction, we can get the following table
+     * thanks to "indexOf(START_WIKITABLE)".
      *
      * @return the table
      */
-    public String getTable() {
-        int startTable = this.getTextToParse().indexOf("{|");
-        int endTable = this.getTextToParse().indexOf("|}");
-        String oneTable = this.getTextToParse().substring(startTable, endTable + 2);
+    private String getTable() {
+        int startTable = this.getTextToParse().indexOf(START_WIKITABLE);
+        int endTable = this.getTextToParse().indexOf(END_WIKITABLE);
+        String oneTable = this.getTextToParse().substring(startTable + 2, endTable - 2);
         this.setTextToParse(this.getTextToParse().substring(endTable + 2));
         return oneTable;
     }
 
     /**
-     * @param wikiTable
-     * @return
+     * Gets the cells of the table's head.
+     *
+     * @param table the table we want the head
+     * @return a table of String. One case of this table is a cell of
+     * the table's head.
      */
-    public String[] getHead(String wikiTable) {
-        String[] separateur = wikiTable.split(HEAD_SEPARATOR);
-        String[] tabfinal = new String[separateur.length];
+    private String[] getTableHead(final String table) {
+        String[] separator = table.split(HEAD_SEPARATOR);
+        String[] tabfinal = new String[separator.length];
         ArrayList<String> list = new ArrayList<String>();
-        if (separateur[0].contains("!")) { /* cas special rencontre */
-            for (int i = 0; i < separateur.length; i++) {
-                list.add(separateur[i]); //Si le premier split contiens des "!" qui reprÃ©sente une colonne, alors on l'ajoute dans la liste !
-            }
-        } else {
-            for (int i = 1; i < separateur.length; i++) {
-                list.add(separateur[i]);
-            }
+        if (separator[0].contains("!")) {
+            list.add(separator[0]); //Si le premier split contiens des "!" qui represente une colonne, alors on l'ajoute dans la liste !
+        }
+        for (int i = 1; i < separator.length; i++) {
+            list.add(separator[i]);
         }
         tabfinal = list.toArray(tabfinal); //Converti la liste (qui contient le tableau entier, spliter sur les |--) en tableau
         String head = tabfinal[0];
         this.setNbColumns(head.split("!").length - 1);
-        String[] separateur1 = head.split("!");
-        String[] tabfinal1 = new String[this.getNbColumns()];
+        String[] separatorOfHeadCells = head.split("!");
+        String[] cellsHead = new String[this.getNbColumns()];
         for (int i = 0; i < this.getNbColumns(); i++) {
-            tabfinal1[i] = separateur1[i + 1]; //on ne prend pas le split[0] car vide
-            if (tabfinal1[i].contains("|")) { //Permet de supprimer les balises avant les noms des cols
-                String[] separateur2 = tabfinal1[i].split("\\| ");
-                tabfinal1[i] = separateur2[1];
+            cellsHead[i] = separatorOfHeadCells[i + 1]; //on ne prend pas le split[0] car vide
+            if (cellsHead[i].contains("|")) { //Permet de supprimer les balises avant les noms des cols
+                String[] separator2 = cellsHead[i].split("\\| ");
+                cellsHead[i] = separator2[1];
+                cellsHead[i] = handleCommasInData(cellsHead[i]);
             }
         }
-        this.setNbColumns(tabfinal1.length);
-        return tabfinal1;
+        this.setNbColumns(cellsHead.length);
+        return cellsHead;
     }
 
     /**
-     * Gets a row from a wikitext table.
+     * Gets a row from a table.
      *
      * @param table the table (in wikitext)
-     * @return a table of String which contains the content of one row
+     * @return a table of String. One case corresponds to
+     * the content of one row.
      */
-    public String[] getRow(String table) {
-        String[] tabFaux = new String[1];
+    private String[] getTableRow(final String table) {
         String[] rows = table.split(ROW_SEPARATOR);
-        ArrayList<String> list = new ArrayList<String>(); //on ajoute les sÃ©parateurs dans la liste pour remove ce qu'il y a en trop
-        for (int i = 0; i < rows.length; i++) {
+        ArrayList<String> list = new ArrayList<String>(); //on ajoute les separateurs dans la liste pour remove ce qu'il y a en trop
+        // from 1 because rows[0] is the head
+        for (int i = 1; i < rows.length; i++) {
+
             rows[i] = rows[i].replaceAll("align=right", "");
             rows[i] = rows[i].replaceAll("align=left", "");
-            list.add(rows[i]);
+
+            rows[i] = rows[i].replaceAll("ref&gt;[^>]*/ref&gt;", "");
+            rows[i] = rows[i].replaceAll("&lt;ref[^>]*/ref&gt;", "");
+            rows[i] = rows[i].replaceAll("&lt;", "");
+            rows[i] = rows[i].replaceAll("&gt;", "");
+            rows[i] = rows[i].replaceAll("align=\"left\"", "");
+            rows[i] = rows[i].replaceAll("br/&gt;", "");
+            rows[i] = rows[i].replaceAll("&lt;br/&gt;", "");
+            rows[i] = rows[i].replaceAll("&lt;ref&gt;", "");
+            rows[i] = rows[i].replaceAll("&lt;br /&gt;", "");
+            rows[i] = rows[i].replaceAll("br /&gt;", "");
+            rows[i] = rows[i].replaceAll("&amp;nbsp;", "");
+            rows[i] = rows[i].replaceAll("&amp", "");
+            rows[i] = rows[i].replaceAll("Color[^>]*darkgray", "");
+            rows[i] = rows[i].replaceAll("\\{\\{.*\\|", "");
+            rows[i] = rows[i].replaceAll("}}", "");
+            rows[i] = rows[i].replaceAll("\n", " ");
+
+            if (!rows[i].isEmpty()) {
+                list.add(rows[i]);
+            }
         }
 
-        if (list.get(0).contains("class=")) {
-            list.remove(0);
-        }
-
-        if (list.size() == 0) {
-            tabFaux[0] = "tableaufaux";
-            return tabFaux;
-        }
 
         String[] tableau = new String[list.size()];
         tableau = list.toArray(tableau);
@@ -163,15 +189,35 @@ public class ParserWikiText extends Parser {
     }
 
     /**
+     * If the data contains comma(s), the all data should be surrounded by
+     * quotation marks.
+     *
+     * @param data the data to analyse
+     * @return a String surrounded by quotation marks if there was
+     * commas in the data. Otherwise, the returned String will be the same
+     * as the parameter data.
+     */
+    private String handleCommasInData(final String data) {
+        String newData = data;
+        if (data.contains(",")) {
+            newData = "\"" + data + "\"";
+        }
+        return newData;
+    }
+
+    /**
      * Gets the cells of the given row.
      *
      * @param row the row
-     * @return a table of String which contains the content of the row's cells
+     * @return a table of String. One case of this table corresponds
+     * to the content of the row's cells.
      */
-    private String[] getCells(String row) {
-        String[] cells = row.split(CELL_SEPARATOR);
-        System.out.println("NB columns = " + this.getNbColumns() + " vs " + cells.length);
-        return cells;
+    private String[] getCells(final String row) {
+        String[] ret = row.split(CELL_SEPARATOR);
+        for (int i = 0; i < ret.length; i++) {
+            ret[i] = handleCommasInData(ret[i]);
+        }
+        return ret;
     }
 
     /**
@@ -180,13 +226,12 @@ public class ParserWikiText extends Parser {
      * @return the number of tables
      */
     private int countWikiTab() {
-        Matcher matcher = Pattern.compile("wikitable").matcher(this.getTextToParse());
+        Matcher matcher = Pattern.compile(KEY_WORD_WIKITABLE).matcher(this.getTextToParse());
         int occur = 0;
         while (matcher.find()) {
             occur++;
         }
         return occur;
     }
-
 
 }

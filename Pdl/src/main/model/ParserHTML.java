@@ -18,7 +18,7 @@ public class ParserHTML extends Parser {
     private String url;
 
     /**
-     * Parses an HTML page to generate an list of parsed tables ( represented by {@link Table} object).
+     * Parses an HTML page to generate an list of parsed tables (represented by {@link Table} object).
      * A parsed table is represented by a Hashmap with an Integer key (the csv line number) and
      * a table of String which contains the values for this row.
      *
@@ -77,8 +77,8 @@ public class ParserHTML extends Parser {
         String markedTables = pageToParse;
         ArrayList<String> extractedTables = new ArrayList<String>();
         //Gérer le rowspan
-        markedTables = markedTables.replaceAll("<table.*?class=\"wikitable[^\"]*\"[^>]*>", "<table>TABLE_TO_EXTRACT");
-        String[] split = markedTables.split("<table>|</table>");
+        markedTables = markedTables.replaceAll("(?!<code[^>]*?>|<pre[^>]*?>)(<table.*?class=\"wikitable[^\"]*\"[^>]*>)(?![^<]*?</code>|[^<]*?</pre>)", "<table>TABLE_TO_EXTRACT");
+        String[] split = markedTables.split("(?!<code[^>]*?>|<pre[^>]*?>)(<table>|</table>)(?![^<]*?</code>|[^<]*?</pre>)");
         for (int i = 0; i < split.length; i++) {
             if (split[i].contains("TABLE_TO_EXTRACT")) {
                 extractedTables.add(split[i]);
@@ -99,21 +99,20 @@ public class ParserHTML extends Parser {
         String markedRows = table;
         ArrayList<String> extractedRows = new ArrayList<String>();
         //Gérer le colspan
-        markedRows = markedRows.replaceAll("<thead[^>]*>|</thead>", "");
-        markedRows = markedRows.replaceAll("<tbody[^>]*>|</tbody>", "");
-        markedRows = markedRows.replaceAll("<tr[^>]*>", "<tr>ROW_TO_EXTRACT");
-        String[] split = markedRows.split("<tr>|</tr>");
+        markedRows = markedRows.replaceAll("(?!<code[^>]*?>|<pre[^>]*?>)(<thead[^>]*>|</thead>)(?![^<]*?</code>|[^<]*?</pre>)", "");
+        markedRows = markedRows.replaceAll("(?!<code[^>]*?>|<pre[^>]*?>)(<tbody[^>]*>|</tbody>)(?![^<]*?</code>|[^<]*?</pre>)", "");
+        markedRows = markedRows.replaceAll("(?!<code[^>]*?>|<pre[^>]*?>)(<tr[^>]*>|</tr>)(?![^<]*?</code>|[^<]*?</pre>)", "<tr>ROW_TO_EXTRACT");
+        String[] split = markedRows.split("(?!<code[^>]*?>|<pre[^>]*?>)(<tr>|</tr>)(?![^<]*?</code>|[^<]*?</pre>)");
         for (int i = 0; i < split.length; i++) {
 
             if (split[i].contains("ROW_TO_EXTRACT")) {
-                split[i] = split[i].replaceAll("ROW_TO_EXTRACT", "");
-                split[i] = split[i].replaceAll("<a[^>]*>|</a>", "");
-                split[i] = split[i].replaceAll("<i[^>]*>|</i>", " ");
-                split[i] = split[i].replaceAll("&nbsp;", "");
-                split[i] = split[i].replaceAll("<br>|<br/>", " ");
-                split[i] = split[i].replaceAll("<b>|</b>", " ");
-                split[i] = split[i].replaceAll("&lt", "<");
-                split[i] = split[i].replaceAll("&gt", ">");
+                split[i] = split[i].replaceAll("(?!<code[^>]*?>|<pre[^>]*?>)(ROW_TO_EXTRACT)(?![^<]*?</code>|[^<]*?</pre>)", "");
+                split[i] = split[i].replaceAll("(?!<code[^>]*?>|<pre[^>]*?>)(<a[^>]*>|</a>)(?![^<]*?</code>|[^<]*?</pre>)", "");
+                split[i] = split[i].replaceAll("(?!<code[^>]*?>|<pre[^>]*?>)(<i[^>]*>|</i>)(?![^<]*?</code>|[^<]*?</pre>)", " ");
+                split[i] = split[i].replaceAll("(?!<code[^>]*?>|<pre[^>]*?>)(&nbsp;)(?![^<]*?</code>|[^<]*?</pre>)", " ");
+                split[i] = split[i].replaceAll("(?!<code[^>]*?>|<pre[^>]*?>)(<br>|<br/>)(?![^<]*?</code>|[^<]*?</pre>)", " ");
+                split[i] = split[i].replaceAll("(?!<code[^>]*?>|<pre[^>]*?>)(<b>|</b>)(?![^<]*?</code>|[^<]*?</pre>)", " ");
+
 
                 extractedRows.add(split[i]);
             }
@@ -134,13 +133,15 @@ public class ParserHTML extends Parser {
         String markedCells = row;
 
         ArrayList<String> extractedCells = new ArrayList<String>();
-        markedCells = markedCells.replaceAll("<th[^>]*>", "<th>CELL_TO_EXTRACT");
-        markedCells = markedCells.replaceAll("<td[^>]*>", "<td>CELL_TO_EXTRACT");
-        String[] split = markedCells.split("<th>|</th>|<td>|</td>");
+        markedCells = markedCells.replaceAll("(?!<code[^>]*?>|<pre[^>]*?>)(<th[^>]*>)(?![^<]*?</code>|[^<]*?</pre>)", "<th>CELL_TO_EXTRACT");
+        markedCells = markedCells.replaceAll("(?!<code[^>]*?>|<pre[^>]*?>)(<td[^>]*>)(?![^<]*?</code>|[^<]*?</pre>)", "<td>CELL_TO_EXTRACT");
+        String[] split = markedCells.split("(?!<code[^>]*?>|<pre[^>]*?>)(<th>|</th>|<td>|</td>)(?![^<]*?</code>|[^<]*?</pre>)");
         for (int i = 0; i < split.length; i++) {
 
             if (split[i].contains("CELL_TO_EXTRACT")) {
-                split[i] = split[i].replaceAll("CELL_TO_EXTRACT", "");
+                split[i] = split[i].replaceAll("(?!<code[^>]*?>|<pre[^>]*?>)(CELL_TO_EXTRACT)(?![^<]*?</code>|[^<]*?</pre>)", "");
+                split[i] = split[i].replaceAll("(?!<code[^>]*?>|<pre[^>]*?>)(&lt)(?![^<]*?</code>|[^<]*?</pre>)", "<");
+                split[i] = split[i].replaceAll("(?!<code[^>]*?>|<pre[^>]*?>)(&gt)(?![^<]*?</code>|[^<]*?</pre>)", ">");
             }
 
             extractedCells.add(escapeComasAndQuotes(split[i]));
