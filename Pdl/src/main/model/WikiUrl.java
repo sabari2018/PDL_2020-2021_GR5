@@ -70,7 +70,7 @@ public class WikiUrl {
             }
 
         } catch (Exception e) {
-            throw new IllegalArgumentException("Url is not valid");
+            throw new IllegalArgumentException("Url is not valid!");
         }
     }
 }
