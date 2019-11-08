@@ -11,12 +11,13 @@ import java.util.regex.Pattern;
  */
 public class ParserWikiText extends Parser {
 
-    private static final String START_WIKITABLE = "{|";
+    private static final String START_WIKITABLE = "{| class=\"wikitable\"";
     private static final String END_WIKITABLE = "|}";
     private static final String KEY_WORD_WIKITABLE = "wikitable";
     private final String HEAD_SEPARATOR = "\\|\\-";
-    private final String ROW_SEPARATOR = "\\|\\-";
+    private final String ROW_SEPARATOR = "\\|\\-(\\n)\\|";
     private final String CELL_SEPARATOR = "(\\n)*\\| ";
+
     private String urlWikiText;
     private String titleOfCurrentPage;
     private ArrayList<String> wikiTextTables;
@@ -65,9 +66,8 @@ public class ParserWikiText extends Parser {
             Table standardizeTable = new Table(this.titleOfCurrentPage, "wikitext", numTable);
             standardizeTable.getContent().put(0, this.getTableHead(table));
             String[] rows = this.getTableRow(table);
-            for (int i = 0; i < rows.length; i++) {
-                // i+1 because at index 0, we have the head
-                standardizeTable.getContent().put(i + 1, this.getCells(rows[i]));
+            for (int i = 1; i < rows.length; i++) {
+                standardizeTable.getContent().put(i, this.getCells(rows[i]));
             }
             this.standardizedTables.add(standardizeTable);
             numTable++;
@@ -83,9 +83,7 @@ public class ParserWikiText extends Parser {
     private ArrayList<String> extractTablesFromPage() {
         ArrayList<String> tablesFromPage = new ArrayList<>();
         int nbWikiTables = this.countWikiTab();
-        System.out.println("Nb tableaux : " + nbWikiTables);
         for (int i = 1; i <= nbWikiTables; i++) {
-            System.out.println("Un tableau");
             tablesFromPage.add(this.getTable());
         }
         return tablesFromPage;
@@ -103,7 +101,7 @@ public class ParserWikiText extends Parser {
     private String getTable() {
         int startTable = this.getTextToParse().indexOf(START_WIKITABLE);
         int endTable = this.getTextToParse().indexOf(END_WIKITABLE);
-        String oneTable = this.getTextToParse().substring(startTable, endTable + 2);
+        String oneTable = this.getTextToParse().substring(startTable + 2, endTable - 2);
         this.setTextToParse(this.getTextToParse().substring(endTable + 2));
         return oneTable;
     }
@@ -119,7 +117,7 @@ public class ParserWikiText extends Parser {
         String[] separator = table.split(HEAD_SEPARATOR);
         String[] tabfinal = new String[separator.length];
         ArrayList<String> list = new ArrayList<String>();
-        if (separator[0].contains("!")) { /* cas special rencontre */
+        if (separator[0].contains("!")) {
             list.add(separator[0]); //Si le premier split contiens des "!" qui represente une colonne, alors on l'ajoute dans la liste !
         }
         for (int i = 1; i < separator.length; i++) {
@@ -135,6 +133,7 @@ public class ParserWikiText extends Parser {
             if (cellsHead[i].contains("|")) { //Permet de supprimer les balises avant les noms des cols
                 String[] separator2 = cellsHead[i].split("\\| ");
                 cellsHead[i] = separator2[1];
+                cellsHead[i] = handleCommasInData(cellsHead[i]);
             }
         }
         this.setNbColumns(cellsHead.length);
@@ -151,11 +150,12 @@ public class ParserWikiText extends Parser {
     private String[] getTableRow(final String table) {
         String[] rows = table.split(ROW_SEPARATOR);
         ArrayList<String> list = new ArrayList<String>(); //on ajoute les separateurs dans la liste pour remove ce qu'il y a en trop
+        // from 1 because rows[0] is the head
         for (int i = 1; i < rows.length; i++) {
+
             rows[i] = rows[i].replaceAll("align=right", "");
             rows[i] = rows[i].replaceAll("align=left", "");
 
-            rows[i] = rows[i].replaceAll(",", "");
             rows[i] = rows[i].replaceAll("ref&gt;[^>]*/ref&gt;", "");
             rows[i] = rows[i].replaceAll("&lt;ref[^>]*/ref&gt;", "");
             rows[i] = rows[i].replaceAll("&lt;", "");
@@ -169,14 +169,13 @@ public class ParserWikiText extends Parser {
             rows[i] = rows[i].replaceAll("&amp;nbsp;", "");
             rows[i] = rows[i].replaceAll("&amp", "");
             rows[i] = rows[i].replaceAll("Color[^>]*darkgray", "");
-
             rows[i] = rows[i].replaceAll("\\{\\{.*\\|", "");
             rows[i] = rows[i].replaceAll("}}", "");
-
             rows[i] = rows[i].replaceAll("\n", " ");
-            rows[i] = rows[i].replaceAll(",", "\",\"");
 
-            list.add(rows[i]);
+            if (!rows[i].isEmpty()) {
+                list.add(rows[i]);
+            }
         }
 
 
@@ -187,6 +186,23 @@ public class ParserWikiText extends Parser {
     }
 
     /**
+     * If the data contains comma(s), the all data should be surrounded by
+     * quotation marks.
+     *
+     * @param data the data to analyse
+     * @return a String surrounded by quotation marks if there was
+     * commas in the data. Otherwise, the returned String will be the same
+     * as the parameter data.
+     */
+    private String handleCommasInData(final String data) {
+        String newData = data;
+        if (data.contains(",")) {
+            newData = "\"" + data + "\"";
+        }
+        return newData;
+    }
+
+    /**
      * Gets the cells of the given row.
      *
      * @param row the row
@@ -194,7 +210,11 @@ public class ParserWikiText extends Parser {
      * to the content of the row's cells.
      */
     private String[] getCells(final String row) {
-        return row.split(CELL_SEPARATOR);
+        String[] ret = row.split(CELL_SEPARATOR);
+        for (int i = 0; i < ret.length; i++) {
+            ret[i] = handleCommasInData(ret[i]);
+        }
+        return ret;
     }
 
     /**
