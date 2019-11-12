@@ -77,7 +77,7 @@ public class ParserHTML extends Parser {
         String markedTables = pageToParse;
         ArrayList<String> extractedTables = new ArrayList<String>();
         //Gérer le rowspan
-        markedTables = markedTables.replaceAll("(?!<code[^>]*?>|<pre[^>]*?>)(<table.*?class=\"wikitable[^\"]*\"[^>]*>)(?![^<]*?</code>|[^<]*?</pre>)", "<table>TABLE_TO_EXTRACT");
+        markedTables = markedTables.replaceAll("(?!<code[^>]*?>|<pre[^>]*?>)(<table.*?class=\".*?\\swikitable[^\"]*\"[^>]*>)(?![^<]*?</code>|[^<]*?</pre>)", "<table>TABLE_TO_EXTRACT");
         String[] split = markedTables.split("(?!<code[^>]*?>|<pre[^>]*?>)(<table>|</table>)(?![^<]*?</code>|[^<]*?</pre>)");
         for (int i = 0; i < split.length; i++) {
             if (split[i].contains("TABLE_TO_EXTRACT")) {
@@ -111,7 +111,7 @@ public class ParserHTML extends Parser {
                 split[i] = split[i].replaceAll("(?!<code[^>]*?>|<pre[^>]*?>)(<i[^>]*>|</i>)(?![^<]*?</code>|[^<]*?</pre>)", " ");
                 split[i] = split[i].replaceAll("(?!<code[^>]*?>|<pre[^>]*?>)(&nbsp;)(?![^<]*?</code>|[^<]*?</pre>)", " ");
                 split[i] = split[i].replaceAll("(?!<code[^>]*?>|<pre[^>]*?>)(<br>|<br/>)(?![^<]*?</code>|[^<]*?</pre>)", " ");
-                split[i] = split[i].replaceAll("(?!<code[^>]*?>|<pre[^>]*?>)(<b>|</b>)(?![^<]*?</code>|[^<]*?</pre>)", " ");
+                split[i] = split[i].replaceAll("(?!<code[^>]*?>|<pre[^>]*?>)(<[^>]*>|</[^>]*>)(?![^<]*?</code>|[^<]*?</pre>)", "");
 
 
                 extractedRows.add(split[i]);
@@ -161,6 +161,7 @@ public class ParserHTML extends Parser {
         String escapedData = data;
 
         if(data.contains(",") || data.contains("\"")) {
+            escapedData.replaceAll("\"","\"\"");
             escapedData="\""+ escapedData +"\"";
         }
         return escapedData;
