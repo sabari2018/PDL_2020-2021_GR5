@@ -24,13 +24,14 @@ public class TestConverter {
             ProcessWikiUrl processWikiUrl = new ProcessWikiUrl();
             processWikiUrl.parseWikiText();
             List<Table> tableWiki = processWikiUrl.getListTable();
+            results = new HashMap<Table, File>();
             File file;
-
             for (Table table : tableWiki) {
                 converter.convertToCSV(table);
                 file = converter.getCsvConvertFile();
                 results.put(table,file);
             }
+            System.out.println(results.size());
         }
 
 

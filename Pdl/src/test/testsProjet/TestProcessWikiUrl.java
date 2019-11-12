@@ -3,12 +3,8 @@ package testsProjet;
 import model.ProcessWikiUrl;
 import org.junit.Assert;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.mockito.runners.MockitoJUnitRunner;
 
-@RunWith(MockitoJUnitRunner.class)
 public class TestProcessWikiUrl {
 
     ProcessWikiUrl processWikiUrlTest;
