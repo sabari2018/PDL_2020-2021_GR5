@@ -159,6 +159,7 @@ public class TestParserHTML {
 
     /**
      * @return comas and quotes have to be between ""
+     * code ne fonctionne pas
      */
     @Test
     public void testEscapeComasAndQuotes(){
@@ -169,28 +170,25 @@ public class TestParserHTML {
 
     /**
      * @return
-     *à vérifier
-     * Recupère que ce qu'il y a entre les tr
+     * Ne fonctionne pas
      */
     @Test
     public void testGetRowsFromTable(){
-        ArrayList<String> result = p.getRowsFromTable(row);
+        ArrayList<String> result = p.getRowsFromTable(codeDeuxTablesHTML);
         System.out.println(result);
         //assertEquals(10,result.size());
 
     }
 
 
-
-
     /**
      * @return
-     *Coupe à des endroits bizarre dc trouve un nombre elevé à vérifier
+     * Ne fonctionne pas 
      * recupere que ce quil y a entre les th
      */
     @Test
     public void testGetCellsFromRow(){
-        ArrayList<String> result = p.getCellsFromRow(row);
+        ArrayList<String> result = p.getCellsFromRow(codeDeuxTablesHTML);
         System.out.println(result);
         //assertEquals(10,result.size());
 
