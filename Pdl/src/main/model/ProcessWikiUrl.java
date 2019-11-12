@@ -47,6 +47,8 @@ public class ProcessWikiUrl {
             FileReader fileReader = new FileReader(System.getProperty("user.dir") + File.separator + fileName + ".txt");
             BufferedReader bufferReader = new BufferedReader(fileReader);
 
+            System.out.println("File " + fileName + " readed correctly!");
+
             try {
                 String line = bufferReader.readLine();
                 while (line != null) {
@@ -63,10 +65,10 @@ public class ProcessWikiUrl {
                 fileReader.close();
 
             } catch (IOException exception) {
-                System.out.println("Erreur de la lecture : " + exception.getMessage());
+                System.out.println("Reading error : " + exception.getMessage());
             }
         } catch (FileNotFoundException exception) {
-            System.out.println("Le fichier n'existe pas");
+            System.out.println("File does not exist");
         }
     }
 
@@ -77,6 +79,7 @@ public class ProcessWikiUrl {
     public void addWikiUrl(String httpUrl){
         try{
             listWikiUrl.add(new WikiUrl(httpUrl));
+            System.out.println(httpUrl + " : Url is valid!");
         }
         catch(IllegalArgumentException argException){
             System.out.println(httpUrl + " : " + argException.getMessage());
@@ -88,12 +91,18 @@ public class ProcessWikiUrl {
      * then add each Tables to listTable
      */
     public void parseHTML(){
+        System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_");
+        System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_");
+        System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_");
         for(int i = 0; i < listWikiUrl.size(); i++){
+            System.out.println("Treating HTML url : " + listWikiUrl.get(i).getHtmlUrl());
+
             parserHTML.setUrlHtml(listWikiUrl.get(i).getHtmlUrl());
             ArrayList<Table> currentPageTables = parserHTML.parseHtml();
 
             for(int j = 0; j < currentPageTables.size(); j++){
                 listTable.add(currentPageTables.get(j));
+                System.out.println("+1 Table");
             }
         }
     }
@@ -103,12 +112,18 @@ public class ProcessWikiUrl {
      * then add each Tables to listTable
      */
     public void parseWikiText(){
+        System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_");
+        System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_");
+        System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_");
         for(int i = 0; i < listWikiUrl.size(); i++){
+            System.out.println("Treating WikiText url : " + listWikiUrl.get(i).getWikiTextUrl());
+
             parserWikiText.setUrlWikiText(listWikiUrl.get(i).getWikiTextUrl());
             ArrayList<Table> currentPageTables = parserWikiText.parseWikiText();
 
             for(int j = 0; j < currentPageTables.size(); j++){
                 listTable.add(currentPageTables.get(j));
+                System.out.println("+1 Table");
             }
         }
     }
@@ -116,9 +131,14 @@ public class ProcessWikiUrl {
     /**
      * Go through every Table in listTable and pass it to converter which create a CSV file for each of them
      */
-    public void Convert(){
+    public void convert(){
+        System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_");
+        System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_");
+        System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_");
+        System.out.println("Starting convertion to CSV");
         for(int i = 0; i < listTable.size(); i++){
             converter.convertToCSV(listTable.get(i));
         }
+        System.out.println("Convertion ended");
     }
 }

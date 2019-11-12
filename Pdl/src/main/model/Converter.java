@@ -12,6 +12,8 @@ import java.util.Map;
 
 public class Converter {
 
+    private File csvConvertFile;
+
     /**
      * Converts a Table to a CSV file
      * The name of this file has this form : Title of the title-number - Table position in the page
@@ -31,8 +33,10 @@ public class Converter {
             folderName = File.separator+"output"+File.separator+"wikitext"+File.separator;
         }
 
+        csvConvertFile = new File (System.getProperty("user.dir")+folderName+title.trim()+"-"+nbTable+".csv");
+
         try {
-            FileWriter fileWriter = new FileWriter(System.getProperty("user.dir")+folderName+title.trim()+"-"+nbTable+".csv");
+            FileWriter fileWriter = new FileWriter(csvConvertFile);
             for (Map.Entry entry : content.entrySet()) {
                 String [] tableContent = (String []) entry.getValue();
 
@@ -53,24 +57,23 @@ public class Converter {
             System.out.println("Impossible to write in the CSV file"+ e.getMessage());
         }
 
-        return this.fileIsCreated(folderName,title,nbTable);
+        return this.fileIsFilled(csvConvertFile);
     }
 
 
     /**
-     * Checks if the CSV file is created
-     * @param folderName folder name where the file wille be save
-     * @param title title of the page
-     * @param nbTable Table position in the page
-     * @return true if the CSV file is created false if is not
+     * @param file file to test
+     * @return true if the CSV file is fill
      */
-    public boolean fileIsCreated (String folderName, String title, String nbTable) {
-        File f = new File(System.getProperty("user.dir") + folderName + title.trim() + "-" +nbTable+ ".csv");
-        if(f.exists()){
-            return true;
-        }
-        else {
-            return false;
-        }
+    public boolean fileIsFilled (File file) {
+       return file.length() > 0;
     }
+
+    /**
+     * @return the csv file fill with the table
+     */
+    public File getCsvConvertFile () {
+        return csvConvertFile;
+    }
+
 }
