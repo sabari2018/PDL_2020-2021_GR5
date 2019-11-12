@@ -1,6 +1,5 @@
 package testsProjet;
 
-import model.Parser;
 import model.Table;
 import org.jsoup.nodes.Document;
 import org.junit.Test;
@@ -17,7 +16,6 @@ import static org.junit.Assert.assertEquals;
 
 public class TestParserHTML {
 
-    Parser pars = new Parser() ;
 
     /**
      * Creation of test url and test titles
@@ -152,22 +150,21 @@ public class TestParserHTML {
      */
     @Test
     public void testGetTablesFromPageURLlink(){
-       Document pageHTML = pars.getPageFromUrl(url);
-
-        p.getHtmlPage();
+       //Document pageHTML = pars.getPageFromUrl(url);
+        p.setUrlHtml(url);
+        //p.getHtmlPage();
         ArrayList<String> result = p.getTablesFromPage(codeDeuxTablesHTML2);
         assertEquals(1,result.size());
     }
 
     /**
-     * @return
-     *Check ce qu'on a attend
+     * @return comas and quotes have to be between ""
      */
     @Test
     public void testEscapeComasAndQuotes(){
-        p.escapeComasAndQuotes(data);
-        System.out.println(p.escapeComasAndQuotes(data));
-
+        String test = "hsqbvioysggfvo-\"\"':  ;fhvyd\"'_";
+        System.out.println(p.escapeComasAndQuotes(test));
+        assertEquals("\"hsqbvioysggfvo-\"\"\"\"':  ;fhvyd\"\"'_\"",p.escapeComasAndQuotes(test));
     }
 
     /**
