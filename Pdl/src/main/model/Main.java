@@ -8,7 +8,7 @@ public class Main {
    static  ProcessWikiUrl processWikiUrl = new ProcessWikiUrl();
 
     public static void main(String[] args) throws IOException {
-        processWikiUrl.addWikiUrlFromFile("wikiurls", false, "en");
+        processWikiUrl.addWikiUrlFromFile("wikiurlsmain", false, "en");
 
         //processWikiUrl.parseHTML();
         processWikiUrl.parseWikiText();
