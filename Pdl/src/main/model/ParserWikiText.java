@@ -15,11 +15,10 @@ import java.util.regex.Pattern;
  */
 public class ParserWikiText extends Parser {
 
-    private final Logger logger = Logger.getLogger(ParserWikiText.class);
-
     private static final String START_WIKITABLE = "\\{\\|.*class=\"*.*wikitable.*\"*";
     private static final String END_WIKITABLE = "\\|}";
     private static final String KEY_WORD_WIKITABLE = "wikitable";
+    private final Logger logger = Logger.getLogger(ParserWikiText.class);
     private final String HEAD_SEPARATOR = "\\|-";
     private final String ROW_SEPARATOR = "\\|\\-(\\n)(\\|)?";
     private final String CELL_SEPARATOR = "(\\n)*\\| ";
@@ -119,17 +118,19 @@ public class ParserWikiText extends Parser {
         Matcher m = p.matcher(this.getTextToParse());
         if (m.find()) {
             startTable = m.start();
+            this.setTextToParse(this.getTextToParse().substring(startTable));
+            startTable = 0;
         }
         Pattern p2 = Pattern.compile(END_WIKITABLE);
-        Matcher m2 = p2.matcher(this.getTextToParse());
-        if (m2.find()) {
-            endTable = m2.start();
+        Matcher m3 = p2.matcher(this.getTextToParse());
+        if (m3.find()) {
+            endTable = m3.start();
             if (endTable < startTable) {
                 // sometimes, a table finish by "|} |}". So the following table
                 // end before it's start
                 logger.debug("The end of the table is before the start");
-                m2.find();
-                endTable = m2.start();
+                m3.find();
+                endTable = m3.start();
             }
         }
         oneTable = this.getTextToParse().substring(startTable + 2, endTable - 2);
@@ -163,7 +164,7 @@ public class ParserWikiText extends Parser {
         for (int i = 0; i < this.getNbColumns(); i++) {
             cellsHead[i] = separatorOfHeadCells[i + 1]; // split[0] is empty so we don't take it
             if (cellsHead[i].contains("|")) { // delete the tags before the columns names
-                String[] separator2 = cellsHead[i].split("| ");
+                String[] separator2 = cellsHead[i].split("\\| ");
                 // Matcher matcher = Pattern.compile(REGEX_COLSPAN).matcher(separator2[0]);
                 cellsHead[i] = separator2[1];
                 cellsHead[i] = handleCommasInData(cellsHead[i]);
