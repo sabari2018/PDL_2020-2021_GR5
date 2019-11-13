@@ -1,5 +1,7 @@
 package model;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.jsoup.nodes.Document;
 
 import java.util.ArrayList;
@@ -13,12 +15,16 @@ import java.util.regex.Pattern;
  */
 public class ParserWikiText extends Parser {
 
-    private static final String START_WIKITABLE = "\\{\\|.*class=\".*wikitable.*\"";
+    private final Logger logger = Logger.getLogger(ParserWikiText.class);
+
+    private static final String START_WIKITABLE = "\\{\\|.*class=\"*.*wikitable.*\"*";
     private static final String END_WIKITABLE = "\\|}";
     private static final String KEY_WORD_WIKITABLE = "wikitable";
     private final String HEAD_SEPARATOR = "\\|-";
     private final String ROW_SEPARATOR = "\\|\\-(\\n)(\\|)?";
     private final String CELL_SEPARATOR = "(\\n)*\\| ";
+
+    private final String REGEX_COLSPAN = ".*colspan=\"(.*)\"";
 
     private String urlWikiText;
     private String titleOfCurrentPage;
@@ -29,8 +35,9 @@ public class ParserWikiText extends Parser {
      * Empty Constructor.
      */
     public ParserWikiText() {
+        String log4jConfPath = "Pdl/resources/log4j.properties";
+        PropertyConfigurator.configure(log4jConfPath);
         this.wikiTextTables = new ArrayList<String>();
-        this.standardizedTables = new ArrayList<Table>();
     }
 
     /**
@@ -41,6 +48,7 @@ public class ParserWikiText extends Parser {
      */
     public void setUrlWikiText(final String urlWikiText) {
         this.urlWikiText = urlWikiText;
+        this.standardizedTables = new ArrayList<Table>();
         Document doc = this.getPageFromUrl(this.urlWikiText);
         if (doc != null) {
             this.setTextToParse(doc.html());
@@ -86,7 +94,10 @@ public class ParserWikiText extends Parser {
         ArrayList<String> tablesFromPage = new ArrayList<String>();
         int nbWikiTables = this.countWikiTab();
         for (int i = 1; i <= nbWikiTables; i++) {
-            tablesFromPage.add(this.getTable());
+            String table = this.getTable();
+            if (!table.trim().isEmpty()) {
+                tablesFromPage.add(table);
+            }
         }
         return tablesFromPage;
     }
@@ -101,20 +112,29 @@ public class ParserWikiText extends Parser {
      * @return the table
      */
     private String getTable() {
+        String oneTable = "";
         int startTable = 0;
         int endTable = 0;
-        Pattern p = Pattern.compile(START_WIKITABLE);  // insert your pattern here
+        Pattern p = Pattern.compile(START_WIKITABLE);
         Matcher m = p.matcher(this.getTextToParse());
         if (m.find()) {
             startTable = m.start();
         }
-        Pattern p2 = Pattern.compile(END_WIKITABLE);  // insert your pattern here
+        Pattern p2 = Pattern.compile(END_WIKITABLE);
         Matcher m2 = p2.matcher(this.getTextToParse());
         if (m2.find()) {
             endTable = m2.start();
+            if (endTable < startTable) {
+                // sometimes, a table finish by "|} |}". So the following table
+                // end before it's start
+                logger.debug("The end of the table is before the start");
+                m2.find();
+                endTable = m2.start();
+            }
         }
-        String oneTable = this.getTextToParse().substring(startTable + 2, endTable - 2);
+        oneTable = this.getTextToParse().substring(startTable + 2, endTable - 2);
         this.setTextToParse(this.getTextToParse().substring(endTable + 2));
+
         return oneTable;
     }
 
@@ -141,11 +161,18 @@ public class ParserWikiText extends Parser {
         String[] separatorOfHeadCells = head.split("!");
         String[] cellsHead = new String[this.getNbColumns()];
         for (int i = 0; i < this.getNbColumns(); i++) {
-            cellsHead[i] = separatorOfHeadCells[i + 1]; //split[0] is empty so we don't take it
+            cellsHead[i] = separatorOfHeadCells[i + 1]; // split[0] is empty so we don't take it
             if (cellsHead[i].contains("|")) { // delete the tags before the columns names
-                String[] separator2 = cellsHead[i].split("\\| ");
+                String[] separator2 = cellsHead[i].split("| ");
+                // Matcher matcher = Pattern.compile(REGEX_COLSPAN).matcher(separator2[0]);
                 cellsHead[i] = separator2[1];
                 cellsHead[i] = handleCommasInData(cellsHead[i]);
+//                if (matcher.matches()) {
+//                    int colspan = Integer.parseInt(matcher.group(1));
+//                    for(int j = i; j <= colspan; j++){
+//                        cellsHead[j] = ",";
+//                    }
+//                }
             }
         }
         this.setNbColumns(cellsHead.length);
@@ -228,6 +255,7 @@ public class ParserWikiText extends Parser {
      * Gets the number of tables in the Wikipedia page
      * (a table in html is translated in wikitext if
      * it has the attribute "class="wikitable"").
+     *
      * @return the number of tables
      */
     private int countWikiTab() {
