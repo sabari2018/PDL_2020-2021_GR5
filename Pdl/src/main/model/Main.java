@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         processWikiUrl.addWikiUrlFromFile("wikiurls", false, "en");
 
-        processWikiUrl.parseHTML();
+        //processWikiUrl.parseHTML();
         processWikiUrl.parseWikiText();
         processWikiUrl.convert();
     }

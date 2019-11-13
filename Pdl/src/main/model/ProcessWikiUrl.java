@@ -123,7 +123,7 @@ public class ProcessWikiUrl {
 
             for(int j = 0; j < currentPageTables.size(); j++){
                 listTable.add(currentPageTables.get(j));
-                System.out.println("+1 Table");
+                System.out.println("Table : " + currentPageTables.get(j).getTitle() + " added!");
             }
         }
     }

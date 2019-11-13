@@ -17,7 +17,7 @@ import static org.junit.Assert.assertEquals;
 
 public class TestParserHTML {
 
-    Parser pars = new Parser() ;
+    //Parser pars = new Parser() ;
 
     /**
      * Creation of test url and test titles
@@ -152,7 +152,7 @@ public class TestParserHTML {
      */
     @Test
     public void testGetTablesFromPageURLlink(){
-       Document pageHTML = pars.getPageFromUrl(url);
+       //Document pageHTML = pars.getPageFromUrl(url);
 
         p.getHtmlPage();
         ArrayList<String> result = p.getTablesFromPage(codeDeuxTablesHTML2);

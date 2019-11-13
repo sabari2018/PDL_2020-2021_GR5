@@ -30,7 +30,6 @@ public class ParserWikiText extends Parser {
      */
     public ParserWikiText() {
         this.wikiTextTables = new ArrayList<String>();
-        this.standardizedTables = new ArrayList<Table>();
     }
 
     /**
@@ -41,6 +40,7 @@ public class ParserWikiText extends Parser {
      */
     public void setUrlWikiText(final String urlWikiText) {
         this.urlWikiText = urlWikiText;
+        this.standardizedTables = new ArrayList<Table>();
         Document doc = this.getPageFromUrl(this.urlWikiText);
         if (doc != null) {
             this.setTextToParse(doc.html());
@@ -143,7 +143,7 @@ public class ParserWikiText extends Parser {
         for (int i = 0; i < this.getNbColumns(); i++) {
             cellsHead[i] = separatorOfHeadCells[i + 1]; //split[0] is empty so we don't take it
             if (cellsHead[i].contains("|")) { // delete the tags before the columns names
-                String[] separator2 = cellsHead[i].split("\\| ");
+                String[] separator2 = cellsHead[i].split("| ");
                 cellsHead[i] = separator2[1];
                 cellsHead[i] = handleCommasInData(cellsHead[i]);
             }
