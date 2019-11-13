@@ -166,7 +166,9 @@ public class ParserWikiText extends Parser {
             if (cellsHead[i].contains("|")) { // delete the tags before the columns names
                 String[] separator2 = cellsHead[i].split("\\| ");
                 // Matcher matcher = Pattern.compile(REGEX_COLSPAN).matcher(separator2[0]);
-                cellsHead[i] = separator2[1];
+                if(separator2.length > 1){
+                    cellsHead[i] = separator2[1];
+                }
                 cellsHead[i] = handleCommasInData(cellsHead[i]);
 //                if (matcher.matches()) {
 //                    int colspan = Integer.parseInt(matcher.group(1));
