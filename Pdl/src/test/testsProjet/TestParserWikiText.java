@@ -2,10 +2,11 @@ package testsProjet;
 
 import model.ParserWikiText;
 import model.Table;
-import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
 
 import static org.junit.Assert.assertEquals;
 
@@ -33,52 +34,53 @@ public class TestParserWikiText {
      */
 
     //tests tableaux
+
     /**
      * Pas de tableau dans la page
      */
     @Test
-    public void testParseWikiTextNoTab(){
+    public void testParseWikiTextNoTab() {
         urlWikiText = "https://en.wikipedia.org/w/index.php?title=Kyrkjedalshalsen_Saddle&action=edit";
         pwt = new ParserWikiText();
         pwt.setUrlWikiText(urlWikiText);
         ArrayList<Table> tabs = pwt.parseWikiText();
-        assertEquals("on a 0 tab", 0,tabs.size(),tabs.size());
+        assertEquals("On devrait avoir 0 tableau", 0, tabs.size(), tabs.size());
     }
 
     /**
      * Test si 1 tab dans la page
      */
     @Test
-    public void testParseWikiText1Tab(){
+    public void testParseWikiText1Tab() {
         urlWikiText = "https://en.wikipedia.org/w/index.php?title=Comparison_of_Chernobyl_and_other_radioactivity_releases&action=edit";
         pwt = new ParserWikiText();
         pwt.setUrlWikiText(urlWikiText);
         ArrayList<Table> tabs = pwt.parseWikiText();
-        assertEquals("on a 1 tab", 1, tabs.size());
+        assertEquals("On devrait avoir 1 tableau", 1, tabs.size());
     }
 
     /**
      * Test si plusieurs tab dans la page
      */
     @Test
-    public void testParseWikiText8Tab(){
+    public void testParseWikiText8Tab() {
         urlWikiText = "https://en.wikipedia.org/w/index.php?title=Comparison_between_Esperanto_and_Ido&action=edit";
         pwt = new ParserWikiText();
         pwt.setUrlWikiText(urlWikiText);
         ArrayList<Table> tabs = pwt.parseWikiText();
-        assertEquals("on a 8 tab", 8, tabs.size());
+        assertEquals("On devrait avoir 8 tableaux", 8, tabs.size());
     }
 
     /**
      * Tableau sans la mention wikitable : pas de tableau retourne
      */
     @Test
-    public void testParseWikiTextSsWikitable(){
+    public void testParseWikiTextSsWikitable() {
         urlWikiText = "https://en.wikipedia.org/w/index.php?title=2011_Intersport_Heilbronn_Open_%E2%80%93_Singles&action=edit";
         pwt = new ParserWikiText();
         pwt.setUrlWikiText(urlWikiText);
         ArrayList<Table> tabs = pwt.parseWikiText();
-        assertEquals("on a 0 tab", 0, tabs.size());
+        assertEquals("On devrait avoir 0 tableau", 0, tabs.size());
     }
 
     /**
@@ -91,7 +93,7 @@ public class TestParserWikiText {
         pwt = new ParserWikiText();
         pwt.setUrlWikiText(urlWikiText);
         ArrayList<Table> tabs = pwt.parseWikiText();
-        assertEquals("on a 0 tab", 0, tabs.size());
+        assertEquals("On devrait avoir 0 tableau", 0, tabs.size());
     }
     */
 
@@ -105,60 +107,61 @@ public class TestParserWikiText {
         pwt = new ParserWikiText();
         pwt.setUrlWikiText(urlWikiText);
         ArrayList<Table> tabs = pwt.parseWikiText();
-        assertEquals("on a 0 tab", 0, tabs.size());
+        assertEquals("On devrait avoir 0 tableau", 0, tabs.size());
     }
     */
 
     //Tests lignes
+
     /**
      * Test nb de ligne dans une page avec un tab
      */
     @Test
-    public void testParseWikiTextNbLign1(){
+    public void testParseWikiTextNbLign1() {
         urlWikiText = "https://en.wikipedia.org/w/index.php?title=Comparison_of_Chernobyl_and_other_radioactivity_releases&action=edit";
         pwt = new ParserWikiText();
         pwt.setUrlWikiText(urlWikiText);
         ArrayList<Table> tabs = pwt.parseWikiText();
-        int nbligne =0;
+        int nbligne = 0;
         for (Table tab : tabs
-             ) {
+        ) {
             nbligne = tab.getContent().size();
         }
-        assertEquals("on a 5 lignes", 5, nbligne);
+        assertEquals("On devrait avoir 5 lignes", 5, nbligne);
     }
 
     /**
      * Test nb de ligne dans une page avec un tab avec lignes regroupees
      */
     @Test
-    public void testParseWikiTextNbLign2(){
+    public void testParseWikiTextNbLign2() {
         urlWikiText = "https://en.wikipedia.org/w/index.php?title=Turn-To&action=edit";
         pwt = new ParserWikiText();
         pwt.setUrlWikiText(urlWikiText);
         ArrayList<Table> tabs = pwt.parseWikiText();
-        int nbligne =0;
+        int nbligne = 0;
         for (Table tab : tabs
         ) {
             nbligne = tab.getContent().size();
         }
-        assertEquals("on a 16 lignes", 16, nbligne);
+        assertEquals("On devrait avoir 16 lignes", 16, nbligne);
     }
 
     /**
      * Test nb de ligne dans une page avec un tab avec colonnes regroupees
      */
     @Test
-    public void testParseWikiTextNbLign3(){
+    public void testParseWikiTextNbLign3() {
         urlWikiText = "https://en.wikipedia.org/w/index.php?title=Shinichi_Kawano&action=edit&editintro=Template:BLP_editintro";
         pwt = new ParserWikiText();
         pwt.setUrlWikiText(urlWikiText);
         ArrayList<Table> tabs = pwt.parseWikiText();
-        int nbligne =0;
+        int nbligne = 0;
         for (Table tab : tabs
         ) {
             nbligne = tab.getContent().size();
         }
-        assertEquals("on a 9 lignes", 9, nbligne);
+        assertEquals("On devrait avoir 9 lignes", 9, nbligne);
     }
 
     //TestsCells
@@ -166,17 +169,66 @@ public class TestParserWikiText {
      * Test nb de cell dans une page avec un tab
      */
     @Test
-    public void testParseWikiTextNbCell1(){
+    public void testParseWikiTextNbCell1() {
         urlWikiText = "https://en.wikipedia.org/w/index.php?title=Comparison_of_Chernobyl_and_other_radioactivity_releases&action=edit";
         pwt = new ParserWikiText();
         pwt.setUrlWikiText(urlWikiText);
         ArrayList<Table> tabs = pwt.parseWikiText();
-        int nbcell =0;
-        for (Table tab : tabs
-        ) {
-            nbcell = tab.getContent().values().size();
+        Iterator it;
+        int nbcell = 0;
+        for (Table tab : tabs) {
+            it = tab.getContent().values().iterator();
+            while (it.hasNext()) {
+                String[] cells = (String[]) it.next();
+                nbcell += cells.length;
+            }
         }
-        assertEquals("on a 10 cellules", 10, nbcell);
+        //System.out.println(bool);
+        assertEquals("On devrait avoir 10 cellules", 10, nbcell);
+    }
+
+    /**
+     * Test nb de cell dans une page avec un tab avec lignes regroupées
+     */
+    @Test
+    public void testParseWikiTextNbCell2() {
+        urlWikiText = "https://en.wikipedia.org/w/index.php?title=Turn-To&action=edit";
+        pwt = new ParserWikiText();
+        pwt.setUrlWikiText(urlWikiText);
+        ArrayList<Table> tabs = pwt.parseWikiText();
+        Iterator it;
+        int nbcell = 0;
+        for (Table tab : tabs) {
+            it = tab.getContent().values().iterator();
+            while (it.hasNext()) {
+                String[] cells = (String[]) it.next();
+                nbcell += cells.length;
+            }
+        }
+        //System.out.println(bool);
+        assertEquals("On devrait avoir 30 cellules", 30, nbcell);
+    }
+
+    /**
+     * Test nb de cell dans une page avec un tab avec colonnes regroupées
+     */
+    @Test
+    public void testParseWikiTextNbCell3() {
+        urlWikiText = "https://en.wikipedia.org/w/index.php?title=Shinichi_Kawano&action=edit&editintro=Template:BLP_editintro";
+        pwt = new ParserWikiText();
+        pwt.setUrlWikiText(urlWikiText);
+        ArrayList<Table> tabs = pwt.parseWikiText();
+        Iterator it;
+        int nbcell = 0;
+        for (Table tab : tabs) {
+            it = tab.getContent().values().iterator();
+            while (it.hasNext()) {
+                String[] cells = (String[]) it.next();
+                nbcell += cells.length;
+            }
+        }
+        //System.out.println(bool);
+        assertEquals("On devrait avoir 30 cellules", 79, nbcell);
     }
 
 

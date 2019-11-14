@@ -1,6 +1,5 @@
 package testsProjet;
 
-import model.Parser;
 import model.Table;
 import org.jsoup.nodes.Document;
 import org.junit.Test;
@@ -17,7 +16,6 @@ import static org.junit.Assert.assertEquals;
 
 public class TestParserHTML {
 
-    Parser pars = new Parser() ;
 
     /**
      * Creation of test url and test titles
@@ -152,48 +150,45 @@ public class TestParserHTML {
      */
     @Test
     public void testGetTablesFromPageURLlink(){
-       Document pageHTML = pars.getPageFromUrl(url);
-
-        p.getHtmlPage();
+       //Document pageHTML = pars.getPageFromUrl(url);
+        p.setUrlHtml(url);
+        //p.getHtmlPage();
         ArrayList<String> result = p.getTablesFromPage(codeDeuxTablesHTML2);
         assertEquals(1,result.size());
     }
 
     /**
-     * @return
-     *Check ce qu'on a attend
+     * @return comas and quotes have to be between ""
+     * code ne fonctionne pas
      */
     @Test
     public void testEscapeComasAndQuotes(){
-        p.escapeComasAndQuotes(data);
-        System.out.println(p.escapeComasAndQuotes(data));
-
+        String test = "hsqbvioysggfvo-\"\"':  ;fhvyd\"'_";
+        System.out.println(p.escapeComasAndQuotes(test));
+        assertEquals("\"hsqbvioysggfvo-\"\"\"\"':  ;fhvyd\"\"'_\"",p.escapeComasAndQuotes(test));
     }
 
     /**
      * @return
-     *à vérifier
-     * Recupère que ce qu'il y a entre les tr
+     * Ne fonctionne pas
      */
     @Test
     public void testGetRowsFromTable(){
-        ArrayList<String> result = p.getRowsFromTable(row);
+        ArrayList<String> result = p.getRowsFromTable(codeDeuxTablesHTML);
         System.out.println(result);
         //assertEquals(10,result.size());
 
     }
 
 
-
-
     /**
      * @return
-     *Coupe à des endroits bizarre dc trouve un nombre elevé à vérifier
+     * Ne fonctionne pas 
      * recupere que ce quil y a entre les th
      */
     @Test
     public void testGetCellsFromRow(){
-        ArrayList<String> result = p.getCellsFromRow(row);
+        ArrayList<String> result = p.getCellsFromRow(codeDeuxTablesHTML);
         System.out.println(result);
         //assertEquals(10,result.size());
 
