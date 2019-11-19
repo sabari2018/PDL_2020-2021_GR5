@@ -186,10 +186,10 @@ public class ParserHTML extends Parser {
     public String escapeComasAndQuotes(String data) {
         String escapedData = data;
 
-        if (data.contains("\"")) {
-            escapedData.replaceAll("\"", "\"\"");
+        if (escapedData.contains("\"")) {
+            escapedData = escapedData.replaceAll("\"", "\"\"");
         }
-        if (data.contains(",") || data.contains("\"")) {
+        if (escapedData.contains(",") || escapedData.contains("\"")) {
             escapedData = "\"" + escapedData + "\"";
         }
         return escapedData;
