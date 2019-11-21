@@ -53,6 +53,14 @@ public class Table {
     }
 
     /**
+     *
+     * @param content new content
+     */
+    public void setContent(HashMap<Integer, String[]> content) {
+        this.content = content;
+    }
+
+    /**
      * @return Wikipedia title page
      */
     public String getTitle() {
