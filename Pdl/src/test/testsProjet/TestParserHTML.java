@@ -1,10 +1,12 @@
 package testsProjet;
 
 import model.Table;
-import org.jsoup.nodes.Document;
-import org.junit.Test;
+//import org.jsoup.nodes.Document;
+
 
 import model.ParserHTML;
+import org.junit.Test;
+//import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 
@@ -19,7 +21,7 @@ public class TestParserHTML {
 
     /**
      * Creation of test url and test titles
-    */
+     */
 
     ParserHTML p = new ParserHTML();
 
@@ -46,14 +48,14 @@ public class TestParserHTML {
      * Contains 2 tables in wikitable class
      */
     String codeDeuxTablesHTML = "<table class=\"wikitable\">" +
-            "<tbody><tr><th colspan=\"2\">Esperanto</th>" +
+            "<tbody><tr><th colspan=\"2\">tableau 1</th>" +
             "<th colspan=\"2\">Interlingua</th><th rowspan=\"2\">English</th></tr><tr><th>Preferred form" +
             "</th><th>Alternative form</th><th>Preferred Form</th><th>Alternative form</th></tr><tr>" +
             "<td colspan=\"2\"><b>san</b>a</td><td colspan=\"2\"><b>san</b></td><td>healthy" +
             "</td></tr>" +"</tbody></table>"+
             "<p>Blablabla</p>"+
-            "<table class=\"wikitable\"><tbody><tr><th>Aspect</th><th style=\"width: 40%\">Esperanto"+
-             "</th><th style=\"width: 40%\">Interlingua</th></tr><tr><th>Type</th><td>"+
+            "<table class=\"wikitable\"><tbody><tr><th>Tableau 2</th><th style=\"width: 40%\">tableau 2"+
+            "</th><th style=\"width: 40%\">Interlingua</th></tr><tr><th>Type</th><td>"+
             "<a href=\"/wiki/Constructed_language#Schematic_languages\" title=\"Constructed language\">"+
             "schematic</a>;<br />designed to be easy to learn</td><td>"+
             "<a href=\"/wiki/Constructed_language#Naturalistic_languages\" title=\"Constructed language\">"+
@@ -77,14 +79,48 @@ public class TestParserHTML {
             "naturalistic</a>;<br />designed to be easy to understand to as many people as possible"+
             "</td></tr>";
 
-    String data = "a,b,c";
-
-    String row = "<tr><th colspan=\"2\">Esperanto</th><th colspan=\"2\">Interlingua</th>" +
+    String row = "<tr><th colspan=\"2\">row 1</th><th colspan=\"2\">Interlingua</th>" +
             "<th rowspan=\"2\">English</th></tr><tr><th>Preferred form</th><th>Alternative form</th>" +
             "<th>Preferred Form</th><th>Alternative form</th></tr><tr><td colspan=\"2\"><b>san</b>a" +
             "</td><td colspan=\"2\"><b>san</b></td><td>healthy</td></tr>";
 
-
+    String htmlInTable = "<table class=\"wikitable\">\n" +
+            "<caption>Structure d’un document HTML\n" +
+            "</caption>\n" +
+            "<tbody><tr>\n" +
+            "<th scope=\"col\">Source HTML\n" +
+            "</th>\n" +
+            "<th scope=\"col\">Modèle du document\n" +
+            "</th></tr>\n" +
+            "<tr>\n" +
+            "<td><div class=\"mw-highlight mw-content-ltr\" dir=\"ltr\"><pre><span></span><span class=\"cp\">&lt;!DOCTYPE html PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt;</span>\n" +
+            "<span class=\"p\">&lt;</span><span class=\"nt\">html</span><span class=\"p\">&gt;</span>\n" +
+            " <span class=\"p\">&lt;</span><span class=\"nt\">head</span><span class=\"p\">&gt;</span>\n" +
+            "  <span class=\"p\">&lt;</span><span class=\"nt\">title</span><span class=\"p\">&gt;</span>\n" +
+            "   Exemple de HTML\n" +
+            "  <span class=\"p\">&lt;/</span><span class=\"nt\">title</span><span class=\"p\">&gt;</span>\n" +
+            " <span class=\"p\">&lt;/</span><span class=\"nt\">head</span><span class=\"p\">&gt;</span>\n" +
+            " <span class=\"p\">&lt;</span><span class=\"nt\">body</span><span class=\"p\">&gt;</span>\n" +
+            "  Ceci est une phrase avec un <span class=\"p\">&lt;</span><span class=\"nt\">a</span> <span class=\"na\">href</span><span class=\"o\">=</span><span class=\"s\">&quot;cible.html&quot;</span><span class=\"p\">&gt;</span>hyperlien<span class=\"p\">&lt;/</span><span class=\"nt\">a</span><span class=\"p\">&gt;</span>.\n" +
+            "  <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n" +
+            "   Ceci est un paragraphe où il n’y a pas d’hyperlien.\n" +
+            "  <span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n" +
+            " <span class=\"p\">&lt;/</span><span class=\"nt\">body</span><span class=\"p\">&gt;</span>\n" +
+            "<span class=\"p\">&lt;/</span><span class=\"nt\">html</span><span class=\"p\">&gt;</span>\n" +
+            "</pre></div>\n" +
+            "</td>\n" +
+            "<td>\n" +
+            "<div style=\"padding:0 0.25em;border:1px solid #393\">\n" +
+            "<p>html\n" +
+            "</p>\n" +
+            "<div style=\"padding:0 0.25em;margin:0.25em;margin-left:1em;border:1px solid #393\">\n" +
+            "<p>head\n" +
+            "</p>\n" +
+            "<div style=\"padding:0 0.25em;margin:0.25em;margin-left:1em;border:1px solid #393\">\n" +
+            "<p>title\n" +
+            "</p>\n" +
+            "</div>\n" +
+            "</td></tr></tbody></table>";
     /**
      * @return the contents tables of this page and its number
      * 1 line = the contents of 1 cell
@@ -145,55 +181,61 @@ public class TestParserHTML {
 
     /**
      * @return the number of tables into the HTML code
-     * Expected 1 table
-     * TODO tester avec un lien URL
+     * Expected 3 tables
      */
-    @Test
+   /* @Test
     public void testGetTablesFromPageURLlink(){
-       //Document pageHTML = pars.getPageFromUrl(url);
-        p.setUrlHtml(url);
-        //p.getHtmlPage();
-        ArrayList<String> result = p.getTablesFromPage(codeDeuxTablesHTML2);
-        assertEquals(1,result.size());
-    }
+        String html_page = p.getHtmlPage(); //ajouter un url temporaire dans gethtmlpage
+        //System.out.println(p.getHtmlPage());
+        ArrayList<String> result = p.getTablesFromPage(html_page);
+        assertEquals(3,result.size());
+    }*/
 
     /**
-     * @return comas and quotes have to be between ""
-     * code ne fonctionne pas
+     * @return the test have to be between "" and a " are doubled
      */
     @Test
     public void testEscapeComasAndQuotes(){
-        String test = "hsqbvioysggfvo-\"\"':  ;fhvyd\"'_";
+        String test = "\",sfg\"\"dfg_,rf,\"fi\"':";
         System.out.println(p.escapeComasAndQuotes(test));
-        assertEquals("\"hsqbvioysggfvo-\"\"\"\"':  ;fhvyd\"\"'_\"",p.escapeComasAndQuotes(test));
+        assertEquals("\"\"\",sfg\"\"\"\"dfg_,rf,\"\"fi\"\"':\"",p.escapeComasAndQuotes(test));
     }
 
     /**
-     * @return
-     * Ne fonctionne pas
+     * @return all code between <tr></tr> in a table
      */
     @Test
     public void testGetRowsFromTable(){
-        ArrayList<String> result = p.getRowsFromTable(codeDeuxTablesHTML);
+        ArrayList<String> result = p.getRowsFromTable(codeTableHTML);
         System.out.println(result);
-        //assertEquals(10,result.size());
+        assertEquals(3,result.size());
 
     }
 
 
     /**
-     * @return
-     * Ne fonctionne pas 
-     * recupere que ce quil y a entre les th
+     * @return 10 cells contains
+     * only 1 line can be analyze
      */
     @Test
     public void testGetCellsFromRow(){
-        ArrayList<String> result = p.getCellsFromRow(codeDeuxTablesHTML);
+        ArrayList<String> result = p.getCellsFromRow(row);
         System.out.println(result);
-        //assertEquals(10,result.size());
+        assertEquals(10,result.size());
 
     }
 
+
+    /**
+     * @return 10 contenus de cellules
+     * ne travail que sur seule ligne à la fois
+     */
+    @Test
+    public void testParseSourceCodeExamples(){
+        String result = p.parseSourceCodeExamples(htmlInTable);
+        System.out.println(result);
+        //assertEquals(10,result.size());
+    }
 
     /**
      * Tests parser html :
