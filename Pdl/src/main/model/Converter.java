@@ -1,6 +1,7 @@
 package model;
 
 import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
@@ -13,6 +14,15 @@ import java.util.Map;
 public class Converter {
 
     private File csvConvertFile;
+
+    public Converter () {
+        File dirOutput = new File(System.getProperty("user.dir")+File.separator+"output");
+        dirOutput.mkdirs();
+        File dirHTML = new File(System.getProperty("user.dir")+File.separator+"output"+File.separator+"html");
+        dirHTML.mkdirs();
+        File dirWiki = new File(System.getProperty("user.dir")+File.separator+"output"+ File.separator+"wikitext");
+        dirWiki.mkdirs();
+    }
 
     /**
      * Converts a Table to a CSV file

@@ -4,8 +4,6 @@ import model.Converter;
 import model.ProcessWikiUrl;
 import model.Table;
 import org.junit.*;
-
-import javax.swing.*;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -15,14 +13,16 @@ import java.util.*;
 public class TestConverter {
 
         private static HashMap<Table, File> results;
-        private Converter converter;
+        private static Converter converter;
 
         @BeforeClass
         public static void setUp () {
            //Récupérer toutes les Tables extraites et leur associé leur CSV
-            Converter converter = new Converter();
+            converter = new Converter();
             ProcessWikiUrl processWikiUrl = new ProcessWikiUrl();
-            processWikiUrl.parseWikiText();
+            processWikiUrl.addWikiUrlFromFile("wikiurls", false, "en");
+            processWikiUrl.parseHTML();
+           // processWikiUrl.parseWikiText();
             List<Table> tableWiki = processWikiUrl.getListTable();
             results = new HashMap<Table, File>();
             File file;
@@ -31,9 +31,7 @@ public class TestConverter {
                 file = converter.getCsvConvertFile();
                 results.put(table,file);
             }
-            System.out.println(results.size());
         }
-
 
         @Test
         public void testFileIsCreated () {
@@ -46,13 +44,13 @@ public class TestConverter {
             }
         }
 
-        @Test
+       @Test
         public void checkNbRows () {
             for (Map.Entry<Table, File> entry : results.entrySet()){
                 Table table = entry.getKey();
                 File file = entry.getValue();
                 String message = "Le nombre de ligne du tableau n°"+table.getNumTable()+" de la page "+table.getTitle()+
-                        "pour l'extraction de type "+table.getExtractionType()+ "ne correspond pas";
+                        " pour l'extraction de type "+table.getExtractionType()+ " ne correspond pas";
                 Assert.assertEquals(message, getNbRowsInTheTable(table), getNbRowsInTheCSV(file));
             }
         }
@@ -63,7 +61,7 @@ public class TestConverter {
                 Table table = entry.getKey();
                 File file = entry.getValue();
                 String message = "Le nombre de colonne du tableau n°"+table.getNumTable()+" de la page "+table.getTitle()+
-                        "pour l'extraction de type "+table.getExtractionType()+ "ne correspond pas";
+                        " pour l'extraction de type "+table.getExtractionType()+ " ne correspond pas";
                 Assert.assertEquals(message, getNbColumnInTheTable(table), getNbColumnsInTheCSV(file));
             }
         }
@@ -84,7 +82,7 @@ public class TestConverter {
             return table.getContent().size();
         }
 
-        private int getNbRowsInTheCSV (File file) {
+        private static int getNbRowsInTheCSV (File file) {
             int nbRows = 0;
             try {
                 FileReader f = new FileReader(file);
@@ -92,6 +90,7 @@ public class TestConverter {
                 String line = buffered.readLine();
                 while (line != null) {
                     nbRows ++;
+                    line = buffered.readLine();
                 }
                 buffered.close();
             }
@@ -122,7 +121,9 @@ public class TestConverter {
 
         @AfterClass
         public static void deleteFile () {
-           /* fileHTML.delete();
-            fileWikiText.delete();*/
+            for (Map.Entry<Table, File> entry : results.entrySet()){
+                File file = entry.getValue();
+                file.delete();
+            }
         }
 }
