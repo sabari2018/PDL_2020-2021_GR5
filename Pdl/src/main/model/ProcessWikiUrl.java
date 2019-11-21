@@ -137,7 +137,8 @@ public class ProcessWikiUrl {
         System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_");
         System.out.println("Starting convertion to CSV");
         for(int i = 0; i < listTable.size(); i++){
-            converter.convertToCSV(listTable.get(i));
+            boolean isCreated = converter.convertToCSV(listTable.get(i));
+            System.out.println("Table "+ listTable.get(i).getTitle() +" a été convertie : "+isCreated);
         }
         System.out.println("Convertion ended");
     }

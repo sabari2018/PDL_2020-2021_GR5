@@ -20,10 +20,11 @@ public class TestConverter {
            //Récupérer toutes les Tables extraites et leur associé leur CSV
             converter = new Converter();
             ProcessWikiUrl processWikiUrl = new ProcessWikiUrl();
-            processWikiUrl.addWikiUrlFromFile("wikiurls", false, "en");
+            processWikiUrl.addWikiUrlFromFile("test", false, "en");
             processWikiUrl.parseHTML();
            // processWikiUrl.parseWikiText();
             List<Table> tableWiki = processWikiUrl.getListTable();
+
             results = new HashMap<Table, File>();
             File file;
             for (Table table : tableWiki) {
@@ -35,45 +36,89 @@ public class TestConverter {
 
         @Test
         public void testFileIsCreated () {
+            int nbFileFilled = 0;
+            ArrayList<String> messageErrors = new ArrayList<String>();
+            String message;
+
             for (Map.Entry<Table, File> entry : results.entrySet()){
                 Table table = entry.getKey();
                 File file = entry.getValue();
-                String message = "Le fichier csv pour la page "+ table.getTitle()+"n'a pas été rempli et le tableau n°"
-                        + table.getNumTable() + "pour l'extraction de type "+ table.getExtractionType();
-                Assert.assertTrue(message,converter.fileIsFilled(file));
+
+                if (converter.fileIsFilled(file)) {
+                    nbFileFilled ++;
+                }
+                else {
+                    message = "Le fichier csv pour la page "+ table.getTitle()+"n'a pas été rempli et le tableau n°"
+                            + table.getNumTable() + "pour l'extraction de type "+ table.getExtractionType();
+                    messageErrors.add(message);
+                }
             }
+            for (String error : messageErrors) {
+                System.out.println(error);
+            }
+            Assert.assertEquals ("Tous les fichiers n'ont pas été remplis, "+nbFileFilled+ " ont été remplis sur "+results.size(),results.size(), nbFileFilled);
+
         }
 
        @Test
         public void checkNbRows () {
+           int nbFileCorrect = 0;
+           ArrayList<String> messageErrors = new ArrayList<String>();
+           String message;
+
             for (Map.Entry<Table, File> entry : results.entrySet()){
                 Table table = entry.getKey();
                 File file = entry.getValue();
-                String message = "Le nombre de ligne du tableau n°"+table.getNumTable()+" de la page "+table.getTitle()+
-                        " pour l'extraction de type "+table.getExtractionType()+ " ne correspond pas";
-                Assert.assertEquals(message, getNbRowsInTheTable(table), getNbRowsInTheCSV(file));
+
+                if (getNbRowsInTheTable(table) == getNbRowsInTheCSV(file)) {
+                    nbFileCorrect ++;
+                }
+                else {
+                    message = "Le nombre de ligne du tableau n°"+table.getNumTable()+" de la page "+table.getTitle()+
+                            " pour l'extraction de type "+table.getExtractionType()+ " ne correspond pas";
+                    messageErrors.add(message);
+                }
             }
+           for (String error : messageErrors) {
+               System.out.println(error);
+           }
+            Assert.assertEquals("Tout les fichiers ne contienent pas le bon nombre de lignes : "+nbFileCorrect+
+                                                " contiennent le bon nombre de lignes sur "+results.size(),results.size(), nbFileCorrect);
         }
 
         @Test
         public void checkNbColumn () {
+            int nbFileCorrect = 0;
+            ArrayList<String> messageErrors = new ArrayList<String>();
+            String message;
+
             for (Map.Entry<Table, File> entry : results.entrySet()){
                 Table table = entry.getKey();
                 File file = entry.getValue();
-                String message = "Le nombre de colonne du tableau n°"+table.getNumTable()+" de la page "+table.getTitle()+
-                        " pour l'extraction de type "+table.getExtractionType()+ " ne correspond pas";
-                Assert.assertEquals(message, getNbColumnInTheTable(table), getNbColumnsInTheCSV(file));
+
+                if (getNbColumnInTheTable(table).containsAll(getNbColumnsInTheCSV(file))) {
+                    nbFileCorrect ++;
+                }
+                else {
+                    message = "Le nombre de colonne du tableau n°"+table.getNumTable()+" de la page "+table.getTitle()+
+                            " pour l'extraction de type "+table.getExtractionType()+ " ne correspond pas";
+                    messageErrors.add(message);
+                }
             }
+            for (String error : messageErrors) {
+                System.out.println(error);
+            }
+            Assert.assertEquals("Tout les fichiers ne contienent pas le bon nombre de colonnes: "+nbFileCorrect+
+                    " contiennent le bon nombre de colonnes sur "+results.size(),results.size(), nbFileCorrect);
         }
 
-        private int getNbColumnInTheTable (Table table) {
-            int nbColumn = 0;
+        private ArrayList getNbColumnInTheTable (Table table) {
+            ArrayList<Integer> nbColumn = new ArrayList<Integer>();
             HashMap<Integer, String []> content = table.getContent();
 
             for (Map.Entry entry : content.entrySet()) {
                 String [] row = (String[]) entry.getValue();
-                nbColumn = row.length;
-                break;
+                nbColumn.add(row.length);
             }
             return nbColumn;
         }
@@ -100,15 +145,16 @@ public class TestConverter {
             return nbRows;
         }
 
-        private int getNbColumnsInTheCSV (File file) {
-            int nbColumns = 0;
+        private ArrayList getNbColumnsInTheCSV (File file) {
+            ArrayList<Integer> nbColumns = new ArrayList<Integer>();
 
             try {
                 FileReader f = new FileReader(file);
                 BufferedReader buffered = new BufferedReader(f);
                 String line = buffered.readLine();
-                if (line != null) {
-                    nbColumns = line.split(",").length;
+                while (line != null) {
+                    nbColumns.add(line.split(",").length);
+                    line = buffered.readLine();
                 }
                 buffered.close();
             }
@@ -118,12 +164,12 @@ public class TestConverter {
 
             return nbColumns;
         }
-
+/*
         @AfterClass
         public static void deleteFile () {
             for (Map.Entry<Table, File> entry : results.entrySet()){
                 File file = entry.getValue();
                 file.delete();
             }
-        }
+        }*/
 }
