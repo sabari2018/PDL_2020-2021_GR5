@@ -21,7 +21,7 @@ public class TestParserHTML {
 
     /**
      * Creation of test url and test titles
-    */
+     */
 
     ParserHTML p = new ParserHTML();
 
@@ -55,7 +55,7 @@ public class TestParserHTML {
             "</td></tr>" +"</tbody></table>"+
             "<p>Blablabla</p>"+
             "<table class=\"wikitable\"><tbody><tr><th>Tableau 2</th><th style=\"width: 40%\">tableau 2"+
-             "</th><th style=\"width: 40%\">Interlingua</th></tr><tr><th>Type</th><td>"+
+            "</th><th style=\"width: 40%\">Interlingua</th></tr><tr><th>Type</th><td>"+
             "<a href=\"/wiki/Constructed_language#Schematic_languages\" title=\"Constructed language\">"+
             "schematic</a>;<br />designed to be easy to learn</td><td>"+
             "<a href=\"/wiki/Constructed_language#Naturalistic_languages\" title=\"Constructed language\">"+
@@ -84,7 +84,7 @@ public class TestParserHTML {
             "<th>Preferred Form</th><th>Alternative form</th></tr><tr><td colspan=\"2\"><b>san</b>a" +
             "</td><td colspan=\"2\"><b>san</b></td><td>healthy</td></tr>";
 
-    String parseToHtml = "<table class=\"wikitable\">\n" +
+    String htmlInTable = "<table class=\"wikitable\">\n" +
             "<caption>Structure d’un document HTML\n" +
             "</caption>\n" +
             "<tbody><tr>\n" +
@@ -181,21 +181,18 @@ public class TestParserHTML {
 
     /**
      * @return the number of tables into the HTML code
-     * Expected 1 table
-     * TODO tester avec un lien URL
+     * Expected 3 tables
      */
-    @Test
+   /* @Test
     public void testGetTablesFromPageURLlink(){
-       //Document pageHTML = pars.getPageFromUrl(url);
-        p.setUrlHtml(url);
-        //p.getHtmlPage();
-        ArrayList<String> result = p.getTablesFromPage(codeDeuxTablesHTML2);
-        assertEquals(1,result.size());
-    }
+        String html_page = p.getHtmlPage(); //ajouter un url temporaire dans gethtmlpage
+        //System.out.println(p.getHtmlPage());
+        ArrayList<String> result = p.getTablesFromPage(html_page);
+        assertEquals(3,result.size());
+    }*/
 
     /**
-     * @return comas and quotes have to be between ""
-     * code ne fonctionne pas
+     * @return the test have to be between "" and a " are doubled
      */
     @Test
     public void testEscapeComasAndQuotes(){
@@ -205,8 +202,7 @@ public class TestParserHTML {
     }
 
     /**
-     * @return
-     * Ne fonctionne pas
+     * @return all code between <tr></tr> in a table
      */
     @Test
     public void testGetRowsFromTable(){
@@ -218,8 +214,8 @@ public class TestParserHTML {
 
 
     /**
-     * @return 10 contenus de cellules
-     * ne travail que sur seule ligne à la fois
+     * @return 10 cells contains
+     * only 1 line can be analyze
      */
     @Test
     public void testGetCellsFromRow(){
@@ -236,10 +232,9 @@ public class TestParserHTML {
      */
     @Test
     public void testParseSourceCodeExamples(){
-        String result = p.parseSourceCodeExamples(parseToHtml);
+        String result = p.parseSourceCodeExamples(htmlInTable);
         System.out.println(result);
         //assertEquals(10,result.size());
-
     }
 
     /**
