@@ -21,14 +21,14 @@ public class TestParserHTML {
 
     /**
      * Creation of test url and test titles
-    */
+     */
 
     ParserHTML p = new ParserHTML();
 
     /**
      * URL
      */
-    String url = "https://en.wikipedia.org/wiki/Comparison_between_Esperanto_and_Interlingua";
+    String url = "https://en.wikipedia.org/wiki/Comparison_between_Esperanto_and_Ido";
     String urlTree = "https://en.wikipedia.org/wiki/2011_Intersport_Heilbronn_Open_%E2%80%93_Singles";
 
     /**
@@ -55,7 +55,7 @@ public class TestParserHTML {
             "</td></tr>" +"</tbody></table>"+
             "<p>Blablabla</p>"+
             "<table class=\"wikitable\"><tbody><tr><th>Tableau 2</th><th style=\"width: 40%\">tableau 2"+
-             "</th><th style=\"width: 40%\">Interlingua</th></tr><tr><th>Type</th><td>"+
+            "</th><th style=\"width: 40%\">Interlingua</th></tr><tr><th>Type</th><td>"+
             "<a href=\"/wiki/Constructed_language#Schematic_languages\" title=\"Constructed language\">"+
             "schematic</a>;<br />designed to be easy to learn</td><td>"+
             "<a href=\"/wiki/Constructed_language#Naturalistic_languages\" title=\"Constructed language\">"+
@@ -79,12 +79,12 @@ public class TestParserHTML {
             "naturalistic</a>;<br />designed to be easy to understand to as many people as possible"+
             "</td></tr>";
 
-    String row = "<tr><th colspan=\"2\">row 1</th><th colspan=\"2\">Interlingua</th>" +
-            "<th rowspan=\"2\">English</th></tr><tr><th>Preferred form</th><th>Alternative form</th>" +
-            "<th>Preferred Form</th><th>Alternative form</th></tr><tr><td colspan=\"2\"><b>san</b>a" +
-            "</td><td colspan=\"2\"><b>san</b></td><td>healthy</td></tr>";
+    String row = "<th colspan=\"2\">row 1, cell 1</th>"+
+                 "<td>cell 2</td>" +
+                 "<td rowspan=\"2\">\"cell 3\"</td>";
 
-    String parseToHtml = "<table class=\"wikitable\">\n" +
+
+    /*String htmlInTable = "<table class=\"wikitable\">\n" +
             "<caption>Structure d’un document HTML\n" +
             "</caption>\n" +
             "<tbody><tr>\n" +
@@ -120,7 +120,9 @@ public class TestParserHTML {
             "<p>title\n" +
             "</p>\n" +
             "</div>\n" +
-            "</td></tr></tbody></table>";
+            "</td></tr></tbody></table>";*/
+
+
     /**
      * @return the contents tables of this page and its number
      * 1 line = the contents of 1 cell
@@ -131,7 +133,7 @@ public class TestParserHTML {
     public void testParseHtml(){
         p.setUrlHtml(url);
         ArrayList<Table> result = p.parseHtml();
-        assertEquals(3,result.size());
+        assertEquals(8,result.size());
     }
 
 
@@ -181,21 +183,18 @@ public class TestParserHTML {
 
     /**
      * @return the number of tables into the HTML code
-     * Expected 1 table
-     * TODO tester avec un lien URL
+     * Expected 3 tables
      */
-    @Test
+   /* @Test
     public void testGetTablesFromPageURLlink(){
-       //Document pageHTML = pars.getPageFromUrl(url);
-        p.setUrlHtml(url);
-        //p.getHtmlPage();
-        ArrayList<String> result = p.getTablesFromPage(codeDeuxTablesHTML2);
-        assertEquals(1,result.size());
-    }
+        String html_page = p.getHtmlPage(); //ajouter un url temporaire dans gethtmlpage
+        //System.out.println(p.getHtmlPage());
+        ArrayList<String> result = p.getTablesFromPage(html_page);
+        assertEquals(3,result.size());
+    }*/
 
     /**
-     * @return comas and quotes have to be between ""
-     * code ne fonctionne pas
+     * @return the test have to be between "" and a " are doubled
      */
     @Test
     public void testEscapeComasAndQuotes(){
@@ -205,8 +204,7 @@ public class TestParserHTML {
     }
 
     /**
-     * @return
-     * Ne fonctionne pas
+     * @return all code between <tr></tr> in a table
      */
     @Test
     public void testGetRowsFromTable(){
@@ -218,29 +216,17 @@ public class TestParserHTML {
 
 
     /**
-     * @return 10 contenus de cellules
-     * ne travail que sur seule ligne à la fois
+     * @return 10 cells contains
+     * only 1 line can be analyze
      */
     @Test
     public void testGetCellsFromRow(){
         ArrayList<String> result = p.getCellsFromRow(row);
         System.out.println(result);
-        assertEquals(10,result.size());
-
+        assertEquals(4,result.size());
     }
 
 
-    /**
-     * @return 10 contenus de cellules
-     * ne travail que sur seule ligne à la fois
-     */
-    @Test
-    public void testParseSourceCodeExamples(){
-        String result = p.parseSourceCodeExamples(parseToHtml);
-        System.out.println(result);
-        //assertEquals(10,result.size());
-
-    }
 
     /**
      * Tests parser html :
