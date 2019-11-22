@@ -20,10 +20,10 @@ public class ParserWikiText extends Parser {
     private static final Logger logger = Logger.getLogger(ParserWikiText.class);
 
     private static final String KEY_WORD_WIKITABLE = "wikitable";
-    private static final String START_WIKITABLE = ".*class=.*wikitable.*(\\n\\|-)?";
+    private static final String START_WIKITABLE = ".*class=.*wikitable.*\\n*(\\|-|!)(\\n!)?";
     private static final String END_WIKITABLE = "\\|}";
-    private static final String ROW_SEPARATOR = "\\|\\-\\n\\|?";
-    private static final String CELL_SEPARATOR = "\\n\\|[^-]|\\n!*";
+    private static final String ROW_SEPARATOR = "\\|\\-\\s*\\n\\|?";
+    private static final String CELL_SEPARATOR = "\\n\\|[^-]|\\n!*|!{2}";
     private static final String REGEX_COLSPAN = ".*colspan=\"?(\\d*)\\s?\"?.*";
     private static final String REGEX_ROWSPAN = ".*rowspan=\"?(\\d*)\\s?\"?.*";
     private String urlWikiText;
@@ -131,18 +131,14 @@ public class ParserWikiText extends Parser {
             endTable = m2.start();
             if (endTable < startTable) {
                 // sometimes, a table finish by "|} |}". So the following table
-                // end before it's start
+                // end before it start
                 logger.debug("The end of the table is before the start");
                 m2.find();
                 endTable = m2.start();
             }
         }
         oneTable = this.getTextToParse().substring(startTable, endTable);
-        if (m.matches()) {
-            oneTable = oneTable.replaceAll(m.toString(), "");
-        }
         this.setTextToParse(this.getTextToParse().substring(endTable + 2));
-
         return oneTable;
     }
 
