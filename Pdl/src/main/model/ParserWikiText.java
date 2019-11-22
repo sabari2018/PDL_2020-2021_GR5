@@ -17,23 +17,19 @@ import java.util.regex.Pattern;
  */
 public class ParserWikiText extends Parser {
 
-    private final Logger logger = Logger.getLogger(ParserWikiText.class);
+    private static final Logger logger = Logger.getLogger(ParserWikiText.class);
 
-    private static final String START_WIKITABLE = ".*class=\"*.*wikitable.*\".*(\\n\\|-)?";
-    private static final String END_WIKITABLE = "\\|}";
     private static final String KEY_WORD_WIKITABLE = "wikitable";
-    private final String HEAD_CELL_SEPARATOR = "\\n\\!* ";
-    private final String ROW_SEPARATOR = "\\|\\-\\n\\|?";
-    private final String CELL_SEPARATOR = "\\n\\|[^-]";
-
-    private final String REGEX_COLSPAN = ".*colspan=\"?(\\d*)\\s?\"?.*";
-    private final String REGEX_ROWSPAN = ".*rowspan=\"?(\\d*)\\s?\"?.*";
-
+    private static final String START_WIKITABLE = ".*class=.*wikitable.*(\\n\\|-)?";
+    private static final String END_WIKITABLE = "\\|}";
+    private static final String ROW_SEPARATOR = "\\|\\-\\n\\|?";
+    private static final String CELL_SEPARATOR = "\\n\\|[^-]|\\n!*";
+    private static final String REGEX_COLSPAN = ".*colspan=\"?(\\d*)\\s?\"?.*";
+    private static final String REGEX_ROWSPAN = ".*rowspan=\"?(\\d*)\\s?\"?.*";
     private String urlWikiText;
     private String titleOfCurrentPage;
     private ArrayList<String> wikiTextTables;
     private ArrayList<Table> standardizedTables;
-
     private int rangeOfRowspan;
 
     /**
@@ -80,10 +76,9 @@ public class ParserWikiText extends Parser {
         for (String table : this.wikiTextTables) {
             Table standardizeTable = new Table(this.titleOfCurrentPage, "wikitext", numTable);
             HashMap<Integer, String[]> contentOfTable = new HashMap<Integer, String[]>();
-            contentOfTable.put(0, this.getTableHead(table));
             ArrayList<String> rows = this.getTableRow(table);
             for (int i = 0; i < rows.size(); i++) {
-                contentOfTable.put(i + 1, this.getCells(rows.get(i)));
+                contentOfTable.put(i, this.getCellsFromRow(rows.get(i)));
             }
             standardizeTable.setContent(contentOfTable);
             this.standardizedTables.add(standardizeTable);
@@ -152,49 +147,31 @@ public class ParserWikiText extends Parser {
     }
 
     /**
-     * Gets the cells of the table's head.
-     *
-     * @param table the table we want the head
-     * @return a table of String. One case of this table is a cell of
-     * the table's head.
-     */
-    private String[] getTableHead(final String table) {
-        String[] rows = table.split(ROW_SEPARATOR);
-        String headRow = rows[0];
-        String[] headCells = headRow.split(HEAD_CELL_SEPARATOR);
-        ArrayList<String> list = handleCells(headCells);
-        return list.toArray(new String[0]);
-    }
-
-    /**
      * Gets a row from a table.
      *
      * @param table the table (in wikitext)
-     * @return a table of String. One case corresponds to
+     * @return a list of String. One element corresponds to
      * the content of one row.
      */
     private ArrayList<String> getTableRow(final String table) {
         String[] rows = table.split(ROW_SEPARATOR);
         ArrayList<String> list = new ArrayList<String>();
-        // from 1 because rows[0] is the head
-        for (int i = 1; i < rows.length; i++) {
+        for (int i = 0; i < rows.length; i++) {
             // remove unwanted String
             rows[i] = rows[i].replaceAll("align=right", "");
             rows[i] = rows[i].replaceAll("align=left", "");
             rows[i] = rows[i].replaceAll("ref&gt;[^>]*/ref&gt;", "");
             rows[i] = rows[i].replaceAll("&lt;ref[^>]*/ref&gt;", "");
+            rows[i] = rows[i].replaceAll("align=\"left\"", "");
+            rows[i] = rows[i].replaceAll("&lt;br\\s?/?&gt;", " ");
+            rows[i] = rows[i].replaceAll("&lt;ref&gt;", " ");
+            rows[i] = rows[i].replaceAll("br /&gt;", " ");
+            rows[i] = rows[i].replaceAll("&amp;nbsp;", " ");
+            rows[i] = rows[i].replaceAll("&amp", " ");
+            rows[i] = rows[i].replaceAll("Color[^>]*darkgray", " ");
             rows[i] = rows[i].replaceAll("&lt;", "");
             rows[i] = rows[i].replaceAll("&gt;", "");
-            rows[i] = rows[i].replaceAll("align=\"left\"", "");
-            rows[i] = rows[i].replaceAll("br/&gt;", "");
-            rows[i] = rows[i].replaceAll("<br>|<br/>", " ");
-            rows[i] = rows[i].replaceAll("&lt;br/&gt;", "");
-            rows[i] = rows[i].replaceAll("&lt;ref&gt;", "");
-            rows[i] = rows[i].replaceAll("&lt;br /&gt;", "");
-            rows[i] = rows[i].replaceAll("br /&gt;", "");
-            rows[i] = rows[i].replaceAll("&amp;nbsp;", "");
-            rows[i] = rows[i].replaceAll("&amp", "");
-            rows[i] = rows[i].replaceAll("Color[^>]*darkgray", "");
+            rows[i] = rows[i].replaceAll("'*", "");
 
 
             if (!rows[i].trim().isEmpty()) {
@@ -211,15 +188,19 @@ public class ParserWikiText extends Parser {
      * @return a table of String. One case of this table corresponds
      * to the content of the row's cells.
      */
-    private String[] getCells(final String row) {
+    private String[] getCellsFromRow(final String row) {
         String[] cells = row.split(CELL_SEPARATOR);
         ArrayList<String> list = handleCells(cells);
         return list.toArray(new String[0]);
     }
 
-    private ArrayList<String> handleCells(String[] headCells) {
-        ArrayList<String> list = new ArrayList(Arrays.asList(headCells));
-        for (int i = 0; i < headCells.length; i++) {
+    /**
+     * @param cells cells of one row
+     * @return
+     */
+    private ArrayList<String> handleCells(String[] cells) {
+        ArrayList<String> list = new ArrayList(Arrays.asList(cells));
+        for (int i = 0; i < cells.length; i++) {
             if (!list.get(i).trim().isEmpty()) {
                 list.set(i, list.get(i).replaceAll("\n", " "));
                 list.set(i, handleCommasInData(list.get(i)));
@@ -231,10 +212,12 @@ public class ParserWikiText extends Parser {
                 list.set(i, list.get(i).replaceAll("}}", ""));
                 list.set(i, list.get(i).replaceAll("]]", ""));
                 list.set(i, list.get(i).replaceAll("<source.*>", ""));
+                list.set(i, list.get(i).replaceAll("\n", "  "));
+                list.set(i, list.get(i).replaceAll("^! ", ""));
                 Matcher matcherColspan = Pattern.compile(REGEX_COLSPAN).matcher(list.get(i));
                 Matcher matcherRowspan = Pattern.compile(REGEX_ROWSPAN).matcher(list.get(i));
                 if (matcherColspan.matches()) {
-                    list.set(i, list.get(i).replaceAll(".*colspan=\"?(\\d*)\\s?\"?", ""));
+                    list.set(i, list.get(i).replaceAll(".*colspan=\"?(\\d*)\\s?\"?", " "));
                     int colspan = Integer.parseInt(matcherColspan.group(1));
                     for (int j = 0; j < colspan - 1; j++) {
                         list.add(i + 1, list.get(i));
@@ -249,6 +232,7 @@ public class ParserWikiText extends Parser {
 //                }
             }
         }
+//        list.removeAll(Collections.singletonList(""));
         return list;
     }
 
