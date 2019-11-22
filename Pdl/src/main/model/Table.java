@@ -18,7 +18,7 @@ public class Table {
     private String extractionType;
     private int numTable;
 
-    public Table (HashMap<Integer,String []> content, String title, String extractionType, int numTable) {
+    public Table(HashMap<Integer, String[]> content, String title, String extractionType, int numTable) {
         this.content = content;
         this.title = title;
         this.extractionType = extractionType;
@@ -53,7 +53,6 @@ public class Table {
     }
 
     /**
-     *
      * @param content new content
      */
     public void setContent(HashMap<Integer, String[]> content) {
@@ -80,5 +79,23 @@ public class Table {
      */
     public int getNumTable() {
         return this.numTable;
+    }
+
+    /**
+     * Return the content of the current table
+     */
+    public String toString() {
+        String ret = "";
+        ret += "=========TABLE===========\n";
+        HashMap<Integer, String[]> tbl2 = this.getContent();
+        for (Integer i : tbl2.keySet()) {
+            ret += "*****ROW*****\n";
+            for (String str : tbl2.get(i)) {
+                ret += str + "\n";
+            }
+            ret += "*************\n";
+        }
+        ret += "=========================\n";
+        return ret;
     }
 }
