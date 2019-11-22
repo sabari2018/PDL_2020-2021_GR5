@@ -33,7 +33,7 @@ public class ParserHTML extends Parser {
 
         int tabNumber = 0;
         ArrayList<Table> parsedTables = new ArrayList<Table>();
-        ArrayList<String> tables = this.getTablesFromPage(parseSourceCodeExamples(pageToParse));
+        ArrayList<String> tables = this.getTablesFromPage(pageToParse);
         for (String table : tables) {
             Table parsedTable = new Table(pageHtml.title(), "html", tabNumber);
             ArrayList<String> rows = this.getRowsFromTable(table);
@@ -41,8 +41,7 @@ public class ParserHTML extends Parser {
             for (String row : rows) {
 
                 ArrayList<String> cells = this.getCellsFromRow(row);
-                String parsedRowCells[] = cells.toArray(new String[cells.size()]);
-                //System.out.println(rows.indexOf(row));
+                String[] parsedRowCells = cells.toArray(new String[cells.size()]);
                 parsedTable.getContent().put(rows.indexOf(row), parsedRowCells);
 
             }
@@ -79,7 +78,6 @@ public class ParserHTML extends Parser {
     public ArrayList<String> getTablesFromPage(String pageToParse) {
         String markedTables = pageToParse;
         ArrayList<String> extractedTables = new ArrayList<String>();
-        //Gérer le rowspan
         markedTables = markedTables.replaceAll("<table(?=[^>]*class=\".*\\bwikitable\\b.*\")[^>]*>", "<table>TABLE_TO_EXTRACT");
         String[] split = markedTables.split("<table>|</table>");
         for (int i = 0; i < split.length; i++) {
@@ -104,7 +102,7 @@ public class ParserHTML extends Parser {
         //Gérer le colspan
         markedRows = markedRows.replaceAll("<thead[^>]*>|</thead>", "");
         markedRows = markedRows.replaceAll("<tbody[^>]*>|</tbody>", "");
-        markedRows = markedRows.replaceAll("<tr[^>]*>|</tr>", "<tr>ROW_TO_EXTRACT");
+        markedRows = markedRows.replaceAll("<tr[^>]*>", "<tr>ROW_TO_EXTRACT");
         String[] split = markedRows.split("<tr>|</tr>");
         for (int i = 0; i < split.length; i++) {
 
@@ -128,6 +126,8 @@ public class ParserHTML extends Parser {
         String markedCells = row;
 
         ArrayList<String> extractedCells = new ArrayList<String>();
+
+        markedCells = manageColSpan(markedCells);
         markedCells = markedCells.replaceAll("<th[^>]*>", "<th>CELL_TO_EXTRACT");
         markedCells = markedCells.replaceAll("<td[^>]*>", "<td>CELL_TO_EXTRACT");
         String[] split = markedCells.split("<th>|</th>|<td>|</td>");
@@ -148,33 +148,6 @@ public class ParserHTML extends Parser {
         }
         return extractedCells;
     }
-
-    /**
-     * Prepares source code examples contained in page to avoid conflicts with the parser
-     *
-     * @param pageToParse the page to parse
-     * @return the page with compatible source code examples
-     */
-    public String parseSourceCodeExamples(String pageToParse) {
-        String compatiblePage = pageToParse;
-        Pattern p = Pattern.compile("<code[^>]*>([^\\\"]+)*?<\\/code>");
-        Matcher m = p.matcher(compatiblePage);
-        compatiblePage.replaceAll("<code[^>]*>|</code>", "");
-        if (m.matches()) {
-            m.group().replaceAll("((?:^|)<(?:$|))", "&lt;");
-            m.group().replaceAll("((?:^|)>(?:$|))", "&gt;");
-        }
-        p = Pattern.compile("<pre[^>]*>([^\\\"]+)*?<\\/pre>");
-        m = p.matcher(compatiblePage);
-        compatiblePage.replaceAll("<pre[^>]*>|</pre>", "");
-        if (m.matches()) {
-            m.group().replaceAll("((?:^|)<(?:$|))", "&lt;");
-            m.group().replaceAll("((?:^|)>(?:$|))", "&gt;");
-        }
-
-        return compatiblePage;
-    }
-
 
     /**
      * Adds "" to each data containing commas or quotation marks to the data.
@@ -221,6 +194,54 @@ public class ParserHTML extends Parser {
         pageToParse = getTextToParse();
 
         return pageToParse;
+    }
+
+    /**
+     * Gets the colspan of each cell (if it exists) using regex and calls the method to correct the html if colspan is detected in the cell.
+     * For example, if colspan is 3, two empty cells will be added after the cell containing the colspan attribute.
+     * This will ensure colspan does not create an invalid csv because of an unbalanced number of cells.
+     *
+     * @param row the row to treat
+     * @return the treated row with empty cells instead of colspan
+     */
+    public String manageColSpan(String row) {
+        String treatedRow = row;
+
+        Pattern pattern = Pattern.compile("<th(?=[^>]*colspan=\"(\\d*)\")[^>]*>([^\",].*?)<\\/th>|<td(?=[^>]*colspan=\"(\\d*)\")[^>]*>([^\",].*?)<\\/td>");
+        Matcher matcher = pattern.matcher(treatedRow);
+        while (matcher.find()) {
+            if (matcher.group().contains("th") && matcher.group(1) != null) {
+                treatedRow = treatedRow.replace(matcher.group(), matcher.group() + generateSpan("th", Integer.parseInt(matcher.group(1))));
+            } else if (matcher.group().contains("td") && matcher.group(3) != null) {
+                treatedRow = treatedRow.replace(matcher.group(), matcher.group() + generateSpan("td", Integer.parseInt(matcher.group(3))));
+            }
+        }
+
+        return treatedRow;
+    }
+
+    /**
+     * Auxiliary method which treats cells with span.
+     * Generates a certain number of empty cells to be added next to a cell containing colspan or rowspan
+     *
+     * @param tag  the type of tag we want to generate
+     * @param span
+     * @return
+     */
+    public String generateSpan(String tag, int span) {
+        String addedTags = "";
+
+        if (tag.equals("th")) {
+            for (int i = 0; i < span; i++) {
+                addedTags += "<th></th>";
+            }
+        } else if (tag.equals("td")) {
+            for (int i = 0; i < span; i++) {
+                addedTags += "<td></td>";
+            }
+        }
+
+        return addedTags;
     }
 
 }
