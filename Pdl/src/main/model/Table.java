@@ -85,17 +85,17 @@ public class Table {
      * Return the content of the current table
      */
     public String toString() {
-        String ret = "";
-        ret += "=======TABLE=======\n";
+        StringBuilder ret = new StringBuilder();
+        ret.append("=======TABLE=======\n");
         HashMap<Integer, String[]> tbl2 = this.getContent();
         for (Integer i : tbl2.keySet()) {
-            ret += "*****ROW*****\n";
+            ret.append("*****ROW*****\n");
             for (String str : tbl2.get(i)) {
-                ret += str + "\n";
+                ret.append(str).append("\n");
             }
-            ret += "*************\n";
+            ret.append("*************\n");
         }
-        ret += "=========================\n";
-        return ret;
+        ret.append("=========================\n");
+        return ret.toString();
     }
 }
