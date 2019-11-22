@@ -230,12 +230,14 @@ public class TestParserHTML {
      * @return 10 contenus de cellules
      * ne travail que sur seule ligne à la fois
      */
+    /*
     @Test
     public void testParseSourceCodeExamples(){
-        String result = p.parseSourceCodeExamples(htmlInTable);
-        System.out.println(result);
+        //String result = p.parseSourceCodeExamples(htmlInTable);
+        //System.out.println(result);
         //assertEquals(10,result.size());
     }
+    */
 
     /**
      * Tests parser html :
