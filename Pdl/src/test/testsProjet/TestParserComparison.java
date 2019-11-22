@@ -34,7 +34,7 @@ public class TestParserComparison {
     public void setUp(){
         //Récupération des urls
         processWikiUrl = new ProcessWikiUrl();
-        processWikiUrl.addWikiUrlFromFile("wikiurls", false, "en");
+        processWikiUrl.addWikiUrlFromFile("wikiurlsTest", false, "en");
     }
 
     /**
