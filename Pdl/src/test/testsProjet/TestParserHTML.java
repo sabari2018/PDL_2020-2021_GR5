@@ -28,7 +28,7 @@ public class TestParserHTML {
     /**
      * URL
      */
-    String url = "https://en.wikipedia.org/wiki/Comparison_between_Esperanto_and_Interlingua";
+    String url = "https://en.wikipedia.org/wiki/Comparison_between_Esperanto_and_Ido";
     String urlTree = "https://en.wikipedia.org/wiki/2011_Intersport_Heilbronn_Open_%E2%80%93_Singles";
 
     /**
@@ -79,12 +79,12 @@ public class TestParserHTML {
             "naturalistic</a>;<br />designed to be easy to understand to as many people as possible"+
             "</td></tr>";
 
-    String row = "<tr><th colspan=\"2\">row 1</th><th colspan=\"2\">Interlingua</th>" +
-            "<th rowspan=\"2\">English</th></tr><tr><th>Preferred form</th><th>Alternative form</th>" +
-            "<th>Preferred Form</th><th>Alternative form</th></tr><tr><td colspan=\"2\"><b>san</b>a" +
-            "</td><td colspan=\"2\"><b>san</b></td><td>healthy</td></tr>";
+    String row = "<th colspan=\"2\">row 1, cell 1</th>"+
+                 "<td>cell 2</td>" +
+                 "<td rowspan=\"2\">\"cell 3\"</td>";
 
-    String htmlInTable = "<table class=\"wikitable\">\n" +
+
+    /*String htmlInTable = "<table class=\"wikitable\">\n" +
             "<caption>Structure d’un document HTML\n" +
             "</caption>\n" +
             "<tbody><tr>\n" +
@@ -120,7 +120,9 @@ public class TestParserHTML {
             "<p>title\n" +
             "</p>\n" +
             "</div>\n" +
-            "</td></tr></tbody></table>";
+            "</td></tr></tbody></table>";*/
+
+
     /**
      * @return the contents tables of this page and its number
      * 1 line = the contents of 1 cell
@@ -131,7 +133,7 @@ public class TestParserHTML {
     public void testParseHtml(){
         p.setUrlHtml(url);
         ArrayList<Table> result = p.parseHtml();
-        assertEquals(3,result.size());
+        assertEquals(8,result.size());
     }
 
 
@@ -221,23 +223,10 @@ public class TestParserHTML {
     public void testGetCellsFromRow(){
         ArrayList<String> result = p.getCellsFromRow(row);
         System.out.println(result);
-        assertEquals(10,result.size());
-
+        assertEquals(4,result.size());
     }
 
 
-    /**
-     * @return 10 contenus de cellules
-     * ne travail que sur seule ligne à la fois
-     */
-    /*
-    @Test
-    public void testParseSourceCodeExamples(){
-        //String result = p.parseSourceCodeExamples(htmlInTable);
-        //System.out.println(result);
-        //assertEquals(10,result.size());
-    }
-    */
 
     /**
      * Tests parser html :

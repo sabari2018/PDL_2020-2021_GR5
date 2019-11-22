@@ -17,22 +17,24 @@ import java.util.regex.Pattern;
  */
 public class ParserWikiText extends Parser {
 
-    private static final String START_WIKITABLE = "\\{\\|.*class=\"*.*wikitable.*\"*";
+    private final Logger logger = Logger.getLogger(ParserWikiText.class);
+
+    private static final String START_WIKITABLE = ".*class=\"*.*wikitable.*\".*(\\n\\|-)?";
     private static final String END_WIKITABLE = "\\|}";
     private static final String KEY_WORD_WIKITABLE = "wikitable";
-    private final Logger logger = Logger.getLogger(ParserWikiText.class);
-    private final String HEAD_CELL_SEPARATOR = "(\\n)\\!* ";
-    private final String ROW_SEPARATOR = "\\|\\-(\\n)(\\|)?";
-    private final String CELL_SEPARATOR = "(\\n)\\| ";
+    private final String HEAD_CELL_SEPARATOR = "\\n\\!* ";
+    private final String ROW_SEPARATOR = "\\|\\-\\n\\|?";
+    private final String CELL_SEPARATOR = "\\n\\|[^-]";
 
     private final String REGEX_COLSPAN = ".*colspan=\"?(\\d*)\\s?\"?.*";
-//    private final String REGEX_COLSPAN = ".*colspan=\"?(\\d*)\\s?\"?";
-//    private final String REGEX_COLSPAN = ".*colspan=\"?(\\d*)\\s?\"?.*\\|";
+    private final String REGEX_ROWSPAN = ".*rowspan=\"?(\\d*)\\s?\"?.*";
 
     private String urlWikiText;
     private String titleOfCurrentPage;
     private ArrayList<String> wikiTextTables;
     private ArrayList<Table> standardizedTables;
+
+    private int rangeOfRowspan;
 
     /**
      * Empty Constructor.
@@ -87,6 +89,7 @@ public class ParserWikiText extends Parser {
             this.standardizedTables.add(standardizeTable);
             numTable++;
         }
+
         return this.standardizedTables;
     }
 
@@ -123,23 +126,26 @@ public class ParserWikiText extends Parser {
         Pattern p = Pattern.compile(START_WIKITABLE);
         Matcher m = p.matcher(this.getTextToParse());
         if (m.find()) {
-            startTable = m.start();
+            startTable = m.end();
             this.setTextToParse(this.getTextToParse().substring(startTable));
             startTable = 0;
         }
         Pattern p2 = Pattern.compile(END_WIKITABLE);
-        Matcher m3 = p2.matcher(this.getTextToParse());
-        if (m3.find()) {
-            endTable = m3.start();
+        Matcher m2 = p2.matcher(this.getTextToParse());
+        if (m2.find()) {
+            endTable = m2.start();
             if (endTable < startTable) {
                 // sometimes, a table finish by "|} |}". So the following table
                 // end before it's start
                 logger.debug("The end of the table is before the start");
-                m3.find();
-                endTable = m3.start();
+                m2.find();
+                endTable = m2.start();
             }
         }
-        oneTable = this.getTextToParse().substring(startTable + 2, endTable - 2);
+        oneTable = this.getTextToParse().substring(startTable, endTable);
+        if (m.matches()) {
+            oneTable = oneTable.replaceAll(m.toString(), "");
+        }
         this.setTextToParse(this.getTextToParse().substring(endTable + 2));
 
         return oneTable;
@@ -159,8 +165,6 @@ public class ParserWikiText extends Parser {
         ArrayList<String> list = handleCells(headCells);
         return list.toArray(new String[0]);
     }
-
-
 
     /**
      * Gets a row from a table.
@@ -183,6 +187,7 @@ public class ParserWikiText extends Parser {
             rows[i] = rows[i].replaceAll("&gt;", "");
             rows[i] = rows[i].replaceAll("align=\"left\"", "");
             rows[i] = rows[i].replaceAll("br/&gt;", "");
+            rows[i] = rows[i].replaceAll("<br>|<br/>", " ");
             rows[i] = rows[i].replaceAll("&lt;br/&gt;", "");
             rows[i] = rows[i].replaceAll("&lt;ref&gt;", "");
             rows[i] = rows[i].replaceAll("&lt;br /&gt;", "");
@@ -190,53 +195,14 @@ public class ParserWikiText extends Parser {
             rows[i] = rows[i].replaceAll("&amp;nbsp;", "");
             rows[i] = rows[i].replaceAll("&amp", "");
             rows[i] = rows[i].replaceAll("Color[^>]*darkgray", "");
-            rows[i] = rows[i].replaceAll("\\{\\{", "");
-            rows[i] = rows[i].replaceAll("}}", "");
 
 
             if (!rows[i].trim().isEmpty()) {
                 list.add(rows[i]);
             }
         }
-//        String[] tableau = new String[list.size()];
-//        tableau = list.toArray(tableau);
         return list;
     }
-
-    /**
-     * Gets the cells of the given row.
-     *
-     * @param row the row
-     * @return a table of String. One case of this table corresponds
-     * to the content of the row's cells.
-     */
-//    private String[] getCells(final String row) {
-//        String[] cells = row.split(CELL_SEPARATOR);
-//        int nbCells = cells.length;
-//        for (int i = 0; i < nbCells; i++) {
-//            if (!cells[i].trim().isEmpty()) {
-//                cells[i] = cells[i].replaceAll("\n", " ");
-//                cells[i] = handleCommasInData(cells[i]);
-//                Matcher matcher = Pattern.compile(REGEX_COLSPAN).matcher(cells[i]);
-//                if (matcher.matches()) {
-//                    cells[i] = cells[i].replaceAll(REGEX_COLSPAN, "");
-//                    int colspan = Integer.parseInt(matcher.group(1));
-//                    nbCells += colspan;
-////                this.setNbColumns(this.getNbColumns() + colspan);
-//                    shift(cells, colspan);
-////                    for (int j = 1; j <= colspan; j++) {
-////                        cells[i] += cells[i];
-////                        cells[i + 1] += cells[i];
-//////                        i++;
-////                    }
-//                } else {
-//                    nbCells--;
-//                    i--;
-//                }
-//            }
-//        }
-//        return cells;
-//    }
 
     /**
      * Gets the cells of the given row.
@@ -253,42 +219,37 @@ public class ParserWikiText extends Parser {
 
     private ArrayList<String> handleCells(String[] headCells) {
         ArrayList<String> list = new ArrayList(Arrays.asList(headCells));
-        for (int i = 1; i < headCells.length; i++) {
+        for (int i = 0; i < headCells.length; i++) {
             if (!list.get(i).trim().isEmpty()) {
                 list.set(i, list.get(i).replaceAll("\n", " "));
                 list.set(i, handleCommasInData(list.get(i)));
                 list.set(i, list.get(i).replaceAll(START_WIKITABLE, ""));
+                list.set(i, list.get(i).replaceAll("\\|", ""));
                 list.set(i, list.get(i).replaceAll("style=\".*\"", ""));
-                Matcher matcher = Pattern.compile(REGEX_COLSPAN).matcher(list.get(i));
-                if (matcher.matches()) {
+                list.set(i, list.get(i).replaceAll("\\{\\{", ""));
+                list.set(i, list.get(i).replaceAll("\\[\\[", ""));
+                list.set(i, list.get(i).replaceAll("}}", ""));
+                list.set(i, list.get(i).replaceAll("]]", ""));
+                list.set(i, list.get(i).replaceAll("<source.*>", ""));
+                Matcher matcherColspan = Pattern.compile(REGEX_COLSPAN).matcher(list.get(i));
+                Matcher matcherRowspan = Pattern.compile(REGEX_ROWSPAN).matcher(list.get(i));
+                if (matcherColspan.matches()) {
                     list.set(i, list.get(i).replaceAll(".*colspan=\"?(\\d*)\\s?\"?", ""));
-//                    list.set(i, currentCell);
-                    int colspan = Integer.parseInt(matcher.group(1));
+                    int colspan = Integer.parseInt(matcherColspan.group(1));
                     for (int j = 0; j < colspan - 1; j++) {
                         list.add(i + 1, list.get(i));
                     }
                 }
+//                if (matcherRowspan.matches()) {
+//                    list.set(i, list.get(i).replaceAll(".*rowspan=\"?(\\d*)\\s?\"?", ""));
+//                    int colspan = Integer.parseInt(matcherColspan.group(1));
+//                    for (int j = 0; j < colspan - 1; j++) {
+//                        list.add(i + 1, list.get(i));
+//                    }
+//                }
             }
         }
         return list;
-    }
-
-    public String[] shift(String[] tab, int k) {
-        int n = tab.length;
-        String[] ret = new String[n + k];
-
-        for (int j = 0; j < k; j++) {
-            for (int i = n - 1; i > 0; i--) {
-                String x = tab[i];
-                ret[i] = tab[i - 1];
-                ret[i - 1] = x;
-            }
-        }
-
-        for (int p = 0; p < ret.length; p++) {
-            System.out.println("À l'emplacement " + p + " du tableau nous avons = " + ret[p]);
-        }
-        return ret;
     }
 
     /**
