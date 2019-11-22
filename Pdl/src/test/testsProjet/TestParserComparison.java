@@ -22,10 +22,10 @@ public class TestParserComparison {
     private ParserHTML parserHTML = new ParserHTML();
     private ParserWikiText parserWikiText = new ParserWikiText();
 
-    int nbTabHTML;
-    int nbTabHTMLCorrect;
-    int nbTabWikiText;
-    int nbTabWikiTextCorrect;
+    private int nbTabHTML;
+    private int nbTabHTMLCorrect;
+    private int nbTabWikiText;
+    private int nbTabWikiTextCorrect;
 
     /**
      * We recover the urls from the file
@@ -34,7 +34,7 @@ public class TestParserComparison {
     public void setUp(){
         //Récupération des urls
         processWikiUrl = new ProcessWikiUrl();
-        processWikiUrl.addWikiUrlFromFile("wikiurlsTest", false, "en");
+        processWikiUrl.addWikiUrlFromFile("wikiurls", false, "en");
     }
 
     /**
@@ -57,19 +57,24 @@ public class TestParserComparison {
                 Iterator it = currentPageTables.get(j).getContent().values().iterator();
                 boolean nbCellsOk = true;
                 int nbCell = 0;
+                //ligne 1 = ligne de ref
                 String[] cells = (String[]) it.next();
                 nbCell = cells.length;
 
                 while (it.hasNext()) {
                     String[] cells1 = (String[]) it.next();
-                    //on regarde si c'est différent à la ligne de ref
                     if (cells1.length != nbCell){
                         nbCellsOk = false;
                     }
                 }
-                //si toute cells egale par ligne on augment nb tab correct
                 if (nbCellsOk == true){
+                    //ajout du tab si correct
                     nbTabHTMLCorrect ++;
+                }
+
+                //Affichage quel tab est mauvais
+                else{
+                    //System.out.println("lien : " + i + " tab : " + j);
                 }
             }
         }
@@ -77,53 +82,55 @@ public class TestParserComparison {
         System.out.println("nombre tab hmtl " + nbTabHTML);
         System.out.println("nombre tab hmtl correcte " + nbTabHTMLCorrect);
         int pourcentageTabValid = nbTabHTMLCorrect*100/nbTabHTML;
-        System.out.println("nombre tab hmtl correcte / nombre tab html = " + pourcentageTabValid +"%");
+        //System.out.println("nombre tab hmtl correcte / nombre tab html = " + pourcentageTabValid +"%");
         assertEquals("On devrait avoir 100%", 100, pourcentageTabValid);
     }
 
+    /**
+     * Table number comparison test retrieved with the WikiText parser
+     * With the correct number of table
+     */
     @Test
     public void TestCompareNbTabWikiText(){
-        //On parse les tableaux des pages en WikiText
-        //pour chaque page
         for(int i = 0; i < processWikiUrl.getListWikiUrl().size(); i++){
-            //Traitement des pages
+
             parserWikiText.setUrlWikiText(processWikiUrl.getListWikiUrl().get(i).getWikiTextUrl());
             ArrayList<Table> currentPageTables = parserWikiText.parseWikiText();
 
-            //pour chaque tableau
             for(int j = 0; j < currentPageTables.size(); j++){
-                //augmentation du nb de tab
+
+                //compte le nombre de tab
                 nbTabWikiText ++;
-                //iterateur sur le contenu HashMap du tab
+
                 Iterator it = currentPageTables.get(j).getContent().values().iterator();
-                //init nombre de cell
-                int nbCell = 0;
-                //meme nb cells
                 boolean nbCellsOk = true;
-                //on récupère la ligne 1 en ref
+                int nbCell = 0;
+                //ligne 1 = ligne de ref
                 String[] cells = (String[]) it.next();
                 nbCell = cells.length;
-                //pour les autres lignes
+
                 while (it.hasNext()) {
-                    //on récupere la ligne
                     String[] cells1 = (String[]) it.next();
-                    //on regarde si c'est différent à la ligne de ref
                     if (cells1.length != nbCell){
                         nbCellsOk = false;
                     }
                 }
 
-                //si toute cells egale par ligne on augment nb tab correct
                 if (nbCellsOk == true){
+                    //ajout du tab si correct
                     nbTabWikiTextCorrect ++;
+                }
+                //Affichage quel tab est mauvais
+                else{
+                    //System.out.println("lien : " + i + " tab : " + j);
                 }
             }
         }
 
-        System.out.println("nombre tab wikitext " + nbTabWikiText);
-        System.out.println("nombre tab wikitext correcte " + nbTabWikiTextCorrect);
+        //System.out.println("nombre tab wikitext " + nbTabWikiText);
+        //System.out.println("nombre tab wikitext correcte " + nbTabWikiTextCorrect);
         int pourcentageTabValid = nbTabWikiTextCorrect*100/nbTabWikiText;
-        System.out.println("nombre tab wikitext correcte / nombre tab wikitext = " + pourcentageTabValid +"%");
+        //System.out.println("nombre tab wikitext correcte / nombre tab wikitext = " + pourcentageTabValid +"%");
         assertEquals("On devrait avoir 100%", 100, pourcentageTabValid);
 
     }
