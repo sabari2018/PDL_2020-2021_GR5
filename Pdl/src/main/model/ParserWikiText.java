@@ -20,7 +20,7 @@ public class ParserWikiText extends Parser {
     private static final Logger logger = Logger.getLogger(ParserWikiText.class);
 
     private static final String KEY_WORD_WIKITABLE = "wikitable";
-    private static final String START_WIKITABLE = ".*class=.*wikitable.*\\n*(\\|-|!)(\\n!)?";
+    private static final String START_WIKITABLE = ".*class=.*wikitable.*(\\n*(\\|-|!)*)*";
     private static final String END_WIKITABLE = "\\|}";
     private static final String ROW_SEPARATOR = "\\|\\-\\s*\\n\\|?";
     private static final String CELL_SEPARATOR = "\\n\\|[^-]|\\n!*|!{2}";
@@ -196,7 +196,8 @@ public class ParserWikiText extends Parser {
      */
     private ArrayList<String> handleCells(String[] cells) {
         ArrayList<String> list = new ArrayList(Arrays.asList(cells));
-        for (int i = 0; i < cells.length; i++) {
+        int nbCells = cells.length;
+        for (int i = 0; i < nbCells; i++) {
             if (!list.get(i).trim().isEmpty()) {
                 list.set(i, list.get(i).replaceAll("\n", " "));
                 list.set(i, handleCommasInData(list.get(i)));
@@ -209,7 +210,7 @@ public class ParserWikiText extends Parser {
                 list.set(i, list.get(i).replaceAll("]]", ""));
                 list.set(i, list.get(i).replaceAll("<source.*>", ""));
                 list.set(i, list.get(i).replaceAll("\n", "  "));
-                list.set(i, list.get(i).replaceAll("^! ", ""));
+                list.set(i, list.get(i).replaceAll("^\\s*!", ""));
                 Matcher matcherColspan = Pattern.compile(REGEX_COLSPAN).matcher(list.get(i));
                 Matcher matcherRowspan = Pattern.compile(REGEX_ROWSPAN).matcher(list.get(i));
                 if (matcherColspan.matches()) {
@@ -217,6 +218,9 @@ public class ParserWikiText extends Parser {
                     int colspan = Integer.parseInt(matcherColspan.group(1));
                     for (int j = 0; j < colspan - 1; j++) {
                         list.add(i + 1, list.get(i));
+                        //to ignore the cell added by the colspan
+                        i++;
+                        nbCells++;
                     }
                 }
 //                if (matcherRowspan.matches()) {
