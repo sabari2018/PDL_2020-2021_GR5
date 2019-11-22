@@ -86,7 +86,7 @@ public class Table {
      */
     public String toString() {
         String ret = "";
-        ret += "=========TABLE===========\n";
+        ret += "=======TABLE=======\n";
         HashMap<Integer, String[]> tbl2 = this.getContent();
         for (Integer i : tbl2.keySet()) {
             ret += "*****ROW*****\n";
