@@ -20,10 +20,10 @@ public class ParserWikiText extends Parser {
     private static final Logger logger = Logger.getLogger(ParserWikiText.class);
 
     private static final String KEY_WORD_WIKITABLE = "wikitable";
-    private static final String START_WIKITABLE = ".*class=.*wikitable.*(\\n*(\\|-|!)*)*";
+    private static final String START_WIKITABLE = ".*class=.*wikitable.*(\\n*(\\|-|!|\\|+.*)*)*";
     private static final String END_WIKITABLE = "\\|}";
-    private static final String ROW_SEPARATOR = "\\|\\-\\s*\\n\\|?";
-    private static final String CELL_SEPARATOR = "\\n\\|[^-]|\\n!*|!{2}";
+    private static final String ROW_SEPARATOR = "\\n\\|\\-\\s*\\n\\|?";
+    private static final String CELL_SEPARATOR = "\\n\\||\\n!|!{2}|\\|{2}";
     private static final String REGEX_COLSPAN = ".*colspan=\"?(\\d*)\\s?\"?.*";
     private static final String REGEX_ROWSPAN = ".*rowspan=\"?(\\d*)\\s?\"?.*";
     private String urlWikiText;
@@ -65,11 +65,9 @@ public class ParserWikiText extends Parser {
      * of tables in the Wikipedia page
      */
     public ArrayList<Table> parseWikiText() {
-
         // extract all the tables of the Wikipedia page
         // the result put in wikiTextTables is still in wikiText
         this.wikiTextTables = extractTablesFromPage();
-
         // transform the table (format = String) into format = Table
         // and add an object Table to this.standardizedTables for each table
         int numTable = 1;
@@ -155,20 +153,15 @@ public class ParserWikiText extends Parser {
         for (int i = 0; i < rows.length; i++) {
             // remove unwanted String
             rows[i] = rows[i].replaceAll("align=right", "");
+            rows[i] = rows[i].replaceAll("align=right", "");
             rows[i] = rows[i].replaceAll("align=left", "");
-            rows[i] = rows[i].replaceAll("ref&gt;[^>]*/ref&gt;", "");
-            rows[i] = rows[i].replaceAll("&lt;ref[^>]*/ref&gt;", "");
             rows[i] = rows[i].replaceAll("align=\"left\"", "");
-            rows[i] = rows[i].replaceAll("&lt;br\\s?/?&gt;", " ");
-            rows[i] = rows[i].replaceAll("&lt;ref&gt;", " ");
-            rows[i] = rows[i].replaceAll("br /&gt;", " ");
+            rows[i] = rows[i].replaceAll("<[^>]*>|<\\/[^>]*>", "");
+            rows[i] = rows[i].replaceAll("&lt;[^&gt;]*&gt;|&lt;\\/[^&gt;]*&gt;", "");
             rows[i] = rows[i].replaceAll("&amp;nbsp;", " ");
             rows[i] = rows[i].replaceAll("&amp", " ");
             rows[i] = rows[i].replaceAll("Color[^>]*darkgray", " ");
-            rows[i] = rows[i].replaceAll("&lt;", "");
-            rows[i] = rows[i].replaceAll("&gt;", "");
             rows[i] = rows[i].replaceAll("'*", "");
-
 
             if (!rows[i].trim().isEmpty()) {
                 list.add(rows[i]);
@@ -202,10 +195,12 @@ public class ParserWikiText extends Parser {
                 list.set(i, list.get(i).replaceAll("\n", " "));
                 list.set(i, handleCommasInData(list.get(i)));
                 list.set(i, list.get(i).replaceAll(START_WIKITABLE, ""));
+                list.set(i, list.get(i).replaceAll("\\[\\[.*?\\|", ""));
+                list.set(i, list.get(i).replaceAll("\\[\\[", ""));
+                list.set(i, list.get(i).replaceAll("\\{\\{.*?\\|", ""));
+                list.set(i, list.get(i).replaceAll("\\{\\{", ""));
                 list.set(i, list.get(i).replaceAll("\\|", ""));
                 list.set(i, list.get(i).replaceAll("style=\".*\"", ""));
-                list.set(i, list.get(i).replaceAll("\\{\\{", ""));
-                list.set(i, list.get(i).replaceAll("\\[\\[", ""));
                 list.set(i, list.get(i).replaceAll("}}", ""));
                 list.set(i, list.get(i).replaceAll("]]", ""));
                 list.set(i, list.get(i).replaceAll("<source.*>", ""));
