@@ -30,7 +30,7 @@ public class ParserWikiText extends Parser {
     private String titleOfCurrentPage;
     private ArrayList<String> wikiTextTables;
     private ArrayList<Table> standardizedTables;
-    private int rangeOfRowspan;
+    private HashMap<Integer, Integer> rangesOfRowspan;
 
     /**
      * Empty Constructor.
@@ -39,6 +39,7 @@ public class ParserWikiText extends Parser {
         String log4jConfPath = "Pdl/resources/log4j.properties";
         PropertyConfigurator.configure(log4jConfPath);
         this.wikiTextTables = new ArrayList<String>();
+        rangesOfRowspan = new HashMap();
     }
 
     /**
@@ -212,22 +213,23 @@ public class ParserWikiText extends Parser {
                     list.set(i, list.get(i).replaceAll(".*colspan=\"?(\\d*)\\s?\"?", " "));
                     int colspan = Integer.parseInt(matcherColspan.group(1));
                     for (int j = 0; j < colspan - 1; j++) {
-                        list.add(i + 1, list.get(i));
+//                        list.add(i + 1, list.get(i));
+                        list.add(i + 1, "suite colspan");
                         //to ignore the cell added by the colspan
                         i++;
                         nbCells++;
                     }
                 }
-//                if (matcherRowspan.matches()) {
-//                    list.set(i, list.get(i).replaceAll(".*rowspan=\"?(\\d*)\\s?\"?", ""));
-//                    int colspan = Integer.parseInt(matcherColspan.group(1));
-//                    for (int j = 0; j < colspan - 1; j++) {
-//                        list.add(i + 1, list.get(i));
-//                    }
-//                }
+                if (rangesOfRowspan.get(i) != null && rangesOfRowspan.get(i) > 0) {
+                    list.add(i, "suite rowspan");
+                    rangesOfRowspan.put(i, rangesOfRowspan.get(i) - 1);
+                }
+                if (matcherRowspan.matches()) {
+                    list.set(i, list.get(i).replaceAll(".*rowspan=\"?(\\d*)\\s?\"?", ""));
+                    rangesOfRowspan.put(i, Integer.parseInt(matcherRowspan.group(1)) - 1);
+                }
             }
         }
-//        list.removeAll(Collections.singletonList(""));
         return list;
     }
 
