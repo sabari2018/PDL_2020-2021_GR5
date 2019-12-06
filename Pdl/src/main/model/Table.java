@@ -18,7 +18,7 @@ public class Table {
     private String extractionType;
     private int numTable;
 
-    public Table (HashMap<Integer,String []> content, String title, String extractionType, int numTable) {
+    public Table(HashMap<Integer, String[]> content, String title, String extractionType, int numTable) {
         this.content = content;
         this.title = title;
         this.extractionType = extractionType;
@@ -53,7 +53,6 @@ public class Table {
     }
 
     /**
-     *
      * @param content new content
      */
     public void setContent(HashMap<Integer, String[]> content) {
@@ -82,15 +81,21 @@ public class Table {
         return this.numTable;
     }
 
-    public boolean isEquals(Table tableToCompare){
-        boolean result = false;
-        if(this.title.equals(tableToCompare.getTitle())
-                /*&& this.content.equals(tableToCompare.getContent())
-                && this.extractionType.equals(tableToCompare.getExtractionType())*/
-                && this.numTable == tableToCompare.getNumTable()){
-            result = true;
+    /**
+     * Return the content of the current table
+     */
+    public String toString() {
+        StringBuilder ret = new StringBuilder();
+        ret.append("=======TABLE=======\n");
+        HashMap<Integer, String[]> tbl2 = this.getContent();
+        for (Integer i : tbl2.keySet()) {
+            ret.append("*****ROW*****\n");
+            for (String str : tbl2.get(i)) {
+                ret.append(str).append("\n");
+            }
+            ret.append("*************\n");
         }
-
-        return result;
+        ret.append("=========================\n");
+        return ret.toString();
     }
 }

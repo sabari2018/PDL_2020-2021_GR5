@@ -11,8 +11,6 @@ import java.util.Iterator;
 import static org.junit.Assert.assertEquals;
 
 /**
- * @author Maud Garçon
- *
  * Test class of TestParserWikiText
  */
 
