@@ -162,7 +162,8 @@ public class TestConverter {
             }
         }
         displayFileErrors(errorsMessage);
-        Assert.assertEquals("There are: "+nbFileCorrect+ " CSV valid on "+results.size(),results.size(), nbFileCorrect);
+        Assert.assertEquals("There are: "+nbFileCorrect+ " CSV valid " +
+                "on "+results.size(),results.size(), nbFileCorrect);
     }
 
     /**

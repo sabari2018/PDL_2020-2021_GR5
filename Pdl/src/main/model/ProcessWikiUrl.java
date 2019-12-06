@@ -131,7 +131,8 @@ public class ProcessWikiUrl {
     /**
      * Go through every Table in listTable and pass it to converter which create a CSV file for each of them
      */
-    public void convert(){
+    public int convert(){
+        int nbConvertFile = 0;
         System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_");
         System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_");
         System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_");
@@ -139,7 +140,11 @@ public class ProcessWikiUrl {
         for(int i = 0; i < listTable.size(); i++){
             boolean isCreated = converter.convertToCSV(listTable.get(i));
             System.out.println("Table "+ listTable.get(i).getTitle() +" a été convertie : "+isCreated);
+            if (isCreated) {
+              nbConvertFile ++;
+            }
         }
         System.out.println("Convertion ended");
+        return nbConvertFile;
     }
 }
