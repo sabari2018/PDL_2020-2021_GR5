@@ -232,8 +232,8 @@ public class TestParserHTML {
      */
     @Test
     public void testParseSourceCodeExamples(){
-        String result = p.parseSourceCodeExamples(htmlInTable);
-        System.out.println(result);
+        //String result = p.parseSourceCodeExamples(htmlInTable);
+        //System.out.println(result);
         //assertEquals(10,result.size());
     }
 

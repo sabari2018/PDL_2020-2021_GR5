@@ -11,8 +11,7 @@ public class Main {
         processWikiUrl.addWikiUrlFromFile("wikiurls", false, "en");
 
         processWikiUrl.parseHTML();
-        //processWikiUrl.parseWikiText();
+        processWikiUrl.parseWikiText();
         processWikiUrl.convert();
     }
-
 }

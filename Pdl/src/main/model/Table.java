@@ -81,4 +81,16 @@ public class Table {
     public int getNumTable() {
         return this.numTable;
     }
+
+    public boolean isEquals(Table tableToCompare){
+        boolean result = false;
+        if(this.title.equals(tableToCompare.getTitle())
+                /*&& this.content.equals(tableToCompare.getContent())
+                && this.extractionType.equals(tableToCompare.getExtractionType())*/
+                && this.numTable == tableToCompare.getNumTable()){
+            result = true;
+        }
+
+        return result;
+    }
 }
