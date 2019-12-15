@@ -52,10 +52,10 @@ public class Converter {
 
                 for (int i = 0; i < tableContent.length; i++) {
                     if (i == tableContent.length-1) {
-                        fileWriter.write(tableContent[i]);
+                        fileWriter.write(tableContent[i].trim());
                     }
                     else {
-                        fileWriter.write(tableContent[i] +",");
+                        fileWriter.write(tableContent[i].trim() +",");
                     }
                 }
                 fileWriter.write("\n");
@@ -63,7 +63,7 @@ public class Converter {
             fileWriter.flush();
             fileWriter.close();
         }
-        catch (IOException e) {
+        catch (Exception e) {
             System.out.println("Impossible to write in the CSV file"+ e.getMessage());
         }
 
@@ -76,7 +76,7 @@ public class Converter {
      * @return true if the CSV file is fill
      */
     public boolean fileIsFilled (File file) {
-       return file.length() > 0;
+        return file.length() > 0;
     }
 
     /**
