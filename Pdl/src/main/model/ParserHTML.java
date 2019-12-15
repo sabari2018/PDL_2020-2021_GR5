@@ -174,7 +174,7 @@ public class ParserHTML extends Parser {
 
         //If a rowspan is at the last position of the row, it cannot be treated in the loop (because its id == nbCells), so it is treated afterwards
         if (rowSpanMap.get(nbCells) != null && rowSpanMap.get(nbCells) != 0) {
-            cellsList.add(nbCells, "rowspan");
+            cellsList.add(nbCells, "");
             rowSpanMap.put(nbCells, rowSpanMap.get(nbCells) - 1);
             nbCells++;
         }
