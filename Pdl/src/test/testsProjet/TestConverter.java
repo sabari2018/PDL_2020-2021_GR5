@@ -3,6 +3,7 @@ package testsProjet;
 import model.Converter;
 import model.ProcessWikiUrl;
 import model.Table;
+import model.WikiUrl;
 import org.junit.*;
 import java.io.BufferedReader;
 import java.io.File;
@@ -22,9 +23,9 @@ public class TestConverter {
     public static void setUp (){
         converter = new Converter();
         ProcessWikiUrl processWikiUrl = new ProcessWikiUrl();
-        processWikiUrl.addWikiUrlFromFile("wikiurls", false, "en");
+        processWikiUrl.addWikiUrlFromFile("test", false, "en");
         processWikiUrl.parseHTML();
-       // processWikiUrl.parseWikiText();
+        //processWikiUrl.parseWikiText();
         List<Table> tableWiki = processWikiUrl.getListTable();
 
         results = new HashMap<Table, File>();
@@ -119,7 +120,7 @@ public class TestConverter {
     }
 
     /**
-     * Check if the CSV is valid -> same number of column in each row
+     * Check if the CSV is valid -> same number of column in each row of the CSV file
      */
     @Test
     public void testCsvValid () {
@@ -131,6 +132,7 @@ public class TestConverter {
             Table table = entry.getKey();
             File file = entry.getValue();
             int nbCorrectLine = 0;
+            System.out.println(file.getPath());
 
             try {
                 FileReader f = new FileReader(file);
@@ -141,6 +143,7 @@ public class TestConverter {
 
                 while (line != null) {
                     int nbColumn = getNbCommas(line);
+                    System.out.println("column " + nbColumn + "ref "+nbColumnRef);
                     if (nbColumn == nbColumnRef) {
                         nbCorrectLine++;
                     }

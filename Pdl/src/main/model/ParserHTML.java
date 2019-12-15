@@ -35,11 +35,12 @@ public class ParserHTML extends Parser {
 
         String pageToParse = getHtmlPage();
 
-        int tabNumber = 0;
+        int tabNumber = 1;
         ArrayList<Table> parsedTables = new ArrayList<Table>();
         ArrayList<String> tables = this.getTablesFromPage(pageToParse);
         for (String table : tables) {
-            Table parsedTable = new Table(pageHtml.title(), "html", tabNumber);
+            String [] splitUrl = url.split("/");
+            Table parsedTable = new Table(splitUrl[splitUrl.length-1], "html", tabNumber);
             ArrayList<String> rows = this.getRowsFromTable(table);
             for (String row : rows) {
 

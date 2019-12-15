@@ -56,6 +56,9 @@ public class ParserWikiText extends Parser {
             this.setTextToParse(doc.html());
             this.titleOfCurrentPage = doc.title();
         }
+        String [] splitUrl = urlWikiText.split("title=");
+        String [] splitTitle = splitUrl[splitUrl.length-1].split("&action=");
+        this.titleOfCurrentPage = splitTitle [0];
     }
 
     /**

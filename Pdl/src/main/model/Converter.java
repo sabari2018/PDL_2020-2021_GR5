@@ -1,14 +1,12 @@
 package model;
 
 import java.io.File;
-import java.io.FileReader;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * A public type wich permits to convert a table into a CSV file
+ * A public type which permits to convert a table into a CSV file
  */
 
 public class Converter {
@@ -43,7 +41,7 @@ public class Converter {
             folderName = File.separator+"output"+File.separator+"wikitext"+File.separator;
         }
 
-        csvConvertFile = new File (System.getProperty("user.dir")+folderName+title.trim()+"-"+nbTable+".csv");
+        csvConvertFile = new File (System.getProperty("user.dir")+folderName+title.trim()+"_"+nbTable+".csv");
 
         try {
             FileWriter fileWriter = new FileWriter(csvConvertFile);
