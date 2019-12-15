@@ -23,7 +23,7 @@ public class TestConverter {
     public static void setUp (){
         converter = new Converter();
         ProcessWikiUrl processWikiUrl = new ProcessWikiUrl();
-        processWikiUrl.addWikiUrlFromFile("test", false, "en");
+        processWikiUrl.addWikiUrlFromFile("wikiurls", false, "en");
         processWikiUrl.parseHTML();
         //processWikiUrl.parseWikiText();
         List<Table> tableWiki = processWikiUrl.getListTable();
