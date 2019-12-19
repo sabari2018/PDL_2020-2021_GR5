@@ -136,7 +136,8 @@ After, "parseWikiText ()" is executed and realizes the WikiText extraction. When
 Finally, "convert ()" is called. This methods consits in writing all Table in the list in a csv file.
 
 ## Tests results
-| <h3>Test name</h3>  <h3>Final Result/h3>  |
+
+| Test name | Final Result |
 |:------:|-----|
 | **TestWikiUrl**	| |
 | testChineseUrl	| OK	|
