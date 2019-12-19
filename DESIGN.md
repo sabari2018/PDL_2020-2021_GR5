@@ -145,4 +145,43 @@ Finally, "convert ()" is called. This methods consits in writing all Table in th
 | testInvalidUrl	| OK	|
 | testNullUrl	| OK	|
 | testEmptyUrl | OK |
+| **BenchTest**	| |
+| testBenchExtractors | OK |
+| **TestParserComparaison**	| |
+| testCompareNbTabHTML | Ok |
+| testCompareNbTabWikiText |Failed => Assertion Error : Expected : 100 Actual : 32|
+| **TestParserHTML**	| |
+| testParseHtml | OK |
+| testParseHtmlTree | OK |
+| testGetTablesFromPage | OK |
+| testGetTablesFromPage2 | OK |
+| testGetTablesFromPage3 | OK |
+| testEscapeComasAndQuotes | OK |
+| testGetRowsFromTable | OK |
+| testGetCellsFromRow |Failed => Assertion Error : Expected : 4 Actual : 3|
+| testEscapeComasAndQuotes | OK |
+| **TestParserWikiText**	| |
+| testParseWikiTextNoTab | OK 
+| testParseWikiTextNotWikitable | OK |
+| testParseWikiText1Tab | OK |
+| testParseWikiText8Tab | OK |
+| testParseWikiTextNbLign1 | OK |
+| testParseWikiTextNbLign2| Failed => Assertion Error : Expected : 16 Actual : 0 |
+| testParseWikiTextNbLign3 | OK |
+| testParseWikiTextNbCell1 | OK |
+| testParseWikiTextNbCell2 |Failed => Assertion Error : Expected : 30 Actual : 0 |
+| testParseWikiTextNbCell3 |Failed => Assertion Error : Expected : 79 Actual : 91 |
+| **TestProcessWikiUrl**	| |
+| testAddWikiUrlFromFileValid | OK |
+| testAddWikiUrlFromFileInvalid | OK |
+| testAddWikiUrl | OK|
+| testAddWikiUrlInvalid | OK |
+| testParseHTML | OK |
+| **TestConverter**	| |
+| testFileIsCreated |  |
+| testCheckNbRows| |
+| testCheckNbColumn| |
+| testCsvValid |  |
+
+
 
