@@ -1,4 +1,4 @@
-## Design 
+## First Version 
 
 
 # Global architecture
@@ -32,7 +32,7 @@ Even if not causing technical difficulties, these coding conventions issues can 
 | Url | FormatHTML, Thread (Java class) | Contains methods which test if the urls are valid |
 
   
-## Dynamic model
+# Dynamic model
   
 Actually, the project starts when Main class is executed. This class allows to start a Wikipedia table extraction from two different formats : HTML or Wikitext. 
 
@@ -52,7 +52,7 @@ After that, "productUrlsWikitext()" is called. This method has the same role tha
 
 At the end, "FichierToWikitext()" is executed. This method creates a CSV file for each table in a page. This file contains the HTML extraction from Wikipedia table content and is present in "output/html".
 
-## Execution scenarios
+# Execution scenarios
 
 The rated scenario consists to realize the extraction of all tables contained in the Wikipedia pages defined in "wikiurls.txt" in two different formats: HTML or Wikitext and to convert each extracted table into a CSV file. A successful extraction and conversion is, for all pages, a CSV file correctly established : the first line has to contain the column names and the other lines the date. Moreover the number of columns should be equal between the different lines and the data should not be altered.
 
