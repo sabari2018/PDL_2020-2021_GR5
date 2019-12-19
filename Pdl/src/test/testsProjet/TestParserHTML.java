@@ -1,12 +1,9 @@
 package testsProjet;
 
 import model.Table;
-//import org.jsoup.nodes.Document;
-
 
 import model.ParserHTML;
 import org.junit.Test;
-//import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 
@@ -78,178 +75,105 @@ public class TestParserHTML {
             "<a href=\"/wiki/Constructed_language#Naturalistic_languages\" title=\"Constructed language\">"+
             "naturalistic</a>;<br />designed to be easy to understand to as many people as possible"+
             "</td></tr>";
+    /**
+     * HTML code of a row (only the contains of one row between <tr></tr>)
+     */
 
     String row = "<th colspan=\"2\">row 1, cell 1</th>"+
                  "<td>cell 2</td>" +
                  "<td rowspan=\"2\">\"cell 3\"</td>";
 
 
-    /*String htmlInTable = "<table class=\"wikitable\">\n" +
-            "<caption>Structure d’un document HTML\n" +
-            "</caption>\n" +
-            "<tbody><tr>\n" +
-            "<th scope=\"col\">Source HTML\n" +
-            "</th>\n" +
-            "<th scope=\"col\">Modèle du document\n" +
-            "</th></tr>\n" +
-            "<tr>\n" +
-            "<td><div class=\"mw-highlight mw-content-ltr\" dir=\"ltr\"><pre><span></span><span class=\"cp\">&lt;!DOCTYPE html PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt;</span>\n" +
-            "<span class=\"p\">&lt;</span><span class=\"nt\">html</span><span class=\"p\">&gt;</span>\n" +
-            " <span class=\"p\">&lt;</span><span class=\"nt\">head</span><span class=\"p\">&gt;</span>\n" +
-            "  <span class=\"p\">&lt;</span><span class=\"nt\">title</span><span class=\"p\">&gt;</span>\n" +
-            "   Exemple de HTML\n" +
-            "  <span class=\"p\">&lt;/</span><span class=\"nt\">title</span><span class=\"p\">&gt;</span>\n" +
-            " <span class=\"p\">&lt;/</span><span class=\"nt\">head</span><span class=\"p\">&gt;</span>\n" +
-            " <span class=\"p\">&lt;</span><span class=\"nt\">body</span><span class=\"p\">&gt;</span>\n" +
-            "  Ceci est une phrase avec un <span class=\"p\">&lt;</span><span class=\"nt\">a</span> <span class=\"na\">href</span><span class=\"o\">=</span><span class=\"s\">&quot;cible.html&quot;</span><span class=\"p\">&gt;</span>hyperlien<span class=\"p\">&lt;/</span><span class=\"nt\">a</span><span class=\"p\">&gt;</span>.\n" +
-            "  <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n" +
-            "   Ceci est un paragraphe où il n’y a pas d’hyperlien.\n" +
-            "  <span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n" +
-            " <span class=\"p\">&lt;/</span><span class=\"nt\">body</span><span class=\"p\">&gt;</span>\n" +
-            "<span class=\"p\">&lt;/</span><span class=\"nt\">html</span><span class=\"p\">&gt;</span>\n" +
-            "</pre></div>\n" +
-            "</td>\n" +
-            "<td>\n" +
-            "<div style=\"padding:0 0.25em;border:1px solid #393\">\n" +
-            "<p>html\n" +
-            "</p>\n" +
-            "<div style=\"padding:0 0.25em;margin:0.25em;margin-left:1em;border:1px solid #393\">\n" +
-            "<p>head\n" +
-            "</p>\n" +
-            "<div style=\"padding:0 0.25em;margin:0.25em;margin-left:1em;border:1px solid #393\">\n" +
-            "<p>title\n" +
-            "</p>\n" +
-            "</div>\n" +
-            "</td></tr></tbody></table>";*/
-
-
     /**
-     * @return the contents tables of this page and its number
-     * 1 line = the contents of 1 cell
-     * each table is seperate by =====Table===== and end by ============
-     * each row is seperate by *****ROW***** and end by *************
+     * Situation : test ParseHTML method from an url -> https://en.wikipedia.org/wiki/Comparison_between_Esperanto_and_Ido
+     * Result : Read and count the number of tables from a page
+     *          Expected 8 tables
      */
+
     @Test
     public void testParseHtml(){
         p.setUrlHtml(url);
         ArrayList<Table> result = p.parseHtml();
-        assertEquals(8,result.size());
+        assertEquals("Expected 8 tables from the url gave",8,result.size());
     }
 
 
     /**
-     * @return nothing
-     * Here nothing is expected because it isn't a 'wikitable' class
+     * Situation : test ParseHTML method with an url -> https://en.wikipedia.org/wiki/2011_Intersport_Heilbronn_Open_%E2%80%93_Singles
+     *              The table in this page looks like a tree shape
+     * Result : Here nothing is expected because the table isn't a 'wikitable' class
      */
     @Test
     public void testParseHtmlTree(){
         p.setUrlHtml(urlTree);
         ArrayList<Table> result = p.parseHtml();
-        assertEquals(0,result.size());
+        assertEquals("Expected 0 table because the table into this page isn't a wikitable class",0,result.size());
     }
 
 
     /**
-     * @return the number of tables into the HTML code
-     * Expected 1 table
+     * Situation : test getTablesFromPage with a raw HTML code, this code is about one table with wikitable class
+     * Result : Expected 1 table
      */
     @Test
     public void testGetTablesFromPage(){
         ArrayList<String> result = p.getTablesFromPage(codeTableHTML);
-        assertEquals(1,result.size());
+        assertEquals("Expected 1 table",1,result.size());
     }
 
 
     /**
-     * @return the number of tables into the HTML code
-     * Expected 2 tables
+     * Situation : test getTablesFromPage with a raw HTML code, this code is about two tables with wikitable classes
+     * Result : Expected 2 tables
      */
     @Test
     public void testGetTablesFromPage2(){
         ArrayList<String> result = p.getTablesFromPage(codeDeuxTablesHTML);
-        assertEquals(2,result.size());
+        assertEquals("Expected 2 tables",2,result.size());
     }
 
 
     /**
-     * @return the number of tables into the HTML code
-     * Expected 1 table
+     * Situation : test getTablesFromPage with a raw HTML code, this code is about two tables with one wikitable class
+     *              and another without
+     * Result : Expected 1 table
      */
     @Test
     public void testGetTablesFromPage3(){
         ArrayList<String> result = p.getTablesFromPage(codeDeuxTablesHTML2);
-        assertEquals(1,result.size());
+        assertEquals("Expected 1 table because the 2nd isn't a wikitable class",1,result.size());
     }
 
     /**
-     * @return the number of tables into the HTML code
-     * Expected 3 tables
-     */
-   /* @Test
-    public void testGetTablesFromPageURLlink(){
-        String html_page = p.getHtmlPage(); //ajouter un url temporaire dans gethtmlpage
-        //System.out.println(p.getHtmlPage());
-        ArrayList<String> result = p.getTablesFromPage(html_page);
-        assertEquals(3,result.size());
-    }*/
-
-    /**
-     * @return the test have to be between "" and a " are doubled
+     * Situation : We wrote a string to test escapeComasAndQuotes's method
+     * Result : the test have to be between "" and a " are doubled
      */
     @Test
     public void testEscapeComasAndQuotes(){
         String test = "\",sfg\"\"dfg_,rf,\"fi\"':";
-        System.out.println(p.escapeComasAndQuotes(test));
-        assertEquals("\"\"\",sfg\"\"\"\"dfg_,rf,\"\"fi\"\"':\"",p.escapeComasAndQuotes(test));
+        assertEquals("Expected : \"\"\",sfg\"\"\"\"dfg_,rf,\"\"fi\"\"':\"","\"\"\",sfg\"\"\"\"dfg_,rf,\"\"fi\"\"':\"",p.escapeComasAndQuotes(test));
     }
 
     /**
-     * @return all code between <tr></tr> in a table
+     * Situation : Test getRowsFromTable with a raw HTML code. This code is about one wikiclass table
+     * Result : Count number of rows into the table -> expected 3 rows
      */
     @Test
     public void testGetRowsFromTable(){
         ArrayList<String> result = p.getRowsFromTable(codeTableHTML);
-        System.out.println(result);
-        assertEquals(3,result.size());
+        assertEquals("Expected 3 rows",3,result.size());
 
     }
 
-
     /**
-     * @return 10 cells contains
-     * only 1 line can be analyze
+     * Situation : Test getCellsFromRow with a raw HTML code. This code is about one raw from a table
+     *              This code contains only the code between <tr></tr>
+     *              Only 1 line can be tested
+     * Result : Expected 3 cells
      */
     @Test
     public void testGetCellsFromRow(){
         ArrayList<String> result = p.getCellsFromRow(row);
-        System.out.println(result);
-        assertEquals(4,result.size());
+        assertEquals("Expected 3 cells",3,result.size());
     }
-
-
-
-    /**
-     * Tests parser html :
-     * Tester :
-     *      - bon nb de ligne(s)
-     *      - bon nb de colonne(s)
-     *      - bon contenu
-     *
-     * - tableau sans titre
-     * - tableau avec titre
-     * - tableau html ave  ligne(s) regroupee()s (Comment est compte le bon nombre si les lignes sont regroupees ?)
-     * - tableau html avec colonnes(s) regroupee(s) (Comment est compte le bon nombre si les colonnes sont regroupees ?)
-     * - tableaux vides ?
-     * - tableaux avec une seule case ? (titre ou non titre)
-     * - case avec seulement une image ? ou des images ? ou image(s) et texte ?
-     * - case avec une liste ?
-     * - case avec des icons ?
-     * - case avec des liens ?
-     * - case avec texte contenant des accents ?
-     * - case avec le texte "Les données manquantes sont à compléter." ?
-     * - case avec un texte avec un nombre pour acceder aux notes (lien vers la note) ?
-     * - tableau avec des cases vides et d'autres non vides
-     * - tableau a double entree
-     * - si ya des tris croissants ou dec
-     */
 }
