@@ -24,10 +24,10 @@ public class TestConverter {
         ProcessWikiUrl processWikiUrl = new ProcessWikiUrl();
         processWikiUrl.addWikiUrlFromFile("wikiurls", false, "en");
         processWikiUrl.parseHTML();
-       // processWikiUrl.parseWikiText();
+        processWikiUrl.parseWikiText();
         List<Table> tableWiki = processWikiUrl.getListTable();
 
-        results = new HashMap<Table, File>();
+        results = new HashMap<>();
         File file;
         for (Table table : tableWiki) {
             converter.convertToCSV(table);
@@ -58,6 +58,7 @@ public class TestConverter {
                 messageErrors.add(message);
             }
         }
+        Assert.assertTrue("There list of file is empty, there is may be no internet connection",!results.isEmpty());
         displayFileErrors(messageErrors);
         Assert.assertEquals ("All files are not filled : "+nbFileFilled+ " have been filled on "+results.size(),results.size(), nbFileFilled);
     }
@@ -66,7 +67,7 @@ public class TestConverter {
      * Check if there the same row number in the table and the CSV
      */
     @Test
-    public void checkNbRows () {
+    public void testCheckNbRows () {
         int nbFileCorrect = 0;
         ArrayList<String> messageErrors = new ArrayList<String>();
         String message;
@@ -84,6 +85,7 @@ public class TestConverter {
                 messageErrors.add(message);
             }
         }
+        Assert.assertTrue("There list of file is empty, there is may be no internet connection",!results.isEmpty());
         displayFileErrors(messageErrors);
         Assert.assertEquals("All files do not contain the correct number of rows : "+nbFileCorrect+
                                                 " files contain the right number of rows on "+results.size(),results.size(), nbFileCorrect);
@@ -93,7 +95,7 @@ public class TestConverter {
      * Check if there the same column number in the table and the CSV
      */
     @Test
-    public void checkNbColumn () {
+    public void testCheckNbColumn () {
         int nbFileCorrect = 0;
         ArrayList<String> messageErrors = new ArrayList<String>();
         String message;
@@ -113,13 +115,14 @@ public class TestConverter {
                 messageErrors.add(message);
             }
         }
+        Assert.assertTrue("There list of file is empty, there is may be no internet connection",!results.isEmpty());
         displayFileErrors(messageErrors);
         Assert.assertEquals("All files do not contain the correct number of columns :" + nbFileCorrect +
                 " files contain the right number of columns on " + results.size(), results.size(), nbFileCorrect);
     }
 
     /**
-     * Check if the CSV is valid -> same number of column in each row
+     * Check if the CSV is valid -> same number of column in each row of the CSV file
      */
     @Test
     public void testCsvValid () {
@@ -161,6 +164,7 @@ public class TestConverter {
                 System.out.println (e);
             }
         }
+        Assert.assertTrue("There list of file is empty, there is may be no internet connection",!results.isEmpty());
         displayFileErrors(errorsMessage);
         Assert.assertEquals("There are: "+nbFileCorrect+ " CSV valid " +
                 "on "+results.size(),results.size(), nbFileCorrect);

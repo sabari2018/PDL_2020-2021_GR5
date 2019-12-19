@@ -97,7 +97,7 @@ public class ProcessWikiUrl {
         for(int i = 0; i < listWikiUrl.size(); i++){
             System.out.println("Treating HTML url : " + listWikiUrl.get(i).getHtmlUrl());
 
-            parserHTML.setUrlHtml(listWikiUrl.get(i).getHtmlUrl());
+            parserHTML.setUrlHtml(listWikiUrl.get(i).getHtmlUrl().trim());
             ArrayList<Table> currentPageTables = parserHTML.parseHtml();
 
             for(int j = 0; j < currentPageTables.size(); j++){
@@ -131,8 +131,7 @@ public class ProcessWikiUrl {
     /**
      * Go through every Table in listTable and pass it to converter which create a CSV file for each of them
      */
-    public int convert(){
-        int nbConvertFile = 0;
+    public void convert(){
         System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_");
         System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_");
         System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_");
@@ -140,11 +139,7 @@ public class ProcessWikiUrl {
         for(int i = 0; i < listTable.size(); i++){
             boolean isCreated = converter.convertToCSV(listTable.get(i));
             System.out.println("Table "+ listTable.get(i).getTitle() +" a été convertie : "+isCreated);
-            if (isCreated) {
-              nbConvertFile ++;
-            }
         }
         System.out.println("Convertion ended");
-        return nbConvertFile;
     }
 }

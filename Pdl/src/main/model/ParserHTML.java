@@ -2,9 +2,7 @@ package model;
 
 import org.jsoup.nodes.Document;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -15,14 +13,15 @@ import java.util.regex.Pattern;
  */
 public class ParserHTML extends Parser {
 
-    private final String REGEX_COLSPAN = ".*colspan=\"?(\\d*)\\s?\"?.*";
-    private final String REGEX_ROWSPAN = ".*rowspan=\"?(\\d*)\\s?\"?.*";
+    private final String REGEX_COLSPAN = ".*<(.*?)colspan=\"?(\\d*)\\s?>?.*";
+    private final String REGEX_ROWSPAN = ".*<(.*?)rowspan=\"?(\\d*)\\s?>?.*";
     /**
      * The page to parse
      */
     private Document pageHtml;
     private String url;
-    private HashMap<Integer, Integer> rowSpanMap = new HashMap<Integer, Integer>();
+    private HashMap<Integer, Integer> rowSpanMap = new HashMap<>();
+    private int nbCellsTable = 0;
 
     /**
      * Parses an HTML page to generate an list of parsed tables (represented by {@link Table} object).
@@ -34,38 +33,24 @@ public class ParserHTML extends Parser {
     public ArrayList<Table> parseHtml() {
 
         String pageToParse = getHtmlPage();
-
-        int tabNumber = 0;
+        int tabNumber = 1;
         ArrayList<Table> parsedTables = new ArrayList<Table>();
         ArrayList<String> tables = this.getTablesFromPage(pageToParse);
         for (String table : tables) {
-            Table parsedTable = new Table(pageHtml.title(), "html", tabNumber);
+            String [] splitUrl = url.split("/");
+            Table parsedTable = new Table(splitUrl[splitUrl.length-1], "html", tabNumber);
             ArrayList<String> rows = this.getRowsFromTable(table);
             for (String row : rows) {
 
                 ArrayList<String> cells = this.getCellsFromRow(row);
                 String[] parsedRowCells = cells.toArray(new String[cells.size()]);
                 parsedTable.getContent().put(rows.indexOf(row), parsedRowCells);
-
             }
             parsedTables.add(parsedTable);
-
+            nbCellsTable = 0;
+            rowSpanMap.clear();
             tabNumber++;
         }
-
-        //For debug
-        /*for (Table tbl : parsedTables) {
-            System.out.println("=========TABLE===========");
-            HashMap<Integer, String[]> tbl2 = tbl.getContent();
-            for (Integer i : tbl2.keySet()) {
-                System.out.println("*****ROW*****");
-                for (String str : tbl2.get(i)) {
-                    System.out.println(str);
-                }
-                System.out.println("*************");
-            }
-            System.out.println("=========================");
-        }*/
 
         return parsedTables;
     }
@@ -149,38 +134,46 @@ public class ParserHTML extends Parser {
     private ArrayList<String> handleCells(String[] cells) {
         ArrayList<String> cellsList = new ArrayList(Arrays.asList(cells));
         cellsList.remove(cellsList.get(cellsList.size() - 1));
-        int nbCells = cellsList.size();
+        int nbCells = cellsList.size() + rowSpanMap.size();
         for (int i = 0; i < nbCells; i++) {
-            Matcher matcherColSpan = Pattern.compile(REGEX_COLSPAN).matcher(cellsList.get(i));
-            Matcher matcherRowSpan = Pattern.compile(REGEX_ROWSPAN).matcher(cellsList.get(i));
-            if (matcherColSpan.matches()) {
-                int colspan = Integer.parseInt(matcherColSpan.group(1));
-                if (colspan != 0) {
-                    for (int j = 0; j < colspan - 1; j++) {
-                        cellsList.add(i + 1, "");
-                        nbCells++;
+            Matcher matcherColSpan = null;
+            Matcher matcherRowSpan = null;
+            if (i < cellsList.size()) {
+                matcherColSpan = Pattern.compile(REGEX_COLSPAN).matcher(cellsList.get(i));
+                matcherRowSpan = Pattern.compile(REGEX_ROWSPAN).matcher(cellsList.get(i));
+            }
+
+            if (i < cellsList.size()) {
+                if (matcherColSpan != null && matcherColSpan.matches()) {
+                    int colspan = Integer.parseInt(matcherColSpan.group(2));
+                    if (colspan != 0) {
+                        for (int j = 0; j < colspan - 1; j++) {
+                            cellsList.add(i + 1, "");
+                            nbCells++;
+                        }
                     }
                 }
             }
+
             if (rowSpanMap.get(i) != null && rowSpanMap.get(i) > 0) {
-                nbCells++;
-                cellsList.add(i, "");
+                if(i < cellsList.size()) {
+                    cellsList.add(i, "");
+                }
+                else {
+                    cellsList.add("");
+                }
                 rowSpanMap.put(i, rowSpanMap.get(i) - 1);
+                if (rowSpanMap.get(i) == 0) {
+                    rowSpanMap.remove(i);
+                }
             }
-            if (matcherRowSpan.matches()) {
-                rowSpanMap.put(i, Integer.parseInt(matcherRowSpan.group(1)) - 1);
+
+            if (matcherRowSpan != null && matcherRowSpan.matches()) {
+                rowSpanMap.put(i, Integer.parseInt(matcherRowSpan.group(2)) - 1);
             }
         }
 
-        //If a rowspan is at the last position of the row, it cannot be treated in the loop (because its id == nbCells), so it is treated afterwards
-        if (rowSpanMap.get(nbCells) != null && rowSpanMap.get(nbCells) != 0) {
-            cellsList.add(nbCells, "rowspan");
-            rowSpanMap.put(nbCells, rowSpanMap.get(nbCells) - 1);
-            nbCells++;
-        }
-
-
-        for (int i = 0; i < nbCells; i++) {
+        for (int i = 0; i < cellsList.size(); i++) {
             cellsList.set(i, cellsList.get(i).replaceAll("<a[^>]*>|</a>", ""));
             cellsList.set(i, cellsList.get(i).replaceAll("<i[^>]*>|</i>", " "));
             cellsList.set(i, cellsList.get(i).replaceAll("&nbsp;", " "));
@@ -189,6 +182,19 @@ public class ParserHTML extends Parser {
             cellsList.set(i, cellsList.get(i).replaceAll("&lt;", "<"));
             cellsList.set(i, cellsList.get(i).replaceAll("&gt;", ">"));
             cellsList.set(i, escapeComasAndQuotes(cellsList.get(i)));
+        }
+
+        if(nbCellsTable == 0) {
+            nbCellsTable = cellsList.size();
+        }
+
+        if(cellsList.size() > nbCellsTable) {
+            cellsList.subList(nbCellsTable - 1, cellsList.size() -1).clear();
+        }
+        else if(cellsList.size() < nbCellsTable) {
+            for(int i = cellsList.size() - 1; i < nbCellsTable - 1; i++) {
+                cellsList.add("");
+            }
         }
 
         return cellsList;

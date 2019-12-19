@@ -42,7 +42,7 @@ public class TestParserComparison {
      * With the correct number of table
      */
     @Test
-    public void TestCompareNbTabHTML(){
+    public void testCompareNbTabHTML(){
 
         for(int i = 0; i < processWikiUrl.getListWikiUrl().size() ; i++){
 
@@ -50,14 +50,13 @@ public class TestParserComparison {
             ArrayList<Table> currentPageTables = parserHTML.parseHtml();
 
             for(int j = 0; j < currentPageTables.size(); j++){
-
-                //compte le nombre de tableau
+                //Count number of table
                 nbTabHTML ++;
 
                 Iterator it = currentPageTables.get(j).getContent().values().iterator();
                 boolean nbCellsOk = true;
                 int nbCell = 0;
-                //ligne 1 = ligne de ref
+                //ligne 1 = reference line
                 String[] cells = (String[]) it.next();
                 nbCell = cells.length;
 
@@ -67,23 +66,13 @@ public class TestParserComparison {
                         nbCellsOk = false;
                     }
                 }
-                if (nbCellsOk == true){
-                    //ajout du tab si correct
+                if (nbCellsOk){
                     nbTabHTMLCorrect ++;
-                }
-
-                //Affichage quel tab est mauvais
-                else{
-                    //System.out.println("lien : " + i + " tab : " + j);
                 }
             }
         }
-
-        System.out.println("nombre tab hmtl " + nbTabHTML);
-        System.out.println("nombre tab hmtl correcte " + nbTabHTMLCorrect);
         int pourcentageTabValid = nbTabHTMLCorrect*100/nbTabHTML;
-        //System.out.println("nombre tab hmtl correcte / nombre tab html = " + pourcentageTabValid +"%");
-        assertEquals("On devrait avoir 100%", 100, pourcentageTabValid);
+        assertEquals("The percentage must be 100%", 100, pourcentageTabValid);
     }
 
     /**
@@ -98,14 +87,13 @@ public class TestParserComparison {
             ArrayList<Table> currentPageTables = parserWikiText.parseWikiText();
 
             for(int j = 0; j < currentPageTables.size(); j++){
-
-                //compte le nombre de tab
+                //Count number of table
                 nbTabWikiText ++;
 
                 Iterator it = currentPageTables.get(j).getContent().values().iterator();
                 boolean nbCellsOk = true;
                 int nbCell = 0;
-                //ligne 1 = ligne de ref
+                //ligne 1 = reference line
                 String[] cells = (String[]) it.next();
                 nbCell = cells.length;
 
@@ -116,22 +104,13 @@ public class TestParserComparison {
                     }
                 }
 
-                if (nbCellsOk == true){
-                    //ajout du tab si correct
+                if (nbCellsOk){
                     nbTabWikiTextCorrect ++;
-                }
-                //Affichage quel tab est mauvais
-                else{
-                    //System.out.println("lien : " + i + " tab : " + j);
                 }
             }
         }
-
-        //System.out.println("nombre tab wikitext " + nbTabWikiText);
-        //System.out.println("nombre tab wikitext correcte " + nbTabWikiTextCorrect);
         int pourcentageTabValid = nbTabWikiTextCorrect*100/nbTabWikiText;
-        //System.out.println("nombre tab wikitext correcte / nombre tab wikitext = " + pourcentageTabValid +"%");
-        assertEquals("On devrait avoir 100%", 100, pourcentageTabValid);
+        assertEquals("The percentage must be 100%", 100, pourcentageTabValid);
 
     }
 }
