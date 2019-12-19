@@ -2,7 +2,9 @@ package model;
 
 import org.jsoup.nodes.Document;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -13,19 +15,16 @@ import java.util.regex.Pattern;
  */
 public class ParserHTML extends Parser {
 
-    private final String REGEX_COLSPAN = ".*<(.*?)colspan=\"?(\\d*)\\s?>?.*";
-    private final String REGEX_ROWSPAN = ".*<(.*?)rowspan=\"?(\\d*)\\s?>?.*";
     /**
      * The page to parse
      */
     private Document pageHtml;
     private String url;
     private HashMap<Integer, Integer> rowSpanMap = new HashMap<>();
-    private int nbCellsTable = 0;
 
     /**
      * Parses an HTML page to generate an list of parsed tables (represented by {@link Table} object).
-     * A parsed table is represented by a Hashmap with an Integer key (the csv line number) and
+     * A parsed table is represented by a {@link HashMap} with an Integer key (the csv line number) and
      * a table of String which contains the values for this row.
      *
      * @return a list of {@link Table}
@@ -37,17 +36,16 @@ public class ParserHTML extends Parser {
         ArrayList<Table> parsedTables = new ArrayList<Table>();
         ArrayList<String> tables = this.getTablesFromPage(pageToParse);
         for (String table : tables) {
-            String [] splitUrl = url.split("/");
-            Table parsedTable = new Table(splitUrl[splitUrl.length-1], "html", tabNumber);
+            String[] splitUrl = url.split("/");
+            Table parsedTable = new Table(splitUrl[splitUrl.length - 1], "html", tabNumber);
             ArrayList<String> rows = this.getRowsFromTable(table);
             for (String row : rows) {
 
                 ArrayList<String> cells = this.getCellsFromRow(row);
-                String[] parsedRowCells = cells.toArray(new String[cells.size()]);
+                String[] parsedRowCells = cells.toArray(new String[0]);
                 parsedTable.getContent().put(rows.indexOf(row), parsedRowCells);
             }
             parsedTables.add(parsedTable);
-            nbCellsTable = 0;
             rowSpanMap.clear();
             tabNumber++;
         }
@@ -92,11 +90,9 @@ public class ParserHTML extends Parser {
         markedRows = markedRows.replaceAll("<tr[^>]*>", "<tr>ROW_TO_EXTRACT");
         String[] split = markedRows.split("<tr>|</tr>");
         for (int i = 0; i < split.length; i++) {
-
             if (split[i].contains("ROW_TO_EXTRACT")) {
                 extractedRows.add(split[i]);
             }
-
         }
         return extractedRows;
     }
@@ -128,6 +124,7 @@ public class ParserHTML extends Parser {
      * We replace colspan and rowspan by empty cells.
      * For example : if we have a colspan of 2, we will add 1 empty cell next to the cell containing the colspan attribute.
      * Another example : if we have a rowspan of 3, we will add 1 empty cell just below the cell containing the rowspan and 1 empty cell below the first empty cell.
+     *
      * @param cells table containing the cells from a row
      * @return an {@link ArrayList} containing the cells from a row after the eventual addition of empty cells.
      */
@@ -135,31 +132,36 @@ public class ParserHTML extends Parser {
         ArrayList<String> cellsList = new ArrayList(Arrays.asList(cells));
         cellsList.remove(cellsList.get(cellsList.size() - 1));
         int nbCells = cellsList.size() + rowSpanMap.size();
+
         for (int i = 0; i < nbCells; i++) {
             Matcher matcherColSpan = null;
             Matcher matcherRowSpan = null;
+            //tries to match a cell with the regex corresponding to a rowspan or a colspan
             if (i < cellsList.size()) {
-                matcherColSpan = Pattern.compile(REGEX_COLSPAN).matcher(cellsList.get(i));
-                matcherRowSpan = Pattern.compile(REGEX_ROWSPAN).matcher(cellsList.get(i));
+                matcherColSpan = Pattern.compile(".*<(.*?)colspan=\"?(\\d*)\\s?>?.*").matcher(cellsList.get(i));
+                matcherRowSpan = Pattern.compile(".*<(.*?)rowspan=\"?(\\d*)\\s?>?.*").matcher(cellsList.get(i));
             }
 
             if (i < cellsList.size()) {
-                if (matcherColSpan != null && matcherColSpan.matches()) {
+                //if there is a colspan, extracts the colspan and adds colspan-1 empty cells next to the cell
+                if (matcherColSpan.matches()) {
                     int colspan = Integer.parseInt(matcherColSpan.group(2));
                     if (colspan != 0) {
                         for (int j = 0; j < colspan - 1; j++) {
                             cellsList.add(i + 1, "");
                             nbCells++;
+                            i++;
                         }
                     }
                 }
             }
 
+            //If a rowspan is detected at this position in the list of rowspan, adds one empty cell and decrements
+            //the value of the rowspan of 1, if it arrives at 0, deletes it from the HashMap.
             if (rowSpanMap.get(i) != null && rowSpanMap.get(i) > 0) {
-                if(i < cellsList.size()) {
+                if (i < cellsList.size()) {
                     cellsList.add(i, "");
-                }
-                else {
+                } else {
                     cellsList.add("");
                 }
                 rowSpanMap.put(i, rowSpanMap.get(i) - 1);
@@ -168,11 +170,13 @@ public class ParserHTML extends Parser {
                 }
             }
 
+            //if there is a rowspan, adds the rowspan to the HashMap<Position,Rowspan> of rowspan (that rowspan will be used from the next row)
             if (matcherRowSpan != null && matcherRowSpan.matches()) {
                 rowSpanMap.put(i, Integer.parseInt(matcherRowSpan.group(2)) - 1);
             }
         }
 
+        //Deletes the remaining html tags
         for (int i = 0; i < cellsList.size(); i++) {
             cellsList.set(i, cellsList.get(i).replaceAll("<a[^>]*>|</a>", ""));
             cellsList.set(i, cellsList.get(i).replaceAll("<i[^>]*>|</i>", " "));
@@ -184,21 +188,9 @@ public class ParserHTML extends Parser {
             cellsList.set(i, escapeComasAndQuotes(cellsList.get(i)));
         }
 
-        if(nbCellsTable == 0) {
-            nbCellsTable = cellsList.size();
-        }
-
-        if(cellsList.size() > nbCellsTable) {
-            cellsList.subList(nbCellsTable - 1, cellsList.size() -1).clear();
-        }
-        else if(cellsList.size() < nbCellsTable) {
-            for(int i = cellsList.size() - 1; i < nbCellsTable - 1; i++) {
-                cellsList.add("");
-            }
-        }
-
         return cellsList;
     }
+
 
     /**
      * Adds "" to each data containing commas or quotation marks to the data.

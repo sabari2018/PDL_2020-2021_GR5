@@ -5,6 +5,7 @@ import model.ParserWikiText;
 import model.ProcessWikiUrl;
 import model.Table;
 import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -18,7 +19,7 @@ import static org.junit.Assert.assertEquals;
 
 public class TestParserComparison {
 
-    private ProcessWikiUrl processWikiUrl;
+    private static ProcessWikiUrl processWikiUrl;
     private ParserHTML parserHTML = new ParserHTML();
     private ParserWikiText parserWikiText = new ParserWikiText();
 
@@ -30,16 +31,16 @@ public class TestParserComparison {
     /**
      * We recover the urls from the file
      */
-    @Before
-    public void setUp(){
+    @BeforeClass
+    public static void setUp(){
         //Récupération des urls
         processWikiUrl = new ProcessWikiUrl();
         processWikiUrl.addWikiUrlFromFile("wikiurls", false, "en");
     }
 
     /**
-     * Table number comparison test retrieved with the HTML parser
-     * With the correct number of table
+     * Case : Comparison the number of table with the number of correct table (correct table = same number of rows) in HTML
+     * Result : 100%
      */
     @Test
     public void testCompareNbTabHTML(){
@@ -71,16 +72,17 @@ public class TestParserComparison {
                 }
             }
         }
+
         int pourcentageTabValid = nbTabHTMLCorrect*100/nbTabHTML;
-        assertEquals("The percentage must be 100%", 100, pourcentageTabValid);
+        assertEquals("We should have 100%", 100, pourcentageTabValid);
     }
 
     /**
-     * Table number comparison test retrieved with the WikiText parser
-     * With the correct number of table
+     * Case : Comparison the number of table with the number of correct table (correct table = same number of rows) in WikiText
+     * Result : 100%
      */
     @Test
-    public void TestCompareNbTabWikiText(){
+    public void testCompareNbTabWikiText(){
         for(int i = 0; i < processWikiUrl.getListWikiUrl().size(); i++){
 
             parserWikiText.setUrlWikiText(processWikiUrl.getListWikiUrl().get(i).getWikiTextUrl());
@@ -109,8 +111,9 @@ public class TestParserComparison {
                 }
             }
         }
+
         int pourcentageTabValid = nbTabWikiTextCorrect*100/nbTabWikiText;
-        assertEquals("The percentage must be 100%", 100, pourcentageTabValid);
+        assertEquals("We should have 100%", 100, pourcentageTabValid);
 
     }
 }
