@@ -117,6 +117,24 @@ This proposal is likely to be changed during development.
 
 ## Dynamic model
 
+In this new version, the Main class does the same thing : extract tables from urls with two ways : html and wikitext.
+
+However, in this version the scenario has changed : 
+
+![100% center](images/SequenceDiagramV2.png)
+
+In the main a ProcessWikiUrl object is created. This object contains : 
+* a list of WikiUrl
+* a list of Table
+* a ParserHTML object
+* a ParserWikiText object
+* a Converter converter
+
+First, "addWikiUrlFromFile ()" is called. This function reads "wikiurls.txt" and fills WikiUrl list.
+Then, "parseHTML ()" is executed and realizes the HTML extraction. When a Wikipedia table is extracted, a Table object is created, filled with the Wikipedia table content and add to the Table list.
+After, "parseWikiText ()" is executed and realizes the WikiText extraction. When a Wikipedia table is extracted, a Table object is created, filled with the Wikipedia table content and add to the Table list.
+Finally, "convert ()" is called. This methods consits in writing all Table in the list in a csv file.
+
 ## Tests results
 
 
