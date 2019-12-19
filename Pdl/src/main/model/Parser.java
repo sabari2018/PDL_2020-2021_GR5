@@ -61,7 +61,7 @@ public abstract class Parser {
     public Document getPageFromUrl(String url) {
         Document page = null;
         try {
-            page = Jsoup.connect(url).get();
+            page = Jsoup.connect(url).maxBodySize(0).get();
         } catch (Exception e) {
 
         }
