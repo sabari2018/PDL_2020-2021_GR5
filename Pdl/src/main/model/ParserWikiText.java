@@ -16,14 +16,13 @@ import java.util.regex.Pattern;
  * Parse wikiText and standardize it with the data structure {@link Table}.
  */
 public class ParserWikiText extends Parser {
-
     private static final Logger logger = Logger.getLogger(ParserWikiText.class);
-
     private static final String KEY_WORD_WIKITABLE = "wikitable";
     private static final String START_WIKITABLE = ".*class=.*wikitable.*(\\n*(\\|-|!|\\|+.*)*)*";
     private static final String END_WIKITABLE = "\\|}";
-    private static final String ROW_SEPARATOR = "\\n\\|\\-\\s*\\n\\|?";
-    private static final String CELL_SEPARATOR = "\\n\\||\\n!|!{2}|\\|{2}";
+    //    private static final String ROW_SEPARATOR = "\\n\\|\\-\\s*\\n\\|?";
+    private static final String ROW_SEPARATOR = "\\n\\|-.*\\n\\|?";
+    private static final String CELL_SEPARATOR = "\\n\\s*\\||\\n!|!{2}|\\|{2}";
     private static final String REGEX_COLSPAN = ".*colspan=\"?(\\d*)\\s?\"?.*";
     private static final String REGEX_ROWSPAN = ".*rowspan=\"?(\\d*)\\s?\"?.*";
     private String urlWikiText;
@@ -56,9 +55,9 @@ public class ParserWikiText extends Parser {
             this.setTextToParse(doc.html());
             this.titleOfCurrentPage = doc.title();
         }
-        String [] splitUrl = urlWikiText.split("title=");
-        String [] splitTitle = splitUrl[splitUrl.length-1].split("&action=");
-        this.titleOfCurrentPage = splitTitle [0];
+        String[] splitUrl = urlWikiText.split("title=");
+        String[] splitTitle = splitUrl[splitUrl.length - 1].split("&action=");
+        this.titleOfCurrentPage = splitTitle[0];
     }
 
     /**
@@ -78,7 +77,7 @@ public class ParserWikiText extends Parser {
         for (String table : this.wikiTextTables) {
             Table standardizeTable = new Table(this.titleOfCurrentPage, "wikitext", numTable);
             HashMap<Integer, String[]> contentOfTable = new HashMap<Integer, String[]>();
-            ArrayList<String> rows = this.getTableRow(table);
+            ArrayList<String> rows = this.getRowsFromTable(table);
             for (int i = 0; i < rows.size(); i++) {
                 contentOfTable.put(i, this.getCellsFromRow(rows.get(i)));
             }
@@ -86,12 +85,11 @@ public class ParserWikiText extends Parser {
             this.standardizedTables.add(standardizeTable);
             numTable++;
         }
-
         return this.standardizedTables;
     }
 
     /**
-     * Extract the tables of the page.
+     * Extract the tables from the page.
      *
      * @return a list which contains the content of the tables
      */
@@ -151,22 +149,15 @@ public class ParserWikiText extends Parser {
      * @return a list of String. One element corresponds to
      * the content of one row.
      */
-    private ArrayList<String> getTableRow(final String table) {
+    private ArrayList<String> getRowsFromTable(final String table) {
         String[] rows = table.split(ROW_SEPARATOR);
         ArrayList<String> list = new ArrayList<String>();
         for (int i = 0; i < rows.length; i++) {
             // remove unwanted String
-            rows[i] = rows[i].replaceAll("align=right", "");
-            rows[i] = rows[i].replaceAll("align=right", "");
-            rows[i] = rows[i].replaceAll("align=left", "");
-            rows[i] = rows[i].replaceAll("align=\"left\"", "");
-            rows[i] = rows[i].replaceAll("<[^>]*>|<\\/[^>]*>", "");
-            rows[i] = rows[i].replaceAll("&lt;[^&gt;]*&gt;|&lt;\\/[^&gt;]*&gt;", "");
             rows[i] = rows[i].replaceAll("&amp;nbsp;", " ");
             rows[i] = rows[i].replaceAll("&amp", " ");
             rows[i] = rows[i].replaceAll("Color[^>]*darkgray", " ");
             rows[i] = rows[i].replaceAll("'*", "");
-
             if (!rows[i].trim().isEmpty()) {
                 list.add(rows[i]);
             }
@@ -182,62 +173,90 @@ public class ParserWikiText extends Parser {
      * to the content of the row's cells.
      */
     private String[] getCellsFromRow(final String row) {
-        String[] cells = row.split(CELL_SEPARATOR);
+        String[] cells = row.split(CELL_SEPARATOR, -1);
         ArrayList<String> list = handleCells(cells);
         return list.toArray(new String[0]);
     }
 
     /**
+     * Runs through the row's cells to delete the characters we don't want.
+     * Handle rowspan and colspan.
+     *
      * @param cells cells of one row
-     * @return
+     * @return list of the cells without the unwanted characters
      */
     private ArrayList<String> handleCells(String[] cells) {
-        ArrayList<String> list = new ArrayList(Arrays.asList(cells));
+        ArrayList<String> cellsList = new ArrayList(Arrays.asList(cells));
         int nbCells = cells.length;
+        int nbCellsWithRowspan = cells.length + rangesOfRowspan.size();
         for (int i = 0; i < nbCells; i++) {
-            if (!list.get(i).trim().isEmpty()) {
-                list.set(i, list.get(i).replaceAll("\n", " "));
-                list.set(i, handleCommasInData(list.get(i)));
-                list.set(i, list.get(i).replaceAll(START_WIKITABLE, ""));
-                list.set(i, list.get(i).replaceAll("\\[\\[.*?\\|", ""));
-                list.set(i, list.get(i).replaceAll("\\[\\[", ""));
-                list.set(i, list.get(i).replaceAll("\\{\\{.*?\\|", ""));
-                list.set(i, list.get(i).replaceAll("\\{\\{", ""));
-                list.set(i, list.get(i).replaceAll("\\|", ""));
-                list.set(i, list.get(i).replaceAll("style=\".*\"", ""));
-                list.set(i, list.get(i).replaceAll("}}", ""));
-                list.set(i, list.get(i).replaceAll("]]", ""));
-                list.set(i, list.get(i).replaceAll("<source.*>", ""));
-                list.set(i, list.get(i).replaceAll("\n", "  "));
-                list.set(i, list.get(i).replaceAll("^\\s*!", ""));
-                Matcher matcherColspan = Pattern.compile(REGEX_COLSPAN).matcher(list.get(i));
-                Matcher matcherRowspan = Pattern.compile(REGEX_ROWSPAN).matcher(list.get(i));
-                if (matcherColspan.matches()) {
-                    list.set(i, list.get(i).replaceAll(".*colspan=\"?(\\d*)\\s?\"?", " "));
-                    int colspan = Integer.parseInt(matcherColspan.group(1));
-                    for (int j = 0; j < colspan - 1; j++) {
-//                        list.add(i + 1, list.get(i));
-                        list.add(i + 1, "suite colspan");
-                        //to ignore the cell added by the colspan
-                        i++;
-                        nbCells++;
-                    }
-                }
-                if (rangesOfRowspan.get(i) != null && rangesOfRowspan.get(i) > 0) {
-                    list.add(i, "suite rowspan");
-                    rangesOfRowspan.put(i, rangesOfRowspan.get(i) - 1);
-                }
-                if (matcherRowspan.matches()) {
-                    list.set(i, list.get(i).replaceAll(".*rowspan=\"?(\\d*)\\s?\"?", ""));
-                    rangesOfRowspan.put(i, Integer.parseInt(matcherRowspan.group(1)) - 1);
-                }
+            if (!cellsList.get(i).trim().isEmpty()) {
+                cellsList.set(i, cellsList.get(i).replaceAll("\n", " "));
+                cellsList.set(i, handleCommasInData(cellsList.get(i)));
+                cellsList.set(i, cellsList.get(i).replaceAll(START_WIKITABLE, ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("<[^>].*>|</[^>].*>", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("\\[\\[.*?\\|", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("\\[\\[", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("\\{\\{.*?\\|", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("\\{\\{", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("\\|", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("style=\".*\"", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("align=\".*\"", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("}}", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("]]", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("<source.*>", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("\n", "  "));
+                cellsList.set(i, cellsList.get(i).replaceAll("^\\s*!", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("ref&gt;[^>]*/ref&gt;", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("&lt;ref[^>]*/ref&gt;", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("&lt;", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("&gt;", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("&lt;[^&gt;]*&gt;|&lt;/[^&gt;]*&gt;", ""));
             }
         }
-        return list;
+        for (int i = 0; i < nbCells; i++) {
+            Matcher matcherColSpan = null;
+            Matcher matcherRowSpan = null;
+            if (i < cellsList.size()) {
+                matcherColSpan = Pattern.compile(REGEX_COLSPAN).matcher(cellsList.get(i));
+                matcherRowSpan = Pattern.compile(REGEX_ROWSPAN).matcher(cellsList.get(i));
+            }
+
+            if (i < cellsList.size()) {
+                if (matcherColSpan != null && matcherColSpan.matches()) {
+                    int colspan = Integer.parseInt(matcherColSpan.group(1));
+                    if (colspan != 0) {
+                        for (int j = 0; j < colspan - 1; j++) {
+                            cellsList.add(i + 1, "");
+                            nbCells++;
+                        }
+                    }
+                }
+            }
+
+            if (rangesOfRowspan.get(i) != null && rangesOfRowspan.get(i) > 0) {
+                if(i < cellsList.size()) {
+                    cellsList.add(i, "");
+                }
+                else {
+                    cellsList.add("");
+                }
+                rangesOfRowspan.put(i, rangesOfRowspan.get(i) - 1);
+                if (rangesOfRowspan.get(i) == 0) {
+                    rangesOfRowspan.remove(i);
+                }
+            }
+
+            if (matcherRowSpan != null && matcherRowSpan.matches()) {
+                rangesOfRowspan.put(i, Integer.parseInt(matcherRowSpan.group(1)) - 1);
+            }
+        }
+              
+        return cellsList;
     }
 
     /**
-     * If the data contains comma(s), the all data should be surrounded by
+     * If the data contains comma(s), the data should be surrounded by
      * quotation marks.
      *
      * @param data the data to analyse
@@ -268,5 +287,4 @@ public class ParserWikiText extends Parser {
         }
         return occur;
     }
-
 }
