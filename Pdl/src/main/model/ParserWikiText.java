@@ -20,8 +20,8 @@ public class ParserWikiText extends Parser {
     private static final String KEY_WORD_WIKITABLE = "wikitable";
     private static final String START_WIKITABLE = ".*class=.*wikitable.*(\\n*(\\|-|!|\\|+.*)*)*";
     private static final String END_WIKITABLE = "\\|}";
-    //    private static final String ROW_SEPARATOR = "\\n\\|\\-\\s*\\n\\|?";
-    private static final String ROW_SEPARATOR = "\\n\\|-.*\\n\\|?";
+    //        private static final String ROW_SEPARATOR = "\\n\\|-.*\\n\\|?";
+    private static final String ROW_SEPARATOR = "\\n\\|-.*\\n\\|?-?";
     private static final String CELL_SEPARATOR = "\\n\\s*\\||\\n!|!{2}|\\|{2}";
     private static final String REGEX_COLSPAN = ".*colspan=\"?(\\d*)\\s?\"?.*";
     private static final String REGEX_ROWSPAN = ".*rowspan=\"?(\\d*)\\s?\"?.*";
@@ -194,7 +194,12 @@ public class ParserWikiText extends Parser {
                 cellsList.set(i, cellsList.get(i).replaceAll("\n", " "));
                 cellsList.set(i, handleCommasInData(cellsList.get(i)));
                 cellsList.set(i, cellsList.get(i).replaceAll(START_WIKITABLE, ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("<[^>].*>|</[^>].*>", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("ref&gt;[^>]*/ref&gt;", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("&lt;ref[^>]*/ref&gt;", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("&lt;", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("&gt;", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("&lt;[^&gt;]*&gt;|&lt;/[^&gt;]*&gt;", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("<[^>]*>|</[^>]*>", ""));
                 cellsList.set(i, cellsList.get(i).replaceAll("\\[\\[.*?\\|", ""));
                 cellsList.set(i, cellsList.get(i).replaceAll("\\[\\[", ""));
                 cellsList.set(i, cellsList.get(i).replaceAll("\\{\\{.*?\\|", ""));
@@ -207,14 +212,9 @@ public class ParserWikiText extends Parser {
                 cellsList.set(i, cellsList.get(i).replaceAll("<source.*>", ""));
                 cellsList.set(i, cellsList.get(i).replaceAll("\n", "  "));
                 cellsList.set(i, cellsList.get(i).replaceAll("^\\s*!", ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("ref&gt;[^>]*/ref&gt;", ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("&lt;ref[^>]*/ref&gt;", ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("&lt;", ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("&gt;", ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("&lt;[^&gt;]*&gt;|&lt;/[^&gt;]*&gt;", ""));
             }
         }
-        for (int i = 0; i < nbCells; i++) {
+        for (int i = 0; i < nbCellsWithRowspan; i++) {
             Matcher matcherColSpan = null;
             Matcher matcherRowSpan = null;
             if (i < cellsList.size()) {
@@ -224,11 +224,13 @@ public class ParserWikiText extends Parser {
 
             if (i < cellsList.size()) {
                 if (matcherColSpan != null && matcherColSpan.matches()) {
+                    cellsList.set(i, cellsList.get(i).replaceAll(".*colspan=\"?(\\d*)\\s?\"?", " "));
                     int colspan = Integer.parseInt(matcherColSpan.group(1));
                     if (colspan != 0) {
                         for (int j = 0; j < colspan - 1; j++) {
                             cellsList.add(i + 1, "");
-                            nbCells++;
+                            i++;
+                            nbCellsWithRowspan++;
                         }
                     }
                 }
@@ -248,10 +250,10 @@ public class ParserWikiText extends Parser {
             }
 
             if (matcherRowSpan != null && matcherRowSpan.matches()) {
+                cellsList.set(i, cellsList.get(i).replaceAll(".*rowspan=\"?(\\d*)\\s?\"?", ""));
                 rangesOfRowspan.put(i, Integer.parseInt(matcherRowSpan.group(1)) - 1);
             }
         }
-              
         return cellsList;
     }
 
