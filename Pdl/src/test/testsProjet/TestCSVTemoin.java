@@ -13,25 +13,40 @@ import java.io.IOException;
 public class TestCSVTemoin {
 
     ProcessWikiUrl process;
-    String convertedFile = "Comparison between Esperanto and Ido - Wikipedia-0.csv";
+    String url = "https://en.wikipedia.org/wiki/Comparison_between_Esperanto_and_Ido";
+    String convertedFile = "Comparison_between_Esperanto_and_Ido_1.csv";
     String wantedFile = "TemoinEsperantoAndIdo.csv";
+
+    String urlTwo = "https://en.wikipedia.org/wiki/Comparison_between_Esperanto_and_Ido";
+    String convertedFileTwo = "Comparison_of_Hokkien_writing_systems_4.csv";
+    String wantedFileTwo = "TemoinHokkienWritingSystems.csv";
 
     @Before
     public void setUpCSVTemoin(){
         process = new ProcessWikiUrl();
-        String url = "https://en.wikipedia.org/wiki/Comparison_between_Esperanto_and_Ido";
-
-        process.addWikiUrl(url);
     }
 
     @Test
-    public void testComparisonBetweenResultAndTemoin(){
+    public void testTemoin(){
+        boolean result = false;
+        result = compareTemoinAndConverted(url, wantedFile, convertedFile);
+        Assert.assertTrue("PAS BON", result);
+
+        result = compareTemoinAndConverted(urlTwo, wantedFileTwo, convertedFileTwo);
+        Assert.assertTrue("PAS BON", result);
+    }
+
+    private boolean compareTemoinAndConverted(String givenUrl, String givenWantedFile, String givenConvertedFile){
+        String url = givenUrl;
+
+        process.addWikiUrl(url);
+
         process.parseHTML();
         process.convert();
 
         try {
-            FileReader convertedFileReader = new FileReader(System.getProperty("user.dir") + File.separator + "output" + File.separator + "html" + File.separator + convertedFile);
-            FileReader wantedFileReader = new FileReader(System.getProperty("user.dir") + File.separator +  wantedFile);
+            FileReader convertedFileReader = new FileReader(System.getProperty("user.dir") + File.separator + "output" + File.separator + "html" + File.separator + givenConvertedFile);
+            FileReader wantedFileReader = new FileReader(System.getProperty("user.dir") + File.separator + "temoins" + File.separator + givenWantedFile);
             BufferedReader convertedBufferReader = new BufferedReader(convertedFileReader);
             StringBuilder converted = new StringBuilder();
             BufferedReader wantedBufferReader = new BufferedReader(wantedFileReader);
@@ -58,12 +73,15 @@ public class TestCSVTemoin {
                 System.out.println("Reading error : " + exception.getMessage());
             }
 
+            System.out.println("Wanted : " + wanted.toString());
+            System.out.println("Conver : " + converted.toString());
 
-            Assert.assertEquals("Les files ne sont pas pareil", wanted.toString(), converted.toString());
+            return wanted.toString().equals(converted.toString());
         }
         catch(Exception e){
             System.out.println("File not found");
         }
 
+        return false;
     }
 }
