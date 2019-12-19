@@ -114,7 +114,7 @@ public class TestParserWikiText {
         ) {
             nbRow = tab.getContent().size();
         }
-        assertEquals("We should have 16 rows", 66, nbRow);
+        assertEquals("We should have 66 rows", 66, nbRow);
     }
 
     /**
@@ -178,7 +178,7 @@ public class TestParserWikiText {
                 nbcell += cells.length;
             }
         }
-        assertEquals("We should have 30 cells", 528, nbcell);
+        assertEquals("We should have 528 cells", 528, nbcell);
     }
 
     /**
