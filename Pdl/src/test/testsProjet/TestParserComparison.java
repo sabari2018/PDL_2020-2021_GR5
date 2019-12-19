@@ -6,6 +6,7 @@ import model.ProcessWikiUrl;
 import model.Table;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.jupiter.api.BeforeAll;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -30,7 +31,7 @@ public class TestParserComparison {
     /**
      * We recover the urls from the file
      */
-    @Before
+    @BeforeAll
     public void setUp(){
         //Récupération des urls
         processWikiUrl = new ProcessWikiUrl();
@@ -38,8 +39,8 @@ public class TestParserComparison {
     }
 
     /**
-     * Table number comparison test retrieved with the HTML parser
-     * With the correct number of table
+     * Case : Comparison the number of table with the number of correct table (correct table = same number of rows) in HTML
+     * Result : 100%
      */
     @Test
     public void TestCompareNbTabHTML(){
@@ -79,16 +80,13 @@ public class TestParserComparison {
             }
         }
 
-        System.out.println("nombre tab hmtl " + nbTabHTML);
-        System.out.println("nombre tab hmtl correcte " + nbTabHTMLCorrect);
         int pourcentageTabValid = nbTabHTMLCorrect*100/nbTabHTML;
-        //System.out.println("nombre tab hmtl correcte / nombre tab html = " + pourcentageTabValid +"%");
-        assertEquals("On devrait avoir 100%", 100, pourcentageTabValid);
+        assertEquals("We should have 100%", 100, pourcentageTabValid);
     }
 
     /**
-     * Table number comparison test retrieved with the WikiText parser
-     * With the correct number of table
+     * Case : Comparison the number of table with the number of correct table (correct table = same number of rows) in WikiText
+     * Result : 100%
      */
     @Test
     public void TestCompareNbTabWikiText(){
@@ -121,17 +119,14 @@ public class TestParserComparison {
                     nbTabWikiTextCorrect ++;
                 }
                 //Affichage quel tab est mauvais
-                else{
+                //else{
                     //System.out.println("lien : " + i + " tab : " + j);
-                }
+                //}
             }
         }
 
-        //System.out.println("nombre tab wikitext " + nbTabWikiText);
-        //System.out.println("nombre tab wikitext correcte " + nbTabWikiTextCorrect);
         int pourcentageTabValid = nbTabWikiTextCorrect*100/nbTabWikiText;
-        //System.out.println("nombre tab wikitext correcte / nombre tab wikitext = " + pourcentageTabValid +"%");
-        assertEquals("On devrait avoir 100%", 100, pourcentageTabValid);
+        assertEquals("We should have 100%", 100, pourcentageTabValid);
 
     }
 }

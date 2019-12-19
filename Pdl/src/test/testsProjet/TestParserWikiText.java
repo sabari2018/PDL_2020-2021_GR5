@@ -5,7 +5,6 @@ import model.Table;
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Iterator;
 
 import static org.junit.Assert.assertEquals;
@@ -28,7 +27,8 @@ public class TestParserWikiText {
     //Tables tests
 
     /**
-     * No table in the page
+     * Case : No table in the page
+     * Result : We should have 0 table
      */
     @Test
     public void testParseWikiTextNoTab() {
@@ -41,7 +41,8 @@ public class TestParserWikiText {
     }
 
     /**
-     * Test if 1 table in the page
+     * Case : 1 table in the page
+     * Result : We should have 1 table
      */
     @Test
     public void testParseWikiText1Tab() {
@@ -54,7 +55,8 @@ public class TestParserWikiText {
     }
 
     /**
-     * Test if multiple tables in the page
+     * Case : multiple tables in the page
+     * Result : We should have 8 tables
      */
     @Test
     public void testParseWikiText8Tab() {
@@ -67,7 +69,8 @@ public class TestParserWikiText {
     }
 
     /**
-     * Table without the mention "wikitable": no table returned
+     * Case : Table without the mention "wikitable"
+     * Result : We should have 0 table
      */
     @Test
     public void testParseWikiTextNotWikitable() {
@@ -82,7 +85,8 @@ public class TestParserWikiText {
     //Rows tests
 
     /**
-     * Test rows number in a page with a table
+     * Case : Test rows number in a page with 1 table
+     * Result : We should have 5 rows
      */
     @Test
     public void testParseWikiTextNbLign1() {
@@ -100,7 +104,8 @@ public class TestParserWikiText {
     }
 
     /**
-     * Test rows number in a page with a table with grouped rows
+     * Case : Test rows number in a page with 1 table with grouped rows
+     * Result : We should have 66 rows
      */
     @Test
     public void testParseWikiTextNbLign2() {
@@ -118,7 +123,8 @@ public class TestParserWikiText {
     }
 
     /**
-     * Test rows number in a page with a table with grouped columns
+     * Case : Test rows number in a page with a table with grouped columns
+     * Result : We should have 9 rows
      */
     @Test
     public void testParseWikiTextNbLign3() {
@@ -136,7 +142,8 @@ public class TestParserWikiText {
     }
 
     /**
-     * Test rows number in a page with a table with CSV problems
+     * Case : Test rows number in a page with a table with CSV problems
+     * Result : We should have 6 rows
      */
     @Test
     public void testParseWikiTextNbLign4() {
@@ -154,7 +161,8 @@ public class TestParserWikiText {
     }
 
     /**
-     * Test rows number in a page with a table with 2 title ligns
+     * Case : Test rows number in a page with a table with 2 title ligns
+     * Result : We should have 13 rows
      */
     @Test
     public void testParseWikiTextNbLign5() {
@@ -172,7 +180,8 @@ public class TestParserWikiText {
     }
 
     /**
-     * Test rows number in a page with a table with CSV problems
+     * Case : Test rows number in a page with a table with CSV problems
+     * Result : We should have 12 rows
      */
     @Test
     public void testParseWikiTextNbLign6() {
@@ -192,7 +201,8 @@ public class TestParserWikiText {
     //Cells Tests
 
     /**
-     * Test number of cells in a page with a table
+     * Case : Test number of cells in a page with 1 table
+     * Result : We should hace 10 cells
      */
     @Test
     public void testParseWikiTextNbCell1() {
@@ -214,7 +224,8 @@ public class TestParserWikiText {
     }
 
     /**
-     * Test number of cells in a page with a table with grouped rows
+     * Case : Test number of cells in a page with a table with grouped rows
+     * Result : We should have 528 cells
      */
     @Test
     public void testParseWikiTextNbCell2() {
@@ -236,7 +247,8 @@ public class TestParserWikiText {
     }
 
     /**
-     * Test number of cells in a page with a table with grouped columns
+     * Case : Test number of cells in a page with a table with grouped columns
+     * Result : We should have 99 cells
      */
     @Test
     public void testParseWikiTextNbCell3() {
@@ -258,7 +270,8 @@ public class TestParserWikiText {
     }
 
     /**
-     * Test number of cells in a page with CSV problems
+     * Case : Test number of cells in a page with CSV problems
+     * Result : We should have 114 cells
      */
     @Test
     public void testParseWikiTextNbCell4() {
@@ -280,7 +293,8 @@ public class TestParserWikiText {
     }
 
     /**
-     * Test number of cells in a page with 2 title ligns
+     * Case : Test number of cells in a page with 2 title ligns
+     * Result : We should have 91 cells
      */
     @Test
     public void testParseWikiTextNbCell5() {
@@ -302,7 +316,8 @@ public class TestParserWikiText {
     }
 
     /**
-     * Test number of cells in a page with CSV problems
+     * Case : Test number of cells in a page with CSV problems
+     * Result : We should have 132 cells
      */
     @Test
     public void testParseWikiTextNbCell6() {
@@ -322,202 +337,4 @@ public class TestParserWikiText {
         }
         assertEquals("We should have 132 cells", 132, nbcell);
     }
-
-    //Cells content
-
-    /**
-     * Cells content in a page with a tab
-     */
-    /*
-    @Test
-    public void testParseWikiTextContenuCells1() {
-        urlWikiText = "https://en.wikipedia.org/w/index.php?title=Comparison_of_Chernobyl_and_other_radioactivity_releases&action=edit";
-        pwt = new ParserWikiText();
-        pwt.setUrlWikiText(urlWikiText);
-        ArrayList<Table> tabs = pwt.parseWikiText();
-        Iterator it;
-
-        for (Table tab : tabs) {
-            it = tab.getContent().values().iterator();
-            while (it.hasNext()) {
-                String[] cells = (String[]) it.next();
-                for (String cell: cells) {
-                    System.out.println(cell);
-                }
-            }
-        }
-    }
-    */
-
-    /**
-     * Cells content in a page with a tab with small images & texts
-     */
-    /*
-    @Test
-    public void testParseWikiTextContenuCells2() {
-        urlWikiText = "https://en.wikipedia.org/w/index.php?title=CSM_Ploie%C8%99ti_(women%27s_handball)&action=edit";
-        pwt = new ParserWikiText();
-        pwt.setUrlWikiText(urlWikiText);
-        ArrayList<Table> tabs = pwt.parseWikiText();
-        Iterator it;
-
-        for (Table tab : tabs) {
-            it = tab.getContent().values().iterator();
-            while (it.hasNext()) {
-                String[] cells = (String[]) it.next();
-                for (String cell: cells) {
-                    System.out.println(cell);
-                }
-            }
-        }
-    }
-
-     */
-
-    /**
-     * Cells content in a page with a tab with images
-     */
-    /*
-    @Test
-    public void testParseWikiTextContenuCells3() {
-        urlWikiText = "https://en.wikipedia.org/w/index.php?title=Comparison_of_Toyota_hybrids&action=edit";
-        pwt = new ParserWikiText();
-        pwt.setUrlWikiText(urlWikiText);
-        ArrayList<Table> tabs = pwt.parseWikiText();
-        Iterator it;
-
-        for (Table tab : tabs) {
-            it = tab.getContent().values().iterator();
-            while (it.hasNext()) {
-                String[] cells = (String[]) it.next();
-                for (String cell : cells) {
-                    System.out.println(cell);
-                }
-            }
-        }
-    }
-
-     */
-
-    /**
-     * Cells content in a page with a tab starting with an empty title line
-     */
-    /*
-    @Test
-    public void testParseWikiTextContenuCells4() {
-        urlWikiText = "https://en.wikipedia.org/w/index.php?title=Comparison_of_US_and_Chinese_Military_Armed_Forces&action=edit";
-        pwt = new ParserWikiText();
-        pwt.setUrlWikiText(urlWikiText);
-        ArrayList<Table> tabs = pwt.parseWikiText();
-        Iterator it;
-
-        for (Table tab : tabs) {
-            it = tab.getContent().values().iterator();
-            while (it.hasNext()) {
-                String[] cells = (String[]) it.next();
-                for (String cell : cells) {
-                    System.out.println(cell);
-                }
-            }
-        }
-    }
-
-     */
-
-    /**
-     * Cells content in a page with a tab with increasing and decreasing sorting and access number to a note
-     */
-    /*
-    @Test
-    public void testParseWikiTextContenuCells5() {
-        urlWikiText = "https://en.wikipedia.org/w/index.php?title=Comparison_of_Windows_Vista_and_Windows_XP&action=edit";
-        pwt = new ParserWikiText();
-        pwt.setUrlWikiText(urlWikiText);
-        ArrayList<Table> tabs = pwt.parseWikiText();
-        Iterator it;
-
-        for (Table tab : tabs) {
-            it = tab.getContent().values().iterator();
-            while (it.hasNext()) {
-                String[] cells = (String[]) it.next();
-                for (String cell : cells) {
-                    System.out.println(cell);
-                }
-            }
-        }
-    }
-
-     */
-
-    /**
-     * Cells content in a page with a tab with empty cells & others not empty
-     */
-    /*
-    @Test
-    public void testParseWikiTextContenuCells6() {
-        urlWikiText = "https://en.wikipedia.org/wiki/Comparison_of_Intel_processors";
-        pwt = new ParserWikiText();
-        pwt.setUrlWikiText(urlWikiText);
-        ArrayList<Table> tabs = pwt.parseWikiText();
-        Iterator it;
-
-        for (Table tab : tabs) {
-            it = tab.getContent().values().iterator();
-            while (it.hasNext()) {
-                String[] cells = (String[]) it.next();
-                for (String cell : cells) {
-                    System.out.println(cell);
-                }
-            }
-        }
-    }
-    */
-
-    /**
-     * Cells content in a page with a tab with a list
-     */
-    /*
-    @Test
-    public void testParseWikiTextContenuCells7() {
-        urlWikiText = "https://en.wikipedia.org/w/index.php?title=Comparison_of_baseball_and_cricket&action=edit";
-        pwt = new ParserWikiText();
-        pwt.setUrlWikiText(urlWikiText);
-        ArrayList<Table> tabs = pwt.parseWikiText();
-        Iterator it;
-
-        for (Table tab : tabs) {
-            it = tab.getContent().values().iterator();
-            while (it.hasNext()) {
-                String[] cells = (String[]) it.next();
-                for (String cell : cells) {
-                    System.out.println(cell);
-                }
-            }
-        }
-    }
-    */
-
-    /**
-     * Cells content in a page with a tab with accent in the text
-     */
-    /*
-    @Test
-    public void testParseWikiTextContenuCells8() {
-        urlWikiText = "https://en.wikipedia.org/w/index.php?title=Comparison_of_karate_styles&action=edit";
-        pwt = new ParserWikiText();
-        pwt.setUrlWikiText(urlWikiText);
-        ArrayList<Table> tabs = pwt.parseWikiText();
-        Iterator it;
-
-        for (Table tab : tabs) {
-            it = tab.getContent().values().iterator();
-            while (it.hasNext()) {
-                String[] cells = (String[]) it.next();
-                for (String cell : cells) {
-                    System.out.println(cell);
-                }
-            }
-        }
-    }
-    */
 }
