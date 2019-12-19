@@ -1,7 +1,7 @@
-## Design 
+# First Version 
 
 
-# Global architecture
+## Global architecture
 
 This project contains two packages : one "model" which contains all classes and "test" which contains all test classes.
 
@@ -15,12 +15,12 @@ Some operations do not follow traditional coding conventions:
 * Some methods name start with a capital letter (that is a recurrent problem)
 * Project's class "Url" could be confused with Java'a class "Url", the name need to be changed
 * French and english are mixed in the project, it need to be normalized
-* Some attribute name are can be confusing (i.e : urlUrl from the Url class...), attributes names need to be explicit
+* Some attributes name can be confusing (i.e : urlUrl from the Url class...), attributes names need to be explicit
 * There are some unused methods or attributes
 
 Even if not causing technical difficulties, these coding conventions issues can cause misunderstanding for future developers and should be corrected using code refactoring with the IDE.
 
-# Class descriptions
+## Class descriptions
 
 | Class | Extends | Description | 
 | --- | --- | --- |
@@ -29,7 +29,7 @@ Even if not causing technical difficulties, these coding conventions issues can 
 | FormatWikiText |  | Extracts the wikitext tables form the Wikipedia pages and calls the CSV conversion methods |
 | Main |  | Runs the program creates "Fichier" Objects |
 | ProductionCSV |  | Deals with the conversion of HTML and Wikitext tables into CSV |
-| Url | FormatHTML, Thread (Java class) | Contains the methods to test if the urls are valid |
+| Url | FormatHTML, Thread (Java class) | Contains methods which test if the urls are valid |
 
   
 ## Dynamic model
@@ -63,11 +63,11 @@ An example of an exceptional scenario is the extraction of a Wikipedia page wher
 ![100% center](images/exception_scenario.png)
 
 
-# Tests Results
+## Tests Results
 
 Tests results realised on 10/08/19
 
-| <h3>Test name</h3>        |  <h3>Finale Description</h3>  |
+| <h3>Test name</h3>        |  <h3>Final Result </h3>  |
 |:------:|-----|
 | **TestCSV**  | Empty |
 | **TestFichier**  	|||
@@ -96,6 +96,8 @@ Tests results realised on 10/08/19
 
 # Improvements proposals
 
+## Global architecture
+
 ![100% center](images/class_diagram_v2.png)
 
 | Class | Extends | Description | 
@@ -112,5 +114,74 @@ Tests results realised on 10/08/19
 In this proposal, we will remove the inefficient inheritances mentioned above and also give a more specific role to each class. We will enforce the respect of coding conventions and expand test methods.
 
 This proposal is likely to be changed during development.
+
+## Dynamic model
+
+In this new version, the Main class does the same thing : extract tables from urls with two ways : html and wikitext.
+
+However, in this version the scenario has changed : 
+
+![100% center](images/sequence-diagramV2)
+
+In the main a ProcessWikiUrl object is created. This object contains : 
+* a list of WikiUrl
+* a list of Table
+* a ParserHTML object
+* a ParserWikiText object
+* a Converter converter
+
+First, "addWikiUrlFromFile ()" is called. This function reads "wikiurls.txt" and fills WikiUrl list.
+Then, "parseHTML ()" is executed and realizes the HTML extraction. When a Wikipedia table is extracted, a Table object is created, filled with the Wikipedia table content and add to the Table list.
+After, "parseWikiText ()" is executed and realizes the WikiText extraction. When a Wikipedia table is extracted, a Table object is created, filled with the Wikipedia table content and add to the Table list.
+Finally, "convert ()" is called. This methods consits in writing all Table in the list in a csv file.
+
+## Tests results
+
+| Test name | Final Result |
+|:------:|-----|
+| **TestWikiUrl**	| |
+| testChineseUrl	| OK	|
+| testValidUrl	| OK|
+| testInvalidUrl	| OK	|
+| testNullUrl	| OK	|
+| testEmptyUrl | OK |
+| **BenchTest**	| |
+| testBenchExtractors | OK |
+| **TestParserComparaison**	| |
+| testCompareNbTabHTML | Ok |
+| testCompareNbTabWikiText |Failed => Assertion Error : <ul><li>Expected : 100 </li> <li>Actual : 32 </li></ul> |
+| **TestParserHTML**	| |
+| testParseHtml | OK |
+| testParseHtmlTree | OK |
+| testGetTablesFromPage | OK |
+| testGetTablesFromPage2 | OK |
+| testGetTablesFromPage3 | OK |
+| testEscapeComasAndQuotes | OK |
+| testGetRowsFromTable | OK |
+| testGetCellsFromRow | Failed => Assertion Error : <ul><li>Expected : 4 </li> <li>Actual : 3 </li></ul> |
+| testEscapeComasAndQuotes | OK |
+| **TestParserWikiText**	| |
+| testParseWikiTextNoTab | OK 
+| testParseWikiTextNotWikitable | OK |
+| testParseWikiText1Tab | OK |
+| testParseWikiText8Tab | OK |
+| testParseWikiTextNbLign1 | OK |
+| testParseWikiTextNbLign2| Failed => Assertion Error : <ul><li>Expected : 16 </li> <li>Actual : 0</li></ul>  |
+| testParseWikiTextNbLign3 | OK |
+| testParseWikiTextNbCell1 | OK |
+| testParseWikiTextNbCell2 |Failed => Assertion Error : <ul><li>Expected : 30 </li> <li>Actual : 0 </li></ul>  |
+| testParseWikiTextNbCell3 |Failed => Assertion Error : <ul><li>Expected : 79 </li> <li>Actual : 91 </li></ul>  |
+| **TestProcessWikiUrl**	| |
+| testAddWikiUrlFromFileValid | OK |
+| testAddWikiUrlFromFileInvalid | OK |
+| testAddWikiUrl | OK|
+| testAddWikiUrlInvalid | OK |
+| testParseHTML | OK |
+| **TestConverter**	| |
+| testFileIsCreated | OK  |
+| testCheckNbRows| Failed => Assertion Error : <ul><li>Expected : 2719 </li> <li>Actual : 2689 </li></ul>  |
+| testCheckNbColumn| Failed => Assertion Error : <ul><li>Expected : 2719 </li> <li>Actual : 2536 </li></ul>  |
+| testCsvValid | Failed => Assertion Error : <ul><li>Expected : 2719 </li> <li>Actual : 1967 </li></ul>|
+
 
 
