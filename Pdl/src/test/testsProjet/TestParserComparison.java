@@ -19,7 +19,7 @@ import static org.junit.Assert.assertEquals;
 
 public class TestParserComparison {
 
-    private ProcessWikiUrl processWikiUrl;
+    private static ProcessWikiUrl processWikiUrl;
     private ParserHTML parserHTML = new ParserHTML();
     private ParserWikiText parserWikiText = new ParserWikiText();
 
@@ -32,7 +32,7 @@ public class TestParserComparison {
      * We recover the urls from the file
      */
     @BeforeClass
-    public void setUp(){
+    public static void setUp(){
         //Récupération des urls
         processWikiUrl = new ProcessWikiUrl();
         processWikiUrl.addWikiUrlFromFile("wikiurls", false, "en");
