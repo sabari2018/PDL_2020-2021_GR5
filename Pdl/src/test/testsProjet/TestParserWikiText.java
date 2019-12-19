@@ -135,6 +135,60 @@ public class TestParserWikiText {
         assertEquals("We should have 9 rows", 9, nbRow);
     }
 
+    /**
+     * Test rows number in a page with a table with CSV problems
+     */
+    @Test
+    public void testParseWikiTextNbLign4() {
+        urlWikiText = "https://en.wikipedia.org/w/index.php?title=Comparison_of_DEX_software&action=edit";
+        pwt = new ParserWikiText();
+        pwt.setUrlWikiText(urlWikiText);
+        ArrayList<Table> tabs = pwt.parseWikiText();
+        int nbRow = 0;
+
+        for (Table tab : tabs
+        ) {
+            nbRow = tab.getContent().size();
+        }
+        assertEquals("We should have 6 rows", 6, nbRow);
+    }
+
+    /**
+     * Test rows number in a page with a table with 2 title ligns
+     */
+    @Test
+    public void testParseWikiTextNbLign5() {
+        urlWikiText = "https://en.wikipedia.org/w/index.php?title=Comparison_of_PSA_systems&action=edit";
+        pwt = new ParserWikiText();
+        pwt.setUrlWikiText(urlWikiText);
+        ArrayList<Table> tabs = pwt.parseWikiText();
+        int nbRow = 0;
+
+        for (Table tab : tabs
+        ) {
+            nbRow = tab.getContent().size();
+        }
+        assertEquals("We should have 13 rows", 13, nbRow);
+    }
+
+    /**
+     * Test rows number in a page with a table with CSV problems
+     */
+    @Test
+    public void testParseWikiTextNbLign6() {
+        urlWikiText = "https://en.wikipedia.org/w/index.php?title=Comparison_of_S.M.A.R.T._tools&action=edit";
+        pwt = new ParserWikiText();
+        pwt.setUrlWikiText(urlWikiText);
+        ArrayList<Table> tabs = pwt.parseWikiText();
+        int nbRow = 0;
+
+        for (Table tab : tabs
+        ) {
+            nbRow = tab.getContent().size();
+        }
+        assertEquals("We should have 12 rows", 12, nbRow);
+    }
+
     //Cells Tests
 
     /**
@@ -201,6 +255,72 @@ public class TestParserWikiText {
             }
         }
         assertEquals("We should have 99 cells", 99, nbcell);
+    }
+
+    /**
+     * Test number of cells in a page with CSV problems
+     */
+    @Test
+    public void testParseWikiTextNbCell4() {
+        urlWikiText = "https://en.wikipedia.org/w/index.php?title=Comparison_of_DEX_software&action=edit";
+        pwt = new ParserWikiText();
+        pwt.setUrlWikiText(urlWikiText);
+        ArrayList<Table> tabs = pwt.parseWikiText();
+        Iterator it;
+        int nbcell = 0;
+
+        for (Table tab : tabs) {
+            it = tab.getContent().values().iterator();
+            while (it.hasNext()) {
+                String[] cells = (String[]) it.next();
+                nbcell += cells.length;
+            }
+        }
+        assertEquals("We should have 114 cells", 114, nbcell);
+    }
+
+    /**
+     * Test number of cells in a page with 2 title ligns
+     */
+    @Test
+    public void testParseWikiTextNbCell5() {
+        urlWikiText = "https://en.wikipedia.org/w/index.php?title=Comparison_of_PSA_systems&action=edit";
+        pwt = new ParserWikiText();
+        pwt.setUrlWikiText(urlWikiText);
+        ArrayList<Table> tabs = pwt.parseWikiText();
+        Iterator it;
+        int nbcell = 0;
+
+        for (Table tab : tabs) {
+            it = tab.getContent().values().iterator();
+            while (it.hasNext()) {
+                String[] cells = (String[]) it.next();
+                nbcell += cells.length;
+            }
+        }
+        assertEquals("We should have 91 cells", 91, nbcell);
+    }
+
+    /**
+     * Test number of cells in a page with CSV problems
+     */
+    @Test
+    public void testParseWikiTextNbCell6() {
+        urlWikiText = "https://en.wikipedia.org/w/index.php?title=Comparison_of_S.M.A.R.T._tools&action=edit";
+        pwt = new ParserWikiText();
+        pwt.setUrlWikiText(urlWikiText);
+        ArrayList<Table> tabs = pwt.parseWikiText();
+        Iterator it;
+        int nbcell = 0;
+
+        for (Table tab : tabs) {
+            it = tab.getContent().values().iterator();
+            while (it.hasNext()) {
+                String[] cells = (String[]) it.next();
+                nbcell += cells.length;
+            }
+        }
+        assertEquals("We should have 132 cells", 132, nbcell);
     }
 
     //Cells content
