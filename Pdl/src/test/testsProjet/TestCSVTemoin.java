@@ -26,6 +26,10 @@ public class TestCSVTemoin {
         process = new ProcessWikiUrl();
     }
 
+    /**
+     * Case : Comparison of a predefined well made CSV of a given table with the generated CSV of the same table
+     * Result : Generated CSV correspond to hand-made one
+     */
     @Test
     public void testTemoin(){
         boolean result = false;
@@ -36,6 +40,13 @@ public class TestCSVTemoin {
         Assert.assertTrue("PAS BON", result);
     }
 
+    /**
+     * Class used to compare a hand-made CSV to the software generated one
+     * @param givenUrl url with containing the wanted table
+     * @param givenWantedFile hand-made CSV file name
+     * @param givenConvertedFile anticipated name of the generated CSV
+     * @return true if generated CSV correpond to hand-made one, else false
+     */
     private boolean compareTemoinAndConverted(String givenUrl, String givenWantedFile, String givenConvertedFile){
         String url = givenUrl;
 
