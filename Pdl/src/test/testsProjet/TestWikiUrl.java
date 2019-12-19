@@ -28,7 +28,7 @@ public class TestWikiUrl {
         catch (IllegalArgumentException argException){
             errorMsg = argException.getMessage();
         }
-        Assert.assertEquals("We should have an IllegalArgumentException", "Url is not valid", errorMsg);
+        Assert.assertEquals("We should have an IllegalArgumentException", "Url is not valid!", errorMsg);
     }
 
     @Test
@@ -40,7 +40,7 @@ public class TestWikiUrl {
         catch (IllegalArgumentException argException){
             errorMsg = argException.getMessage();
         }
-        Assert.assertEquals("We should have an IllegalArgumentException", "Url is not valid", errorMsg);
+        Assert.assertEquals("We should have an IllegalArgumentException", "Url is not valid!", errorMsg);
     }
 
     @Test
@@ -53,7 +53,7 @@ public class TestWikiUrl {
         catch (IllegalArgumentException argException){
             errorMsg = argException.getMessage();
         }
-        Assert.assertEquals("We should have an IllegalArgumentException", "Url is not valid", errorMsg);
+        Assert.assertEquals("We should have an IllegalArgumentException", "Url is not valid!", errorMsg);
     }
 
     @Test
