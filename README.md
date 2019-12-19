@@ -35,14 +35,12 @@ Right now, the HTML treatment converte 80% of the pages correctly, and the WikiT
 
 Note : any link in a table is not gathered, we just keep the title linked to the link. And for each image in a table, we gather the link of the image to put it in the concerned cell (at the place of the image).
 
+
 ## Functionnality to develop
 
-We would also have to create some new test in JUnit.
+Manage to parse all tables by improving parsers.
 
-We could then try to improve the software itself for it to run with better performances.
-
-In the end we need to implement a tool that will allow us to automatically evaluate tables extractions based on preset results and tests.
-
+Improve the software itself for it to run with better performances.
 
 
 ## Project license
