@@ -3,14 +3,12 @@ package testsProjet;
 import model.Converter;
 import model.ProcessWikiUrl;
 import model.Table;
-import model.WikiUrl;
 import org.junit.*;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
-import java.util.logging.Logger;
 
 public class TestConverter {
 
@@ -26,7 +24,7 @@ public class TestConverter {
         ProcessWikiUrl processWikiUrl = new ProcessWikiUrl();
         processWikiUrl.addWikiUrlFromFile("wikiurls", false, "en");
         processWikiUrl.parseHTML();
-       // processWikiUrl.parseWikiText();
+        processWikiUrl.parseWikiText();
         List<Table> tableWiki = processWikiUrl.getListTable();
 
         results = new HashMap<>();
@@ -69,7 +67,7 @@ public class TestConverter {
      * Check if there the same row number in the table and the CSV
      */
     @Test
-    public void checkNbRows () {
+    public void testCheckNbRows () {
         int nbFileCorrect = 0;
         ArrayList<String> messageErrors = new ArrayList<String>();
         String message;
@@ -97,7 +95,7 @@ public class TestConverter {
      * Check if there the same column number in the table and the CSV
      */
     @Test
-    public void checkNbColumn () {
+    public void testCheckNbColumn () {
         int nbFileCorrect = 0;
         ArrayList<String> messageErrors = new ArrayList<String>();
         String message;

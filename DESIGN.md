@@ -67,7 +67,7 @@ An example of an exceptional scenario is the extraction of a Wikipedia page wher
 
 Tests results realised on 10/08/19
 
-| <h3>Test name</h3>        |  <h3>Finale Description</h3>  |
+| <h3>Test name</h3>        |  <h3>Final Result </h3>  |
 |:------:|-----|
 | **TestCSV**  | Empty |
 | **TestFichier**  	|||
@@ -121,7 +121,7 @@ In this new version, the Main class does the same thing : extract tables from ur
 
 However, in this version the scenario has changed : 
 
-![100% center](images/SequenceDiagramV2.png)
+![100% center](images/sequence-diagramV2)
 
 In the main a ProcessWikiUrl object is created. This object contains : 
 * a list of WikiUrl
@@ -136,5 +136,52 @@ After, "parseWikiText ()" is executed and realizes the WikiText extraction. When
 Finally, "convert ()" is called. This methods consits in writing all Table in the list in a csv file.
 
 ## Tests results
+
+| Test name | Final Result |
+|:------:|-----|
+| **TestWikiUrl**	| |
+| testChineseUrl	| OK	|
+| testValidUrl	| OK|
+| testInvalidUrl	| OK	|
+| testNullUrl	| OK	|
+| testEmptyUrl | OK |
+| **BenchTest**	| |
+| testBenchExtractors | OK |
+| **TestParserComparaison**	| |
+| testCompareNbTabHTML | Ok |
+| testCompareNbTabWikiText |Failed => Assertion Error : <ul><li>Expected : 100 </li> <li>Actual : 32 </li></ul> |
+| **TestParserHTML**	| |
+| testParseHtml | OK |
+| testParseHtmlTree | OK |
+| testGetTablesFromPage | OK |
+| testGetTablesFromPage2 | OK |
+| testGetTablesFromPage3 | OK |
+| testEscapeComasAndQuotes | OK |
+| testGetRowsFromTable | OK |
+| testGetCellsFromRow | Failed => Assertion Error : <ul><li>Expected : 4 </li> <li>Actual : 3 </li></ul> |
+| testEscapeComasAndQuotes | OK |
+| **TestParserWikiText**	| |
+| testParseWikiTextNoTab | OK 
+| testParseWikiTextNotWikitable | OK |
+| testParseWikiText1Tab | OK |
+| testParseWikiText8Tab | OK |
+| testParseWikiTextNbLign1 | OK |
+| testParseWikiTextNbLign2| Failed => Assertion Error : <ul><li>Expected : 16 </li> <li>Actual : 0</li></ul>  |
+| testParseWikiTextNbLign3 | OK |
+| testParseWikiTextNbCell1 | OK |
+| testParseWikiTextNbCell2 |Failed => Assertion Error : <ul><li>Expected : 30 </li> <li>Actual : 0 </li></ul>  |
+| testParseWikiTextNbCell3 |Failed => Assertion Error : <ul><li>Expected : 79 </li> <li>Actual : 91 </li></ul>  |
+| **TestProcessWikiUrl**	| |
+| testAddWikiUrlFromFileValid | OK |
+| testAddWikiUrlFromFileInvalid | OK |
+| testAddWikiUrl | OK|
+| testAddWikiUrlInvalid | OK |
+| testParseHTML | OK |
+| **TestConverter**	| |
+| testFileIsCreated | OK  |
+| testCheckNbRows| Failed => Assertion Error : <ul><li>Expected : 2719 </li> <li>Actual : 2689 </li></ul>  |
+| testCheckNbColumn| Failed => Assertion Error : <ul><li>Expected : 2719 </li> <li>Actual : 2536 </li></ul>  |
+| testCsvValid | Failed => Assertion Error : <ul><li>Expected : 2719 </li> <li>Actual : 1967 </li></ul>|
+
 
 

@@ -6,7 +6,6 @@ import model.ProcessWikiUrl;
 import model.Table;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.jupiter.api.BeforeAll;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -31,7 +30,7 @@ public class TestParserComparison {
     /**
      * We recover the urls from the file
      */
-    @BeforeAll
+    @Before
     public void setUp(){
         //Récupération des urls
         processWikiUrl = new ProcessWikiUrl();
@@ -43,7 +42,7 @@ public class TestParserComparison {
      * Result : 100%
      */
     @Test
-    public void TestCompareNbTabHTML(){
+    public void testCompareNbTabHTML(){
 
         for(int i = 0; i < processWikiUrl.getListWikiUrl().size() ; i++){
 
@@ -51,14 +50,13 @@ public class TestParserComparison {
             ArrayList<Table> currentPageTables = parserHTML.parseHtml();
 
             for(int j = 0; j < currentPageTables.size(); j++){
-
-                //compte le nombre de tableau
+                //Count number of table
                 nbTabHTML ++;
 
                 Iterator it = currentPageTables.get(j).getContent().values().iterator();
                 boolean nbCellsOk = true;
                 int nbCell = 0;
-                //ligne 1 = ligne de ref
+                //ligne 1 = reference line
                 String[] cells = (String[]) it.next();
                 nbCell = cells.length;
 
@@ -68,14 +66,8 @@ public class TestParserComparison {
                         nbCellsOk = false;
                     }
                 }
-                if (nbCellsOk == true){
-                    //ajout du tab si correct
+                if (nbCellsOk){
                     nbTabHTMLCorrect ++;
-                }
-
-                //Affichage quel tab est mauvais
-                else{
-                    //System.out.println("lien : " + i + " tab : " + j);
                 }
             }
         }
@@ -96,14 +88,13 @@ public class TestParserComparison {
             ArrayList<Table> currentPageTables = parserWikiText.parseWikiText();
 
             for(int j = 0; j < currentPageTables.size(); j++){
-
-                //compte le nombre de tab
+                //Count number of table
                 nbTabWikiText ++;
 
                 Iterator it = currentPageTables.get(j).getContent().values().iterator();
                 boolean nbCellsOk = true;
                 int nbCell = 0;
-                //ligne 1 = ligne de ref
+                //ligne 1 = reference line
                 String[] cells = (String[]) it.next();
                 nbCell = cells.length;
 
@@ -114,14 +105,9 @@ public class TestParserComparison {
                     }
                 }
 
-                if (nbCellsOk == true){
-                    //ajout du tab si correct
+                if (nbCellsOk){
                     nbTabWikiTextCorrect ++;
                 }
-                //Affichage quel tab est mauvais
-                //else{
-                    //System.out.println("lien : " + i + " tab : " + j);
-                //}
             }
         }
 
