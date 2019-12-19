@@ -22,7 +22,7 @@ public class ParserHTML extends Parser {
      */
     private Document pageHtml;
     private String url;
-    private HashMap<Integer, Integer> rowSpanMap = new HashMap<>();
+    private HashMap<Integer, Integer> rowSpanMap = new HashMap<Integer, Integer>();
 
     /**
      * Parses an HTML page to generate an list of parsed tables (represented by {@link Table} object).
