@@ -175,7 +175,7 @@ Finally, "convert ()" is called. This methods consits in writing all Table in th
 | testParseWikiTextNbCell2 | OK |
 | testParseWikiTextNbCell3 | OK |
 | testParseWikiTextNbCell4 | OK |
-| testParseWikiTextNbCell5 | Failed => Assertion Error : <ul><li>Expected : 91 </li> <li>Actual : 113 </li></ul> |
+| testParseWikiTextNbCell5 | OK |
 | testParseWikiTextNbCell6 | OK |
 | **TestProcessWikiUrl**	| |
 | testAddWikiUrlFromFileValid | OK |
