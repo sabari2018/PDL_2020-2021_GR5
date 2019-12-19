@@ -149,7 +149,7 @@ Finally, "convert ()" is called. This methods consits in writing all Table in th
 | testBenchExtractors | OK |
 | **TestParserComparaison**	| |
 | testCompareNbTabHTML | Ok |
-| testCompareNbTabWikiText |Failed => Assertion Error : Expected : 100 Actual : 32|
+| testCompareNbTabWikiText |Failed => Assertion Error : <ul><li>Expected : 100 </li> <li>Actual : 32 </li></ul> |
 | **TestParserHTML**	| |
 | testParseHtml | OK |
 | testParseHtmlTree | OK |
@@ -158,7 +158,7 @@ Finally, "convert ()" is called. This methods consits in writing all Table in th
 | testGetTablesFromPage3 | OK |
 | testEscapeComasAndQuotes | OK |
 | testGetRowsFromTable | OK |
-| testGetCellsFromRow |Failed => Assertion Error : Expected : 4 Actual : 3|
+| testGetCellsFromRow | Failed => Assertion Error : <ul><li>Expected : 4 </li> <li>Actual : 3 </li></ul> |
 | testEscapeComasAndQuotes | OK |
 | **TestParserWikiText**	| |
 | testParseWikiTextNoTab | OK 
@@ -166,11 +166,11 @@ Finally, "convert ()" is called. This methods consits in writing all Table in th
 | testParseWikiText1Tab | OK |
 | testParseWikiText8Tab | OK |
 | testParseWikiTextNbLign1 | OK |
-| testParseWikiTextNbLign2| Failed => Assertion Error : Expected : 16 Actual : 0 |
+| testParseWikiTextNbLign2| Failed => Assertion Error : <ul><li>Expected : 16 </li> <li>Actual : 0</li></ul>  |
 | testParseWikiTextNbLign3 | OK |
 | testParseWikiTextNbCell1 | OK |
-| testParseWikiTextNbCell2 |Failed => Assertion Error : Expected : 30 Actual : 0 |
-| testParseWikiTextNbCell3 |Failed => Assertion Error : Expected : 79 Actual : 91 |
+| testParseWikiTextNbCell2 |Failed => Assertion Error : <ul><li>Expected : 30 </li> <li>Actual : 0 </li></ul>  |
+| testParseWikiTextNbCell3 |Failed => Assertion Error : <ul><li>Expected : 79 </li> <li>Actual : 91 </li></ul>  |
 | **TestProcessWikiUrl**	| |
 | testAddWikiUrlFromFileValid | OK |
 | testAddWikiUrlFromFileInvalid | OK |
@@ -178,10 +178,10 @@ Finally, "convert ()" is called. This methods consits in writing all Table in th
 | testAddWikiUrlInvalid | OK |
 | testParseHTML | OK |
 | **TestConverter**	| |
-| testFileIsCreated |  |
-| testCheckNbRows| |
-| testCheckNbColumn| |
-| testCsvValid |  |
+| testFileIsCreated | OK  |
+| testCheckNbRows| Failed => Assertion Error : <ul><li>Expected : 2719 </li> <li>Actual : 2689 </li></ul>  |
+| testCheckNbColumn| Failed => Assertion Error : <ul><li>Expected : 2719 </li> <li>Actual : 2536 </li></ul>  |
+| testCsvValid | Failed => Assertion Error : <ul><li>Expected : 2719 </li> <li>Actual : 1967 </li></ul>|
 
 
 
