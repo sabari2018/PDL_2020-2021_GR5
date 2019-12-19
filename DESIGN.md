@@ -15,7 +15,7 @@ Some operations do not follow traditional coding conventions:
 * Some methods name start with a capital letter (that is a recurrent problem)
 * Project's class "Url" could be confused with Java'a class "Url", the name need to be changed
 * French and english are mixed in the project, it need to be normalized
-* Some attribute name are can be confusing (i.e : urlUrl from the Url class...), attributes names need to be explicit
+* Some attributes name can be confusing (i.e : urlUrl from the Url class...), attributes names need to be explicit
 * There are some unused methods or attributes
 
 Even if not causing technical difficulties, these coding conventions issues can cause misunderstanding for future developers and should be corrected using code refactoring with the IDE.
@@ -29,7 +29,7 @@ Even if not causing technical difficulties, these coding conventions issues can 
 | FormatWikiText |  | Extracts the wikitext tables form the Wikipedia pages and calls the CSV conversion methods |
 | Main |  | Runs the program creates "Fichier" Objects |
 | ProductionCSV |  | Deals with the conversion of HTML and Wikitext tables into CSV |
-| Url | FormatHTML, Thread (Java class) | Contains the methods to test if the urls are valid |
+| Url | FormatHTML, Thread (Java class) | Contains methods which test if the urls are valid |
 
   
 ## Dynamic model
@@ -94,7 +94,9 @@ Tests results realised on 10/08/19
 | TestNewUrl  	| OK |
 | TestNbTableau  	| OK |
 
-# Improvements proposals
+## Improvements proposals
+
+# Global architecture
 
 ![100% center](images/class_diagram_v2.png)
 
@@ -112,5 +114,9 @@ Tests results realised on 10/08/19
 In this proposal, we will remove the inefficient inheritances mentioned above and also give a more specific role to each class. We will enforce the respect of coding conventions and expand test methods.
 
 This proposal is likely to be changed during development.
+
+# Dynamic model
+
+# Tests results
 
 
