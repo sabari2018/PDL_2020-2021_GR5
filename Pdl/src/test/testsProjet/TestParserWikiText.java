@@ -79,36 +79,6 @@ public class TestParserWikiText {
         assertEquals("We should have 0 table", 0, tabs.size());
     }
 
-    /**
-     * Blank table or with one empty box => NOT currently tested
-     */
-    /*
-    @Test
-    public void testParseWikiTextTabEmpty(){
-        urlWikiText = "";
-        pwt = new ParserWikiText();
-        pwt.setUrlWikiText(urlWikiText);
-        ArrayList<Table> tabs = pwt.parseWikiText();
-
-        assertEquals("We should have 0 table", 0, tabs.size());
-    }
-    */
-
-    /**
-     * Table with one full box => NOT currently tested
-     */
-    /*
-    @Test
-    public void testParseWikiText1TableFullBox(){
-        urlWikiText = "";
-        pwt = new ParserWikiText();
-        pwt.setUrlWikiText(urlWikiText);
-        ArrayList<Table> tabs = pwt.parseWikiText();
-
-        assertEquals("We should have 0 table", 0, tabs.size());
-    }
-    */
-
     //Rows tests
 
     /**
@@ -134,7 +104,7 @@ public class TestParserWikiText {
      */
     @Test
     public void testParseWikiTextNbLign2() {
-        urlWikiText = "https://en.wikipedia.org/w/index.php?title=Turn-To&action=edit";
+        urlWikiText = "https://en.wikipedia.org/w/index.php?title=1986_1000_km_of_Brands_Hatch&action=edit";
         pwt = new ParserWikiText();
         pwt.setUrlWikiText(urlWikiText);
         ArrayList<Table> tabs = pwt.parseWikiText();
@@ -144,7 +114,7 @@ public class TestParserWikiText {
         ) {
             nbRow = tab.getContent().size();
         }
-        assertEquals("We should have 16 rows", 16, nbRow);
+        assertEquals("We should have 16 rows", 66, nbRow);
     }
 
     /**
@@ -194,7 +164,7 @@ public class TestParserWikiText {
      */
     @Test
     public void testParseWikiTextNbCell2() {
-        urlWikiText = "https://en.wikipedia.org/w/index.php?title=Turn-To&action=edit";
+        urlWikiText = "https://en.wikipedia.org/w/index.php?title=1986_1000_km_of_Brands_Hatch&action=edit";
         pwt = new ParserWikiText();
         pwt.setUrlWikiText(urlWikiText);
         ArrayList<Table> tabs = pwt.parseWikiText();
@@ -208,7 +178,7 @@ public class TestParserWikiText {
                 nbcell += cells.length;
             }
         }
-        assertEquals("We should have 30 cells", 30, nbcell);
+        assertEquals("We should have 30 cells", 528, nbcell);
     }
 
     /**
@@ -230,7 +200,7 @@ public class TestParserWikiText {
                 nbcell += cells.length;
             }
         }
-        assertEquals("We should have 79 cells", 79, nbcell);
+        assertEquals("We should have 99 cells", 99, nbcell);
     }
 
     //Cells content
@@ -430,15 +400,4 @@ public class TestParserWikiText {
         }
     }
     */
-
-
-    /*
-     * Tests parser wikitext :
-     *      - bon contenu
-     *
-     * - contenu avec seulement ou des images ?
-     * - contenu avec des icons ?
-     * - contenu avec des liens ?
-     * - case avec le texte "Les données manquantes sont à compléter." ?
-     */
 }
