@@ -82,7 +82,7 @@ public class TestParserComparison {
      * Result : 100%
      */
     @Test
-    public void TestCompareNbTabWikiText(){
+    public void testCompareNbTabWikiText(){
         for(int i = 0; i < processWikiUrl.getListWikiUrl().size(); i++){
 
             parserWikiText.setUrlWikiText(processWikiUrl.getListWikiUrl().get(i).getWikiTextUrl());
