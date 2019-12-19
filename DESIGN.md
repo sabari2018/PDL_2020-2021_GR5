@@ -67,7 +67,7 @@ An example of an exceptional scenario is the extraction of a Wikipedia page wher
 
 Tests results realised on 10/08/19
 
-| <h3>Test name</h3>        |  <h3>Finale Description</h3>  |
+| <h3>Test name</h3>        |  <h3>Final Result </h3>  |
 |:------:|-----|
 | **TestCSV**  | Empty |
 | **TestFichier**  	|||
@@ -121,7 +121,7 @@ In this new version, the Main class does the same thing : extract tables from ur
 
 However, in this version the scenario has changed : 
 
-![100% center](images/SequenceDiagramV2.png)
+![100% center](images/sequence-diagramV2)
 
 In the main a ProcessWikiUrl object is created. This object contains : 
 * a list of WikiUrl
@@ -136,5 +136,12 @@ After, "parseWikiText ()" is executed and realizes the WikiText extraction. When
 Finally, "convert ()" is called. This methods consits in writing all Table in the list in a csv file.
 
 ## Tests results
-
+| <h3>Test name</h3>  <h3>Final Result/h3>  |
+|:------:|-----|
+| **TestWikiUrl**	| |
+| testChineseUrl	| OK	|
+| testValidUrl	| OK|
+| testInvalidUrl	| OK	|
+| testNullUrl	| OK	|
+| testEmptyUrl | OK |
 
