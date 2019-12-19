@@ -5,6 +5,7 @@ import model.ParserWikiText;
 import model.ProcessWikiUrl;
 import model.Table;
 import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -30,7 +31,7 @@ public class TestParserComparison {
     /**
      * We recover the urls from the file
      */
-    @Before
+    @BeforeClass
     public void setUp(){
         //Récupération des urls
         processWikiUrl = new ProcessWikiUrl();
