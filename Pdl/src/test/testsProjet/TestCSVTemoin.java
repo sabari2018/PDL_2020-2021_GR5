@@ -33,6 +33,10 @@ public class TestCSVTemoin {
     String convertedFileFive = "Comparison_of_Unicode_encodings_2.csv";
     String wantedFileFive = "TemoinUnicodeEncodings.csv";
 
+    String urlSix = "https://en.wikipedia.org/wiki/Comparison_between_Esperanto_and_Interlingua";
+    String convertedFileSix = "Comparison_between_Esperanto_and_Interlingua_2.csv";
+    String wantedFileSix = "TemoinEsperantoInterlingua.csv";
+
     @Before
     public void setUpCSVTemoin(){
         process = new ProcessWikiUrl();
@@ -43,21 +47,71 @@ public class TestCSVTemoin {
      * Result : Generated CSV correspond to hand-made one
      */
     @Test
-    public void testTemoin(){
+    public void testTemoinOne(){
         boolean result = false;
+
         result = compareTemoinAndConverted(url, wantedFile, convertedFile);
         Assert.assertTrue("Generated file does not correspond expected file", result);
+    }
+
+    /**
+     * Case : Comparison of a predefined hand-made CSV of a given table with the generated CSV of the same table
+     * Result : Generated CSV correspond to hand-made one
+     */
+    @Test
+    public void testTemoinTwo(){
+        boolean result = false;
 
         result = compareTemoinAndConverted(urlTwo, wantedFileTwo, convertedFileTwo);
         Assert.assertTrue("Generated file does not correspond expected file", result);
+    }
+
+    /**
+     * Case : Comparison of a predefined hand-made CSV of a given table with the generated CSV of the same table
+     * Result : Generated CSV correspond to hand-made one
+     */
+    @Test
+    public void testTemoinTree(){
+        boolean result = false;
 
         result = compareTemoinAndConverted(urlTree, wantedFileTree, convertedFileTree);
         Assert.assertTrue("Generated file does not correspond expected file", result);
+    }
+
+    /**
+     * Case : Comparison of a predefined hand-made CSV of a given table with the generated CSV of the same table
+     * Result : Generated CSV correspond to hand-made one
+     */
+    @Test
+    public void testTemoinFour(){
+        boolean result = false;
 
         result = compareTemoinAndConverted(urlFour, wantedFileFour, convertedFileFour);
         Assert.assertTrue("Generated file does not correspond expected file", result);
+    }
+
+    /**
+     * Case : Comparison of a predefined hand-made CSV of a given table with the generated CSV of the same table
+     * Result : Generated CSV correspond to hand-made one
+     */
+    @Test
+    public void testTemoinFive(){
+        boolean result = false;
 
         result = compareTemoinAndConverted(urlFive, wantedFileFive, convertedFileFive);
+        Assert.assertTrue("Generated file does not correspond expected file", result);
+
+    }
+
+    /**
+     * Case : Comparison of a predefined hand-made CSV of a given table with the generated CSV of the same table
+     * Result : Generated CSV correspond to hand-made one
+     */
+    @Test
+    public void testTemoinSix(){
+        boolean result = false;
+
+        result = compareTemoinAndConverted(urlSix, wantedFileSix, convertedFileSix);
         Assert.assertTrue("Generated file does not correspond expected file", result);
     }
 
