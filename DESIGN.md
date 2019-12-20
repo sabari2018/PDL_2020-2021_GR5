@@ -204,7 +204,7 @@ For links, we decided to keep their title only as we prefer to keep comprehensiv
 | testTemoinFive | OK |
 | testTemoinSix  | OK |
   | **TestTable**	| |
-| testGetTitleHmtl | OK |
+| testGetTitleHtml | OK |
 | testGetExtractionTypeHtml | OK |
 | testGetNumTabHtml | OK |
 | testGetTitleWikiText | OK |
