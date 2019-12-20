@@ -3,7 +3,7 @@
 
 ## Global architecture
 
-This project contains two packages : one "model" which contains all classes and "test" which contains all test classes.
+This project contains two packages : "model" which contains all classes and "test" which contains all test classes.
 
 The global architecture is : 
 
@@ -98,7 +98,8 @@ Tests results realised on 10/08/19
 
 ## Global architecture
 
-![100% center](images/class_diagram_v2.png)
+![100% center](images/report-class-diagram.jpeg)
+Note : some methods (like getters and setters) were omited for readability.
 
 | Class | Extends | Description | 
 | --- | --- | --- |
@@ -121,7 +122,7 @@ In this new version, the Main class does the same thing : extract tables from ur
 
 However, in this version the scenario has changed : 
 
-![100% center](images/sequence-diagramV2)
+![100% center](images/sequence-diagramV2.JPG)
 
 In the main a ProcessWikiUrl object is created. This object contains : 
 * a list of WikiUrl
@@ -149,7 +150,7 @@ Finally, "convert ()" is called. This methods consits in writing all Table in th
 | testEmptyUrl | OK |
 | **TestParserComparaison**	| |
 | testCompareNbTabHTML | Failed => Assertion Error : <ul><li>Expected : 100 </li> <li>Actual : 80 |
-| testCompareNbTabWikiText |Failed => Assertion Error : <ul><li>Expected : 100 </li> <li>Actual : 52 </li></ul> |
+| testCompareNbTabWikiText |Failed => Assertion Error : <ul><li>Expected : 100 </li> <li>Actual : 59 </li></ul> |
 | **TestParserHTML**	| |
 | testParseHtml | OK |
 | testParseHtmlTree | OK |
@@ -174,7 +175,7 @@ Finally, "convert ()" is called. This methods consits in writing all Table in th
 | testParseWikiTextNbCell2 | OK |
 | testParseWikiTextNbCell3 | OK |
 | testParseWikiTextNbCell4 | OK |
-| testParseWikiTextNbCell5 |  Failed => Assertion Error : <ul><li>Expected : 91 </li> <li>Actual : 113 </li></ul> |
+| testParseWikiTextNbCell5 | OK |
 | testParseWikiTextNbCell6 | OK |
 | **TestProcessWikiUrl**	| |
 | testAddWikiUrlFromFileValid | OK |
