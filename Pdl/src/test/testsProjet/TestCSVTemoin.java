@@ -17,7 +17,7 @@ public class TestCSVTemoin {
     String convertedFile = "Comparison_between_Esperanto_and_Ido_1.csv";
     String wantedFile = "TemoinEsperantoAndIdo.csv";
 
-    String urlTwo = "https://en.wikipedia.org/wiki/Comparison_between_Esperanto_and_Ido";
+    String urlTwo = "https://en.wikipedia.org/wiki/Comparison_of_Hokkien_writing_systems";
     String convertedFileTwo = "Comparison_of_Hokkien_writing_systems_4.csv";
     String wantedFileTwo = "TemoinHokkienWritingSystems.csv";
 
