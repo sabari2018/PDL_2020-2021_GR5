@@ -210,3 +210,5 @@ For links, we decided to keep their title only as we prefer to keep comprehensiv
 | testGetTitleWikiText | OK |
 | testGetExtractionTypeWikiText | OK |
 | testGetNumTabWikiText | OK |
+| testGetContentHtml | OK |
+| testGetContentWikitext | OK |
