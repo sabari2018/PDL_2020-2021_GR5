@@ -2,12 +2,13 @@ package testsProjet;
 
 import model.ParserHTML;
 import model.ParserWikiText;
-import model.ProcessWikiUrl;
 import model.Table;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
 import java.util.Iterator;
 
 import static org.junit.Assert.assertEquals;
@@ -60,14 +61,13 @@ public class TestTable {
         //en HMTL (page avec 1 tableau)
         urlHtml = "https://en.wikipedia.org/wiki/Comparison_of_Chernobyl_and_other_radioactivity_releases";
         phtml = new ParserHTML();
-        phtml.setUrlHtml(urlWikiText);
+        phtml.setUrlHtml(urlHtml);
         tabsHtml = phtml.parseHtml();
-        //System.out.println(phtml.parseHtml().size());
-        //tabHtml = new Table();
-        //for (Table tab : tabsHtml) {
-            //tabHtml = tab;
-            //System.out.println(tabHtml);
-        //}
+        tabHtml = new Table();
+        for (Table tab : tabsHtml) {
+            tabHtml = tab;
+            System.out.println(tabHtml);
+        }
 
         //en Wikitext (page avec 1 tableau)
         urlWikiText = "https://en.wikipedia.org/w/index.php?title=Comparison_of_Chernobyl_and_other_radioactivity_releases&action=edit";
@@ -81,6 +81,33 @@ public class TestTable {
     }
 
     /**
+     * Case : Title of Table get with Hmtl
+     * Result : the title is the same : "Comparison_of_Chernobyl_and_other_radioactivity_releases"
+     */
+    @Test
+    public void testGetTitleHmtl(){
+        assertEquals("The title is not the same", "Comparison_of_Chernobyl_and_other_radioactivity_releases" ,tabHtml.getTitle());
+    }
+
+    /**
+     * Case : Extraction type of Table get with Html
+     * Result : the extraction type is html
+     */
+    @Test
+    public void testGetExtractionTypeHtml(){
+        assertEquals("The extraction type is not html", "html" ,tabHtml.getExtractionType());
+    }
+
+    /**
+     * Case : Num of Table get with Html
+     * Result : The num of the table : 1
+     */
+    @Test
+    public void testGetNumTableHtml(){
+        assertEquals("The num of the table is not 1", 1 ,tabHtml.getNumTable());
+    }
+
+    /**
      * Case : Title of Table get with Wikitext
      * Result : the title is the same : "Comparison_of_Chernobyl_and_other_radioactivity_releases"
      */
@@ -91,11 +118,11 @@ public class TestTable {
 
     /**
      * Case : Extraction type of Table get with Wikitext
-     * Result : the extration type is wikitext
+     * Result : the extraction type is wikitext
      */
     @Test
     public void testGetExtractionTypeWikiText(){
-        assertEquals("The extraction type is note wikitext", "wikitext" ,tabWikitext.getExtractionType());
+        assertEquals("The extraction type is not wikitext", "wikitext" ,tabWikitext.getExtractionType());
     }
 
     /**
