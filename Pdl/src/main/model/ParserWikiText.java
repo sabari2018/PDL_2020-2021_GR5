@@ -195,7 +195,7 @@ public class ParserWikiText extends Parser {
         for (int i = 0; i < nbCells; i++) {
             if (!cellsList.get(i).trim().isEmpty()) {
                 cellsList.set(i, cellsList.get(i).replaceAll("\n", " "));
-                cellsList.set(i, handleCommasInData(cellsList.get(i)));
+                cellsList.set(i, handleCommasQuotesInData(cellsList.get(i)));
                 cellsList.set(i, cellsList.get(i).replaceAll(START_WIKITABLE, ""));
                 cellsList.set(i, cellsList.get(i).replaceAll("&lt;", ""));
                 cellsList.set(i, cellsList.get(i).replaceAll("&gt;", ""));
@@ -259,17 +259,17 @@ public class ParserWikiText extends Parser {
     }
 
     /**
-     * If the data contains comma(s), the data should be surrounded by
+     * If the data contains comma(s) are quotes, the data should be surrounded by
      * quotation marks.
      *
      * @param data the data to analyse
      * @return a String surrounded by quotation marks if there was
-     * commas in the data. Otherwise, the returned String will be the same
+     * commas or quotes in the data. Otherwise, the returned String will be the same
      * as the parameter data.
      */
-    private String handleCommasInData(final String data) {
+    private String handleCommasQuotesInData(final String data) {
         String newData = data;
-        if (data.contains(",")) {
+        if (data.contains(",") || data.contains("\"")) {
             newData = "\"" + data + "\"";
         }
         return newData;
