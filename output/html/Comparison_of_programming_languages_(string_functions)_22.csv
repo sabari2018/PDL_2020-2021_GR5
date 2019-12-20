@@ -1,0 +1,33 @@
+Format,Languages
+string (string'First .. string'First +  n  - 1),Ada (programming language)
+" substr( string , 0,  n ) "," AWK (changes string), AWK, AWK, AWK "
+" LEFT$( string , n ) "," BASIC, BASIC "
+" left( string , n ) "," Visual Basic, Visual Basic, Visual Basic, Visual Basic "
+" strncpy( string2 ,  string ,  n ) ",C (programming language)
+"  string .substr(0, n ) "," C++ (STL), C++ "
+[ string  substringToIndex: n ],Objective-C (NSString * only)
+(apply str (take  n   string )),Clojure
+string [0 ..  n ],D (programming language)D (programming language)
+" string:substr( string ,  start ,  length ) ",Erlang (programming language)
+(subseq  string  0  n ),Common Lisp
+string [: n ]," Cobra (programming language), Cobra (programming language), Cobra (programming language) "
+" left( string , n  «, padchar ») "," Rexx, Rexx "
+"  string [0,  n ]    string [0.. n  - 1] ",Ruby (programming language)
+"  string [1,  n ] ",Pick Basic
+string [ ..  n ],Seed7
+"  string .Substring(0, n ) "," Visual Basic .NET, Visual Basic .NET, Visual Basic .NET, Visual Basic .NET "
+" leftstr( string ,  n ) "," Pascal (programming language), Pascal (programming language) (Pascal (programming language)) "
+"  copy  ( string ,1, n ) ",Turbo Pascal
+"  string .substring(0, n ) "," Java (programming language),Java (programming language) Java (programming language) "
+(string-take  string   n ),Scheme (programming language) (SRFI 13)
+take  n   string,Haskell (programming language)
+" String.extract ( string ,  n , NONE) ",Standard ML
+String.sub  string  0  n,OCamlOCaml
+string .[.. n ],F Sharp (programming language)
+" string.sub( string , 1,  n )   ( string ):sub(1,  n ) ",Lua (programming language)
+string  first:  n," Smalltalk (Smalltalk, Smalltalk) "
+string (: n ),Fortran
+" StringTake[ string ,  n ] ",MathematicaMathematica
+string  («FUNCTION» LENGTH( string ) -  n : n ),COBOL
+"  string .substring(0,  n ) ",Cobra (programming language)
+n ↑ string .,APL (programming language)

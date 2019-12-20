@@ -1,0 +1,18 @@
+Implementation,HMAC-MD5,SHA1,SHA256/384,AEAD,GOST 28147-89 IMIT,GOST R 34.11-94
+Botan,no,yes,yes,yes,no,no
+cryptlib,yes,yes,yes,yes,no,no
+GnuTLS,yes,yes,yes,yes,no,no
+JSSE,Yes,yes,yes,yes,no,no
+LibreSSL,yes,yes,yes,yes,yes,yes
+MatrixSSL,yes,yes,yes,yes,no,no
+mbed TLS,yes,yes,yes,yes,no,no
+NSS,yes,yes,yes,yes,no,no
+OpenSSL,yes,yes,yes,yes,yes,yes
+RSA BSAFE,yes,yes,yes,yes,no,no
+" SChannel XP/2003, Vista/2008",yes,yes," XP SP3, 2003 SP2 via hotfix",no,no,no
+" SChannel 7/2008R2, 8/2012, 8.1/2012R2",yes,yes,yes,except ECDHE_RSA,no,no
+SChannel 10,yes,yes,yes,yes,no,no
+[https://developer.apple.com/library/mac/documentation/Security/Reference/secureTransportRef/index.html Secure Transport],yes,yes,yes,no,no,no
+wolfSSL,yes,yes,yes,yes,no,no
+Erlang/OTP SSL application,yes,yes,yes,yes,no,no
+Implementation,HMAC-MD5,HMAC-SHA1,HMAC-SHA256/384,AEAD,GOST 28147-89 IMIT,GOST R 34.11-94

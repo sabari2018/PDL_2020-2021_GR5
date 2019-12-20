@@ -1,0 +1,5 @@
+width="10%" Feature,width="10%" Android,width="10%" iOS,width="10%" Windows 10 Mobile,width="10%" BlackBerry 10,width="10%" Tizen,width="10%" Sailfish OS,width="10%" Ubuntu Touch
+Safe driving mode,No2 3rd party software,11+,8 GDR3+,No,?,?,?
+Turn-by-turn navigation,2+,6+,8+,10+,?,Yes,No2 3rd party software
+Offline maps,"No2 3rd party software Google Maps, Here Maps",6+,8+,No2 3rd party software,?,No2 3rd party software,No2 3rd party software
+Alternative routes in maps,Yes,5+,10+,?,?,No2 3rd party software,No2 3rd party software

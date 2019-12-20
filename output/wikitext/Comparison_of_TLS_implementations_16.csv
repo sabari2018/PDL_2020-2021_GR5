@@ -1,0 +1,17 @@
+Implementation,PKCS #11 device,Intel AES-NI,VIA PadLock,ARMv8-A,Intel SGX,[http://www.intel.com/content/www/us/en/embedded/technology/quickassist/overview.html Intel QAT],Intel SHA
+Botan,yes,yes,no,yes,no,no,
+cryptlib,yes,yes,yes,no,,no,
+Crypto++,,yes,,,,no,yes
+GnuTLS,yes,yes,yes,yes,no,no,
+JSSE,yes,yes,no,no,,no,
+LibreSSL,no,yes,yes,no,,no,
+MatrixSSL,yes,yes,no,yes,,no,
+mbed TLS,yes,yes,yes,no,,no,
+NSS,yes,yes,no,no,,no,
+OpenSSL,yes,yes,yes,yes,,no,yes
+RSA BSAFE Micro Edition Suite,yes,yes,no,yes,no,no,yes
+" group=lower-alphaPure Java implementations relies on JVM processor optimization capabilities, such as group=lower-alphaRSA BSAFE SSL-J can be configured to run in native mode, using BSAFE Crypto-C Micro Edition to benefit from processor optimization.",Yes,Yes,no,Yes,no,no,Yes
+SChannel,no,yes,no,no,,no,
+[https://developer.apple.com/library/mac/documentation/Security/Reference/secureTransportRef/index.html Secure Transport],no,Yes,no,Yes,,no,
+wolfSSL,no,yes,no,yes,yes,yes,
+Implementation,PKCS #11 device,Intel AES-NI,VIA PadLock,ARMv8-A,Intel SGX,Intel QAT,Intel SHA

@@ -1,0 +1,7 @@
+Name,SSH1,SSH2,Port forwarding,SFTP,SCP,Supports IPv6,Supports OpenSSH authorized keys,Privilege separation,FIPS 140-2 certified
+Apache MINA SSHD,no,yes,yes,yes,yes,yes,yes,no,?
+CopSSH,yes,yes,yes,yes,yes,yes,yes,yes,?
+CrushFTP Server,no,yes,yes,yes,yes,yes,yes,yes,?
+,Dropbear,no,yes,yes,partial,yes,yes,yes,no,?
+Lsh,no,yes,yes,yes,yes,?,?,?,?
+OpenSSH (OpenBSD Secure Shell),no,yes,yes,yes,yes,yes,yes,yes,group=Notefips

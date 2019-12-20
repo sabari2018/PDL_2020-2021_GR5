@@ -1,0 +1,35 @@
+System,Git (software),Mercurial,Bazaar (software),Monotone (software),Darcs,Concurrent Versions System,Subversion (software),Perforce,AccuRev,IBM Rational ClearCase,Others
+Apache Bloodhound,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Optional[71],Yes,No,No
+Assembla Tickets,Yes,Yes,No,No,No,No,Yes,Yes,No,No,No
+Axosoft,Yes,Yes[72],No,No,No,No,Yes,Yes,No,No," Yes Microsoft Visual SourceSafe, Microsoft Visual SourceSafe "
+Bugzilla,Yes[73],Yes[74],Yes,No,No,Yes,Yes,Yes,Yes,No,No
+Debbugs,No,No,No,No,No,No,No,No,No,No,No
+Faveo,No,No,No,No,No,No,No,No,No,No,No
+FogBugz,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,2[75]
+Fossil (software),No,No,No,No,No,No,No,No,Yes,No,1[76]
+FusionForge,Yes,Yes,Yes,No,No,Yes,Yes,No,No,No,No
+GNATS,No,No,No,No,No,Yes,No,No,No,No,No
+HP Application Lifecycle Management,No,No,No,No,No,Yes,Yes,Yes[77],Yes,No,No
+IBM Rational ClearQuest,No,No,No,No,No,No,No,Yes[78],Yes,Yes,No
+Jira (software),Yes,Yes,No,No,No,Yes,Yes,Yes,Yes[79],No[80],Yes[81]
+Mantis Bug Tracker,Yes,Yes[82],No,No,No,Yes,Yes,No,No,No,No
+Microsoft Dynamics CRM,No,No,No,No,No,No,No,No,No,No,No
+Org-mode,No,No,No,No,No,No,No,No,No,No,No
+OTRS,No,No,No,No,No,No,No,No,No,No,No
+Phabricator,Yes,Yes,No,No,No,No,Yes,No,No,No,No
+Pivotal Tracker,Yes,No,No,No,No,Yes,Yes,No,No,No,No
+Redmine,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes[77],No,No,No
+Request Tracker,No,No,No,No,No,Yes,Yes,No,No,No,No
+Roundup (issue tracker),No,No,No,No,Yes,No,Yes,No,No,No,No
+StarTeam,No,No,No,No,No,No,No,No,No,No,Yes - StarTeam includes revision control
+Supportworks,No,No,No,No,No,No,No,No,No,No,No
+SysAid Technologies,No,No,No,No,No,No,Yes,No,No,No,No
+Team Foundation Server,Yes[83],No,Yes[84],No,No,No,Yes[85],No,No,No,Yes - Team Foundation Server includes revision control
+TestTrack,Yes,No,No,No,No,Yes,Yes,Yes,No,No," Yes - Surround SCM, Surround SCM "
+Trac,Yes,Yes,Yes,Yes,Yes,No,Yes,Optional[71],Yes,No,No
+Tracker (business software),No,No,No,No,No,No,No,No,No,No,No
+Tuleap,Yes,No,No,No,No,Yes,Yes,No,No,No,No
+Twproject,No,No,No,No,No,No,Yes,No,No,No,No
+Usersnap,No,No,No,No,No,No,No,No,No,No,No
+Wrike (software),No,No,No,No,No,No,Yes,No,No,No,No
+YouTrack,Yes[86],Yes[86],No,No,No,Yes[86],Yes[86],Yes[86],No,Yes[86],3[86][87]

@@ -1,0 +1,22 @@
+Name,Operating system,User interface,Sector by sectorname="Raw",File by filename="File",Hot transfername="LiveCopy",Mount or extractExtracting is the process of browsing a disk image and retrieving some of the files that it contains, one users choice. Mounting a disk image is the process of make the disk image content available to the user as if he or she is accessing a physical read-only disk.",Operation model,,,License
+,,,,,,,scope="col"  Standalone,scope="col"  Client–server,scope="col"  From a Live OS,
+scope="row"  Acronis True Image,Windows,Graphical,name="ATIht"," name="ATIH-Linux" ",yes,yes,yes,yes,yes (64 MB),name="ATItryv"
+scope="row"  Apple Software Restore,macOS,Command-line,yes,HFS+,no,via hdiutil,yes,yes,No,Part of macOS
+scope="row"  CloneDisk,Windows 7,Graphical,yes," FAT, UDF ",no,yes,yes,yes,yes,Freeware
+scope="row"  Clonezilla,yes,yes (Clonezilla server edition),yes (210 MB),GPL
+scope="row"  dcfldd,Linux,Command-line,yes,no,no,yes,yes,no,dunno,GPL
+scope="row"  dd (Unix),Unix,Command-line,yes,no,no,name="Loop device",yes,no,name="dd",GPLv3
+scope="row"  Disk Utility,macOS,Graphical,yes,HFS+,yes,yes,yes,no,yes,Part of macOS
+scope="row"  Drive SnapShot,no,yes,yes,yes,no,no,Trialware
+scope="row"  FSArchiver,Linux,Text-based,no," HPFS, JFS, XFS ",dunno,dunno,yes,no,dunno,GPL
+scope="row" Ghost,yes,yes,yes,yes,yes,Trialware
+scope="row" GParted Live CD,Linux,Graphical,no," ext2, ext3 ",no,no,yes,no,yes,GPL
+scope="row"  HDClone),"Graphical, Command-line",yes,"  FAT16, FAT32, HFS+ ",yes,yes,yes,no,yes,Freemium
+scope="row" Image for Windows,Windows,Graphical,yes," FAT32, NTFS, ext2, ext3 ",yes,yes,yes,no,yes,Trialware
+scope="row" IsoBuster,Windows,Graphical,yes," MFS, HFS, HFS+, UDF, XFS ",no,yes,yes,no,yes,Trialware
+scope="row"  Kleo Bare Metal Backup,Independent (Live OS),Graphical,yes," FAT32, NTFS, ext2, ext3, HFS+ ",no,dunno,no,yes,yes (570 MB),Freeware
+scope="row" Mondo Rescue,Linux,Text-based,yes," FAT32, NTFS, ext2, ext3 ",yes,dunno,yes,dunno,name="Mindi-Linux",GPL
+scope="row"  ntfsclone,Linux,Command-line,no,NTFS,dunno,dunno,yes,no,name=compilation,GPL
+scope="row" partimage,Linux,Text-based,no," HPFS, JFS, UFS (beta), HFS (beta), NTFS (experimental) ",dunno,dunno,yes,yes,name=compilation,GPL
+scope="row"  Partition-Saving," Windows, Linux, DOS",Text-basedCommand-line,yes," FAT32, NTFS, ext2, ext3 ",no,yes,yes,no,yes,Freeware
+scope="row"  Redo Backup and Recovery,Independent (Live OS),Graphical,yes," FAT32, NTFS, ext2, ext3, ext4 ",no,no,no,Can access networked drives,yes (225 MB),GPL

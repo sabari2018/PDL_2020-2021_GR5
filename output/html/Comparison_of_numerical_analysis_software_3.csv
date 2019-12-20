@@ -1,0 +1,8 @@
+,Standalone Executable creation support,Symbolic computation support,Object-oriented programming support,Graphical user interface creation support,Array data type as Array data type,Centralized extension library website,Can call code in other languages,Can be called from other languages
+Analytica (software),No,No,Yes,Yes,Yes,Yes," Component Object Model, Component Object Model "," Microsoft Excel, Microsoft Excel, Microsoft Excel "
+Dyalog APL,Yes[12],Yes,Yes[13]," Win32, Win32, Win32, Win32 ",Yes,Yes," Component Object Model, Component Object Model, Component Object Model, Component Object Model, Component Object Model, Component Object Model, Component Object Model, Component Object ModelComponent Object Model "," Component Object Model, Component Object Model, Component Object ModelComponent Object Model "
+GNU Data Language,No,No,Yes,GUI Widgets since v.0.9 but still incomplete,Yes,No," C (programming language), C (programming language) ",Python (programming language)
+MCSim,Yes,No,No,XMCSim with TCL/TK and wish,No,No,C (programming language),R (programming language)
+GNU Octave,Yes with mkoctfile,only with GiNaC extension,Yes[15],Yes,Yes,Yes[16]," C++, C++,C++ C++,C++ C++C++ "," Java (programming language),Java (programming language) Java (programming language),Java (programming language) Java (programming language)Java (programming language) "
+J (programming language),No,Yes,Yes,Yes,Yes,Yes,JavaScript,JavaScript
+Julia (programming language),Yes," Wrappers to SymPy, SymPy and others ",Yes,Yes,Yes,Yes

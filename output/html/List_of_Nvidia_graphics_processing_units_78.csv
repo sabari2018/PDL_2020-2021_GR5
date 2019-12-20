@@ -1,0 +1,7 @@
+Model,Code nameCode name,Fab (Nanometer),Computer bus Computer bus,Core clock (Hertz),Boost clock (Hertz),Memory clock (Hertz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,Supported Application programming interface version,,,,,Thermal design power (Watts),Notes
+,,,,,,,,Pixel (Pixel/s),Texture (Texel (graphics)/s),Size (Gigabyte),Bandwidth (Gigabyte/s),Bus type,Bus width (Bit),Single precision floating-point format,Double precision floating-point format,Direct3D,OpenGL,Vulkan (API),OpenCL,CUDA,,
+Quadro T1000[215],TU117,12,PCIe 3.0,,,2001,768:??:??:??:0,,,4,128,GDDR5,128,2600,,12.1,4.6,1.1,1.2,7.5,40-50,
+Quadro T2000[215],,,PCIe 3.0,1575,1785,,1024:64:32:??:0,57.1,114.2,,,,,3500,,,,,,,40-60,
+Quadro RTX 3000[215],TU106,12,PCIe 3.0,,,,2304:??:??:36:288,,,6,336,GDDR6,192,6400,,,,,,,60-80,
+Quadro RTX 4000[215],TU104,,,,,,2560:??:??:40:320,,,8,448,,256,8000,,,,,,,80-110,
+Quadro RTX 5000[215],TU102,,,,,,3072:??:??:48:384,,,16,448,,,9400,,,,,,,,

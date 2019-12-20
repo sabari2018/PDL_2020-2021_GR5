@@ -1,0 +1,34 @@
+,Windows,DOS,Mac OS X,Linux,BSD,Other Unix,AmigaOS,Android,Windows Mobile,Windows Phone
+7-Zip,os-7zip-11,Command-line interfaceos-7zip-22,os-7zip-22,os-7zip-22,Command-line interfaceos-7zip-22,Command-line interfaceos-7zip-22,Command-line interface,no,yes,no
+ALZip,yes,Command-line interface,no,no,no,no,no,no,no,no
+ALZip for Mac,no,no,yes,no,no,no,no,no,no,no
+Archive Manager,no,no,no,yes,yes,yes,no,no,no,no
+Archive Utility,no,no,yes,no,no,no,no,no,no,no
+Ark,no,no,no,yes,yes,yes,no,no,no,no
+B1 Free Archiver,yes,no,yes,yes,yes,yes,no,yes,no,no
+BetterZip,no,no,yes,no,no,no,no,no,no,no
+bsdtar/libarchive,yes,no,yes,yes,yes,yes,partial,unk,unk,no
+Commander One,no,no,yes,no,no,no,no,no,no,no
+CRAX Commander,no,no,yes,no,no,no,no,no,no,no
+Disk ARchiver,yes,no,yes,yes,yes,yes,no,no,no,no
+Filzip,yes,no,no,no,no,no,no,no,no,no
+FreeArc,yes,no,no,yes,yes,yes,no,no,no,no
+GNU tar,yes,no,yes,yes,yes,yes,yes,yes,no,no
+iArchiver,no,no,yes,no,no,no,no,unk,unk,dunno
+Info-ZIP,yes,yes,yes,yes,yes,os-infozip-29,yes,no,os-infozip-18,no
+KGB Archiver,os-KGBArchiver7,partial,Command-line interface,yes,no,no,no,yes,unk,dunno
+PeaZip,os-7zip-11,unk,Under Development,yes,yes,no,no,unk,unk,dunno
+PKZIP,yes,yes,no,yes,no,yes,yes,unk,unk,dunno
+PowerArchiver,yes,unk,Command-line interface,no,no,no,no,unk,unk,dunno
+Star,yes,no,yes,yes,yes,yes,yes,yes,unk,dunno
+StuffIt,yes,unk,yes," X86 only, older version (5.2.0?)",no,older version (5.2.0?),no,unk,unk,dunno
+The Unarchiver,Command-line interface,no,yes,Command-line interface,no,no,no,unk,no,dunno
+TUGZip,yes,unk,no,no,no,no,no,unk,unk,dunno
+WinAce,yes,Command-line interfaceos-winace5,Command-line interface expander onlyos-winace5," os-winace5",no,no,Command-line interface expander only,unk,unk,dunno
+WinRAR and RAR,os-7zip-11,yes,Command-line interfaceos-winrar6," os-winrar6",Command-line interfaceos-winrar6,Command-line interfaceos-winrar6,Command-line interface expander only,yes,yes,dunno
+WinZip,os-7zip-11,Command-line interface,yes,no,no,no,yes,yes,unk,dunno
+XAD,no,no,no,yes,yes,yes,yes,unk,unk,dunno
+Xarchiver,no,no,no,yes,yes,unk,unk,unk,unk,dunno
+ZipGenius,yes,unk,no,no,no,no,no,unk,unk,dunno
+ZPAQ,yes,unk,yes,yes,no,no,no,unk,unk,dunno
+,Windows,DOS,Mac OS X,Linux,BSD,Unix,AmigaOS,Android,Windows Mobile,Windows Phone

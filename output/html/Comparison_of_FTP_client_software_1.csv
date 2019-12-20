@@ -1,0 +1,14 @@
+Client,Creator,First public release date,Latest stable version,Software license,Copy files over 2 GB limit2 GB limit,Interface
+CURL,Daniel Stenberg,1998,7.67.0 (6 November 2019; 40 days ago (2019-11-06)[2]) [±],MIT License,Yes,Command line interface
+Cyberduck,David V. Kocher,2001," 6.0.4 June 2, 2017; 2 years ago (2017-06-02) ",GNU General Public License,Yes,Graphical user interface and Graphical user interface
+FAR Manager,Eugene Roshal / FAR Group,1996,3.0 build 5000 (7 August 2017; 2 years ago (2017-08-07)) [±],BSD licenses,Yes,Text-based user interface
+*FileZilla,Community,2001 (January),3.45.1 (25 September 2019; 2 months ago (2019-09-25)) [±][3],GNU General Public License,Yes,Graphical user interface
+FireFTP,Mime Čuvalo,2004 (September)," 2.0.32 (February 1, 2019; 10 months ago (2019-02-01)) [±] "," Mozilla Public License 1.1, Mozilla Public License ",Yes (since version 2.0.5)," Waterfox, Waterfox pre-version 57 Waterfox "
+Fugu (software),University of Michigan Research Systems Unix Group,2003," 1.2.0 May 2, 2005; 14 years ago (2005-05-02) ",BSD licenses,?,Graphical user interface
+GFTP,Brian Masney,1998," 2.0.19 November 30, 2008; 11 years ago (2008-11-30) ",GNU General Public License,Yes,GTK+
+Lftp,Alexander V. Lukyanov,1996 (August)," 4.8.4 (August 1, 2018; 16 months ago (2018-08-01)[4]) [±] ",GNU General Public License,Yes,Command line interface
+Macfusion,Michael Gorbach,0 ?,2.0.4,BSD licenses,?,Graphical user interface
+NcFTP,NcFTP Software Inc.,1991," 3.2.6 November 27, 2016; 3 years ago (2016-11-27) ",Clarified Artistic License,Yes,Command line interface
+Net2ftp,David C. Gartner,2003 (January)," 0.98 March 1, 2013; 6 years ago (2013-03-01) ",GNU General Public License,?,Web application
+Tnftp,Luke Mewburn,1999," 20151004 October 4, 2015; 4 years ago (2015-10-04) ",BSD Licenses,?,Command line interface
+WinSCP,Martin Přikryl,2000," 5.15.9[5] (December 5, 2019; 11 days ago (2019-12-05)) [±] ",GNU General Public License,Yes,Graphical user interface and Graphical user interface

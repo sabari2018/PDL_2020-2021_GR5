@@ -1,0 +1,55 @@
+Driver family,Driver,Chipsets,Chipset PHY Modes,Integration in mainline,Non-free firmware required,License,Development
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/admtek/adm8211.c adm8211],adm8211,ADMtek ADM8211 (IEEE 802.11b MAC/BBP,dunno,Yes,Yes,GPLv2,With support from Infineon/ADMtek
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/atmel/at76c50x-usb.c at76c50x‑usb] [http://wireless.kernel.org/en/users/Drivers/at76c50x-usb at76c50x‑usb],at76c50x-USB,Atmel AT76C503/AT76C505 based USB WLAN adapters,dunno,Yes,Depends on the model,GPLv2,dunno
+,[http://acx100.sourceforge.net/ acx100],",dunno,No,Yes,Dual MPL,Reverse-engineered
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/cisco/airo.c airo],[http://airo-linux.sourceforge.net/ airo],Cisco Systems Aironet 4500/4800 and 340/350,b,Yes,No,Dual GPLv2 and BSD,dunno
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/ath ath],[http://wireless.kernel.org/en/users/Drivers/ar5523 ar5523],Qualcomm Atheros AR5523 based USB dongles,dunno,Yes,Yes,ISC,Reverse-engineered
+,[http://wireless.kernel.org/en/users/Drivers/ath5k ath5k],",dunno,Yes (since 2.6.25),n/a,Dual GPL/BSD,Reverse-engineered
+,[http://wireless.kernel.org/en/users/Drivers/ath6kl ath6kl],",dunno,Yes,Yes,ISC,Written by Qualcomm Atheros
+,[http://wireless.kernel.org/en/users/Drivers/ath9k ath9k],Qualcomm Atheros chips with IEEE 802.11n support,a/b/g/n,Yes (since 2.6.27),n/a,ISC,Written by Qualcomm Atheros
+,[http://wireless.kernel.org/en/users/Drivers/ath9k_htc ath9k_htc],",b/g/n,Yes (since 2.6.35),No,ISC,Written by Qualcomm Atheros
+,[http://wireless.kernel.org/en/users/Drivers/ath10k ath10k],Qualcomm Atheros chips with IEEE 802.11ac support,ac,Yes (since 3.11),Yes,ISC,Written by Qualcomm Atheros
+,[http://wireless.kernel.org/en/users/Drivers/carl9170 carl9170],Qualcomm Atheros AR9170 (802.11n USB),a/b/g/n,Yes (since 3.0),No,GPL,Qualcomm Atheros-supported
+,[http://wireless.kernel.org/en/users/Drivers/wil6210 wil6210],",dunno,Yes,Yes,ISC,Written by Qualcomm Atheros
+[https://git.kernel.org/cgit/linux/kernel/git/linville/wireless-testing.git/tree/drivers/net/wireless/atmel/atmel.c atmel],[http://wireless.kernel.org/en/users/Drivers/atmel atmel],Atmel at76c502 at76c504 and at76c506 wireless cards,dunno,Yes,No,GPLv2+,Reverse-engineered
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/broadcom/b43 b43],[http://wireless.kernel.org/en/users/Drivers/b43 b43],Some Broadcom 43xx,dunno,Yes (since 2.6.24),Experimental OSS firmware,GPL,Reverse-engineered
+[https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/broadcom/b43legacy b43legacy],[http://wireless.kernel.org/en/users/Drivers/b43legacy b43legacy],",dunno,Yes (since 2.6.24),Experimental OSS firmware,GPL,Reverse-engineered
+[https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/broadcom/brcm80211 brcm80211],[http://wireless.kernel.org/en/users/Drivers/brcm80211 brcmfmac],",a/b/g/n,Yes (since 3.2),Yes,ISC,Written by Broadcom
+,[http://wireless.kernel.org/en/users/Drivers/brcm80211 brcmsmac],",a/b/g/n,Yes (since 3.2),Yes,ISC,Written by Broadcom
+[https://git.kernel.org/cgit/linux/kernel/git/linville/wireless-testing.git/tree/drivers/net/wireless/st/cw1200 cw1200],[http://wireless.kernel.org/en/users/Drivers/cw1200 cw1200],ST-Ericsson CW1100  ; CW1200 WLAN chipsets,dunno,yes (since 3.11),Yes,GPLv2,?
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/intersil/hostap hostap],HostAP,",dunno,Yes,Depends on the model,GPLv2,
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/intel/ipw2x00 ipw2x00],[http://wireless.kernel.org/en/users/Drivers/ipw2x00 ipw2x00],Intel PRO/Wireless 2100 and 2200 Network Connection 802.11b,dunno,Yes,Yes,GPL,Written by Intel
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/intel/iwlegacy iwlegacy],[https://wireless.wiki.kernel.org/en/users/Drivers/iwlegacy iwlegacy],",dunno,Yes,Yes,GPL,
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/intel/iwlwifi iwlwifi],[http://wireless.kernel.org/en/users/Drivers/iwlwifi iwlwifi],",a/b/g/n/ac/ax,Yes,Yes,Dual GPL/BSD,Written by Intel
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/marvell/libertas libertas],[http://wireless.kernel.org/en/users/Drivers/libertas libertas],",dunno,Yes,Yes,GPL,Marvell-supported
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/marvell/libertas_tf libertas_tf],[http://wireless.kernel.org/en/users/Drivers/libertastf libertastf],Marvell 8388 (USB) WLAN Thinfirm Driver (OLPC),dunno,Yes,,GPL," cozybit, Marvell-supported"
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/mediatek/mt76 mt76],[https://wireless.wiki.kernel.org/en/users/drivers/mediatek mt76],",a/b/g/n/ac,Yes (since 4.19),Yes,ISC,With support from MediaTek
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/mediatek/mt7601u mt7601u],[https://wireless.wiki.kernel.org/en/users/drivers/mediatek mt7601u],MediaTek MT7601U,b/g/n,Yes (since 4.2),Yes,GPLv2,
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/marvell/mwifiex mwifiex],[http://wireless.kernel.org/en/users/Drivers/mwifiex mwifiex],",dunno,Yes,Yes,GPLv2,Written by Marvell
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/marvell mwl8k],[http://wireless.kernel.org/en/users/Drivers/mwl8k mwl8k],",dunno,Yes,Yes,GPLv2,Written by Marvell
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/intersil/orinoco orinoco],[http://wireless.kernel.org/en/users/Drivers/orinoco orinoco],",dunno,Yes,Required for WPA support,,
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/intersil/prism54 prism54]-[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/intersil/p54 p54],[http://wireless.kernel.org/en/users/Drivers/p54 p54],",dunno,Yes (~Aug 2007),Experimental OSS firmware,,
+,[http://wireless.kernel.org/en/users/Drivers/prism54 prism54],dunno,Yes (before 2.6.12),,,Reverse-engineered; obsoleted by p54.
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/ralink/rt2x00 rt2x00],[http://wireless.kernel.org/en/users/Drivers/rt2400pci rt2400pci],MediaTek (Ralink) RT2460,b,Yes (since 2.6.24),No,GPLv2+,rt2x00.serialmonkey.com; From partial documentation and GPL drivers by Ralink
+,[http://wireless.kernel.org/en/users/Drivers/rt2500pci rt2500pci],RT2560,b/g,Yes,No,GPLv2+,rt2x00.serialmonkey.com
+,[http://wireless.kernel.org/en/users/Drivers/rt61pci rt61pci],",dunno,Yes,Yes,GPLv2+,rt2x00.serialmonkey.com
+,[http://wireless.kernel.org/en/users/Drivers/rt2800pci rt2800pci],",dunno,Yes,Yes,GPLv2+,rt2x00.serialmonkey.com
+,[http://wireless.kernel.org/en/users/Drivers/rt2500usb rt2500usb],RT2571  ; RT2572,b/g,Yes,No,GPLv2+,rt2x00.serialmonkey.com
+,[http://wireless.kernel.org/en/users/Drivers/rt73usb rt73usb],",dunno,Yes,Yes,GPLv2+,rt2x00.serialmonkey.com
+,[http://wireless.kernel.org/en/users/Drivers/rt2800usb rt2800usb],",dunno,Yes,Yes,GPLv2+,rt2x00.serialmonkey.com
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/realtek/rtl818x rtl818x],[http://wireless.kernel.org/en/users/Drivers/rtl8187 rtl8180],",b/g,Yes,No,GPL,
+,[http://wireless.kernel.org/en/users/Drivers/rtl8187 rtl8187],",a/b/g,Yes,No,GPL,
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/realtek/rtlwifi rtlwifi] [http://sourceforge.net/projects/rtl-wifi/ rtl‑wifi],[https://wireless.wiki.kernel.org/en/users/Drivers/rtl819x rtl8188ee],Realtek,dunno,Yes (since 2.6.38),Yes,GPL,Written by Realtek et al. Forked from rtl8180-sa2400 project.
+,[http://wireless.kernel.org/en/users/Drivers/rtl8192c rtl8192c],,dunno,Yes,,GPL,Written by Realtek et al.
+,[https://wireless.wiki.kernel.org/en/users/drivers/rtl819x rtl8192ce],,dunno,Yes,Yes,GPL,Written by Realtek et al.
+,[https://wireless.wiki.kernel.org/en/users/drivers/rtl819x rtl8192cu],,dunno,Yes,Yes,GPL,Written by Realtek et al.
+,[https://wireless.wiki.kernel.org/en/users/drivers/rtl819x rtl8192de],,dunno,Yes,Yes,GPL,Written by Realtek et al.
+,[https://wireless.wiki.kernel.org/en/users/drivers/rtl819x rtl8192se],,dunno,Yes,Yes,GPL,Written by Realtek et al.
+,[https://wireless.wiki.kernel.org/en/users/drivers/rtl819x rtl8723ae],,dunno,Yes,Yes,GPL,Written by Realtek et al.
+,[https://wireless.wiki.kernel.org/en/users/drivers/rtl819x rtl8188eu],RTL8188EU e.g. in the TP-Link TL-WN725N,dunno,Yes (since 3.12),Yes,GPL,Written by Realtek et al.
+,[https://wireless.wiki.kernel.org/en/users/Drivers/rtl819x rtl8821ae],",ac,Yes (since 3.16),Yes,GPL,dunno
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/rsi rsi9113],RSI9113,",,Yes,,GPL,Written by Redpine Signals Inc.
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/ti ti],[http://wireless.kernel.org/en/users/Drivers/wl1251 wl1251],Texas Instruments TI wl1251 (SDIO/SPI),dunno,Yes,Yes,GPL,Written by Nokia
+,[http://wireless.kernel.org/en/users/Drivers/wl12xx wl12xx],",dunno,Yes (Only up to 3.2),Yes,GPL,Written by Nokia and Texas Instruments
+,[http://wireless.kernel.org/en/users/Drivers/wl18xx wl18xx],Texas Instruments TI WiLink 8,dunno,Yes,Yes,GPL,Written by Texas Instruments
+[https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/tree/drivers/net/wireless/zydas/zd1211rw zd1211rw],[http://wireless.kernel.org/en/users/Drivers/zd1211rw zd1211rw],ZyDAS ZD1211/ZD1211B (USB),dunno,Yes,Yes,GPL,various

@@ -1,0 +1,23 @@
+Audio player,Audio Video Interleave,Advanced Systems Format,QuickTime,Ogg,OGM,Matroska,MPEG-4 Part 14,MPEG-21,FFmpeg,Flash Video
+AIMP,No,Yes,No,Yes,No,No,Partial,No,No,No
+Amarok (audio),Yes,Yes,Yes,Yes,Basic,Basic,Yes,?,?,Yes
+Audacious (software),No,Yes,No,Yes,No,No,Yes,No,No,Audio only
+Audion (software),No,No,No,No,No,No,No,?,?,?
+Cmus,No,No,No,Vorbis only,No,Basic,Yes,?,?,?
+Cog (software),No,No,No,Yes,No,No,Partial,?,?,?
+Foobar2000,Partial[a],Yes,No,Yes,No,Yes[containernotes 1],Yes,?,?,Audio only
+JuK,No,No,No,Vorbis only,No,No,No,?,?,?
+JRiver Media Center,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes
+MediaMonkey,No,No,No,Vorbis only,No,No,No,?,?,?
+Music on Console,Yes,?,?,Yes,?,Yes,Yes,?,?,Yes
+MPXPLAY,Yes,Yes,No,Yes,?,?,Yes,?,?,?
+MusicBee,No,No,No,Vorbis only,No,No,AAC only,No,No,No
+Musicmatch Jukebox,No,No,No,No,No,No,No,?,?,?
+MusikCube,No,No,No,Vorbis only,No,No,No,?,?,?
+Rhapsody (online music service),No,No,No,No,No,No,No,?,?,?
+Rhythmbox,No,Yes,No,Vorbis only,No,No,Yes[f],?,?,?
+Sonique (media player),No[g],No,No,Yes,No,No,No,?,?,?
+Winamp,Yes,Yes,Yes[a],Yes,Yes,Yes,Yes,?,?,Yes
+XMMS,No,No,No,Vorbis only,No,No,No,?,?,?
+Zinf,No,No,No,Vorbis only,No,No,No,?,?,?
+Audio player,AVI,ASF,QuickTime,Ogg,OGM,Matroska,MP4,MPEG-21,NUT,FLV

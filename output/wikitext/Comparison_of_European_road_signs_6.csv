@@ -1,0 +1,16 @@
+scope="col" width="5em",Austria,Belgium,CzechRepublic,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia ;Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland ;Liechtenstein,Turkey,Ukraine,UnitedKingdom
+scope="col"  Proceed straight  (no turns),60px,60px,60px,60px,60px,60px,60px," 60px",60px,60px,60px,60px,60px," 60px",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+scope="col"  Turn right,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,,NOT  USED,60px,60px(in front of sign),60px,60px,NOT  USED,60px,60px,60px,60px,60px,60px,NOT  USED,60px
+scope="col"  Turn right ahead,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px," 60px",60px,60px,60px (behind of sign),60px,60px,60px,NOT  USED,60px,60px,60px,60px,60px,60px,60px
+scope="col"  Proceed straight or turn right,60px,60px,60px,60px,60px,60px,60px," 60px",60px,60px,60px,NOT  USED,60px," 60px",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,NOT  USED
+scope="col"  Pass on this side,60px,60px,60px,60px,60px,60px,60px  or  50px," 60px",60px,60px  or  60px,60px,60px,60px," 60px",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+scope="col"  Pass on either side,,60px,60px,60px,60px,60px,,,60px,60px,60px,60px,60px,,60px,60px,60px,NOT  USED,60px,60px,60px,,60px,60px,30px30px,60px,60px,60px
+scope="col"  Roundabout,NOT  USED,60px,60px,60px,60px,60px,," 60px",60px,60px,60px,60px,60px," 60px",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+scope="col"  Mandatory direction for vehicles carrying dangerous goods,60px,60px,NOT  USED,,60px,NOT  USED,60px,NOT  USED,,60px,rowspan="3"  NOT  USED,,60px,,NOT  USED,NOT  USED,60px,NOT  USED,60px,60px,60px,60px,,60px,60px,60px,60px,NOT  USED
+scope="col"  Minimum speed limit,60px,NOT  USED,60px,60px,60px,,60px," 60px",60px,60px,60px,," 60px",,,60px,60px,60px,60px,60px,60px,60px,NOT  USED,60px,60px,60px,60px
+scope="col"  Minimum speed limit ends,60px,,60px,60px,60px,,60px," 60px",60px,60px,60px,," 60px",,,60px,60px,60px,60px,60px,60px,60px,,60px,60px,60px,60px
+scope="col"  Bicycles only,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px," 60px",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+scope="col"  Pedestrians only,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,,60px," 60px",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,NOT  USED
+scope="col"  Shared use path,60px,60px,60px,60px,60px,60px,," 60px",60px,60px,60px,60px,60px," 60px",,60px,60px,60px,60px,60px,60px,60px,,60px,60px,,60px,60px
+scope="col"  Equestrian path,60px,60px,60px,60px,60px,60px,60px," 60px",60px,NOT  USED,60px,NOT  USED,60px," 60px",60px,NOT  USED,,60px,,60px (Belarus),60px,60px,60px,60px,60px,60px,60px,NOT  USED
+scope="col" width="5em",Austria,Belgium,Czech  Republic,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia   ;  Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland ;Liechtenstein,Turkey,Ukraine,United  Kingdom

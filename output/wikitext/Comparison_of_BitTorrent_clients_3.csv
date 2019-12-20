@@ -1,0 +1,37 @@
+BitTorrent client,GUI,Remote,CLI,Other,Programming language,Based on,IPv6,μTP
+ABC,yes,yes,no,no,Python,BitTornado,buggy,no
+Acquisition,yes,no,no,no," Cocoa",Limewire,no,no
+BitComet,yes,yes,Partial,no,C++,-,yes,no
+BitLet,no,no,no,Webapp,Java Applet,-,no,no
+BitLord,yes,no,no,no," Python, C++",libtorrent (Rasterbar),yes,no
+BitTornado,yes,no,partial,no,Python,BitTorrent,yes,no
+" BitTorrent 5, Mainline",yes,no,partial,no,Python,-,no,no
+BitTorrent 6,yes,yes,partial,no,C++,μTorrent,yes,yes
+BitTyrant,yes,yes,partial," Telnet, XML over HTTP remote control API"," Java, SWT",Azureus,yes,no
+Blog Torrent,yes,no,no,no,dunno,dunno,no,no
+Deluge,yes,yes,yes,Daemon," Python, C++",libtorrent (Rasterbar),yes,yes
+FlashGet,yes,no,no,no,dunno,dunno,no,no
+Free Download Manager,yes,yes,partial,no,C++,libtorrent (Rasterbar),no,no
+Frostwire,yes,no,no,no,Java,libtorrent (Rasterbar),no,yes
+KGet,yes,yes,Partial,no,C++,-,yes,no
+KTorrent,yes,yes,partial,no,C++,-,yes,yes
+LimeWire,yes,no,no,no,Java,libtorrent (Rasterbar),no,no
+Meerkat Bittorrent Client,yes,no,no,no,C++,-,no,no
+Miro,yes,no,no,no,C++,libtorrent (Rasterbar),no,no
+MLDonkey,no,Third Party,partial,Telnet,OCaml,-,no,no
+μTorrent,yes,yes,no,RESTful Web API,C++,-,yes,yes
+OneSwarm,partial,yes,No-partial,no,Java,Azureus,yes,no
+Opera 12,yes,no,no,no,C++,-,yes,no
+qBittorrent,yes,yes,partial,no," Python, C++",libtorrent (Rasterbar),yes,yes
+rTorrent,no,Third Party,yes,SCGI,C++,[libTorrent] (Rakshasa),no,no
+Shareaza,yes,yes,partial,no,C++,-,no,no
+SymTorrent,yes,no,no,no,dunno,dunno,no,no
+Tixati,yes,yes,no,no,C++,-,yes,yes
+Tomato Torrent,yes,no,no,no,Cocoa,BitTorrent,no,no
+Tonido,no,yes,no,no,C++,libtorrent (Rasterbar),no,no
+TorrentFlux,no,yes,no,no,PHP,BitTornado,no,no
+Transmission,yes,yes,yes," Daemon, JSON-RPC over HTTP remote control API"," C, Objective-C",libtransmission,yes,yes
+Tribler,yes,partial,partial,no," Python, C++",libtorrent (Rasterbar),no,yes
+Vuze (formerly Azureus),yes,yes,partial," Telnet, XML over HTTP remote control API"," Java, SWT",-,yes,yes
+Xunlei,yes,no,no,remote control over internet,C++,-,no,no
+BitTorrent client,GUI,Web,CLI,Other,Programming language,Based on,IPv6,μTP

@@ -1,0 +1,23 @@
+Name,Concurrent Versions System,Git (software),Mercurial,Apache Subversion,GNU Bazaar,Team Foundation Version Control,GNU arch,Perforce,Fossil (software)
+Assembla,No,Yes,No,Yes,No,No,No,Yes,No
+Azure DevOps Services,No,Yes,No,No,No,Yes,No,No,No
+Bitbucket,No,Yes,Until Feb 2020[c],No,No,No,No,No,No
+Buddy (software),No,Yes,No,No,No,No,No,No,No
+CloudForge,No,Yes,No,Yes,No,No,No,No,No
+GForge,Yes,Yes,No,Yes,No,No,No,No,No
+Gitea,No,Yes,No,No,No,No,No,No,No
+GitHub,No,Yes,No,Partial[36],No,No,No,No,No
+GitLab,No,Yes,No,No,No,No,No,No,No
+GNU Savannah,Yes,Yes,Yes,Yes,Yes[37],No,Yes,No,No
+Java.net,No,Yes[38],Yes[38],Yes[38],No,No,No,No,No
+Kallithea (software),No,Yes,Yes,No,No,No,No,No,No
+Launchpad (website),Import only,Yes[12][39],Import only[40],Import only,Yes,No,No,No,Unknown
+OSDN,Yes,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
+Ourproject.org,Yes,No,No,Yes,No,No,No,Unknown,Unknown
+OW2 Consortium,Yes,No,No,Yes,No,No,No,Unknown,Unknown
+Perforce,No,Yes,Yes,Yes,No,No,No,Yes,No
+Phabricator,No,Yes,Yes,Yes,No,No,No,No,No
+RhodeCode,No,Yes,Yes,Yes,No,No,No,No,No
+SEUL,Yes,No,No,Yes,No,No,No,Unknown,Unknown
+SourceForge,Dropped[41],Yes,Yes,Yes,Dropped[42],No,No,Unknown,Yes
+Sourcehut (page does not exist),No,Yes,Yes,No,No,No,No,Unknown,Unknown

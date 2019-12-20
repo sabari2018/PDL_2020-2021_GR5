@@ -1,0 +1,24 @@
+Client,Microsoft Windows,MacOS,Linux,Berkeley Software Distribution,Solaris (operating system),Other
+Cain and Abel (software),Yes,No,No,No,No,No
+Capsa (software) Free Edition,Yes,No,No,No,No,No
+Carnivore (software),Yes,No,No,No,No,No
+Charles Proxy,Yes,Yes,Yes,?,?,?
+Clusterpoint Network Traffic Surveillance System,Yes,Yes,Yes,Yes,No,Any virtual-machine compatible OS
+CommView,Yes,No,No,No,No,No
+DSniff,?,Yes,Yes,Yes,Yes,?
+EtherApe,No,Yes,Yes,Yes,Yes,?
+Ettercap (computing),Yes,Yes,Yes,Yes,Yes,?
+Justniffer,No,Yes,Yes,Yes,Yes,?
+Kismet (software),Yes,Yes,Yes,Yes,?,?
+Lanmeter,No,No,No,No,No,Fluke Corporation proprietary hardware
+Netsniff-ng,No,No,Yes,No,No,No
+Ngrep,Yes,Yes,Yes,Yes,Yes," AIX, AIX, AIX, AIX, AIX "
+Microsoft Network Monitor,Yes,No,No,No,No,No
+Observer,Yes,No,No,No,No,No
+" OmniPeek (formerly AiroPeek, EtherPeek) ",Yes,No,No,No,No,No
+SteelCentral Transaction Analyzer,Yes,Version 3.5 capture agents on PowerPC only," GUI, plus version 3.5 capture agents ",No,Version 3.5 capture agents on SPARC only,Version 3.5 capture agents on AIX and AIX AIX only
+Snoop (software),No,No,No,No,Yes,No
+Tcpdump,Yes (WinDump),Yes,Yes,Yes,Yes," AIX, AIX, AIX, AIX "
+Tranalyzer,No,Yes,Yes,?,?,?
+Wireshark (formerly Ethereal),Yes,Yes,Yes,Yes,Yes," AIX, AIX, AIX, AIX "
+Xplico,No,No,Yes,No,No,No

@@ -1,0 +1,45 @@
+scope=col  Name,scope=col  Operating system,scope=col  Freeware version,scope=col  Portable,scope=col  Encrypts files,scope=col  Detect conflict,scope=col  File lock,scope=col  Open file support,scope=col  Revision control,scope=col  Detect rename,scope=col  Detect move,scope=col  Full duplex transfer,scope=col  Propagate deletes,scope=col  Case sensitive,scope=col  Delta copying (block level transfer),scope=col  LAN Sync
+scope=row  @MAX SyncUp,Windows,Limited,no,,yes,yes,yes,,No,No,,yes,,yes,yes
+scope=row  Allway Sync,Windows,Limited,yes,yes,yes,,yes,yes,No,No,yes,yes,,,yes
+scope=row  AIMstor  (discontinued),Windows,Limited,yes,,yes,yes,yes,yes through VSS,Yes,Yes,Yes,yes,Casepreservingonly,,
+scope=row  Argentum Backup,Windows,no,yes,,,,no,yes,,,,,yes,,
+scope=row  BackupAssist,Windows,no,,,no,,yes,,,,,,,,
+scope=row  Backup4all,Windows,Limited,yes,yes,no,,yes,yes,,,,yes,,yes,
+scope=row  Beyond Compare,"Windows, OS X, Linux ",Limited,yes,no,yes,,yes,yes,,,,yes,,,
+scope=row  Box Sync,"Windows, OS X, Android, BlackBerry, iOS ",Limited,,,yes,?,?,yes,?,?,?,yes,?,,No
+scope=row  ChronoSync,OS X,no,no,yes,yes,yes,yes (only with APFS),yes,no,no,yes,yes,yes,no,yes
+scope=row  Cloudike,"Windows, OS X, iPhone, Android ",yes,no,,yes,no,yes,yes,yes,yes,yes,yes,yes,,
+scope=row  CloudMe,"Windows, OS X, Linux, iPhone, Android, Google TV, Samsung TV ",yes,no,,yes,?,?,no,yes,no,?,?,yes,?,no
+scope=row  Cubby - Free  (discontinued),"Windows, OS X ",no,no,,Renames older and keeps both,no,,yes,yes,yes,?,yes,,no,no
+scope=row  Cubby - Pro  (discontinued),"Windows, OS X ",no,no,,Renames older and keeps both,no,,yes,yes,yes,?,yes,,LAN Sync only,yes
+scope=row  Distributed Storage,"Windows, Linux ",no,,,yes,yes,yes,,,,,,,,
+scope=row  Dmailer Sync (discontinued),Windows,yes,,,,,,,,,,,,,
+scope=row  Dropbox,"Windows, OS X, Linux, Android, iPhone, BlackBerry ",yes,no,,yes,?,?,yes,yes,yes,yes,yes,yes,yes,yes
+scope=row  Easy2Sync for Files,Windows,yes,,,yes,,,yes," yes, for folders ",,,,,,
+scope=row  Egnyte,"Windows, OS X, Linux, Android, iPad, iPhone ",no,no,,yes,yes,yes,yes,yes,yes,yes,yes,Casepreservingonly,yes,yes
+scope=row  Gladinet,"Windows, OS X, Android, iPad, iPhone, Windows RT, Blackberry ",yes,Yes,Yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+scope=row  GoDrive,"Windows, Mac OS X, Linux, Android, iOS ",Limited,yes,yes,yes,yes,yes,yes,yes,yes,?,yes,yes,?,yes
+scope=row  GoodSync,"Windows, OS X, Android, iPad, iPhone, USB flash drive ",yes,Yes," yes, beta ",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+scope=row  GS RichCopy 360,Windows,Limited,no,no,yes,yes,yes,no,yes,yes,yes,yes,yes,Enterpriseversiononly,yes
+scope=row  IBM Connections,"Windows, OS X, Android, iOS ",no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no
+scope=row  MediaFire,"Windows, OS X, Android, iOS ",yes,,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no
+scope=col  Name,scope=col  Operating system,scope=col  Freeware version,scope=col  Portable,scope=col  Encrypts files,scope=col  Detect conflict,scope=col  File lock,scope=col  Open file support,scope=col  Revision control,scope=col  Detect rename,scope=col  Detect move,scope=col  Full duplex transfer,scope=col  Propagate deletes,scope=col  Case sensitive,scope=col  Delta copying (block level transfer),scope=col  LAN Sync
+scope=row  Mega,"Windows, OS X, Linux, Android, iPhone, BlackBerry ",yes,,yes,yes,,,yes,yes,yes,yes,yes,yes,No,yes
+scope=row  RepliWeb,"Windows, Linux ",no,,,Partial,,,yes,yes,yes,yes,yes,yes,,
+scope=row  Resilio Sync (ex. BitTorrent Sync),"Windows, OS X, Linux, Android, iOS, Windows Phone, Amazon Kindle Fire, FreeBSD ",Limited,no," yes, optional ",no,no,no,yes,yes,yes,yes,yes,,yes,yes
+scope=row  Robocopy,Windows,yes,no,,no,,,,,,,,,,
+scope=row  SecureSafe,"Windows, OS X, Android, iOS ",yes,,,yes,no,,no,no,no,no,yes,yes,no,no
+scope=row  SpiderOak,"Windows, OS X, Debian, Fedora, Slackware, Android, iOS ",no,,,no,,,yes,no,,no,,,yes,Yes
+scope=row  ShareFile,"Windows, OS X, Android, iPhone ",yes,,yes,,,,yes,Yes,,Yes,,Yes,,Yes
+scope=row  SugarSync,"Windows, OS X, Android, BlackBerry, iPhone, Windows Mobile ",no,no,,yes,,,yes,yes,yes,,yes,,,
+scope=row  Syncdocs,"Windows, web app ",Betaversionsonly,yes,,yes,no,yes,yes,yes,yes,Microsoft Word only,yes,,,
+scope=row  Synchronize It!,Windows,no,,,no,,,,,,,,,,
+scope=row  Syncplicity,"Windows, OS X, Android, iPhone, Windows Mobile ",yes,,,yes,,,yes,,,yes,yes,,No,No
+scope=row  Tonido,"Windows, OS X, Linux, Android, BlackBerry, iPhone, Windows Phone ",yes,yes,,yes,no,yes,no,yes,yes,yes,yes,,,
+scope=row  Tresorit,"Windows, OS X, Linux, Android, BlackBerry, iOS, Windows Phone ",Limited,yes,yes,yes,," yes, for Windows ",yes,,,,yes,yes,no,
+scope=row  Ubuntu One (discontinued 2 April 2014),"Windows, OS X, Ubuntu, iOS, Android ",yes,,,,,,,,,,,,,
+,scope=row  Windatareflector,Windows,yes,yes,no,yes,yes,no,yes,no,no,yes,yes,no,no,yes
+,scope=row  Wuala (discontinued),"Windows, OS X, Debian, Ubuntu, Android, iOS ",yes,,yes,,,,,,,,,,,
+scope=row ZumoDrive (discontinued),"Windows, OS X, Linux, Android, iPhone, Palm webOS ",yes,,,yes,,,yes,,,,,,,
+scope=row  Zetta.net,"Windows, OS X, Linux ",No,,,Yes,,Yes,Yes,Yes,Yes,,Yes," Yes, Preserve file name case  ; file metadata",yes,Yes
+scope=col  Name,scope=col  Operating system,scope=col  Freeware version,scope=col  Portable,scope=col  Encrypts files,scope=col  Detect conflict,scope=col  File lock,scope=col  Open file support,scope=col  Revision control,scope=col  Detect rename,scope=col  Detect move,scope=col  Full duplex transfer,scope=col  Propagate deletes,scope=col  Case sensitive,scope=col  Delta copying (block level transfer),scope=col  LAN Sync

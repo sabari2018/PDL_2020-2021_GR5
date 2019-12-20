@@ -1,0 +1,17 @@
+Implementation,TLS 1.2 Suite B
+Botan,yes
+Bouncy Castle,yes
+cryptlib,yes
+GnuTLS,yes
+JSSE,yes
+LibreSSL,yes
+MatrixSSL,yes
+mbed TLS,yes
+NSS,no
+OpenSSL,yes
+RSA BSAFE,yes
+S2n,
+SChannel,yes
+[https://developer.apple.com/library/mac/documentation/Security/Reference/secureTransportRef/index.html Secure Transport],no
+wolfSSL,yes
+Implementation,TLS 1.2 Suite B

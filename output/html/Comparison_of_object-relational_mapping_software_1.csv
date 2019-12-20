@@ -1,0 +1,22 @@
+Software,Platform,Availability,License,Version,Persistence Specification
+Apache Cayenne,Java Virtual Machine,Open-source software,Apache License 2.0," 3.0.2 / July 21, 2011 ",
+Dapper ORM,.NET 4.0,Open-source software,Apache License 2.0,1.8 NuGet,
+DataNucleus,Java Virtual Machine,Open-source software,Apache License 2," 4.1.0.RELEASE / May 19, 2015 ",Java Data Objects
+DBIx::Class,Perl,Open-source software,Artistic License 1.0 &amp; Artistic License," 0.082820 / March 20, 2015 (2015-03-20)[1] ",
+Django (web framework),Python (programming language),Open-source software,BSD licenses,2.1 (1 August 2018),
+Doctrine (PHP),PHP,Open-source software,MIT," 2.4/April 8, 2014 ",
+EclipseLink,Java Virtual Machine,Open-source software,Eclipse Public License Version 1.0 (EPL) and Eclipse Public License Version 1.0 (EDL)," 2.4.2 / July 4, 2013 ",Java Persistence API
+Entity Framework,.net core,Open-source software,Apache License 2.0,2.0,
+Hibernate (Java),Java Virtual Machine,Open-source software,GNU Lesser General Public License," 4.2.5 / August 28, 2013 ",Java Persistence API
+MyBatis/MyBatis,Cross-platform,Open-source software,Apache License 2.0,,
+Java Object Oriented Querying,Java Virtual Machine,Open-source software,Apache License 2.0 and Proprietary License," 3.2.0 / October 9, 2013 ",
+Microsoft ADO.NET Entity Framework,.NET 4.5,Part of .NET 4.5,Apache License 2.0Apache License,v6.0 (2014),
+NHibernate,.NET 4.5,Open-source software,GNU Lesser General Public License,4.0 (2014-08-17[3]),
+ODB (C++) (page does not exist),Cross-platform Cross-platform,Dual-licensed,GNU General Public License and Proprietary License," 2.4.0 / February 11, 2015 ",
+Redbean (software),PHP,Open-source software,BSD License," 4/April 1, 2014 ",
+SQLAlchemy,Python,Open-source software,MIT License," 1.2.14 / November 10, 2018 (2018-11-10) ",
+SQLObject,Python,Open-source software,LGPL," 3.8.0 / December 7, 2019 (2019-12-07) ",
+Skipper (computer software),PHP,Commercial,Proprietary software,3.0,
+Storm (software),Python,Open-source software,LGPL 2.1," 0.20 / June 28, 2013 (2013-06-28) ",
+TopLink,Java Virtual Machine,Commercial,Oracle License,10g,Java Persistence API
+WebORB Integration Server," .NET, Java, PHP ",Commercial &amp; Open-source software," WebORB for .NET and WebORB for Java = Proprietary License, WebORB for PHP = Mozilla Public License "," WebORB for .NET v.4.2 (Oct 2010), WebORB for Java v.4.0 (Sep 2010), WebORB for PHP (Sep 2008) ",

@@ -1,0 +1,22 @@
+Graphics,Launch,Market,Code name,List of Intel chipsets,Device IDDevice ID,Core render Clock rate (Clock rate),Execution  units,Shader model (Shader/Shader),Application programming interface supportApplication programming interface,,,Memory bandwidth  (Memory bandwidth),Dynamic video memory technology  (Dynamic video memory technology),Hardware acceleration,,
+,,,,,,,,,Direct3D,OpenGL,OpenCL,,,MPEG-2 Part 2,VC-1,H.264/MPEG-4 AVC
+GMA 3000,2006,Desktop,Lakeport,946GZ,2972,667[13][14],8[13][15],3.0 (SW) / 2.0,9.0c   Feature levels in Direct3D9_1,1.5Windows   2.1macOS   2.1Linux   ES 2.0Linux,No,10.6,256,MC[7],No,No
+,,,Broadwater,Q963,2992,,,,,,,,,,,
+,,,,Q965,,,,,,,,12.8,,,,
+,,,,GMA X3000,,,,,,,,,G965,29A2,3.0,,384,Full[7],MC + (LF − Windows Media Video only)
+GMA X3500,2007,Bearlake,G35,2982,,,,,,,,,4.0,10.0   Feature levels in Direct3D10_0,MC + LF,,,
+GMA X3100,,Mobile,Crestline,GL960,,,,,,,,,,,2A02 2A12,,,,400[16],8.5,MC + (LF − Windows Media Video only)
+,,,,GLE960,,,,,,,,,,,,,,,,,
+,,,,GM965,,,,,,,,,,,,500[16],10.7
+,,,,GME965,,,,,,,,,,,,,
+GMA 4500,2008,Desktop,Eaglelake,B43,2E42 2E92,533,10,2.1   ES 2.0Linux,12.8 (DDR2) 17 (DDR3)[17],1720,MC + LF,MC + LF
+,,,,Q43,2E12,,,,,,,
+,,,,Q45,,,,,,,,
+GMA X4500,,,,G41,2E32,800,,,,,,
+,,,,G43,2E22,,,,,,,
+GMA X4500HD,,,,G45,,,,,,,Full,Full
+GMA 4500MHD,,Mobile,Cantiga,GL40,,,,,,,,,2A42,400[18]
+,,,,GS40,,,,,,,,,,
+,,,,GM45,,,,,,,,,,533[18]
+,,,,GS45,,,,,,,,,,
+,,,,GM47,640

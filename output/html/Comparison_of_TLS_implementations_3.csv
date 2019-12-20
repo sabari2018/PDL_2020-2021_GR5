@@ -1,0 +1,17 @@
+Implementation,Transport Layer Security Transport Layer Security
+Botan (programming library),Yes
+Bouncy Castle (cryptography),Yes
+Cryptlib,Yes
+GnuTLS,Yes
+Java Secure Socket Extension,Yes[67]
+LibreSSL,Yes
+MatrixSSL,Yes
+Mbed TLS,Yes
+Network Security Services,No[68]
+OpenSSL,Yes[54]
+RSA BSAFE,Yes[55]
+S2n,
+SChannel,Yes[69]
+Secure Transport,No
+WolfSSL,Yes
+Implementation,TLS 1.2 Suite B

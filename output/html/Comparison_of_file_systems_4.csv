@@ -1,0 +1,57 @@
+File system,Hard link,Symbolic link,Journaling file system,Journaling file system,Case-sensitive,Case-preserving,File Change Log,Internal snapshotting / branching,Execute in place,Filesystem-level encryption,Data deduplication,Checksum
+DECtape,No,No,No,No,No,No,No,No,No,No,No,No
+BeeGFS,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No
+Level-D,No,No,No,No,No,No,No,No,No,No,No,No
+RT-11,No,No,No,No,No,No,No,No,No,No,No,No
+APFS,Yes,Yes,?,?,Partial,Yes,?,Yes,?,Yes,Partial,No
+Version 6 Unix file system (V6FS),Yes,No,No,No,Yes,Yes,No,No,No,No,No,No
+Version 7 Unix file system (V7FS),Yes,No[bf],No,No,Yes,Yes,No,No,No,No,No,No
+ExFAT,No,No,No,Partial (with Transaction-Safe FAT File System only),No,Yes,No,No,No,No,No,No
+FAT12,No,No,No,Partial (with TFAT12 only),No,Partial (with VFAT LFNs only),No,No,No,Partial (DR-DOS with DR-DOS only),No,No
+FAT16 / FAT16 / FAT16,No,No,No,Partial (with TFAT16 only),No,Partial (with VFAT LFNs only),No,No,No,Partial (DR-DOS with SECURITY.BIN only),No,No
+FAT32 / FAT32,No,No,No?,Partial (with TFAT32 only),No,Partial (with VFAT LFNs only),No,No,No,No,No,No
+Global File System,Yes,Yes[bg],Yes,Yes[bh],Yes,Yes,No,No,No,No,?,No
+High Performance File System,No,No,No,No,No,Yes,No,?,No,No,?,No
+NTFS,Yes,Yes[bi],No[bj],Yes[bj] (2000),Yes[bk],Yes,Yes,Partial[bl],?,Yes,Yes[bm][36],No
+HFS Plus,Yes[37],Yes,No,Yes[bn],Partial[bo],Yes,Yes[bp],No,No,No[bq],No,No
+Berkeley Fast File System,Yes,Yes,No,No,Yes,Yes,No,No,No,No,No,No
+UFS1 (file system),Yes,Yes,No,No,Yes,Yes,No,No,No,No,No,No
+UFS2 (file system),Yes,Yes,No,Yes[br] [42] [bs],Yes,Yes,No,Yes,?,No,No,No
+HAMMER (file system),Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,No,No,Yes,Yes
+Log-structured File System (BSD),Yes,Yes,Yes[bt],No,Yes,Yes,No,Yes,No,No,No,No
+Extended file system,Yes,Yes,No,No,Yes,Yes,No,No,No,No,No,No
+Xiafs,Yes,Yes,No,No,Yes,Yes,No,No,No,No,No,No
+Ext2,Yes,Yes,No,No,Yes,Yes,No,No,Yes[bu],No,No,No
+Ext3,Yes,Yes,Yes (2001) [bv],Yes (2001),Yes,Yes,No,No,Yes,No,No,No
+Ext4,Yes,Yes,Yes[bv],Yes," Yes, optional [45] ",Yes,No,No,Yes," Yes, experimental [46] ",No,No
+NOVA (filesystem),Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes
+F2FS,Yes,Yes,Yes[bt],No,Yes,Yes,No,No,No," Yes, experimental [47] ",No,No
+Lustre (file system),Yes,Yes,Yes[bv],Yes,Yes,Yes,Yes,No,No,No,No,No
+NILFS,Yes,Yes,Yes[bt],No,Yes,Yes,No,Yes,No,No,No,Yes
+ReiserFS,Yes,Yes,Yes[bw],Yes,Yes,Yes,No,No,?,No,No,No
+Reiser4,Yes,Yes,Yes,No,Yes,Yes,No,?,?,Yes[bx],?,No
+OCFS,No,Yes,No,No,Yes,Yes,No,No,No,No,No,No
+OCFS2,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No
+XFS,Yes,Yes,Yes,Yes,Yes[by],Yes,Yes,No,?,No," Yes, experimental [48] ",No
+JFS file system,Yes,Yes,Yes,Yes (1990),Yes[bz],Yes,No,?,?,No,?,No
+QFS,Yes,Yes,No,Yes,Yes,Yes,No,No,No,No,No,No
+Be File System,Yes,Yes,No,Yes,Yes,Yes,?,No,No,No,No,No
+Novell Storage Services,Yes,Yes,?,Yes,Yes[ca],Yes[ca],Yes[cb],Yes,No,Yes,?,No
+NetWare File System,Yes[cc],Yes[cc],No,No,Yes[ca],Yes[ca],Yes[cb],?,No,No,?,No
+ODS-2,Yes,Yes[cd],No,Yes,No,No,Yes,Yes,No,No,No,No
+ODS-5,Yes,Yes[cd],No,Yes,No,Yes,Yes,Yes,?,No,No,No
+Universal Disk Format,Yes,Yes,Yes[bt],Yes[bt],Yes,Yes,No,No,Yes,No,No,No
+Veritas File System,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes[ce],?,No,Yes,No
+Fossil (file system),No,No,No,No,Yes,Yes,Yes,Yes,No,No,Yes,No
+ZFS,Yes,Yes,Yes[cf],No[cf],Yes,Yes,No,Yes,No,Yes[cg],Yes,Yes
+Btrfs,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,?," No, planned, not being developed (Nov, 2015)[53] ",Yes,Yes
+MINIX file system,Yes,Yes,No,No,Yes,Yes,No,No,No,No,No,No
+MINIX file system,Yes,Yes,No,No,Yes,Yes,No,No,No,No,No,No
+MINIX file system,Yes,Yes,No,No,Yes,Yes,No,No,No,No,No,No
+VMFS2,Yes,Yes,No,Yes,Yes,Yes,No,No,No,No,No,No
+VMFS3,Yes,Yes,No,Yes,Yes,Yes,No,No,No,No,No,No
+ReFS,No,Yes,?,?,Yes[bk],Yes,?,?,?,No,Yes,Yes
+ISO 9660,No,No,No,No,No,No,No,No,No,No,No[ch],No
+Rock Ridge,Yes,Yes,No,No,Yes,Yes,No,No,No,No,No[ch],No
+Joliet (file system),No,No,No,No,No,Yes,No,No,No,No,No[ch],No
+SquashFS,Yes,Yes,No,No,Yes,Yes,No,No,No,No,Yes,Yes

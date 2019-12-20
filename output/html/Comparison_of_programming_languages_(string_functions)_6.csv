@@ -1,0 +1,21 @@
+Format,Languages
+"  string1  OP  string2 , where OP can be any of  =, <>, <, >, <= and >= "," Pascal (programming language), Pascal (programming language) (Pascal (programming language)), Pascal (programming language), Pascal (programming language), Pascal (programming language), Pascal (programming language), Pascal (programming language), Pascal (programming language), Pascal (programming language) "
+"  string1  OP  string2 , where OP can be any of  =, /=, ≠, <, >, <=, ≤ and ≥; Also: EQ, NE, LT, LE, GE and GT ",ALGOL 68
+" (stringOP?  string1   string2 ), where OP can be any of =, -ci=, <, -ci<, >, -ci>, <=, -ci<=, >= and -ci>= (operators starting with '-ci' are case-insensitive) ",Scheme (programming language)
+" (stringOP  string1   string2 ), where OP can be any of =, -ci=, <>, -ci<>, <, -ci<, >, -ci>, <=, -ci<=, >= and -ci>= (operators starting with '-ci' are case-insensitive) ",Scheme (programming language) (SRFI 13)
+" (stringOP  string1   string2 ), where OP can be any of =, -equal, /=, -not-equal, <, -lessp, >, -greaterp, <=, -not-greaterp, >= and -not-lessp (the verbal operators are case-insensitive) ",Common Lisp
+" (stringOP  string1   string2 ), where OP can be any of =, /=, <, >, <=, and >= ",ISLISP
+"  string1  OP  string2 , where OP can be any of  =, \=, <, >, <= and >= ",Rexx
+"  string1  OP  string2 , where OP can be any of  =, ¬=, <, >, <=, >=, ¬< and ¬> ",PL/I
+"  string1  OP  string2 , where OP can be any of =, /=, <, >, <= and >= ",Ada (programming language)
+"  string1  OP  string2 , where OP can be any of ==, /=, <, >, =< and >= ",Erlang (programming language)
+"  string1  OP  string2 , where OP can be any of ==, /=, <, >, <= and >= ",Haskell (programming language)
+"  string1  OP  string2 , where OP can be any of  eq ,  ne ,  lt ,  gt ,  le  and  ge  "," Perl, Perl "
+"  string1  OP  string2 , where OP can be any of ==, !=, <, >, <= and >= "," C++ (STL), C++, C++, C++, C++, C++, C++, C++, C++, Ya "
+"  string1  OP  string2 , where OP can be any of -eq, -ceq, -ne, -cne, -lt, -clt, -gt, -cgt, -le, -cle, -ge, and -cge (operators starting with 'c' are case-sensitive) ",Windows PowerShell
+"  string1  OP  string2 , where OP can be any of ==, ~=, <, >, <= and >= ",Lua (programming language)
+"  string1  OP  string2 , where OP can be any of =, ~=, <, >, <= and >= ",Smalltalk
+"  string1  OP  string2 , where OP can be any of ==, /=, <, >, <= and >=; Also: .EQ., .NE., .LT., .LE., .GT. and .GE. ",Fortran.Fortran
+"  string1  OP  string2  where OP can be any of =, <>, <, >, <=, >= as well as worded equivalents ",COBOL
+"  string1  OP  string2  where OP can be any of ==, <>, <, >, <= and >= ",Cobra (programming language)
+"  string1  OP  string2  is available in the syntax, but means comparison of the pointers pointing to the strings, not of the string contents. Use the Compare (integer result) function. "," C (programming language), C (programming language) "

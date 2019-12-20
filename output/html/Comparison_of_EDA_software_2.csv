@@ -1,0 +1,16 @@
+Name,Architecture,License,Routing (EDA),Comment
+Electric (software)," FreeBSD, FreeBSD",GPL,Yes,Very-large-scale integration circuit design tool with connectivity at all levels. Can also be used for schematic entry and Very-large-scale integration design.
+FreePCB,Microsoft Windows,GPL,Yes," A Printed circuit board design program for Printed circuit board. FreePCB allows for up to 16 copper layers, both Printed circuit board and Printed circuit board, and export of designs in Printed circuit board. Boards can be partially or fully autorouted with the Printed circuit boardPrinted circuit board autorouter by using the FpcROUTE Printed circuit board DSN design file translator. "
+Fritzing," Microsoft Windows, Microsoft Windows, Microsoft Windows",GPL,Yes," Protoboard view, schematic view, PCB view, Code (firmware) view. Includes customizable design rule checker. Includes common shaped boards like Arduino and Arduino shields. Allows spline curve traces. Only two layers (top and bottom). Outputs gerbers. "
+GEDA," FreeBSD, FreeBSD, FreeBSD",GPL,Yes," schematic, simulation, PCB editor, gerber view "
+Gnucap,any (C++98),GPL3,,Mixed-signal circuit simulator
+Icarus Verilog," FreeBSD, FreeBSD, FreeBSD",GPL,,Verilog simulator
+KiCad," Linux, Linux, Linux",GNU General Public License," Built-in, or FreeRouting"," Full package for schematic and board design, etc. Design rule checking. User-defined symbols and footprints. Gerber/ drill file creation. Graphic interface. Active user community. "
+KTechLab,Linux,GPL,n/a,KTechLab is a schematic capture and simulator. It is specifically geared toward mixed signal simulation of analog components and small digital processors.
+Magic (software),Linux,BSD license,no,A Very-large-scale integration layout tool
+Ngspice," Linux, Linux, Linux, Linux, Linux, Linux",BSD,,SPICE + XSPICE + Cider
+Oregano (software),,GPL,no,Schematic capture + spice simulation
+Quite Universal Circuit Simulator (QUCS)," Linux, Linux, Linux, Linux, Linux, Linux",GPL,,Schematic capture + Verilog + VHDL + simulation
+Pcb-rnd," FreeBSD, FreeBSD, FreeBSD, FreeBSD",GPL,yes," Circuit layout program with extended file format support, Design rule checking, parametric footprints, query language, and GUI and command line operation for batch processing and automation "
+Verilator,Posix,GPL,," Verilator is the fastest free Verilog HDL simulator. It compiles synthesizable Verilog into cycle accurate C++ or SystemC code following 2-state synthesis (zero delay) semantics. Benchmarks reported on its website suggest it is several times faster than commercial event driven simulators such as SystemC, NC-Verilog and VCS, while not quite as fast as commercial cycle accurate modeling tools such as Carbon ModelStudio and ARC VTOC. "
+XCircuit,Unix,GPL,,Used to produce netlists and publish high-quality drawings.
