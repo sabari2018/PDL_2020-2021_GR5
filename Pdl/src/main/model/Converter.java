@@ -13,6 +13,9 @@ public class Converter {
 
     private File csvConvertFile;
 
+    /**
+     * Converter constructor, creates folder output/html and output/wikitext
+     */
     public Converter () {
         File dirOutput = new File(System.getProperty("user.dir")+File.separator+"output");
         dirOutput.mkdirs();
@@ -24,7 +27,7 @@ public class Converter {
 
     /**
      * Converts a Table to a CSV file
-     * The name of this file has this form : Title of the title-number - Table position in the page
+     * The name of this file has this form : Page url-Table position in the page
      * @param table Table to convert
      * @return true if the Table is converted false if is not
      */
@@ -78,7 +81,7 @@ public class Converter {
     }
 
     /**
-     * @return the csv file fill with the table
+     * @return the CSV file fills with the Table
      */
     public File getCsvConvertFile () {
         return csvConvertFile;
