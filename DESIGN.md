@@ -69,30 +69,31 @@ Tests results realised on 10/08/19
 
 | <h3>Test name</h3>        |  <h3>Final Result </h3>  |
 |:------:|-----|
-| **TestCSV**  | Empty |
+| **TestCSVTemoin**  | |
+|  TestTemoin  | OK |
 | **TestFichier**  	|||
-| <p style="color:#FFFF00;">TestRemove2 </p>	| OK |
-| TestUrlFromFile  	| OK |
-| TestAdd2  	| OK |
-| TestToString  	| OK |
-| TestRemove  	| OK |
-| TestReadFile  	| Failed => Assertion Error : <ul><li>Expected : 312</li> <li>Actual : 314</li></ul>	|
-| TestAdd  	| OK |
+|  <p style="color:#FFFF00;">TestRemove2 </p>	| OK |
+|  TestUrlFromFile  	| OK |
+|  TestAdd2  	| OK |
+|  TestToString  	| OK |
+|  TestRemove  	| OK |
+|  TestReadFile  	| Failed => Assertion Error : <ul><li>Expected : 312</li> <li>Actual : 314</li></ul>	|
+|  TestAdd  	| OK |
 | **TestHTML**  	| |
-| Testhtml  	| Error => Array Index Out Of Bounds Exception : Index 1 out of bounds for lenght 1 	|
-| TestTitle  	| Failed => Comparison failure 	|
-| TestNbColonnes  	| Failed => Assertion Error : <ul><li>Expected : 1</li> <li>Actual : 10</li></ul> 	|
+|  Testhtml  	| Error => Array Index Out Of Bounds Exception : Index 1 out of bounds for lenght 1 	|
+|  TestTitle  	| Failed => Comparison failure 	|
+|  TestNbColonnes  	| Failed => Assertion Error : <ul><li>Expected : 1</li> <li>Actual : 10</li></ul> 	|
 | **TestPDL**	| |
 |  TestWiki	| Error  => null pointer exception	|
 | **TestURL**	| |
 |  TestToHTML  	| OK	|
-|  TestValideUrl  	| Failed => AssertionError 	|
+|  TestValideUrl  	| OK 	|
 |  TestNonValidUrl  	| OK |
-| TestRedirectUrl  	| Failed => Assertion Error : lien redirigé	|
+|  TestRedirectUrl  	| Failed => Assertion Error : lien redirigé	|
 | **TestWikiText**  	| |
-| TestNbLignes  	| Failed => Assertion Error : <ul><li>Expected : 0</li> <li>Actual : 9</li></ul> |
-| TestNewUrl  	| OK |
-| TestNbTableau  	| OK |
+|  TestNbLignes  	| Failed => Assertion Error : <ul><li>Expected : 0</li> <li>Actual : 9</li></ul> |
+|  TestNewUrl  	| OK |
+|  TestNbTableau  	| OK |
 
 # Improvements proposals
 
