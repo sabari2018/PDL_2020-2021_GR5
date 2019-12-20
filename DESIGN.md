@@ -189,8 +189,7 @@ Finally, "convert ()" is called. This methods consits in writing all Table in th
 | testCheckNbColumn| Failed => Assertion Error : <ul><li>Expected : 2726 </li> <li>Actual : 2614 </li></ul>  |
 | testCsvValid | Failed => Assertion Error : <ul><li>Expected : 2726 </li> <li>Actual : 1862 </li></ul>|
 | **TestCSVTemoin**	| |
-| testTemoin1 | |
-| testTemoin2 | |
+| testTemoin | OK |
   
 
 
