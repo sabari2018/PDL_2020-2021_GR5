@@ -1,10 +1,10 @@
-Graphics,Launch,Market,Processor,,Code name,Device ID,Memory  bandwidth(GB/s),DVMT (MB),QSV
-,,,,,,,,,,Direct3D,OpenGL,OpenCL,Vulkan
-HD Graphics,2012,Desktop,Celeron G16x0  Celeron G1610T  Pentium G2xx0  Pentium G2xx0T,Ivy Bridge,015A,650–1050,48:6:1  (GT1),11.1  FL11_0,4.0Windows  4.1macOS  4.2Linux  ES 3.0Linux,1.2,(1.0)Linux,25.6,1720,No
+,Launch,Market,Processor,,Code name,Device ID,Memory  bandwidth(GB/s),DVMT (MB),QSV
+,,,,,,,,,,Direct3D," OpenGL ",OpenCL,Vulkan
+HD Graphics,2012,Desktop,Celeron G16x0  Celeron G1610T  Pentium G2xx0  Pentium G2xx0T,Ivy Bridge,015A,650–1050,48:6:1  (GT1)",11.1  FL11_0,4.0Windows  4.1macOS  4.2Linux  ES 3.0Linux,1.2,(1.0)Linux,25.6,1720,No
 ,,Mobile,Celeron 10x0MCeleron 10x7UPentium 2117UPentium 20x0M,,,350–1100,,,,,,,,
 HD Graphics 2500,,Workstation,Xeon E3-1265LV2,,0152,650–1150,,,,,,,,Yes
 ,,Desktop,Core i3-32x0Core i3-32x0TCore i5-3xx0Core i5-3xx0SCore i5-3xx0T,,,,,,,,,,,
-,,,HD Graphics 4000,Core i3-3225Core i3-3245Core i5-3475SCore i5-3570KCore i7-3770Core i7-3770x,0162,,,,,,,,,,128:16:2(GT2)
+,,,HD Graphics 4000 ",Core i3-3225Core i3-3245Core i5-3475SCore i5-3570KCore i7-3770Core i7-3770x,0162,,,,,,,,,,128:16:2(GT2)
 ,,,,Mobile,Core i3-3110M,,,,,,,,,,,0166,650–1000
 ,,,,,Core i3-3120M  Core i5-3210M,,,,,,,,,,,,650–1100
 ,,,,,Core i3-3120ME,,,,,,,,,,,,650–900
@@ -50,7 +50,7 @@ HD Graphics,2013,Desktop,Pentium G3xxx,Haswell,04020406040A040B040EULT:0A020A060
 ,,Mobile,Celeron 2950MPentium 3550M,,,400–1100,,,,,,,,,,,
 ,,,Celeron 29xxUPentium 35xxU,,,200–1000,,,,,,,,,,,
 ,,,Celeron 29xxYPentium 35xxY,,,200–850,,,,,,,,,,,
-HD Graphics 4200,ULT Mobile,Core i3-40xxYCore i5-4xxxYCore i7-4610Y,04120416041A041B041EULT:0A120A160A1A0A1B0A1E,,200–850,160:20:2(GT2),Yes,,,,,,,,,
+HD Graphics 4200,ULT Mobile,Core i3-40xxYCore i5-4xxxYCore i7-4610Y,04120416041A041B041EULT:0A120A160A1A0A1B0A1E,,200–850,160:20:2(GT2),Yes",,,,,,,,,
 HD Graphics 4400,Desktop,Core i3-4130Core i3-4150Core i3-4160Core i3-4170,,,350–1150,,,,,,,,,,,
 ,,Core i3-4130TCore i3-4150TCore i3-4160TCore i3-4170T,,,200–1150,,,,,,,,,,,
 ,Mobile,Core i3-4005UCore i3-4025U,,,200–950,,,,,,,,,,,

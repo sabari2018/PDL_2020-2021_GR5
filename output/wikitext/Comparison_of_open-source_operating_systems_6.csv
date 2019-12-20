@@ -25,4 +25,4 @@ eCos,yes,,group=Notef2,,,,,,,,,,,,,,yes,," MMFS, ROMfs, JFFS2, YAFFS"
 RTEMS,yes,,,,,,,,,,,,,,yes,,yes,," TarFS, TFTP FS, IMFS, miniIMFS"
 HelenOS,yes,no,yes,yes,no,no,no,no,no,no,yes,no,yes,yes,no,no,yes,," locfs, exFAT"
 E/OS,yes,no,yes,no,no,no,no,no,no,no,yes,group=Notef6,yes,no,yes,yes,yes,,
-class="sortbottom",Name," FAT16, dosfs; FAT32, vfat",NTFS,Ext2,Ext3,XFS,ReiserFS,UFS,UFS2,HFS,HFS+,MINIXfs,BFS,ISO 9660,UDF,NFS,SMBFS," RAM disk, tmpfs",ZFS,Other special file systems
+" class="sortbottom"",Name," FAT16, dosfs; FAT32, vfat",NTFS,Ext2,Ext3,XFS,ReiserFS,UFS,UFS2,HFS,HFS+,MINIXfs,BFS,ISO 9660,UDF,NFS,SMBFS," RAM disk, tmpfs",ZFS,Other special file systems

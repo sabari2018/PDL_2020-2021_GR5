@@ -1,5 +1,5 @@
-Specification,HTML 3.2,HTML 4.01,,,HTML 5,XHTML 1.0,,,XHTML 1.1,Validating
-Variant,,strict,trans.,f.set,,strict,trans.,f.set,,
+",HTML 3.2,HTML 4.01",,,HTML 5,XHTML 1.0",,,XHTML 1.1,Validating
+"!,,strict,trans.,f.set,,strict,trans.,f.set,,
 Amaya,no,no,yes,no,no,yes,yes,no,yes,yes
 Aptana,dunno,yes,yes,dunno,yes,yes,yes,yes,yes,dunno
 Arachnophilia,dunno,dunno,dunno,dunno,no,yes,dunno,dunno,dunno,yes
@@ -32,5 +32,5 @@ SeaMonkey Composer,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
 TOWeb,no,no,no,no,yes,no,no,no,no,yes
 Web Architect,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
 WebStorm IDE,dunno,dunno,dunno,dunno,yes,dunno,dunno,dunno,dunno,dunno
-Variant,,strict,trans.,f.set,,strict,trans.,f.set,,
-Specification,HTML 3.2,HTML 4.01,,,HTML 5,XHTML 1.0,,,XHTML 1.1,Validating
+"!,,strict,trans.,f.set,,strict,trans.,f.set,,
+"!,HTML 3.2,HTML 4.01",,,HTML 5,XHTML 1.0",,,XHTML 1.1,Validating

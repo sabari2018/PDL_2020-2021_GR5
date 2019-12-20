@@ -1,6 +1,6 @@
 Shell command,Execute program,Replace current program with new executed program
 Ada
-C,system("command");,,execl(path, args); or execv(path, arglist);"
+C,system("command");",,execl(path, args); or execv(path, arglist);"
 C++,,,
 Objective-C,,[NSTask launchedTaskWithLaunchPath:(NSString *)path arguments:(NSArray *)arguments];,
 C#,,System.Diagnostics.Process.Start(path, argstring);",
@@ -9,7 +9,7 @@ Go,," exec.Run(path, argv, envv, dir, exec.DevNull, exec.DevNull, exec.DevNull)"
 Visual Basic," Interaction.Shell(command «, WindowStyle» «, isWaitOnReturn»)",,
 Visual Basic .NET," Microsoft.VisualBasic.Interaction.Shell(command «, WindowStyle» «, isWaitOnReturn»)"," System.Diagnostics.Process.Start(path, argstring)",
 Xojo," Shell.Execute(command «, Parameters»)"," FolderItem.Launch(parameters, activate)",n/a
-D,std.process.system("command");,," std.process.execv(path, arglist);"
+D," std.process.system("command");",," std.process.execv(path, arglist);"
 Java,,Runtime.exec(command); or new ProcessBuilder(command).start();,
 JavaScript  Windows Script Host implementation," WScript.CreateObject ("WScript.Shell").Run(command «, WindowStyle» «, isWaitOnReturn»);",WshShell.Exec(command),
 Common Lisp,(shell command),,

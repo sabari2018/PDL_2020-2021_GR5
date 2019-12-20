@@ -1,4 +1,4 @@
-Java,C#
+","
 Arrays are implicitly direct specializations of Object. They are not unified with collection types.,Arrays in C# are implicit specializations of the System.Array class that implements several collection interfaces.
 Arrays and collections are completely separate with no unification. Arrays cannot be passed where sequences or collections are expected (though they can be wrapped using Arrays.asList).," Arrays can be passed where sequences (IEnumerables) or collections/list interfaces are expected. However, the collection operations that alter the number of elements (insert/add/remove) will throw exceptions as these operations are unsupported by arrays."
 The for statement accepts either arrays or Iterables. All collections implement Iterable. This means that the same short syntax can be used in for-loops.," The foreach statement iterates through a sequence using a specific implementation of the GetEnumerator method, usually implemented through the IEnumerable or IEnumerable interface. Because arrays always implicitly implement these interfaces, the loop will iterate through arrays also."

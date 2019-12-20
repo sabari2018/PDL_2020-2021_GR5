@@ -1,4 +1,4 @@
-Server,BSD,Solaris,Linux,Mac OS X,Windows
+",BSD,Solaris,Linux,Mac OS X,Windows
 BIND,yes,yes,yes,yes,group=Notentbind
 Microsoft DNS,no,no,no,no,group=Notemsdns_included_functionality
 djbdns,yes,yes,yes,yes,no

@@ -1,4 +1,4 @@
-Client,License,First stable release,,Latest stable release
+,License",First stable release",,Latest stable release"
 ,,Date,Version,
 Akregator,GPL-lic,dunno,dunno," 19.08.2 (October 10, 2019)"
 Amarok,GPL-lic,dunno,dunno,Latest stable software release/Amarok
@@ -64,5 +64,5 @@ Winamp,Freemium,dunno,dunno,Latest stable software release/Winamp
 Windows Live Mail,Proprietary,dunno,dunno,Latest stable software release/Windows Live Mail
 Zimbra,Zimbra licensing," March, 2006 ",3.5," 7.1.3 (November, 2011)"
 Zune,proprietary,dunno,dunno,Latest stable software release/Zune Software
-Client,License,Date,Version,Latest stable release
-First stable release,,,
+,License",Date,Version,Latest stable release"
+First stable release ",,,

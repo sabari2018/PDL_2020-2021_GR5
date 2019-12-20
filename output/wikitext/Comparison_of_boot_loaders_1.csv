@@ -19,7 +19,7 @@ GRUB Legacy,GPLv2+,Dunno,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,Call
 GNU GRUB,GPLv3,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,Calls NTLDR,Calls Windows Boot Manager,yes,Calls FreeLoader,yes,yes,yes
 GRUB4DOS,GPLv2+,Dunno,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,Calls NTLDR,Calls Windows Boot Manager,yes,dunno,dunno,dunno,dunno
 Gujin [http://gujin.sourceforge.net/],GPLv2,Dunno,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,Calls NTLDR,yes,yes,dunno,dunno,dunno,dunno
-systemd-boot / Gummiboot,LGPL 2.1,yes,no,no,dunno,yes,yes,yes,dunno,dunno,yes,dunno,dunno,no,no,Windows Server 2013 64bits with UEFI only,Calls Windows Boot Manager,yes,dunno,dunno,UEFI only,yes
+systemd-boot / Gummiboot,LGPL 2.1,yes,no,no,dunno,yes,yes,yes,dunno,dunno,yes,dunno,dunno,no,no,Windows Server 2013 64bits with UEFI only,Calls Windows Boot Manager,yes,dunno,dunno,UEFI only," yes"
 iBoot,proprietary,yes,dunno,dunno,dunno,yes,dunno,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,yes
 LILO,BSD license,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno,dunno,yes,Calls NTLDR,yes,yes,dunno,dunno," Calls biosboot (FreeBSD, PC-BSD, ...)",dunno
 loader(8),BSD license,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno," yes (FreeBSD, TrueOS)",dunno

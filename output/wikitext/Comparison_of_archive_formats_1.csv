@@ -13,7 +13,7 @@ ARJ,.arj,Robert Jung,1991,AR001 and AR002,yes,yes,yes,weak XOR with initial cons
 B1,.b1,Catalina Group Ltd,2011,LZMA,yes,yes,no," yes, AES",yes,dunno,dunno,dunno
 Cabinet,.cab,Microsoft,1992 Windows 3.1,DEFLATE,yes,optional PKCS7 Authenticode signature,no,optional (with SDK),yes,2 s,dunno,dunno
 Compact File Set,.cfs,Joe Lowe (Pismo Technic Inc.),2008,ZIP/LZMA,yes,yes,dunno,yes,yes,dunno,dunno,Free software
-Compact Pro,.cpt,Bill Goodman,1990 (as "Compactor"),Original,yes,yes,no,yes,dunno,dunno,dunno,Proprietary software
+Compact Pro,.cpt,Bill Goodman," 1990 (as "Compactor")",Original,yes,yes,no,yes,dunno,dunno,dunno,Proprietary software
 Disk Archive (DAR),.dar,Denis Corbin,2002,Original,yes,yes,22,yes,yes,1 µs,yes,GPLv2
 DGCA,.dgc,Shin-ichi Tsuruta,2001,GCA,yes,yes,yes,yes,yes,dunno,dunno,dunno
 FreeArc,.arc,Bulat Ziganshin,2006," PPMd, TTA",yes,yes,yes," yes, AES, Blowfish, Twofish and Serpent",yes,dunno,dunno,GPLv2

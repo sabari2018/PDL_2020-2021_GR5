@@ -16,8 +16,8 @@ Windows PowerShell,(using reflection),,,
 F#,(using reflection),,,
 Ruby,x.respond_to?(:method),n/a,method_missing(),n/a
 PHP," method_exists(x, "method")"," property_exists(x, "field")",__call(),__get() / __set()
-Perl,x->can("method"),exists x->{field},AUTOLOAD,
-Raku,x.can("method"),x.field.defined,AUTOLOAD,
+Perl," x->can("method")",exists x->{field},AUTOLOAD,
+Raku," x.can("method")",x.field.defined,AUTOLOAD,
 OCaml,n/a,,,
-JavaScript,typeof x.method === "function",field in x,,
+JavaScript," typeof x.method === "function"",field in x,,
 COBOL,n/a,,,

@@ -1,6 +1,6 @@
-scope="col" width="5em",Austria,Belgium,CzechRepublic,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia ;Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland ;Liechtenstein,Turkey,Ukraine,UnitedKingdom
-scope="col"  Customs,60px,60px,60px,,60px,60px,60px," 60px",60px,60px  or  60px,NOT  USED,,60px,60px,60px  or  60px,60px,60px,60px,60px,60px,60px,60px,60px,60px  or  60px,60px  or  60px,60px,60px,NOT  USED
-scope="col"  Police,,NOT  USED,60px,,60px,60px,60px  or  60px,NOT  USED,,60px,,NOT  USED,60px,,NOT  USED,,,,60px,,60px,60px,60px,,60px  or  60px,,,60px
-scope="col"  Toll,,60px  or  60px,NOT  USED,,NOT  USED,,60px," 60px  or  60px",60px,60px,60px,,60px,,,60px,60px,60px,60px,,,60px,60px  or 60px,,NOT  USED,,,NOT  USED
-scope="col"  Other Control,,NOT  USED,60px,60px,60px,,,NOT  USED,,,NOT  USED,,,,60px,60px,60px  or  60px,,,60px,60px,,60px,60px,NOT  USED,,60px,
-scope="col" width="5em",Austria,Belgium,CzechRepublic,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia ;Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland ;Liechtenstein,Turkey,Ukraine,UnitedKingdom
+" scope="col" width="5em" ",Austria,Belgium,CzechRepublic,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia ;Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland ;Liechtenstein,Turkey,Ukraine,UnitedKingdom
+"! scope="col"  Customs",60px,60px,60px,",60px,60px,60px," 60px",60px,60px  or  60px,,,60px,60px,60px  or  60px,60px,60px,60px,60px,60px,60px,60px,60px,60px  or  60px,60px  or  60px,60px,60px,"
+"! scope="col"  Police",",",60px,",60px,60px,60px  or  60px,",",60px,",",60px,",,",",",60px,",60px,60px,60px,",60px  or  60px,",",60px
+"! scope="col"  Toll",",60px  or  60px,",",,,60px," 60px  or  60px",60px,60px,60px,",60px,",,60px,60px,60px,60px,",",60px,60px  or 60px,",",",",
+"! scope="col"  Other Control",",",60px,60px,60px,",",",",",,,,",60px,60px,60px  or  60px,",",60px,60px,",60px,60px,,,60px,
+"! scope="col" width="5em" ",Austria,Belgium,CzechRepublic,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia ;Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland ;Liechtenstein,Turkey,Ukraine,UnitedKingdom

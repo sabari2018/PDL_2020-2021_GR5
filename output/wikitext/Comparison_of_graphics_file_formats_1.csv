@@ -1,4 +1,4 @@
-Format,Full name,Owner,Based Format,File extension,MIME type,Application,Patented
+",Full name,Owner,Based Format,File extension,MIME type,Application,Patented
 Abc,Advanced Bitonal Compression,LEAD Technologies,,.abc,,Bitonal document and check images.,Yes
 ADRG,ARC Digitized Raster Graphics,,,.adrg,,,
 AdobeResource,,Adobe Systems,TIFF?,,,,
@@ -244,4 +244,4 @@ YCbCr,,,,.ycbcr,,,
 YCbCrA,,,,.ycbcra,,,
 YUV,,,,.yuv,,,
 ZDT,,,,.zdt,,Used by TECH Win,
-Format,Full name,Owner,Based Format,File extension,MIME type,Application,Patented
+"!,Full name,Owner,Based Format,File extension,MIME type,Application,Patented

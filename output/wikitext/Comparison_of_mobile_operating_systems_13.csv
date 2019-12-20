@@ -1,4 +1,4 @@
-width="10%" Feature,width="10%" Android,width="10%" iOS,width="10%" Windows 10 Mobile,width="10%" BlackBerry 10,width="10%" Tizen,width="10%" Sailfish OS,width="10%" Ubuntu Touch
+" width="10%" Feature"," width="10%" Android"," width="10%" iOS"," width="10%" Windows 10 Mobile"," width="10%" BlackBerry 10"," width="10%" Tizen"," width="10%" Sailfish OS"," width="10%" Ubuntu Touch"
 Multitasking,Yes,7+;4–6: Limited,"8+, 7.5: Limited",Yes,"2+",Yes,Yes
 Quick app switching,7+,9+: via 3D Touch;5+: only on iPad,via Back button when no back history,No,No,No,Yes
 Document-centric multitasking,5+,13+: can open different views of same app side by side,No,No,No,No,No
@@ -8,7 +8,7 @@ Lock screen widgets,Yes (Notifications and settings). Full Widgets on Android 4.
 Notification view widgets,4.1+: Google Now and possible with 3rd party apps,8+,No,"Yes, BB 10.2",No,Yes,No
 Quick settings toggles,2+,7+,8.1+,No,Via the Patchmanager app,Yes
 Search multiple internal apps at once,Yes,Yes,8.1+,Yes,Yes,No,Yes
-Settings search,5+ or 3rd party software like LineageOS,9+,8.1update2+,Yes,No,No,Yes
+Settings search,5+ or 3rd party software like LineageOS,9+,"8.1update2+",Yes,No,No,Yes
 Search all fields of internal objects,Only search Contacts name field but not any other field,6+,"Contacts are searched by name, nick and company, but not other fields like address or notes",Yes,Only searches contacts by name,"First name, last name, nickname, also the multiple field called "Details"?"
 Core apps missing search,Calendar (available since 3+ and HTC Sense),Bookmarks,Video,?,?,?,?
 Phone number links to dialer,"Available in stock Android, but not all devices enable it.",Yes,Yes,Yes,"Yes, but not in browser",Yes,Yes

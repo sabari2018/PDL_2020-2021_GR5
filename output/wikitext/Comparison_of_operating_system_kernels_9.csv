@@ -1,55 +1,55 @@
-kernel
-HP,,
-Softbank/ARM Holdings,
-Intel,,,
-Tallwood MIPS,
-IBM,,,
-Renesas Electronics,,,,,,
-Oracle,,
-NXP,
-,Analog Devices
-,Xilinx
-Cadence,
-Canon/Axis Comm.
-Socionext,
-Microchip/Atmel
-CML/ Hyperstone
-Intel/Altera,,
-WDC
-Sunplus Technology
-Mellanox
-TI
-VAX
-,Alpha
-,,PA-RISC
-ARM,,,
-x86,,i960,IA-64
-MIPS,,,
-PowerPC,
-,S/390
-,,z/Arch
-,,,H8300
-,,,,M16C
-,,,,,M32R
-,,,,,,78K
-,,,,,,,V850
-SuperH,,,,,,,,
-SPARC,,
-m68k,
-,Blackfin (no-mmu)
-,,MicroBlaze
-Xtensa,,,
-,ETRAX CRIS
-,,FR-V
-,,,MN10300
-,,,,AVR32
-,,,,,E1 (no-mmu)
-,,,,,,Nios (no-mmu)
-Nios II,,,,,,,
-,WDC 65C816
-,,S+core
-,,,Tilera
-,,,,C6X
+kernel"
+HP ",,
+Softbank/ARM Holdings ",
+Intel",,,
+Tallwood MIPS ",
+IBM  ",,,
+Renesas Electronics ",,,,,,
+Oracle",,
+NXP",
+,Analog Devices "
+,Xilinx"
+Cadence ",
+Canon/Axis Comm."
+Socionext ",
+Microchip/Atmel"
+CML/ Hyperstone"
+Intel/Altera",,
+WDC"
+Sunplus Technology"
+Mellanox "
+TI"
+VAX"
+,Alpha"
+,,PA-RISC"
+ARM",,,
+x86",,i960",IA-64"
+MIPS",,,
+PowerPC",
+,S/390"
+,,z/Arch"
+,,,H8300"
+,,,,M16C"
+,,,,,M32R"
+,,,,,,78K"
+,,,,,,,V850"
+SuperH",,,,,,,,
+SPARC",,
+m68k",
+,Blackfin (no-mmu)"
+,,MicroBlaze"
+Xtensa",,,
+,ETRAX CRIS"
+,,FR-V"
+,,,MN10300"
+,,,,AVR32"
+,,,,,E1 (no-mmu)"
+,,,,,,Nios (no-mmu)"
+Nios II",,,,,,,
+,WDC 65C816"
+,,S+core"
+,,,Tilera"
+,,,,C6X"
 ,,,,,mmu
 no-mmu
 x86,x86-64
@@ -144,9 +144,9 @@ Yes
 Yes
 Yes,Yes,No
 Yes
-Yes,dunno,Yes,Yes,Yes,Yes,Yes,No,Yes24.16 and below only,No,Yes22.6 and below only,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes24.16 and below only,Yes,Yes,Yes,Yes24.16 and below only,Yes24.16 and below only,Yes24.16 and below only,Yes24.12 and below only,No,No,yes,yes,No,Yes24.16 and below only,Yes24.16 and below only,Yes
+Yes,dunno,Yes,Yes,Yes,Yes,Yes,No,Yes24.16 and below only,No,Yes22.6 and below only,Yes,Yes,Yes,Yes,Yes,Yes,Yes,"Yes24.16 and below only",Yes,Yes,Yes,"Yes24.16 and below only","Yes24.16 and below only","Yes24.16 and below only",Yes24.12 and below only,No,No,yes,yes,No,"Yes24.16 and below only","Yes24.16 and below only",Yes
 MINIX 3 kernel,dunno,No,No,Yes,dunno,Yes,In progress,No,No,In progress,dunno,No,No,No,No,No,dunno,No,dunno,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-NetBSD kernel,Yes,Yes,Yes,Yes,no,Yes,Yes,dunno,Yes,Yes,no,Yes,No,No,No,dunno,dunno,dunno,dunno,dunno,Yes,no,Yes,Yes,no,Yes,no,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+NetBSD kernel,Yes,Yes,Yes,Yes,no,Yes,Yes,dunno,Yes,Yes,"no",Yes,No,No,No,dunno,dunno,dunno,dunno,dunno,Yes,"no",Yes,Yes,"no",Yes,"no",dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 NetWare kernel,No,No,No,No,No,Yes,No,dunno,No,No,No,No,No,No,No,dunno,dunno,dunno,dunno,dunno,No,No,No,No,No,No,No,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 OpenBSD kernel,No,Yes,Yes,Yes,dunno,Yes,Yes,dunno,No,Yes,dunno,Yes,No,No,No,dunno,dunno,dunno,dunno,dunno,yes,dunno,Yes,Yes,dunno,Yes,Yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Rockbox kernel,dunno,dunno,dunno,Yes,dunno,dunno,dunno,dunno,dunno,Yes,dunno,dunno,dunno,dunno,No,dunno,dunno,dunno,dunno,dunno,Yes,dunno,dunno,dunno,dunno,Yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
@@ -280,38 +280,38 @@ dunno
 dunno
 dunno
 dunno
-yes
+"yes"
 dunno,dunno,dunno
 dunno
 dunno
 dunno
-yes
+"yes"
 dunno
 dunno,No
 yes
 dunno
 dunno
-yes
-yes
+"yes"
+"yes"
 dunno
-yes
-dunno
-dunno
-dunno
-dunno
-dunno
-yes
-yes
+"yes"
 dunno
 dunno
 dunno
 dunno
 dunno
-yes
+"yes"
+"yes"
 dunno
 dunno
 dunno
-yes
+dunno
+dunno
+"yes"
+dunno
+dunno
+dunno
+"yes"
 dunno
 dunno
 dunno

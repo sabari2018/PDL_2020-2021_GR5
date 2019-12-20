@@ -5,7 +5,7 @@ OpenBSD,yes,yes,no,no,yes,yes,yes,no,yes,yes,yes,yes,yes,no,yes,no,SuperH ],
 NetBSD,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes," ns32k, M68010, mipseb, sparc64",
 DragonFly BSD,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,,[https://lwn.net/Articles/228404/ vkernel]
 OpenSolaris illumos,yes,yes,yes,no,yes,no,no,yes,yes,no,no,no,no,no,no,no,,
-AuroraUX,yes,yes,yes,no,yes,group=Noteb1,no,yes,yes,no,group=Noteb1,yes,no,no,no,no,
+"! AuroraUX",yes,yes,yes,no,yes,group=Noteb1,no,yes,yes,no,group=Noteb1,yes,no,no,no,no,
 "! Darwin, OpenDarwin",yes,yes,no,no,yes,yes,yes,no,no,no,no,yes,no,yes,no,no,,[https://web.archive.org/web/20131219064814/http://www.ertos.nicta.com.au/software/darbat/ L4/Darwin]
 MINIX,yes,no,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,,
 FreeDOS,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,,

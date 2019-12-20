@@ -1,4 +1,4 @@
-scope="col"  File system,scope="col"  Creator,scope="col"  Year of introduction,scope="col"  Original operating system
+" scope="col"  File system"," scope="col"  Creator"," scope="col"  Year of introduction"," scope="col"  Original operating system"
 DECtape,DEC,1964,PDP-6 Monitor
 OS/3x0 FS,IBM,1964,OS/360
 Level-D,DEC,1968,TOPS-10
@@ -22,7 +22,7 @@ ADFS,Acorn Computers Ltd,1983,Arthur/RISC OS)
 FFS,Kirk McKusick,1983,4.2BSD
 FAT16," IBM, Microsoft",1984," PC DOS 3.0, MS-DOS 3.0"
 MFS,Apple,1984,System 1
-Elektronika BK tape format,NPO "Scientific centre" (now Sitronics),1985," Vilnius Basic, BK monitor program"
+Elektronika BK tape format," NPO "Scientific centre" (now Sitronics)",1985," Vilnius Basic, BK monitor program"
 HFS,Apple,1985,System 2.1
 Amiga OFS54,Commodore,1985,Amiga OS
 GEMDOS,Digital Research,1985,Atari TOS
@@ -46,7 +46,7 @@ UFS1,Kirk McKusick,1994,4.4BSD
 XFS,SGI,1994,IRIX
 HFS,IBM,1994,MVS/ESA (now z/OS)
 FAT16X,Microsoft,1995,MS-DOS 7.0 / Windows 95
-Joliet ("CDFS"),Microsoft,1995," Microsoft Windows, Linux, "classic" Mac OS, and FreeBSD"
+" Joliet ("CDFS")",Microsoft,1995," Microsoft Windows, Linux, "classic" Mac OS, and FreeBSD"
 UDF,ISO/ECMA/OSTA,1995,n/a
 " FAT32, FAT32X",Microsoft,1996,name=note-10 Microsoft first introduced FAT32 in MS-DOS 7.1 / Windows 95 OSR2 (OEM Service Release 2) and then later in Windows 98. NT-based Windows did not have any support for FAT32 up to Windows NT4; Windows 2000 was the first NT-based Windows OS that received the ability to work with it.
 QFS,Sun Microsystems,1996,Solaris

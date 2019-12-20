@@ -1,4 +1,4 @@
-Audio player,Audio,,
+,Audio",,
 ,CD,DVD-Audio,HDCD
 AIMP,yes,no,no
 Amarok,partial,no,no
@@ -20,5 +20,5 @@ Sonique,yes,no,no
 Winamp,yes,no,no
 XMMS,yes,no,no
 Zinf,yes,no,no
-Audio player,CD,DVD-Audio,HDCD
-Audio,,
+,CD,DVD-Audio,HDCD
+Audio ",,

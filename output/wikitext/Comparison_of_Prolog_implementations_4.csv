@@ -1,4 +1,4 @@
-Name,Tail-Call Optimization,Choice Point Elimination,Environment Trimming,Just-in-Time Indexing
+",",",","
 Ciao,Yes,Yes,Yes,?
 ECLiPSe,Yes,Yes,Yes,multi-argument (compile time)
 GNU Prolog,Yes,Yes,Yes,?

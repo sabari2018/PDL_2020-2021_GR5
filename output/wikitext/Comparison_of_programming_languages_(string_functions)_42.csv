@@ -6,13 +6,13 @@ string (startpos .. endpos),Ada (changes base index)
 string[startpos+(⍳numChars)-~⎕IO],APL
 " MID$(string, startpos, numChars)",BASIC
 " substr(string, startpos, numChars)","AWK (changes string), Perl 5, PHP"
-" substr(string, startpos, numChars)  string.substr(startpos, numChars)",Raku
+" substr(string, startpos, numChars)  string.substr(startpos, numChars)","Raku"
 " substr(string, startpos «,numChars, padChar»)",Rexx
 string[startpos:endpos],"Cobra, Python, Go"
 " string[startpos, numChars]",Pick Basic
-" string[startpos, numChars]  string[startpos .. endpos-1]  string[startpos ... endpos]",Ruby
+" string[startpos, numChars]  string[startpos .. endpos-1]  string[startpos ... endpos]","Ruby"
 string[startpos .. endpos]  string[startpos len numChars],Seed7
-" string.slice(startpos«, endpos»)",JavaScript
+" string.slice(startpos«, endpos»)","JavaScript"
 " string.substr(startpos«, numChars»)","C++ (STL), JavaScript"
 " string.Substring(startpos, numChars)","VB .NET, C#, F#"
 " string.substring(startpos«, endpos»)","Java, JavaScript"
@@ -28,10 +28,10 @@ string[startpos .. endpos+1],D
 take numChars $ drop startpos string,Haskell
 " [string substringWithRange:NSMakeRange(startpos, numChars)]",Objective-C (NSString * only)
 string.[startpos..endpos],F#
-" string.sub(string, startpos, endpos)  (string):sub(startpos, endpos)",Lua
+" string.sub(string, startpos, endpos)  (string):sub(startpos, endpos)","Lua"
 string copyFrom: startpos to: endpos,Smalltalk
 string(startpos:endpos),Fortran
 SUBSTRING(string FROM startpos «FOR numChars»),SQL
-" StringTake[string, {startpos, endpos}]",Mathematica
+" StringTake[string, {startpos, endpos}]","Mathematica"
 string[startpos .. endpos],Ya,string (startpos:numChars)
 string range string startpos endpos,Tcl,

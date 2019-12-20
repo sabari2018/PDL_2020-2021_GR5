@@ -1,8 +1,8 @@
-Software Name,E-mail client,HTML editor,Collaborative software,Online editing
+",E-mail client,HTML editor,Collaborative software,Online editing
 Ability Office,no,no,no,no
-Apache OpenOffice,no,OpenOffice Writer,no,yes2 With free plugins
+Apache OpenOffice,no," OpenOffice Writer",no,yes2 With free plugins
 Breadbox Office,yes,yes,no,no
-Calligra Suite,yes2Kontact," yes2Kate, Quanta+",no,no
+Calligra Suite," yes2Kontact"," yes2Kate, Quanta+",no,no
 Feng Office Community Edition,yes2 beta,no,yes,yes
 GobeProductive,no,yes,no,no
 Google Apps for Work,Gmail,Google Sites,yes,Fully online
@@ -17,7 +17,7 @@ NeoOffice,no,NeoOffice Writer,no,no
 ONLYOFFICE,yes,no,yes,Fully online
 ShareOffice,no,no,yes,Fully online
 SoftMaker Office,a bundled Mozilla Thunderbird,no,no,no
-StarOffice,no,StarWriter,no,yes2 With free plugins
+StarOffice,no," StarWriter",no,yes2 With free plugins
 TeXmacs,allows to read emails,yes,under development,no
 [./Https://www.onlyoffice.com OnlyOffice],no,yes,yes,yes
 ThinkFree Office,no,Note,no,ThinkFree.com

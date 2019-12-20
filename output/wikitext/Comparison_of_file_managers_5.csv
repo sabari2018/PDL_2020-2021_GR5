@@ -1,4 +1,4 @@
-File Manager,Undo/redo file operation,File compression,File encryption,Rename busy files,File preview,File coloring filter,File selection filter,Paste clipboard as file,File and folder reports,ACL (Access control list),Mass Rename,Run executable files
+",Undo/redo file operation,File compression,File encryption,Rename busy files,File preview,File coloring filter,File selection filter,Paste clipboard as file,File and folder reports,ACL (Access control list),Mass Rename,Run executable files
 Altap Salamander,dunno,yes,yes,dunno,yes,yes," yes, multiple ",dunno,yes,yes,yes,yes
 Commander One,dunno,yes,yes,yes,yes,yes,yes,dunno,no,dunno,dunno,dunno
 CRAX Commander,dunno,yes,no,yes,yes,yes,yes,yes,yes,dunno,yes,yes
@@ -16,15 +16,15 @@ Files by Google,,,,,,,,,,,,
 Finder,yes,yes,yes,yes,yes,yes,dunno,no,dunno,yes,yes,yes
 ForkLift,yes,yes,no,no,yes,yes,yes,no,no,yes,yes,dunno
 GNOME Commander,dunno,yes,dunno,dunno,yes,yes,dunno,dunno,dunno,no,yes,dunno
-Konqueror,partial,yes,yes,yes,yes,yes,yes,yes,yes,Yes,yes,Yes
-Krusader,dunno,yes,yes,yes,yes,no,yes,yes,dunno,yes,yes,yes
+Konqueror,partial,yes,yes,yes,yes,yes,yes,yes,yes,Yes," yes",Yes
+Krusader,dunno,yes,yes,yes,yes,no,yes,yes,dunno,yes," yes",yes
 Midnight Commander,dunno,yes,dunno,dunno,dunno,yes,yes,partial,dunno,dunno,yes,yes
 GNOME Files (Nautilus),yes,yes,no,yes,yes,no,no,partial,no,yes,no,no
 Nemo,yes,yes,yes,?,yes,yes,?,yes,?,?,no,yes
 Nomad.NET,dunno,yes,yes,yes,yes,yes,yes,yes,yes,yes,partial,dunno
 Path Finder,dunno,yes,no,no,yes,no,yes,no,yes,no,no,dunno
 PCManFM,no,yes,dunno,yes,no,dunno,dunno,dunno,dunno,dunno,dunno,yes
-ROX-Filer,dunno,With helper applications,,yes,yes,no,yes,no,no,no,yes,dunno
+ROX-Filer,dunno,With helper applications",,yes,yes,no,yes,no,no,no,yes,dunno
 STDU Explorer,dunno,no,no,no,yes,no,no,no,no,no,no,dunno
 Thunar,no,no,no,dunno,yes,no,yes,dunno,dunno,dunno,yes,yes
 Total Commander,dunno,yes,yes,yes,yes,yes,yes,yes,yes,Log file,yes,dunno
@@ -33,6 +33,6 @@ Xandros File Manager,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Xfe,yes,yes,no,yes,no,dunno,yes,no,dunno,yes,no,dunno
 Xfm,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 xplorer²,no,yes,partial,yes,dunno
-XYplorer,yes,yes,partial,yes,yes,yes,yes,yes,yes,yes,yes,dunno
+XYplorer,yes,yes," partial ",yes,yes,yes,yes,yes,yes,yes,yes,dunno
 ZTreeWin,dunno,yes,partial,yes,yes,yes,yes,no,yes,no,yes,dunno
-File Manager,Undo/redo file operation,File compression,File encryption,Rename busy files,File preview,File coloring filter,File selection filter,Paste clipboard as file,File and folder reports,ACL (Access control list),Mass Rename,Run executable files
+"!,Undo/redo file operation,File compression,File encryption,Rename busy files,File preview,File coloring filter,File selection filter,Paste clipboard as file,File and folder reports,ACL (Access control list),Mass Rename,Run executable files

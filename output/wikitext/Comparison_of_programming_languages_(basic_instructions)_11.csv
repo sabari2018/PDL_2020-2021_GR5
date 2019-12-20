@@ -1,5 +1,5 @@
 exit block(break),continue,label,branch (goto),return value from generator
-Ada,exit «loop_name» «when condition»,n/a,label:,goto label,n/a
+" Ada",exit «loop_name» «when condition»,n/a,label:,goto label,n/a
 ALGOL 68,value exit; ...,do statements; skip exit; label: statements od,label: ...,go to label; ...goto label; ...label; ...,yield(value) (Callback)
 APL,:Leave,:Continue,label:,→labelor:GoTo label,n/a
 C (C99),break;,continue;,label:,goto label;,n/a

@@ -1,4 +1,4 @@
-Client,HTML email,UTF-8 support,Image blocking,Junk filtering,,Phishing filtering,Thread view,Conversation view,PGP support,,S/MIME support,,,
+Client",HTML email",UTF-8 support",Image blocking",Junk filtering",,Phishing filtering",Thread view",Conversation view",PGP support",,S/MIME support",,,
 ,,,,local,server- side,,,,inline,PGP/MIME or OpenPGP,protocol,OCSP,CRL," certificates on tokens, smartcards support"
 Alpine,Read only,yes,yes,dunno,dunno,dunno,yes,dunno,yes,dunno,yes,dunno,dunno,dunno
 Apple Mail,yes,yes,yes,yes,yes,dunno,yes,yes,no,no,yes,yes,yes,no
@@ -26,13 +26,13 @@ Microsoft Office Outlook,yes,yes,yes,yes,yes,yes,yes,yes (2010+),no,no,yes,dunno
 Mozilla Mail  ; Newsgroups,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Mozilla Thunderbird,yes,group=NoteMTBUTF8,yes,yes,yes,group=NoteMTB15,yes,yes,group=NoteMTBPGP,yes,yes,yes,dunno,yes
 Mulberry,yes,yes,yes,no,yes,dunno,yes,dunno,group=NoteMulberryEncryption,group=NoteMulberryEncryption,group=NoteMulberryEncryption,dunno,dunno,dunno
-Mutt,Read-only,yes,Yes(no support for images),yes,dunno,dunno,yes,yes,yes,yes,yes,dunno,yes (with GPGME),dunno
+Mutt,Read-only,yes,",yes,dunno,dunno,yes,yes,yes,yes,yes,dunno,yes (with GPGME),dunno
 Netscape Messenger,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Netscape Messenger 9,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 nmh / MH,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Opera Mail,yes,yes,yes,yes,yes,no,yes,no,no,no,no,no,no,no
 Outlook Express,yes,yes,yes,no,dunno,dunno,yes,dunno,group=NoteOEPGP,group=NoteOEPGPMIME,yes,dunno,dunno,dunno
-Pegasus Mail,yes,yes,yes,yes,yes,yes,yes,dunno,yes,Yes(sending is broken),dunno,no,no,no
+Pegasus Mail,yes,yes,yes,yes,yes,yes,yes,dunno,yes,",dunno,no,no,no
 Pine,Read-only,yes,yes,no,dunno,dunno,yes,dunno,yes (with Pine Privacy Guard),no,yes,dunno,dunno,dunno
 Pocomail,yes,yes,yes,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 RoundCube,yes,yes,yes,yes,yes,yes (depends on antivirus),yes,dunno,dunno,yes,yes,dunno,dunno,dunno
@@ -47,5 +47,5 @@ Windows Live Mail,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno,yes,dunno,dunno,dunn
 Windows Mail,Yes,yes,dunno,Yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 YAM,dunno,yes,dunno,yes,dunno,dunno,no,no,yes,dunno,dunno,dunno,dunno,dunno
 Zimbra,yes,yes,yes,yes,yes,yes (depends on antivirus),yes,dunno,dunno,No,dunno,dunno,dunno
-Client,HTML email,UTF-8 support,Image blocking,Junk filtering,,Phishing filtering,Thread view,Conversation view,PGP support,,S/MIME support,,,
+Client",HTML email",UTF-8 support",Image blocking",Junk filtering",,Phishing filtering",Thread view",Conversation view",PGP support",,S/MIME support",,,
 ,,,,local,server- side,,,,inline,PGP/MIME or OpenPGP,protocol,OCSP,CRL," certificates on tokens, smartcards support "

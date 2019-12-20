@@ -19,7 +19,7 @@ Autopano Pro / Giga / Server,yes,yes,no,yes,yes,yes," Also supports motorized pa
 Autostitch,yes,dunno,no,no,yes,dunno,
 Calico Panorama,yes,no,no,no,no,no,
 Hugin,yes,yes*,yes,yes,yes,yes," * As of v2010.2 onwards, all known fish eye projections are supported (equisolid, orthographic, stereographic)"
-3DVista Stitcher 3.0,yes,yes,no,no,no,no,"One shot" i.e. panoramic mirror lenses also supported.
+3DVista Stitcher 3.0,yes,yes,no,no,no,no," "One shot" i.e. panoramic mirror lenses also supported."
 D Joiner,yes,no,no,no,no,no,
 Panorama Maker 6,yes,no,no,no,no,no,
 Photovista Panorama,yes,no,no,no,no,no,

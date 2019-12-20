@@ -1,6 +1,6 @@
 Virtual machine,,,,,,,,,,,,,,,,,,,Languages,Comments,Interpreter,JIT,Implementation language,SLoC
 Common Language Runtime (CLR),,,,,,,,,,,,,,,,,,," C#, F#, VB.NET",bytecode is CIL; .NET Core Runtime on GitHub,no,yes," C#, C++",
-Tamarin),,,,,,,,,,,,,,,,,,," ActionScript, SWF (file format)",interactive web authoring tool. bytecode is named "ActionScript Byte Code (.abc)",yes,yes,C++,135k (initially released)
+Tamarin),,,,,,,,,,,,,,,,,,," ActionScript, SWF (file format)"," interactive web authoring tool. bytecode is named "ActionScript Byte Code (.abc)"",yes,yes,C++,135k (initially released)
 Dis (Inferno),,,,,,,,,,,,,,,,,,,Limbo,Dis Virtual Machine Specification,yes,yes,C,15k + 2850 per JIT arch + 500 per host OS
 DotGNU-Portable.NET,,,,,,,,,,,,,,,,,,,CLI languages including: C#,Common Language Runtime clone,no,yes," C, C#",
 Forth,,,,,,,,,,,,,,,,,,,Forth," Features are simplified, usually include assembler, compiler, text-level and binary-level interpreters, sometimes editor, debugger and OS. Compiling speeds are >20 SKLOC/S and behave much like JIT.",yes,no," Forth, Forth Assembler"," 2.8K to 5.6K; advanced, professional implementations are smaller."

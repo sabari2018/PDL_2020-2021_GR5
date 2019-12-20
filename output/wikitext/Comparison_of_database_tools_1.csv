@@ -1,4 +1,4 @@
-Product,Creator,Latest stable release date,Latest stable release,License,Runs on Windows,Runs on Mac OS X,Runs on Linux,Oracle,MySQL,PostgreSQL,MS SQL Server,ODBC,JDBC,SQLite,Other,Programming language
+Product,Creator,",Latest stable release,License,Runs on Windows,Runs on Mac OS X,Runs on Linux,Oracle,MySQL,PostgreSQL,MS SQL Server,ODBC,JDBC,SQLite,Other,Programming language
 Adminer,Jakub Vrána,releasedate,Adminer version,Apache License or GPL,yes,yes,yes,yes,yes,yes,yes,,,yes,,PHP
 DaDaBIK,Eugenio Tacchini,releasedate,DaDaBIK version,Proprietary,yes,yes,yes,yes,yes,yes,yes,no,no,yes,,PHP
 Database Deployment Manager,The Unauthorized Frog project,2012-05-29,v0.1i,LGPL,yes,no,yes,,yes,,,,,,,Qt/C++

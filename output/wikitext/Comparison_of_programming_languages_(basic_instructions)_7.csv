@@ -1,5 +1,5 @@
 variable,constant,type synonym
-Ada,identifier : type« := initial_value»Ada declaration[e],identifier : constant type := final_value,subtype identifier is type
+" Ada",identifier : type« := initial_value»Ada declaration[e],identifier : constant type := final_value,subtype identifier is type
 ALGOL 68,modename name« := initial_value»;,modename name = value;,mode synonym = modename;
 C (C99),type name« = initial_value»;,enum{ name = value };,typedef type synonym;
 Objective-C,,,

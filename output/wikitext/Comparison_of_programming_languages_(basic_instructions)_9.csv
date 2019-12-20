@@ -1,5 +1,5 @@
 while,do while,for i = first to last,foreach
-Ada,while condition loop statements end loop,loop statementsexit when not condition end loop,for index in «reverse» [first .. last  discrete_type] loop statements end loop,for item of «reverse» iterator loop statements end loop  (for [all  some] [in  of] [first .. last  discrete_type  iterator] => predicate)Ada_quantifiers[b]
+" Ada",while condition loop statements end loop,loop statementsexit when not condition end loop,for index in «reverse» [first .. last  discrete_type] loop statements end loop,for item of «reverse» iterator loop statements end loop  (for [all  some] [in  of] [first .. last  discrete_type  iterator] => predicate)Ada_quantifiers[b]
 ALGOL 68,align=center «for index» «from first» «by increment» «to last» «while condition» do statements od,,,for key «to upb list» do «typename val=list[key];» statements od
 ,«while condition»     do statements od,«while statements; condition»     do statements od,«for index» «from first» «by increment» «to last» do statements od,
 APL,:While conditionstatements :EndWhile,:Repeat statements:Until condition,:For var«s» :In liststatements :EndFor,:For var«s» :InEach liststatements :EndFor

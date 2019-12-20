@@ -22,7 +22,7 @@ OTRS," Yes, Advanced reporting, configurable dashboards",No,Yes,Yes,Yes,Yes,Yes,
 Phabricator," Yes, integrated wiki and limited burn down charts",Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No
 Pivotal Tracker," Yes, real time collaborative story backlog, integrated reports, email notification",Yes,No,Yes,No,No,Yes,Yes,,,,No
 Redmine," Yes, integrated wiki, discussion forums, news blogs, email integration, calendars, Gantt Charts, RSS, export to PDF, export to Excel/CSV",Yes,Yes,Yes,Yes,optional,Yes,Yes,Yes," optional, when using PostgreSQL",optional,Yes
-Request Tracker," Yes, MediaWiki",No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,No
+Request Tracker," Yes, MediaWiki",No,Yes,Yes,Yes,Yes,Yes,Yes,Yes," Yes",,No
 Roundup," Yes, wiki can be integrated or linked",No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes with issues,Yes,No
 StarTeam,No,Yes,Yes,No,Yes,No,No,unk,,,,No
 Supportworks," Yes - Integrated reporting wizard, customizable CSV, asset management tool",No,Yes,No,Yes,Yes,Yes,unk,,,,No
@@ -36,4 +36,4 @@ Tuleap," Yes, Kanban boards, Scrum planning and burndown charts, pies, Gantt, ba
 Usersnap," Yes. Dashboards, Help Center.",No," Yes, via Tags.",Yes,Yes," Yes, available for enterprise plans",Yes,Yes,Yes,Yes,N/A,No
 Wrike," Yes, real-time customized reports, export to Excel, scheduled reports by mail, alerts, discussions, Gantt charts,",No,Yes,Yes,Yes,No,Yes,Yes,unk,,,No
 YouTrack," Yes: Wiki syntax, custom workflow, custom issue attributes, notifications (email, jabber, RSS, etc.), email integration, reports, export to HTML and CSV, integration with VCSs.",Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes (Uses Lucene),,No
-System,Dynamic documentation integration/generation,Test planning integration,Customizable workflow,Unicode support,Custom fields,SLA,Plugin API,Multiple projects,Full-text search,Indexed full-text search,Indexed file search,Edit conflict warning
+System,Dynamic documentation integration/generation,Test planning integration,Customizable workflow,Unicode support,Custom fields," SLA"," Plugin API",Multiple projects,Full-text search,Indexed full-text search,Indexed file search,Edit conflict warning

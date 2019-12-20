@@ -1,49 +1,49 @@
-Database Name,ACID,Referential integrity,Transactions,Fine-grained locking,Multiversion concurrency control,Unicode,Interface,Type inference
-4th Dimension,yes,yes,yes,dunno,dunno,yes,GUI  ; SQL,Yes
-ADABAS,yes,no,yes,dunno,dunno,yes,proprietary direct call  ; SQL (via 3rd party),Yes
-Adaptive Server Enterprise,yes,yes,yes,Yesalign=style=color= (Row-level locking),Yes,align=style=color=Yes,yes,API  ; GUI  ; SQL,Yes
-Advantage Database Server,yes,yes,yes,yes (Row-level locking),dunno,yes4,API  ; SQL,Yes
-Altibase,yes,yes,yes,yes (Row-level locking),dunno,yes,API  ; GUI  ; SQL,Yes
-Apache Derby,yes,yes,yes,yes (Row-level locking),dunno,yes,SQL,Yes
-ClustrixDB,yes,yes,yes,yes,yes,yes,SQL,Yes
-CUBRID,yes,yes,yes,yes (Row-level locking),dunno,yes,GUI  ; SQL,Yes
-DB2,yes,yes,yes,yes (Row-level locking),dunno,yes,GUI  ; SQL,Yes
-Empress Embedded Database,yes,yes,yes,dunno,dunno,yes,API  ; SQL,Yes
-EXASolution,yes,yes,yes,dunno,dunno,yes,API  ; GUI  ; SQL,Yes
-Firebird,yes,yes,yes,dunno,yes,yes,API  ; SQL,Yes
-HSQLDB,yes,yes,yes,dunno,yes,yes,SQL,Yes
-H2,yes,yes,yes,dunno,yes,yes,SQL,Yes
-Informix Dynamic Server,yes,yes,yes,yes (Row-level locking),yes,yes," SQL, REST, and JSON",Yes
-Ingres,yes,yes,yes,dunno,dunno,yes,QUEL,Yes
-InterBase,yes,yes,yes,dunno,dunno,yes,SQL,Yes
-Linter SQL RDBMS,yes,yes,yes (Except for DDL),yes (Row-level locking),dunno,yes,API  ; GUI  ; SQL,Yes
-LucidDB,yes,no,no,dunno,dunno,yes,SQL,Yes
-MariaDB,yes2,yes6,yes2 except for DDL,yes (Row-level locking),yes,yes,SQL,Yes
-MaxDB,yes,yes,yes,dunno,dunno,yes,SQL,Yes
-Microsoft Access (JET),yes,yes,yes,dunno,dunno,yes,GUI  ; SQL,Yes
-Microsoft Visual FoxPro,Yes,Yes,Yes,Yes (Row-level locking SMB2),Yes,No,GUI  ; SQL,Yes
-Microsoft SQL Server,yes,yes,yes,yes (Row-level locking),yes,yes,GUI  ; SQL,Yes
-Microsoft SQL Server Compact (Embedded Database),yes,yes,yes,dunno,dunno,yes,GUI  ; SQL,Yes
-Mimer SQL,yes,yes,yes,yes (Optimistic locking),yes,yes,API  ; GUI  ; SQL,Yes
-MonetDB,yes,yes,yes,dunno,dunno,yes,SQL,Yes
-MySQL,yes2,yes3,yes2 except for DDL,yes,yes,GUI 5  ; SQL,Yes
-OpenBase SQL,yes,yes,yes,dunno,dunno,yes,GUI  ; SQL,Yes
-OpenEdge,yes,yes7,yes,yes (Row-level locking),dunno,yes,GUI  ; SQL,Yes
-OpenLink Virtuoso,yes,yes,yes,dunno,dunno,yes,GUI  ; SQL,Yes
-Oracle,yes,yes,yes except for DDL,yes,yes,GUI  ; SQL,Yes
-Oracle Rdb,yes,yes,yes,dunno,dunno,yes,SQL,Yes
-Pervasive PSQL,yes,yes,yes,dunno,dunno,yes6,GUI  ; SQL,Yes
-Polyhedra DBMS,yes,yes,yes,yes (optimistic and pessimistic cell-level locking),dunno,yes,API  ; SQL,Yes
-PostgreSQL,yes,yes,yes,yes (Row-level locking),yes,yes,GUI  ; SQL,No
-Raima Database Manager,yes,yes,yes,dunno,yes,yes,SQL  ; API,Yes
-RDM Server,yes,yes,yes,dunno,dunno,yes,SQL  ; API,Yes
-SAP HANA,yes,yes,yes,yes (Row-level locking),yes,yes,GUI  ; SQL,Yes
-solidDB,yes,yes,yes,yes (Row-level locking),dunno,yes,API  ; SQL,Yes
-SQL Anywhere,yes,yes,yes,yes (Row-level locking),yes,yes,GUI  ; HTTP(S) (REST  ; SOAP)  ; SQL,Yes
-SQLBase,yes,yes,yes,dunno,dunno,yes,GUI  ; SQL,Yes
-SQLite,yes,yes,yes,no (Database-level locking),no,optional,API  ; SQL,Yes
-Teradata,yes,yes,yes,yes (Hash and Partition),dunno,yes,SQL,Yes
-Tibero,yes,yes,yes,yes (Row-level locking),yes,yes,GUI  ; SQL,Yes
-UniData,yes,no,yes,dunno,dunno,yes,Multiple,Yes
-UniVerse,yes,no,yes,dunno,dunno,yes,Multiple,Yes
+",ACID,Referential integrity,Transactions,Fine-grained locking,Multiversion concurrency control,Unicode,Interface,Type inference
+"!,yes,yes,yes,dunno,dunno,yes,GUI  ; SQL,Yes
+"!,yes,no,yes,dunno,dunno,yes,proprietary direct call  ; SQL (via 3rd party),Yes
+"!,yes,yes,yes,Yesalign=style=color= (Row-level locking),Yes,align=style=color=Yes,yes,API  ; GUI  ; SQL,Yes
+"!,yes,yes,yes,yes (Row-level locking),dunno,yes4,API  ; SQL,Yes
+"!,yes,yes,yes,yes (Row-level locking),dunno,yes,API  ; GUI  ; SQL,Yes
+"!,yes,yes,yes,yes (Row-level locking),dunno,yes,SQL,Yes
+"!,yes,yes,yes,yes,yes,yes,SQL,Yes
+"!,yes,yes,yes,yes (Row-level locking),dunno,yes,GUI  ; SQL,Yes
+"!,yes,yes,yes,yes (Row-level locking),dunno,yes,GUI  ; SQL,Yes
+"!,yes,yes,yes,dunno,dunno,yes,API  ; SQL,Yes
+"!,yes,yes,yes,dunno,dunno,yes,API  ; GUI  ; SQL,Yes
+"!,yes,yes,yes,dunno,yes,yes,API  ; SQL,Yes
+"!,yes,yes,yes,dunno,yes,yes,SQL,Yes
+"!,yes,yes,yes,dunno,yes,yes,SQL,Yes
+"!,yes,yes,yes,yes (Row-level locking),yes,yes," SQL, REST, and JSON",Yes
+"!,yes,yes,yes,dunno,dunno,yes,QUEL,Yes
+"!,yes,yes,yes,dunno,dunno,yes,SQL,Yes
+"!,yes,yes,yes (Except for DDL),yes (Row-level locking),dunno,yes,API  ; GUI  ; SQL,Yes
+"!,yes,no,no,dunno,dunno,yes,SQL,Yes
+"!," yes2"," yes6",yes2 except for DDL,yes (Row-level locking),yes,yes,SQL,Yes
+"!,yes,yes,yes,dunno,dunno,yes,SQL,Yes
+"!,yes,yes,yes,dunno,dunno,yes,GUI  ; SQL,Yes
+"!,Yes,Yes,Yes,Yes (Row-level locking SMB2),Yes,No,GUI  ; SQL,Yes
+"!,yes,yes,yes,yes (Row-level locking),yes,yes,GUI  ; SQL,Yes
+"!,yes,yes,yes,dunno,dunno,yes,GUI  ; SQL,Yes
+"!,yes,yes,yes,yes (Optimistic locking),yes,yes,API  ; GUI  ; SQL,Yes
+"!,yes,yes,yes,dunno,dunno,yes,SQL,Yes
+"!," yes2"," yes3",yes2 except for DDL,yes,yes,GUI 5  ; SQL,Yes
+"!,yes,yes,yes,dunno,dunno,yes,GUI  ; SQL,Yes
+"!,yes," yes7",yes,yes (Row-level locking),dunno,yes,GUI  ; SQL,Yes
+"!,yes,yes,yes,dunno,dunno,yes,GUI  ; SQL,Yes
+"!,yes,yes,yes except for DDL,yes,yes,GUI  ; SQL,Yes
+"!,yes,yes,yes,dunno,dunno,yes,SQL,Yes
+"!,yes,yes,yes,dunno,dunno,yes6,GUI  ; SQL,Yes
+"!,yes,yes,yes,yes (optimistic and pessimistic cell-level locking),dunno,yes,API  ; SQL,Yes
+"!,yes,yes,yes,yes (Row-level locking),yes,yes,GUI  ; SQL,No
+"!,yes,yes,yes,dunno,yes,yes,SQL  ; API,Yes
+"!,yes,yes,yes,dunno,dunno,yes,SQL  ; API,Yes
+"!,yes,yes,yes,yes (Row-level locking),yes,yes,GUI  ; SQL,Yes
+"!,yes,yes,yes,yes (Row-level locking),dunno,yes,API  ; SQL,Yes
+"!,yes,yes,yes,yes (Row-level locking),yes,yes,GUI  ; HTTP(S) (REST  ; SOAP)  ; SQL,Yes
+"!,yes,yes,yes,dunno,dunno,yes,GUI  ; SQL,Yes
+"!,yes,yes,yes,no (Database-level locking),no,optional,API  ; SQL,Yes
+"!,yes,yes,yes,yes (Hash and Partition),dunno,yes,SQL,Yes
+"!,yes,yes,yes,yes (Row-level locking),yes,yes,GUI  ; SQL,Yes
+"!,yes,no,yes,dunno,dunno,yes,Multiple,Yes
+"!,yes,no,yes,dunno,dunno,yes,Multiple,Yes
 Database Name,ACID,Referential integrity,Transactions,Fine-grained locking,Multiversion concurrency control,Unicode,Interface,Type inference

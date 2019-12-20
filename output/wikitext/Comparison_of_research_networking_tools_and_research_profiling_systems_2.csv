@@ -1,4 +1,4 @@
-Research Networking Tool,Data Source / Infeed Functionality,Auto Ingest?,Linked Open Data?,Data Export Types
+",Data Source / Infeed Functionality,Auto Ingest?,Linked Open Data?,Data Export Types
 Academic Room,Manual entry of data by users. May be some auto-ingest of PubMed citation data,Unknown,Unknown,Unknown
 Activity Insight," Information typically imported from the following sources: PubMed, Google Scholar, Scopus, Web of Science, RefWorks, Banner, Datatel, PeopleSoft, CampusVue, Jenzabar, Sedona, EndNote, Mendeley, Zotero, BiBTeX, a RESTful web services API, CSV Data Imports, etc. Also supports various methods of manual entry.",yes,yes," RTF, XLS, CSV, PDF, HTML, XML"
 C-IKNOW," Network Surveys, automated upload for any kind of network data including archival, scientometric, webometric and computer log data. Also import data in GraphML, RDF, and DL (used by UCINET)",yes(for defined data),yes," RDF, XML/RDF"

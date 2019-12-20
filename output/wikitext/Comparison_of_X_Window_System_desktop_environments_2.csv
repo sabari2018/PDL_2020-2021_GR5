@@ -5,14 +5,14 @@ File manager,Dolphin (SC 4),Files,Caja,Thunar,PCManFM,ROX Filer,,Efiler," EFM, E
 Widget toolkit,Qt,GTK+,,,Qt,GTK+,GNUstep,FLTK (previously eFLTK),Elementary
 Terminal emulator,Konsole,GNOME Terminal,MATE Terminal,Terminal,LXTerminal,ROXTerm,aterm,,Terminology
 Text editor,Kate before SC 4),gedit,Pluma," Mousepad, Leafpad",Leafpad,Edit,TextEdit,," Eyesight, Ecrire"
-Video player,Dragon Player (SC 4),Videos,,Parole,lxine,mplayer-rox,,," Enna (media center), Eclair"
+Video player,Dragon Player (SC 4),Videos,,Parole",lxine,mplayer-rox,,," Enna (media center), Eclair"
 Audio player," Amarok"," Banshee, Rhythmbox",,,LXMusic,MusicBox,Melodie,,Enjoy
 CD burners,K3b,Brasero,,Xfburn,,RoxISO,,,
 CD ripper," K3b, KAudioCreator",Sound Juicer,,,,Ripper,,,Extrackt
 Image viewer,Gwenview,Eye of GNOME,Eye of MATE,Ristretto,GPicView,Picky,,Eimage,Ephoto
 Office suite," Calligra Suite, KOffice",GnomeOffice,,,,,,,
 Web browser," Konqueror, Falkon",Web,,Midori,,,,,Eve
-E-mail client,Kmail,Evolution,,,,GNUMail,,,
+E-mail client,Kmail,Evolution",,,,GNUMail,,,
 Personal information manager,Kontact,,,,,Contacts,,,
 Instant messenger," Kopete, KDE Telepathy",Empathy,,,,,,,Shotgun
 Archive manager,Ark,Archive Manager,Engrampa," Xarchiver, Squeeze",Xarchiver,Archive,,,

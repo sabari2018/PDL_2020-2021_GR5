@@ -1,5 +1,5 @@
 Software,Web-based,Hosted On-Premises,SaaS,License,Programming language
-2-plan,Yes,Yes,Yes," Proprietary, Open source",Java and PHP
+2-plan," Yes",Yes,Yes," Proprietary, Open source",Java and PHP
 24SevenOffice,yes,no,yes,Proprietary,
 Actionspace,yes,no,yes,Proprietary,
 Apache Allura,yes,yes,,Apache License,Python
@@ -11,7 +11,7 @@ Axosoft,yes,yes,yes,Proprietary,
 Basecamp,yes,yes,Proprietary,Ruby
 Calligra Plan,no,text=File-based,no,GPL,Java
 CEITON,yes,yes,yes,Proprietary," ASP.NET, JavaScript"
-Clarizen,yes,no,yes,Proprietary,
+Clarizen," yes",no," yes",Proprietary,
 Collabtive,yes,yes,yes,Open source (core only),PHP
 Compuware Changepoint,yes,yes,yes,Proprietary,
 ConceptDraw Project,no,yes,no,Proprietary,
@@ -20,7 +20,7 @@ Concerto Project Management,yes,yes,yes,Proprietary,
 Copper Project,yes,yes,yes,Proprietary,
 dotProject,yes,yes,yes,GPL,PHP
 DynaRoad,no,unk,unk,Proprietary,
-Easy projects,yes,yes,yes,Proprietary,ASP.NET
+Easy projects," yes"," yes"," yes",Proprietary,ASP.NET
 Eclipse PPM software,yes,no,yes,Proprietary,
 Endeavour Software Project Management,yes,unk,unk,GPL,Java
 eGroupWare,yes,unk,unk,GPL,PHP
@@ -29,7 +29,7 @@ FastTrack Schedule,no,Yes,No,Proprietary,
 Feng Office Community Edition,yes,yes,yes,AGPLv3,PHP
 FinancialForce.com,yes,unk,yes,Proprietary,
 FogBugz,yes,yes,yes,Proprietary,ASP.NET
-Fossil-scm,yes,yes,yes,2-clause BSD license,C
+Fossil-scm," yes"," yes"," yes",2-clause BSD license,C
 Freedcamp,yes,no,yes,Proprietary,
 FusionForge,yes,yes,unk,GPL,PHP
 GanttProject,no,yes,unk,GPL,Java
@@ -84,7 +84,7 @@ Project KickStart,no,yes,unk,Proprietary,
 Project Team Builder,yes,yes,yes,Proprietary,
 Projector PSA,yes,yes,yes,Proprietary,
 ProjectLibre,no  (Cloud based version under development),yes,no (Included in future plans),CPAL,Java
-ProjectManager.com,yes,no,yes,Proprietary,
+ProjectManager.com," yes",no,yes,Proprietary,
 Project.net,yes,yes,yes,GPL,Java
 Projectplace,yes,no,yes,Proprietary,
 Projektron BCS,yes,yes,yes,Proprietary,Java
@@ -96,8 +96,8 @@ Priority Matrix,yes,no,yes,Proprietary
 Pyrus,yes,yes,yes,Proprietary,
 RationalPlan,yes,yes,yes,Proprietary,
 Realisor,no,yes,no,Proprietary,
-Redbooth,yes,yes,yes,AGPL; Proprietary (version 4),Ruby on Rails
-Redmine,yes,yes,yes,GPL,Ruby
+Redbooth," yes",yes," yes"," AGPL; Proprietary (version 4)",Ruby on Rails
+Redmine,yes,yes," yes ",GPL,Ruby
 Rillsoft Project  ; Integration Server,yes,yes,yes,Proprietary,C++ and PHP
 RiskyProject,yes,yes,yes,Proprietary,
 SAP Business ByDesign,yes,unk,yes,Proprietary,
@@ -126,7 +126,7 @@ UniPhi,yes,yes,yes,Proprietary,ASP.NET
 Vpmi,yes,unk,unk,Proprietary,
 web2project,yes,unk,unk,GPL,PHP
 Workamajig,yes,yes,yes,Proprietary,
-Workfront,yes,no,yes,Proprietary,
+Workfront," yes",no,yes,Proprietary,
 WorkPLAN Enterprise,no,unk,unk,Proprietary,
 workspace.com,yes,unk,yes,Proprietary,
 Wrike,yes,unk,yes,Proprietary

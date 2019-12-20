@@ -7,10 +7,10 @@ Bash,Optional
 Ballerina,yes
 Bro,yes
 C,no
-C++,Some (STL iostreams throw on failure but C APIs like stdio or POSIX do not)
+C++," Some (STL iostreams throw on failure but C APIs like stdio or POSIX do not)"
 C#,yes
 COBOL,no
-Common Lisp,yes ("conditions and restarts" system)
+Common Lisp," yes ("conditions and restarts" system)"
 D,yes (throwing on failure)
 Eiffel,no – It actually depends on the library and it is not defined by the language
 Erlang,yes

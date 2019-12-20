@@ -1,6 +1,6 @@
 ,Simple composite types,,Algebraic data types,Unions
 ,Records,Tuple expression,,
-Ada,type identifier is «abstract» «tagged» «limited» [recordfieldname1 : type;fieldname2 : type;...end record null record],n/a," Any combination of records, unions and enumerations (as well as references to those, enabling recursive types).",type identifier (variation : discrete_type) is recordcase variation iswhen choice_list1 =>fieldname1 : type;...when choice_list2 =>fieldname2 : type;......end case;end record
+" Ada",type identifier is «abstract» «tagged» «limited» [recordfieldname1 : type;fieldname2 : type;...end record null record],n/a," Any combination of records, unions and enumerations (as well as references to those, enabling recursive types).",type identifier (variation : discrete_type) is recordcase variation iswhen choice_list1 =>fieldname1 : type;...when choice_list2 =>fieldname2 : type;......end case;end record
 ALGOL 68," struct (modename «fieldname», ...);",align=center Required types and operators can be user defined,," union (modename, ...);"
 C (C99),struct «name» {type name;...};,n/a,n/a,union {type name;...};
 Objective-C,,,,

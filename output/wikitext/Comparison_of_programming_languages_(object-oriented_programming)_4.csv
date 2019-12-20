@@ -13,13 +13,13 @@ Python,self.field = value,n/a,n/a,
 Visual Basic .NET,Public field As type «= value»,Private field As type «= value»,Protected field As type «= value»,Friend field As type «= value»
 Xojo,Public field As type «= value»,Private field As type «= value»,Protected field As type «= value»,n/a
 PHP,public $field «= value»;,private $field «= value»;,protected $field «= value»;,
-Perl,$self->{field} = value;,n/a,,
+Perl," $self->{field} = value;",n/a,,
 Raku,has« type »$.field« is rw»,has« type »$!field,n/a,
-Ruby,n/a,,@field = value,
+Ruby,n/a,," @field = value",
 Windows PowerShell,Add-Member «-MemberType »NoteProperty «-Name »Bar «-Value »value-InputObject variable,n/a,,
 OCaml,n/a,,val «mutable» field = value,n/a
 F#,n/a,let «mutable» field = value,n/a,
-JavaScript,this.field = value  this["field"] = value,,,
+JavaScript," this.field = value  this["field"] = value",,,
 COBOL,n/a,level-number field clauses.,n/a,n/a
 Cobra,var field «as type» «= value»,var __field «as type» «= value»,var _field «as type» «= value»,
 ISLISP,(field :initform value :accessor accessor-name :initarg keyword),,,

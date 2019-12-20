@@ -2,7 +2,7 @@ Name,IP SLA Reports,Logical Grouping,Trending,Trend Prediction,Auto Discovery,Ag
 Argus - The all seeing,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No," Viewing, Acknowledging, Reporting",Yes,Unknown,Perl," Flat file, Berkeley DB",Artistic License,No,Yes,Yes,2013-02,3.7
 Avaya VPFM,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes,Unknown,MySQL,Commercial,Yes,Yes,Yes
 Cacti,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes,PHP," RRDtool, MySQL",GPL-lic,Via plugin,Yes,Yes,2019-06-07,1.2.4
-Check MK,Via plugin,Yes,Yes,Yes,Via plugin,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes," C, Python",RRDtool,GPL-lic,Via plugin,Yes,Yes,2019-11-11,1.6.0p6
+"! Check MK",Via plugin,Yes,Yes,Yes,Via plugin,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes," C, Python",RRDtool,GPL-lic,Via plugin,Yes,Yes,2019-11-11,1.6.0p6
 collectd,No,No,No,No,Push model;multicast possible,Yes,Yes,Yes,Yes,Yes,No,Viewing,Yes,No,C,RRDtool,GPLv2,No,Apache ACL,Yes,2019-11-13,5.10
 Cruz,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes," Java, C++, .NET"," Oracle",Commercial,Yes,Yes,Yes,2019-02,8.0.0
 Entuity,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes," C, Java",MariaDB,Commercial,Yes,Yes,Yes,2017-12-22,16.5 P3

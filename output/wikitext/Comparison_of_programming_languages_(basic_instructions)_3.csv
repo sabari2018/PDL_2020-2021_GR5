@@ -1,5 +1,5 @@
 ,Integer,Single precision,Double precision,Half and Quadruple precision etc.
-Ada,n/a,Complexgeneric type[b],Complexgeneric type[b],Complexgeneric type[b]
+" Ada",n/a,Complexgeneric type[b],Complexgeneric type[b],Complexgeneric type[b]
 ALGOL 68,n/a,compl,long compl etc.,short compl etc.  ; long long compl etc.
 C (C99),n/a,float complex,double complex,n/a
 C++ (STL),n/a,std::complex,std::complex,

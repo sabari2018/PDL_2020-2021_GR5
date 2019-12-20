@@ -1,4 +1,4 @@
-Can:," NAT44 (static, dynamic w/o ports, PAT)"," NPTv6",IDS (Intrusion Detection System),VPN (Virtual Private Network),AV (Anti-Virus),Sniffer,Profile selection
+"," NAT44 (static, dynamic w/o ports, PAT)"," NPTv6",IDS (Intrusion Detection System),VPN (Virtual Private Network),AV (Anti-Virus),Sniffer,Profile selection
 Untangle,yes,dunno,yes,yes (IPsec and OpenVPN)," yes (clamav, commtouch (optional))",yes (tcpdump),dunno
 Vyatta,yes (three NAT types),dunno,yes (integrated Snort),yes (IPsec and OpenVPN)," yes (with clamav, Sophos Antivirus (optional))",yes (with wireshark or tcpdump),dunno
 WinGate,yes,dunno,yes (with NetPatrol),yes (proprietary),yes (Kaspersky Labs),yes (filtered capturing to pcap format),no

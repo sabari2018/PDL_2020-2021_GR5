@@ -1,5 +1,5 @@
-00000Server OS support,00000Features,,,,,,,,,,,,00000Storage,,00000Users
-class="filterable"Mail server,Linux/Unix,SMTP,POP3,IMAP,IMAP IDLE,TLS,DANE,POP over TLS,IPv6,SSL,Webmail,ActiveSync,Sieve,Database,Filesystem,Other,License
+00000Server OS support,00000Features",,,,,,,,,,,,00000Storage,,00000Users
+"! class="filterable"Mail server",Linux/Unix,SMTP,POP3,IMAP,IMAP IDLE,TLS,DANE,POP over TLS,IPv6,SSL,Webmail,ActiveSync,Sieve,Database,Filesystem,Other,License
 agorum core,yes,yes,no,yes,no,no,no,no,no,yes,yes,no,no,yes,no,no,GPLv2
 Apache James,yes,yes,yes,yes,yes,yes,dunno,yes,Dunno,yes,no,no,yes,yes,yes,no,ASLv2
 Axigen,yes,yes,yes,yes,yes,yes,dunno,yes,yes,yes," Ajax, Basic  ; Mobile",yes,yes," Proprietary, Embedded, Optimized for Email and Groupware",no,yes," Proprietary (free version: 5 domains, 5 users, 5 groups)"
@@ -39,7 +39,7 @@ Sendmail,yes,yes," Dovecot, UW IMAP"," Dovecot, UW IMAP"," Dovecot, UW IMAP",yes
 SparkEngine,yes,yes,no,no,no,yes,dunno,no,Dunno,yes,no,no,dunno,yes,yes,yes,Proprietary
 UW IMAP,yes,no,yes,yes,yes,no,no,yes,yes,yes,WebPine,no,no,yes (Indexes),yes,no,Apache License 2.0
 WinGate,no,yes,yes,yes,yes,yes,dunno,yes,no,yes,yes,no,dunno,no,yes,no,Proprietary
-Zarafa,yes,External,yes,yes,yes,External,no,yes,yes,yes,yes,yes,no,yes,yes,no," AGPLv3, paid"
+Zarafa,yes," External",yes,yes,yes," External",no,yes,yes,yes,yes,yes,no,yes,yes,no," AGPLv3, paid"
 Zentyal,yes,yes,yes,yes,yes,yes,dunno,yes,no,yes,yes,yes,dunno,yes,yes,no,GPLv2
 Zimbra,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,[http://www.zimbra.com/license/zimbra-public-license-1-3.html ZPL] and proprietary editions
-class="filterable"Mail server,Linux/Unix,SMTP,POP3,IMAP,IMAP IDLE,TLS,DANE,POP over TLS,IPv6,SSL,Webmail,ActiveSync,Sieve,Database,Filesystem,Other,License
+"! class="filterable"Mail server",Linux/Unix,SMTP,POP3,IMAP,IMAP IDLE,TLS,DANE,POP over TLS,IPv6,SSL,Webmail,ActiveSync,Sieve,Database,Filesystem,Other,License

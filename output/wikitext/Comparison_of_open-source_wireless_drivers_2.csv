@@ -1,4 +1,4 @@
-Driver,802.11,,,,,Businterface,WirelessSecurity,,,Monitormode,Master(AP)mode,Ad-Hocmode
+Driver",802.11",,,,,Businterface",WirelessSecurity",,,Monitormode",Master(AP)mode",Ad-Hocmode"
 ,a,b,g,n,ac,,WEP,WPA,WPA2,,,
 [http://acx100.sourceforge.net/ acx1xx],No,Yes,Yes,No,No," PCI, Mini PCI, PC card, USB",Yes,No,No,Yes,Yes,dunno
 [http://aluminum.sourmilk.net/adm8211/ adm8211],dunno,dunno,dunno,dunno,dunno,PCI,dunno,dunno,dunno,dunno,No,dunno
@@ -11,7 +11,7 @@ Driver,802.11,,,,,Businterface,WirelessSecurity,,,Monitormode,Master(AP)mode,Ad-
 [https://web.archive.org/web/20060522192624/http://bcm43xx.berlios.de/ bcm43xx],No,Yes,Yes,No,No," PCI, Mini PCI,Cardbus, PC card",Yes,Yes,Yes,Yes,No,dunno
 [https://web.archive.org/web/20121029101459/http://linuxwireless.org/en/users/Drivers/brcm80211 brcmfmac],Yes,Yes,Yes,Yes,No," SDIO,PCI Express",Yes,Yes,Yes,Exp.,Yes,No
 [https://web.archive.org/web/20121029101459/http://linuxwireless.org/en/users/Drivers/brcm80211 brcmsmac],Yes,Yes,Yes,Yes,No," PCI, Mini PCIe",Yes,Yes,Yes,Yes,Yes,Yes
-[https://web.archive.org/web/20080221092622/http://hostap.epitest.fi/ hostap],No,Yes,No,No,No," PCI, Mini PCI,PC card",Yes,Yes,Yes,Yes,Yes,Yes
+[https://web.archive.org/web/20080221092622/http://hostap.epitest.fi/ hostap],No,Yes,No,No,No," PCI, Mini PCI,PC card",Yes,Yes," Yes ",Yes,Yes,Yes
 [http://ipw2100.sourceforge.net/ ipw2100],No,Yes,No,No,No,Mini PCI,Yes,Yes,Yes,Yes,dunno,dunno
 [http://ipw2200.sourceforge.net/ ipw2200],Yes,Yes,Yes,No,No,Mini PCI,Yes,Yes,Yes,Yes,No,Yes
 [http://ipw2200-ap.sourceforge.net/ ipw2200-ap],No,Yes,Yes,No,No,Mini PCI,dunno,dunno,dunno,Yes,Yes,dunno
@@ -29,6 +29,6 @@ Driver,802.11,,,,,Businterface,WirelessSecurity,,,Monitormode,Master(AP)mode,Ad-
 [https://web.archive.org/web/20141120043216/http://rt2x00.serialmonkey.com/ rt2x00],No,Yes,Yes,No,No," PCI, USB,Mini PCI",Yes,Yes,Yes,Yes,Yes,Yes
 [http://rtl8180-sa2400.sourceforge.net/ rtl8180],Yes,Yes,Yes,No,No," PCI, PC card,Mini PCI",dunno,dunno,dunno,dunno,Yes,dunno
 [http://wireless.kernel.org/en/users/Drivers/rtl8187/ rtl8187],Yes,Yes,Yes,No,No,USB,Yes,Yes,Yes,Yes,dunno,dunno
-[http://linux-lc100020.sourceforge.net/ zd1201],No,Yes,No,No,No,USB,Yes,No,No,Yes,Yes,dunno
+[http://linux-lc100020.sourceforge.net/ zd1201],No,Yes,No,No,No,USB,Yes,No," No ",Yes,Yes,dunno
 [https://archive.is/20121225160546/http://zd1211.wiki.sourceforge.net/VendorBasedDriver zd1211],Yes,Yes,Yes,No,No,USB,Yes,Yes,Yes,Yes,Yes,dunno
 [https://web.archive.org/web/20070406154055/http://zd1211.ath.cx/wiki/DriverRewrite zd1211rw],No,Yes,Yes,No,No,USB,Yes,Yes,yes,Yes,Yes,Yes

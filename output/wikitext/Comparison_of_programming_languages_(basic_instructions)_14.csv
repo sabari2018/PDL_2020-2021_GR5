@@ -1,6 +1,6 @@
 ,read from,write to,
 ,stdin,stdout,stderr
-Ada,Get (x),Put (x)," Put (Standard_Error, x)"
+" Ada",Get (x),Put (x)," Put (Standard_Error, x)"
 ALGOL 68," readf(($format$, x)); or  getf(stand in, ($format$, x));"," printf(($format$, x)); or  putf(stand out, ($format$, x)); "," putf(stand error, ($format$, x));ALGOL Unformatted[a]"
 APL,x←⎕,⎕←x,⍞←x
 C (C99)," more c input[b]"," more c output[c]"," more c error output[d]"

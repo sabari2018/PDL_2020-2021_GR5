@@ -1,4 +1,4 @@
-,included chess engine(s),Can open/save PGN,Can import UCI engines,Levels,3D or Animated pieces,Variants,Multiplayer
+",included chess engine(s),Can open/save PGN,Can import UCI engines,Levels,3D or Animated pieces,Variants,Multiplayer
 Aquarium," Crafty, Delfi, Rybka, Spike ",yes,yes," multivariation, uci_elo",no,Chess960,no
 Battle Chess,n/a,no,no,,yes,no,
 Battle Chess: Game of Kings,n/a,no,no,,yes,no,

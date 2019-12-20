@@ -1,4 +1,4 @@
-,Maximum file size,Partial file loading,Disk sector editing,Bit editing,Text editor,Insert/delete bytes,ao),Search Unicode,File structure view,Disassembler,File compare,Find in files,Bookmarks,Macro,Data inspector
+",Maximum file size,Partial file loading,Disk sector editing,Bit editing,Text editor,Insert/delete bytes,ao),Search Unicode,File structure view,Disassembler,File compare,Find in files,Bookmarks,Macro,Data inspector
 beye,8 PiB,yes,no,yes,no,yes," ANSI, EBCDIC, ASCII, Macintosh",yes,," data-sort-value="Yes" AVR, Java, ARM/XScale, PowerPC, PPC64",,,yes
 bvi,Unlimiteddate=October 2019,yes,,yes,yes,yes," ANSI, ASCII",,no,no,,Yes and replace,
 Emacs,Limited by RAM,,no,no,yes,yes,,,no,no,,,,yes,no
@@ -6,8 +6,8 @@ FlexHex,Unlimiteddate=October 2019,yes,yes,yes,no,yes," ANSI, OEM, UTF-16",yes,y
 Frhed,Limited by RAM,yes,no(read only),yes,no,yes," ANSI, OEM",yes,yes,no,yes,no,yes
 Hiew,Unlimiteddate=October 2019,yes,WinNT only,yes,yes,yes," ASCII,OEM, Unicode,Custom",yes,yes," data-sort-value="Yes" MMX, SSE 4.2, ARM",,yes,yes,yes
 HxD,Unlimiteddate=October 2019,yes,Windows 9x/NT and up,yes,no,yes," ANSI, ASCII, OEM, EBCDIC, Macintosh",yes,no,yes,yes,yes,yes,,yes
-VEDIT," Standard, 2 GiB, Pro 64, unlimiteddate=October 2019",yes,data-sort-value="Partial" DOS version only,yes,yes,yes," ANSI, OEM, EBCDIC, ASCII, custom",,no,no,yes,yes,yes,yes
+VEDIT," Standard, 2 GiB, Pro 64, unlimiteddate=October 2019",yes," data-sort-value="Partial" DOS version only",yes,yes,yes," ANSI, OEM, EBCDIC, ASCII, custom",,no,no,yes,yes,yes,yes
 UltraEdit,>4 GiB,yes,no,no,yes,yes," ANSI, OEM, EBCDIC, ASCII, Mac, Unix, UTF-8",yes,yes,no,yes,yes,yes
-WinHex,Unlimiteddate=October 2019,yes,yes,yes,External: notepad,yes," partial support of these formats: ANSI, UNICODE, OEM, UTF-8/UTF-16, EBCDIC, ASCII",yes,yes,Only x86 Intel opcodes,yes,data-sort-value="Yes" Yes and replace,,yes,yes
+WinHex,Unlimiteddate=October 2019,yes,yes,yes,External: notepad,yes," partial support of these formats: ANSI, UNICODE, OEM, UTF-8/UTF-16, EBCDIC, ASCII",yes,yes,Only x86 Intel opcodes,yes," data-sort-value="Yes" Yes and replace",,yes,yes
 vim,Limited by RAM,yes,partial,yes,yes,yes," ASCII, ISO-8859, DOS (OEM), UTF-8, UTF-16, partial EBCDIC (compilation required), unicode",yes,Plug-in,external; [https://github.com/s3rvac/vim-syntax-retdecdsm libraries],yes,Plug-in,Plug-in,Yes,no
 ,Maximum file size,Partial file loading,Disk sector editing,Bit editing,Text editor,Insert/delete bytes,ao),Search Unicode,File structure view,Disassembler,File compare,Find in files,Bookmarks,Macro,Data inspector

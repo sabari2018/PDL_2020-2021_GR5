@@ -1,4 +1,4 @@
-Service,Post via,,,,,,Read via,,,,,
+Service",Post via",,,,,,Read via",,,,,
 ,Web,XMPP,E-Mail,SMS,API,Micropub,Web,XMPP,E-Mail,SMS,API,Feed
 Facebook,yes,no,yes,yes,yes,no,yes,no,yes,yes,yes,yes
 identi.ca / GNU social,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,yes,yes

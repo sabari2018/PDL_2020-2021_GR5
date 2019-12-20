@@ -1,33 +1,33 @@
-Server,Security,,,,Dynamic contentname="Dynamic content",,,,,,,,,,,,,
+Server",Security",,,,Dynamic contentname="Dynamic content"",,,,,,,,",,,,,
 ,basicaccessauthentication,digestaccessauthentication,SSL/TLShttps,virtualhosting,CGI,FCGI,SCGI,WSGI,JavaServlets,SSI,ISAPI,SSJS,Runs in user spaceor kernel space,Administrationconsole,IPv6,HTTP/2,QUIC,HTTP/3
-AOLserver,Yes,No,name="RSA BSAFE"name="openSSL"name="NSS",Yes,Yes,No,Unknown,No,No,Yes,Unknown,Unknown,user,Unknown,Unknown,Unknown,Unknown,Unknown
-Apache HTTP Server,Yes,Yes,name="modules"name="openSSL"name="GnuTLS",Yes,Yes,Yes,Yes,name="modules",name="AJP",Yes,name="mod_isapi",Unknown,user,via Geronimo,Yes,Yes,Unknown,Unknown
-Apache Tomcat,Yes,Yes,name="jsse",Yes,Yes,No,Unknown,No,Yes,Yes,name="ApacheTomcatISAPI",Unknown,user,Yes,name="RequiresJVMIPv6Support",Yes,Unknown,Unknown
-Boa,No,No,with external patch,Yes,Yes,No,Unknown,No,No,No,No,Unknown,user,Unknown,Yes,Unknown,Unknown,Unknown
-Caddy,Yes,No,Yes,Yes,CGI implemented for WebSocket connections,Yes,No,No,No,Same capabilities as SSI available with templates,No,No,user,No,Yes,Yes,Yes,Unknown
-Caucho Resin Server,Yes,Yes,paid versionname="openSSL",Yes,Yes,Yes,Unknown,No,Yes,Yes,No,Unknown,user,Yes,Yes,Unknown,Unknown,Unknown
-Caudium,Yes,Yes,Yes,Yes,Yes,Yes,Unknown,No,Yes,Yes,Unknown,Unknown,user,Yes,name="CIPVN",Unknown,Unknown,Unknown
-Cherokee HTTP Server,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Unknown,user,Yes,Yes,Unknown,Unknown,Unknown
-H2O,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,No,No,user,No,Yes,Yes,No,No
-HFS,Yes,No,Yes via Stunnel,No,No,No,Unknown,No,No,No,Unknown,Unknown,user,Unknown,No,Unknown,Unknown,Unknown
-Hiawatha HTTP Server,Yes,Yes,name="PolarSSL",Yes,Yes,Yes,No,No,No,Yes,No,Unknown,user,Yes,Yes,Unknown,Unknown,Unknown
-IBM HTTP Server,Yes,Yes,Yes,Yes,Yes,Yes,Unknown,No,No,Yes,No,Unknown,user,Yes,Yes,Unknown,Unknown,Unknown
-Internet Information Services,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,name="IIS Java",Yes,Yes,Yes,kernel and user,Yes,Yes,Yes,Unknown,Unknown
-Jetty,Yes,Yes,Yes,Yes,Yes,Unknown,Unknown,No,Yes,Unknown,Unknown,Yes,user,Unknown,Unknown,Yes,Unknown,Unknown
-Jexus,No,No,Yes,Yes,No,Yes,No,No,No,No,No,Yes,user,Yes,No,Unknown,Unknown,Unknown
-lighttpd,Yes,Yes,name="openSSL",Yes,Yes,Yes,Yes,Yes,name="AJP",Yes,No,No,user,No,Yes,No,Unknown,Unknown
-LiteSpeed Web Server,Yes,Yes,Yes,Yes,Yes,Yes,Unknown,Yes,name="AJP",Yes,No,Unknown,user,Yes,Yes,Yes,Yes,Yes
-Mongoose,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No,No,user,Yes,Yes,Unknown,Unknown,Unknown
-Monkey HTTP Server,Yes,No,name="PolarSSL",Yes,Yes,Yes,No,No,No,No,No,No,user,No,Yes,Unknown,Unknown,Unknown
-NaviServer,Yes,No,Yes,Yes,Yes,No,Unknown,No,No,Yes,Unknown,Unknown,user,Yes,Yes,Unknown,Unknown,Unknown
-NCSA HTTPd,Yes,Yes,Unknown,name="NCSA virtual hosting",Yes,Unknown,Unknown,No,No,Yes,No,Unknown,user,Unknown,Unknown,Unknown,Unknown,Unknown
-nginx,Yes,Yes (module),Yes,Yes,No,Yes,Yes,Yes,No,Yes,No,Unknown,user,Yes,Yes,Yes,Unknown,Unknown
-OpenLink  Virtuoso,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,No,No,user,Yes,No,No,Unknown,Unknown
-Oracle HTTP Server,Yes,Yes,Yes,Yes,Yes,Yes,Unknown,No,No,Yes,No,Unknown,user,via Enterprise Manager,Yes,Unknown,Unknown,Unknown
-Oracle iPlanet Web Server,Yes,Yes,Yes,Yes,Yes,Yes,Unknown,No,Yes,Yes,No,Yes,user,Yes,Yes,Unknown,Unknown,Unknown
-thttpd,Yes,Unknown,No,Yes,Yes,No,Unknown,No,No,No,No,Unknown,user,No,Yes,Unknown,Unknown,Unknown
-TUX web server,No,No,No,Yes,Yes,No,Unknown,No,No,No,No,Unknown,kernel,Unknown,Unknown,Unknown,Unknown,Unknown
-Wakanda Server,Yes,Yes,Yes,Yes,No,No,No,No,No,No,No,Yes,user,Yes,Yes,Unknown,Unknown,Unknown
-Xitami,Yes,Unknown,paid version,Yes,Yes,Unknown,Unknown,No,Unknown,Yes,Unknown,Unknown,user,Unknown,Unknown,Unknown,Unknown,Unknown
-Yaws,Yes,Unknown,Yes,Yes,Yes,Yes,Unknown,No,No,Yes,No,Unknown,user,Unknown,Yes,Unknown,Unknown,Unknown
-Zeus Web Server,Yes,Yes,Yes,Yes,Yes,Yes,Unknown,No,name="AJP",Yes,Yes,Unknown,user,Yes,No,Unknown,Unknown,Unknown
+"!,Yes,No," name="RSA BSAFE"name="openSSL"name="NSS"",Yes,Yes,No,Unknown,No,No,Yes,Unknown,Unknown,user,Unknown,Unknown,Unknown,Unknown,Unknown
+"!,Yes,Yes," name="modules"name="openSSL"name="GnuTLS"",Yes,Yes,Yes,Yes," name="modules""," name="AJP"",Yes," name="mod_isapi"",Unknown,user,via Geronimo,Yes,Yes,Unknown,Unknown
+"!,Yes,Yes," name="jsse"",Yes,Yes,No,Unknown,No,Yes,Yes," name="ApacheTomcatISAPI"",Unknown,user,Yes," name="RequiresJVMIPv6Support"",Yes,Unknown,Unknown
+"!,No,No,with external patch,Yes,Yes,No,Unknown,No,No,No,No,Unknown,user,Unknown,Yes,Unknown,Unknown,Unknown
+"!,Yes,No,Yes,Yes,CGI implemented for WebSocket connections,Yes,No,No,No,Same capabilities as SSI available with templates,No,No,user,No,Yes,Yes,Yes,Unknown
+"!,Yes,Yes," paid versionname="openSSL"",Yes,Yes,Yes,Unknown,No,Yes,Yes,No,Unknown,user,Yes,Yes,Unknown,Unknown,Unknown
+"!,Yes,Yes,Yes,Yes,Yes,Yes,Unknown,No,Yes,Yes,Unknown,Unknown,user,Yes," name="CIPVN"",Unknown,Unknown,Unknown
+"!,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Unknown,user,Yes,Yes,Unknown,Unknown,Unknown
+"!,Yes,No,Yes,Yes,Yes,Yes,No,No,No,No,No,No,user,No,Yes,Yes,No,No
+"!,Yes,No,Yes via Stunnel,No,No,No,Unknown,No,No,No,Unknown,Unknown,user,Unknown,No,Unknown,Unknown,Unknown
+"!,Yes,Yes," name="PolarSSL"",Yes,Yes,Yes,No,No,No,Yes,No,Unknown,user,Yes,Yes,Unknown,Unknown,Unknown
+"!,Yes,Yes,Yes,Yes,Yes,Yes,Unknown,No,No,Yes,No,Unknown,user,Yes,Yes,Unknown,Unknown,Unknown
+"!,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No," name="IIS Java"",Yes,Yes,Yes,kernel and user,Yes,Yes,Yes,Unknown,Unknown
+"!,Yes,Yes,Yes,Yes,Yes,Unknown,Unknown,No,Yes,Unknown,Unknown,Yes,user,Unknown,Unknown,Yes,Unknown,Unknown
+"!,No,No,Yes,Yes,No,Yes,No,No,No,No,No,Yes,user,Yes,No,Unknown,Unknown,Unknown
+"!,Yes,Yes," name="openSSL"",Yes,Yes,Yes,Yes,Yes," name="AJP"",Yes,No,No,user,No,Yes,No,Unknown,Unknown
+"!,Yes,Yes,Yes,Yes,Yes,Yes,Unknown,Yes," name="AJP"",Yes,No,Unknown,user,Yes,Yes,Yes,Yes,Yes
+"!,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No,No,user,Yes,Yes,Unknown,Unknown,Unknown
+"!,Yes,No," name="PolarSSL"",Yes,Yes,Yes,No,No,No,No,No,No,user,No,Yes,Unknown,Unknown,Unknown
+"!,Yes,No,Yes,Yes,Yes,No,Unknown,No,No,Yes,Unknown,Unknown,user,Yes,Yes,Unknown,Unknown,Unknown
+"!,Yes,Yes,Unknown," name="NCSA virtual hosting"",Yes,Unknown,Unknown,No,No,Yes,No,Unknown,user,Unknown,Unknown,Unknown,Unknown,Unknown
+"!,Yes,Yes (module),Yes,Yes,No,Yes,Yes,Yes,No,Yes,No,Unknown,user,Yes,Yes,Yes,Unknown,Unknown
+"!,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,No,No,user,Yes,No,No,Unknown,Unknown
+"!,Yes,Yes,Yes,Yes,Yes,Yes,Unknown,No,No,Yes,No,Unknown,user,via Enterprise Manager,Yes,Unknown,Unknown,Unknown
+"!,Yes,Yes,Yes,Yes,Yes,Yes,Unknown,No,Yes,Yes,No,Yes,user,Yes,Yes,Unknown,Unknown,Unknown
+"!,Yes,Unknown,No,Yes,Yes,No,Unknown,No,No,No,No,Unknown,user,No,Yes,Unknown,Unknown,Unknown
+"!,No,No,No,Yes,Yes,No,Unknown,No,No,No,No,Unknown,kernel,Unknown,Unknown,Unknown,Unknown,Unknown
+"!,Yes,Yes,Yes,Yes,No,No,No,No,No,No,No,Yes,user,Yes,Yes,Unknown,Unknown,Unknown
+"!,Yes,Unknown,paid version,Yes,Yes,Unknown,Unknown,No,Unknown,Yes,Unknown,Unknown,user,Unknown,Unknown,Unknown,Unknown,Unknown
+"!,Yes,Unknown,Yes,Yes,Yes,Yes,Unknown,No,No,Yes,No,Unknown,user,Unknown,Yes,Unknown,Unknown,Unknown
+"!,Yes,Yes,Yes,Yes,Yes,Yes,Unknown,No," name="AJP"",Yes,Yes,Unknown,user,Yes,No,Unknown,Unknown,Unknown

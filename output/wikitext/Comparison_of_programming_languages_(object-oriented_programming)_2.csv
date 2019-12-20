@@ -11,17 +11,17 @@ Swift," class name« : «parentclass»«, protocols»» { members }",protocol na
 Python,class name«(parentclasses," __all__ = [ member1,member2,... ]"
 Visual Basic .NET,Class name« Inherits parentclass»« Implements interfaces»members End Class,Interface name« Inherits parentinterfaces»members End Interface,Namespace namemembers End Namespace
 Xojo,Class name« Inherits parentclass»« Implements interfaces»members End Class,Interface name« Inherits parentinterfaces»members End Interface,Module namemembers End Module
-Eiffel,class name« inherit parentclasses»membersend,n/a,
-Perl,package name; «@ISA = qw(parentclasses);» members 1;,,package name; members
-Raku,class name «is parentclass «is parentclass ...»» «does role «does role ...»» { members },role name «does role «does role ...»» { members },module name { members }
+Eiffel," class name« inherit parentclasses»membersend",n/a,
+Perl," package name; «@ISA = qw(parentclasses);» members 1;",,package name; members
+Raku," class name «is parentclass «is parentclass ...»» «does role «does role ...»» { members }",role name «does role «does role ...»» { members },module name { members }
 Ruby,class name«  members  end,,module name  members  end
 Windows PowerShell,n/a,,
-OCaml,class name «parameters» = object «(self)» «inherit parentclass «parameters» «inherit parentclass «parameters» ...»» members end,,module name  members
+OCaml," class name «parameters» = object «(self)» «inherit parentclass «parameters» «inherit parentclass «parameters» ...»» members end",,module name  members
 F#,type name«(parameters)» «as this» = class «inherit parentclass«(parameters)» «as base»» members «interface interface with implementation «interface interface with implementation ...»» end,type name = interface members end,namespace name  members
 Smalltalk,,,
 JavaScript (ES6),class name «extends parentclass» { members },,
 Object Pascal (Delphi)," ClassName = Class «(ClassParent, Interfaces)» private // Private members(include Methods and Fields) public // Public members protected // Protected members published // Published members end;",,package name; members
-Scala,class ConcreteClass(constructor params) extends ParentClass with Trait1 with Trait2 with Trait2 { // members },trait TraitName extends OtherTrait1 with OtherTrait2 with OtherTrait3 { // members },package name
+Scala,"  class ConcreteClass(constructor params) extends ParentClass with Trait1 with Trait2 with Trait2 { // members } ","  trait TraitName extends OtherTrait1 with OtherTrait2 with OtherTrait3 { // members } ","  package name "
 COBOL,CLASS-ID. name« INHERITS« FROM» parentclasses». FACTORY« IMPLEMENTS interfaces». class-members END FACTORY. OBJECT« IMPLEMENTS interfaces». instance-members END OBJECT. END CLASS name.,INTERFACE-ID. name« INHERITS« FROM» interfaces». members END INTERFACE name.,n/a
 Cobra,class name «inherits parentclass» «implements interfaces»Tab members,interface name «inherits parentinterfaces»Tab members,namespace nameTab members
 ISLISP,(defclass name (base-class) ((x :initform 0 :accessor get-x :initarg  x)) (:abstractp nil)),,

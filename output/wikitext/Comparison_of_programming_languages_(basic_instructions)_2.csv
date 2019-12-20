@@ -1,5 +1,5 @@
 Single precision,Double precision,Other precision,Processor dependent
-Ada,Float,Long_Float,n/a
+" Ada",Float,Long_Float,n/a
 ALGOL 68,reala68[a],long reala68[a]," short real, long long real, etc.a68g[d]"
 C,floatlax floats[b],double,long doubleC-long-double[f]
 C++ (STL),,,

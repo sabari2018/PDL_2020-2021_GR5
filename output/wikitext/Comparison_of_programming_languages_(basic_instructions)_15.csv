@@ -1,5 +1,5 @@
 ,Argument values,Argument counts,Program name / Script name
-Ada,Argument (n),Argument_Count,Command_Name
+" Ada",Argument (n),Argument_Count,Command_Name
 C (C99),argv[n],argc,first argument
 Objective-C,,,
 C++,,,

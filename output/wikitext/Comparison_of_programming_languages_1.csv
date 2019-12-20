@@ -5,393 +5,393 @@ Yes,,Yes,Yes,Yes,Yes,Yes
 ActionScript 3.0," Application, client-side, web"
 Yes,Yes,Yes,,,,Yes
 ," 1996, ECMA "
-,Ada," Application, embedded, realtime, system"
+",Ada," Application, embedded, realtime, system"
 Yes,Yes,,Yes,Yes,,
 " concurrent, distributed,"," 1983, 2005, 2012, ANSI, ISO, GOST 27831-88 "
-,Aldor," Highly domain-specific, symbolic computing"
+",Aldor," Highly domain-specific, symbolic computing"
 Yes,Yes,Yes,,,,
 ,no
-,ALGOL 58,Application
+",ALGOL 58,Application
 Yes,,,,,,
 ,no
-,ALGOL 60,Application
+",ALGOL 60,Application
 Yes,,,,,,
 ," 1960, IFIP WG 2.1, ISO "
-,ALGOL 68,Application
+",ALGOL 68,Application
 Yes,,,,,,
 concurrent," 1968, IFIP WG 2.1, GOST 27974-88, "
-,Ateji PX,Parallel application
+",Ateji PX,Parallel application
 ,Yes,,,,,
 pi calculus,no
-,APL," Application, data processing"
+",APL," Application, data processing"
 Yes,Yes,Yes,Yes,Yes,Yes,Yes
 " array-oriented, tacit "," 1989, ISO "
-,Assembly language,General
+",Assembly language,General
 Yes,,,,,,
 " any, syntax is usually highly specific, related to the target processor ",IEEE 694-1985
-,AutoHotkey," GUI automation (macros), highly domain-specific"
+",AutoHotkey," GUI automation (macros), highly domain-specific"
 Yes,Yes,,Yes,,,Yes
 ,no
-,AutoIt," GUI automation (macros), highly domain-specific "
+",AutoIt," GUI automation (macros), highly domain-specific "
 Yes,,,Yes,,,Yes
 ,no
-,Ballerina," Integration, agile, server-side, general"
+",Ballerina," Integration, agile, server-side, general"
 Yes,Yes,Yes,Yes,,,Yes
 " concurrent, transactional, statically and strongly typed programming, diagrammatic / visual programming ",2018 De facto standard via Ballerina Language Specification
-,Bash,"Shell, scripting"
+",Bash,"Shell, scripting"
 Yes,,,Yes,,,
 ," no, but optionally POSIX.2  "
-,BASIC," Application, education "
+",BASIC," Application, education "
 Yes,,,Yes,,,
 ," 1983, ANSI, ISO, ECMA "
-,BeanShell," Application, scripting "
+",BeanShell," Application, scripting "
 Yes,Yes,Yes,,,Yes,
 ," In progress, JCP "
-,BLISS,System
+",BLISS,System
 ,,,Yes,,,
 ,no
-,BlitzMax," Application, game "
+",BlitzMax," Application, game "
 Yes,Yes,,Yes,,Yes,
 ,no
-,Boo," Application, game scripting"
+",Boo," Application, game scripting"
 ,Yes,,,,,
 ,no
-,Bro," domain-specific, application "
+",Bro," domain-specific, application "
 Yes,,,,,,Yes
 ,no
-,C," Application, system, general purpose, low-level operations "
+",C," Application, system, general purpose, low-level operations "
 Yes,,,Yes,Yes,,
 ," 1989, ANSI C89, ISO C90, ISO C99, ISO C11, ISO C18 "
-,C++," Application, system "
+",C++," Application, system "
 Yes,Yes,Yes,Yes,Yes,,
 ," 1998. ISO/IEC 2003, ISO/IEC 2011,ISO/IEC 2014,ISO/IEC 2017 "
-,C#," Application, RAD, business, client-side, general, server-side, web "
+",C#," Application, RAD, business, client-side, general, server-side, web "
 Yes,Yes,Yes,Yes,Yes,Yes,Yes
 " structured, concurrent "," 2000, ECMA, ISO "
-,Clarion," General, business, web "
+",Clarion," General, business, web "
 Yes,Yes,Yes,,,,
 ,unknown
-,Clean,General
+",Clean,General
 ,,Yes,,Yes,,
 ,no
-,Clojure,General
+",Clojure,General
 ,,Yes,,,,
 concurrent,no
-,CLU,General
+",CLU,General
 Yes,Yes,,Yes,Yes,,
 ,no
-,COBOL," Application, business "
+",COBOL," Application, business "
 Yes,Yes,,Yes,,,
 ," ANSI X3.23 1968, 1974, 1985; ISO/IEC 1989:1985, 2002, 2014 "
-,Cobra," Application, business, general, web "
+",Cobra," Application, business, general, web "
 Yes,Yes,Yes,,Yes,Yes,
 ,no
-,ColdFusion (CFML),Web
+",ColdFusion (CFML),Web
 ,Yes,,Yes,,,
 ,no
-,Common Lisp,General
+",Common Lisp,General
 Yes,Yes,Yes,Yes,Yes,Yes,Yes
 " extensible syntax, [https://github.com/equwal/CLAPL Array-oriented], syntactic macros, multiple dispatch, concurrent"," 1994, ANSI "
-,COMAL 80,Education
+",COMAL 80,Education
 Yes,,,Yes,,,
 ,no
-,Crystal,General purpose
+",Crystal,General purpose
 Yes,Yes,Yes,Yes,,,
 alpha stage,no
-,Cython," Application, general, numerical computing"
+",Cython," Application, general, numerical computing"
 Yes,Yes,Yes,,,Yes,
 aspect-oriented,no
-,D," Application, system "
+",D," Application, system "
 Yes,Yes,Yes,Yes,Yes,Yes,
 " generative, concurrent ",no
-,Dart," Application, web, server-side, mobile, IoT"
+",Dart," Application, web, server-side, mobile, IoT"
 Yes,Yes,Yes,,,,
 structured,Ecma-408 standard
-,Dylan,Application
+",Dylan,Application
 ,Yes,Yes,,,,
 ,no
-,Eiffel," General, application, business, client-side, server-side, web (EWF) "
+",Eiffel," General, application, business, client-side, server-side, web (EWF) "
 Yes,Yes,Yes,,Yes,Yes [http://se.inf.ethz.ch/old/people/leitner/erl_g Erl-G],Yes Agents
 " distributed [https://docs.eiffel.com/book/solutions/concurrent-eiffel-scoop: SCOOP], [https://docs.eiffel.com/book/method/void-safe-programming-eiffel: Void-safe] "," 2005, ECMA, ISO "
-,Elixir," Application, distributed"
+",Elixir," Application, distributed"
 ,,Yes,,,,Yes
 " concurrent, distributed ",no
-,Erlang," Application, distributed "
+",Erlang," Application, distributed "
 ,,Yes,,,,Yes
 " concurrent, distributed ",no
-,Euphoria,Application
+",Euphoria,Application
 ,,,Yes,,Yes,
 ,no
-,Factor,General
+",Factor,General
 Yes,,can be viewed as,,Yes,Yes,
 stack-oriented,no
-,FP,
+",FP,
 ,,Yes,,,,
 ,no
-,F#,Application
+",F#,Application
 Yes,Yes,Yes,Yes,Yes,Yes,Yes
 ,no
-,Forth,General
+",Forth,General
 Yes,,can be viewed as,,,,
 stack-oriented," 1994, ANSI "
-,Fortran," Application, numerical computing "
+",Fortran," Application, numerical computing "
 Yes,Yes,Yes,Yes,Yes,,
 " array-based, vectorized, concurrent, native distributed/shared-memory parallelism "," 1966, ANSI 66, ANSI 77, MIL-STD-1753, ISO 90, ISO 95, ISO 2003, ISO/IEC 1539-1:2010 (2008), ISO/IEC JTC1/SC22/WG5 N2145 (2018) "
-,FreeBASIC," Application, numerical computing "
+",FreeBASIC," Application, numerical computing "
 Yes,Yes,,Yes,Yes,,
 ,no
-,Gambas,Application
+",Gambas,Application
 Yes,Yes,,,,,Yes
 ,no
-,Game Maker Language," Application, games"
+",Game Maker Language," Application, games"
 Yes,Yes,,,,,Yes
 ,no
-,GLBasic," Application, games "
+",GLBasic," Application, games "
 Yes,Yes,,Yes,,,
 simple object-oriented,no
-,Go," Application, web, server-side"
+",Go," Application, web, server-side"
 Yes,,,Yes,,Yes,Yes
 concurrent,De facto standard via Go Language Specification
-,Gosu," Application, general, scripting, web "
+",Gosu," Application, general, scripting, web "
 Yes,Yes,,,Yes,Yes,
 ,no
-,GraphTalk,Application
+",GraphTalk,Application
 ,Yes,,,,,
 logic,no
-,Groovy," Application, general, scripting, web "
+",Groovy," Application, general, scripting, web "
 Yes,Yes,Yes,Yes,Yes,Yes,Yes
 meta-programming," In progress, JCP "
-,Harbour," Application, business, data processing, general, web "
+",Harbour," Application, business, data processing, general, web "
 Yes,Yes,Yes,Yes,Yes,Yes,
 declarative,no
-,Haskell,Application
+",Haskell,Application
 ,,Yes,,Yes,,
 lazy evaluation," 2010, Haskell 2010 "
-,Haxe," Application, general, web "
+",Haxe," Application, general, web "
 Yes,Yes,Yes,,Yes,Yes,
 ,no
-,HyperNext," Application, education "
+",HyperNext," Application, education "
 ,,,Yes,,,Yes
 weakly typed,no
-,HyperTalk," Application, RAD, general "
+",HyperTalk," Application, RAD, general "
 ,Yes,,,,,Yes
 weakly typed,unk
-,Io," Application, host-driven scripting "
+",Io," Application, host-driven scripting "
 Yes,Yes,,,,,
 ,no
-,IPL,General
+",IPL,General
 ,,Yes,,,,
 ,unk
-,ISLISP,General
+",ISLISP,General
 Yes,Yes,Yes,,Yes,,
 ," 1997, ISO "
-,J,Data processing
+",J,Data processing
 ,,,,,,
 " array-oriented, function-level, tacit ",no
-,JADE," Application, distributed "
+",JADE," Application, distributed "
 Yes,Yes,,,,,
 ,no
-,Java," Application, business, client-side, general, mobile development, server-side, web "
+",Java," Application, business, client-side, general, mobile development, server-side, web "
 Yes,Yes,Yes,Yes,Yes,Yes,Yes
 concurrent,De facto standard via Java Language Specification
-,JavaScript," Client-side, server-side, web "
+",JavaScript," Client-side, server-side, web "
 Yes,Yes,Yes,Yes,,Yes,Yes
 prototype-based," 1997, ECMA "
-,Joy,Research
+",Joy,Research
 ,,Yes,,,,
 stack-oriented,no
-,Julia," General, technical computing "
+",Julia," General, technical computing "
 Yes,Yes,Yes,Yes,Yes,Yes,
 " array-oriented, parallel, concurrent, distributed ("cloud") ",No
-,K," Data processing, business "
+",K," Data processing, business "
 ,,,,,,
 " array-oriented, tacit ",unk
-,Kotlin," Application, mobile development, server-side, client-side, web"
+",Kotlin," Application, mobile development, server-side, client-side, web"
 Yes,Yes,Yes,Yes,Yes,Yes,Yes
 ,no
-,Ksh," Shell, scripting "
+",Ksh," Shell, scripting "
 Yes,Yes,,Yes,,,
 " several variants, custom programmable, dynamic loadable modules"," 1992, POSIX.2  "
-,LabVIEW (G)," Application, industrial instrumentation-automation "
+",LabVIEW (G)," Application, industrial instrumentation-automation "
 Yes,Yes,Yes,,,,Yes
 " dataflow, visual ",no
-,Lisp,General
+",Lisp,General
 ,,Yes,,,,
 ,unk
-,LiveCode," Application, RAD, general "
+",LiveCode," Application, RAD, general "
 ,Yes,,,,,Yes
 weakly typed,no
-,Logtalk," Artificial intelligence, application "
+",Logtalk," Artificial intelligence, application "
 ,Yes,,,,Yes,Yes
 logic,no
-,LSL,Virtual worlds content scripting and animation
+",LSL,Virtual worlds content scripting and animation
 Yes,,,Yes,,,Yes
 Scripts exist in in-world objects,Yes
-,Lua," Application, embedded scripting "
+",Lua," Application, embedded scripting "
 Yes,Yes,Yes,Yes,,Yes,
 aspect-oriented,no
-,Maple," Symbolic computation, numerical computing "
+",Maple," Symbolic computation, numerical computing "
 Yes,Yes,Yes,Yes,,,
 distributed,no
-,Mathematica,Symbolic language
+",Mathematica,Symbolic language
 Yes,Yes,Yes,Yes,,,
 " logic, distributed ",no
-,MATLAB," Highly domain-specific, numerical computing "
+",MATLAB," Highly domain-specific, numerical computing "
 Yes,Yes,,Yes,,,
 ,no
-,Modula-2," Application, system "
+",Modula-2," Application, system "
 Yes,,,,Yes,,
 ," 1996, ISO "
-,Modula-3,Application
+",Modula-3,Application
 Yes,Yes,,,Yes,,
 ,no
-,MUMPS (M)," Application, databases "
+",MUMPS (M)," Application, databases "
 Yes,,,Yes,,,
 " concurrent, multi-user, NoSQL, transaction processing"," 1977, ANSI "
-,Nim," Application, general, web, scripting, system "
+",Nim," Application, general, web, scripting, system "
 Yes,Yes,Yes,Yes,Yes,Yes,
 " meta",no
-,Oberon," Application, system "
+",Oberon," Application, system "
 Yes,Yes,,,,,
 ,no
-,Object Pascal," Application, general, mobile app, web "
+",Object Pascal," Application, general, mobile app, web "
 Yes,Yes,,Yes,Yes,Yes,Yes
 structured,no
-,Objective-C," Application, general "
+",Objective-C," Application, general "
 Yes,Yes,,Yes,,Yes,
 concurrent,no
-,OCaml," Application, general "
+",OCaml," Application, general "
 Yes,Yes,Yes,Yes,Yes,,
 ,no
-,Occam,General
+",Occam,General
 Yes,,,Yes,,,
 " concurrent, process-oriented ",no
-,Opa,Web applications
+",Opa,Web applications
 Yes,,Yes,,Yes,,
 distributed,no
-,OpenLisp," General, Embedded Lisp Engine "
+",OpenLisp," General, Embedded Lisp Engine "
 Yes,Yes,Yes,,Yes,,
 ," Supersedes ISO "
-,Oxygene,Application
+",Oxygene,Application
 Yes,Yes,,,Yes,,
 ,no
-,Oz-Mozart," Application, distribution, education "
+",Oz-Mozart," Application, distribution, education "
 Yes,Yes,Yes,,,,
 " concurrent, logic ",no
-,Pascal," Application, education "
+",Pascal," Application, education "
 Yes,,,Yes,,,
 ," 1983, ISO "
-,Perl," Application, scripting, text processing, Web "
+",Perl," Application, scripting, text processing, Web "
 Yes,Yes,Yes,Yes,Yes,Yes,
 ,no
-,PHP," Server-side, web application, web "
+",PHP," Server-side, web application, web "
 Yes,Yes,Yes,Yes,,Yes,
-,"De facto" standard via language specification and Requests for Comments (RFCs)
-,PL/I,Application
+," "De facto" standard via language specification and Requests for Comments (RFCs) "
+",PL/I,Application
 Yes,Yes,,Yes,,,
 ," 1969, ECMA-50 (1976)"
-,Plus," Application, system development "
+",Plus," Application, system development "
 Yes,,,Yes,,,
 ,no
-,PostScript," Graphics, page description "
+",PostScript," Graphics, page description "
 Yes,,,Yes,,,
 Stack-oriented,Yes (as the PostScript Reference Manual)
-,PowerShell," Administration, application, general, scripting "
+",PowerShell," Administration, application, general, scripting "
 Yes,Yes,Yes,Yes,,Yes,
 pipeline,no
-,Prolog," Application, artificial intelligence "
+",Prolog," Application, artificial intelligence "
 ,,Yes,Yes,,Yes,
 " logic, declarative "," 1995, ISO/IEC 13211-1:1995, TC1 2007, TC2 2012, TC3 2017 "
-,PureBasic,Application
+",PureBasic,Application
 ,,,Yes,,,
 ,no
-,Python," Application, general, web, scripting, artificial intelligence, scientific computing "
+",Python," Application, general, web, scripting, artificial intelligence, scientific computing "
 Yes,Yes,Yes,Yes,Yes,Yes,Yes
-aspect-oriented,"De facto" standard via Python Enhancement Proposals (PEPs)
-,R," Application, statistics "
+aspect-oriented," "De facto" standard via Python Enhancement Proposals (PEPs) "
+",R," Application, statistics "
 Yes,Yes,Yes,Yes,,Yes,
 ,no
-,Racket," Education, general, scripting "
+",Racket," Education, general, scripting "
 ,Yes,Yes,Yes,,Yes,
 " modular, logic, meta ",no
-,Raku," Scripting, text processing, glue "
+",Raku," Scripting, text processing, glue "
 Yes,Yes,Yes,Yes,Yes,Yes,
 " aspect-oriented, array, lazy evaluation, multiple dispatch, metaprogramming",yes
 REALbasic,Application
 ,,,Yes,,,
 ,unk
-,Rebol,Distributed
+",Rebol,Distributed
 Yes,Yes,Yes,Yes,,Yes,Yes
 dialected,no
-,RPG," Application, system "
+",RPG," Application, system "
 Yes,,,Yes,,,
 ,no
-,Ruby," Application, scripting, web "
+",Ruby," Application, scripting, web "
 Yes,Yes,Yes,,,Yes,
 aspect-oriented," 2011(JIS X 3017), 2012(ISO/IEC 30170) "
-,Rust," Application, system "
+",Rust," Application, system "
 Yes,Yes,Yes,Yes,Yes,,Yes
 concurrent,no
-,S," Application, statistics "
+",S," Application, statistics "
 Yes,Yes,Yes,Yes,,,
 ,no
-,S-Lang," Application, numerical, scripting "
+",S-Lang," Application, numerical, scripting "
 Yes,,,Yes,,,
 ,no
-,Scala," Application, distributed, web "
+",Scala," Application, distributed, web "
 Yes,Yes,Yes,,Yes,Yes,Yes
 ,De facto standard via Scala Language Specification (SLS)
-,Scheme," Education, general "
+",Scheme," Education, general "
 ,,Yes,,,,
 extensible syntax," 1998, R6RS "
-,Seed7," Application, general, scripting, web "
+",Seed7," Application, general, scripting, web "
 Yes,Yes,,,Yes,Yes,
 " multi-paradigm, extensible, structured ",no
-,Simula," Education, general "
+",Simula," Education, general "
 Yes,Yes,,,,,Yes
 " discrete event simulation, multi-threaded (quasi-parallel) program execution ",1968
-,Small Basic," Application, education, games "
+",Small Basic," Application, education, games "
 Yes,,,,,,Yes
 component-oriented,no
-,Smalltalk," Application, general, business, artificial intelligence, education, web "
+",Smalltalk," Application, general, business, artificial intelligence, education, web "
 Yes,Yes,Yes,Yes,,Yes,Yes
 " concurrent, declarative "," 1998, [ANSI "
-,SNOBOL,Text processing
+",SNOBOL,Text processing
 ,,,,,,
 ,unk
-,Standard ML,Application
+",Standard ML,Application
 Yes,,Yes,,Yes,,
 ," 1997, SML 97 "
-,Swift," Application, general "
+",Swift," Application, general "
 Yes,Yes,Yes,Yes,Yes,Yes,Yes
 " concurrent, Multi-paradigm ",no
-,Tcl," Application, scripting, web "
+",Tcl," Application, scripting, web "
 Yes,Yes,Yes,Yes,,Yes,Yes
 ,no
-,Visual Basic," Application, RAD, education, business, general, (Includes VBA), office automation "
+",Visual Basic," Application, RAD, education, business, general, (Includes VBA), office automation "
 Yes,Yes,,,Yes,,Yes
 component-oriented,no
-,Visual Basic .NET," Application, RAD, education, web, business, general "
+",Visual Basic .NET," Application, RAD, education, web, business, general "
 Yes,Yes,Yes,Yes,Yes,Yes,Yes
 " structured, concurrent ",no
-,Visual FoxPro,Application
+",Visual FoxPro,Application
 ,Yes,,,,,
 " data-centric, logic ",no
-,Visual Prolog,Application
+",Visual Prolog,Application
 Yes,Yes,Yes,,,,Yes
 " declarative, logic ",no
-,Wolfram Language,Symbolic language
+",Wolfram Language,Symbolic language
 Yes,Yes,Yes,Yes,,,
 " logic, distributed ",no
-,XL,
+",XL,
 Yes,Yes,,,,,
 concept programming,no
-,Xojo," Application, RAD, general, web "
+",Xojo," Application, RAD, general, web "
 Yes,Yes,,Yes,,Yes,Yes
 ,no
-,XPath/XQuery," Databases, data processing, scripting "
+",XPath/XQuery," Databases, data processing, scripting "
 ,,Yes,,,,
 tree-oriented," W3C 1999 XPath 1, 2010 XQuery 1, 2014 XPath/XQuery 3.0 "
-,Zsh,"Shell, scripting"
+",Zsh,"Shell, scripting"
 Yes,,,Yes,,,
 loadable modules,no

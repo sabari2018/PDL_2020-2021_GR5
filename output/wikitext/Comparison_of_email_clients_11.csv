@@ -1,4 +1,4 @@
-Client,Message templates,,,,,,Message templates individual for,Support in message templates scripts, programming languages",,,,,,
+,Message templates",,,,,,,Support in message templates scripts, programming languages",,,,,,
 ,new,reply,forward,read confirmation,save,print,,JavaScript,VBScript,PHP Scripts,Python,Regular expressions,Java,Other (specify)
 Alpine,Yes,Yes,Yes,dunno,dunno,dunno,any,No,No,No,No,dunno,No,dunno
 Becky! Internet Mail,yes,yes,yes,yes,yes,yes,anyaccountfolder,dunno,dunno,dunno,dunno,dunno,dunno
@@ -42,5 +42,5 @@ Windows Live Mail,group=NoteSTATIONERY,group=NoteSTATIONERY,dunno,group=NoteSTAT
 Windows Mail,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 YAM,yes,yes,yes,dunno,yes,yes,dunno,no,no,no,no,dunno,dunno,ARexx
 Zimbra,Yes,Yes,Yes,Yes,Yes,Yes,any,no,no,no,no,no,dunno,dunno
-Client,Message templates,,,,,,Message templates individual for,Support in message templates scripts, programming languages",,,,,,
+,Message templates",,,,,,,Support in message templates scripts, programming languages",,,,,,
 ,new,reply,forward,read confirmation,save,print,,JavaScript,VBScript,PHP Scripts,Python,Regular expressions,Java,Other (specify)

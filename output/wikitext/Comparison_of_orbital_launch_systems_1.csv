@@ -1,22 +1,22 @@
 width=120  Vehicle,Origin,Manufacturer,Payload mass to ... (kg),,,Launchesgroup=noteSuborbital flight tests and on-pad explosions are excluded, but launches failing en route to orbit are included.",Date of flight,
 ,,,LEO,GTO,Other,," Firstgroup=noteEffective year for active rockets, planned year for rockets in development",Latest
-,Alpha,USA,Firefly Aerospace,1000,,630 to SSO,0,2020,
+",Alpha,USA,Firefly Aerospace,1000,,630 to SSO,0,2020,
 Angara 1.2,RUS,Khrunichev,3500,,2400 to SSO,0," 2020group=noteA suborbital flight was conducted in 2014 as Angara-1.2pp, testing only the first and second stages.",
-Angara A5,RUS,Khrunichev,24000,7500 with KVTK  5400 with Briz-M,,1,2014,2014
+Angara A5,RUS,Khrunichev," 24000"," 7500 with KVTK  5400 with Briz-M ",,1,2014,2014
 Antares 230 / 230+,USA,NG Innovation,8200,,3000 to SSOgroup=notename=500km,6,2016,2019
 Ariane 5 ECA,Europe,EADS Astrium,21000," 10,865group=noteUpgraded to 11,115 kg by 2020",,73,2002,2019
 Ariane 6 A62,Europe,ArianeGroup," 10,35045"," 5,000",
 Ariane 6 A64,Europe,ArianeGroup," 21,65046"," 11,500+ 33"," 14,900 to SSO  5,000 to GEO  8,400 to HEO  8,500 to TLI 40–49",0,2021–2022,
-Atlas V 401,USA,ULA,9050," 4,950"," 6,670 to SSO",38,2002,2018
-Atlas V 411,USA,ULA,9050," 6,075"," 8,495 to SSO",5,2006,2018
-Atlas V 421,USA,ULA,9050," 7,000"," 9,050 to SSO",7,2007,2017
-Atlas V 431,USA,ULA,9050," 7,800"," 9,050 to SSO",3,2005,2016
-Atlas V 501,USA,ULA,8250," 3,970"," 5,945 to SSO1,500 to GEO",6,2010,2015
-Atlas V 511,USA,ULA,10950," 5,370"," 7,820 to SSO1,750 to GEO",0,–,
-Atlas V 521,USA,ULA,13300," 6,485"," 9,585 to SSO2,760 to GEO",2,2003,2004
-Atlas V 531,USA,ULA,15300," 7,425"," 11,160 to SSO3,250 to GEO",3,2010,2013
-Atlas V 541,USA,ULA,17100," 8,240"," 12,435 to SSO3,730 to GEO",6,2011,2018
-Atlas V 551,USA,ULA,18500," 8,700"," 13,550 to SSO3,960 to GEO",10,2006,2019
+Atlas V 401,USA,ULA,9050," 4,950"," 6,670 to SSO"," 38",2002,2018
+Atlas V 411,USA,ULA," 9050"," 6,075"," 8,495 to SSO"," 5",2006,2018
+Atlas V 421,USA,ULA," 9050"," 7,000"," 9,050 to SSO"," 7",2007,2017
+Atlas V 431,USA,ULA," 9050"," 7,800"," 9,050 to SSO"," 3",2005,2016
+Atlas V 501,USA,ULA," 8250"," 3,970"," 5,945 to SSO1,500 to GEO"," 6",2010,2015
+Atlas V 511,USA,ULA," 10950"," 5,370"," 7,820 to SSO1,750 to GEO",0,–,
+Atlas V 521,USA,ULA," 13300"," 6,485"," 9,585 to SSO2,760 to GEO"," 2",2003,2004
+Atlas V 531,USA,ULA," 15300"," 7,425"," 11,160 to SSO3,250 to GEO"," 3",2010,2013
+Atlas V 541,USA,ULA," 17100"," 8,240"," 12,435 to SSO3,730 to GEO"," 6",2011,2018
+Atlas V 551,USA,ULA," 18500"," 8,700"," 13,550 to SSO3,960 to GEO"," 10",2006,2019
 Atlas V 552,USA,ULA," 20,520",,,0,2020,
 N22group=notefor Starliner,USA,ULA," 13,000",,,0,2019,
 Beta,USA,Firefly Aerospace,4000,0TBATo be announced,3000 to SSO,0,TBATo be announced,
@@ -25,7 +25,7 @@ Cyclone-4M,UKR,Yuzhnoye  Yuzhmash,5000,1000,3350 to SSO,
 Delta IV Heavy,USA,ULA,28790,14220,23560 to polar  10000 to TLI  8000 to TMI,11,2004,2019
 ,Electron,USANZL,Rocket Lab,225,,150 to SSO,9,2017,2019
 Epsilon,JPN,IHI,1500,,590 to SSO,4,2013,2019
-,Eris-S,AUS  SIN,Gilmour Space Technologies,200,,,0,2021–2022,
+",Eris-S,AUS  SIN,Gilmour Space Technologies,200,,,0,2021–2022,
 Eris-L,AUS  SIN,Gilmour Space Technologies,450,,,0,TBATo be announced,
 ,Falcon 9 Full Thrust  (partially reusable),USA,SpaceX,16800+name=PAF-limitgroup=note," 5,500"," 9,600 to polar"," 45group=noteAdditionally, one rocket exploded on the launch pad in 2016.",2015,2019
 Falcon 9 Full Thrust  (expended),USA,SpaceX," 22800name=PAF-limitgroup=notePAF structural limit: 10,886 kg"," 6,500",2017,2019
@@ -34,9 +34,9 @@ Falcon Heavy  (expended),USA,SpaceX," 63,800"," 15,000–26,700"," 16,800 to TMI
 GSLV Mk II,IND,ISRO," 5000group=noteGTO payload with enhanced engines, as of GSLV version 2A",2010,2018
 ,GSLV Mk III,IND,ISRO," 10,000"," 4,000",,3,2017group=noteA suborbital test flight was conducted in 2014 (designated LVM-3/CARE) without the cryogenic upper stage (CUS).,2019
 ,H-IIA 202,JPN,Mitsubishi," 8,00067"," 4,000",2001,2018
-H-IIA 204,JPN,Mitsubishi,," 5,95048",,4,2006,2017
+H-IIA 204,JPN,Mitsubishi,," 5,95048",," 4",2006,2017
 H-IIB,JPN,Mitsubishi," 16,500 (ISS)"," 8,000",,8,2009,2019
-,H3,JPN,Mitsubishi,4000,6500,0,2020,
+",H3,JPN,Mitsubishi,4000,6500,0,2020,
 Hyperbola-1,CHN,i-Space,300,,,1,2019group=noteA suborbital test flight was conducted in April 2018.,2019
 Hyperbola-2,CHN,i-Space," 2,000",,,0,2021,
 Jielong 1,CHN,CALT,,,200 (SSO),1,2019,2019
@@ -63,20 +63,20 @@ Minotaur I,USA,NG Innovation,580,,,10,2000,2013
 Minotaur IV,USA,NG Innovation,1735,,,4,2010,2017
 Minotaur V,USA,NG Innovation,,670,465 to HCO,1,2013,2013
 Minotaur-C (Taurus),USA,NG Innovation,1458,,1054 to SSOname=400kmgroup=noteReference altitude 400 km,10,1994,2017
-,Miura 5,ESP,PLD Space,300,,,0,2021,
-,New Glenn,USA,Blue Origin," 45,000"," 13,000",,0,2021 2021,
-,New Line 1  (partially reusable),
-,Nuri (KSLV-2),KOR,KARI,1500 at 600–800 kmgroup=noteA suborbital test flight was conducted in November 2018.,
-,OmegA Intermediate,USA,NG Innovation," 22,000"," 9,200"
-,OmegA Heavy,USA,NG Innovation," 23,200"," 14,000"," 6,700 to GEO",0,2021,
+",Miura 5,ESP,PLD Space,300,,,0,2021,
+",New Glenn,USA,Blue Origin," 45,000"," 13,000",,0,2021 2021,
+",New Line 1  (partially reusable),
+",Nuri (KSLV-2),KOR,KARI,1500 at 600–800 kmgroup=noteA suborbital test flight was conducted in November 2018.,
+",OmegA Intermediate,USA,NG Innovation," 22,000"," 9,200"
+",OmegA Heavy,USA,NG Innovation," 23,200"," 14,000"," 6,700 to GEO",0,2021,
 OS-M1,CHN,OneSpace,205,,143 to SSO,1,2019group=noteA suborbital test flight was conducted in May 2018.,2019
 OS-M2,CHN,OneSpace,390,,292 to SSO,0,TBATo be announced,
 Pegasus,USA,NG Innovation,500,,,44,1990,2019
 Prime,UK,Orbex,220,,150 to SSOname=500kmgroup=noteReference altitude 500 km,0,2021,
 Proton-M / M+,RUS,Khrunichev,23000 (M+)  21600 (M),6920 (M+)  6150 (M),,108,2001,2019
-,PSLV-CA,IND,ISRO,2100,,1100 to SSO,14,2007,2019
-PSLV-DL,IND,ISRO,,,,1,2019,2019
-PSLV-QL,IND,ISRO,,,,1,2019,2019
+,PSLV-CA,IND,ISRO," 2100",,1100 to SSO," 14",2007,2019
+PSLV-DL,IND,ISRO,,,," 1",2019,2019
+PSLV-QL,IND,ISRO,,,," 1",2019,2019
 PSLV-XL,IND,ISRO,3800,21,2008,2019
 ,Rokot,RUS,Khrunichev,1950,,1200 to SSO,33
 Safir,IRI,Iranian Space Agency," 65group=noteAdditionally, two rockets exploded on the launch pad, one in 2012 and one in 2019.",2008,2019
@@ -100,15 +100,15 @@ Vega,Europe,ESA / ASI,1500name=700kmgroup=noteReference altitude 700 km,,1330 to
 Vega C,Europe,ESA / ASI,2200name=700kmgroup=note,,,0,2020,
 Vega E,Europe,ESA / ASI,3000name=700kmgroup=note,,,0,2024,
 Vikram l,IND,Skyroot aerospace,280,,200 to SSPO,0,2021,
-,Vikram ll,IND,Skyroot aerospace,520,,410 to SSPO,0,TBATo be announced,
-Vikram lll,IND,Skyroot aerospace,720,,580 to SSPO,0,TBATo be announced,
-,Vulcan / Centaur,USA,ULA," 56,000lbdisp=number"," 33,000lbdisp=number",0,2021,
+"," Vikram ll",IND,Skyroot aerospace,520,,410 to SSPO,0,TBATo be announced,
+" Vikram lll",IND,Skyroot aerospace,720,,580 to SSPO,0,TBATo be announced,
+",Vulcan / Centaur,USA,ULA," 56,000lbdisp=number"," 33,000lbdisp=number",0,2021,
 Vulcan / ACES,USA,ULA," name=vulcan-aces-calcgroup=noteCalculated as 30% more than Delta IV Heavy, per sources",name=vulcan-aces-calcgroup=note,name=vulcan-aces-calcgroup=note,0,2023,
-,Yun Feng,TWN,Taiwan National Chung-Shan Institute of Science and Technology,200,,,0,TBATo be announced,
+",Yun Feng,TWN,Taiwan National Chung-Shan Institute of Science and Technology,200,,,0,TBATo be announced,
 Yenisei,RUS,TsSKB-ProgressRSC Energia," 88,000–115,000",," 20,000 to TLI",
 ,Zenit-3F,UKR,Yuzhnoye,,,1740 to GEO,4,2011,2017
 Zenit-3SL,UKR,Yuzhmash  RSC Energia,7000,6160,,36,1999,2014
 Zenit-3SLB / 3M,UKR,Yuzhmash  RSC Energia,,3750,,6,2008,2013
-,Zero,JPN,Interstellar Technologies,,,100 to SSOname=500kmgroup=note,0,2022–2023,
+",Zero,JPN,Interstellar Technologies,,,100 to SSOname=500kmgroup=note,0,2022–2023,
 ,Zhuque-1,CHN,LandSpace,300,,200 to SSO,1,2018,2018
 Zhuque-2,CHN,LandSpace," 4,000",," 2,000 to SSO",0,2020,

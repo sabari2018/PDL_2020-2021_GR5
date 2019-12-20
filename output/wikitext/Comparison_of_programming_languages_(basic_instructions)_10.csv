@@ -1,5 +1,5 @@
 throw,handler,assertion
-Ada,raise exception_name «with string_expression»,beginstatementsexceptionwhen exception_list1 => statements;when exception_list2 => statements;...«when others => statements;»endAda_uncaught_exceptions[b],pragma Assert («Check =>» boolean_expression ««Message =>» string_expression»)[function  procedure  entry] withPre => boolean_expressionPost => boolean_expressionany_type with Type_Invariant => boolean_expression
+" Ada",raise exception_name «with string_expression»,beginstatementsexceptionwhen exception_list1 => statements;when exception_list2 => statements;...«when others => statements;»endAda_uncaught_exceptions[b],pragma Assert («Check =>» boolean_expression ««Message =>» string_expression»)[function  procedure  entry] withPre => boolean_expressionPost => boolean_expressionany_type with Type_Invariant => boolean_expression
 APL,«string_expression» ⎕SIGNAL number_expression,:Trap number«s»_expressionstatements«:Case number«s»_expressionstatements»...«:Else number«s»_expressionstatements»:EndTrap,«string_expression» ⎕SIGNAL 98/⍨~condition
 C (C99)," longjmp(state, exception);",switch (setjmp(state)) { case 0: instructions break; case exception: instructions ... },assert(condition);
 C++,throw exception;,try { instructions } catch «(exception)» { instructions } ...,
@@ -17,11 +17,11 @@ Perl,die exception;,eval { instructions }; if ($@) { instructions },dunno
 Raku,,try { instructions CATCH { when exception { instructions } ...,dunno
 Ruby,raise exception,begin instructions rescue exception instructions...  «else instructions» «ensure instructions» end,
 Smalltalk,exception raise,instructionBlock on: exception do: handlerBlock,assert: conditionBlock
-Common Lisp,(error "exception") or  (error typearguments) or  (error (make-conditiontypearguments)),(handler-case(progn instructions)(exception instructions)...) or (handler-bind(condition (lambdainstructions«invoke-restart restart args»))...)a[a],(assert condition) or (assert condition«(place)«error»») or (check-type var type)
+Common Lisp," (error "exception") or  (error typearguments) or  (error (make-conditiontypearguments))",(handler-case(progn instructions)(exception instructions)...) or (handler-bind(condition (lambdainstructions«invoke-restart restart args»))...)a[a],(assert condition) or (assert condition«(place)«error»») or (check-type var type)
 Scheme (R6RS),(raise exception),(guard (con (condition instructions) ...) instructions),dunno
-ISLISP,(error "error-string" objects) or  (signal-condition condition continuable),(with-handlerhandler form*),dunno
+ISLISP," (error "error-string" objects) or  (signal-condition condition continuable)",(with-handlerhandler form*),dunno
 Pascal,raise Exception.Create(),try Except on E: exception do begin  instructions  end; end;,dunno
-Visual Basic,Err.Raise ERRORNUMBER,With New Try: On Error Resume Next OneInstruction .Catch: On Error GoTo 0: Select Case .Number Case ERRORNUMBER instructions End Select: End With  *** Try class *** Private mstrDescription As String Private mlngNumber As Long Public Sub Catch()
+Visual Basic,Err.Raise ERRORNUMBER," With New Try: On Error Resume Next OneInstruction .Catch: On Error GoTo 0: Select Case .Number Case ERRORNUMBER instructions End Select: End With  *** Try class *** Private mstrDescription As String Private mlngNumber As Long Public Sub Catch()"
 mstrDescription = Err.Description
 mlngNumber = Err.Number
 End Sub Public Property Get Number() As Long

@@ -1,47 +1,47 @@
-,Union,Intersect,Except,Inner joins,Outer joins,Inner selects,Merge joins,Blobs and Clobs,Common Table Expressions,Windowing Functions,Parallel Query,System-versioned Tables
-4th Dimension,yes,yes,yes,yes,yes,no,no,yes,dunno,dunno,dunno,dunno
-ADABAS,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
-,Adaptive Server Enterprise,yes,dunno,dunno,yes,yes,yes,yes,yes,dunno,dunno,yes,dunno
-,Advantage Database Server,yes,no,no,yes,yes,yes,yes,yes,dunno,no,dunno,dunno
-,Altibase,yes,yes," Yes, via MINUS",yes,yes,yes,yes,yes,No,No,No,dunno
-,Apache Derby,yes,yes,yes,yes,yes,yes,dunno,yes,no,no,dunno,dunno
-,ClustrixDB,yes,no,no,yes,yes,yes,no,yes,yes,yes,yes,dunno
-,CUBRID,yes,yes,yes,yes,yes,yes,yes,yes,no,yes,dunno,dunno
-,DB2,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
-Empress Embedded Database,yes,yes,yes,yes,yes,yes,yes,yes,dunno,dunno,dunno,dunno
-,EXASolution,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,dunno
-,Firebird,yes,no,no,yes,yes,yes,yes,yes,yes,yes,dunno,dunno
-,HSQLDB,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,yes,dunno
-,H2,yes,yes,yes,yes,yes,yes,no,yes,experimental,yes,dunno,dunno
-,Informix Dynamic Server,yes,yes," Yes, via MINUS",yes,yes,yes,yes,yes,yes,yes,yes,dunno
-,Ingres,yes,no,no,yes,yes,yes,yes,yes,no,no,dunno,dunno
-,InterBase,Yes,dunno,dunno,Yes,Yes,dunno,dunno,Yes,dunno,dunno,dunno,dunno
-,Linter SQL RDBMS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
-,LucidDB,yes,yes,yes,yes,yes,yes,yes,no,dunno,dunno,dunno,dunno
-MariaDB,yes,10.3+,10.3+,yes,yes,yes,no,yes,yes,yes,no,yes
-MaxDB,Yes,dunno,dunno,Yes,Yes,Yes,no,Yes,dunno,dunno,dunno,dunno
-,Microsoft Access (JET),yes,no,no,yes,yes,yes,no,yes,no,no,dunno,dunno
-,Microsoft Visual Foxpro,yes,dunno,dunno,yes,yes,yes,dunno,yes,dunno,dunno,dunno,dunno
-,Microsoft SQL Server,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
-,Microsoft SQL Server Compact (Embedded Database),yes,no,no,yes,yes,dunno,no,yes,no,no,dunno,dunno
-,Mimer SQL,yes,yes,yes,yes,yes,yes,dunno,yes,yes,no,no,dunno
-,MonetDB,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno
-,MySQL,yes,no,no,yes,yes,yes,no,yes,8+,no,no
-OpenBase SQL,no,no,no,yes,yes,yes,yes,yes,dunno,dunno,dunno,dunno
-,OpenLink Virtuoso,yes,yes,yes,yes,yes,yes,dunno,yes,dunno,dunno,yes,dunno
-,Oracle,yes,yes," Yes, via MINUS",yes,yes,yes,yes,yes,yes 1,yes,yes,no
-,Oracle Rdb,yes,yes,yes,yes,yes,yes,yes,yes,dunno,dunno,dunno,dunno
-,Pervasive PSQL,yes,no,no,yes,yes,dunno,dunno,yes,no,no,no,dunno
-,Polyhedra DBMS,yes,yes,yes,yes,yes,no,no,yes,no,no,no,dunno
-,PostgreSQL,yes,yes,yes,yes,yes,yes,yes,yes,8.4+,yes,yes,no
-,Raima Database Manager,no,no,no,yes,yes,no,no,yes,no,no,no,dunno
-,RDM Server,yes,no,no,yes,yes,yes,no,yes,no,no,no,dunno
-,SAP HANA,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
-,solidDB,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,no,dunno
-,SQL Anywhere,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno
-,SQLite,yes,yes,yes,yes,LEFT only,yes,no,yes,3.8.3+,3.25+,no,no
-,SQream DB,ALL only,no,no,yes,yes,yes,yes,no,yes,yes,no,dunno
-,Teradata,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno
-,UniVerse,yes,yes,yes,yes,yes,yes,yes,no,no,no,dunno,dunno
+",Union,Intersect,Except,Inner joins,Outer joins,Inner selects,Merge joins,Blobs and Clobs,Common Table Expressions,Windowing Functions,Parallel Query,System-versioned Tables
+"!,yes,yes,yes,yes,yes,no,no,yes,dunno,dunno,dunno,dunno
+"!,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+,",yes,dunno,dunno,yes,yes,yes,yes,yes,dunno,dunno,yes,dunno
+,",yes,no,no,yes,yes,yes,yes,yes,dunno,no,dunno,dunno
+,",yes,yes," Yes, via MINUS",yes,yes,yes,yes,yes,No,No,No,dunno
+,",yes,yes,yes,yes,yes,yes,dunno,yes,no,no,dunno,dunno
+,",yes,no,no,yes,yes,yes,no,yes,yes,yes,yes,dunno
+,",yes,yes,yes,yes,yes,yes,yes,yes,no," yes",dunno,dunno
+,",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+"!,yes,yes,yes,yes,yes,yes,yes,yes,dunno,dunno,dunno,dunno
+,",yes,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,dunno
+,",yes,no,no,yes,yes,yes,yes,yes,yes,yes,dunno,dunno
+,",yes,yes,yes,yes,yes,yes,yes,yes,yes,no," yes",dunno
+,",yes,yes,yes,yes,yes,yes,no,yes,experimental,yes,dunno,dunno
+,",yes,yes," Yes, via MINUS",yes,yes,yes,yes,yes,yes,yes,yes,dunno
+,",yes,no,no,yes,yes,yes,yes,yes,no,no,dunno,dunno
+,",Yes,dunno,dunno,Yes,Yes,dunno,dunno,Yes,dunno,dunno,dunno,dunno
+,",Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+,",yes,yes,yes,yes,yes,yes,yes,no,dunno,dunno,dunno,dunno
+"!,yes,10.3+,10.3+,yes,yes,yes,no,yes,yes,yes,no,yes
+"!,Yes,dunno,dunno,Yes,Yes,Yes,no,Yes,dunno,dunno,dunno,dunno
+,",yes,no,no,yes,yes,yes,no,yes,no,no,dunno,dunno
+,",yes,dunno,dunno,yes,yes,yes,dunno,yes,dunno,dunno,dunno,dunno
+,",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+,",yes,no,no,yes,yes,dunno,no,yes,no,no,dunno,dunno
+,",yes,yes,yes,yes,yes,yes,dunno,yes,yes,no,no,dunno
+,",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno
+,",yes,no,no,yes,yes,yes,no,yes,8+,no,no
+"!,no,no,no,yes,yes,yes,yes,yes,dunno,dunno,dunno,dunno
+,",yes,yes,yes,yes,yes,yes,dunno,yes,dunno,dunno,yes,dunno
+,",yes,yes," Yes, via MINUS",yes,yes,yes,yes,yes,yes 1,yes,yes,no
+,",yes,yes,yes,yes,yes,yes,yes,yes,dunno,dunno,dunno,dunno
+,",yes,no,no,yes,yes,dunno,dunno,yes,no,no,no,dunno
+,",yes,yes,yes,yes,yes,no,no,yes,no,no,no,dunno
+,",yes,yes,yes,yes,yes,yes,yes,yes,8.4+,yes,yes,no
+,",no,no,no,yes,yes,no,no,yes,no,no,no,dunno
+,",yes,no,no,yes,yes,yes,no,yes,no,no,no,dunno
+,",dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+,",yes,yes,yes,yes,yes,yes,yes,yes,yes,no,no,dunno
+,",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno
+,",yes,yes,yes,yes,LEFT only,yes,no,yes,3.8.3+,3.25+,no,no
+,",ALL only,no,no,yes,yes,yes,yes,no,yes,yes,no,dunno
+,",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno
+,",yes,yes,yes,yes,yes,yes,yes,no,no,no,dunno,dunno
 ,,Union,Intersect,Except,Inner joins,Outer joins,Inner selects,Merge joins,Blobs and Clobs,Common Table Expressions,Windowing Functions,Parallel Query
 System-versioned Tables

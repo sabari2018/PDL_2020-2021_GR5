@@ -1,4 +1,4 @@
-Brand,Model,Introduced,Discontinued,Speeds(external),Gear width(with external),Ebike Max Power,Max Torque,Direct Drive,Weight (excludingauxiliary components),Intendedpurpose
+Brand,Model,Introduced,Discontinued,"Speeds(external)",Gear width(with external),Ebike Max Power,Max Torque,Direct Drive,"Weight (excludingauxiliary components)",Intendedpurpose
 Brompton,BSR (fork from Sturmey Archer),,,3,178%,,,,? g,City
 Brompton,BWR,2009,,3(x2),246% (302%),,,,940 g,City
 Enviolo,City,2019,,continuous,310%,250 w,50 Nm,n/a,?,City
@@ -8,9 +8,9 @@ Enviolo,Cargo,2019,,continuous,380%,500 w,80 Nm,n/a,?,City/Cargo
 Enviolo,Commercial,2019,,continuous,310%,250 w,50 Nm,n/a,?,City
 Fallbrook (Enviolo),NuVinci N380,2015,2018,continuous,380%,,,n/a,2450 g,City
 Fallbrook (Enviolo),NuVinci N360,2010,2014,continuous,360%,,,n/a,2450 g,City
-Fallbrook (Enviolo),Nuvinci N330,2015,2018,continuous,330%,,,n/a,2450 g,City
+Fallbrook (Enviolo),Nuvinci N330,2015,2018,continuous,330%,,,n/a,"2450 g",City
 Fallbrook (Enviolo),NuVinci N171,2007,2010,continuous,350%,,,n/a,3850–3950 g,City
-Kindernay,XIV,2016,,14,543%,,100 Nm,,1400g,Sport
+Kindernay,XIV,2016,,14,543%,,100 Nm,,"1400g",Sport
 Rohloff AG,Speedhub 500/14,1998,,14,526%,,,11th gear,1700-1825 g," Sport, Touring"
 Shimano,Alfine SG-700,2010,,11,409%,,,n/a,1600-1744 g," City, Sport"
 Shimano,Alfine SG-500,2006,,8,307%,,,,1600 g,City
@@ -24,7 +24,7 @@ SRAM,G8,2012,2015,8,260%,,,,2180,City
 SRAM,G9,2014,2015,9,292%,,,,," City, Sport"
 SRAM (Sachs),Spectro S7 (Super 7),1993,2010,7,303% (Super 7: 284%),,,,1645-1826 g,City
 SRAM (Sachs)," Spectro P5 (Pentasport), P5 Cargo",1987,2010?,5,224-251%,,,,,City
-SRAM (Sachs),Spectro T3/i-Motion 3/Torpedo Dreigang,1987,,3,187%,,,2nd gear,,City
+SRAM (Sachs)," Spectro T3/i-Motion 3/Torpedo Dreigang",1987,,3,187%,,,2nd gear,,City
 SRAM (Sachs),Neos/Spectro 3x7,1994,2000,3(x7),186% (434%),,,,,City
 SRAM (Sachs),Torpedo Duomatic/Automatic,,,2,136%,,,,,City
 Sturmey Archer,"XRF-8 (W), XRK-8 (W), XRD-8 (W)",2014,,8,325%,,,1st Gear,1770-2170 g,City/Folding

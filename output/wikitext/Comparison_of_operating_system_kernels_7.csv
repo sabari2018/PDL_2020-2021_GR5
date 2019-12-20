@@ -6,5 +6,5 @@ MINIX 3 kernel,no,no,no,no,no,no,yes,no,no,No," Tools available, cannot mount",n
 NetWare kernel,no,no,no,no,no,no,no,no,no,No,yes,no,no,no,no,yes,no,no,no,no,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,dunno,no
 ReactOS kernel,no,no,no,no,no,no,no,no,no,No,yes,no,no,no,no,yes,no,no,no,no
 Solaris kernel,dunno,dunno,dunno,dunno,dunno,dunno,yes,dunno,dunno,dunno,yes,dunno,dunno,dunno,dunno,yes,dunno,dunno,dunno,dunno,no,no,dunno,dunno,dunno,yes,yes,dunno,yes,no,no,no,no,no,dunno,no
-Windows NT kernel,dunno,dunno,dunno,dunno,dunno,dunno,Yes,Yes,Yes,Yes,no,yes,dunno,dunno,dunno,dunno,no,yes,dunno,dunno,dunno,yes,dunno,dunno,no,no,no,Yes,no,no,yes,yes
-XNU,No,No,No,No,No,No,Yes,Yes,No,no,Yes,No,Yes,Yes,No,Yes,No,No,No,No,No,Read-Only,No,No,No,Yes,Yes,No,read only,no,no,no,no,no,yes,no
+Windows NT kernel,dunno,dunno,dunno,dunno,dunno,dunno,Yes,Yes,Yes," Yes",no,yes,dunno,dunno,dunno,dunno,no,yes,dunno,dunno,dunno,yes,dunno,dunno,no,no,no," Yes",no,no,yes,yes
+XNU,No,No,No,No,No,No,Yes," Yes",No,no,Yes,No,Yes,Yes,No,Yes,No,No,No,No,No,Read-Only,No,No,No,Yes,Yes,No,read only,no,no,no,no,no,yes,no

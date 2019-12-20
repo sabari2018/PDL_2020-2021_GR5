@@ -1,5 +1,5 @@
-Implementation,brainpoolP256r1(26),brainpoolP384r1(27),Curve448Ed448-Goldilocks,M221Curve2213,E222,Curve1174,E382,M383,Curve383187,Curve41417Curve3617,M511Curve511187,E521
-Botan,yes,yes,yes,yes,no,no,no,no,no,no,no,no,no,no
+Implementation,brainpoolP256r1(26),brainpoolP384r1(27),Curve448Ed448-Goldilocks,M221Curve2213," E222"," Curve1174"," E382"," M383"," Curve383187"," Curve41417Curve3617"," M511Curve511187"," E521"
+Botan,yes," yes"," yes"," yes",no,no,no,no,no,no,no,no,no,no
 BoringSSL,no,no,no,yes,no,no,no,no,no,no,no,no,no,no
 GnuTLS,no,no,no,yes,no,no,no,no,no,no,no,no,no,no
 JSSE,no,no,no,Yes(JDK 13+),no,no,no,no,no,no,no,no,no,no
@@ -13,4 +13,4 @@ RSA BSAFE,no,no,no,no,no,no,no,no,no,no,no,no,no,no
 [https://developer.apple.com/library/mac/documentation/Security/Reference/secureTransportRef/index.html Secure Transport],no,no,no,no,no,no,no,no,no,no,no,no,no,no
 wolfSSL,yes,yes,yes,yes,no,no,no,no,no,no,no,no,no,no
 Erlang/OTP SSL application,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no
-Implementation,brainpoolP256r1(26),brainpoolP384r1(27),brainpoolP512r1(28),Curve25519,Curve448Ed448-Goldilocks,M221Curve2213,E222,Curve1174,E382,M383,Curve383187,Curve41417Curve3617,M511Curve511187,E521
+Implementation,brainpoolP256r1(26),brainpoolP384r1(27),brainpoolP512r1(28),Curve25519,Curve448Ed448-Goldilocks,M221Curve2213,E222,Curve1174,E382,M383,Curve383187,Curve41417Curve3617,M511Curve511187," E521"

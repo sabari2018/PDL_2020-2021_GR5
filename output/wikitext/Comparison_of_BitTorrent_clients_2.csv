@@ -21,8 +21,8 @@ Miro,Yes,Yes,Yes,Yes,No,No,No
 MLDonkey,Yes,Yes,Yes,Yes,No,No," Solaris, MorphOS"
 μTorrent,Yes,Yes,Web,No,No,Yes,No
 OneSwarm,Yes,Yes,Yes,No,No,No,No
-Opera 12,Yes,Yes,Yes,Yes,No,date=March 2017,Solaris
-qBittorrent,Yes,Yes,eComStation
+Opera 12,Yes,Yes," Yes"," Yes",No,date=March 2017,Solaris
+qBittorrent,Yes,Yes," eComStation"
 rTorrent," Yes, through Cygwin",Yes,Yes,Yes,No,No,Solaris
 Shareaza,Yes,No,No,No,No,No,No
 SymTorrent,No,No,No,No,No,No,Symbian
@@ -30,7 +30,7 @@ Tixati,Yes,No,Yes,No,No,No,No
 Tomato Torrent,No,Yes,No,No,No,No,No
 Tonido,Yes,Yes,Yes,Yes,No,No,No
 TorrentFlux,Yes,Yes,Yes,Yes,No,No,No
-Transmission,Yes,Yes,Yes,Yes," Yes, through Cydia",No," Solaris, OpenWrt"
+Transmission," Yes ",Yes,Yes,Yes," Yes, through Cydia",No," Solaris, OpenWrt"
 Tribler,Yes,Yes,Yes,Yes,No,No,No
 Vuze,Yes,Yes,Yes,Yes,No,Yes,No
 Xunlei,Yes,Yes,No,No,Yes,date=March 2017,No

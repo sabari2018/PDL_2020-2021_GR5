@@ -22,4 +22,4 @@ Lphant,no,yes,yes,yes,yes,yes,yes,CCH (similar to ICH),no,yes,no,yes,no,Version 
 MLDonkey,yes,no,yes,yes,yes,dunno,no,yes,no,yes,yes,yes,no,no,no
 Shareaza,yes,no,yes,yes,yes,yes,yes,no,yes,no,yes,yes,no,no,no
 xMule,no,no,no,no,yes,no,no,no,no,no,yes,no,no,no,no
-Client,,[http://wiki.emule-web.de/index.php/English:IP2country IP to Country],Protocol Obfuscation,Buddy list,Send FILERATING tags to servers,[http://wiki.emule-web.de/index.php/English:Faster_Endgame EndGame],[https://web.archive.org/web/20061012230859/http://www.amule.org/wiki/index.php/AICH AICH],L2HAC,Secure User ID,Global Searches,UPnP port mapping,Intelligent Chunk Selection,[http://wiki.emule-web.de/index.php/Lancast Lancast],HideOS / SotN
+Client,,[http://wiki.emule-web.de/index.php/English:IP2country IP to Country],Protocol Obfuscation,Buddy list,Send FILERATING tags to servers,[http://wiki.emule-web.de/index.php/English:Faster_Endgame EndGame],[https://web.archive.org/web/20061012230859/http://www.amule.org/wiki/index.php/AICH AICH],L2HAC ",Secure User ID,Global Searches,UPnP port mapping",Intelligent Chunk Selection,[http://wiki.emule-web.de/index.php/Lancast Lancast],HideOS / SotN

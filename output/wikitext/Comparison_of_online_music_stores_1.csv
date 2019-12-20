@@ -7,7 +7,7 @@ Beatport,7.8,yes,Web,no,no,16-bit,16-bit,no,320 kbps,0No,no,no,120,no,dunno
 Bleep.com,0?,no,Web,16-bit,no,24-bit,no,0No,320 kbps,0No,no,no,999Full,no,dunno
 CD Baby,3,dunno,Web,no,no,no,no,0No,320 kbps,0No,no,no,30,no,dunno
 Classical Archives,0.62,yes,Web,no,no,no,no,0No,320 kbps,0No,no,no,60,yes,dunno
-eMusic,17,yes,Web,no,no,no,no,0No,320 kbps,0No,no,no,30,yes,dunno
+eMusic,17,yes,Web,no,no,no,no,0No,320 kbps,0No,no,no," 30",yes,dunno
 Google Play Music,40,Yes," Web, Android, iOS",no,no,no,no,0No,320 kbps,0No,no,no,90,no,yes
 HDtracks,0?,yesUS,Web,24-bit,24-bit,24-bit,24-bit,0No,0No,0No,no,no,30,no,dunno
 iTunes Store,43,yes," Windows, macOSiOS, tvOS",no,no,no,no,256 kbps,0No,0No,no,no(previously FairPlay),90,no,Apple Music
@@ -19,7 +19,7 @@ mora,4.4,YesJapan,Web,24-bit,no,no,no,320 kbps,0No,0No,no,no,30,no,dunno
 Nimbit,1,no,Web,yes,no,yes,no,0No,320 kbps,0No,no,no,999Full + Custom,yes,dunno
 NoiseTrade,0?,no,Web,no,no,no,no,0No,320 kbps,0No,no,no,999Full,Free,dunno
 ProStudioMasters,dunno,yes,Web,24-bit,no,no,24-bit,no,no,0No,no,no,30,no,dunno
-Qobuz,28,yes," Web, Android, iOSKindle, Windows 8",24-bit,24-bit,24-bit,24-bit,320 kbps,320 kbps,320 kbps,no,no,3030-60,yes,dunno
+Qobuz,28,yes," Web, Android, iOSKindle, Windows 8",24-bit,24-bit,24-bit,24-bit,320 kbps,320 kbps,320 kbps,no,no,3030-60," yes",dunno
 Supraphononline,4.3,no,Web,16+24-bit,no,no,no,0No,320 kbps,0No,no,no,3030+30,no,dunno
 Tidal,40,yes,Web,16-bit,no,no,no,0No,320 kbps,0No,no,no,30,no,dunno
 Store,Tracks(million),Geographicrestrictions,Purchase Platform,FLAC,ALAC,WAV,AIFF,AAC,MP3,WMA,Vorbis,DRM,Preview (s),Trial,Streamingavailable

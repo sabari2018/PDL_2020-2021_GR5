@@ -5,10 +5,10 @@ Bourne shell recent version,partial (prefix and suffix stripping in variable exp
 bash (v4.0),partial (prefix and suffix stripping in variable expansion),yes,yes,"Yes (*, ?, [...], {...})",no,yes (**/...)
 csh,Yes (:s and other editing operators),yes,no,yes,no,no
 tcsh,Yes (:s and other editing operators),yes,yes,yes,no,no
-Hamilton C shell,"Yes (:s and other editing operators + substr, strlen, strindex, printf, reverse, upper, lower, concat and other builtin functions)",yes,no,yes,no,Yes (via indefinite directory "..." wildcard)
+Hamilton C shell,"Yes (:s and other editing operators + substr, strlen, strindex, printf, reverse, upper, lower, concat and other builtin functions)",yes,no,yes,no,"Yes (via indefinite directory "..." wildcard)"
 Scsh,?,?,yes,yes,no,no
 ksh (ksh93t+),"partial (prefix, suffix stripping and string replacement in variable expansion)",yes,yes,"Yes (*, ?, [...])",no,"yes (with set -G, no following of symlinks)"
-pdksh,?,yes,no,yes,no,no
+pdksh,?,"yes",no,yes,no,no
 zsh,"yes (through variable processing: e.g. substring extraction, various transformations via parameter expansion)",yes,yes,"Yes (*, ?, [...], extended globbing)",yes,yes (**/... or ***/... to follow symlinks)
 ash,?,?,no,yes,no,no
 CCP,no,no,no,no,no,no

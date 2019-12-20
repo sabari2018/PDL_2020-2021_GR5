@@ -13,6 +13,6 @@ SVN Notifier,C#,Microsoft Windows,GPL," GUI, standalone. It needs TortoiseSVN in
 TortoiseSVN," C++, MFC",Microsoft Windows (32/64-bit),GPL,Windows Shell (Explorer),54 languages (including en)," http, https, svn, svn+ssh, file, svn+XXX",1.12.0,20170810format=hide20190425br=yes,yes," Diff, merge, Revision Tree, blame"
 Trac,Python," Linux, Unix, Mac OS X, Microsoft Windows",Modified BSD,web-based,[31 languages][http://trac.edgewall.org/wiki/TracL10N#Translationcoordination],file,1.2.4,20190717format=hide20190717br=yes,yes,Log
 Version Control for engineers,-,Windows,freeware," GUI, standalone",English," http, https, svn, file",0.20,20161110format=hide20161110br=yes,No," Internal image diff, external diff, diff for MS Word doc, MS Visio VSD drawings, DWG and DXF drawings, Kompas CDW, commit logging"
-ViewVC,Python," http, https","two-clause Berkeley-style",web-based,English," http, https, svn, svn+ssh, file",1.1.23,20141104format=hide20141104br=yes,dunno," Diff, annotation, blame, revision graph"
+ViewVC,Python," http, https"," "two-clause Berkeley-style"",web-based,English," http, https, svn, svn+ssh, file",1.1.23,20141104format=hide20141104br=yes,dunno," Diff, annotation, blame, revision graph"
 VisualSVN,,Microsoft Windows (32/64-bit),proprietary,Microsoft Visual Studio (all editions except Express),English," http, https, svn, svn+ssh, file",7.1.2,20190731format=hide20190731br=yes,yes,dunno
 Xcode," Objective-C, Cocoa",Mac OS X," Proprietary, free on Mac App Store",Xcode IDE,English,,5.0.1 (4H127),20131022format=hide20131022br=yes,dunno,dunno

@@ -12,11 +12,11 @@ uppercase(string),Delphi)
 upcase(char),Delphi) (operates on one character)
 strtoupper(string),PHP
 upper(string),Seed7
-echo "string"  tr a-z A-Z,Unix
+"echo "string"  tr a-z A-Z ",Unix
 " translate(string), or UPPER variables, or PARSE UPPER VAR  SrcVar DstVar",Rexx
 string.upper(),Python
 upcase(string),Pick Basic
-string.upcase,Ruby
+string.upcase,"Ruby "
 strings.ToUpper(string),Go
 (string-upcase string),"Scheme, Common Lisp"
 String.uppercase string,OCaml

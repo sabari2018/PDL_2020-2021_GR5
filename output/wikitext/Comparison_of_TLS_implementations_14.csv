@@ -3,7 +3,7 @@ Botan,No
 cryptlib,No
 GnuTLS,Disabled by default
 JSSE,No
-LibreSSL,No
+LibreSSL," No"
 MatrixSSL,Disabled by default
 mbed TLS,Disabled by default
 NSS,Disabled by default

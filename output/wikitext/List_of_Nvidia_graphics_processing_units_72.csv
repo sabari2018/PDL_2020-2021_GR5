@@ -1,9 +1,9 @@
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,Nvidia Optimustechnology,TBP (Watts)
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1",Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,Nvidia Optimustechnology,TBP (Watts)
 ,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,
-Quadro M500M,GM108,28,PCIe 3.0 ×16,rowspan="3",,1253(5012),384:24:8(3 SMM),rowspan="6",,2048,40.1,GDDR5,64,,12.1,4.5,Yes,25
-Quadro M600M,GM107,,,384:24:16(3 SMM),,,80.2,128,,,30,,,,,
+Quadro M500M,GM108,28",PCIe 3.0 ×16",rowspan="3" ",,1253(5012)",384:24:8(3 SMM),rowspan="6" ",,2048",40.1,GDDR5",64,",12.1",4.5",Yes",25
+Quadro M600M,GM107",,,384:24:16(3 SMM),,,80.2",128",,,30,,,,,
 Quadro M1000M,,,,512:32:16(4 SMM),,,,,,,40,,,,,
-Quadro M2000M,,,,1098,,,,,,1098,640:40:16(5 SMM),,4096,1390,,,,55
-Quadro M3000M,GM204,rowspan="2",,,1024:64:32(8 SMM),160.4,256,,,75,,,,,
-Quadro M4000M,,,,1280:80:48(10 SMM),100,,,,,,,,
+Quadro M2000M,,,,1098,,,,,,1098,640:40:16(5 SMM),,4096",1390,,,,55
+Quadro M3000M,GM204",rowspan="2" ",,,1024:64:32(8 SMM),160.4",256",",,75,,,,,
+Quadro M4000M,,,,1280:80:48(10 SMM),100",,,,,,,,
 Quadro M5000M,,,962,962,,,,1536:96:64(12 SMM),61.6,92.4,8192,2955.3,,,

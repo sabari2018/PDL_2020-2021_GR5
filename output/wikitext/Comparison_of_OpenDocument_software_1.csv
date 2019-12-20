@@ -1,4 +1,4 @@
-,Version,Operating systems,Office suite,Developer,License,ISO/IEC 26300:2006,Notes
+",Version,Operating systems,Office suite,Developer,License,ISO/IEC 26300:2006,Notes
 AbiWord,2.4.2," Windows, Unix-based systems",,AbiSource,GPL,yes,Only supports basic ODT documents. Complex ones created in OpenOffice are likely to be broken in AbiWord.
 Calligra Words,2.4+," Windows, Unix-based systems",Calligra Suite,KDE Project,GPL / LGPL,yes
 Google Docs  ; Spreadsheets,2006,Any (Web-based),Standalone or Google Apps,Google,Proprietary,yes,

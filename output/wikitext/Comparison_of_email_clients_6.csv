@@ -1,4 +1,4 @@
-Client,Regular,,MSN (NTLM) browser login,Compuserve (RPA),MD5 APOP group=NoteAPOP,CRAM-HMAC group=NoteHMAC,,,DIGEST-MD5,with hardware token PKCS#11,Biometric,SMTP Auth group=NoteSMTPAUTH,X.509 Client certificate,OAUTH
+Client",Regular",,MSN (NTLM) browser login",Compuserve (RPA)",MD5 APOP group=NoteAPOP",CRAM-HMAC group=NoteHMAC",,,DIGEST-MD5",with hardware token PKCS#11",Biometric",SMTP Auth group=NoteSMTPAUTH",X.509 Client certificate",OAUTH"
 ,LOGIN,PLAIN,,,,MD5,SHA1,RIPEMD,,,,,,
 Alpine,yes,yes,no,no,no,yes,no,no,no,no,no,yes,no,dunno
 Apple Mail,yes,yes,no,no,dunno,dunno,dunno,dunno,dunno,dunno,yes,yes,yes,dunno
@@ -35,7 +35,7 @@ Pegasus Mail,yes,dunno,no,no,yes,no,no,no,no,no,no,yes,yes,dunno
 Pine,yes,yes,no,no,no,yes,no,no,no,no,no,yes,no,dunno
 Pocomail,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 RoundCube,yes,yes,dunno,dunno,yes,yes,yes,dunno,yes,yes,dunno,yes,dunno,dunno
-SeaMonkey Mail  ; Newsgroups,yes,yes,yes,no,yes,yes,no,no,no,yes,no,yes,yes,dunno
+SeaMonkey Mail  ; Newsgroups,yes,yes,yes,no,yes,yes,no,no," no",yes,no,yes,yes,dunno
 SquirrelMail,yes,yes,dunno,dunno,yes,yes,yes,dunno,yes,yes,dunno,yes,dunno,dunno
 Sylpheed,yes,yes,no,no,yes,yes,no,no,no,no,no,yes,no,no
 The Bat!,yes,yes,yes,yes,yes,yes,no,no,no,group=NoteTheBat,group=NoteTheBat,yes,no,yes
@@ -45,5 +45,5 @@ Windows Live Mail,yes,no,yes,no,yes,no,no,no,no,no,no,no,no,dunno
 Windows Mail,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 YAM,yes,yes,dunno,dunno,yes,yes,dunno,dunno,dunno,dunno,dunno,yes,AmiSSL,dunno
 Zimbra,yes,yes,dunno,dunno,yes,yes,dunno,dunno,dunno,yes,dunno,group=NoteZimbra,dunno,dunno
-Client,Regular,,MSN (NTLM) browser login,Compuserve (RPA),MD5 APOP group=NoteAPOP,CRAM-HMAC group=NoteHMAC,,,DIGEST-MD5,with hardware token PKCS#11,Biometric,SMTP Auth group=NoteSMTPAUTH,SSL/TLS Client Certificate,OAUTH
+Client",Regular",,MSN (NTLM) browser login",Compuserve (RPA)",MD5 APOP group=NoteAPOP",CRAM-HMAC group=NoteHMAC",,,DIGEST-MD5",with hardware token PKCS#11",Biometric",SMTP Auth group=NoteSMTPAUTH",SSL/TLS Client Certificate",OAUTH"
 ,LOGIN,PLAIN,,,,MD5,SHA1,RIPEMD,,,,,,

@@ -1,4 +1,4 @@
-Editor,Site,Latest version," Style, clone of",Cost (US$),Software license,Open source,Browser support,Activity
+",Site,Latest version," Style, clone of",Cost (US$),Software license,Open source,Browser support,Activity
 Ace," [http://ace.c9.io/ Home], [http://ace.c9.io/build/kitchen-sink.html demo]"," [https://github.com/ajaxorg/ace/tags 1.4.2], 2018-11-21",Sublime Text / Microsoft Visual Studio,free,New BSD License,[https://github.com/ajaxorg/ace Yes]," Firefox 3.5+, Safari 4+, Chrome, IE 8+, Opera 11.5+",yes
 Atom,[http://atom.io/ Home]," [https://atom.io/releases 1.7.3], 2016-04-28","  Emacs, Vim and others",Free,Dual,Yes,Chrome,yes
 CodeMirror," [http://codemirror.net/ Home], [http://codemirror.net/mode/htmlmixed/ demo]"," [https://github.com/codemirror/CodeMirror/tags 5.39.0], 2018-06-20",plain textarea,free,MIT-like,[https://github.com/marijnh/CodeMirror Yes]," Firefox 3+, Chrome, Safari 3+, Internet Explorer 8+, Opera 9+",yes

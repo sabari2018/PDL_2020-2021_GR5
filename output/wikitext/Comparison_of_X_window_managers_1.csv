@@ -1,4 +1,4 @@
-Name,Language,License,Type,Configurable titlebar buttons,Graphical configuration,Hotkeys,ICCCM/EWMH compliant,Panel for window switching,Tabbed windows,Themeable,Memory (MB),Initial Release,Latest Stable Release
+Name,Language,License,Type,Configurable titlebar buttons,Graphical configuration,Hotkeys,ICCCM/EWMH compliant,Panel for window switching,Tabbed windows,Themeable,Memory (MB),"   Initial Release","   Latest Stable Release"
 2bwm,C,,Stacking,,no,yes,,,,yes,,
 9wm,C,MIT,Stacking,no,no,no,,yes,no,no,0.4,1994
 aewm,C,MIT,Stacking,no,no,no,yes,yes,no,no,,

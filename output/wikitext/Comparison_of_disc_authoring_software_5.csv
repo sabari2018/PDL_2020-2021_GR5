@@ -1,6 +1,6 @@
-Application,bin/cue,Apple disk image,img,ISO image,Nero CD image,cue
+",bin/cue,Apple disk image,img,ISO image,Nero CD image,cue
 Alcohol 120%,yes,no,no,yes,yes,no
-CDBurnerXP,partial,no,no,yes,partial,yes
+CDBurnerXP,partial,no,no,yes," partial",yes
 cdrtools,yes,dunno,dunno,yes,no,yes
 DeepBurner,dunno,dunno,dunno,yes,dunno,dunno
 ExpressBurn,no,no,no,yes,no,no

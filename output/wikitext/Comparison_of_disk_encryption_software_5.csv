@@ -3,7 +3,7 @@ Aloaha Crypt Disk,no,no,no,yes,yes,dunno
 ArchiCrypt Live,no,no,no,Legacy support,yes,dunno
 BestCrypt,no,yes,no,yes,yes,dunno
 BitArmor DataControl,no,yes,Plumb-IV,no,no,dunno
-BitLocker,no,yes,No,No," Yes, Windows 10 10547+",dunno
+BitLocker,no," yes",No,No," Yes, Windows 10 10547+",dunno
 Bloombase Keyparc,dunno,yes,dunno,dunno,dunno,dunno
 CGD,no,yes,no,no,no,dunno
 CenterTools DriveLock,dunno,dunno,dunno,dunno,dunno,dunno

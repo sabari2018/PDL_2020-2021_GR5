@@ -1,4 +1,4 @@
-,ZIP,TAR,gzip,bzip2,7z,xz,RAR,LHA/LZH,ACE,StuffIt,StuffIt X,ARJ,KGB,DAR,ARC,CAB,ALZ,ISO/CD Image,ZPAQ
+",ZIP,TAR,gzip,bzip2,7z,xz,RAR,LHA/LZH,ACE,StuffIt,StuffIt X,ARJ,KGB,DAR,ARC,CAB,ALZ,ISO/CD Image,ZPAQ
 7-Zip,yes,yes,writing-7-Zip14,writing-7-Zip14,yes,writing-7-Zip14,no,no,no,no,no,no,no,no,no,no,no,no,no
 ALZip6,yes,yes,yes,yes,no,unk,no,no,no,no,no,no,no,no,no,yes,yes,unk,no
 Archive Manager,yes,yes,yes,yes,yes,yes,writing-archivemanager12,yes,unk,unk,unk,yes,unk,unk,unk,unk,unk,no,no

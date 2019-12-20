@@ -16,9 +16,9 @@ string[n],Pick Basic
 (string-take-right string n),Scheme (SRFI 13)
 string[-n..-1],"Ruby, Ya"
 string[$-n .. $],D
-String.sub string (String.length string - n) n,OCaml
+String.sub string (String.length string - n) n,"OCaml"
 " string.sub(string, -n)  (string):sub(-n)",Lua
 string last: n,"Smalltalk (Squeak, Pharo)"
-" StringTake[string, -n]",Mathematica
+" StringTake[string, -n]","Mathematica"
 string (1:n),COBOL
 ¯n↑string.,APL

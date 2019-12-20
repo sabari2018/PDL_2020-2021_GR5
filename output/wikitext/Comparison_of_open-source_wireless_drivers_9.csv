@@ -1,5 +1,5 @@
-Driver,Chipset,Integration,Free firmware,License,Development,Free software
-[https://archive.is/20051124094349/http://www.opensolaris.org/os/community/laptop/wireless/ath/ ath],Atheros AR5211/ AR5212/ AR5213/ AR5214,Integrated with Solaris Nevada build 29,No firmware required,Dual GPL/BSD with proprietary HAL,Port of Madwifi,no
+Driver,Chipset,Integration," Free firmware",License,Development," Free software"
+[https://archive.is/20051124094349/http://www.opensolaris.org/os/community/laptop/wireless/ath/ ath],Atheros AR5211/ AR5212/ AR5213/ AR5214,Integrated with Solaris Nevada build 29," No firmware required",Dual GPL/BSD with proprietary HAL,Port of Madwifi,no
 [https://archive.is/20051214023112/http://www.opensolaris.org/os/community/laptop/wireless/ipw/ ipw],Intel PRO/Wireless 2100,Community project,no,BSD,Ported from OpenBSD,yes
 [https://archive.is/20060213195115/http://www.opensolaris.org/os/community/laptop/wireless/iwi/ iwi],Intel PRO/Wireless 2200BG/2225BG/2915ABG,Community project,no,BSD,Ported from OpenBSD,yes
 [https://web.archive.org/web/20060523022050/http://www.opensolaris.org/os/community/laptop/wireless/pcan/ pcan],Cisco Aironet 340/350,Community project,n/a,BSD,Ported from FreeBSD,yes

@@ -1,4 +1,4 @@
-Name,,,,,,,,,,,,,,,,,,,Implementation Language,Active; Passive,Model,Typical input,Other input,Typical output
+Name,,,,,,,,,,,,,,,,,,,Implementation Language,Active; Passive," Model",Typical input,Other input,Typical output
 Xomega.Net for Visual Studio,,,,,,,,,,,,,,,,,,," C#, XSL, XSD",Active,Mixed," User-defined models, XML"," Templates, Import from DB"," Complete Application - User Interface (HTML5, ASP.NET, WPF, SPA), Service Layer (REST, WCF), Business Layer (EF), DAL, DB scripts, Config files, VS project files"
 Acceleo,,,,,,,,,,,,,,,,,,,Java,Active,Tier," User-defined EMF based models (UML, Ecore, user defined metamodels)"," Any EMF based input (Xtext DSLs, GMF graphical models, etc.)",Any textual language.
 Accelerator,,,,,,,,,,,,,,,,,,,C#,Active,Tier,Database schema,"XML Schema, Templates and configuration tables","C#, WPF, ASP.NET, MVC, ASP.NET, WCF, WebServices(complete application)"

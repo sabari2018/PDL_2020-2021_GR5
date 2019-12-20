@@ -1,4 +1,4 @@
-,Collapsible sections,Find and replace using RegEx,Intelligent error handling,Autocompletion of LaTeX commands,Parenthesis matching,Starts up to previous state,Unicode support,RTL Support,
+",Collapsible sections,Find and replace using RegEx,Intelligent error handling,Autocompletion of LaTeX commands,Parenthesis matching,Starts up to previous state,Unicode support,RTL Support,"
 ,AUCTeX,yes,yes,yes,yes,yes,yes,yes,yes,AUCTeX
 ,Authorea,no,yes,no,no,yes,yes,yes,?,Authorea
 ,Auto-Latex Equations for Google Docs,no,yes,no,no,no,yes,yes,?,Auto-Latex Equations for Google Docs
@@ -23,4 +23,4 @@ Texmaker,yes,yes,yes,yes,yes,yes,yes,yes,Texmaker
 ,Verbosus,no,no,yes,yes,yes,no,yes,?,Verbosus
 ,WinEdt,yes,yes (modified),yes,yes,yes,yes,yes,yes,WinEdt
 ,WinShell,yes,yes,yes,yes,yes,no (just same files),yes,?,WinShell
-class="sortbottom",,Collapsible sections,Find and replace using RegEx,Intelligent error handling,Autocompletion of LaTeX commands,Parenthesis matching,Starts up to previous state,Unicode support,RTL Support,
+"class="sortbottom"",,Collapsible sections,Find and replace using RegEx,Intelligent error handling,Autocompletion of LaTeX commands,Parenthesis matching,Starts up to previous state,Unicode support,RTL Support,"

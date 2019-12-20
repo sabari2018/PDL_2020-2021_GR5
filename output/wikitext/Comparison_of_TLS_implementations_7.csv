@@ -10,8 +10,8 @@ mbed TLS,yes,yes,yes,yes,no,no
 NSS,yes,yes,yes,yes,no,no
 OpenSSL,yes,yes,yes,yes,yes,no
 RSA BSAFE,yes,yes,yes,yes,no,no
-SChannel,unknown,yes,yes,yes,no,no
+SChannel,unknown,yes,yes," yes",no,no
 [https://developer.apple.com/library/mac/documentation/Security/Reference/secureTransportRef/index.html Secure Transport],yes,yes,yes,yes,no,no
 wolfSSL,yes,yes,yes,yes,no,no
 Erlang/OTP SSL application,yes,yes,yes,no,no,no
-Implementation,Application-defined,PKIX path validation,CRL,OCSP,DANE (DNSSEC),Trust on First Use (TOFU),
+Implementation,Application-defined," PKIX path validation"," CRL"," OCSP"," DANE (DNSSEC)",Trust on First Use (TOFU),

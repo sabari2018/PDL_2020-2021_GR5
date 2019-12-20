@@ -1,4 +1,4 @@
-System,Creator,License,Implementation language(s),Back end,Launch date,class="unsortable"  Refs
+System,Creator,License,Implementation language(s),Back end,Launch date," class="unsortable"  Refs "
 Apache Bloodhound,Apache Software Foundation,Apache License,Python," MySQL, PostgreSQL, SQLite",2012,
 Assembla Tickets,Assembla," Proprietary, hosted. Available for free for open source projects",Ruby,MySQL,2008,
 Axosoft,Axosoft LLC," Proprietary, Saas"," C#, .NET",SQL Server,2002,
@@ -37,4 +37,4 @@ Twproject,Open Lab," Proprietary, some parts LGPL",Java,all relational (uses Hib
 Usersnap,Usersnap GmbH,Proprietary," Python, JavaScript"," MongoDB,",2013,
 Wrike," Wrike, Inc."," Proprietary, hosted",Java,PostgreSQL,2006,
 YouTrack,JetBrains s.r.o.," Proprietary, stand-alone and hosted, free version, free for open source projects",Java,Kotlin,2009,
-System,Creator,License,Implementation language(s),Back end,Launch date,class="unsortable"  Refs
+System,Creator,License,Implementation language(s),Back end,Launch date," class="unsortable"  Refs  "

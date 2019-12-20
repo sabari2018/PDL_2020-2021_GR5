@@ -1,4 +1,4 @@
-Client,Message file format,Encrypted database,Virtual folders,Scheduled backup,New mail notification,,,,Customizable interface,Customizable keybindings,Fragmented messages group=NoteFragmentedMessages,Database search with regular expressions support,Indexed search,Search folders group=NoteSearchfolders,IMAP,,,
+Client",Message file format",Encrypted database",Virtual folders",Scheduled backup",New mail notification",,,,Customizable interface",Customizable keybindings",Fragmented messages group=NoteFragmentedMessages",Database search with regular expressions support",Indexed search",Search folders group=NoteSearchfolders",IMAP",,,
 ,,,,,ticker,tray icon,tooltip,sound,,,,,,,Search,IDLE
 Alpine," MIX, MH, mx, news, phile",dunno,yes,partial,dunno,dunno,dunno,yes,yes,no,dunno,no,yes,yes,yes,no
 Becky! Internet Mail,mbox,dunno,dunno,no,yes,dunno,yes,yes,dunno,dunno,dunno,yes,dunno,yes,yes,yes
@@ -38,12 +38,12 @@ i.Scribe / InScribe,Proprietary (sqlite),no,no,no,no,yes,no,yes,yes,no,no,no,no,
 SeaMonkey Mail  ; Newsgroups,mbox,dunno,dunno,dunno,yes,yes,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,yes,yes
 SquirrelMail,[IMAP Server],dunno,dunno,dunno,Yes,No,No,Yes,Yes,Yes,dunno,dunno,dunno,Yes,Yes,dunno
 Sylpheed,MH,no,yes,no,dunno,yes,dunno,dunno,yes,yes,no,group=NoteGrepMH,group=NoteGrepMH,yes,dunno,no
-The Bat!,Proprietary,Yes (group=NoteTBEncryptedDB,yes,yes,yes,yes,no,yes,yes,yes,yes,yes (PCRE 6.2),no,yes,yes,yes
+The Bat!,Proprietary,",yes,yes,yes,yes,no,yes,yes,yes,yes,yes (PCRE 6.2),no,yes,yes,yes
 Trojitá,IMAP,no,no,no,no,yes,no,no,yes,yes,no,no,yes,no,yes,yes
 Turnpike,Proprietary,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,yes,dunno,dunno,yes,dunno,dunno
 Windows Live Mail,File System (.eml),no,no,no,no,yes,dunno,yes,yes,no,yes,no,yes,yes,dunno,dunno
 Windows Mail,dunno,dunno,dunno,dunno,dunno,dunno,dunno,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,yes
 YAM," mbox, maildir, oe-dbx",no,no,no,dunno,dunno,yes,yes,yes,no,no,no,no,no,no,no
 Zimbra,File system,No,Yes,Yes,dunno,dunno,dunno,dunno,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Client,Message file format,Encrypted database,Virtual folders,Scheduled backup,New mail notification,,,,Customizable interface,Customizable keybindings,Fragmented messages group=NoteFragmentedMessages,Database search with regular expressions support,Indexed search,Search folders group=NoteSearchfolders,IMAP,,,
+Client",Message file format",Encrypted database",Virtual folders",Scheduled backup",New mail notification",,,,Customizable interface",Customizable keybindings",Fragmented messages group=NoteFragmentedMessages",Database search with regular expressions support",Indexed search",Search folders group=NoteSearchfolders",IMAP",,,
 ,,,,,ticker,tray icon,tooltip,sound,,,,,,,Search,IDLE

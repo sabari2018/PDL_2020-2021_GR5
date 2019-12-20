@@ -1,4 +1,4 @@
-Name,Hard drive: partition size max,Native support:File systems,Native support:floppy capacities 3.5",,,Integrated disk compression utility,Native support:long file names
+Name,Hard drive: partition size max,Native support:File systems," Native support:floppy capacities 3.5"",",",Integrated disk compression utility,Native support:long file names
 1.00,n/a,CP/M 2 through RDCPM),n/a,NorthStar 87.5 KB; Cromemco 90 KB,Cromemco/Tarbell 250.25 KB; Tarbell 616 KB; Tarbell 1232 KB,No,No
 MS-DOS 1.25,n/a,FAT12,n/a,160 KB; 320 KB,250.25 KB,No,No
 2.11,16 MB (32 MB with third-party FORMAT),FAT12,n/a,160 KB; 180 KB; 320 KB; 360 KB,250.25 KB;,No,No
@@ -15,10 +15,10 @@ MS-DOS 6.21,2 GB," FAT12, FAT16, FAT16B"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180
 MS-DOS 6.22,2 GB," FAT12, FAT16, FAT16B"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,DriveSpace,No
 MS-DOS 7.0 (Windows 95A),2 GB," FAT12, FAT16, FAT16B"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,DriveSpace,No
 "!  Windows 98, and Windows 98SE)",124.55 GB with FAT32," FAT12, FAT16, FAT16B, FAT32"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a," DriveSpace for Windows 95, none for Windows 98",No
-MS-DOS 8.0 (Windows Me and later Windows versions),124.55 GB with FAT32," FAT12, FAT16, FAT16B, FAT32"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
+"!  MS-DOS 8.0 (Windows Me and later Windows versions)"," 124.55 GB with FAT32"," FAT12, FAT16, FAT16B, FAT32"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
 PC DOS 1.0,n/a,FAT12,n/a,160 KB,n/a,No,No
 PC DOS 1.1,n/a,FAT12,n/a,160 KB; 320 KB (double-sided),n/a,No,No
-2.1,16 MB (32 MB with third-party FORMAT),FAT12,n/a,160 KB; 180 KB; 320 KB; 360 KB,n/a,No,No
+2.1," 16 MB (32 MB with third-party FORMAT)",FAT12,n/a,160 KB; 180 KB; 320 KB; 360 KB,n/a,No,No
 PC DOS 3.0,32 MB," FAT12, FAT16",n/a,160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
 PC DOS 3.1,32 MB," FAT12, FAT16",n/a,160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
 PC DOS 3.2,32 MB," FAT12, FAT16",720 KB,160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
@@ -33,17 +33,17 @@ DOS Plus 1.1,32 MB," FAT12, FAT16, CP/M-86",315 KB; 720 KB; CP/M 315 KB; CP/M 72
 2.1,32 MB," FAT12, FAT16, CP/M-86",Apricot 315 KB; (720 KB),160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB; Acorn 640 KB; Acorn 800 KB; CP/M 320 KB,n/a,No,No
 3.35,2 GBdate=January 2012," FAT12, FAT16, FAT16B",720 KB; 1.44 MB,160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
 3.41,2 GB," FAT12, FAT16, FAT16B",720 KB; 1.44 MB,160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB),No,No
-DR DOS 5.0,2 GB," FAT12, FAT16, FAT16B",720 KB; 1.44 MB,160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB),No,No
-DR DOS 6.0,2 GB," FAT12, FAT16, FAT16B"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB),SuperStor,No
-PalmDOS 1.0,2 GB," FAT12, FAT16, FAT16B"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB),SuperStor,No
-Novell DOS 7,2 GB," FAT12, FAT16, FAT16B"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB),Stacker,No
-OpenDOS 7.01,2 GB," FAT12, FAT16, FAT16B"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB),Stacker,No
-DR-OpenDOS 7.02,2 GB," FAT12, FAT16, FAT16B"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB),Stacker,No
-DR-DOS 7.02,2 GB," FAT12, FAT16, FAT16B, (FAT32 in FDISK only)"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB),Stacker," Partial, COMMAND.COM and LONGNAME only"
-DR-DOS 7.03,2 GB," FAT12, FAT16, FAT16B, (FAT32 in FDISK only)"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB),Stacker," Partial, COMMAND.COM and LONGNAME only"
-7.05,?," FAT12, FAT16, FAT16B, FAT32 (non-bootable)"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB)," Stacker, not on FAT32"," Partial, COMMAND.COM and LONGNAME only"
-7.07,?," FAT12, FAT16, FAT16B, FAT32 (bootable)"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB)," Stacker, not on FAT32"," Partial, COMMAND.COM and LONGNAME only"
-DR-DOS 8.0,?," FAT12, FAT16, FAT16B, FAT32"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB)," Supported, not on FAT32"," Partial, COMMAND.COM only"
+DR DOS 5.0,2 GB," FAT12, FAT16, FAT16B",720 KB; 1.44 MB,160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB," (250.25 KB)",No,No
+DR DOS 6.0,2 GB," FAT12, FAT16, FAT16B"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB," (250.25 KB)",SuperStor,No
+PalmDOS 1.0,2 GB," FAT12, FAT16, FAT16B"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB," (250.25 KB)",SuperStor,No
+Novell DOS 7,2 GB," FAT12, FAT16, FAT16B"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB," (250.25 KB)",Stacker,No
+OpenDOS 7.01,2 GB," FAT12, FAT16, FAT16B"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB," (250.25 KB)",Stacker,No
+DR-OpenDOS 7.02,2 GB," FAT12, FAT16, FAT16B"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB," (250.25 KB)",Stacker,No
+DR-DOS 7.02,2 GB," FAT12, FAT16, FAT16B, (FAT32 in FDISK only)"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB," (250.25 KB)",Stacker," Partial, COMMAND.COM and LONGNAME only"
+DR-DOS 7.03,2 GB," FAT12, FAT16, FAT16B, (FAT32 in FDISK only)"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB," (250.25 KB)",Stacker," Partial, COMMAND.COM and LONGNAME only"
+7.05,?," FAT12, FAT16, FAT16B, FAT32 (non-bootable)"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB," (250.25 KB)"," Stacker, not on FAT32"," Partial, COMMAND.COM and LONGNAME only"
+7.07,?," FAT12, FAT16, FAT16B, FAT32 (bootable)"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB," (250.25 KB)"," Stacker, not on FAT32"," Partial, COMMAND.COM and LONGNAME only"
+DR-DOS 8.0,?," FAT12, FAT16, FAT16B, FAT32"," 720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB," (250.25 KB)"," Supported, not on FAT32"," Partial, COMMAND.COM only"
 DR-DOS 8.1,?," FAT12, FAT16, FAT16B, FAT32"," 720 KB; 1.44 MB, 2.88 MB",360 KB; 1.2 MB,n/a,No,No
 FreeDOS 1.0,2 TB date=January 2012," FAT12, FAT16, FAT16B, FAT32"," 720 KB; 1.44 MB, 2.88 MB",360 KB; 1.2 MB,n/a,Dunno,No
 1.2,2 TB date=January 2012," FAT12, FAT16, FAT16B, FAT32"," 720 KB; 1.44 MB, 2.88 MB",360 KB; 1.2 MB,n/a,No,Yes

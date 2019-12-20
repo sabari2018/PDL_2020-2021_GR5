@@ -1,4 +1,4 @@
-Software,CRC32,MD5,SHA-1,SHA-224,SHA-256,SHA-384,SHA-512,SHA-3,Panama,RIPEMD-128,RIPEMD-160,RIPEMD-256,RIPEMD-320,Tiger,Whirlpool,Other
+",CRC32,MD5,SHA-1,SHA-224,SHA-256,SHA-384,SHA-512,SHA-3,Panama,RIPEMD-128,RIPEMD-160,RIPEMD-256,RIPEMD-320,Tiger,Whirlpool,Other
 7-Zip,yes,no,yes,no,yes,no,no,no,no,no,no,no,no,no,no," CRC64, BLAKE2sp "
 AccuHash,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 BeaverSFV,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
@@ -55,4 +55,4 @@ TeraCopy,yes,yes,yes,no,yes,no,yes,no,yes,yes,yes,yes,yes,yes,yes,XxHash
 Total Commander,yes,yes,yes,yes,yes,yes,yes,yes,no,no,no,no,no,no,no,dunno
 WinHasher,no,yes,yes,no,yes,yes,yes,dunno,no,no,yes,no,no,yes,yes,dunno
 wxChecksums,yes,yes,no,no,no,no,no,dunno,no,no,no,no,no,no,no,dunno
-Software,CRC32,MD5,SHA-1,SHA-224,SHA-256,SHA-384,SHA-512,SHA-3,Panama,RIPEMD-128,RIPEMD-160,RIPEMD-256,RIPEMD-320,Tiger,Whirlpool,Other
+"!,CRC32,MD5,SHA-1,SHA-224,SHA-256,SHA-384,SHA-512,SHA-3,Panama,RIPEMD-128,RIPEMD-160,RIPEMD-256,RIPEMD-320,Tiger,Whirlpool,Other

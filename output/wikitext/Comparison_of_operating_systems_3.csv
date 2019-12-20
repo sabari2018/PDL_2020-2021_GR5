@@ -1,4 +1,4 @@
-Name,Resourceaccesscontrol,Subsystemisolationmechanisms,Integratedfirewall,Encryptedfilesystems,rowspan="2"  No execute (NX)page flag,,Manufacturer acknowledged unpatched vulnerabilities (by severity),,,,,
-Secunia,,,,,,,Security-Focus
-,,,,,Hard-ware,Emula-tion,Extremely critical(number / oldest),Highly critical(number / oldest),Moderately critical(number / oldest),Lesscritical (number / oldest),Notcritical(number / oldest),Total(number / oldest)
-,,,,AIX 7.1," POSIX, ACLs, MAC, RBAC",chroot," IPFilter, IPsec VPNs, basic IDS",yes,yes,n/a,unk,,,,,Good
+Name",Resourceaccesscontrol",Subsystemisolationmechanisms",Integratedfirewall",Encryptedfilesystems",rowspan="2"  No execute (NX)page flag",,Manufacturer acknowledged unpatched vulnerabilities (by severity)",,,,,
+Secunia ",,,,,,,Security-Focus
+,,,,,Hard-ware,Emula-tion,",",",",","
+,,,,AIX 7.1," POSIX, ACLs, MAC, RBAC",chroot," IPFilter, IPsec VPNs, basic IDS",yes," yes ",n/a,unk",,,,,Good

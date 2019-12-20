@@ -41,7 +41,7 @@ Sun xVM Server,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 SVISTA 2004,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 TRANGO,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 User Mode Linux,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
-VirtualBox,yes,yes,no,yes,yes,yes,up to v2,yes,read-only,yes,yes,yes," Can read existing disks, but not create new disks. ",yes
+VirtualBox,yes,yes,no," yes"," yes"," yes",up to v2,yes,read-only,yes,yes,yes," Can read existing disks, but not create new disks. ",yes
 Virtual Iron 3.1,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Virtual PC 2007,yes,yes,dunno,dunno,dunno,dunno,no,no,no,no,no,yes,no,no
 Windows Virtual PC,yes,yes,dunno,dunno,dunno,dunno,no,no,no,no,no,yes,yes,no
@@ -60,7 +60,7 @@ Wind River Hypervisor,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunn
 Wind River VxWorks MILS Platform,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Xen,yes,yes,dunno,yes,yes,dunno,dunno,yes,yes,dunno,dunno,yes,dunno,dunno
 XCP-ng,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
-XenServer,yes,yes,dunno,yes,yes,dunno,dunno,yes,yes,dunno,dunno,yes,dunno,dunno
+XenServer,yes,yes,dunno,yes," yes  ",dunno,dunno,yes,yes,dunno,dunno,yes,dunno,dunno
 XtratuM,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 z/VM,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 z LPARs,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno

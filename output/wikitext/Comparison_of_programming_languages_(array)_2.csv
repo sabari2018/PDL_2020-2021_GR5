@@ -5,12 +5,12 @@ name[index]," C, Ch, Cobra, D, Go, Java,  Julia, Lingo, Lua, Nim, Python,  R, Ru
 $name[index]," Perl, PHP, Windows PowerShell, XPath/XQuery"
 @name[index],Raku
 " name(index) or name(index1, index2) etc."," Ada, RPG, Scala, Visual Basic, Visual Basic .NET, Xojo"
-$name(index),XPath/XQuery
+$name(index)," XPath/XQuery"
 name.(index),OCaml
 name.[index],F#
 name/index,Red
 name ! index,Haskell
-$name ? index,XPath/XQuery
+$name ? index," XPath/XQuery"
 (vector-ref name index),Scheme
 (aref name index),Common Lisp
 (elt name index),ISLISP

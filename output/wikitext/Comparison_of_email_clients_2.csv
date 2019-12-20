@@ -1,4 +1,4 @@
-Client,First public Date,First public Version,First stable Date,First stable Version,Latest stable release
+Client,First public Date,First public Version,First stable Date,First stable Version,"    Latest stable release"
 Alpine,2006-11,0.8,2007 December,1.00," 2017-03-17, Latest stable software release/Alpine"
 Apple Mail,?,?,?,?,?
 Becky! Internet Mail,1996,1,dunno,dunno," 2017-08-29, Latest stable software release/Becky!"
@@ -9,12 +9,12 @@ Courier,2004-06,3.5,discontinued,discontinued," 2004-06, Latest stable software 
 Elm,1986,dunno,1987-03,2," 2005-08-18, Latest stable software release/Elm"
 eM Client,2007-11,1.0,2007-11,1.0," 2017-07-10, Latest stable software release/eM Client"
 EmailTray,2010-10,2.0,2011-03,3.11," 2012-07-02, Latest stable software release/EmailTray"
-Eudora,1988,dunno,1988,dunno," 2006-10-11, Latest stable software release/Eudora"
+Eudora,1988,dunno," 1988",dunno," 2006-10-11, Latest stable software release/Eudora"
 Eureka Email,2002-11,1.0,2002-11,1.0," 2005-03-01, Latest stable software release/Eureka Email"
 Evolution,2000-05-11,0.0,2001-12-03,1.0," 2017-09-13, Latest stable software release/GNOME"
 Forté Agent,dunno,dunno,dunno,dunno," 2014-10-20, Latest stable software release/Forté Agent"
 Geary,20120504,0.1,20120504,0.1," 2017-10-02, Latest stable software release/Geary"
-Gnus,1987,dunno,1988-02-01,2.0," 2015-04-06, Latest stable software release/Gnus "
+Gnus,1987,dunno," 1988-02-01",2.0," 2015-04-06, Latest stable software release/Gnus "
 GroupWise,dunno,dunno,1986,1.0," 2014-04-02, Latest stable software release/GroupWise"
 Hiri,2014-02,0.4,2016-06,1.0," 2017-06-10, Latest stable software release/Hiri"
 i.Scribe / InScribe,1999,1.00,dunno,dunno," 2014-08-04, Latest stable software release/Scribe Mail"

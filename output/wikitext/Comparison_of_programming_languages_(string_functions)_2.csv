@@ -17,13 +17,13 @@ string,i,Haskell,0
 (char string i),Common Lisp,0
 (elt string i),ISLISP,0
 (get string i),Clojure,0
-" substr(string, i, 1)",Perl 5,0
-" substr(string, i, 1)  string.substr(i, 1)",Raku,0
+" substr(string, i, 1)","Perl 5",0
+" substr(string, i, 1)  string.substr(i, 1)","Raku",0
 " substr(string, i, 1)",PL/I,1
 string.at(i),C++ (STL) (w/ bounds checking),0
 " lists:nth(i, string)",Erlang,1
 [string characterAtIndex:i],Objective-C (NSString * only),0
-" string.sub(string, i, i)  (string):sub(i, i)",Lua,1
+" string.sub(string, i, i)  (string):sub(i, i)","Lua",1
 string at: i,Smalltalk (w/ bounds checking),1
 string index string i,Tcl,0
 " StringTake[string, {i}]","Mathematica, Wolfram Language",1

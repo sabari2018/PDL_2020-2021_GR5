@@ -1,5 +1,5 @@
-,Imports,,,,Exports,,,,
-,3D,3D game,CAD and GIS,Web and mobile,3D,3D game,3D renderers,CAD and GIS,Web and mobile
+,,,,,,,,,
+,"!,",",",",",",","
 3ds Max," 3DS, PRJ, ABC, AI, OBJ, SHP, SKP, STL, TRC, VRML",Openflight FLT," DEM, XML, DDF, DWG, DXF, IGE, IGS, IGES, IPT, WIRE, IAM, LS, VW, LP, SAT, Catia V4/V5, JT, ProE, RVT, PRT, SolidWorks, STEP, WIRE",," 3DS, AI, ASE, COLLADA, HTR, OBJ, STL",Openflight FLT,," ATR, BLK, DF, DWG, DXF, IGS, LAY, LP, SAT, VW"," M3G, VRML97"
 AC3D," 3DS, AC3D, COLLADA, Lightwave, Massive, Milkshape Ascii, OBJ, OFF, Pointfield, Points, STL (ascii), Terragen, Triangle, Vector"," Quake BSP, Quake MD2, Renderware, SMF"," DXF, LDraw (Lego), SOF Airfoil",VRML 1.0," 3DS, 3D Studio ASE, AC3D, Dive, DVS, DXF, COLLADA, Lightwave, Massive, Milkshape Ascii, OBJ, STL (ascii), Triangle"," DirectX, Ogre, Quake MD2, Quake Map, SMF, Unreal Tournament"," POV-Ray, Renderman"," Inventor, LDraw (Lego)"," VRML 1.0, VRML 2.0, X3D"
 Blender," COLLADA, Alembic, FBX, BVH, PLY, OBJ, STL, SVG",,DXF," X3D, glTF"," COLLADA, Alembic, FBX, BVH, PLY, OBJ, STL, SVG, PC2",,POV-Ray,DXF," X3D, glTF"

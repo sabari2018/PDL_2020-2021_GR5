@@ -27,7 +27,7 @@ Supportworks,unk,unk,unk,unk,unk,Yes,unk,unk
 SysAid,Yes,No,No,No,No,Yes,No," Yes, CAS"
 Team Foundation Server,unk,unk,unk,unk,unk,Yes,unk,unk
 TestTrack,Yes,Optional,No,No,No,Yes,No,Yes - custom DLL
-Trac,Yes,Optional,No,Optional,No,Yes,unk,No
+Trac,Yes," Optional",No," Optional",No,Yes,unk,No
 TrackerSuite.Net,Yes,No,No,No,No,Yes,No,No
 ,Tuleap,Yes,No,No,Yes,Yes,Yes,No,No
 Twproject,Yes,unk,unk,unk,unk,Yes,unk," Yes, Simple container auth."

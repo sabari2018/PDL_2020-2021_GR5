@@ -1,16 +1,16 @@
 Client name,Development status,Open source client,End-to-end authentication,Encryption protocols,,,,Forward secrecy,Multiple encryption,Encrypted group calling,Proxy, Tor"
 ,,,,ZRTP,ECDH,DTLS,SRTP,,,,
-FaceTime,Active,no,no,dunno,dunno,dunno,dunno,yes,dunno,no,no
+FaceTime,Active," no"," no",dunno,dunno,dunno,dunno," yes",dunno,no,no
 Google Duo,Active,no,no,dunno,dunno,dunno,dunno,dunno,dunno,no,no
-Jitsi,Active,yes,yes,yes,no,yes,yes,yes,yes,yes,dunno
-Line,Active,no,dunno,dunno,dunno,dunno,dunno,dunno,dunno,no,no
-Linphone,Active,yes,yes,yes,dunno,yes,yes,yes,yes,dunno,no
+Jitsi,Active,yes," yes",yes,no,yes,yes," yes",yes,yes,dunno
+Line,Active,no,dunno,dunno,dunno,dunno,dunno,dunno,dunno," no",no
+"! Linphone",Active,yes,yes,yes,dunno,yes,yes,yes,yes,dunno,no
 PGPfone,Abandonware,Viewable source,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Signal,Active,yes,yes
 Silent Phone,Active,Viewable source,yes,yes,yes,no
 Telegram,Active,yes,yes,no,no,no,no,yes,dunno,no,no
-Threema,Active,Partially,yes,no,yes,yes,no,no
+Threema,Active,Partially,yes,no," yes",yes,no,no
 Viber,Active,no,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,no
-WhatsApp,Active,Partially,no,yes,no,yes,yes,yes,no,no
-Wire,Active,yes,yes,no,dunno,yes,yes,dunno,yes,yes,no
+WhatsApp,Active,Partially,no," yes",no," yes"," yes"," yes",no,no
+Wire,Active,yes,yes,no,dunno,yes," yes",dunno,yes,yes,no
 Zfone,Abandonware,Viewable source,yes,yes,optional,dunno,yes,yes,yes,dunno,dunno

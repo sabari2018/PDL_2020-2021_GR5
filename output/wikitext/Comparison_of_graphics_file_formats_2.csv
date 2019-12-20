@@ -1,4 +1,4 @@
-Format,Compression algorithm,Raster/vector,Color depth,Indexed color,Transparency,Metadata,Interlacing,Multi-page,Animation,Layers,Color management,Extend ;shy;able,HDR format
+",Compression algorithm,Raster/vector,Color depth,Indexed color,Transparency,Metadata,Interlacing,Multi-page,Animation,Layers,Color management,Extend ;shy;able,HDR format
 ,AI,Lossy and lossless,Both," 1, 8, 24, and 32 (possibly with multiple palettes)",yes,yes,yes,no,yes,no,yes,yes,unk,no
 BMP," None, RLE, JPEG, and PNG",Raster," 1, 4, 8, 16, 24, 32, and 64",yes,yes,no,no,no,no,no,yes,no,no
 BPG," HEVC, Lossy and lossless",Raster,8 to 14 bits per channel,no,yes,yes,no,no,yes,unk,yes,unk,unk
@@ -31,4 +31,4 @@ TIFF," None, RLE, ZIP, and other",Both," 1, 2, 4, 8, 16, 24, and 32",yes (1–8 
 WebP,Lossy and lossless,Raster," YUV420P (12bpp), YUVA420P (20bpp) and RGB (8bpc)",no,yes,yes,no,yes,yes,no,yes,yes,no
 XAML,None,Vector,32 and 64,no,yes,yes,n/a,yes,yes,yes,no,yes,yes
 XCF," None and lossless (xz)",Both," indexed (8bpc), grayscale and RGB (8bpc, 16bpc, float16bpc, 32bpc, float32bpc, float64bpc)",yes,yes,yes,no,no,yes,yes,yes,yes,yes
-Format,Compression algorithm,Raster/vector,Color depth,Indexed color,Transparency,Metadata,Interlacing,Multi-page,Animation,Layers,Color management,Extend ;shy;able,HDR format
+"!,Compression algorithm,Raster/vector,Color depth,Indexed color,Transparency,Metadata,Interlacing,Multi-page,Animation,Layers,Color management,Extend ;shy;able,HDR format

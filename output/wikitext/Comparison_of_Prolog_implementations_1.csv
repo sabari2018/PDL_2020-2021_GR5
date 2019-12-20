@@ -1,5 +1,5 @@
-Platform,,,Features,,,,,,,,Toolkit,,,Prolog Mechanics
-Name,OS,Licence,Native Graphics,Compiled Code,Unicode,Object Oriented,Native OS Control,Stand Alone Executable,C Interface,Java Interface,Interactive Interpreter,Debugger,Code Profiler,Syntax
+Platform",,,Features",,,,,,,,Toolkit",,,Prolog Mechanics
+"!,",",",",",",",",",",",",","
 BProlog,"Windows, Mac OS X",Free for non-commercial uses,,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,"ISO-Prolog, plus event-handling, CLP(FD), and tabling"
 JIProlog,"Android",AGPL,yes,,yes,,yes via Java,yes,yes via Java,yes,yes,yes,,ISO-Prolog
 Ciao,"Windows, Mac OS X","LGPL",,yes,,yes,yes,yes,yes,yes,yes,yes,yes,"ISO-Prolog, plus extensions"

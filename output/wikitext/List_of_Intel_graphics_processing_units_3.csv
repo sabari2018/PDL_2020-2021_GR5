@@ -1,17 +1,17 @@
-Graphics,Launch,Market,Chipset,,Device ID,Pixel pipelines,(MHz),Memory,,API support,,,,Hardware acceleration,,
+,Launch,Market,Chipset",,Device ID",Pixel pipelines",(MHz)",Memory",,API support",,,,,,
 ,,,Code name,Name,,,,DVMT (MiB),Bandwidth (GB/s),vertex/pixel),Direct3D,OpenGL,OpenCL,MPEG-2,VC-1,AVC
-GMA 900,2004,Desktop,Grantsdale,910GL,2582 258A,4,333,128,3.2,3.0 (SW) / 2.0,9.0 (No WDDM nor Aero support),1.4Windows  1.4macOS  2.1Linux  ES 2.0Linux,No,MC,No,No
+GMA 900 ",2004 ",Desktop,Grantsdale ",910GL,2582 258A ",4 ",333 ",128 ",3.2 ",3.0 (SW) / 2.0 ",9.0 (No WDDM nor Aero support),1.4Windows  1.4macOS  2.1Linux  ES 2.0Linux,No,MC ",No,No
 ,,,,915GL,,,,,,,,,,,,
 ,,,,915GV,,,,,8.5,,,,,,,
 ,,,,915G,,,,,,,,,,,,
 ,2005,Mobile,Alviso,Mobile 915Family,,,,,,,,,,,,,2592,133–333
-,,GMA 950,Desktop,Lakeport,,,,,,,945GZ,,,,,,2772,400,256,9.0c  FL9_1
+,,GMA 950 ",Desktop ",Lakeport ",,,,,,,945GZ,,,,,,2772 ",400,256",9.0c  FL9_1"
 ,,,,,945GC,10.7,,,,,,,,
 ,,,,,945G,,,,,,,,,
 ,,,2006,Mobile,Calistoga,,Mobile 945Family,27A227AE,166–400,
-GMA 3100,2007,Desktop,Bearlake,[http://ark.intel.com/products/31917 Q33],29D2,400,12.8,
+GMA 3100 ",2007 ",Desktop,Bearlake ",[http://ark.intel.com/products/31917 Q33],29D2,400,12.8,
 ,,,,[http://ark.intel.com/products/31918 Q35],29B2,,,
 ,,,,[http://ark.intel.com/products/31913 G31],29C2,,,
-,,,,[http://ark.intel.com/products/31914 G33],,,12.8 (DDR2)17 (DDR3),Variable-Length Decoding (VLD) + iDCT + MC (Full),
-GMA 3150,2010,Nettop,Pineview,Atom D4xxAtom D5xx,A001,,2,,384,,6.4,1.5Windows  2.1Linux  ES 2.0Linux
+,,,,[http://ark.intel.com/products/31914 G33],,,12.8 (DDR2)17 (DDR3),Variable-Length Decoding (VLD) + iDCT + MC (Full)",
+GMA 3150 ",2010 ",Nettop,Pineview ",Atom D4xxAtom D5xx,A001,,2,,384",,6.4,1.5Windows  2.1Linux  ES 2.0Linux"
 ,,Netbook,,Atom N4xxAtom N5xx,A011,,,,,,200,,5.3

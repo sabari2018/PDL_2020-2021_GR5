@@ -1,8 +1,8 @@
 calling a function,basic/void function,value-returning function,required main function
-Ada,foo «(parameters)»,procedure foo «(parameters)» is begin statements end foo,function foo «(parameters)» return type is begin statements end foo,n/a
+" Ada",foo «(parameters)»,procedure foo «(parameters)» is begin statements end foo,function foo «(parameters)» return type is begin statements end foo,n/a
 ALGOL 68,foo«(parameters)»;,proc foo = «(parameters)» void: ( instructions );,proc foo = «(parameters)» rettype: ( instructions ...; retvalue );,n/a
 APL,«parameters» foo parameters,foo←{ statements },foo←{ statements },n/a
-C (C99),foo(«parameters»),void foo(«parameters») { instructions },type foo(«parameters») { instructions ... return value; },«global declarations»  int main(«int argc, char *argv[]») {  instructions  }"
+C (C99),foo(«parameters»),void foo(«parameters») { instructions }",type foo(«parameters») { instructions ... return value; }",«global declarations»  int main(«int argc, char *argv[]») {  instructions  }"
 Objective-C,,,,
 C++ (STL),,,,
 Java,,,,public static void main(String[] args) { instructions } or public static void main(String... args) { instructions }
@@ -43,5 +43,5 @@ Haskell,foo parameters = doTab instructions,,foo parameters = return_value  or  
 Eiffel,foo («parameters»),foo («parameters»)require preconditions do instructions ensure postconditions end,foo («parameters»): typerequire preconditions do instructionsResult := value ensure postconditions end,root class and feature[b]
 CoffeeScript,foo(),foo = ->,foo = -> value,n/a
 ,foo parameters,foo = () ->,foo = ( parameters ) -> value,
-COBOL,CALL "foo" «USING parameters»  «exception-handling»  «END-CALL»COBOL calling programs[d],«IDENTIFICATION DIVISION.» PROGRAM-ID. foo. «other divisions...» PROCEDURE DIVISION «USING parameters».  instructions.,«IDENTIFICATION DIVISION.» PROGRAM-ID/FUNCTION-ID. foo. «other divisions...» DATA DIVISION. «other sections...» LINKAGE SECTION. «parameter definitions...» variable-to-return definition «other sections...» PROCEDURE DIVISION «USING parameters» RETURNING variable-to-return.  instructions.,n/a
+COBOL," CALL "foo" «USING parameters»  «exception-handling»  «END-CALL»COBOL calling programs[d]",«IDENTIFICATION DIVISION.» PROGRAM-ID. foo. «other divisions...» PROCEDURE DIVISION «USING parameters».  instructions.,«IDENTIFICATION DIVISION.» PROGRAM-ID/FUNCTION-ID. foo. «other divisions...» DATA DIVISION. «other sections...» LINKAGE SECTION. «parameter definitions...» variable-to-return definition «other sections...» PROCEDURE DIVISION «USING parameters» RETURNING variable-to-return.  instructions.,n/a
 ,«FUNCTION» foo«(«parameters»)»,n/a,,

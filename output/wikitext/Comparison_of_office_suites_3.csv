@@ -1,8 +1,8 @@
-,Word processing Software,Spreadsheet Software,Presentation Software,Notetaking software,Diagramming software,Raster graphics editor,Vector graphics editor,Image viewer,Formula editor,Database management software,Project management software,Desktop publishing software,Communication,Calendaring software,File hosting service
+",Word processing Software,Spreadsheet Software,Presentation Software,Notetaking software,Diagramming software,Raster graphics editor,Vector graphics editor,Image viewer,Formula editor,Database management software,Project management software,Desktop publishing software,Communication,Calendaring software,File hosting service
 Ability Office,Ability Write,Ability Spreadsheet,Ability Presentation,no,Ability Draw,Ability Photopaint,Ability Draw,Ability Photoalbum,no,Ability Database,no,no,no,no,no
 Apache OpenOffice,OpenOffice Writer,OpenOffice Calc,OpenOffice Impress,no,OpenOffice Draw,no,OpenOffice Draw,no,OpenOffice Math,OpenOffice Base,Import/Export capabilities with ProjectLibre and others,OpenOffice Draw,no,no,no
 Breadbox Office,Writer,Spreadsheet,no,no,no,Artist,Artist,no,no,Geofile,no,no,no,no,no
-Calligra Suite,Calligra Words,Calligra Sheets,Calligra Stage,Braindump,Calligra Flow,Krita,Karbon,yes2Gwenview / Digikam,KFormula,Kexi,Calligra Plan,Calligra Words,no,no,no
+Calligra Suite,Calligra Words,Calligra Sheets,Calligra Stage,Braindump,Calligra Flow,Krita,Karbon," yes2Gwenview / Digikam",KFormula,Kexi,Calligra Plan,Calligra Words,no,no,no
 Feng Office Community Edition,yes,no,yes,yes,no,no,no,yes,no,no,yes,no,no,no,no
 GobeProductive,yes,yes,yes,no,yes,no,yes,no,yes,yes,yes,yes,no,no,no
 G Suite,Google Docs,Google Sheets,Google Slides,Google Keep,Google Drawings,Google Drawings,Google Drawings,Google Photos,no,Google Fusion Tables,no,no,Hangouts Chat/Meet,Google Calendar,Google Drive

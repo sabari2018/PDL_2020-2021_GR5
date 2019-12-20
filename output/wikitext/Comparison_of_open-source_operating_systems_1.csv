@@ -30,4 +30,4 @@ RTEMS," [http://www.rtems.org/license modified GPL], BSD, Stanford",RTOS,C and A
 HelenOS,BSD,Microkernel,C,M:N,own/original,no,
 E/OS,GPLv2,Monolithic," ASM, C",1:1," BeOS, Unix-like",no,
 TempleOS,public domain,Monolithic," HolyC, C, C++",,Commodore 64-like,no,
-class="sortbottom",Name,License,Kernel type,Kernel programming language,Kernel thread support,OS family,Oldest non-EOL version,Forks
+" class="sortbottom"",Name,License,Kernel type,Kernel programming language,Kernel thread support,OS family,Oldest non-EOL version,Forks

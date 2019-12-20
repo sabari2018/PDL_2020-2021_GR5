@@ -1,5 +1,5 @@
 IRC daemon,Creator/network,Basis,Programming language,First public release,Latest version (numeric 351),Software license
-Asuka,QuakeNet Dev Team,ircu,C,unk,1.2.1 (now replaced by snircd),GPL
+"! Asuka",QuakeNet Dev Team,ircu,C,unk,1.2.1 (now replaced by snircd),GPL
 Bahamut,DALnet," DreamForge, IRCD-Hybrid",C,1999,bahamut-2.0.7,GPL
 bIRCd,DAMnet,DreamForge,C,1999,bIRCd-2.1.0rc4,GPL
 beware ircd,beware,from scratch,Delphi,unk,beware1.6,GPL
@@ -17,7 +17,7 @@ IRCd," Jarkko Oikarinen, IRCnet",from scratch,C,1988,2.11.2,GPL v1
 ircd-hybrid," ircd-hybrid Development Team, Rizon, OFTC, EFnet",irc2.8,C,GPL
 ircd-ratbox," Aaron Sethman, Lee Hardy, EFnet",Hybrid 7-rc1,C,2002,ircd-ratbox-3.0.10,GPL
 ircd-seven,freenode,charybdis 3.1.x/trunk,C,—,stable,GPL
-ircu,Undernet Coder Committee,irc2.7,C,1991,u2.10.12.14,GPL
+ircu,Undernet Coder Committee,irc2.7,C,1991," u2.10.12.14",GPL
 ithildin,Chip Norkus,from scratch,C,2006,1.1,BSD
 miniircd,Joel Rosdahl,from scratch,Python,2003,1.3,GPL
 Nefarious IRCu," Evilnet Development, AfterNET",ircu2.10.12.14,C,2004,u2.10.12.14+Nefarious(2.0.0),GPL

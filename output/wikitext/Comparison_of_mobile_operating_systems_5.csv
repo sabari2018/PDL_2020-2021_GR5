@@ -1,8 +1,8 @@
-width="10%" Feature,width="10%" Android,width="10%" iOS,width="10%" Windows 10 Mobile,width="10%" BlackBerry 10,width="10%" Tizen,width="10%" Sailfish OS,width="10%" Ubuntu Touch
+" width="10%" Feature"," width="10%" Android"," width="10%" iOS"," width="10%" Windows 10 Mobile"," width="10%" BlackBerry 10"," width="10%" Tizen"," width="10%" Sailfish OS"," width="10%" Ubuntu Touch"
 "!Cut, copy, and paste",Yes,3+,Yes,Yes,Yes,Yes,Yes
 Multi-Device clipboard,No,10+,"No, 3rd party software",No,No,No,No
 Undo,No,3+,"Optional for developers, UWP API have this feature",No,No,No,Yes
-Custom home and lock screen wallpaper,Yes,4+,Yes,Yes,Yes,Yes (incl. Ambience),Yes
+Custom home and lock screen wallpaper,Yes,"4+",Yes,Yes,Yes,Yes (incl. Ambience),Yes
 Desktop sync,"No2 No, but available using the vendors companion/PC suite application such as Samsung Smart Switch  ; HTC Sense",Yes,Yes,Yes,Yes,?,Yes
 Local full backup,"Yes, via external computer","Yes, using external computer","3rd party software, like WP internals on external computer, officially removed in WP8, was available on WP7 in Zune only when performing update, or anytime via 3rd party software","Yes, using external computer and memory card (7+)",No,Yes,Yes
 Core data missing sync,"Bookmarks (before 4), SMSs and Settings",,"Favorites, Text Messages and Settings",?,?,?,?

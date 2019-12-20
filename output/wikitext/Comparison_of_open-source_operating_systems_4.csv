@@ -25,4 +25,4 @@ eCos,yes,,,yes,,,yes,
 RTEMS,yes,yes,yes,yes,no,no,no,no
 HelenOS,yes,yes,yes,yes,no,no,no,no
 E/OS,yes,yes,yes,yes,yes,11,no,no
-class="sortbottom",Name,Networking support,NE2000/RTL8029,RTL8139,Gigabit Ethernet,10 Gigabit Ethernet,Wireless LAN,Bluetooth,IrDA
+" class="sortbottom"",Name,Networking support,NE2000/RTL8029,RTL8139,Gigabit Ethernet,10 Gigabit Ethernet,Wireless LAN,Bluetooth,IrDA

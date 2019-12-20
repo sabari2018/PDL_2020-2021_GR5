@@ -7,4 +7,4 @@ or
 "lang=php1=$db = new mysqli(host, user, password, name);"
 or
 lang=php1=$db->select_db(name);,,
-Python,"lang=python1=db = MySQLdb.connect(       host="hostname",        user="username",        passwd="password",        db="dbname",        connect_timeout=5)",lang=pythonimport MySQLdb,lang=python1=c = db.cursor() c.execute("show databases") c.fetchall(),lang=python1=c = db.cursor() c.execute("show tables") c.fetchall()
+Python,"lang=python1=db = MySQLdb.connect(       host="hostname",        user="username",        passwd="password",        db="dbname",        connect_timeout=5)",lang=pythonimport MySQLdb,"lang=python1=c = db.cursor() c.execute("show databases") c.fetchall()","lang=python1=c = db.cursor() c.execute("show tables") c.fetchall() "

@@ -1,6 +1,6 @@
 ,Text,,Boolean,Enumeration,Object/Universal
 ,Character,Stringstring[a],,,
-Ada,Character,String  ; Bounded_String  ; Unbounded_String,Boolean," (item1, item2, ... )",tagged null record
+" Ada",Character,String  ; Bounded_String  ; Unbounded_String,Boolean," (item1, item2, ... )",tagged null record
 ALGOL 68,char,string  ; bytes,bool  ; bits,n/a - [http://rosettacode.org/wiki/Enumerations#ALGOL_68 User defined],n/a
 C (C99),charwchar_t,n/a,boolint bool[b],enum «name» {item1, item2, ... };",void *
 C++ (STL),,«std::»string,,,

@@ -1,4 +1,4 @@
-Generics,Java,C#
+",","
 Implementation,Type erasure,Reification
 Runtime realization,no,yes
 Type variance,Use-site,Declaration-site (only on interfaces)

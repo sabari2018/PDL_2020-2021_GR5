@@ -1,4 +1,4 @@
-Feature,NMT,GSM,IS-95 (CDMA one),IS-2000 (CDMA 2000),UMTS (3GSM),LTE,5G NR
+",NMT,GSM,IS-95 (CDMA one),IS-2000 (CDMA 2000),UMTS (3GSM),LTE,5G NR
 Technology,FDMA,TDMA and FDMA,CDMA,CDMA,W-CDMA,OFDMA,OFDMA
 Generation,1G,2G,2G,3G,3G,4G,5G
 Encoding,Analog,Digital,Digital,Digital,Digital,Digital,Digital

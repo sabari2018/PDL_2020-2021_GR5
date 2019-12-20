@@ -9,7 +9,7 @@ std.string.toLower(string),D
 lowercase(string),Delphi)
 strtolower(string),PHP
 lower(string),Seed7
-echo "string"  tr A-Z a-z,Unix
+"echo "string"  tr A-Z a-z",Unix
 string.lower(),Python
 downcase(string),Pick Basic
 string.downcase,Ruby
@@ -26,7 +26,7 @@ string.lowercaseString,"Swift (Foundation)"
 string.lower(string)  (string):lower(),Lua
 string asLowercase,Smalltalk
 LOWER(string),SQL
-lowercase(string),PL/I
+lowercase(string),"PL/I"
 ToLowerCase[string],Mathematica
 «FUNCTION» LOWER-CASE(string),COBOL
 string.toLower,Cobra

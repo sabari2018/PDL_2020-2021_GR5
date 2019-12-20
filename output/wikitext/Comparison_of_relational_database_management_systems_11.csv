@@ -1,31 +1,31 @@
-,Native network encryption1,Brute-force protection,Enterprise directory compatibility,Password complexity rules2,Patch access3,Run unprivileged4,Audit,Resource limit,Separation of duties (RBAC)5,Security Certification,Attribute-Based Access Control (ABAC)
-4D,yes (with SSL),dunno,yes,dunno,yes,yes,dunno,dunno,dunno,dunno,dunno
-Adaptive Server Enterprise,yes (optional; to pay),yes,yes (optional ?),yes,partial (need to register; depend on which product),yes,yes,yes,yes,yes (EAL4+ 1),dunno
-Advantage Database Server,yes,no,no,no,yes,yes,no,no,yes,dunno,dunno
-DB2,yes,dunno," yes (LDAP, Kerberos…)",yes,dunno,yes,yes,yes,yes,yes (EAL4+6),dunno
-Empress Embedded Database,dunno,dunno,no,no,yes,yes,yes,no,yes,no,dunno
-EXASolution,no,no,yes (LDAP),no,yes,yes,yes,yes,yes,no,dunno
-Firebird,yes,yes,yes (Windows trusted authenification),yes (by custom plugin),yes (no security page),yes,yes,yes,no7,dunno,dunno
-HSQLDB,yes,no,yes,yes,yes,yes,no,no,yes,no,dunno
-H2,yes,yes,dunno,no,dunno,yes,dunno,yes,yes,no,dunno
-Informix Dynamic Server,yes,dunno,yes10,dunno10,yes,yes,yes,yes,yes,dunno,yes
-Linter SQL RDBMS,yes (with SSL),yes,yes,yes (length only),yes,yes,yes,yes,yes,yes,yes
-MariaDB,yes (SSL),no," yes (with 5.2, but not on Windows servers)",yes,yes,yes,dunno,dunno,dunno8,no,dunno
-Microsoft SQL Server,yes,dunno,yes (Microsoft Active Directory),yes,yes,yes,Yes (From 2008),Yes,Yes,yes (EAL4+11),dunno
-Microsoft SQL Server Compact (Embedded Database)," no (not relevant, only file permissions)",no (not relevant),no (not relevant),no (not relevant),yes,yes (file access),yes,yes,no,dunno,dunno
-Mimer SQL,dunno,dunno,dunno,dunno,dunno,dunno,yes,dunno,yes,dunno,yes
-MySQL,yes (SSL with 4.0),no," yes (with 5.5, but only in commercial edition)",no,partial (no security page),yes,dunno,dunno,dunno8,yes,dunno
-OpenBase SQL,yes,dunno," yes (Open Directory, LDAP)",no,dunno,dunno,dunno,dunno,dunno,dunno,dunno
-OpenLink Virtuoso,yes,yes,yes,yes (optional),yes (optional),yes,yes (optional),yes (optional),yes,no,yes (optional)
-Oracle,yes,yes,yes,yes,dunno,yes,yes,yes,yes,yes (EAL4+1),dunno
-Pervasive PSQL,yes,dunno,no,no,yes,yes,yes 12,no,no,no,dunno
-Polyhedra DBMS,yes  (with SSL. Optional),no,no,no,no,yes,yes 13,yes,yes 13,no,dunno
-PostgreSQL,yes,yes (for 9.1)," yes (LDAP, Kerberos…9)",yes (as of 9.0 with passwordcheck module),yes,yes," Limited, with triggers",yes,yes,yes (EAL11),dunno
-Raima Database Manager,no,no,no,no,no,yes,no,no,no,no,dunno
-RDM Server,yes,no,no,no,no,yes,yes,no,yes,no,dunno
-SAP HANA,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
-solidDB,no,no,yes,no,no,yes,yes,no,no,no,no
-SQL Anywhere,yes,dunno,yes (Kerberos),yes,dunno,yes,yes,no,yes,yes (EAL3+1 as Adaptive Server Anywhere),dunno
-SQLite," no (not relevant, only file permissions)",no (not relevant),no (not relevant),no (not relevant),partial (no security page),yes (file access),yes,yes,no,no,dunno
-Teradata,yes,no," yes (LDAP, Kerberos…)",yes,dunno,yes,yes,yes,yes,yes,yes
+",Native network encryption1,Brute-force protection,Enterprise directory compatibility,Password complexity rules2,Patch access3,Run unprivileged4,Audit,Resource limit,Separation of duties (RBAC)5,Security Certification,Attribute-Based Access Control (ABAC)
+"!,yes (with SSL),dunno,yes,dunno,yes,yes,dunno,dunno,dunno,dunno,dunno
+"!,yes (optional; to pay),yes,yes (optional ?),yes,partial (need to register; depend on which product),yes,yes,yes,yes,yes (EAL4+ 1),dunno
+"!,yes,no,no,no,yes,yes,no,no,yes,dunno,dunno
+"!,yes,dunno," yes (LDAP, Kerberos…)",yes,dunno,yes,yes,yes,yes," yes (EAL4+6)",dunno
+"!,dunno,dunno,no,no,yes,yes,yes,no,yes,no,dunno
+"!,no,no,yes (LDAP),no,yes,yes,yes,yes,yes,no,dunno
+"!,yes,yes,yes (Windows trusted authenification),yes (by custom plugin),yes (no security page),yes,yes,yes," no7",dunno,dunno
+"!,yes,no,yes,yes,yes,yes,no,no,yes,no,dunno
+"!,yes,yes,dunno,no,dunno,yes,dunno,yes,yes,no,dunno
+"!,yes,dunno," yes10"," dunno10",yes,yes,yes,yes,yes,dunno,yes
+"!,yes (with SSL),yes,yes,yes (length only),yes,yes,yes,yes,yes,yes,yes
+"!,yes (SSL),no," yes (with 5.2, but not on Windows servers)",yes,yes,yes,dunno,dunno," dunno8",no,dunno
+"!,yes,dunno,yes (Microsoft Active Directory),yes,yes,yes,Yes (From 2008),Yes,Yes,yes (EAL4+11),dunno
+"!," no (not relevant, only file permissions)",no (not relevant),no (not relevant),no (not relevant),yes,yes (file access),yes,yes,no,dunno,dunno
+"!,dunno,dunno,dunno,dunno,dunno,dunno,yes,dunno,yes,dunno,yes
+"!,yes (SSL with 4.0),no," yes (with 5.5, but only in commercial edition)",no,partial (no security page),yes,dunno,dunno," dunno8",yes,dunno
+"!,yes,dunno," yes (Open Directory, LDAP)",no,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+"!,yes,yes,yes,yes (optional),yes (optional),yes,yes (optional),yes (optional),yes,no,yes (optional)
+"!,yes,yes,yes,yes,dunno,yes,yes,yes,yes,yes (EAL4+1),dunno
+"!,yes,dunno,no,no,yes,yes," yes 12",no,no,no,dunno
+"!,yes  (with SSL. Optional),no,no,no,no,yes," yes 13",yes,yes 13,no,dunno
+"!,yes,yes (for 9.1)," yes (LDAP, Kerberos…9)",yes (as of 9.0 with passwordcheck module),yes,yes," Limited, with triggers",yes,yes,yes (EAL11),dunno
+"!,no,no,no,no,no,yes,no,no,no,no,dunno
+"!,yes,no,no,no,no,yes,yes,no,yes,no,dunno
+"!,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+"!,no,no,yes,no,no,yes,yes,no,no,no,no
+"!,yes,dunno,yes (Kerberos),yes,dunno,yes,yes,no,yes,yes (EAL3+1 as Adaptive Server Anywhere),dunno
+"!," no (not relevant, only file permissions)",no (not relevant),no (not relevant),no (not relevant),partial (no security page),yes (file access),yes,yes,no,no,dunno
+"!,yes,no," yes (LDAP, Kerberos…)",yes,dunno,yes,yes,yes,yes,yes,yes
 ,Native network encryption1,Brute-force protection,Enterprise directory compatibility,Password complexity rules2,Patch access3,Run unprivileged4,Audit,Resource limit,Separation of duties (RBAC)5,Security Certification,Attribute-Based Access Control (ABAC)

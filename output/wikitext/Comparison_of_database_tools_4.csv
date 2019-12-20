@@ -1,20 +1,20 @@
-Adminer,yes,yes,yes,no,no
-Altova DatabaseSpy,yes,yes,yes,yes,dunno
-Database Deployment Manager,yes,yes,yes,no,no
-,Database Workbench,yes,yes,yes,dunno,yes
-,DBeaver,no,yes,yes,no,dunno
-,DBEdit,no,no,no,no,no
-ModelRight,no,yes,yes,yes,yes
-,Navicat,yes,yes,yes,yes,yes
-,Navicat Data Modeler,yes,yes,yes,yes,yes
-,MySQL Workbench,yes,yes,yes,yes,yes
-,Oracle SQL Developer,yes,yes,yes,yes,dunno
-,Orbada,no,no,no,no,no
-,pgAdmin III,yes,no,no,no,no
-,phpMyAdmin,yes,yes,yes,no,no
-,SQL Database Studio,yes,yes,yes,yes,no
-,SQL Server Management Studio,dunno,yes,yes,dunno,dunno
-,SQLyog,yes,yes,yes,yes,dunno
-,SQuirreL SQL,yes,yes," Only incremental, by manually going through each table and clicking "Add to graph".",dunno,no
-,Toad,Yes,Yes,Yes,Yes,dunno
-,Toad Data Modeler,no,yes,yes,Generated SQL must be executed outside Toad Data Modeler.,dunno
+",yes,yes,yes,no,no
+"!,yes,yes,yes,yes,dunno
+"!,yes,yes,yes,no,no
+,",yes,yes,yes,dunno,yes
+,",no,yes,yes,no,dunno
+,",no,no,no,no,no
+"!,no,yes,yes,yes,yes
+,",yes,yes,yes,yes,yes
+,",yes,yes,yes,yes,yes
+,",yes,yes,yes,yes,yes
+,",yes,yes,yes,yes,dunno
+,",no,no,no,no,no
+,",yes,no,no,no,no
+,",yes,yes,yes,no,no
+,",yes,yes,yes,yes,no
+,",dunno,yes,yes,dunno,dunno
+,",yes,yes,yes,yes,dunno
+,",yes,yes," Only incremental, by manually going through each table and clicking "Add to graph".",dunno,no
+,",Yes,Yes,Yes,Yes,dunno
+,",no,yes,yes,Generated SQL must be executed outside Toad Data Modeler.,dunno

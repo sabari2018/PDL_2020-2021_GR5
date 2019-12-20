@@ -1,13 +1,13 @@
-,GUI,Console,Software license,Latest stable version,Latest release date,Windows,Macintosh,Linux
+",GUI,Console,Software license," Latest stable version",Latest release date,Windows,Macintosh,Linux
 beye,No,Yes,GPL,6.1.0,2009December12,yes,yes,yes
 bvi,No,Yes,GPL,1.4.0,2014October07,",yes,yes
 Cheat Engine,Yes,No,APL,6.8.1,20180623,yes," Yes, ver. 6.2",no
 GNU Emacs,Yes,Yes,GPL,26.2,2019412,yes,yes,yes
-FlexHex,Yes,No,Proprietary (free for non-commercial use),2.7,2018October12,Windows XP and up,no,no
-Frhed (Free Hex Editor),Yes,No,GPL,1.7.1,2009July30,Win98 and up,no,no
+FlexHex,Yes,No,Proprietary (free for non-commercial use),2.7,2018October12,",no,no
+Frhed (Free Hex Editor),Yes,No,GPL,1.7.1,2009July30,",no,no
 Hiew,No,Yes,Proprietary,8.68,2019August01,yes,no,no
 HxD,Yes,No,Proprietary (Freeware),2.2.1.0,2019February17,",no,no
 VEDIT,Yes,Yes,Proprietary,6.24.2,2015Jan1,yes,no,no
 UltraEdit,Yes,No,Proprietary,26.10 (Windows)  18.0 (Linux / Mac OS X),20190507  20180102,yes,yes,yes
-WinHex,Yes,No,Proprietary,19.7,20180819,Win95 and up,no,no
+WinHex,Yes,No,Proprietary,19.7,20180819,",no,no
 vim,Yes,Yes,GPL compatible,8.1.0000,20180517,Yes,Yes,Yes

@@ -25,4 +25,4 @@ eCos,,yes,yes,,yes,,yes,,,yes,
 RTEMS,,yes,no,,yes,yes,yes,yes,yes,,
 HelenOS,,yes,yes,no,no,no,yes,no,no,no,no
 E/OS,,yes,yes,yes,yes,yes,yes,yes,yes,yes,no
-class="sortbottom",Name,Firewall,TCP/IP,IPv6,IPX,PPP,PPPoE,DHCP,bridge,TUN/TAP,ssh,OpenVPN
+" class="sortbottom"",Name,Firewall,TCP/IP,IPv6,IPX,PPP,PPPoE,DHCP,bridge,TUN/TAP,ssh,OpenVPN

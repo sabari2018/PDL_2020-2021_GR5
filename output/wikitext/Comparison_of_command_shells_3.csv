@@ -1,6 +1,6 @@
 Shell,Functions,Exception handling,Search  ; replace on variable substi ;shy;tutions,Arith ;shy;metic,Floating point,Math function library,Linear arrays or lists,Assoc ;shy;iative arrays,Lambda functions,eval func ;shy;tion,Pseudo ;shy;random number generation,Bytecode
 Bourne shell 1977 version,no,Yes (via trap),no,no,no,no,no,no,no,yes,no,no
-Bourne shell current version,Yes since SVR2,Yes (via trap),no,yes,no,no,no,no,no,yes,no,no
+Bourne shell current version,Yes since SVR2,Yes (via trap),no,"yes",no,no,no,no,no,yes,no,no
 POSIX shell,yes,Yes (via trap),no,yes,no,no,no,no,no,yes,no,no
 bash (v4.0),yes,Yes (via trap),Yes (via ${//} syntax),yes,no,no,yes,yes,no,yes,Yes ($RANDOM),no
 csh,no,no,Yes (via $var:s/// syntax),yes,no,no,yes,no,no,yes,no,no

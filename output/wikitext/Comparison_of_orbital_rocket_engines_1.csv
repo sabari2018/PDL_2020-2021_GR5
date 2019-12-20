@@ -1,5 +1,5 @@
 Engine,Origin,Designer,Vehicle,Use,Propellant," name=VSLAt sea level if denoted SL, in vacuum otherwise",name=VSL,Mass (kg),Thrust:Weight is calculated at standard gravity.,Chamber pressure (bar),Oxidiser:zwspfuel ratio
-,Aeon 1,USA,Relativity Space,Terran 1,1st,CH4 ;thinsp;/ ;thinsp;LOX,310," 86,740 (SL)",,,,
+",Aeon 1,USA,Relativity Space,Terran 1,1st,CH4 ;thinsp;/ ;thinsp;LOX,310," 86,740 (SL)",,,,
 Aeon 1 Vacuum,USA,Relativity Space,Terran 1,2nd,CH4 ;thinsp;/ ;thinsp;LOX,360," 100,085 (SL)",,,,
 AJ-60A,USA,Aerojet,Atlas V,Booster,Solid,275," 1,270,000",,,,
 AR1,USA,Aerojet Rocketdyne,Beta (potential),1st,RP-1 ;thinsp;/ ;thinsp;LOX,," 2,200,000 (SL)",,,,2.72
@@ -10,15 +10,15 @@ First ever ion engine used as a main engine on an operational commercial satelli
 CE-20,IND,LPSC,GSLV Mk III,Upper,LH2 ;thinsp;/ ;thinsp;LOX,443," 200,000",588,34.7,60.00,5.05
 CE-7.5,IND,LPSC,GSLV Mk II,Upper,LH2 ;thinsp;/ ;thinsp;LOX,454," 73,500 to 93,100",445,16.85,58,
 Engine-2,USA,Launcher Space,Rocket-1,1st,RP-1 / LOX,327 290 (SL),"100,000",,,,2.62
-Engine-2 Vacuum,USA,Launcher Space,Rocket-1,2nd,RP-1 / LOX,365,"100,000",,,,2.62
+Engine-2 Vacuum,USA,Launcher Space,Rocket-1,2nd,RP-1 / LOX,"365","100,000",,,,2.62
 GEM 63,USA,Northrop Grumman,Atlas V,Booster,Solid,," 373,800"," 49,300",,,
 GEM 63XL,USA,Northrop Grumman,Atlas V,Booster,Solid,," 450,000"," 53,400",,,
 Hadley,USA,Ursa Major Technologies,GOLauncher 1,1st,RP-1 ;thinsp;/ ;thinsp;LOX,," 22,241 (SL)",,,,
-HM-7B,EUR,Snecma,Ariane 5 ECA,Upper,LH2 ;thinsp;/ ;thinsp;LOX,446  310 (SL)," 64,800  43,600 (SL)",165,43.25,37,5
+HM-7B,EUR,Snecma,Ariane 5 ECA,Upper,LH2 ;thinsp;/ ;thinsp;LOX,446  310 (SL)," 64,800  43,600 (SL)"," 165",43.25," 37",5
 LE-5B,JPN,MitsubishiJAXA,H-IIAH-IIB,Upper,LH2 ;thinsp;/ ;thinsp;LOX,447," 137,000",269,51.93,36.0,5
-LE-7A,JPN,MitsubishiJAXA,H-IIAH-IIB,1st,LH2 ;thinsp;/ ;thinsp;LOX,438  338 (SL)," 1,098,000870,000 (SL)"," 1,800",62.2,121,5.9
+LE-7A,JPN,MitsubishiJAXA,H-IIAH-IIB,1st,LH2 ;thinsp;/ ;thinsp;LOX," 438  338 (SL)"," 1,098,000870,000 (SL)"," 1,800",62.2,121,5.9
 Lightning 1,USA,Firefly Aerospace,Alpha,2nd,RP-1 ;thinsp;/ ;thinsp;LOX,322," 70,100",,,,
-Merlin 1D FT,USA,SpaceX,Falcon 9 FTFalcon Heavy,1st,RP-1 ;thinsp;/ ;thinsp;LOX,311," 914,000  845,000 (SL)",470,194.5,,
+Merlin 1D FT,USA,SpaceX,Falcon 9 FTFalcon Heavy,1st,RP-1 ;thinsp;/ ;thinsp;LOX,311," 914,000  845,000 (SL)",470," 194.5",,
 Merlin Vacuum 1D,USA,SpaceX,Falcon 9Falcon Heavy,2nd,RP-1 ;thinsp;/ ;thinsp;LOX,348," 934,000",,,,2.36
 Mira (LM10),Italy,Avio,Vega E,3rd,CH4 ;thinsp;/ ;thinsp;LOX,362.3," 98,100",250,40,,3.4
 NewtonThree,USA,Virgin Galactic,LauncherOne,Booster,RP-1 ;thinsp;/ ;thinsp;LOX,," 266,893",,,,
@@ -27,16 +27,16 @@ NEXT,USA,NASA,,Vacuum,Xenon," 4,100 @6.9 kW",0.236 @6.9 kW,,,,
 NK-33A (AJ26-62)  11Д111 ;thinsp;/ ;thinsp;14Д15,USSR,JSC Kuznetsov,Antares 100Soyuz-2-1v,1st,RP-1 ;thinsp;/ ;thinsp;LOX,331297 (SL)," 1,680,0001,510,000 (SL)"," 1,222",136.8,145,
 NSTARFirst ever ion engine used as a main engine on an operational science spacecraft (Deep Space 1),USA,Hughes Electron Dynamics Boeing,Dawn,Vacuum,Xenon," 3,100 @2.3 kW",0.0920 @2.3 kW,8.2,,,
 P805,EUR,,Vega,1st,HTPB,280," 2,261,000"," 96,000 with fuel",,,
-P120C,EUR,,Ariane 6Vega-C," Booster, 1st",HTPB,279," 4,650,000"," 161,000 with fuel",,,
+P120C,EUR,,Ariane 6Vega-C," Booster, 1st",HTPB," 279"," 4,650,000"," 161,000 with fuel",,,
 P230,EUR,SNPE and Avio Spa (Italy),Ariane 5,Booster,HTPB,286  259 (SL)," 6,470,000  5,860,000 (SL)"," 269,000 with fuel",,,
 СПД-100),RUS,OKB Fakel,SMART-1,Vacuum,Xenon," 1,650 @1.5 kW",0.088 @1.5 kW,5.3,,,
 S139,IND,SDSC,PSLV,1st,HTPB,269," 486,0000"," 160,200with fuel",,58,
 Raptor 330 (SL)," 1,700,000 (SL)",1360prefix=~ (goal),170prefix=≥ (goal),3.6
-Raptor Vacuum,USA,SpaceX,Starship,2nd,CH4 ;thinsp;/ ;thinsp;LOX,380+," 1,900,000",1360prefix=~ (goal),120prefix=≤ (goal),300,3.6
+Raptor Vacuum,USA,SpaceX,Starship,2nd,CH4 ;thinsp;/ ;thinsp;LOX,380+," 1,900,000"," 1360prefix=~ (goal)"," 120prefix=≤ (goal)"," 300 "," 3.6"
 RD-0124 14Д23,RUS,KBKhA,Soyuz-2.1bAngara," 2nd, 3rd",RP-1 ;thinsp;/ ;thinsp;LOX,359," 294,300",520,57.7,160,
 RD-0146D,RUS,KBKhA,Angara,Upper,LH2 ;thinsp;/ ;thinsp;LOX,470,"68,600",,,59,
 RD-107A  14Д22,RUS,NPO Energomash,Soyuz-2,1st,RP-1 ;thinsp;/ ;thinsp;LOX,320.2  263.3 (SL)," 1,019,892  839,449 (SL)"," 1,090",78.53,61.2,
-RD-108A  14Д21,RUS,NPO Energomash,Soyuz-2,2nd,RP-1 ;thinsp;/ ;thinsp;LOX,320.6  257.7 (SL)," 921,825  792,377 (SL)"," 1,075",75.16,55.5,
+RD-108A  14Д21,RUS,NPO Energomash,Soyuz-2,2nd,RP-1 ;thinsp;/ ;thinsp;LOX," 320.6  257.7 (SL)"," 921,825  792,377 (SL)"," 1,075",75.16,55.5,
 RD-171Mname=RD-170Most powerful multi-chamber rocket engine in the world11Д520,RUS,NPO Energomash,Soyuz-5,1st,RP-1 ;thinsp;/ ;thinsp;LOX,337.2  309.5 (SL)," 7,904,160  7,256,921 (SL)"," 9,300",79.57,250,
 RD-180,RUS,NPO Energomash,Atlas VAtlas III,1st,RP-1 ;thinsp;/ ;thinsp;LOX,338.4  311.9 (SL)," 4,152,136  3,826,555 (SL)"," 5,480",71.2,261.7,2.72
 RD-181,RUS,NPO Energomash,Antares 200,1st,RP-1 ;thinsp;/ ;thinsp;LOX,339.2  311.9 (SL)," 2,085,000  1,922,000 (SL)"," 2,200",89,262.6,
@@ -51,10 +51,10 @@ RD-809K,UKR,Pivdenne/Pivdenmash,Mayak,Upper,RP-1 ;thinsp;/ ;thinsp;LOX,,,,,,
 RD-810,UKR,Pivdenne/Pivdenmash," Mayak, Zenit ",1st,RP-1 ;thinsp;/ ;thinsp;LOX,," 2,105,000 1,876,000 (SL)"," 2,800",,180,2.65
 RD-843,UKR,Pivdenne/Pivdenmash,Vega,upper,N2O4 ;thinsp;/ ;thinsp;UDMH,315.5," 2,452,000",15.93,,20.4,2.0,
 RD-861K,UKR,Pivdenne/Pivdenmash,(Cyclone-4M),3rd,N2O4 ;thinsp;/ ;thinsp;UDMH,,,,,,
-Reaver 1,USA,Firefly Aerospace,Alpha,1st,RP-1 ;thinsp;/ ;thinsp;LOX,295.6," 184,000",,,,
+" Reaver 1",USA,Firefly Aerospace,Alpha,1st,RP-1 ;thinsp;/ ;thinsp;LOX,295.6," 184,000",,,,
 RL-10A-4-2,USA,Aerojet Rocketdyne,Atlas IIIB  Atlas V,Upper,LH2 ;thinsp;/ ;thinsp;LOX,451," 99,195",168,60.27,42,5.5
-RL-10B-2,USA,Aerojet Rocketdyne,SLS,Upper,LH2 ;thinsp;/ ;thinsp;LOX,465.5," 110,093",301,37.27,44,5.88
-RL-10C-1,USA,Aerojet Rocketdyne," SLS,Vulcan",Upper,LH2 ;thinsp;/ ;thinsp;LOX,450," 101,820",191,54.5,44,5.5
+" RL-10B-2",USA,Aerojet Rocketdyne,SLS,Upper,LH2 ;thinsp;/ ;thinsp;LOX,465.5," 110,093",301,37.27,44,5.88
+" RL-10C-1",USA,Aerojet Rocketdyne," SLS,Vulcan",Upper,LH2 ;thinsp;/ ;thinsp;LOX,450," 101,820",191,54.5,44,5.5
 RS-25,USA,Rocketdyne,SLS,1st,LH2 ;thinsp;/ ;thinsp;LOX,452.3366 (SL)," 2,279,0001,860,000 (SL)"," 3,526",53.79,206.4,
 Most powerful hydrogen-fueled engine in the world,USA,Rocketdyne,Delta IVDelta IV Heavy,1st,LH2 ;thinsp;/ ;thinsp;LOX,414365 (SL)," 3,560,000  3,137,000 (SL)"," 6,747",53.80,196date=June 2017,
 Rutherford,USA,Rocket Lab,Electron,1st,RP-1 ;thinsp;/ ;thinsp;LOX,311," 24,465  16,890 (SL)",,,,
@@ -65,26 +65,26 @@ SCE-200,IND,LPSC,ULV," Upper, main",RP-1 ;thinsp;/ ;thinsp;LOX,335 299 (SL)," 2,
 SLV-1,IND,Godrej  ; Boyce,PSLV,Booster,HTPB,253," 502,600"," 10,800  with fuel",,43,
 SPT-100,RUS,OKB Fakel,LS-1300 satellites,Vacuum,Xenon," 1,500 @1.35 kW",0.083 @1.35 kW,3.5,,,
 SRB-A,JPN,IHI AerospaceJAXA,H-IIA,Booster,HTPB,280," 2,250,000"," 76,400 with fuel",,,
-SRB-A3,JPN,IHI AerospaceJAXA,Epsilon,Booster,BP-207J,283.6," 2,305,000  2,150,000 (SL)"," 76,600  with fuel",,111,
+SRB-A3,JPN,IHI AerospaceJAXA,Epsilon,Booster,BP-207J," 283.6"," 2,305,000  2,150,000 (SL)"," 76,600  with fuel",,111,
 TQ-12,China,Landspace,ZQ-2,1st,CH4 ;thinsp;/ ;thinsp;LOX,284," 667,000 (SL)",,,101,
 VASIMR,USA,Ad Astra Rocket Company,,Vacuum,Argon," 5,000 @200 kW",5.7 @200 kW,,,,
 Vikas (rocket engine),IND,LPSC,* PSLV * GSLV * GSLV Mk III," 2nd, main, booster",N2O4 ;thinsp;/ ;thinsp;UDMH,262," 680,500–804,500 600,500–756,500 (SL)",,,53.0–58.5,
 Vinci,EUR,Snecma,Ariane 6,Upper,LH2 ;thinsp;/ ;thinsp;LOX,467," 180,000",280,65.60,61,
-Vulcain 2,EUR,Snecma,Ariane 5,1st,LH2 ;thinsp;/ ;thinsp;LOX,429  318 (SL)," 1,359,000  939,500 (SL)"," 1,800",77.04,117.3,
+Vulcain 2,EUR,Snecma,Ariane 5,1st,LH2 ;thinsp;/ ;thinsp;LOX,429  318 (SL)," 1,359,000  939,500 (SL)"," 1,800",77.04," 117.3",
 XIPS-25,USA,Boeing,Boeing 702 satellites,Vacuum,Xenon," 3,500 @4.5 kW",0.165 @4.5 kW,,,,
 YF-100,CHN,AALPT,* Long March 5 * Long March 6 * Long March 7," Booster, 1st",RP-1 ;thinsp;/ ;thinsp;LOX,335  300 (SL)," 1,340,000  1,200,000 (SL)",,,180,
 YF-115,CHN,AALPT,* Long March 6 * Long March 7,2nd,RP-1 ;thinsp;/ ;thinsp;LOX,341.5," 176,500",,,,
 YF-21B,CHN,AALPT,* Long March 2E * Long March 2F * Long March 3," Booster, 1st",N2O4 ;thinsp;/ ;thinsp;UDMH,260.66 (SL)," 740,400 (SL)",,,,
 YF-21C,CHN,AALPT,* Long March 2C * Long March 2D * Long March 3A * Long March 3B * Long March 3C * Long March 4B * Long March 4C,1st,N2O4 ;thinsp;/ ;thinsp;UDMH,260.7 (SL)," 740,400 (SL)",,,,
 YF-25,CHN,AALPT,* Long March 3B * Long March 3C,Booster,N2O4 ;thinsp;/ ;thinsp;UDMH,260.66 (SL)," 740,400 (SL)",,,,
-YF-22B,CHN,AALPT,* Long March 2E * Long March 2F,2nd,N2O4 ;thinsp;/ ;thinsp;UDMH,298.0," 738,400",,,,
-YF-22C,CHN,AALPT,* Long March 2C * Long March 2D * Long March 4B * Long March 4C,2nd,N2O4 ;thinsp;/ ;thinsp;UDMH,298.0," 742,040",,,,
-YF-22D,CHN,AALPT,* Long March 3,2nd,N2O4 ;thinsp;/ ;thinsp;UDMH,298.0," 741,400",,,,
-YF-22E,CHN,AALPT,* Long March 3A * Long March 3B * Long March 3C,2nd,N2O4 ;thinsp;/ ;thinsp;UDMH,298.0," 741,400",,,,
+YF-22B,CHN,AALPT,* Long March 2E * Long March 2F,2nd,N2O4 ;thinsp;/ ;thinsp;UDMH," 298.0"," 738,400",,,,
+YF-22C,CHN,AALPT,* Long March 2C * Long March 2D * Long March 4B * Long March 4C,2nd,N2O4 ;thinsp;/ ;thinsp;UDMH," 298.0"," 742,040",,,,
+YF-22D,CHN,AALPT,* Long March 3,2nd,N2O4 ;thinsp;/ ;thinsp;UDMH," 298.0"," 741,400",,,,
+YF-22E,CHN,AALPT,* Long March 3A * Long March 3B * Long March 3C,2nd,N2O4 ;thinsp;/ ;thinsp;UDMH," 298.0"," 741,400",,,,
 YF-40,CHN,AALPT,* Long March 4B * Long March 4C,3rd,N2O4 ;thinsp;/ ;thinsp;UDMH,303," 103,000",,,,
 YF-50D,CHN,AALPT,* Long March 3B * Long March 3C * Long March 5 * Long March 7,Upper,N2O4 ;thinsp;/ ;thinsp;UDMH,315.5," 6,500",,,,
 YF-73,CHN,AALPT,Long March 3,3rd,LH2 ;thinsp;/ ;thinsp;LOX,420.0," 44,150",,,,
-YF-75,CHN,AALPT,* Long March 3A * Long March 3B * Long March 3C,3rd,LH2 ;thinsp;/ ;thinsp;LOX,438.0," 167,170",,,,
+YF-75,CHN,AALPT,* Long March 3A * Long March 3B * Long March 3C,3rd,LH2 ;thinsp;/ ;thinsp;LOX," 438.0"," 167,170",,,,
 YF-75D,CHN,AALPT,Long March 5,2nd,LH2 ;thinsp;/ ;thinsp;LOX,442.0," 86,260",,,,
 YF-77,CHN,AALPT,Long March 5,1st,LH2 ;thinsp;/ ;thinsp;LOX,430310.2 (SL)," 700,000510,000 (SL)"," 2,700",,102,
 Zefiro 9A,EU,Avio,Vega,3rd,Solid,," 72,000",,,75,

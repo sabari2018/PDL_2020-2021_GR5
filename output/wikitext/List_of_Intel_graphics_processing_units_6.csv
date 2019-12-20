@@ -1,6 +1,6 @@
-Graphics,Launch,Market,Processor,Code name,Device id.,Core clock (MHz),Execution units,API support,,,Memory  bandwidth(GB/s),DVMT (MB),QSV
+,Launch,Market,Processor,Code name,Device id. ",Core clock (MHz),Execution units,API support ",,,Memory  bandwidth(GB/s),DVMT (MB),QSV
 ,,,,,,,,,Direct3D,OpenGL,,,,OpenCL
-HD Graphics,2011,Mobile,Celeron B7x0Celeron 8x7Celeron B8xxPentium&nbsp;B9x0Pentium 9x7,Sandy Bridge,010A,350–1150,6(GT1),,10.1  FL10_1,3.1Windows  3.3macOS  3.3Linux  ES 3.0Linux,No,21.3,1720,No
+HD Graphics,2011,Mobile,Celeron B7x0Celeron 8x7Celeron B8xxPentium&nbsp;B9x0Pentium 9x7,Sandy Bridge,010A,350–1150,6(GT1),,10.1  FL10_1,3.1Windows  3.3macOS  3.3Linux  ES 3.0Linux",No,21.3,1720,No
 ,,Desktop,Celeron G4x0Celeron G5x0Celeron G530TPentium G6xxPentium G6x0TPentium G8x0,,,650–1100,,,,,,,,
 HD Graphics 2000,,Desktop,Core i3-2102Core i3-21x0Core i3-21x0TCore i5-2xx0Core i5-2x00SCore i5-2xx0TCore i7-2600Core i7-2600S,,0102,650–1350,,,,,,,,Yes
 ,,Workstation,Xeon E3-1260L,,,,,,,,,,,

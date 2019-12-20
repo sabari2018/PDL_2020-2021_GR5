@@ -1,4 +1,4 @@
-Client,Secure POP3,,Secure IMAP4,,Secure SMTP,,Secure NNTP,,Secure LDAP,,SNI,OCSP group=NoteOCSP,CRL group=NoteCRL
+Client",Secure POP3",,Secure IMAP4",,Secure SMTP",,Secure NNTP",,Secure LDAP",,SNI",OCSP group=NoteOCSP",CRL group=NoteCRL"
 ,SSL,TLS group=NoteIMAPPOP,SSL,TLS group=NoteIMAPPOP,SSL,TLS group=NoteSMTPTLS,SSL,TLS,SSL,TLS,,,
 Alpine,yes,yes,yes,yes,yes,yes,yes,yes,dunno,yes,dunno,dunno,dunno
 Apple Mail,yes,yes,yes,yes,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno
@@ -46,5 +46,5 @@ Windows Live Mail,yes,no,yes,no,yes,no,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Windows Mail,yes,no,yes,dunno,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 YAM,yes,yes,no,no,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Zimbra,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno,dunno,dunno
-Client,Secure POP3,,Secure IMAP4,,Secure SMTP,,Secure NNTP,,Secure LDAP,,SNI,OCSP group=NoteOCSP,CRL group=NoteCRL
+Client",Secure POP3",,Secure IMAP4",,Secure SMTP",,Secure NNTP",,Secure LDAP",,SNI",OCSP group=NoteOCSP",CRL group=NoteCRL"
 ,SSL,TLS group=NoteIMAPPOP,SSL,TLS group=NoteIMAPPOP,SSL,TLS group=NoteSMTPTLS,SSL,TLS,SSL,TLS,,,

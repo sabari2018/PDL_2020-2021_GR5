@@ -1,4 +1,4 @@
-Audio player,Lossy compression,,,,,,,,,Lossless compression,,,,,
+,Lossy compression",,,,,,,,,Lossless compression",,,,,
 ,MP3,WMA,RealAudio,Vorbis,Musepack,AAC,Dolby AC-3,VQF,Opus,APE,FLAC,ALAC,SHN,WV,WMA L
 AIMP,yes,yes,no,yes,yes,yes,yes,name=through_winampAvailable through a Winamp plugin.,yes,yes,yes,yes,no,yes,yes
 "! AmarokAmarok uses non-Amarok libraries to decode audio. It will play any file for which a codec is available on the system. The default libraries in Linux are from the VLC project.",yes,yes,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,yes

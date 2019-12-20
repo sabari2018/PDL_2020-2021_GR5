@@ -8,7 +8,7 @@ RT-11,no,no,yes (date only),no,no,no,no,no,no,yes
 Version 6 Unix file system (V6FS),yes,yes,no,yes,no,no,no,no,no,no
 Version 7 Unix file system (V7FS),yes,yes,no,yes,no,no,no,no,no,no
 exFAT,no,no,yes,yes,no,no,no,no,no,no
-FAT12/FAT16/FAT32,no,no,yes,yes," name=fat-ctime Some FAT implementations, such as in Linux, show file modification timestamp (mtime) in the metadata change timestamp (ctime) field. This timestamp is however, not updated on file metadata change.",no,no,no,name=note-22 Particular Installable File System drivers and operating systems may not support extended attributes on FAT12 and FAT16. The OS/2 and Windows NT filesystem drivers for FAT12 and FAT16 support extended attributes (using a "EA DATA. SF" pseudo-file to reserve the clusters allocated to them). Other filesystem drivers for other operating systems do not.,no
+FAT12/FAT16/FAT32,no,no,yes,yes," name=fat-ctime Some FAT implementations, such as in Linux, show file modification timestamp (mtime) in the metadata change timestamp (ctime) field. This timestamp is however, not updated on file metadata change.",no,no,no," name=note-22 Particular Installable File System drivers and operating systems may not support extended attributes on FAT12 and FAT16. The OS/2 and Windows NT filesystem drivers for FAT12 and FAT16 support extended attributes (using a "EA DATA. SF" pseudo-file to reserve the clusters allocated to them). Other filesystem drivers for other operating systems do not.",no
 HPFS," name=note-14 The f-node contains a field for a user identifier. This is not used except by OS/2 Warp Server, however.",no,yes,yes,no,no,no,dunno,yes,no
 NTFS,yes," name=note-5 NTFS access control lists can express any access policy possible using simple POSIX file permissions (and far more), but use of a POSIX-like interface is not supported without an add-on such as Services for UNIX or Cygwin.",yes,yes,yes,no,yes," As of Vista, NTFS has support for Mandatory Labels, which are used to enforce Mandatory Integrity Control.",yes,no
 ReFS,yes,yes,yes,yes,yes,no,yes,dunno," Initially, ReFS lacked support for ADS, but Server 2012 R2 and up add support for ADS on ReFS",Data checksums not enabled by default
@@ -55,7 +55,7 @@ VMFS2,yes,yes,no,yes,yes,no,no,no,no,no
 VMFS3,yes,yes,no,yes,yes,no,no,no,no,no
 ISO 9660:1988,no,no,yes,no,no,no,no,no,no,no
 Rock Ridge,yes,yes,no," Access times are preserved from the original file system at creation time, but Rock Ridge file systems themselves are read-only.",yes,no," libburnia can back up and restore ACLs with file system creation and extraction programs, but no kernel support exists."," name=note-78libburnia can back up and restore extended attributes and MAC labels with file system creation and extraction programs, but no kernel support exists.",name=note-78,no
-Joliet ("CDFS"),no,no,yes,no,no,no,no,no,no,no
+" Joliet ("CDFS")",no,no,yes,no,no,no,no,no,no,no
 ISO 9660:1999,no,no,yes,no,no,no,no,no,no,no
 High Sierra,no,no,yes,no,no,no,no,no,no,no
 SquashFS,yes,yes,yes,yes,yes,no,yes,no,yes,no

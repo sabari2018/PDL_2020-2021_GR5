@@ -1,4 +1,4 @@
-width="10%" Feature,width="10%" Android,width="10%" iOS,width="10%" Windows 10 Mobile,width="10%" BlackBerry 10,width="10%" Tizen,width="10%" Sailfish OS,width="10%" Ubuntu Touch
+" width="10%" Feature"," width="10%" Android"," width="10%" iOS"," width="10%" Windows 10 Mobile"," width="10%" BlackBerry 10"," width="10%" Tizen"," width="10%" Sailfish OS"," width="10%" Ubuntu Touch"
 Non-English languages support,Partial,Yes,Yes,Yes,Limited (Search is not diacritical mark-insensitive),Yes,Yes
 Underlining spell checker,2.3+,Yes,Yes,Yes,No,?,No
 Built-in system-wide dictionary,Built into keyboard app. Available on every device.,5+,Yes,Yes,No,Yes,Yes

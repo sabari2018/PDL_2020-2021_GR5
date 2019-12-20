@@ -55,7 +55,7 @@ Svnd / Vnconfig,dunno,yes,yes,yes (encrypted by default in OpenBSD),dunno,dunno
 SpyProof!,no,yes,yes,no,no,dunno
 Symantec Endpoint Encryption,yes,yes,yes,yes,yes,dunno
 Trend Micro Endpoint Encryption,yes,yes,yes,yes,yes,dunno
-TrueCrypt,yes,yes,yes,yes,only on Windows,dunno
-VeraCrypt,yes,yes,yes,yes,only on Windows,dunno
+TrueCrypt,yes,yes,yes,yes," only on Windows",dunno
+VeraCrypt,yes,yes,yes,yes," only on Windows",dunno
 CyberSafe Top Secret,no,yes,yes,no,no,dunno
 Name,Whole disk,Partition,File,Swap space,Hibernation file,RAID

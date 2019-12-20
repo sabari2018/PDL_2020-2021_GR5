@@ -1,6 +1,6 @@
 ,fixed size array,,dynamic size array,
 ,one-dimensional array,multi-dimensional array,one-dimensional array,multi-dimensional array
-Ada,array ( .. ) of orarray () of," array (1> .. 1>, 2> .. 2>, ...) of orarray (1>, 2>, ...) of ",array ( range ) of," array (1> range , 2> range , ...) of "
+" Ada",array ( .. ) of orarray () of," array (1> .. 1>, 2> .. 2>, ...) of orarray (1>, 2>, ...) of ",array ( range ) of," array (1> range , 2> range , ...) of "
 ALGOL 68,[first:last]«modename»or simply:[size]«modename»," [first1:last1, first2:last2]«modename»or[first1:last1][first2:last2]«modename»etc.",flex[first:last]«modename»or simply:flex[size]«modename»," flex[first1:last1, first2:last2]«modename»orflex[first1:last1]flex[first2:last2]«modename» etc."
 C (C99),type name[size]Cs array[a],type name[size1][size2]Cs array[a],type *nameor within a block:int n = ...; type name[n],
 C++ (STL),«std::»array(C++11)",,«std::»vector,

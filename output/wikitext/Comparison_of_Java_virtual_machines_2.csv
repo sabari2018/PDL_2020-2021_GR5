@@ -1,17 +1,17 @@
-JVM,Status,Latest supported Java version,Supported class libraries,,,Performance,,
+JVM",Status",Latest supported Java version",Supported class libraries",,,Performance",,
 ,,,GNU Classpath,OpenJDK,Other,Interpretation,AOT,JIT
-CACAO,,1.6,Yes,Yes,,No,No,Yes
+CACAO,,1.6," Yes"," Yes",," No"," No"," Yes"
 GCJ,No longer maintained or distributed by GNU as of GCC 7,dunno,Yes,No,,Yes,Yes,No
 "!HotSpot, OpenJDK edition",Reference implementation.,1.8,No,Yes,,Yes,No,Yes
 "!Oracle JDK edition",Reference implementation.,1.8,No,Yes,,Yes,No,Yes
 "!HotSpot, Java SE embedded edition",,dunno,No,Yes,,Yes,No,Yes
 "!HotSpot, Zero port",Interpreter-only port of OpenJDK using almost no assembly language and designed to be very portable.,1.7,No,Yes,,Yes,No,No
-IKVM.NET,,dunno,dunno,dunno,,Whatever the .NET runtime uses,,
+IKVM.NET,,dunno,dunno,dunno,,Whatever the .NET runtime uses",,
 JAmiga,,1.4,Yes,No,,Yes,No,No
-JamVM,,1.8,Yes,Yes,,Yes,No,Yes
-Jato VM,,1.6,Yes,,No,No,Yes
-JC virtual machine,Translates Java to C and compiles it with a C compiler.,1.4,Yes,No,,Yes,Yes,Yes
+JamVM,,1.8," Yes"," Yes",," Yes",No," Yes"
+Jato VM,,1.6,Yes,," No"," No"," Yes"
+JC virtual machine,Translates Java to C and compiles it with a C compiler.,1.4,Yes,No,,Yes," Yes"," Yes"
 Jikes RVM,,1.6,Yes,Port,Apache Harmony,dunno,Yes
-Kaffe,,1.4,Yes,No,,Yes,No,Yes
-Mysaifu JVM,,dunno,Yes,No,,Yes,No,No
+Kaffe,,1.4," Yes",No,," Yes"," No"," Yes"
+Mysaifu JVM,,dunno,Yes,No,,Yes," No"," No"
 SableVM,Unmaintained,1.4,Yes,No,,Yes,No,No

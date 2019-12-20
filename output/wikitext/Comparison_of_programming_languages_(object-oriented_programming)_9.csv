@@ -6,7 +6,7 @@ D," type opIndex(type index) { instructions }  type opIndexAssign(type value, ty
 Java,n/a,,
 Objective-C (recent Clang compiler),n/a,- (id)objectAtIndexedSubscript:(NSUInteger)index { instructions return value; } or- (id)objectForKeyedSubscript:(id)index { instructions return value; },- (void)setObject:(id)value atIndexedSubscript:(NSUInteger)index { instructions } or- (void)setObject:(id)value forKeyedSubscript:(id)index { instructions }
 Swift,subscript (index : type) -> returntype { get { instructions } set«(newIndex)» { instructions } },subscript (index : type) -> returntype { instructions },
-Eiffel,bracket_name alias "[]" (index: TYPE): TYPE assign set_item do instructions end  set_item (value: TYPE; index: TYPE): do instructions end,bracket_name alias "[]" (index: TYPE): TYPE do instructions end,
+" Eiffel"," bracket_name alias "[]" (index: TYPE): TYPE assign set_item do instructions end  set_item (value: TYPE; index: TYPE): do instructions end"," bracket_name alias "[]" (index: TYPE): TYPE do instructions end",
 Python," def __getitem__(self, index):  Tab instructions  Tab return value  def __setitem__(self, index, value):  Tab instructions"," def __getitem__(self, index):  Tab instructions  Tab return value"," def __setitem__(self, index, value):  Tab instructions"
 Visual Basic .NET,Default Property Item(Index As type) As type  Get  instructions  End Get  Set(ByVal Value As type)  instructions  End Set  End Property,Default ReadOnly Property Item(Index As type) As type  Get  instructions  End Get  End Property,Default WriteOnly Property Item(Index As type) As type  Set(ByVal Value As type)  instructions  End Set  End Property
 PHP,,,

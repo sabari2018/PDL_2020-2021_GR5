@@ -13,7 +13,7 @@ Format,Languages
 string =~ s/find_regex/replace/g,Perl 5
 " string.subst(find, replace, :g)",Raku
 " string.replace(find, replace, "g")  or string.replace(/find_regex/g, replace)",JavaScript
-echo "string"  sed s/find_regex/replace/g,Unix
+" echo "string"  sed s/find_regex/replace/g",Unix
 " string.replace(find, replace), orstring -replace find_regex, replace",Windows PowerShell
 Str.global_replace (Str.regexp_string find) replace string,OCaml
 [string stringByReplacingOccurrencesOfString:find withString:replace],Objective-C (NSString * only)
