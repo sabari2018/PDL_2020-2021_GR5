@@ -183,7 +183,6 @@ public class ParserHTML extends Parser {
             while (matcherLinks.find()) {
                 String match = matcherLinks.group(1);
                 if(match != null) {
-                    System.out.println(match);
                     match = match.replace("$", "\\$");
                     cellsList.set(i, cellsList.get(i).replaceAll("<a[^>]*>(.*?)<\\/a>", match));
                 }
