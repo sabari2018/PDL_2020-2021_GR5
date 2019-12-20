@@ -121,7 +121,7 @@ In this new version, the Main class does the same thing : extract tables from ur
 
 However, in this version the scenario has changed : 
 
-![100% center](images/sequence-diagramV2)
+![100% center](images/sequence-diagramV2.JPG)
 
 In the main a ProcessWikiUrl object is created. This object contains : 
 * a list of WikiUrl
