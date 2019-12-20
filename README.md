@@ -31,6 +31,7 @@ After testing the URL: it treat all the HTML code of each page and try to extrac
 Right now, the HTML treatment converte 80% of the pages correctly, and the WikiText part is at 59% of pages converted. But some table seem to complicated to convert to CSV reliably du to different things :
 - Some page are redirected correctly in HTML, but in wikitext that give us a blanck text just telling us that the page is redirected.  But to manage thoses, it would need us to remake entierly our handling of URLs (we spot this problem too late).
 - When one cell is concerned with a collspan AND a rowspan at the same time, we did not managed to convert the table the cell is in.
+- For the Wikitext, the result returned is not 100% because, in wikitext, there is a particular syntax allowing to form an array. There are characters to separate cells, lines ... However, the implementation differs depending on the Wikipedia pages and the contributor. ParserWikitext has regular expressions allowing to capture separators, but, they do not capture all cases.
 - We only treat table that are marked as "class="wikitable"".
 
 Note : In HTML, any link in a table is not gathered, we just keep the title linked to the link. In wikitext, we keep the link and the title. Also, for each image in a table, we gather the link of the image to put it in the concerned cell (at the place of the image).
@@ -38,7 +39,7 @@ Note : In HTML, any link in a table is not gathered, we just keep the title link
 
 ## Functionnality to develop
 
-Manage to parse all tables by improving parsers.
+Manage to parse correctly all tables by improving parsers.
 
 Improve the software itself for it to run with better performances.
 
