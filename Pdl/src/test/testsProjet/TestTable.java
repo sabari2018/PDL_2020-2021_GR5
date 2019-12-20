@@ -13,10 +13,6 @@ import java.util.Iterator;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- *
- */
-
 public class TestTable {
 
     /**
@@ -63,21 +59,15 @@ public class TestTable {
         phtml = new ParserHTML();
         phtml.setUrlHtml(urlHtml);
         tabsHtml = phtml.parseHtml();
-        tabHtml = new Table();
-        for (Table tab : tabsHtml) {
-            tabHtml = tab;
-            System.out.println(tabHtml);
-        }
+        tabHtml = tabsHtml.get(0);
+
 
         //en Wikitext (page avec 1 tableau)
         urlWikiText = "https://en.wikipedia.org/w/index.php?title=Comparison_of_Chernobyl_and_other_radioactivity_releases&action=edit";
         pwt = new ParserWikiText();
         pwt.setUrlWikiText(urlWikiText);
         tabsWikitext = pwt.parseWikiText();
-        tabWikitext = new Table();
-        for (Table tab : tabsWikitext) {
-            tabWikitext = tab;
-        }
+        tabWikitext = tabsWikitext.get(0);
     }
 
     /**
@@ -104,7 +94,7 @@ public class TestTable {
      */
     @Test
     public void testGetNumTableHtml(){
-        assertEquals("The num of the table is not 1", 1 ,tabHtml.getNumTable());
+        assertEquals("The numero of the table is not 1", 1 ,tabHtml.getNumTable());
     }
 
     /**
@@ -131,6 +121,60 @@ public class TestTable {
      */
     @Test
     public void testGetNumTableWikiText(){
-        assertEquals("The num of the table is not 1", 1 ,tabWikitext.getNumTable());
+        assertEquals("The numero of the table is not 1", 1 ,tabWikitext.getNumTable());
+    }
+
+    @Test
+    public void testGetContentHtml () {
+        HashMap<Integer, String []> content = tabHtml.getContent();
+
+        assertEquals("The number of row is not correct", 5, content.size());
+        String [] line1 = content.get(0);
+        String [] line2 = content.get(1);
+        String [] line3 = content.get(2);
+        String [] line4 = content.get(3);
+        String [] line5 = content.get(4);
+
+        assertEquals("The first column of line 1 is not correct", " Isotope", line1[0]);
+        assertEquals("The second column of line 1 is not correct", " Ratio between the release due to the bomb and the Chernobyl accident ", line1[1]);
+
+        assertEquals("The first column of line 2 is not correct", " 90Sr ", line2[0]);
+        assertEquals("The second column of line 2 is not correct", " 1:87 ", line2[1]);
+
+        assertEquals("The first column of line 3 is not correct", " 137Cs ", line3[0]);
+        assertEquals("The second column of line 3 is not correct", " 1:890 ", line3[1]);
+
+        assertEquals("The first column of line 4 is not correct", " 131I ", line4[0]);
+        assertEquals("The second column of line 4 is not correct", " 1:25 ", line4[1]);
+
+        assertEquals("The first column of line 5 is not correct", " 133Xe ", line5[0]);
+        assertEquals("The second column of line 5 is not correct", " 1:31 ", line5[1]);
+    }
+
+    @Test
+    public void testGetContentWikitext () {
+        HashMap<Integer, String []> content = tabWikitext.getContent();
+
+        assertEquals("The number of row is not correct", 5, content.size());
+        String [] line1 = content.get(0);
+        String [] line2 = content.get(1);
+        String [] line3 = content.get(2);
+        String [] line4 = content.get(3);
+        String [] line5 = content.get(4);
+
+        assertEquals("The first column of line 1 is not correct", " Isotope ", line1[0]);
+        assertEquals("The second column of line 1 is not correct", " Ratio between the release due to the bomb and the Chernobyl accident", line1[1]);
+
+        assertEquals("The first column of line 2 is not correct", " 90Sr", line2[0]);
+        assertEquals("The second column of line 2 is not correct", " 1:87", line2[1]);
+
+        assertEquals("The first column of line 3 is not correct", " 137Cs", line3[0]);
+        assertEquals("The second column of line 3 is not correct", " 1:890", line3[1]);
+
+        assertEquals("The first column of line 4 is not correct", " 131I", line4[0]);
+        assertEquals("The second column of line 4 is not correct", " 1:25", line4[1]);
+
+        assertEquals("The first column of line 5 is not correct", " 133Xe", line5[0]);
+        assertEquals("The second column of line 5 is not correct", " 1:31 ", line5[1]);
     }
 }
