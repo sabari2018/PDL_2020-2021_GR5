@@ -37,7 +37,7 @@ public class TestParserWikiText {
         pwt.setUrlWikiText(urlWikiText);
         ArrayList<Table> tabs = pwt.parseWikiText();
 
-        assertEquals("We should have 0 table", 0, tabs.size(), tabs.size());
+        assertEquals("We should have 0 table", 0, tabs.size());
     }
 
     /**
