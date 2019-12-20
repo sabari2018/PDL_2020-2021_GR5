@@ -33,6 +33,10 @@ public class TestCSVTemoin {
     String convertedFileFive = "Comparison_of_Unicode_encodings_2.csv";
     String wantedFileFive = "TemoinUnicodeEncodings.csv";
 
+    String urlSix = "https://en.wikipedia.org/wiki/Comparison_between_Esperanto_and_Interlingua";
+    String convertedFileSix = "Comparison_between_Esperanto_and_Interlingua_2.csv";
+    String wantedFileSix = "TemoinEsperantoInterlingua.csv";
+
     @Before
     public void setUpCSVTemoin(){
         process = new ProcessWikiUrl();
@@ -58,6 +62,9 @@ public class TestCSVTemoin {
         Assert.assertTrue("Generated file does not correspond expected file", result);
 
         result = compareTemoinAndConverted(urlFive, wantedFileFive, convertedFileFive);
+        Assert.assertTrue("Generated file does not correspond expected file", result);
+
+        result = compareTemoinAndConverted(urlSix, wantedFileSix, convertedFileSix);
         Assert.assertTrue("Generated file does not correspond expected file", result);
     }
 
