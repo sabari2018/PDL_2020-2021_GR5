@@ -16,16 +16,15 @@ import java.util.regex.Pattern;
  * Parse wikiText and standardize it with the data structure {@link Table}.
  */
 public class ParserWikiText extends Parser {
-    private static final Logger logger = Logger.getLogger(ParserWikiText.class);
+    private static final Logger LOGGER = Logger.getLogger(ParserWikiText.class);
     private static final String KEY_WORD_WIKITABLE = "wikitable";
-    private static final String START_WIKITABLE = ".*class=.*wikitable.*(\\n*(\\|-|!|\\|+.*)*)*";
+    private static final String START_WIKITABLE = ".*class=.*wikitable.*(\\n*(\\|-.*|!|\\|+.*)*)*";
     private static final String END_WIKITABLE = "\\|}";
-    //        private static final String ROW_SEPARATOR = "\\n\\|-.*\\n\\|?";
-    private static final String ROW_SEPARATOR = "\\n\\|-.*\\n\\|?-?";
-    private static final String CELL_SEPARATOR = "\\n\\s*\\||\\n!|!{2}|\\|{2}";
+    private static final String ROW_SEPARATOR = "\\n(\\|-.*\\n*)*(\\n\\|?-?)";
+    private static final String CELL_SEPARATOR = "\\n\\s*\\||\\n\\s*!|!{2}|\\|{2}";
     private static final String REGEX_COLSPAN = ".*colspan=\"?(\\d*)\\s?\"?.*";
     private static final String REGEX_ROWSPAN = ".*rowspan=\"?(\\d*)\\s?\"?.*";
-    private String urlWikiText;
+    private static final String REGEX_COMMENT = "(?=&lt;!--)([\\s\\S]*?)--&gt;";
     private String titleOfCurrentPage;
     private ArrayList<String> wikiTextTables;
     private ArrayList<Table> standardizedTables;
@@ -38,7 +37,7 @@ public class ParserWikiText extends Parser {
         String log4jConfPath = "Pdl/resources/log4j.properties";
         PropertyConfigurator.configure(log4jConfPath);
         this.wikiTextTables = new ArrayList<String>();
-        rangesOfRowspan = new HashMap();
+        rangesOfRowspan = new HashMap<Integer, Integer>();
     }
 
     /**
@@ -48,11 +47,10 @@ public class ParserWikiText extends Parser {
      * @param urlWikiText new url to access
      */
     public void setUrlWikiText(final String urlWikiText) {
-        this.urlWikiText = urlWikiText;
         this.standardizedTables = new ArrayList<Table>();
-        Document doc = this.getPageFromUrl(this.urlWikiText);
+        Document doc = this.getPageFromUrl(urlWikiText);
         if (doc != null) {
-            this.setTextToParse(doc.html());
+            this.setTextToParse(doc.html().replaceAll(REGEX_COMMENT, ""));
             this.titleOfCurrentPage = doc.title();
         }
         String[] splitUrl = urlWikiText.split("title=");
@@ -132,7 +130,7 @@ public class ParserWikiText extends Parser {
             if (endTable < startTable) {
                 // sometimes, a table finish by "|} |}". So the following table
                 // end before it start
-                logger.debug("The end of the table is before the start");
+                LOGGER.debug("The end of the table is before the start");
                 m2.find();
                 endTable = m2.start();
             }
@@ -155,9 +153,14 @@ public class ParserWikiText extends Parser {
         for (int i = 0; i < rows.length; i++) {
             // remove unwanted String
             rows[i] = rows[i].replaceAll("&amp;nbsp;", " ");
+            rows[i] = rows[i].replaceAll("&lt;", "<");
+            rows[i] = rows[i].replaceAll("\n", "ENTER");
+            rows[i] = rows[i].replaceAll("&gt;", ">");
+            rows[i] = rows[i].replaceAll("<ref[^>]*>(.*?)</ref>", "");
             rows[i] = rows[i].replaceAll("&amp", " ");
             rows[i] = rows[i].replaceAll("Color[^>]*darkgray", " ");
             rows[i] = rows[i].replaceAll("'*", "");
+            rows[i] = rows[i].replaceAll("ENTER", "\n");
             if (!rows[i].trim().isEmpty()) {
                 list.add(rows[i]);
             }
@@ -185,7 +188,7 @@ public class ParserWikiText extends Parser {
      * @param cells cells of one row
      * @return list of the cells without the unwanted characters
      */
-    private ArrayList<String> handleCells(String[] cells) {
+    private ArrayList<String> handleCells(final String[] cells) {
         ArrayList<String> cellsList = new ArrayList(Arrays.asList(cells));
         int nbCells = cells.length;
         int nbCellsWithRowspan = cells.length + rangesOfRowspan.size();
@@ -194,11 +197,9 @@ public class ParserWikiText extends Parser {
                 cellsList.set(i, cellsList.get(i).replaceAll("\n", " "));
                 cellsList.set(i, handleCommasInData(cellsList.get(i)));
                 cellsList.set(i, cellsList.get(i).replaceAll(START_WIKITABLE, ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("ref&gt;[^>]*/ref&gt;", ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("&lt;ref[^>]*/ref&gt;", ""));
                 cellsList.set(i, cellsList.get(i).replaceAll("&lt;", ""));
                 cellsList.set(i, cellsList.get(i).replaceAll("&gt;", ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("&lt;[^&gt;]*&gt;|&lt;/[^&gt;]*&gt;", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("&lt;[^&gt;]*&gt;.*&lt;/[^&gt;]*&gt;", ""));
                 cellsList.set(i, cellsList.get(i).replaceAll("<[^>]*>|</[^>]*>", ""));
                 cellsList.set(i, cellsList.get(i).replaceAll("\\[\\[.*?\\|", ""));
                 cellsList.set(i, cellsList.get(i).replaceAll("\\[\\[", ""));
@@ -212,6 +213,7 @@ public class ParserWikiText extends Parser {
                 cellsList.set(i, cellsList.get(i).replaceAll("<source.*>", ""));
                 cellsList.set(i, cellsList.get(i).replaceAll("\n", "  "));
                 cellsList.set(i, cellsList.get(i).replaceAll("^\\s*!", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("data-sort-type=\"[^\"]*\"", ""));
             }
         }
         for (int i = 0; i < nbCellsWithRowspan; i++) {
@@ -221,7 +223,7 @@ public class ParserWikiText extends Parser {
                 matcherColSpan = Pattern.compile(REGEX_COLSPAN).matcher(cellsList.get(i));
                 matcherRowSpan = Pattern.compile(REGEX_ROWSPAN).matcher(cellsList.get(i));
             }
-
+            // handle colspan
             if (i < cellsList.size()) {
                 if (matcherColSpan != null && matcherColSpan.matches()) {
                     cellsList.set(i, cellsList.get(i).replaceAll(".*colspan=\"?(\\d*)\\s?\"?", " "));
@@ -235,12 +237,11 @@ public class ParserWikiText extends Parser {
                     }
                 }
             }
-
+            // handle rowspan
             if (rangesOfRowspan.get(i) != null && rangesOfRowspan.get(i) > 0) {
-                if(i < cellsList.size()) {
+                if (i < cellsList.size()) {
                     cellsList.add(i, "");
-                }
-                else {
+                } else {
                     cellsList.add("");
                 }
                 rangesOfRowspan.put(i, rangesOfRowspan.get(i) - 1);

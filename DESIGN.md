@@ -139,38 +139,43 @@ Finally, "convert ()" is called. This methods consits in writing all Table in th
 
 | Test name | Final Result |
 |:------:|-----|
+| **BenchTest**	| |
+| testBenchExtractors | OK |
 | **TestWikiUrl**	| |
 | testChineseUrl	| OK	|
 | testValidUrl	| OK|
 | testInvalidUrl	| OK	|
 | testNullUrl	| OK	|
 | testEmptyUrl | OK |
-| **BenchTest**	| |
-| testBenchExtractors | OK |
 | **TestParserComparaison**	| |
-| testCompareNbTabHTML | Ok |
-| testCompareNbTabWikiText |Failed => Assertion Error : <ul><li>Expected : 100 </li> <li>Actual : 32 </li></ul> |
+| testCompareNbTabHTML | Failed => Assertion Error : <ul><li>Expected : 100 </li> <li>Actual : 80 |
+| testCompareNbTabWikiText |Failed => Assertion Error : <ul><li>Expected : 100 </li> <li>Actual : 52 </li></ul> |
 | **TestParserHTML**	| |
 | testParseHtml | OK |
 | testParseHtmlTree | OK |
-| testGetTablesFromPage | OK |
 | testGetTablesFromPage2 | OK |
 | testGetTablesFromPage3 | OK |
 | testEscapeComasAndQuotes | OK |
 | testGetRowsFromTable | OK |
-| testGetCellsFromRow | Failed => Assertion Error : <ul><li>Expected : 4 </li> <li>Actual : 3 </li></ul> |
+| testGetCellsFromRow | OK |
 | testEscapeComasAndQuotes | OK |
 | **TestParserWikiText**	| |
-| testParseWikiTextNoTab | OK 
+| testParseWikiTextNoTab | OK |
 | testParseWikiTextNotWikitable | OK |
 | testParseWikiText1Tab | OK |
 | testParseWikiText8Tab | OK |
 | testParseWikiTextNbLign1 | OK |
-| testParseWikiTextNbLign2| Failed => Assertion Error : <ul><li>Expected : 16 </li> <li>Actual : 0</li></ul>  |
+| testParseWikiTextNbLign2| OK |
 | testParseWikiTextNbLign3 | OK |
+| testParseWikiTextNbLign4 | OK |
+| testParseWikiTextNbLign5 | OK |
+| testParseWikiTextNbLign6 | OK |
 | testParseWikiTextNbCell1 | OK |
-| testParseWikiTextNbCell2 |Failed => Assertion Error : <ul><li>Expected : 30 </li> <li>Actual : 0 </li></ul>  |
-| testParseWikiTextNbCell3 |Failed => Assertion Error : <ul><li>Expected : 79 </li> <li>Actual : 91 </li></ul>  |
+| testParseWikiTextNbCell2 | OK |
+| testParseWikiTextNbCell3 | OK |
+| testParseWikiTextNbCell4 | OK |
+| testParseWikiTextNbCell5 |  Failed => Assertion Error : <ul><li>Expected : 91 </li> <li>Actual : 113 </li></ul> |
+| testParseWikiTextNbCell6 | OK |
 | **TestProcessWikiUrl**	| |
 | testAddWikiUrlFromFileValid | OK |
 | testAddWikiUrlFromFileInvalid | OK |
@@ -179,9 +184,13 @@ Finally, "convert ()" is called. This methods consits in writing all Table in th
 | testParseHTML | OK |
 | **TestConverter**	| |
 | testFileIsCreated | OK  |
-| testCheckNbRows| Failed => Assertion Error : <ul><li>Expected : 2719 </li> <li>Actual : 2689 </li></ul>  |
-| testCheckNbColumn| Failed => Assertion Error : <ul><li>Expected : 2719 </li> <li>Actual : 2536 </li></ul>  |
-| testCsvValid | Failed => Assertion Error : <ul><li>Expected : 2719 </li> <li>Actual : 1967 </li></ul>|
+| testCheckNbRows| OK  |
+| testCheckNbColumn| Failed => Assertion Error : <ul><li>Expected : 2726 </li> <li>Actual : 2614 </li></ul>  |
+| testCsvValid | Failed => Assertion Error : <ul><li>Expected : 2726 </li> <li>Actual : 1862 </li></ul>|
+| **TestCSVTemoin**	| |
+| testTemoin1 | |
+| testTemoin2 | |
+  
 
 
 
