@@ -31,13 +31,15 @@ public class TestCSVTemoin {
      * Result : Generated CSV correspond to hand-made one
      */
     @Test
-    public void testTemoin(){
-        boolean result = false;
-        result = compareTemoinAndConverted(url, wantedFile, convertedFile);
-        Assert.assertTrue("PAS BON", result);
+    public void testTemoin1 (){
+        boolean result = compareTemoinAndConverted(url, wantedFile, convertedFile);
+        Assert.assertTrue("The result is not as expected", result);
+    }
 
-        result = compareTemoinAndConverted(urlTwo, wantedFileTwo, convertedFileTwo);
-        Assert.assertTrue("PAS BON", result);
+    @Test
+    public void testTemoin2 (){
+        boolean result = compareTemoinAndConverted(urlTwo, wantedFileTwo, convertedFileTwo);
+        Assert.assertTrue("The result is not as expected", result);
     }
 
     /**
