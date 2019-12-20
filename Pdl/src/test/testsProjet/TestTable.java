@@ -8,6 +8,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 import static org.junit.Assert.assertEquals;
 
@@ -37,7 +38,7 @@ public class TestTable {
     /**
      * Attribute of type string that will contain the url html
      */
-    private static String utlHtml;
+    private static String urlHtml;
     /**
      * Attibute of type ParserHTML
      */
@@ -57,14 +58,16 @@ public class TestTable {
     @BeforeClass
     public static void setUp(){
         //en HMTL (page avec 1 tableau)
-        utlHtml = "https://en.wikipedia.org/wiki/Comparison_of_Chernobyl_and_other_radioactivity_releases";
+        urlHtml = "https://en.wikipedia.org/wiki/Comparison_of_Chernobyl_and_other_radioactivity_releases";
         phtml = new ParserHTML();
         phtml.setUrlHtml(urlWikiText);
         tabsHtml = phtml.parseHtml();
-        tabHtml = new Table();
-        for (Table tab : tabsHtml) {
-            tabHtml = tab;
-        }
+        //System.out.println(phtml.parseHtml().size());
+        //tabHtml = new Table();
+        //for (Table tab : tabsHtml) {
+            //tabHtml = tab;
+            //System.out.println(tabHtml);
+        //}
 
         //en Wikitext (page avec 1 tableau)
         urlWikiText = "https://en.wikipedia.org/w/index.php?title=Comparison_of_Chernobyl_and_other_radioactivity_releases&action=edit";
@@ -77,8 +80,30 @@ public class TestTable {
         }
     }
 
+    /**
+     * Case : Title of Table get with Wikitext
+     * Result : the title is the same : "Comparison_of_Chernobyl_and_other_radioactivity_releases"
+     */
     @Test
-    public void testGetTitleHTML(){
-        assertEquals("The title is not the same", "Comparison of Chernobyl and other radioactivity releases" ,tabHtml.getTitle());
+    public void testGetTitleWikitext(){
+        assertEquals("The title is not the same", "Comparison_of_Chernobyl_and_other_radioactivity_releases" ,tabWikitext.getTitle());
+    }
+
+    /**
+     * Case : Extraction type of Table get with Wikitext
+     * Result : the extration type is wikitext
+     */
+    @Test
+    public void testGetExtractionTypeWikiText(){
+        assertEquals("The extraction type is note wikitext", "wikitext" ,tabWikitext.getExtractionType());
+    }
+
+    /**
+     * Case : Num of Table get with Wikitext
+     * Result : The num of the table : 1
+     */
+    @Test
+    public void testGetNumTableWikiText(){
+        assertEquals("The num of the table is not 1", 1 ,tabWikitext.getNumTable());
     }
 }
