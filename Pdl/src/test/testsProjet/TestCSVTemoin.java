@@ -21,23 +21,44 @@ public class TestCSVTemoin {
     String convertedFileTwo = "Comparison_of_Hokkien_writing_systems_4.csv";
     String wantedFileTwo = "TemoinHokkienWritingSystems.csv";
 
+    String urlTree = "https://en.wikipedia.org/wiki/Comparison_of_archive_formats";
+    String convertedFileTree = "Comparison_of_archive_formats_2.csv";
+    String wantedFileTree = "TemoinArchiveFormats.csv";
+
+    String urlFour = "https://en.wikipedia.org/wiki/Comparison_of_debuggers";
+    String convertedFileFour = "Comparison_of_debuggers_1.csv";
+    String wantedFileFour = "TemoinDebuggers.csv";
+
+    String urlFive = "https://en.wikipedia.org/wiki/Comparison_of_Unicode_encodings";
+    String convertedFileFive = "Comparison_of_Unicode_encodings_2.csv";
+    String wantedFileFive = "TemoinUnicodeEncodings.csv";
+
     @Before
     public void setUpCSVTemoin(){
         process = new ProcessWikiUrl();
     }
 
     /**
-     * Case : Comparison of a predefined well made CSV of a given table with the generated CSV of the same table
+     * Case : Comparison of a predefined hand-made CSV of a given table with the generated CSV of the same table
      * Result : Generated CSV correspond to hand-made one
      */
     @Test
     public void testTemoin(){
         boolean result = false;
         result = compareTemoinAndConverted(url, wantedFile, convertedFile);
-        Assert.assertTrue("PAS BON", result);
+        Assert.assertTrue("Generated file does not correspond expected file", result);
 
         result = compareTemoinAndConverted(urlTwo, wantedFileTwo, convertedFileTwo);
-        Assert.assertTrue("PAS BON", result);
+        Assert.assertTrue("Generated file does not correspond expected file", result);
+
+        result = compareTemoinAndConverted(urlTree, wantedFileTree, convertedFileTree);
+        Assert.assertTrue("Generated file does not correspond expected file", result);
+
+        result = compareTemoinAndConverted(urlFour, wantedFileFour, convertedFileFour);
+        Assert.assertTrue("Generated file does not correspond expected file", result);
+
+        result = compareTemoinAndConverted(urlFive, wantedFileFive, convertedFileFive);
+        Assert.assertTrue("Generated file does not correspond expected file", result);
     }
 
     /**
@@ -48,6 +69,8 @@ public class TestCSVTemoin {
      * @return true if generated CSV correpond to hand-made one, else false
      */
     private boolean compareTemoinAndConverted(String givenUrl, String givenWantedFile, String givenConvertedFile){
+        process = new ProcessWikiUrl();
+
         String url = givenUrl;
 
         process.addWikiUrl(url);

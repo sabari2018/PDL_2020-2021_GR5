@@ -3,7 +3,7 @@
 
 ## Global architecture
 
-This project contains two packages : one "model" which contains all classes and "test" which contains all test classes.
+This project contains two packages : "model" which contains all classes and "test" which contains all test classes.
 
 The global architecture is : 
 
@@ -71,34 +71,35 @@ Tests results realised on 10/08/19
 |:------:|-----|
 | **TestCSV**  | Empty |
 | **TestFichier**  	|||
-| <p style="color:#FFFF00;">TestRemove2 </p>	| OK |
-| TestUrlFromFile  	| OK |
-| TestAdd2  	| OK |
-| TestToString  	| OK |
-| TestRemove  	| OK |
-| TestReadFile  	| Failed => Assertion Error : <ul><li>Expected : 312</li> <li>Actual : 314</li></ul>	|
-| TestAdd  	| OK |
+|  <p style="color:#FFFF00;">TestRemove2 </p>	| OK |
+|  TestUrlFromFile  	| OK |
+|  TestAdd2  	| OK |
+|  TestToString  	| OK |
+|  TestRemove  	| OK |
+|  TestReadFile  	| Failed => Assertion Error : <ul><li>Expected : 312</li> <li>Actual : 314</li></ul>	|
+|  TestAdd  	| OK |
 | **TestHTML**  	| |
-| Testhtml  	| Error => Array Index Out Of Bounds Exception : Index 1 out of bounds for lenght 1 	|
-| TestTitle  	| Failed => Comparison failure 	|
-| TestNbColonnes  	| Failed => Assertion Error : <ul><li>Expected : 1</li> <li>Actual : 10</li></ul> 	|
+|  Testhtml  	| Error => Array Index Out Of Bounds Exception : Index 1 out of bounds for lenght 1 	|
+|  TestTitle  	| Failed => Comparison failure 	|
+|  TestNbColonnes  	| Failed => Assertion Error : <ul><li>Expected : 1</li> <li>Actual : 10</li></ul> 	|
 | **TestPDL**	| |
 |  TestWiki	| Error  => null pointer exception	|
 | **TestURL**	| |
 |  TestToHTML  	| OK	|
-|  TestValideUrl  	| Failed => AssertionError 	|
+|  TestValideUrl  	|  TestValideUrl  	| Failed => AssertionError 	|
 |  TestNonValidUrl  	| OK |
-| TestRedirectUrl  	| Failed => Assertion Error : lien redirigé	|
+|  TestRedirectUrl  	| Failed => Assertion Error : lien redirigé	|
 | **TestWikiText**  	| |
-| TestNbLignes  	| Failed => Assertion Error : <ul><li>Expected : 0</li> <li>Actual : 9</li></ul> |
-| TestNewUrl  	| OK |
-| TestNbTableau  	| OK |
+|  TestNbLignes  	| Failed => Assertion Error : <ul><li>Expected : 0</li> <li>Actual : 9</li></ul> |
+|  TestNewUrl  	| OK |
+|  TestNbTableau  	| OK |
 
 # Improvements proposals
 
 ## Global architecture
 
-![100% center](images/class_diagram_v2.png)
+![100% center](images/finalReport-class-diagram.png)
+Note : some methods (like getters and setters) were omited for readability.
 
 | Class | Extends | Description | 
 | --- | --- | --- |
@@ -121,7 +122,7 @@ In this new version, the Main class does the same thing : extract tables from ur
 
 However, in this version the scenario has changed : 
 
-![100% center](images/sequence-diagramV2)
+![100% center](images/sequence-diagramV2.JPG)
 
 In the main a ProcessWikiUrl object is created. This object contains : 
 * a list of WikiUrl
@@ -149,7 +150,7 @@ Finally, "convert ()" is called. This methods consits in writing all Table in th
 | testEmptyUrl | OK |
 | **TestParserComparaison**	| |
 | testCompareNbTabHTML | Failed => Assertion Error : <ul><li>Expected : 100 </li> <li>Actual : 80 |
-| testCompareNbTabWikiText |Failed => Assertion Error : <ul><li>Expected : 100 </li> <li>Actual : 52 </li></ul> |
+| testCompareNbTabWikiText |Failed => Assertion Error : <ul><li>Expected : 100 </li> <li>Actual : 59 </li></ul> |
 | **TestParserHTML**	| |
 | testParseHtml | OK |
 | testParseHtmlTree | OK |
@@ -174,7 +175,7 @@ Finally, "convert ()" is called. This methods consits in writing all Table in th
 | testParseWikiTextNbCell2 | OK |
 | testParseWikiTextNbCell3 | OK |
 | testParseWikiTextNbCell4 | OK |
-| testParseWikiTextNbCell5 |  Failed => Assertion Error : <ul><li>Expected : 91 </li> <li>Actual : 113 </li></ul> |
+| testParseWikiTextNbCell5 | OK |
 | testParseWikiTextNbCell6 | OK |
 | **TestProcessWikiUrl**	| |
 | testAddWikiUrlFromFileValid | OK |
@@ -188,8 +189,7 @@ Finally, "convert ()" is called. This methods consits in writing all Table in th
 | testCheckNbColumn| Failed => Assertion Error : <ul><li>Expected : 2726 </li> <li>Actual : 2614 </li></ul>  |
 | testCsvValid | Failed => Assertion Error : <ul><li>Expected : 2726 </li> <li>Actual : 1862 </li></ul>|
 | **TestCSVTemoin**	| |
-| testTemoin1 | |
-| testTemoin2 | |
+| testTemoin | OK |
   
 
 
