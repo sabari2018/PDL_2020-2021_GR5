@@ -197,12 +197,17 @@ For links, we decided to keep their title only as we prefer to keep comprehensiv
 | testCheckNbColumn| Failed => Assertion Error : <ul><li>Expected : 2726 </li> <li>Actual : 2614 </li></ul>  |
 | testCsvValid | Failed => Assertion Error : <ul><li>Expected : 2726 </li> <li>Actual : 1862 </li></ul>|
 | **TestCSVTemoin**	| |
-| testTemoinOne  | OK |
-| testTemoinTwo  | OK |
-| testTemoinTree | OK |
-| testTemoinFour | OK |
-| testTemoinFive | OK |
-| testTemoinSix  | OK |
+| testTemoinOneHtml  | OK |
+| testTemoinTwoHtml  | OK |
+| testTemoinTreeHtml | OK |
+| testTemoinFourHtml | OK |
+| testTemoinFiveHtml | OK |
+| testTemoinSixHtml  | OK |
+| testTemoinOneWikiText  | OK |
+| testTemoinTreeWikiText | OK |
+| testTemoinFourWikiText | OK |
+| testTemoinFiveWikiText | OK |
+| testTemoinSixWikiText  | OK |
   | **TestTable**	| |
 | testGetTitleHtml | OK |
 | testGetExtractionTypeHtml | OK |
