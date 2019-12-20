@@ -183,6 +183,7 @@ Finally, "convert ()" is called. This methods consits in writing all Table in th
 | testAddWikiUrl | OK|
 | testAddWikiUrlInvalid | OK |
 | testParseHTML | OK |
+| testParseWikiText | OK |
 | **TestConverter**	| |
 | testFileIsCreated | OK  |
 | testCheckNbRows| OK  |
