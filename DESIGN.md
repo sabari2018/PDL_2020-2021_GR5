@@ -69,8 +69,7 @@ Tests results realised on 10/08/19
 
 | <h3>Test name</h3>        |  <h3>Final Result </h3>  |
 |:------:|-----|
-| **TestCSVTemoin**  | |
-|  TestTemoin  | OK |
+| **TestCSV**  | Empty |
 | **TestFichier**  	|||
 |  <p style="color:#FFFF00;">TestRemove2 </p>	| OK |
 |  TestUrlFromFile  	| OK |
@@ -87,7 +86,7 @@ Tests results realised on 10/08/19
 |  TestWiki	| Error  => null pointer exception	|
 | **TestURL**	| |
 |  TestToHTML  	| OK	|
-|  TestValideUrl  	| OK 	|
+|  TestValideUrl  	|  TestValideUrl  	| Failed => AssertionError 	|
 |  TestNonValidUrl  	| OK |
 |  TestRedirectUrl  	| Failed => Assertion Error : lien redirigé	|
 | **TestWikiText**  	| |
