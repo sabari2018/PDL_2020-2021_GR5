@@ -180,12 +180,16 @@ public class ParserHTML extends Parser {
         for (int i = 0; i < cellsList.size(); i++) {
             //Detection of links and pictures. Links are replaced by their title and pictures by their url
             Matcher matcherLinks = Pattern.compile("<a[^>]+title=\"([^\">]+)\"|<img[^>]+src=\"([^\">]+)\"").matcher(cellsList.get(i));
-            if(matcherLinks.find()) {
-                if(matcherLinks.group(1) != null) {
-                    cellsList.set(i, cellsList.get(i).replaceAll("<a[^>]*>(.*?)<\\/a>", matcherLinks.group(1)));
+            while (matcherLinks.find()) {
+                String match = matcherLinks.group(1);
+                if(match != null) {
+                    match = match.replace("$", "\\$");
+                    cellsList.set(i, cellsList.get(i).replaceAll("<a[^>]*>(.*?)<\\/a>", match));
                 }
-                if(matcherLinks.group(2) != null) {
-                    cellsList.set(i, cellsList.get(i).replaceAll("<img[^>]*>", matcherLinks.group(2)));
+                match = matcherLinks.group(2);
+                if(match != null) {
+                    match = match.replace("$", "\\$");
+                    cellsList.set(i, cellsList.get(i).replaceAll("<img[^>]*>", match));
                 }
             }
             cellsList.set(i, cellsList.get(i).replaceAll("<i[^>]*>|</i>", " "));
