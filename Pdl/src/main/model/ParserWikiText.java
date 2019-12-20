@@ -192,30 +192,7 @@ public class ParserWikiText extends Parser {
         ArrayList<String> cellsList = new ArrayList(Arrays.asList(cells));
         int nbCells = cells.length;
         int nbCellsWithRowspan = cells.length + rangesOfRowspan.size();
-        for (int i = 0; i < nbCells; i++) {
-            if (!cellsList.get(i).trim().isEmpty()) {
-                cellsList.set(i, cellsList.get(i).replaceAll("\n", " "));
-                cellsList.set(i, handleCommasQuotesInData(cellsList.get(i)));
-                cellsList.set(i, cellsList.get(i).replaceAll(START_WIKITABLE, ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("&lt;", ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("&gt;", ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("&lt;[^&gt;]*&gt;.*&lt;/[^&gt;]*&gt;", ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("<[^>]*>|</[^>]*>", ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("\\[\\[.*?\\|", ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("\\[\\[", ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("\\{\\{.*?\\|", ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("\\{\\{", ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("\\|", ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("style=\".*\"", ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("align=\".*\"", ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("}}", ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("]]", ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("<source.*>", ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("\n", "  "));
-                cellsList.set(i, cellsList.get(i).replaceAll("^\\s*!", ""));
-                cellsList.set(i, cellsList.get(i).replaceAll("data-sort-type=\"[^\"]*\"", ""));
-            }
-        }
+
         for (int i = 0; i < nbCellsWithRowspan; i++) {
             Matcher matcherColSpan = null;
             Matcher matcherRowSpan = null;
@@ -255,6 +232,30 @@ public class ParserWikiText extends Parser {
                 rangesOfRowspan.put(i, Integer.parseInt(matcherRowSpan.group(1)) - 1);
             }
         }
+        for (int i = 0; i < nbCells; i++) {
+            if (!cellsList.get(i).trim().isEmpty()) {
+                cellsList.set(i, cellsList.get(i).replaceAll("\n", " "));
+                cellsList.set(i, cellsList.get(i).replaceAll(START_WIKITABLE, ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("&lt;", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("&gt;", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("&lt;[^&gt;]*&gt;.*&lt;/[^&gt;]*&gt;", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("<[^>]*>|</[^>]*>", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("\\[\\[.*?\\|", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("\\[\\[", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("\\{\\{.*?\\|", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("\\{\\{", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("\\|", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("style=\".*\"", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("align=\".*\"", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("}}", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("]]", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("<source.*>", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("\n", "  "));
+                cellsList.set(i, cellsList.get(i).replaceAll("^\\s*!", ""));
+                cellsList.set(i, cellsList.get(i).replaceAll("data-sort-type=\"[^\"]*\"", ""));
+                cellsList.set(i, handleCommasQuotesInData(cellsList.get(i)));
+            }
+        }
         return cellsList;
     }
 
@@ -269,8 +270,11 @@ public class ParserWikiText extends Parser {
      */
     private String handleCommasQuotesInData(final String data) {
         String newData = data;
-        if (data.contains(",") || data.contains("\"")) {
-            newData = "\"" + data + "\"";
+        if (newData.contains("\"")) {
+            newData = newData.replaceAll("\"", "\"\"");
+        }
+        if (newData.contains(",") || newData.contains("\"")) {
+            newData = "\"" + newData + "\"";
         }
         return newData;
     }
