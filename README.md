@@ -33,7 +33,7 @@ Right now, the HTML treatment converte 80% of the pages correctly, and the WikiT
 - When one cell is concerned with a collspan AND a rowspan at the same time, we did not managed to convert the table the cell is in.
 - We only treat table that are marked as "class="wikitable"".
 
-Note : any link in a table is not gathered, we just keep the title linked to the link. And for each image in a table, we gather the link of the image to put it in the concerned cell (at the place of the image).
+Note : In HTML, any link in a table is not gathered, we just keep the title linked to the link. In wikitext, we keep the link and the title. Also, for each image in a table, we gather the link of the image to put it in the concerned cell (at the place of the image).
 
 
 ## Functionnality to develop
