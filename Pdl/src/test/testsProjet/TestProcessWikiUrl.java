@@ -18,28 +18,28 @@ public class TestProcessWikiUrl {
     public void testAddWikiUrlFromFileValid(){
         processWikiUrlTest.addWikiUrlFromFile("wikiurlstest", false, "en");
 
-        Assert.assertEquals("The size of the list is not ok", processWikiUrlTest.getListWikiUrl().size(), 2);
+        Assert.assertEquals("La taille n'est pas bonne", processWikiUrlTest.getListWikiUrl().size(), 2);
     }
 
     @Test
     public void testAddWikiUrlFromFileInvalid(){
         processWikiUrlTest.addWikiUrlFromFile("wikiurlsinvalidtest", false, "en");
 
-        Assert.assertEquals("The size of the list is not ok", processWikiUrlTest.getListWikiUrl().size(), 0);
+        Assert.assertEquals("La taille n'est pas bonne", processWikiUrlTest.getListWikiUrl().size(), 0);
     }
 
     @Test
     public void testAddWikiUrl(){
         processWikiUrlTest.addWikiUrl("https://en.wikipedia.org/wiki/Comparison_of_World_War_I_tanks");
 
-        Assert.assertEquals("The url is not added", processWikiUrlTest.getListWikiUrl().size(), 1);
+        Assert.assertEquals("L'url ne s'est pas ajouté", processWikiUrlTest.getListWikiUrl().size(), 1);
     }
 
     @Test
     public void testAddWikiUrlInvalid(){
         processWikiUrlTest.addWikiUrl("https://en.wikipa.orgwikiorisoof_W_WarI_tks");
 
-        Assert.assertEquals("The url is added", processWikiUrlTest.getListWikiUrl().size(), 0);
+        Assert.assertEquals("L'url s'est ajouté alors qu'elle ne devrait pas", processWikiUrlTest.getListWikiUrl().size(), 0);
     }
 
     @Test
@@ -47,6 +47,6 @@ public class TestProcessWikiUrl {
         processWikiUrlTest.addWikiUrlFromFile("wikiurlstest", false, "en");
         processWikiUrlTest.parseHTML();
 
-        Assert.assertNotEquals("The parser doesn't do his job", processWikiUrlTest.getListTable().size(), 0);
+        Assert.assertNotEquals("Le parseur n'as rien parser", processWikiUrlTest.getListTable().size(), 0);
     }
 }
