@@ -133,8 +133,15 @@ In the main a ProcessWikiUrl object is created. This object contains :
 
 First, "addWikiUrlFromFile ()" is called. This function reads "wikiurls.txt" and fills WikiUrl list.
 Then, "parseHTML ()" is executed and realizes the HTML extraction. When a Wikipedia table is extracted, a Table object is created, filled with the Wikipedia table content and add to the Table list.
-After, "parseWikiText ()" is executed and realizes the WikiText extraction. When a Wikipedia table is extracted, a Table object is created, filled with the Wikipedia table content and add to the Table list.
+After, "parseWikiText ()" is executed and realizes the WikiText extraction. When a Wikipedia table is extracted, a Table object is created, filled with the Wikipedia table content and add to the Table list. This object is a common structure which takes the results of our two parsers. This is vey practical in order to compare their results.
 Finally, "convert ()" is called. This methods consits in writing all Table in the list in a csv file.
+
+## Special cases
+
+CSV is a very basic format. It does not have any conventions for pictures or links. More problematic, there is no easy way to write table rowspan and colspan in CSV. An easy way would be to ignore rows containing rowspans or colspans but this will delete a large amount of data. The solution we chose is to replace colspan and rowspan with empty cells.
+The goal of this solution is to retrieve a valid CSV (the same number of cells per row) while keeping the maximum of the original data.
+
+For links, we decided to keep their title only as we prefer to keep comprehensive data. For pictures, we decided to keep their links as it will help the user to find them back on the internet.
 
 ## Tests results
 
