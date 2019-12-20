@@ -149,7 +149,7 @@ Finally, "convert ()" is called. This methods consits in writing all Table in th
 | testEmptyUrl | OK |
 | **TestParserComparaison**	| |
 | testCompareNbTabHTML | Failed => Assertion Error : <ul><li>Expected : 100 </li> <li>Actual : 80 |
-| testCompareNbTabWikiText |Failed => Assertion Error : <ul><li>Expected : 100 </li> <li>Actual : 52 </li></ul> |
+| testCompareNbTabWikiText |Failed => Assertion Error : <ul><li>Expected : 100 </li> <li>Actual : 59 </li></ul> |
 | **TestParserHTML**	| |
 | testParseHtml | OK |
 | testParseHtmlTree | OK |
@@ -174,7 +174,7 @@ Finally, "convert ()" is called. This methods consits in writing all Table in th
 | testParseWikiTextNbCell2 | OK |
 | testParseWikiTextNbCell3 | OK |
 | testParseWikiTextNbCell4 | OK |
-| testParseWikiTextNbCell5 |  Failed => Assertion Error : <ul><li>Expected : 91 </li> <li>Actual : 113 </li></ul> |
+| testParseWikiTextNbCell5 | OK |
 | testParseWikiTextNbCell6 | OK |
 | **TestProcessWikiUrl**	| |
 | testAddWikiUrlFromFileValid | OK |
