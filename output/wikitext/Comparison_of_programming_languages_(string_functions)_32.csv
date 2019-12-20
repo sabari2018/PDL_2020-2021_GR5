@@ -1,5 +1,5 @@
 Format,Languages
-reverse string,"Haskell"
+reverse string,Haskell
 flip string  string.flip,Raku
 lists:reverse(string),Erlang
 strrev(string),PHP
@@ -12,7 +12,7 @@ new StringBuilder(string).reverse().toString(),Java
 StrReverse(string),VB
 string.Reverse().ToString(),"VB .NET, C#"
 implode (rev (explode string)),Standard ML
-" string.split("").reverse().join("")",JavaScript
+" string.split("""").reverse().join("""")",JavaScript
 string.reverse(string)  (string):reverse(),Lua
 string reverse,Smalltalk
 StringReverse[string],Mathematica

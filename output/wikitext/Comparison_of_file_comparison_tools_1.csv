@@ -1,7 +1,7 @@
 Name,Creator,FOSS,Free,First public release date,Year of latest stable version,Windows,Macintosh,Linux,Other platforms,Max Supported File Size
 Beyond Compare,Scooter Software,no; Proprietary,no,1996,2019-12-2 (v4.3.3),Yes,Yes,Yes,,> 2GB (64 bits)
 Compare++,Coode Software,no; Proprietary,no,2010,2014-11-12 (2.21.2.0),Yes,No,No,,
-"!  diff, diff3",AT ;T," yes; BSD 3-clause, BSD 4-clause, CDDL, GPL, Proprietary",yes,1974,,Yes,Yes (Mac OS X),Yes,ported to most platforms as part of SCCS,> 2GB but less than 64 bits
+"  diff, diff3",AT ;T," yes; BSD 3-clause, BSD 4-clause, CDDL, GPL, Proprietary",yes,1974,,Yes,Yes (Mac OS X),Yes,ported to most platforms as part of SCCS,> 2GB but less than 64 bits
 Eclipse (compare),,yes; Eclipse Public License,yes,2004-07-21,2016-09-28 (4.6.1 (Neon.1)),Yes,Yes,Yes,Anything with Java,
 Ediff,Michael Kifer,yes; GPL,yes,1994,2.81.4,Yes,Yes (Mac OS X),Yes,Anything with Emacs and diff,
 ExamDiff Pro,PrestoSoft,no; Proprietary,no,1998,2017-09-23 (v 9.0.1.6),Yes (Win98 and up),No,No,,
@@ -23,6 +23,6 @@ Total Commander (compare),Christian Ghisler,no; Proprietary,no,,2016-11-23 (v9.0
 twdiff (TextWrangler Diff Helper)," Bare Bones Software, Inc.",no; Proprietary,yes; with TextWrangler,,2012 (1.0 (v22)),No,Yes,No,No,
 vimdiff,Bram Moolenaar et al.,yes; GPL-compatible,yes,2001,2016-10-03 (v8.0.0022),Yes,Yes,Yes,Anything with vim,
 WinDiff,Microsoft,no; Proprietary,yes; Part of Platform SDK,1992,2002-08-16 14:36:14 (v5.00.2195.6601),Yes,No,No,No,
-WinMerge,Dean Grimm,yes; GPL,yes,1998,2018-11-22 (v2.18.0),Yes (Win95 and up),Yes (in wine)," Yes (in wine)",,2 GB
+WinMerge,Dean Grimm,yes; GPL,yes,1998,2018-11-22 (v2.18.0),Yes (Win95 and up),Yes (in wine),Yes (in wine),,2 GB
 UCC,USC CSSE,no; USC-CSSE Limited Public License,yes,2009,2015-12-30 (2015.12),Yes,Yes,Yes {2.6.9},Sun Solaris,
 ,Name,Creator,FOSS,Free,First public release date,Year of latest stable version,Windows,Macintosh,Linux,Other platforms,Max Supported File Size

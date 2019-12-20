@@ -1,52 +1,53 @@
-" scope="col" width="5em" ",Austria,Belgium,CzechRepublic,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia ;Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland ;Liechtenstein,Turkey,,Ukraine,UnitedKingdom
-"! scope="col"  Give Way ahead",60px40px,60px,60px50px,60px,60px,60px40px,60px," 60pxcenter40x40px",60px40x40px,60px40px,60px40px,60px30px,60px60px,60px40px,60px40px,60px40px,60px40px,60px60px,60px40px,60px40px,60px40px,60px40px,60px,60px40px,60px60px,60px40px,,60px40px,60px45px
-"! scope="col"  Stop ahead",60px40px,60px,60px50px," 55px",55px,60px40px,60px," 60px40px",,60px40px,60px 40px,60px30px,60px60px,60px40px,60px40px,60px40px,55px,60px60px,60px40px,60px40px,60px40px,60px40px,60px,60px40px,60px60px,60px40px,,60px40px,60px45px
-"! scope="col"  Traffic signals ahead",60px,60px,60px,60px,60px,60px,60px,60px,60x60px,60px,60px,60px,60pxor60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,,60px,60px
-"! scope="col"  Roundabout ahead",60px,",60px,60px,60px,60px,60px,",60x60px,60px,60px,60pxor60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,",60px,,60px,60px
-"! scope="col"  Two-way traffic ahead",60px,60px,60px,60px,60pxor60px,60px,60px,60px,60x60px,60px,60px,60pxor60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,,60px,60pxor60px
-"! scope="col"  Traffic queues likely ahead",,60px,60px,60px,60px,60px,60px,60px,60x60px,60px,,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px55px
-"! scope="col"  Level crossing without barriers ahead",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
-"! scope="col"  Level crossing with barriers ahead",60px,60px,60px,60px,60px,60px,60px," 60px",60px,60px,,60pxor60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
-"! scope="col"  Level crossing",60px,30px,60px,60px,60px,60px,60px,50px,60x60px,40px,,,60px,,30px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px (no gates)
-"! scope="col"  Level crossing (multiple tracks)",60px,30px,60px,60px,60px,60px,,",60x60px,40px,,,60px,,30px,60px,60px,60px,60px,60px,60px,60px,60px,60px,",60px,60px,"
-"! scope="col" width="5em" ",Austria,Belgium,CzechRepublic,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia ;Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland ;Liechtenstein,Turkey,Ukraine,UnitedKingdom
-"! scope="col"  Tram crossing"," 60px60px",60px,60px,60px,60px,60px,60px," 60px60px",60px,60px,",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
-"! scope="col"  Crossroads with priority to the right",60px,60px,60px,,60px,60px,60px,60px,60x60px,60px,60px,",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,"
-"! scope="col"  Crossroads with a minor road",60px,60px,60px,60px,60px,60px,60px," 60px",60x60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
-"! scope="col"  Junction with a minor side road",60px,60px,60px,60px,60px,60px,rowspan="2",,60px,60px,60px,60px,60px,60px,60px,,60px,60px,60px,60px,60px,60px,60px,60px,,60px,60px,60px
-"! scope="col"  Merging traffic",,,,,,60px,60x60px,,60px,60px,60px,60px,60px,,,60px,60px,",60px,",60px,60px,60px,,,,60px
-"! scope="col"  Road narrows on both sides",60px,60px,60px,60px,60px,60px,60px," 60px",60x60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
-"! scope="col"  Road narrows on right (left)",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
-"! scope="col"  Dangerous crosswinds",60px,60px,60px,60px,60px,60px,60px," 60px",60x60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60pxor60px,60px,60px,",60px,60px,60px
-"! scope="col"  Low-flying aircraft",60px,60x60px,60px,60px,60px,60px,,60px,60px,60px,60px,60px,60px,60px,60px,60px,60pxor60px,",60px,60px,60pxor60px
-"! scope="col"  Steep descent",60px,60px,60px,60px,60px,60px,60px," 60px",60px,60px,60px,60px,60px,60px,60px,60px35px,60px35px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
-"! scope="col"  Steep ascent",60px,60px,60px,60px,60px,60px,"," 60px",60px,60px,60px,60px,60px,60px,60px,60px35px,60px35px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
-"! scope="col" width="5em" ",Austria,Belgium,CzechRepublic,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia ;Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland ;Liechtenstein,Turkey,Ukraine,UnitedKingdom
-"! scope="col"  Road bump ahead",,60px,60px,60px,60px,60px,60px,",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
-"! scope="col"  Uneven road ahead",60px,60px,60px,60px,60px,60px,60px," 60px",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
-"! scope="col"  Curve",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
-"! scope="col"  Double curve",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
-"! scope="col"  Slippery road surface",60px,60px,60px,60px,60px,60px,60px," 60px",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
-"! scope="col"  Loose road surface",,60px,60px,60px,60px,60px,60px," 60px ",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
-"! scope="col"  Soft verges or dangerous shoulder",,",60px,60px,60px,60px,","60x60px 44x44px"
-"",60px,,60px,60px,60px,,,60px,60px,60px,60px,60px,60px,60px,60px,60px,",60px,60px,60px
-"! scope="col"  Children",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
-"! scope="col"  Pedestrian crossing ahead",60px,60px,60px,60px,60px,60px,60px," 60px ",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
-"! scope="col"  Cyclists",60px,60px,60px,60px,60px,60px,60px," 60px",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
-"! scope="col"  Falling rocks or debris",60px,60px,60px,60px,60px,60px,60px," 60px ",60px,60px,60px,60px,60px,60px,",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
-"! scope="col" width="5em" ",Austria,Belgium,CzechRepublic,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia ;Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland ;Liechtenstein,Turkey,Ukraine,UnitedKingdom
-"! scope="col"  Caution, snow or ice",,60px 60px,60px,,60px,,,"60px "
+" scope=""col"" width=""5em"" ",Austria,Belgium,CzechRepublic,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia ;Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland ;Liechtenstein,Turkey,Ukraine,UnitedKingdom
+" scope=""col""  Give Way ahead",60px40px,60px,60px50px,60px,60px,60px40px,60px,60pxcenter40x40px,60px40x40px,60px40px,60px40px,60px30px,60px60px,60px40px,60px40px,60px40px,60px40px,60px60px,60px40px,60px40px,60px40px,60px40px,60px,60px40px,60px60px,60px40px,60px40px,60px45px
+" scope=""col""  Stop ahead",60px40px,60px,60px50px,55px,55px,60px40px,60px,60px40px,,60px40px,60px 40px,60px30px,60px60px,60px40px,60px40px,60px40px,55px,60px60px,60px40px,60px40px,60px40px,60px40px,60px,60px40px,60px60px,60px40px,60px40px,60px45px
+" scope=""col""  Traffic signals ahead",60px,60px,60px,60px,60px,60px,60px,60px,60x60px,60px,60px,60px,60pxor60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+" scope=""col""  Roundabout ahead",60px,NOTUSED,60px,60px,60px,60px,60px,NOTUSED,60x60px,60px,60px,60pxor60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,REPLACEDby signNo. 4.54,60px,60px,60px
+" scope=""col""  Two-way traffic ahead",60px,60px,60px,60px,60pxor60px,60px,60px,60px,60x60px,60px,60px,60pxor60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60pxor60px
+" scope=""col""  Traffic queues likely ahead",,60px,60px,60px,60px,60px,60px,60px,60x60px,60px,NOTUSED,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px55px
+" scope=""col""  Level crossing without barriers ahead",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,[[File:UK traffic sign 771.svg|60px]]
+" scope=""col""  Level crossing with barriers ahead",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,,60pxor60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,[[File:UK traffic sign 770.svg|60px]]
+" scope=""col""  Level crossing",60px,30px,60px,60px,60px,60px,60px,50px,60x60px,40px,,NOTUSED,60px,,30px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,[[File:UK traffic sign 774.svg|60px]] (no gates)
+" scope=""col""  Level crossing (multiple tracks)",60px,30px,60px,60px,60px,60px,,NOTUSED,60x60px,40px,,,60px,,30px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60pxDEPRE-CATED,60px,[[File:Ukraine road sign 1.30.gif|60px]],style="background: #E0E0E0;" |<span style="color:#cc111a;">DEPRE-<br>CATED</span>
+" scope=""col"" width=""5em"" ",Austria,Belgium,CzechRepublic,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia ;Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland ;Liechtenstein,Turkey,Ukraine,UnitedKingdom
+" scope=""col""  Tram crossing",60px60px,60px,60px,60px,60px,60px,60px,60px60px,60px,60px,NOTUSED,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+" scope=""col""  Crossroads with priority to the right",60px,60px,60px,,60px,60px,60px,60px,60x60px,60px,60px,NOTUSED,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,NOTUSED
+" scope=""col""  Crossroads with a minor road",60px,60px,60px,60px,60px,60px,60px,60px,60x60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+" scope=""col""  Junction with a minor side road",60px,60px,60px,60px,60px,60px,"  rowspan=""2""  NOTUSED",,60px,60px,60px,60px,60px,60px,60px,,60px,60px,60px,60px,60px,60px,60px,60px,DISUSED,60px,60px,[[File:UK traffic sign 506.1L.svg|60px]]
+" scope=""col""  Merging traffic",NOTUSED,,,,,60px,60x60px,,60px,60px,60px,60px,60px,NOTUSED,,60px,60px,NOTUSED,60px,style="background: #E0E0E0;" |<span style="color:#cc111a;">NOT<br/>USED</span>,[[File:Slovenia road sign I-29.1.svg|60px]],[[File:Spain traffic signal p1c.svg|60px]],[[File:Sweden road sign A29-14.svg|60px]],style="background: #E0E0E0;" |<span style="color:#cc111a;">NOT<br />USED</span>,,,[[File:UK traffic sign 508.1.svg|60px]]
+" scope=""col""  Road narrows on both sides",60px,60px,60px,60px,60px,60px,60px,60px,60x60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+" scope=""col""  Road narrows on right (left)",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+" scope=""col""  Dangerous crosswinds",60px,60px,60px,60px,60px,60px,60px,60px,60x60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60pxor60px,60px,60px,60pxDEPRE-CATED,60px,60px,60px
+" scope=""col""  Low-flying aircraft",60px,60x60px,60px,60px,60px,60px,,60px,60px,60px,60px,60px,60px,60px,60px,60px,60pxor60px,60pxDEPRE-CATED,60px,60px,60pxor60px
+" scope=""col""  Steep descent",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px35px,60px35px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+" scope=""col""  Steep ascent",60px,60px,60px,60px,60px,60px,NOTUSED,60px,60px,60px,60px,60px,60px,60px,60px,60px35px,60px35px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+" scope=""col"" width=""5em"" ",Austria,Belgium,CzechRepublic,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia ;Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland ;Liechtenstein,Turkey,Ukraine,UnitedKingdom
+" scope=""col""  Road bump ahead",,60px,60px,60px,60px,60px,60px,NOTUSED,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+" scope=""col""  Uneven road ahead",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+" scope=""col""  Curve",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+" scope=""col""  Double curve",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+" scope=""col""  Slippery road surface",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+" scope=""col""  Loose road surface",,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+" scope=""col""  Soft verges or dangerous shoulder",,NOTUSED,60px,60px,60px,60px,NOTUSED,60x60px 44x44px
+,60px,,60px,60px,60px,,,60px,60px,60px,60px,60px,60px,60px,60px,60px,NOTUSED,60px,60px,60px
+" scope=""col""  Children",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+" scope=""col""  Pedestrian crossing ahead",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+" scope=""col""  Cyclists",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+" scope=""col""  Falling rocks or debris",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,NOTUSED,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+" scope=""col"" width=""5em"" ",Austria,Belgium,CzechRepublic,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia ;Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland ;Liechtenstein,Turkey,Ukraine,UnitedKingdom
+" scope=""col""  Caution, snow or ice",,60px 60px,60px,,60px,NOTUSED,,[[File:Zeichen 113 - Glättegefahr, StVO 1988.svg|60px]]
+<ref name=":1" group="note" />
 or
-"60px"
-"60px",,60px 60px,60px,60px,60px60px,,60px,,60px,60px,60px 60px,60px (Belarus),60px,60px,60px,,60px30px,60px,60px 60px,60px30px
-"! scope="col"  Caution, fog likely",,,60px,,,,,,60px,,,,,60px,60px,,",60px,,",60px,,60px,,60px,,,"
-"! scope="col"  Opening or swing bridge",,60px,60px,60px,",60px,60px," 60px ",60px,60px,",60px,60px,,60px,60px,60px,60px,60px,60px,,60px,60px,60px,,60px,60px,60px
-"! scope="col"  Unprotected quayside or riverbank",,60px,60px,60px,60px,60px,60px," 60px ",60px,60pxor60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,,60px,60px,60px,,60px,60px,60pxor60px
-"! scope="col"  Domestic animals",60px,60px,60px,60px,60px,,60px," 60px ",60px,60px,60px,60px,60px,,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
-"! scope="col"  Wild animals",60px,60px,60px,60px,60px,60px or 60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
-"! scope="col"  Tunnel ahead",rowspan="2",,60px,60px,,,,,60px,60px,60px,60px,,,,60px,",60px,60px,60px,60px,60px,",60px,",60px,60px,60px
-"! scope="col"  Accident area / accident ahead",60px,,",60px,",60px," 60px50x50px",",60px50px,",60px,60px50px,60px,60px,60px,60px,60px,60px,60px (Belarus),60px,60px,60px,60px,60px,",60px35px35px,60px55px
-"! scope="col"  Roadworks ahead",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
-"! scope="col"  Other danger",60px,60px,60px,60px,60px,60pxor60px (Åland),60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
-"! scope="col"  Other danger (temporary)",,,,,60px,",60px,",60px,,,,60px,,,60px,,,,,60px,",60px,,,60px,,
-"! scope="col" width="5em" ",Austria,Belgium,CzechRepublic,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia ;Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland ;Liechtenstein,Turkey,Ukraine,UnitedKingdom
+60px
+60px,,60px 60px,60px,60px,60px60px,,60px,,60px,60px,60px 60px,60px (Belarus),60px,60px,60px,,60px30px,60px,60px 60px,60px30px
+" scope=""col""  Caution, fog likely",,,60px,,,NOTUSED,,,60px,,,,,60px,60px,,NOTUSED,60px,,NOTUSED,60px,,60px,,60px,,,style="background: #E0E0E0;" |<span style="color:#cc111a;">NOT<br/>USED</span>
+" scope=""col""  Opening or swing bridge",,60px,60px,60px,NOTUSED,60px,60px,60px,60px,60px,NOTUSED,60px,60px,,60px,60px,60px,60px,60px,60px,,60px,60px,60px,NOTUSED,60px,60px,60px
+" scope=""col""  Unprotected quayside or riverbank",,60px,60px,60px,60px,60px,60px,60px,60px,60pxor60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,,60px,60px,60px,,60px,60px,[[File:UK traffic sign 555.svg|60px]]<br/>or<br/>[[File:UK traffic sign 555.1.svg|60px]]
+" scope=""col""  Domestic animals",60px,60px,60px,60px,60px,,60px,60px,60px,60px,60px,60px,60px,,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+" scope=""col""  Wild animals",60px,60px,60px,60px,60px,60px or 60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+" scope=""col""  Tunnel ahead","  rowspan=""2""  NOTUSED",,60px,60px,NOTUSED,,,,60px,60px,60px,60px,NOTUSED,,,60px,NOTUSED,60px,60px,60px,60px,60px,style="background: #E0E0E0;" |<span style="color:#cc111a;">NOT<br/>USED</span>,[[File:Sweden road sign A26.svg|60px]],style="background: #E0E0E0;" |<span style="color:#cc111a;">REPLACED<br/>by sign<br/>[[Road signs in Switzerland and Liechtenstein#Conducting signs|no. 4.07a]]</span><br/>,[[File:Turkey road sign T-28.svg|60px]],[[File:Ukraine road sign 1.9.gif|60px]],[[File:UK traffic sign 529.1.svg|60px]]
+" scope=""col""  Accident area / accident ahead",60px,,NOTUSED,60px,NOTUSED,60px,60px50x50px,NOTUSED,60px50px,NOTUSED,60px,60px50px,60px,60px,60px,60px,60px,60px,60px (Belarus),60px,60px,60px,60px,60px,NOTUSED,60px35px35px,[[File:UK traffic sign 562.svg|60px]]<br/>[[File:UK traffic sign 563.svg|55px]]
+" scope=""col""  Roadworks ahead",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+" scope=""col""  Other danger",60px,60px,60px,60px,60px,60pxor60px (Åland),60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+" scope=""col""  Other danger (temporary)",NOTUSED,,,,60px,NOTUSED,60px,NOTUSED,60px,NOTUSED,,,60px,NOTUSED,,60px,NOTUSED,,,,[[File:Dopravná značka A34 alt.svg|60px]],style="background: #E0E0E0;" |<span style="color:#cc111a;">NOT<br/>USED</span>,[[File:Spain traffic signal tp50.svg|60px]],style="background: #E0E0E0;" |<span style="color:#cc111a;">NOT<br/>USED</span>,,[[File:Turkish road sign 95.jpg|60px]],style="background: #E0E0E0;" |<span style="color:#cc111a;">NOT<br/>USED</span>,
+" scope=""col"" width=""5em"" ",Austria,Belgium,CzechRepublic,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia ;Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland ;Liechtenstein,Turkey,Ukraine,UnitedKingdom

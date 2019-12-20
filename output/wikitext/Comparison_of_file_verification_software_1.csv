@@ -1,4 +1,4 @@
-",Developer,First public release,Latest stable date (version),Cost (USD),Open source,License,Linux,Mac OS X,Windows,Framework
+Software,Developer,First public release,Latest stable date (version),Cost (USD),Open source,License,Linux,Mac OS X,Windows,Framework
 7-Zip,Igor Pavlov,1999-07-19,2019-02-21,free,yes,GNU LGPLv2.1+ with unRAR restriction / LZMA SDK in the public domain,yes,yes,yes,C++
 [http://www.accuhash.com/ AccuHash],Irnis Haliullin,dunno,2008-11-06 (2.0.18),$19.95,no,proprietary,no,no,yes,dunno
 BeaverSFV,Karl-Johan Sjögren,2008-09-14,1.2,free,no,freeware,no,no,yes,.NET
@@ -25,7 +25,7 @@ Double Commander,Alexander Koblov and others,2007,2019-02-16 (0.9.1),free,yes,GP
 PowerShell (via [https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Get-FileHash?view=powershell-6 Get-FileHash]),Microsoft,2012-09-04(3.0),2018-01-10(6.0),Free,Yes; since v6.0,MIT License,yes,yes,yes," .NET Core, .NET Framework"
 [http://gtkhash.sourceforge.net/ GtkHash],Tristan Heaven,2007-06-29(0.1.0),2018-11-27(1.2 ),free,yes,GPL,yes,dunno,no,GTK
 [http://www.slavasoft.com/hashcalc HashCalc],SlavaSoft,dunno,2007-03-03 (2.02),free,no,freeware,no,no,yes,dunno
-"! HashCheck Shell Extension: [https://github.com/gurnec/HashCheck Gurnec version], [http://www.softdevlabs.com/downloads.html SDL version]"," Kai Liu, various, gurnec (2.2.2-2.4.0), Software Development Laboratories (3.0-3.1)",2008-11-29,2016-09-07 (2.4.0),free,yes,BSD,no,no,yes,C
+" HashCheck Shell Extension: [https://github.com/gurnec/HashCheck Gurnec version], [http://www.softdevlabs.com/downloads.html SDL version]"," Kai Liu, various, gurnec (2.2.2-2.4.0), Software Development Laboratories (3.0-3.1)",2008-11-29,2016-09-07 (2.4.0),free,yes,BSD,no,no,yes,C
 [http://www2.arnes.si/~ljc3m2/igor/software/IGLibShellApp/HashForm.html#hashform HashForm],Igor Gresovnik,2010,? (1.6),free,no,freeware,yes,dunno,yes,.NET
 [http://www2.arnes.si/~ljc3m2/igor/software/IGLibShellApp/HashForm.html#hashshell HashShell],Igor Gresovnik,?,2016-06-08 (1.6),free,no,freeware,yes,dunno,yes,.NET
 [https://www.cdtag.com/ilsfv/ ilSFV],Jud White,2009-10-26,2011-08-16 (1.10),free,yes,freeware,no,no,yes,.NET 3.5
@@ -55,4 +55,4 @@ TeraCopy,Code Sector,2007,2017-02-23 (v3.0),various,no,freeware/shareware,no,yes
 Total Commander,Christian Ghisler,2010-06-17,2019-03-14 (9.22)," CHF40, €37, US$41.79",no,proprietary,no,no,yes,Delphi
 [https://github.com/gpfjeff/winhasher WinHasher],Jeffrey T. Darlington,2007-09-26,2013-08-02 (v1.6.2.67),free,yes,GPL,no,no,yes,.NET 2.0
 [http://wxchecksums.sourceforge.net/ wxChecksums],Julien Couot,2003,2006-03-04 (v1.2.2),free,yes,GPL,yes,dunno,yes,GTK
-"!,Developer,First public release,Latest stable date (version),Cost (USD),Open source,License,Linux,Mac OS X,Windows,Framework
+Software,Developer,First public release,Latest stable date (version),Cost (USD),Open source,License,Linux,Mac OS X,Windows,Framework

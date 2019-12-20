@@ -1,11 +1,11 @@
-scope="col"  Name",scope="col"  Release year",scope="col"  Market",scope="col"  Processor",,Device ID",scope="col"  Core config1",scope="col"  Clock rate",,scope="col"  API support",,,,scope="col"  (GB/s)"
-,,,," scope="col"  Code name",,," scope="col"  Model"," scope="col"  Min (MHz)"," scope="col"  Max (MHz)"," scope="col"  Direct3D "," scope="col"  OpenGL "," scope="col"  OpenCL ",," scope="col"  Vulkan"
-,UHD Graphics",2019,Mobile,Ice Lake",Core i3-1000G1Core i3-1005G1,8A58,256:32:4(GT1)",300,900,12  FL12_1,4.6Windows  4.6Linux  ES 3.2Linux,2.1Windows  2.1Linux,1.1Windows  1.1Linux,59.7
+" scope=""col""  Name"," scope=""col""  Release year"," scope=""col""  Market","  scope=""col""  Processor",,Device ID," scope=""col""  Core config1","  scope=""col""  Clock rate",,scope="col" | [[API]] support<ref name="mesa/mesa/src/mesa/drivers/dri/i965/intel_extensions.c" /><ref name="mesa/mesa/tree/src/intel/vulkan/anv_device.c" /><ref name="PhoronixVulkan11" /><ref name="compute-runtime" />,,,,scope="col" | [[Memory bandwidth]] {{Small|([[GB/s]])}}
+,,,," scope=""col""  Code name",,," scope=""col""  Model"," scope=""col""  Min (MHz)",scope="col" | Max {{Small|(MHz)}},scope="col" | [[Direct3D]],scope="col" | [[OpenGL]],scope="col" | [[OpenCL]],,scope="col" | [[Vulkan (API)|Vulkan]]
+,UHD Graphics,2019,Mobile,Ice Lake,Core i3-1000G1Core i3-1005G1,8A58,256:32:4(GT1),300,900,12  FL12_1,4.6Windows  4.6Linux  ES 3.2Linux,2.1Windows  2.1Linux,1.1Windows  1.1Linux,59.7
 ,,,,,Core i5-1035G1,8A56,,,1050,,,,,
-,Iris Plus Graphics",,,,Core i3-1000G4,8A5C,384:48:6(GT1.5)",,900,,,,,
-,,,,,Core i5-1030G4,,,,1050,,,,,
+,Iris Plus Graphics,,,,Core i3-1000G4,| 8A5C,| 384:48:6<br />(GT1.5),,900,,,,,
+,,,,,Core i5-1030G4,,,,| 1050,,,,,
 ,,,,,Core i5-1035G4,,,,,,,,,,8A5A
-,,,,,Core i5-1030G7,8A51,512:64:8(GT2)",1050,,,,,
+,,,,,Core i5-1030G7,| 8A51,| 512:64:8<br />(GT2),1050,,,,,
 ,,,,,Core i7-1060G7,,,1100,,,,,
-,,,,,Core i5-1035G7,8A52,,1050,,,,,
+,,,,,Core i5-1035G7,| 8A52,,1050,,,,,
 ,,,,,Core i7-1065G7,,,1100,,,,,

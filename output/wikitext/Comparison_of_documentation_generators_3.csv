@@ -1,24 +1,24 @@
-"," C, C++",Java,C#," VB, VBScript"," Delphi, Pascal",Ada,D,IDL,Access,Fortran
-,",No,No,No,No,No,No,Yes,No,No,No
-"!," bgcolor="#ffffdd"  C++/CLI only",Yes,Yes,Yes,No,No,No,Yes,Yes,No
-"!,Yes,Yes,Yes," with Pluginname=fn2Though not supported as a native input language, Doxygen can be extended through the use of filters. Examples include Visual Basic, VB.NET, Perl, and Pascal.",with Pluginname=fn2,No," bgcolor="#ffffdd"  Partial",Yes,No,Yes
-,",No,No,No,No,No,No,No,No,No,No
-,",No,No,No,No,No,No,No,No,No,No
-,",Yes,Yes,No,No,Yes,No,No,Yes,No,No
-,",Yes,Yes,No,No,No,No,No,No,No,No
-,",No,Yes,No,No,No,No,No,No,No,No
-,",No,No,No,No,No,No,No,No,No,No
-,",No,No,No,No,No,No,No,No,No,No
-,"," bgcolor="#ffffdd"  Partial"," bgcolor="#ffffdd"  Partial",Yes," bgcolor="#ffffdd"  Partial"," bgcolor="#ffffdd"  Partial"," bgcolor="#ffffdd"  Partial",No,No,No," bgcolor="#ffffdd"  Partial"
-,",No,No,Yes,No,No,No,No,No,No,No
-"!,No,No,No,No,No,No,No,No,No,No
-"!,No,No,No,No,No,No,No,No,No,No
-"!,No,No,No,No,No,No,No,No,No,No
-,",No,No,No,No,No,No,No,No,No,No
-"!," bgcolor="#ffffdd"  Partial",No,No,No,No,No,No,No,No,No
-,",Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes
-,",Yes,with Plugin,No,No,No,with Plugin,No,No,No,with Plugin
-,",No,No,Yes,No,No,No,No,No,No,No
-,",No,No,Yes,Yes,No,No,No,No,No,No
-,",No,No,No,No,No,No,No,No,No,No
-" class="sortbottom",," C, C++",Java,C#," VB, VBScript"," Delphi, Pascal",Ada,D,IDL,Access,Fortran
+," C, C++",Java,C#," VB, VBScript"," Delphi, Pascal",Ada,D,IDL,Access,Fortran
+,Ddoc,No,No,No,No,No,No,Yes,No,No,No
+Document! X," bgcolor=""#ffffdd""  C++/CLI only",Yes,Yes,Yes,No,No,No,Yes,Yes,No
+Doxygen,Yes,Yes,Yes," with Pluginname=fn2Though not supported as a native input language, Doxygen can be extended through the use of filters. Examples include Visual Basic, VB.NET, Perl, and Pascal.",with Pluginname=fn2,No," bgcolor=""#ffffdd""  Partial",Yes,No,Yes
+,Epydoc,No,No,No,No,No,No,No,No,No,No
+,Haddock,No,No,No,No,No,No,No,No,No,No
+,HeaderDoc,Yes,Yes,No,No,Yes,No,No,Yes,No,No
+,Imagix 4D,Yes,Yes,No,No,No,No,No,No,No,No
+,Javadoc,No,Yes,No,No,No,No,No,No,No,No
+,JSDoc,No,No,No,No,No,No,No,No,No,No
+,JsDoc Toolkit,No,No,No,No,No,No,No,No,No,No
+,Natural Docs," bgcolor=""#ffffdd""  Partial"," bgcolor=""#ffffdd""  Partial",Yes," bgcolor=""#ffffdd""  Partial"," bgcolor=""#ffffdd""  Partial"," bgcolor=""#ffffdd""  Partial",No,No,No," bgcolor=""#ffffdd""  Partial"
+,NDoc,No,No,Yes,No,No,No,No,No,No,No
+pdoc,No,No,No,No,No,No,No,No,No,No
+perldoc,No,No,No,No,No,No,No,No,No,No
+phpDocumentor,No,No,No,No,No,No,No,No,No,No
+,pydoc,No,No,No,No,No,No,No,No,No,No
+RDoc," bgcolor=""#ffffdd""  Partial",No,No,No,No,No,No,No,No,No
+,ROBODoc,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes
+,Sphinx,Yes,with Plugin,No,No,No,with Plugin,No,No,No,with Plugin
+,Visual Expert,No,No,Yes,No,No,No,No,No,No,No
+,VSdocman,No,No,Yes,Yes,No,No,No,No,No,No
+,YARD,No,No,No,No,No,No,No,No,No,No
+" class=""sortbottom"" ",," C, C++",Java,C#," VB, VBScript"," Delphi, Pascal",Ada,D,IDL,Access,Fortran

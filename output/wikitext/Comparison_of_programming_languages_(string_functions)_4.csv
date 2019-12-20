@@ -5,10 +5,10 @@ IF string12 THEN -1 ELSE ABS (string1>string2) FI,ALGOL 68
 " strcmp(string1, string2)","C, PHP"
 " std.string.cmp(string1, string2)",D
 " StrComp(string1, string2)","VB, Delphi)"
-string1 cmp string2,"Raku"
+string1 cmp string2,Raku
 string1 compare: string2,"Smalltalk (Squeak, Pharo)"
 string1  string2,Ruby
-string1.compare(string2),"Swift (Foundation)"
+string1.compare(string2),Swift (Foundation)
 " compare(string1, string2)","Rexx, Seed7"
 " CompareStr(string1, string2)","Pascal, Delphi)"
 string1.compareTo(string2),"Cobra, Java"

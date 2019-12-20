@@ -1,4 +1,4 @@
-",","
+Reference types,Java,C#
 Garbage collection,yes,yes
 Weak references,yes,yes
 Reference queue (interaction with garbage collection),yes,yes

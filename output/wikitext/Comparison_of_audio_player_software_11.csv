@@ -1,5 +1,5 @@
-,Audio",,
-,CD,DVD-Audio,HDCD
+Audio player,Audio,,
+,CD,DVD-Audio,[[High Definition Compatible Digital|HDCD]]
 AIMP,yes,no,no
 Amarok,partial,no,no
 aTunes,no,no,no
@@ -20,5 +20,5 @@ Sonique,yes,no,no
 Winamp,yes,no,no
 XMMS,yes,no,no
 Zinf,yes,no,no
-,CD,DVD-Audio,HDCD
-Audio ",,
+Audio player,CD,DVD-Audio,HDCD
+,! colspan="3" | [[Digital audio|Audio]]

@@ -1,4 +1,4 @@
-",ReplayGain,Tag mass,Tag flexible,Time stretch,Pitch shift,A-B repeat,Bookmark,Auto resume,Shutdown on play complete,Archive ability
+Audio player,ReplayGain,Tag mass,Tag flexible,Time stretch,Pitch shift,A-B repeat,Bookmark,Auto resume,Shutdown on play complete,Archive ability
 AIMP,yes,yes,yes,yes,yes,yes,yes,yes,yes,no
 Amarok,yes,yes,yes,no,no,yes,yes,yes,no,no
 Audacious,yes,no,no,yes,yes,yes,no,yes,no,no
@@ -16,7 +16,7 @@ MPXPLAY,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 MusicBee,yes,yes,yes,yes,yes,no,yes,yes,yes,yes
 Musicmatch Jukebox,dunno,partial,dunno,no,no,dunno,dunno,dunno,dunno,dunno
 musikCube,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
-Quod Libet,yes,yes,yes,partial," partial",no,yes,yes,no,no
+Quod Libet,yes,yes,yes,partial,partial,no,yes,yes,no,no
 Rhapsody,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Rhythmbox,yes,yes,no,no,no,no,no,yes,no,no
 Sonique,no,no,dunno,yes,yes,no,no,no,no,dunno

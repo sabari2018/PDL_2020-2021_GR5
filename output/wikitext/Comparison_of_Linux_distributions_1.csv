@@ -6,7 +6,7 @@ ArchBang,Willensky Aristide,Stan McLaren,2011,Rolling,Rolling,dunno,X,Arch Linux
 Arch Linux,Judd Vinet,dev team,2002iso,Rolling,Rolling,Rolling,X," Independent, inspired from CRUX",general,Gratis,site active
 BLAG,Brixton Linux Action Group,Brixton Linux Action Group,2002iso,140k,dunno,2011-05-04iso,100% Free: GNU FSDG,Fedora,desktop,Gratis,site inactive
 Bodhi Linux,Bodhi Linux Team,Bodhi Linux Team,2011iso,5.0.0,dunno,2018-08-22iso,X," Debian, Ubuntu"," desktop, lightweight",Gratis,site active
-Canaima," VIT / FUNDACITE / Free software community"," VIT / FUNDACITE / Free software community",2007iso,6.0,dunno,2018-03-19iso,X," Debian, Ubuntu",Government of Venezuela,Gratis,site active
+Canaima,VIT / FUNDACITE / Free software community,VIT / FUNDACITE / Free software community,2007iso,6.0,dunno,2018-03-19iso,X," Debian, Ubuntu",Government of Venezuela,Gratis,site active
 CentOS,CentOS Project,CentOS Project,2003iso,8.0-1905,10 years,2019-10-16iso,X,Red Hat Enterprise Linux (RHEL)," server, workstation",Gratis,site active
 Chakra,Jan Mette and Arch Linux KDEmod developers,The Chakra Project Team,2010iso,Rolling,Rolling,dunno,X,Arch Linux,desktop,Gratis,site active
 Chrome OS,Sundar Pichai,Google,2009,75.0.3770.129,6.5 years,2019-07-09,X,Chromium OS,web applications,Gratis,site active
@@ -14,8 +14,8 @@ ClearOS,Peter Baldwin,ClearFoundation,2000iso,7.6.0,dunno,2019-05-09iso,X," RHEL
 CrunchBang Linux,Philip Newborough,Philip Newborough,2008iso,11,dunno,2013-05-06iso,X,Debian,desktop,Gratis,site inactive
 Damn Small Linux,John Andrews,dev team,2003iso,4.4.10,dunno,2008-11-18iso,X," Debian, Knoppix"," lightweight, portable",Gratis,site active
 Debian,Ian Murdock,Debian Project,1993iso,10.2,~3 years,Softlanding Linux System (SLS)," general, server, desktop",Gratis,site active
-Debian Edu,,Debian Project,2004iso,9.0+edu0," ~3 years",2017-06-18iso,DFSG,Debian,schools,Gratis,site active
-Devuan," The "Veteran Unix Admins" (VUA)"," The "Veteran Unix Admins" (VUA)",2016iso,2.0.0,dunno,2018-09-16iso,X,Debian,general,Gratis,site active
+Debian Edu,,Debian Project,2004iso,9.0+edu0,~3 years,2017-06-18iso,DFSG,Debian,schools,Gratis,site active
+Devuan," The ""Veteran Unix Admins"" (VUA)"," The ""Veteran Unix Admins"" (VUA)",2016iso,2.0.0,dunno,2018-09-16iso,X,Debian,general,Gratis,site active
 Deepin," Wuhan Deepin Technology Co., Ltd."," Wuhan Deepin Technology Co., Ltd.",2004iso,15.10.2,dunno,2019-07-05iso,dunno," Debian(current), Ubuntu, Morphix(formerly)",general,Gratis,site active
 Dragora GNU/Linux-Libre,Matias A. Fonzo,Matias A. Fonzo,2009iso,3.0-alpha2,dunno,2018-09-28iso,100% Free: GNU FSDG," Independent, inspired from Slackware",general,Gratis,site active
 dyne:bolic,Jaromil,Jaromilx,2005iso,3.0.0,dunno,2011-09-08iso,100% Free: GNU FSDG,Debian,multimedia,Gratis,site inactive
@@ -78,14 +78,14 @@ SparkyLinux,dunno,Sparky Linux team,2012iso,5.7.1,dunno,2019-04-03iso,X,Debian,"
 Source Mage GNU/Linux," Ryan Abrams, Eric Schabell",dev team,2002iso,0.62-11,dunno,2017-10-22iso,Source Mage Social Contract,Sorcerer,general,Gratis,site active
 SteamOS,Valve,Valve,2013iso,2.195,dunno,2019-07-19iso,X,Debian,video games,Gratis,site active
 SUSE Linux Enterprise,SUSE,SUSE,2000iso,15SP1,dunno,2019-08-12,X," Slackware, Jurix"," workstation, server ,supercomputer",Commercial,site active
-Tails,dunno,Tails Development Team,2009iso,3.14.2," –",2019-06-23,X,Debian,security-focused aimed for anonymity and privacy,Gratis,site active
+Tails,dunno,Tails Development Team,2009iso,3.14.2,–,2019-06-23,X,Debian,security-focused aimed for anonymity and privacy,Gratis,site active
 Tiny Core Linux,Robert Shingledecker,Team Tiny Core,2009iso,10.1,dunno,2019-01-20iso,X," Independent, inspired from Damn Small Linux",portable,Gratis,site active
 Tor-ramdisk,Anthony G. Basile,dev team,2008iso,20170130,dunno,2017-01-30iso,X," Gentoo Linux Embedded, uClibc",Tor server,Gratis,site active
-Trisquel GNU/Linux,Rubén Rodríguez Pérez (quidam),Rubén Rodríguez Pérez (quidam),2005iso," 8.0",5 years,2018-04-18iso,100% Free: GNU FSDG,Ubuntu LTS,desktop,Gratis,site active
+Trisquel GNU/Linux,Rubén Rodríguez Pérez (quidam),Rubén Rodríguez Pérez (quidam),2005iso,8.0,5 years,2018-04-18iso,100% Free: GNU FSDG,Ubuntu LTS,desktop,Gratis,site active
 TurnKey GNU/Linux," Alon Swartz, Liraz Siri",TurnKey GNU/Linux Team,2008iso,15.x,Debian packages as per Debian; TurnKey packages for life of current major version (plus backports per request),2019-06-28iso,DFSG,Debian,server based software appliance library aiming to balance security and ease of use,Gratis,site active
 Ubuntu and Derivatives,Canonical Ltd.,Canonical Ltd.,2004iso,19.10," Standard releases 1 year, LTS releases 5 years. Flavor LTS releases 3 or 5 years.",2019-10-17iso,X,Debian," general, server, desktop, supercomputer, IBM mainframe",Gratis,site active
 Univention Corporate Server,Univention GmbH,Univention GmbH,2004iso,4.4," up to 6 months for the free Core Edition; if maintenance is purchased, its up to 7 years, see:",2019-03-12iso,X,Debian," home, business, and school",Core Edition is gratis,site active
-Ututo," Diego Saravia, Daniel Olivera",UTUTO dev team,2000iso,XS 2012,dunno,2012-04-27iso,100% Free: GNU FSDG," Ututo XS: Ubuntu",general,Gratis,site active
+Ututo," Diego Saravia, Daniel Olivera",UTUTO dev team,2000iso,XS 2012,dunno,2012-04-27iso,100% Free: GNU FSDG,Ututo XS: Ubuntu,general,Gratis,site active
 VectorLinux,Robert S. Lange,dev team,1999iso,VL 7.2,dunno,2017-08-28,X,Slackware,desktop,Gratis,dunno
 Void Linux,Juan Romero Pardines,Juan RP and contributors,2008iso,Rolling,Rolling,2017-10-07iso,X," Independent, partially inspired by FreeBSD/NetBSD",general,Gratis,site active
 Webconverger,Kai Hendry,Webconverger Limited,2007iso,35.0,dunno,2016-05-19iso,X,Debian," kiosk software, digital signage",Commercial,site active

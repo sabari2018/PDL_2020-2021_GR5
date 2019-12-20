@@ -1,4 +1,4 @@
-",GUI,CLI,Scripting,Horizontal / Vertical,Syntax Highlighting,Reports
+Name,GUI,CLI,Scripting,Horizontal / Vertical,Syntax Highlighting,Reports
 Beyond Compare,Yes,Yes,Yes,Both,Yes," XML, HTML, CSV, Text, Unix Patch"
 Compare++,Yes,Yes,,Both,Yes," HTML, Text(combined or side-by-side) "
 diff,No,Yes,,Horizontal,yes pipe to diff-highlight,
@@ -24,4 +24,4 @@ vimdiff,Yes,Yes,vim script,Both,Yes,HTML
 WinDiff,Yes,Yes,,Horizontal,No,Text
 WinMerge,Yes,Yes,,Vertical,Yes," CSV, Tab-delimited, HTML, XML"
 UCC,Yes,Yes,,Vertical,Yes," Text, CSV"
-"!,GUI,CLI,Scripting,Horizontal / Vertical,Syntax Highlighting,Reports
+Name,GUI,CLI,Scripting,Horizontal / Vertical,Syntax Highlighting,Reports

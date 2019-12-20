@@ -1,5 +1,5 @@
 Software,Collaborative software,Issue tracking system,Scheduling,Project Portfolio Management,Resource Management,Document Management,Workflow system,Reporting and Analyses
-2-plan,yes,No," yes",yes,yes,yes,Yes,yes
+2-plan,yes,No,yes,yes,yes,yes,Yes,yes
 24SevenOffice,yes,yes,yes,yes,yes,yes,yes,yes
 Actionspace,yes,yes,yes,no,no,no (Integrates with SharePoint),yes,yes
 Apache Allura,yes,yes,no,yes,yes,yes,no,no
@@ -8,13 +8,13 @@ Apache Bloodhound,yes,yes,no,no,no,no,yes,no
 Asana,yes,no,yes,yes,yes,no,yes,yes
 Assembla,yes,yes,yes,yes,yes,yes,yes,yes
 Axosoft,yes,yes,yes,yes,yes,yes,yes,yes
-Basecamp," yes",no,no,no," yes",yes,no,no
+Basecamp,yes,no,no,no,yes,yes,no,no
 Calligra Plan,no,no,yes,no,yes,no,no,no
 CEITON,yes,yes,yes,yes,yes,yes,yes,yes
 Clarizen,yes,yes,yes,yes,yes,yes,yes,yes
 Collabtive,yes,no,no,no,no,yes,no,yes
 Compuware Changepoint,yes,yes,yes,yes,yes,yes,yes,yes
-ConceptDraw Project," yes"," yes"," yes",yes,yes,yes,yes,yes
+ConceptDraw Project,yes,yes,yes,yes,yes,yes,yes,yes
 Concerto Project Management,yes,yes,yes,yes,yes,yes,yes,yes
 Copper Project,yes,yes,yes,yes,yes,yes,no,yes
 dotProject,yes,yes,no,yes,yes,yes,no,yes
@@ -76,8 +76,8 @@ Plandora,yes,yes,yes,yes,yes,yes,no,yes
 Planisware,yes,yes,yes,yes,yes,yes,yes,yes
 PLANTA Project,yes,yes,yes,yes,yes,yes,yes,yes
 Project Builder,unk,unk,unk,unk,unk,unk,unk,unk
-Project KickStart,no,no,yes,no,yes," yes"," yes"," yes"
-Project Team Builder,yes,no," yes"," yes"," yes",no,yes," yes"
+Project KickStart,no,no,yes,no,yes,yes,yes,yes
+Project Team Builder,yes,no,yes,yes,yes,no,yes,yes
 ProjectLibre,no (Enterprise ProjectLibre and PPMLibre under development),no,yes,no (Enterprise ProjectLibre and PPMLibre under development),no,yes
 ProjectLink,yes,yes,yes,yes,yes,yes,yes,yes
 ProjectManager.com,yes,yes,yes,yes,yes,yes,yes,yes
@@ -91,7 +91,7 @@ Prolog,yes,yes,no,yes,no,yes,yes,yes
 Pyrus,yes,yes,no,yes,yes,yes,yes,yes
 RationalPlan,yes,yes,yes,yes,yes,yes,Yes,yes
 Realisor,yes,no,yes,yes,yes,no,no,yes
-Redbooth," yes",unk,unk," yes"," yes"," yes",unk,unk
+Redbooth,yes,unk,unk,yes,yes,yes,unk,unk
 Redmine,yes,yes,yes,yes,no,yes,yes,no
 Rillsoft Project  ; Integration Server,yes,yes,yes,yes,yes,yes,yes,yes
 SAP Business ByDesign,yes,yes,yes,yes,yes,yes,yes,yes
@@ -119,7 +119,7 @@ UniPhi,yes,yes,no,yes,yes,yes,yes,yes
 VPMi,unk,unk,unk,unk,unk,unk,unk,unk
 web2project,yes,yes,no,yes,yes,yes,no,yes
 Workamajig,yes,yes,yes,yes,yes,yes,yes,yes
-Workfront,yes," yes"," yes"," yes",yes,yes,yes,yes
+Workfront,yes,yes,yes,yes,yes,yes,yes,yes
 WorkPLAN Enterprise,yes,yes,yes,yes,yes,yes,yes,yes
 workspace.com,yes,yes,yes,yes,yes,yes,unk,unk
 Wrike,yes,yes,yes,yes,yes,yes,yes,yes

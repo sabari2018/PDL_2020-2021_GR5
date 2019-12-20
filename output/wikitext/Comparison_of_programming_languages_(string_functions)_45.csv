@@ -15,7 +15,7 @@ LTRIM(RTRIM(String)),"Oracle SQL, T-SQL"
 string.strip or string.lstrip or string.rstrip,Ruby
 string =~ s/^\s+//r =~ s/\s+$//r,Perl 5
 string.trim,Raku
-trim(string),"Raku"
+trim(string),Raku
 [string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet,Cocoa
 string withBlanksTrimmedstring withoutSpacesstring withoutSeparators,"Smalltalk (Squeak, Pharo)Smalltalk"
 strip(string),SAS

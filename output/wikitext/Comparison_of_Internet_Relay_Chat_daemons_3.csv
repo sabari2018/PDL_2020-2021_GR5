@@ -1,6 +1,6 @@
 IRC daemon,Modularity,Remote includes
 IPv6,Client SSL,SSL linking,Zip linking
-"! Hostmasking, cloaking",Services integration (built-in services)
+" Hostmasking, cloaking",Services integration (built-in services)
 LDAP authentication,IRCX support,SASL support,SASL EXTERNAL support
 Server protocol
 Bahamut,yes,no,yes,yes,yes,yes,no,no,no,no,no,no,TS5 with extensions

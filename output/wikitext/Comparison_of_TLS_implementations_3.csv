@@ -8,7 +8,7 @@ LibreSSL,yes
 MatrixSSL,yes
 mbed TLS,yes
 NSS,no
-OpenSSL," yes"
+OpenSSL,yes
 RSA BSAFE,yes
 S2n,
 SChannel,yes

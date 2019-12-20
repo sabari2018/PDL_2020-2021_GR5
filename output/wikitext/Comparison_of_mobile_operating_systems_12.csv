@@ -1,4 +1,4 @@
-" width="10%" Feature"," width="10%" Android"," width="10%" iOS"," width="10%" Windows 10 Mobile"," width="10%" BlackBerry 10"," width="10%" Tizen"," width="10%" Sailfish OS"," width="10%" Ubuntu Touch"
+" width=""10%"" Feature"," width=""10%"" Android"," width=""10%"" iOS"," width=""10%"" Windows 10 Mobile"," width=""10%"" BlackBerry 10"," width=""10%"" Tizen"," width=""10%"" Sailfish OS"," width=""10%"" Ubuntu Touch"
 Camera focus at specified point,2.3+,Yes,10+,?,1.0.4.20+,Yes
 Camera exposure metering from specified point,"No, available on some phones.",Yes,8.1+,No,No,?,No
 On device picture info (including Exif data),Only date and location; more with 3rd party software,Only date and location; more with 3rd party software,3rd party apps,Date and location,No,?,Yes
@@ -6,7 +6,7 @@ On device picture categorization,No 3rd party software like TouchWiz,5+,Yes,"Yes
 On device picture description and search,No,10+: Items/objects in picture;7+: Only date and location,Yes,Yes,No,?,No
 Turn off shutter sound,In silent mode,In silent mode,7.5+,10.2+ – In silent mode,In silent mode,In silent mode,No
 Picture crop,Yes,5+,8+,10+,No,Yes,Yes
-Photo rotation,Yes,"5+","8+","10+",No,Yes,Yes
+Photo rotation,Yes,5+,8+,10+,No,Yes,Yes
 Photo red-eye reduction,2.3+,5+,10+,No
 HDR photos option,"4.2+, some manufacturers earlier",Yes,8.1+,10.1+,No,No,Yes
 Photo/video import from memory cards,Yes,With Camera Connection Kit,Yes,Yes,Yes,Yes,Yes

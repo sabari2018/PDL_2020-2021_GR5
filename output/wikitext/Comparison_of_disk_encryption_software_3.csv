@@ -5,10 +5,10 @@ BestCrypt,yes,yes,dunno,no,yes,yes,yes,yes,Any supported by OS,yes
 BitArmor DataControl,no,yes,dunno,no,yes,yes,no,no," NTFS, FAT32 on non-system volumes",no
 BitLocker,no,yes,no,yes,yes,yes,yes,Chiefly NTFS group=NoteBitLockerFS,group=NoteBitLocker2F
 Bloombase Keyparc,no,no,n/a,yes,yes,yes,yes,no,dunno,dunno
-CGD,no,no,n/a,yes,yes,yes,no,no,Any supported by OS," yes"
+CGD,no,no,n/a,yes,yes,yes,no,no,Any supported by OS,yes
 CenterTools DriveLock,no,yes,yes,no,no,yes,no,no,Any supported by OS,yes
 Check Point Full Disk Encryption,yes,yes,yes,yes,yes,yes,yes,yes," NTFS, FAT32",yes
-CipherShed," yes(limited to one per"outer" container)",only on Windows,dunno,no,yes with multiple keyfiles,yes,yes,no," Only Windows MBR volumes; no UEFI GPT drives, and dynamic drives discouraged ",yes
+CipherShed," yes(limited to one per""outer"" container)",only on Windows,dunno,no,yes with multiple keyfiles,yes,yes,no," Only Windows MBR volumes; no UEFI GPT drives, and dynamic drives discouraged ",yes
 CryFS,no,no,n/a,no,no,yes,no,no,Any supported by OS,no
 CrossCrypt,no,no,n/a,no,no,no,no,no,dunno,no
 CryptArchiver,no,no,n/a,no,no,dunno,no,no,dunno,dunno
@@ -25,7 +25,7 @@ Dm-crypt / LUKS,no,group=Notedm-cryptTPM,Any supported by OS,yes
 [http://www.securstar.biz DriveCrypt],yes,yes,yes,yes,yes,yes,yes,no,Any supported by OS,yes
 DriveSentry GoAnywhere 2,no,no,n/a,yes,no,yes,no,dunno,Any supported by OS,yes
 E4M,No,No,n/a,No,No,dunno,No,no,dunno,no
-e-Capsule Private Safe,yes,no,n/a,no," yes",no,yes,no,dunno,dunno
+e-Capsule Private Safe,yes,no,n/a,no,yes,no,yes,no,dunno,dunno
 eCryptfs,no,no,n/a,yes,yes,yes,yes,yes,yes,yes
 EgoSecure HDD Encryption,no,yes,yes,yes,yes,yes,yes,yes," NTFS, FAT32",yes
 FileVault,no,no,n/a,no,Two passwords,?,no," HFS+, possibly others",no
@@ -42,7 +42,7 @@ Private Disk,no,no,n/a,no,yes,yes,no,no,Any supported by OS,yes
 ProxyCrypt,yes,no,no,no,no,yes,yes,no,Any supported by OS,yes
 R-Crypto,dunno,no,n/a,dunno,dunno,dunno,dunno,dunno,Any supported by OS,dunno
 SafeGuard Easy,no,yes,dunno,no,yes,yes,no,yes,Any supported by OS,yes
-SafeGuard Enterprise,no,yes,yes,no,yes,yes,no," yes",Any supported by OS,yes
+SafeGuard Enterprise,no,yes,yes,no,yes,yes,no,yes,Any supported by OS,yes
 SafeGuard PrivateDisk,no,no,n/a,no,yes,yes,no,yes,Any supported by OS,yes
 SafeHouse Professional,no,no,n/a,yes,yes,yes,no,no,Any supported by OS,yes
 Scramdisk,yes,no,n/a,no,no,no,no,no,dunno,Last update to web site 2009-07-02
@@ -55,7 +55,7 @@ Softraid / RAID C,no,no,dunno,dunno,dunno,dunno,yes,dunno,Any supported by OS,du
 Svnd / Vnconfig,no,no,n/a,no,no,yes,yes,dunno,Any supported by OS,dunno
 Symantec Endpoint Encryption,no,yes,yes,yes,yes,yes,no,no," NTFS, FAT32",yes
 Trend Micro Endpoint Encryption,no,yes,yes,yes,yes,yes,yes,no,Any supported by OS,yes
-group=NoteTrueCryptMystery," yes(limited to one per"outer" container)",only on Windows,dunno,no,yes with multiple keyfiles,yes,yes,no,yes
-VeraCrypt," yes(limited to one per"outer" container)",only on Windows,no,no,yes with multiple keyfiles,yes,yes,no," Only Windows MBR volumes; no UEFI GPT drives, and dynamic drives discouraged",yes
+group=NoteTrueCryptMystery," yes(limited to one per""outer"" container)",only on Windows,dunno,no,yes with multiple keyfiles,yes,yes,no,yes
+VeraCrypt," yes(limited to one per""outer"" container)",only on Windows,no,no,yes with multiple keyfiles,yes,yes,no," Only Windows MBR volumes; no UEFI GPT drives, and dynamic drives discouraged",yes
 CyberSafe Top Secret,yes,no,no,no,yes,yes,yes,no," Only Windows MBR volumes; no UEFI GPT drives, and dynamic drives discouraged",yes
 Name,Hidden containers,Pre-boot authentication,Single sign-on,Custom authentication,Multiple keys,Passphrase strengthening,Hardware acceleration,TPM,Filesystems,Two-factor authentication

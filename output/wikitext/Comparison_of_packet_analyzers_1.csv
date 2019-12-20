@@ -1,4 +1,4 @@
-",Creator," Latest release",User interface,Software license," Cost"
+,Creator,Latest release,User interface,Software license,Cost
 Analyze This,[https://web.archive.org/web/20180815070347/https://comoe-networks.com/ Comoe Networks],,Web GUI,N/A,dunno
 Cain and Abel,Massimiliano Montoro," 4.9.56 / April 7, 2014",GUI,Freeware,free
 Capsa,[http://www.colasoft.com Colasoft],11.1 / 20180424,GUI,Proprietary," $0-$995, depending on version"
@@ -18,7 +18,7 @@ Microsoft Network Monitor,Microsoft," 3.4 / June 24, 2010",GUI,Proprietary,free
 netsniff-ng,Daniel Borkmann,"0.6.2 / November 7, 2016",CLI,GNU General Public License,free
 ngrep,Jordan Ritter,1.45 (11/18/06),CLI,BSD-style,free
 Observer,Viavi Solutions (formerly Network Instruments),,GUI,Proprietary,Price on request
-"! OmniPeek (formerly AiroPeek, EtherPeek)",[https://www.savvius.com/ Savvius (formerly WildPackets)]," 11.1 / November, 2017",GUI,Proprietary," $1194-$5994, depending on version"
+" OmniPeek (formerly AiroPeek, EtherPeek)",[https://www.savvius.com/ Savvius (formerly WildPackets)]," 11.1 / November, 2017",GUI,Proprietary," $1194-$5994, depending on version"
 SteelCentral Transaction Analyzer,OPNET Technologies/Riverbed Technology," 17.0.T-PL1 / June 9, 2014",GUI,Proprietary,Nonfree
 snoop,Sun Microsystems,"Solaris 10 / December 11, 2006",CLI,CDDL,free
 tcpdump,The Tcpdump team,4.9.2  / 20170904,CLI,BSD License,free

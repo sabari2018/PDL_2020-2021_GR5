@@ -24,8 +24,8 @@ SmartClient  ; SmartGWT,SmartClient: 11.1 June 2017 SmartGWT: 6.1 June 2017,100â
 SproutCore,1.11.2 2 May 2016,250â€“700 kb (gzipped).,MIT,JavaScript
 Svelte,3.12.1 14 Oct 2019,Variable,MIT,JavaScript
 Vue.js,2.6.1020 Mar 2019,33.5 KB (minified  ; gzipped) 91.48 KB (minified)
-"333.46 KB (uncompressed) ",MIT,JavaScript
-Wakanda,914 Nov 2014,Variable," AGPL (server)  ; [https://web.archive.org/web/20141210051445/http://www.wakanda.org/licensing-pricing Commercial]",JavaScript + HTML + CSS
+333.46 KB (uncompressed),MIT,JavaScript
+Wakanda,914 Nov 2014,Variable,AGPL (server)  ; [https://web.archive.org/web/20141210051445/http://www.wakanda.org/licensing-pricing Commercial],JavaScript + HTML + CSS
 Webix,4.1November 2016,188 kB (gzipped),GPL  ; [https://webix.com/licenses/ Commercial],JavaScript
 ZK,8.0.1 19 Jan 2016,Variable,LGPL  ; GPL  ; [http://www.zkoss.org/license/ ZOL],XML + Java (JavaScript optional)
 Yuneta,3.0,Variable,GPL,"Javascript, C++ "

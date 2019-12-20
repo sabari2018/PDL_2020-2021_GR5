@@ -1,5 +1,5 @@
-",Primary developers",First public release",Based on",Latest stable version",,Cost (USD)",Preferred license",Purpose",Short description"
-,,,,Version,Release Date,,,,
+,Primary developers,First public release,Based on,Latest stable version,,Cost (USD),Preferred license,Purpose,| Short description
+,,,,! Version,Release Date,,,,
 FreeBSD,The FreeBSD Project,1993-12iso," 386BSD, 4.4BSD-Lite",12.0,2018-12-07iso,Free,Simplified BSD," Server, Workstation, Network Appliance, Embedded",Aims to be usable for any purpose.
 OpenBSD,The OpenBSD Project,1996-09iso,NetBSD 1.0,6.6,2019-10-17,Free,ISC," Server, Workstation, Network Appliance, Embedded"," Aims for maximum correctness in code, bringing simplicity and security."
 NetBSD,The NetBSD Project,1993-05iso," 386BSD, 4.4BSD-Lite",8.1,2019-05-31iso,Free,Simplified BSD," Server, Workstation, Network Appliance, Embedded",Aims for maximum portability.
@@ -9,16 +9,16 @@ group=Notea1," BSDi, Wind River Systems",1993-03iso," 4.3BSD Net/2, 4.4BSD",5.1,
 group=Notea1group=Notea2,Sun Microsystems,1982iso," 4.xBSD, UNIX System V",4.1.4,1994-11iso,Included in hardware and support charges,Proprietary," Server, Workstation",Historical (Solaris is a different code base)
 group=Notea1,Digital Equipment Corporation,1984iso," 4.2BSD, SVR2",4.5,1995iso,dunno,Proprietary,General Purpose,Historical (ran on DEC MIPS systems or emulators).
 RISCiX,Acorn Computers,1988,"4.3 BSD, Unix System V",1.31c,1993-09-07,Nonfree £1000 GBP (Approx $1400),Proprietary,Workstation,Historical (ran on Archimedes and R series Workstations)
-"! Tru64 UNIX (DEC OSF/1, Digital UNIX)"," DEC, HP",1993iso," 4.3BSD, 4.4BSD, Mach 2.5, UNIX System V",5.1B-6,2010-10iso,Nonfree $99 (non-commercial),Proprietary,General Purpose,Only runs on HP Alpha systems or emulators.
-macOS,Apple Inc.,2001-03-24iso,Darwin,"10.15.1 "Catalina"",2019-10-29iso,Client: Free Server (add-on application): $19.99,Open source core system (see Darwin) with proprietary higher level API layers locking to Apple hardware," Workstation, Home Desktop, Server",Locked to Apple hardware use only
+" Tru64 UNIX (DEC OSF/1, Digital UNIX)"," DEC, HP",1993iso," 4.3BSD, 4.4BSD, Mach 2.5, UNIX System V",5.1B-6,2010-10iso,Nonfree $99 (non-commercial),Proprietary,General Purpose,Only runs on HP Alpha systems or emulators.
+macOS,Apple Inc.,2001-03-24iso,Darwin,"10.15.1 ""Catalina""",2019-10-29iso,Client: Free Server (add-on application): $19.99,Open source core system (see Darwin) with proprietary higher level API layers locking to Apple hardware," Workstation, Home Desktop, Server",Locked to Apple hardware use only
 iOS,Apple Inc.,2007-06iso,Darwin,13.2.3,2019-11-18iso,Free,Open source core system (see Darwin) with proprietary higher level API layers locking to Apple hardware,Embedded mobile device," Ships with Apple iPhone, iPad, iPod Touch, Apple TV, Apple Watch"
 Darwin,Apple Inc.,2001-03iso," NeXTSTEP, FreeBSD, classic Mac OS",18.0.0,2018-09-24iso,Free," APSL, GPL and others"," Workstation, Home Desktop, Server",The kernel and certain userland components of macOS and iOS
 TrueOS," iXsystems, Inc.",2006-04-29iso,FreeBSD,18.3,2018-03-30iso,Free,BSD,Server,Easy to use while maintaining full use of FreeBSD base
 GhostBSD,Eric Turgeon,2009-11iso,FreeBSD,11.1,2017-11-16iso,Free,BSD," Desktop, Workstation"," Easy to use, full FreeBSD w/ Mate, Xfce, LXDE or Openbox."
-FuryBSD,Joe Maloney,2019-10-24iso,FreeBSD," data-sort-value="claim1=P348id=Q79027338qualifier=P577parameter=time:Y-m-d",2019-12-02iso,Free,BSD," Desktop, Workstation"," Easy to use, full FreeBSD w/ Xfce or KDE."
+FuryBSD,Joe Maloney,2019-10-24iso,FreeBSD," data-sort-value=""claim1=P348id=Q79027338qualifier=P577parameter=time:Y-m-d""   claim1=P348id=Q79027338qualifier=P577parameter=time:j. M Yclaim1=P348id=Q79027338",2019-12-02iso,Free,BSD," Desktop, Workstation"," Easy to use, full FreeBSD w/ Xfce or KDE."
 DesktopBSD," Peter Hofer, Daniel Seuffert",2005-07-25iso,FreeBSD,1.7,2009-09-07iso,Free,BSD,Desktop,Easy to use
 ClosedBSD,Joshua Bergeron and [https://web.archive.org/web/20050404200956/http://www.closedbsd.org/contributions.html various contributors],dunno,FreeBSD," 1.0B (floppy), 1.0-RC1 (CD)",dunno,Free,Proprietary,dunno," firewall/NAT, boot floppy, Live CD"
-FreeSBIE,dunno,dunno,FreeBSD,2.0.3,2007-02iso,Free,dunno,dunno,Live CD of FreeBSD. DistroWatch lists as discontinued.",
+FreeSBIE,dunno,dunno,FreeBSD,2.0.3,2007-02iso,Free,dunno,dunno,Live CD of FreeBSD. DistroWatch lists as discontinued.,
 PicoBSD,Michael Bialecki,dunno,FreeBSD,0.42,dunno,Free,BSD,boot floppy,dunno
 Anonym.OS,dunno,2005-01iso,OpenBSD 3.8,none (beta only),dunno,Free,dunno,Anonymous browsing,Live CD
 MirOS BSD,The MirOS Project,dunno,OpenBSD 3.1,#10,2008-03-16iso,Free,dunno,dunno,European
@@ -36,6 +36,6 @@ pfSense,[http://www.pfsense.org/index.php?option=com_content ;task=view ;id=59 ;
 Paxym FreeBSD for Octeon,Paxym Inc.,2007-12-11iso,FreeBSD 7.0,4.7,2008-08-13iso,dunno,Proprietary," Network, Storage, Security Applications: Routers/UTM/Firewall/NAS",For Cavium Networks Octeon MIPS architecture multicore processors
 MaheshaBSD,,dunno,FreeBSD 8,dunno,dunno,Free,BSD,FreeBSD multipurpose,
 KarmaBSD,,dunno,FreeBSD 8OpenBSD,dunno,dunno,Free,Free software," FreeBSD, OpenBSD Firewall, MP3 player, backup, others",
-Jibbed,,," OpenBSD, NetBSD",6.0,,Free,BSD,,Live CD of NetBSD",
+Jibbed,,," OpenBSD, NetBSD",6.0,,Free,BSD,,Live CD of NetBSD,
 Bitrig,The Bitrig Developers,2014-11-25iso,OpenBSD,1.0,2014-11-25iso,Free,ISC,General Purpose,Focus on modern platforms and tools
 ,Developer,First public release,Based on,Version,Release Date,Cost (USD),Preferred license,Purpose,Short description

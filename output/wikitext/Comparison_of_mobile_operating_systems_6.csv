@@ -1,4 +1,4 @@
-" width="10%" Feature"," width="10%" Android"," width="10%" iOS"," width="10%" Windows 10 Mobile"," width="10%" BlackBerry 10"," width="10%" Tizen"," width="10%" Sailfish OS"," width="10%" Ubuntu Touch"
+" width=""10%"" Feature"," width=""10%"" Android"," width=""10%"" iOS"," width=""10%"" Windows 10 Mobile"," width=""10%"" BlackBerry 10"," width=""10%"" Tizen"," width=""10%"" Sailfish OS"," width=""10%"" Ubuntu Touch"
 Default web browser/engine,Blink,WebKit,Trident (EdgeHTML after 10),WebKit,WebKit,Gecko,QtWebEngine (based on Blink)
 Major web browser available," Chrome for Android, Opera, Firefox, Microsoft Edge "," Safari, Chrome for iOS, Opera Mini, Firefox, Microsoft Edge "," Internet Explorer, Opera Mini, UC Browser, Microsoft Edge "," BlackBerry 10 Browser, Opera Mini, Opera",Tizen Browser (Based on UC Browser)," Sailfish Browser (Firefox), Webcat (WebKit), Web Pirate (WebKit), others via Android (Firefox, Chrome, Opera)",Morph Browser
 Browser extensions,No2 No 3rd party software,8+,"No2 No, 3rd party software",No,No,No,No
@@ -12,12 +12,12 @@ Browser/email save images,Yes,Yes,Yes,Yes,?,Yes,Yes
 Browser/email save PDFs,Yes,Yes,Yes,Yes,Yes,Yes,Yes
 Browser save audio/video,"Yes, but only links, not embedded media",13+;5+: 3rd party software,8.1+,Yes (embedded media not supported),Yes,Yes,Yes
 Browser save page,"Yes, Google Chrome 55+",6+: Offline Reading List; 3rd party software,10+,Yes,Yes,?,Yes
-Browser save any file,"Yes, Chrome for Android.",13+;);,"8.1+",10+,?,Yes,Yes
+Browser save any file,"Yes, Chrome for Android.",13+;);,8.1+,10+,?,Yes,Yes
 Browser force enable zoom,"No, not working anymore on Android 4.4",Yes,"Yes, via accessibility settings","Yes,via accessibility settings",?,?,?
 Browser text reflow,"No, removed on Android 4.4",5+: Only on pages with reader mode available 3rd party browsers on prior versions,Only on pages available on reading view on 8.1+,Yes 10+ Only in reader mode,No,No,No
 Browser Reader Mode,"No2No, 3rd party software",5+,10+,Yes,No,No
 Browser file upload,2.2+,9+;6–8: Limited,Yes,4.2+,Yes,1.0.7.16+,Yes
-Browser form navigation,Next button,"Previous, Next, AutoFill, and Done buttons",Yes,"Yes",?,?,?
+Browser form navigation,Next button,"Previous, Next, AutoFill, and Done buttons",Yes,Yes,?,?,?
 Browser private browsing mode,3.0+ with AOSP browser or with Chrome for Android,5+,8.1+,Yes,1.1.6.27+,Yes
 Offline web apps,Yes,Yes,?,?,No,?,Yes
 HTTP Live Streaming,3+,3+,10+,10+,No,?,Yes

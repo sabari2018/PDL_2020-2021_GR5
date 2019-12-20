@@ -4,19 +4,19 @@ FreeBSD,yes,yes,yes,yes 8.2+,yes,yes,yes,yes,yes,yes,yes,yes,no,no,yes,yes,yes,y
 OpenBSD,yes,yes,yes,yes 5.7+,yes,yes,no,yes,yes,no,no,no,no,no,yes,2d only,yes,yes
 NetBSD,yes,yes,yes,no 7.1,yes,yes,yes,yes,yes,no,no,no,no,no,,,,yes,yes
 DragonFly BSD,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,no,no,no,no,,,,yes,
-"! OpenSolaris, illumos",yes,yes,yes,,yes,yes,yes,yes,yes,yes,no,yes,no,no,,,,yes,V4L2
+" OpenSolaris, illumos",yes,yes,yes,,yes,yes,yes,yes,yes,yes,no,yes,no,no,,,,yes,V4L2
 AuroraUX,yes,yes,yes,,yes,yes,yes,yes,yes,yes,no,yes,no,no,,,,yes,
-"! Darwin, OpenDarwin",yes,yes,yes,yes,,yes,,,,no,no,no,no,no,,,,,
+" Darwin, OpenDarwin",yes,yes,yes,yes,,yes,,,,no,no,no,no,no,,,,,
 MINIX,,,,,,,,,,no,no,no,no,no,,,,,
-FreeDOS,yes,yes,yes,no,no," no",no,,yes,no,no,no,no,no,no,no,no,yes,no
+FreeDOS,yes,yes,yes,no,no,no,no,,yes,no,no,no,no,no,no,no,no,yes,no
 Genode,yes,yes,no,yes,yes,yes,no,no,no,no,no,no,no,no,no,no,no,yes,no
 Haiku,yes,yes,yes,,yes,yes,yes,no,yes,no,no,no,no,no,yes,yes,yes,yes,yes
 KolibriOS,yes,yes,no,,yes,yes,,no,no,no,no,no,no,no,,,,yes,no
 MenuetOS,yes,no,no,,yes,yes,,no,no,no,no,no,no,no,,,,yes,yes
 GNU,yes,group=Notec1,group=Notec1,,group=Notec1,group=Notec1,group=Notec1,group=Notec1,yes,group=Notec2,group=Notec2,group=Notec2,group=Notec2,group=Notec2,group=Notec3,group=Notec3,group=Notec1,group=Notec1,group=Notec1
-ReactOS,yes,yes,yes,,yes," yes",no,no,yes,no,no,no,no,no,,,,yes,
+ReactOS,yes,yes,yes,,yes,yes,no,no,yes,no,no,no,no,no,,,,yes,
 RISC OS,dunno,yes,yes,dunno,yes,yes,no,no,no,no,no,no,no,no,no,no,no,yes,TV tuner
-"! L4, Fiasco, Pistachio",,,,,,,,,,no,no,no,no,no,,,,,
+" L4, Fiasco, Pistachio",,,,,,,,,,no,no,no,no,no,,,,,
 Plan 9,yes,yes,yes,,yes,yes,,yes,yes,no,no,no,no,no,,,,yes,yes
 AROS,yes,,,,,,,,yes,no,no,no,own,no,,,2D only,,
 Syllable,yes,yes,,,yes,yes,,,yes,no,no,no,no,no,,,,yes,

@@ -1,6 +1,6 @@
 BitTorrent client,GUI,Remote,CLI,Other,Programming language,Based on,IPv6,μTP
 ABC,yes,yes,no,no,Python,BitTornado,buggy,no
-Acquisition,yes,no,no,no," Cocoa",Limewire,no,no
+Acquisition,yes,no,no,no,Cocoa,Limewire,no,no
 BitComet,yes,yes,Partial,no,C++,-,yes,no
 BitLet,no,no,no,Webapp,Java Applet,-,no,no
 BitLord,yes,no,no,no," Python, C++",libtorrent (Rasterbar),yes,no

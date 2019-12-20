@@ -1,14 +1,14 @@
 exit block(break),continue,label,branch (goto),return value from generator
-" Ada",exit «loop_name» «when condition»,n/a,label:,goto label,n/a
+Ada,exit «loop_name» «when condition»,n/a,label:,goto label,n/a
 ALGOL 68,value exit; ...,do statements; skip exit; label: statements od,label: ...,go to label; ...goto label; ...label; ...,yield(value) (Callback)
 APL,:Leave,:Continue,label:,→labelor:GoTo label,n/a
 C (C99),break;,continue;,label:,goto label;,n/a
 Objective-C,,,,,
 C++ (STL),,,,,
 D,,,,,
-C#,,,,,yield return value;
+C#,,,,,<code>yield return value;</code>
 Java,break «label»;,continue «label»;,,n/a,
-JavaScript,,,,,yield value«;»
+JavaScript,,,,,<code>yield value«;»</code>
 PHP,break «levels»;,continue «levels»;,goto label;,yield «key =>» value;
 Perl,last «label»;,next «label»;,,
 Raku,,,,
@@ -19,13 +19,13 @@ n/a
 Common Lisp,(return) or  (return-from block) or  (loop-finish),,(tagbody tag...tag...),(go tag),
 Scheme,,,,,
 ISLISP,(return-from block),,(tagbody tag...tag...),(go tag),
-Pascal(ISO),n/a,,label:Pascals declarations[a],goto label;,n/a
+Pascal(ISO),n/a,,label:Pascals declarations[a],goto label;,{{n/a}}
 Pascal(FPC),break;,continue;,,,
-Visual Basic,Exit blockAlternatively, for methods,"
-Return,,n/a,label:,GoTo label,
-Xojo,,Continue block,,,
-Visual Basic .NET,,,,,Yield value
-Python,break,continue,n/a,,yield value
+Visual Basic," Exit blockAlternatively, for methods,"
+Return,,n/a,label:,| <code>GoTo label</code>,
+Xojo,,|<code>Continue block</code>,,,
+Visual Basic .NET,,,,,<code>Yield value</code>
+Python,break,continue,n/a,,<code>yield value</code>
 RPG IV,LEAVE;,ITER;,,,
 S-Lang,break;,continue;,,,
 Fortran,EXIT,CYCLE,labelFortran label[b],GOTO label,n/a

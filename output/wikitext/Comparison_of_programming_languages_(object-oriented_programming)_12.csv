@@ -1,4 +1,4 @@
-,Has member?,,Handler for missing member,
+,Has member?,,| Handler for missing member,
 ,Method,Field,Method,Field
 ABAP Objects,n/a,,,
 C++ (STL),
@@ -9,15 +9,15 @@ eC,
 Java,
 D,,,opDispatch(),
 Eiffel,n/a,,,
-Python," hasattr(x, "method") and callable(x.method)"," hasattr(x, "field")",__getattr__(),
+Python," hasattr(x, ""method"") and callable(x.method)"," hasattr(x, ""field"")",__getattr__(),
 Visual Basic .NET,(using reflection),,,
 Xojo,(using Introspection),,,
 Windows PowerShell,(using reflection),,,
 F#,(using reflection),,,
 Ruby,x.respond_to?(:method),n/a,method_missing(),n/a
-PHP," method_exists(x, "method")"," property_exists(x, "field")",__call(),__get() / __set()
-Perl," x->can("method")",exists x->{field},AUTOLOAD,
-Raku," x.can("method")",x.field.defined,AUTOLOAD,
+PHP," method_exists(x, ""method"")"," property_exists(x, ""field"")",__call(),__get() / __set()
+Perl," x->can(""method"")",exists x->{field},AUTOLOAD,
+Raku," x.can(""method"")",x.field.defined,AUTOLOAD,
 OCaml,n/a,,,
-JavaScript," typeof x.method === "function"",field in x,,
-COBOL,n/a,,,
+JavaScript," typeof x.method === ""function""",field in x,,
+COBOL,colspan=4 n/a

@@ -1,4 +1,4 @@
-First public release",,First stable release",,Latest stable release"
+First public release,,First stable release,,| Latest stable release
 Client,Date,Version,Date,,Version
 AdiIRC,2005,1.0,,,Latest stable software release/AdiIRC
 Bersirc,1999,,,,Latest stable software release/Bersirc
@@ -38,5 +38,5 @@ Snak,1997,,,,Latest stable software release/Snak
 Visual IRC,1995,,,,Latest stable software release/Visual IRC
 WeeChat,2003,,,,Latest stable software release/WeeChat
 XChat,1998,,,,Latest stable software release/XChat
-Client",Date,Version,Date,Version,Latest stable release"
-First public release",,First stable release ",,
+Client,Date,Version,Date,Version,Latest stable release
+First public release,,colspan="2" | First stable release,

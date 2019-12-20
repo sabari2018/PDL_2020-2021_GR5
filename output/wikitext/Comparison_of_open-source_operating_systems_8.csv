@@ -1,9 +1,9 @@
 Operating system,Mandatory access control,Software executable space protection,Operating system-level virtualization,Virtualisation,Userspace protection,Others
-Linux,"SELinux, group=Notez1 ","group=Notez1 group=Notez1 ","group=Notez4 group=Notez1 group=Notez1 ",KVM,"IPFilter, Iptables","group=Notez1 group=Notez1"
-FreeBSD,"group=Notez2group=Notez3 TrustedBSD",ProPolice/SSPgroup=Notez5,jail,bhyve,"IPFW, PF, IPFilter",
+Linux,"SELinux, group=Notez1 ",group=Notez1 group=Notez1,group=Notez4 group=Notez1 group=Notez1,KVM,"IPFilter, Iptables",group=Notez1 group=Notez1
+FreeBSD,group=Notez2group=Notez3 TrustedBSD,ProPolice/SSPgroup=Notez5,jail,bhyve,"IPFW, PF, IPFilter",
 Darwin,"SEDarwin, TrustedBSD",,jail,,IPFW,
-OpenBSD,,"ProPolice/SSPgroup=Notez6",,vmm,PF,
-"!OpenSolaris, illumos",TrustedBSD,,Solaris Containers,KVM,IPFilter,RBAC
+OpenBSD,,ProPolice/SSPgroup=Notez6,,vmm,PF,
+"OpenSolaris, illumos",TrustedBSD,,Solaris Containers,KVM,IPFilter,RBAC
 AuroraUX,TrustedBSD,,Solaris Containers,,IPFilter,
 Plan 9,no,no,per-process namespaces,,,
 Inferno,no,no,per-process namespaces,,,

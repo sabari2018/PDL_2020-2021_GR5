@@ -17,8 +17,8 @@ Raku,«has »«multi »method foo(««$self:  »parameters») { instructions },�
 Ruby,def foo«(parameters)»  instructions  end,def foo«(parameters)»  instructions  expression resulting in return value  end  or  def foo«(parameters)»  instructions  return value  end
 Windows PowerShell,Add-Member «-MemberType» ScriptMethod «-Name» foo «-Value» { «param(parameters)» instructions } -InputObject variable,Add-Member «-MemberType» ScriptMethod «-Name» foo «-Value» { «param(parameters)» instructions ... return value } -InputObject variable
 OCaml,n/a,method foo «parameters» = expression
-F#,,member this.foo(«parameters») = expression
-JavaScript,this.method = function(«parameters») {instructions}  name«.prototype.method = function(«parameters») {instructions},"  this.method = function(«parameters») {instructions... return value;}  name«.prototype.method = function(«parameters») {instructions... return value;}"
+F#,,<code>member this.foo(«parameters») = expression</code>
+JavaScript,this.method = function(«parameters») {instructions}  name«.prototype.method = function(«parameters») {instructions},this.method = function(«parameters») {instructions... return value;}  name«.prototype.method = function(«parameters») {instructions... return value;}
 Javascript (ES6),foo(«parameters») {instructions},foo(«parameters») {instructions... return value;}
 COBOL,METHOD-ID. foo. «DATA DIVISION. LINKAGE SECTION. parameter declarations» PROCEDURE DIVISION« USING parameters». instructions END METHOD foo.,METHOD-ID. foo. DATA DIVISION. LINKAGE SECTION. «parameter declarations» result-var declaration PROCEDURE DIVISION« USING parameters» RETURNING result-var. instructions END METHOD foo.
 Cobra,def foo(parameters)Tab instructions,def foo(parameters) as typeTab instructionsTab return value,

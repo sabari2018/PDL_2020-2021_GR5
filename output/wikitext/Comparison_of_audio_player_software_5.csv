@@ -1,7 +1,7 @@
-,Lossy compression",,,,,,,,,Lossless compression",,,,,
-,MP3,WMA,RealAudio,Vorbis,Musepack,AAC,Dolby AC-3,VQF,Opus,APE,FLAC,ALAC,SHN,WV,WMA L
+Audio player,Lossy compression,,,,,,,,,| [[Lossless compression]],,,,,
+,MP3,WMA,RealAudio,Vorbis,Musepack,AAC,Dolby AC-3,VQF,Opus,APE,FLAC,ALAC,SHN,WV,[[Windows Media Audio|WMA L]]
 AIMP,yes,yes,no,yes,yes,yes,yes,name=through_winampAvailable through a Winamp plugin.,yes,yes,yes,yes,no,yes,yes
-"! AmarokAmarok uses non-Amarok libraries to decode audio. It will play any file for which a codec is available on the system. The default libraries in Linux are from the VLC project.",yes,yes,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,yes
+AmarokAmarok uses non-Amarok libraries to decode audio. It will play any file for which a codec is available on the system. The default libraries in Linux are from the VLC project.,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,yes
 Audacious,yes,yes,no,yes,yes,yes,yes,dunno,name=through_ffmpeg,yes,yes,yes,no,yes,dunno
 Audion,yes,no,no,yes,no,no,no,dunno,dunno,no,no,no,no,no,dunno
 Banshee,yes,dunno,dunno,yes,dunno,dunno,dunno,dunno,dunno,no,dunno,dunno,dunno,dunno,dunno

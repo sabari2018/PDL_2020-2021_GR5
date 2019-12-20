@@ -30,7 +30,7 @@ N-Track,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes," WMA, EDL, WAV64"
 Nuendo,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,
 NU-Tech,Unk,Unk,Unk,Unk,Unk,Unk,Unk,Unk,Unk,Unk,Unk
 Podium,Unk,Unk,Unk,Unk,Unk,Unk,Unk,Unk,Unk,Unk,Unk
-Pro Tools,Yes," Yes",Yes,Yes,Yes,Import,Import,Yes (7.4),Yes,No,SDII (Mac OS X Only)
+Pro Tools,Yes,Yes,Yes,Yes,Yes,Import,Import,Yes (7.4),Yes,No,SDII (Mac OS X Only)
 Qtractor,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes," CAF, HTK, IFF/8SVX, MAT4/5, PAF, PVF, RAW, SDII, SDS, SF, VOC, W64, XI"
 REAPER,partial,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes," APE, BWF, MOOG, W64, WavPack"
 Reason,No,No,Yes,Yes,Import,Import,No,Yes,Yes,No," SF2, ReFill"

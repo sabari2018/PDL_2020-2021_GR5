@@ -27,12 +27,12 @@ Mailpile,group=NoteMailpile_soon,group=NoteMailpile_soon,yes,group=NoteMailpile_
 mailx,no,no,yes,yes,yes,no,no
 Microsoft Entourage,no,terminated (2008),no,no,no,no,no
 Microsoft Office Outlook,yes,yes,no,no,no,no,no
-Mozilla Mail  ; Newsgroups,terminated (1.7.13)",,,,,no,no
+Mozilla Mail  ; Newsgroups,terminated (1.7.13),,,,,{{no}},{{no}}
 Mozilla Thunderbird,yes,yes,yes,yes,yes,no,no
 Mulberry,yes,yes,yes,yes,yes,no,no
 Mutt,yes,yes,yes,yes,yes,yes,no
-Netscape Messenger,terminated (4.80)",,,,,no,no
-Netscape Messenger 9,terminated (9.0a1)",,,,,no,no
+Netscape Messenger,terminated (4.80),,,,,{{no}},{{no}}
+Netscape Messenger 9,terminated (9.0a1),,,,,{{no}},{{no}}
 nmh / MH,no,yes,yes,yes,yes,no,no
 Opera Mail,yes,yes,yes,yes,dunno,no,no
 Outlook Express,included (up to XP),no,no,no,no,no,no

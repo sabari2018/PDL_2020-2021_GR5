@@ -10,7 +10,7 @@ Cone,Courier Mail Server developers,Unix-like,GNU General Public License,TUI
 Courier (formerly Calypso)," Micro Computer Systems, Inc., continued by Rose City Software",Windows,proprietary,GUI
 Elm," Dave D. Taylor, Sydney Weinstein, Bill Pemberton, Michael Elkins, Kari Hurtta",Unix-like,free,TUI
 eM Client,eM Client Inc.,Windows,proprietary,GUI
-EmailTray,Internet Promotion Agency S.A.," Android",proprietary,GUI
+EmailTray,Internet Promotion Agency S.A.,Android,proprietary,GUI
 Eudora OSE,Qualcomm," Windows, macOS",free,GUI
 Eureka Email,Sean OConnor,Windows,proprietary,GUI
 Evolution,The GNOME Project,Unix-like,GNU General Public License,GUI (GTK+)
@@ -21,7 +21,7 @@ GNUMail,Ludovic Marcotte and others," Unix-like, macOS",GNU General Public Licen
 Gnus,Gnus team,Cross-platform,GNU General Public License,TUI and GUI
 GroupWise,Micro Focus (formerly Novell),Cross-platform,proprietary,GUI
 Hiri,Hiri,Cross-platform,proprietary,GUI
-"!  i.Scribe, InScribe",Memecode," Windows, macOS, Linux",proprietary,GUI
+"  i.Scribe, InScribe",Memecode," Windows, macOS, Linux",proprietary,GUI
 IBM Notes (formerly IBM Lotus Notes)," IBM Collaboration Solutions (formerly Lotus Software), IBM"," Windows, macOS, Linux",proprietary," GUI (Notes), Web (iNotes) and Mobile (Traveler)"
 IMP,Horde LLC,Cross-platform,GNU General Public License,Webmail
 K-9 Mail," K-9 Dog Walkers: cketti, et al.",Android,Apache License 2.0,GUI

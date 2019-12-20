@@ -1,9 +1,9 @@
-",Individual view,Family view,Pedigree view,Chronology view,Ancestor charts,Ancestor narrative reports,Ancestor pedigree reports,Descendant charts,Descendant narrative reports,Fan charts,Research Manager,DNA charts,Research Guidance,Mapping
+Name,Individual view,Family view,Pedigree view,Chronology view,Ancestor charts,Ancestor narrative reports,Ancestor pedigree reports,Descendant charts,Descendant narrative reports,Fan charts,Research Manager,DNA charts,Research Guidance,Mapping
 Agelong Tree,yes,yes,yes,no,yes,yes,yes,yes,yes,no,no,no,no,no
 Ahnenblatt,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,no,no,no,yes
 Ancestral Quest,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,no,yes
 Brothers Keeper,yes,yes,yes,dunno,yes,yes,yes,yes,yes,yes,dunno,dunno,no,dunno
-"!  group=gen_featFamily Historian users can also optionally install free plugins (access to the Family Historian plugin store is integrated into the program). Scripting tools are included for automation of repetitive tasks, and much more.",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,no,yes,yes
+"  group=gen_featFamily Historian users can also optionally install free plugins (access to the Family Historian plugin store is integrated into the program). Scripting tools are included for automation of repetitive tasks, and much more.",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,no,yes,yes
 Family Tree Builder,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,yes,yes
 Family Tree Maker,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno,yes,yes
 GEDitCOM II,yes,yes,yes,no,yes,yes,yes,yes,yes,yes,yes,no,no,yes

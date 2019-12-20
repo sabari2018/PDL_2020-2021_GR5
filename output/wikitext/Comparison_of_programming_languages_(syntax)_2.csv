@@ -2,8 +2,8 @@ Symbol,Languages
 C,Fortran I to Fortran 77 (C in column 1)
 REM,"BASIC, Batch files"
 ::,"Batch files, COMMAND.COM, cmd.exe "
-NB.,"J; from the (historically) common abbreviation Nota bene, the Latin for "note well"."
-⍝,"APL; the mnemonic is the glyph (jot overstruck with shoe-down) resembles a desk lamp, and hence "illuminates" the foregoing."
+NB.,"J; from the (historically) common abbreviation Nota bene, the Latin for ""note well""."
+⍝,"APL; the mnemonic is the glyph (jot overstruck with shoe-down) resembles a desk lamp, and hence ""illuminates"" the foregoing."
 #,"Cobra, Python, Ruby, R, Make, Maple, Elixir, Nim"
 %,"Erlang, S-Lang, Visual Prolog"
 //,"C (C99), C#, D, F#, Go, Java, Kotlin, Rust, Scala, SASS, Swift, Xojo"
@@ -13,6 +13,6 @@ NB.,"J; from the (historically) common abbreviation Nota bene, the Latin for "no
 --,"Euphoria, Haskell, Ada, Eiffel, Lua, VHDL, SGML, PureScript"
 *," Assembler S/360 (* in column 1), PAW, Fortran IV to Fortran 77 (* in column 1), Pick Basic"
 ,,Curl
-""","Vimscript, ABAP"
+"""","Vimscript, ABAP"
 \,Forth
 *>,COBOL 90

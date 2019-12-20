@@ -19,7 +19,7 @@ Cryptoloop,yes,no,no,yes,no,no,no,no,dunno,dunno
 [http://www.Cryptomator.org Cryptomator],yes,no,no,yes,yes,no,no,no,yes,yes
 CryptoPro Secure Disk Enterprise,yes,no,no,no,no,no,no,no,no,dunno
 CryptoPro Secure Disk for BitLocker,yes,no,no,no,no,no,no,no,no,dunno
-Cryptsetup / Dmsetup," yes",no,no,yes,no,no,no,yes,dunno,dunno
+Cryptsetup / Dmsetup,yes,no,no,yes,no,no,no,yes,dunno,dunno
 CryptSync,yes,no,no,yes,yes,no,no,no,no,dunno
 Discryptor,no,no,no,no,no,no,no,no,dunno,dunno
 DiskCryptor,yes,no,no,no,no,no,no,no,dunno,dunno
@@ -31,7 +31,7 @@ E4M,yes,no,no,no,no,no,no,no,dunno,dunno
 e-Capsule Private Safe,yes,no,no,no,no,no,no,no,dunno,dunno
 eCryptfs,no,no,no,yes,no,no,no,no,dunno,dunno
 EgoSecure HDD Encryption,yes,no,no,no,no,no,no,no,dunno,dunno
-EncFS,yes,yes,yes (FUSE),yes (FUSE)," yes",yes (FUSE),yes (FUSE),yes (FUSE)," yes",dunno
+EncFS,yes,yes,yes (FUSE),yes (FUSE),yes,yes (FUSE),yes (FUSE),yes (FUSE),yes,dunno
 EncryptStick,Yes,no,no,yes,Yes,no,no,no,dunno,dunno
 FileVault,no,no,no,no,yes,no,no,no,dunno,dunno
 FileVault 2,no,no,no,partial,yes,no,no,no,dunno,dunno
@@ -66,7 +66,7 @@ Svnd / Vnconfig,no,no,no,no,no,no,yes,no,dunno,dunno
 Symantec Endpoint Encryption,yes,no,no,no,yes,no,no,no,dunno,dunno
 Tcplay,no,no,no,yes,no,no,no,yes,no,dunno
 Trend Micro Endpoint Encryption,yes,no,no,no,yes,no,no,no,no,dunno
-TrueCrypt,yes,no,no,yes,yes,no,no,no," yes",dunno
+TrueCrypt,yes,no,no,yes,yes,no,no,no,yes,dunno
 USBCrypt,yes,no,no,no,no,no,no,no,no,dunno
 VeraCrypt,yes,no,yes,yes,yes,no,no,no,yes,dunno
 CyberSafe Top Secret,yes,no,no,no,no,no,no,no,yes,dunno

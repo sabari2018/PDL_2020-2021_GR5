@@ -1,4 +1,4 @@
-",Tested software version," ODF version attribute in exported fileoffice:version="1.X"",File type," Validation of simplenew document",Notes
+,Tested software version," ODF version attribute in exported fileoffice:version=""1.X""",File type,Validation of simplenew document,Notes
 AbiWord,2.6.4,1.0,ODT,valid,
 Adobe Buzzword," beta 3, build 600113",1.0,ODT,not valid,(errors in styles.xml and content.xml)
 EditGrid,11/2008,1.0,ODS,valid,
@@ -19,9 +19,9 @@ OpenOffice.org,2.3.1 - 2.4.2,1.1," ODT, ODS, ODP",valid,
 OpenOffice.org,3.0,1.1 and 1.2," ODT, ODS, ODP",valid,adjustable ODF version
 StarOffice,8.0 product update 10,1.1," ODT, ODS, ODP",valid,
 RedOffice,4.0,1.0," ODT, ODS, ODP",valid,
-TextEdit,1.5 (244),1.0,ODT,different results in validators," (settings.xml is missing)"
+TextEdit,1.5 (244),1.0,ODT,different results in validators,(settings.xml is missing)
 TextMaker,2008 rev.494,1.0,ODT,not valid,(error in styles.xml)
 TextMaker,2010,1.0,ODT,yes,
-WordPad,6.1 (2009),attribute is missing,ODT,different results in validators," (settings.xml is missing - ODF 1.0/1.1 validation)"
+WordPad,6.1 (2009),attribute is missing,ODT,different results in validators,(settings.xml is missing - ODF 1.0/1.1 validation)
 Zoho Office Suite,11/2008,1.0," ODT, ODS, ODP"," valid - ODT, ODS,not valid - ODP",
-,Tested software version," ODF version attribute in exported fileoffice:version="1.X"",File type," Validation of simplenew document",Notes
+,Tested software version," ODF version attribute in exported fileoffice:version=""1.X""",File type,Validation of simplenew document,Notes

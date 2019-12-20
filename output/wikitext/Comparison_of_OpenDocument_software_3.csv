@@ -1,8 +1,8 @@
-",Version,Operating systems,Office suite,Developer,License,ISO/IEC 26300:2006,Notes
+,Version,Operating systems,Office suite,Developer,License,ISO/IEC 26300:2006,Notes
 Calligra Stage,2.4+," Windows, Unix-based systems",Calligra Suite,KDE Project,GPL / LGPL,yes,
 IBM Lotus Symphony,1.0+," Windows, Linux, Mac OS X",IBM Lotus Symphony,IBM,Proprietary,yes,
 IBM Workplace Documents,2.5+,Any (Web-based),IBM Workplace Collaboration Services,IBM,Proprietary,,no longer being actively marketed
-KPresenter / KOffice Showcase,1.4+," Unix-based systems",KOffice,KDE Project,LGPL,no (not valid),
+KPresenter / KOffice Showcase,1.4+,Unix-based systems,KOffice,KDE Project,LGPL,no (not valid),
 LibreOffice Impress,3.3.0," Windows, Unix-based systems, Solaris",LibreOffice,LibreOffice,LGPL,yes,
 Microsoft Office PowerPoint,2007 SP2,Windows,Microsoft Office,Microsoft,Proprietary,yes,
 NeoOffice Impress,1.2,Mac OS X,NeoOffice,Patrick Luby and Edward Peterlin,GPL,,Import only

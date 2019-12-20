@@ -10,10 +10,10 @@ string1 ~ string2,"D, Raku"
 string1,string2,"Rexx, SQL, PL/I"
 string1 // string2,Fortran
 string1 ++ string2,"Erlang, Haskell"
-string1 ^ string2,"F#"
+string1 ^ string2,F#
 [string1 stringByAppendingString:string2],Objective-C (NSString * only)
 string1 .. string2,Lua
-" string1 , string2","APL"
+" string1 , string2",APL
 string1 string2,SNOBOL
 string1string2,Bash shell
 string1  string2,Mathematica

@@ -10,7 +10,7 @@ Parser,License,Implementation language(s),Latest date*,HTML parsing,HTML5-compli
 [https://metacpan.org/module/HTML::Parser HTML::Parser],Perl license,Perl,2013-03-28,Yes,No,dunno,dunno
 [https://github.com/novikovag/WebGear WebGear],GPL3,Perl,2017-03-10,Yes,Yes,dunno,dunno
 [http://htmlpurifier.org/ htmlPurifier],GNU Lesser GPL,PHP,2019-07-14,No,No,Yes,Yes
-HTML Tidy,W3C license,ANSI C,2017-03-01,Yes,Yes," Yes",Yes
+HTML Tidy,W3C license,ANSI C,2017-03-01,Yes,Yes,Yes,Yes
 HtmlUnit,Apache License 2.0,Java,2019-08-24,Yes,dunno,No,No
 [http://htmlcleaner.sourceforge.net/ HtmlCleaner],BSD License,Java,2015-08-24,No,No,Yes,dunno
 [http://www.netsurf-browser.org/projects/hubbub/ Hubbub],MIT License,C,2016-02-16,Yes,Yes,dunno,dunno

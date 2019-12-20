@@ -5,6 +5,6 @@ Deblocking filter,In-loop filter and overlap transform,In-loop only
 CABAC,No,Only supported in Main and higher profiles
 Variable transform size,Yes,Only in High profile and above
 Slice,Contiguous (integer number of macroblock rows only),Contiguous or non-contiguous
-Sub-pixel interpolation methods,"bilinear",6-tap filter for half pixels; averaging for quarter pixels
-Variable Length Coding,,
-B frame used for predicting other pictures,,
+Sub-pixel interpolation methods,bilinear,6-tap filter for half pixels; averaging for quarter pixels
+Variable Length Coding,Yes,
+B frame used for predicting other pictures," colspan=""2""  Yes "

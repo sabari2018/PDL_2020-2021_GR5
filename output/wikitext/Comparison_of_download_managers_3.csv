@@ -15,7 +15,7 @@ Internet Download Accelerator,yes,yes,yes,dunno,yes,yes,yes,yes,yes,yes,yes,yes,
 Internet Download Manager,yes,yes,yes,1 refreshable,no,yes,yes,yes,yes,yes,no,no,yes,yes,no,yes
 JDownloader,yes,yes,yes,1,no,yes,no,no,yes,no,no,yes,Yes,yes,yes,dunno
 Jigdo,no,yes,dunno,unlimited,dunno,no,no,no,no,no,no,dunno,no,yes,no,no
-KGet," Fx (via Flashgot plugin)",yes,yes,unlimited,yes,yes,yes,yes,BitTorrent Only,yes,no,yes,dunno,yes,yes,dunno
+KGet,Fx (via Flashgot plugin),yes,yes,unlimited,yes,yes,yes,yes,BitTorrent Only,yes,no,yes,dunno,yes,yes,dunno
 MiniDM,yes,yes,yes,unlimited,no,no,no,no,no,yes,no,yes,dunno,yes,yes,dunno
 MLDonkey,partial,yes,no,unlimited,no,no,yes,no,yes,no,no,yes,dunno,yes,yes,dunno
 Shareaza,IE; Fx and similar: ext. plugin,yes,yes,unlimited,yes,via Scheduler,yes,no,yes,yes,yes,yes,dunno,yes,yes,dunno

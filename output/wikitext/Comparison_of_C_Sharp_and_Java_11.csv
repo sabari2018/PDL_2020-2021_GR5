@@ -1,4 +1,4 @@
-",","
+Fields and initialization,Java,C#
 Fields,yes,yes
 Constants,yes,yes; but no support for constant passed parameters
 Static (class) constructors,yes,yes

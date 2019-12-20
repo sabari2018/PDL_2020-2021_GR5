@@ -4,9 +4,9 @@ FreeBSD,yes,yes," Unix, ACL, MAC",yes," GEOM, snapshots, background fsck, user-m
 OpenBSD,yes,yes,Unix,yes,
 NetBSD,yes,yes," Unix, Veriexec",yes," Snapshots, Journaling"
 DragonFly BSD,yes,yes,Unix,yes," HAMMER, Snapshots, Checksumming, Deduplication"
-"! OpenSolaris, illumos",yes,yes," Unix, ACL, MAC",yes," snapshots, transparent data repair"
+" OpenSolaris, illumos",yes,yes," Unix, ACL, MAC",yes," snapshots, transparent data repair"
 AuroraUX,yes,yes," Unix, ACL, MAC",," Solaris Volume Manager, ZFS, snapshots, transparent data repair"
-"! Darwin, OpenDarwin",,yes," Unix, ACL",yes,
+" Darwin, OpenDarwin",,yes," Unix, ACL",yes,
 MINIX,,,Unix,,
 FreeDOS,,,no,,
 Genode,no,no,no,no,Per-process virtual file-system layer
@@ -14,7 +14,7 @@ KolibriOS,,,no,,
 MenuetOS,,,no,,
 GNU,,,Unix,,
 ReactOS,,,no,,
-"! L4, Fiasco, Pistachio",,,,,
+" L4, Fiasco, Pistachio",,,,,
 Plan 9,no,no," Unix-like, no root",no," snapshots, venti archival storage, per-process namespace, user-mountable file systems"
 AROS,,,,,
 Syllable,,,Unix,," journaling, extended file attributes"
@@ -24,4 +24,4 @@ eCos,,,,,
 RTEMS,,,,,
 HelenOS,no,no,no,no,no
 E/OS,yes,yes,Unix,yes,no
-" class="sortbottom"",Name,RAID,quota,Resource access control,encryption,other special file system features
+" class=""sortbottom""",Name,RAID,quota,Resource access control,encryption,other special file system features

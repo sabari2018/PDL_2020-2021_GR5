@@ -1,24 +1,24 @@
 Shell,Secure (password) prompt,Encrypted variables/ parameters,File/directory passwords,Execute permission,Untrusted script blocking,Restricted shell subset,Safe data subset
 Bourne shell,via stty,no,?,N/A,no,yes,no
-POSIX shell,"via stty",no,?,"N/A",no,no,no
-bash (v4.0),read -s,no,?,"N/A",no,yes,no
-csh,"via stty",no,?,"N/A",no,yes,no
-tcsh,"via stty",no,?,"N/A",no,yes,no
+POSIX shell,via stty,no,?,N/A,no,no,no
+bash (v4.0),read -s,no,?,N/A,no,yes,no
+csh,via stty,no,?,N/A,no,yes,no
+tcsh,via stty,no,?,N/A,no,yes,no
 Hamilton C shell,no,no,no,no,no,no,no
-Scsh,"via stty",no,?,"N/A",no,no,no
-ksh (ksh93t+),"via stty",no,?,"N/A",no,yes,no
-pdksh,"via stty",no,?,"N/A",no,yes,no
-zsh,read -s,no,?,"N/A",no,yes,no
-ash,"via stty",no,?,"N/A",no,yes,no
+Scsh,via stty,no,?,N/A,no,no,no
+ksh (ksh93t+),via stty,no,?,N/A,no,yes,no
+pdksh,via stty,no,?,N/A,no,yes,no
+zsh,read -s,no,?,N/A,no,yes,no
+ash,via stty,no,?,N/A,no,yes,no
 CCP,no,no,no,no,no,no,no
 COMMAND.COM,"partial (only under DR-DOS, prompts for password if file/directory is protected)",no,partial (only under DR-DOS via \dirname;dirpwd\filename;filepwd syntax),"partial (only under DR-DOS, if files are password-protected for read and/or execute permission)",no,no,no
 OS/2 CMD.EXE,no,no,no,no,no,no,no
 Windows CMD.EXE,no,no,no,no,no,no,no
-4DOS,yes (via INPUT /P or INKEY /P),no,"partial (only under DR-DOS via \dirname;;dirpwd\filename;;filepwd syntax)","partial (only under DR-DOS, if files are password-protected for read and/or execute permission)",no,no,no
+4DOS,yes (via INPUT /P or INKEY /P),no,partial (only under DR-DOS via \dirname;;dirpwd\filename;;filepwd syntax),"partial (only under DR-DOS, if files are password-protected for read and/or execute permission)",no,no,no
 4OS2,?,no,no,no,no,no,no
 TCC (formerly 4NT),"yes (via INPUT /P, INKEY /P or QUERYBOX /P)",no,no,no,no,no,no
 PowerShell,yes,yes,no,no,yes,yes,yes
 rc,via stty,no
 BeanShell,?,?,?,?,?,?,?
 VMS DCL,yes,no,no,yes,no,yes,no
-fish,read -s,no,?,"N/A",no,Yes (via fish -l),?
+fish,read -s,no,?,N/A,no,Yes (via fish -l),?

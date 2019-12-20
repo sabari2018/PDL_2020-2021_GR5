@@ -2,7 +2,7 @@ Format,Languages
 UCase(string),VB
 ucase(string),FreeBASIC
 toupper(string),AWK (changes string)
-uc(string),"Raku"
+uc(string),Raku
 string.uc,Raku
 toupper(char),C (operates on one character)
 "for(size_t i = 0, len = strlen(string); i ;lt; len; i++) string[i] = toupper(string[i]);for (char *c = string; *c != \0; c++) *c = toupper(*c);",C (string / char array)
@@ -12,11 +12,11 @@ uppercase(string),Delphi)
 upcase(char),Delphi) (operates on one character)
 strtoupper(string),PHP
 upper(string),Seed7
-"echo "string"  tr a-z A-Z ",Unix
+"echo ""string""  tr a-z A-Z ",Unix
 " translate(string), or UPPER variables, or PARSE UPPER VAR  SrcVar DstVar",Rexx
 string.upper(),Python
 upcase(string),Pick Basic
-string.upcase,"Ruby "
+string.upcase,Ruby
 strings.ToUpper(string),Go
 (string-upcase string),"Scheme, Common Lisp"
 String.uppercase string,OCaml
@@ -25,7 +25,7 @@ map Char.toUpper string,Haskell
 string.toUpperCase(),"Java, JavaScript"
 to_upper(string),Erlang
 string.ToUpper(),"VB .NET, C#, F#"
-string.uppercaseString,"Swift (Foundation)"
+string.uppercaseString,Swift (Foundation)
 string.upper(string)  (string):upper(),Lua
 string asUppercase,Smalltalk
 UPPER(string),SQL

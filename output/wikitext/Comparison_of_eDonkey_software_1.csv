@@ -1,5 +1,5 @@
-Client,Fork from,FLOSS,Runs on,,,Kad,Unicode,Languages supp,Development Status
-,,,Linux,Windows,Mac OS X,,,,
+Client,Fork from,FLOSS,Runs on,,,Kad,Unicode,| Languages supp,| Development Status
+,,,! [[Linux]],[[Microsoft Windows|Windows]],[[Mac OS X]],,,,
 eDonkey2000,-,no,yes,yes,yes,no,no,1,Discontinued
 aMule,xMule,GPL,yes,yes,yes,yes,yes,28,Active
 eMule and its Mods,-,GPL,no,yes,no,yes,yes,43,Active

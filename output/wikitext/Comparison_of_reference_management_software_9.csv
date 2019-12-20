@@ -1,5 +1,5 @@
-",Passworded",Networking",
-User-specific permissions,,Simultaneous write access
+Software,Passworded,Networking,
+,,! User-specific permissions,Simultaneous write access
 Bebop,no,n/a,n/a
 BibBase,n/a,n/a,n/a
 BibDesk,yes,no,no
@@ -10,7 +10,7 @@ Bookends,dunno,dunno,dunno
 Citavi,yes,yes,yes
 CiteULike,yes,no,yes
 colwiz,yes,yes,yes
-EndNote,yes,no," no"
+EndNote,yes,no,no
 F1000Workspace,yes,yes,yes
 JabRef,no,no,partial
 KBibTeX,no,n/a,n/a

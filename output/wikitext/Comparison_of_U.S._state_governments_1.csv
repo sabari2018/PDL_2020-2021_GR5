@@ -1,5 +1,5 @@
-,,Lower house,,,,Upper house,,,,,Ratio,Total
-State," scope="col"," scope="col"," scope="col"," scope="col"," scope="col"," scope="col"," scope="col"," scope="col"," scope="col"," scope="col"," scope="col"," scope="col"
+,,Lower house,,,,|Upper house,,,,,Ratio,Total
+State," scope=""col""  Legislative branch constitutional name"," scope=""col""  Name"," scope=""col""  Size"," scope=""col""  Term length (years)"," scope=""col""  Term limit"," scope=""col""  Name"," scope=""col""  Size"," scope=""col""  Term length (years)"," scope=""col""  Term limit"," scope=""col""  Filibuster possible"," scope=""col""  Lower to Upper house size"," scope=""col""  Total"
 California,California State Legislature,California State Assembly,80,2," Not more than 12 years in either house, combined",California State Senate,40,4," Not more than 12 years in either house, combined",No,2,120
 Texas,Texas Legislature,Texas House of Representatives,150,2,None,Texas Senate,31,2 or 4,None,Yes,4.83871,181
 New York,New York State Legislature,New York State Assembly,150,2,None,New York State Senate,63,2,None,No,2.380952,213
@@ -13,11 +13,11 @@ North Carolina,North Carolina General Assembly,North Carolina House of Represent
 New Jersey,New Jersey Legislature,New Jersey General Assembly,80,2,None,New Jersey Senate,40,2 or 4,None,No,2,120
 Virginia,Virginia General Assembly,Virginia House of Delegates,100,2,None,Senate of Virginia,40,4,None,No,2.5,140
 Washington,Washington State Legislature,Washington House of Representatives,98,2,None,Washington State Senate,49,4,None,No,2,147
-Arizona,Arizona Legislature,Arizona House of Representatives,60,2,Four consecutive terms,Arizona Senate,30,2," Four consecutive terms",No,2,90
+Arizona,Arizona Legislature,Arizona House of Representatives,60,2,Four consecutive terms,Arizona Senate,30,2,Four consecutive terms,No,2,90
 Massachusetts,General Court of Massachusetts,Massachusetts House of Representatives,160,2,None,Massachusetts Senate,40,2,None,No,4,200
 Indiana,Indiana General Assembly,Indiana House of Representatives,100,2,None,Indiana Senate,50,4,None,No,2,150
 Tennessee,Tennessee General Assembly,Tennessee House of Representatives,99,2,None,Tennessee Senate,33,4,None,No,3,132
-Missouri,Missouri General Assembly,Missouri House of Representatives,163,2,Four terms,Missouri Senate,34,4," Eight years (Two terms)",No,4.794118,197
+Missouri,Missouri General Assembly,Missouri House of Representatives,163,2,Four terms,Missouri Senate,34,4,Eight years (Two terms),No,4.794118,197
 Maryland,Maryland General Assembly,Maryland House of Delegates,141,4,None,Maryland State Senate,47,4,None,No,3,188
 Wisconsin,Wisconsin Legislature,Wisconsin State Assembly,99,2,None,Wisconsin Senate,33,4,None,No,3,132
 Minnesota,Minnesota Legislature,Minnesota House of Representatives,134,2,None,Minnesota Senate,67,2 or 4,None,No,2,201

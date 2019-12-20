@@ -4,4 +4,4 @@ CopSSH,yes,yes,yes,yes,yes,yes,yes,yes,?
 CrushFTP Server,no,yes,yes,yes,yes,yes,yes,yes,?
 ,Dropbear,no,yes,yes,partial,yes,yes,yes,no,?
 Lsh,no,yes,yes,yes,yes,?,?,?,?
-OpenSSH (OpenBSD Secure Shell),no,yes,yes,yes,yes,yes,yes,"yes",group=Notefips
+OpenSSH (OpenBSD Secure Shell),no,yes,yes,yes,yes,yes,yes,yes,group=Notefips

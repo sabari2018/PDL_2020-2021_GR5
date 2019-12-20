@@ -1,8 +1,8 @@
-"colspan = "6"Asian interplanetary exploration probes"
+"colspan = ""6""Asian interplanetary exploration probes"
 Mission name,Destination,Type,Year,Vehicle,Outcome
 JPN Nozomi,Mars,Orbiter,2003,JPN M-V,Failure
 JPN Hayabusa,Asteroid: 25143 Itokawa,Sample return,2005-7,JPN M-V,Success
-" rowspan = "2"  JPN Akatsuki(PLANET-C)"," rowspan = "2"  Venus"," rowspan = "2"  Orbiter",2010," rowspan = "4"  JPN H-IIA 202",Failure(Failed orbiter insertion)
+" rowspan = ""2""  JPN Akatsuki(PLANET-C)"," rowspan = ""2""  Venus"," rowspan = ""2""  Orbiter",2010," rowspan = ""4""  JPN H-IIA 202",Failure(Failed orbiter insertion)
 2015,Success
 JPN IKAROS,Venus,Flyby,2010,Success
 JPN Shinen,Venus,Flyby,2010,Failure
@@ -17,6 +17,6 @@ PRC Mars Global Remote Sensing Orbiter and Small Rover,Mars,Orbiter/Rover,mid-20
 UAE Hope Mars Mission,Mars,Orbiter,2020-21,JPN H-IIA,Planned
 JPN DESTINY+,Asteroid: 3200 Phaethon,Flyby,2022-26,JPN Epsilon,Planned
 IND Shukrayaan-1,Venus,Orbiter and aerobots,2023,IND GSLV MkIII,Planned
-" rowspan = "2"  JPN MMX",Mars,Orbiter," rowspan = "2"  2024-2025"," rowspan = "2"  TBD",Planned
+" rowspan = ""2""  JPN MMX",Mars,Orbiter," rowspan = ""2""  2024-2025"," rowspan = ""2""  TBD",Planned
 Phobos,Sample return,Planned
 IND Mars Orbiter Mission 2,Mars,OrbiterLanderRover,TBD,IND GSLV MkII or GSLV MkIII,Planned

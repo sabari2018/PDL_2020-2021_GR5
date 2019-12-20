@@ -14,7 +14,7 @@ HexChat,Berke Viktor,Free software,GPL," TUI, GUI",C
 IceChat,Paul Vanderzee,Free software,GPL,GUI,C# (Visual Basic until 2004)
 Igloo,[https://jordanko.ch Jordan Koch],Free mobile application,proprietary,GUI,Swift
 Instantbird,Florian Quèze,Free software,GPL,GUI," C/C++, JavaScript, CSS, XUL"
-IRCCloud,IRCCloud Ltd.,Freemium,proprietary,Web," Erlang backend"
+IRCCloud,IRCCloud Ltd.,Freemium,proprietary,Web,Erlang backend
 ircII,Michael Sandrof,Free software,BSD,TUI,C
 Ircle,Onno Tijdgat,Commercial 30-day trial,proprietary,GUI,C
 Irssi,Timo Sirainen,Free software,GPL,TUI,C

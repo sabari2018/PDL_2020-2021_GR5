@@ -1,4 +1,4 @@
-" width="10%" Feature"," width="10%" Android"," width="10%" iOS"," width="10%" Windows 10 Mobile"," width="10%" BlackBerry 10"," width="10%" Tizen"," width="10%" Sailfish OS"," width="10%" Ubuntu Touch"
+" width=""10%"" Feature"," width=""10%"" Android"," width=""10%"" iOS"," width=""10%"" Windows 10 Mobile"," width=""10%"" BlackBerry 10"," width=""10%"" Tizen"," width=""10%"" Sailfish OS"," width=""10%"" Ubuntu Touch"
 Proxy server,"3.1+ but only global, not per connection and only works for the browser 3rd party apps available",Yes,Yes,Yes,Yes,Yes,No
 On-device encryption,3+ but insecure on Qualcomm devices,Yes (3rd party software may attempt brute-force attacks on password),8+,Yes (3rd party software may attempt brute-force attacks on password,No
 External storage encryption,6+,External storage not available,"10+, 8.1+ Apps and data only",Yes,No,Yes,No
@@ -7,7 +7,7 @@ Privacy of synchronization,No2 3rd party software like ownCloud,When synchronizi
 Sync to cloud communication encryption,2.3.4+,Yes,7.10.7720.0+,Yes,?,?,?
 Wireless anti-tracking,Developer Options (9+),8+,10+,No,No,?,No
 Remote device location tracking,Yes,Yes,Yes,Yes,?,?,No
-Remote device locking and/or data wipe,2.2+,"Yes","Yes",Yes,?,?,No
+Remote device locking and/or data wipe,2.2+,Yes,Yes,Yes,?,?,No
 End-to-end encrypted push notifications,"Possible, notifications are handled by the app that can decrypt it","Possible, raw notifications are handled by the app that can decrypt it",?,?,?,Yes
 SSH Client,Yes,Yes,Yes,Yes,?,Yes,Yes
 VPN,Yes,Yes,8.1+,?,Yes,Yes

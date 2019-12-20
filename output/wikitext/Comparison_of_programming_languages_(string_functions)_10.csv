@@ -16,7 +16,7 @@ String.isSubstring substring string,Standard ML
 (search substring string),Common Lisp
 (not (null (string-index substring string))),ISLISP
 (substring? substring string),Clojure
-" ! StringFreeQ[string, substring]",Mathematica
+" StringFreeQ[string, substring]",Mathematica
 " index(string, substring, startpos)>0","Fortran, PL/I"
 " index(string, substring, occurrence)>0",Pick Basic
 " strings.Contains(string, substring)",Go

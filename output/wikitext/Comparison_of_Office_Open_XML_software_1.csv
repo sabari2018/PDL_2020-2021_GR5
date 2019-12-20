@@ -1,10 +1,10 @@
-",Version,Operating systems,Office suite,Developer,License,ECMA-376,ISO/IEC 29500:2008,Notes
+,Version,Operating systems,Office suite,Developer,License,ECMA-376,ISO/IEC 29500:2008,Notes
 AbiWord," 2.6.0, 2.6.5"," Windows, Mac OS X, Linux, Unix",,AbiSource,GPL,yes,,
 Adobe Buzzword," beta 3, build 600113",Web application,Standalone,Adobe Systems,proprietary,yes,,Limited support
 Atlantis Word Processor,1.6.3+,Windows,Standalone,Rising Sun Solutions,proprietary,yes,,
 [http://www.butlerofficepro.com Butler Office Pro X],2.2.0,Mac OS X,Butler Office Pro X,Butler Software Solutions,proprietary,yes,,Full support via email
-Word To Go,11.000," S80)",Documents To Go,DataViz,proprietary,yes,,
-EIOffice Word Processor," 2009, 5.0.1272.101"," Windows, Linux",EIOffice,Evermore Software,proprietary,yes,," Import only"
+Word To Go,11.000,S80),Documents To Go,DataViz,proprietary,yes,,
+EIOffice Word Processor," 2009, 5.0.1272.101"," Windows, Linux",EIOffice,Evermore Software,proprietary,yes,,Import only
 Go-oo Writer,3.0.0," Windows, Linux, Unix, Mac OS X",Go-oo,Free software community," LGPL, CDDL",yes,,Import onlyGo-oo discontinued in favour of LibreOffice
 Google Docs,(current),Web application,Google Docs,Google,proprietary,yes,,
 IBM Lotus Symphony,1.3," Windows, Mac OS X, Linux",IBM Lotus Symphony,IBM,proprietary,yes,,Import only

@@ -1,5 +1,5 @@
-",Profiled User Population,Can Users Update Their Own Profile Data?,Type of Networking (Active or Passive),Includes Functionality to Match Expertise with Funding Opportunities
-Academic Room," Anyone can create a profile.  Profiled categories include "Faculty", "Grad Students", "Undergrads", "Professionals"",yes,Active,no
+Research Networking Tool,Profiled User Population,Can Users Update Their Own Profile Data?,Type of Networking (Active or Passive),Includes Functionality to Match Expertise with Funding Opportunities
+Academic Room," Anyone can create a profile.  Profiled categories include ""Faculty"", ""Grad Students"", ""Undergrads"", ""Professionals""",yes,Active,no
 Activity Insight," Faculty, Staff, Graduate Students",yes,Active and Passive,yes
 C-IKNOW,Defined using Web of science ID or on an ad hoc basis,no,Active and Passive,no
 PROFILES by Mentis® (formerly Collaborative Partnership / Profile System)," Faculty, Students, Staff, Equipment Owners, Research Centers, Facilities, Technologies, Units etc. as per institutions needs",yes,Active and Passive,yes
@@ -38,7 +38,7 @@ MizzouLinks,Currently a pilot group from two Missouri interdisciplinary centers,
 MyScienceWork,Anyone who creates a profile,yes,Active and Passive,Unknown
 OSU:pro,All OSU faculty,Unknown,No apparent networking,Unknown
 Pivot," 3 million profiles (and growing, according to the publisher).  Profiles are compiled even without user registration, but can only be viewed by registered users",yes,Passive,yes through a direct connection with the COS product
-Profiles," All users as defined by each institution.  "Profiles" are also created for institutions, departments, concepts, publications, networks, events or any other class defined in the ontology",yes,Passive and Active,no
+Profiles," All users as defined by each institution.  ""Profiles"" are also created for institutions, departments, concepts, publications, networks, events or any other class defined in the ontology",yes,Passive and Active,no
 ReachNC," UNC faculty in various disciplines, Duke, and RTI Fellows",yes,Passive,no
 Research Accelerator,Any member of the Yale research enterprise,yes (?),Passive,Unknown
 ResearcherID,Anyone who creates a profile,yes,Passive and Active,Unknown

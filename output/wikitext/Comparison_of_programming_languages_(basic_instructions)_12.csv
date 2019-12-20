@@ -1,25 +1,26 @@
 calling a function,basic/void function,value-returning function,required main function
-" Ada",foo «(parameters)»,procedure foo «(parameters)» is begin statements end foo,function foo «(parameters)» return type is begin statements end foo,n/a
+Ada,foo «(parameters)»,procedure foo «(parameters)» is begin statements end foo,function foo «(parameters)» return type is begin statements end foo,n/a
 ALGOL 68,foo«(parameters)»;,proc foo = «(parameters)» void: ( instructions );,proc foo = «(parameters)» rettype: ( instructions ...; retvalue );,n/a
 APL,«parameters» foo parameters,foo←{ statements },foo←{ statements },n/a
-C (C99),foo(«parameters»),void foo(«parameters») { instructions }",type foo(«parameters») { instructions ... return value; }",«global declarations»  int main(«int argc, char *argv[]») {  instructions  }"
+C (C99),foo(«parameters»),void foo(«parameters») { instructions },type foo(«parameters») { instructions ... return value; }," «global declarations»  int main(«int argc, char *argv[]») {  instructions  }"
 Objective-C,,,,
 C++ (STL),,,,
-Java,,,,public static void main(String[] args) { instructions } or public static void main(String... args) { instructions }
-D,,,,int main(«char[][] args») { instructions} or int main(«string[] args») { instructions} or void main(«char[][] args») { instructions} or void main(«string[] args») { instructions}
-C#,,"Same as above; alternatively, if only one statement: void foo(«parameters») => statement;","Same as above; alternatively, if simple enough to be an expression: void foo(«parameters») => expression;",static void Main(«string[] args») method_body
+Java,,,,<code>public static void main(String[] args) { instructions } or<br/> public static void main(String[[variadic function|...]] args) { instructions }</code>
+D,,,,<code>int main(«char[][] args») { instructions} or<br /> int main(«string[] args») { instructions} or<br /> void main(«char[][] args») { instructions} or<br /> void main(«string[] args») { instructions}</code>
+C#,,"Same as above; alternatively, if only one statement: void foo(«parameters») => statement;","Same as above; alternatively, if simple enough to be an expression: void foo(«parameters») => expression;",<code>static void Main(«string[] args») method_body</code>
 May instead return int.,
 "(starting with C# 7.1:) May return Task or Task, and if so, may be async.",
-JavaScript,," function foo(«parameters») { instructions } or var foo = function («parameters») {instructions } or var foo = new Function («"parameter", ... ,"last parameter"» "instructions");",function foo(«parameters») { instructions ... return value; },n/a
+JavaScript,," function foo(«parameters») { instructions } or var foo = function («parameters») {instructions } or var foo = new Function («""parameter"", ... ,""last parameter""» ""instructions"");",function foo(«parameters») { instructions ... return value; },{{n/a}}
 Go,func foo(«parameters») { instructions },func foo(«parameters») type { instructions ... return value },func main() { instructions }
 Swift,func foo(«parameters») { instructions },func foo(«parameters») -> type { instructions ... return value },n/a
 Common Lisp,(foo «parameters»),(defun foo («parameters»)instructions) or (setf (symbol-function symbol)lambda),(defun foo («parameters»)...value),n/a
-Scheme,,(define (foo parameters) instructions) or  (define foo (lambda (parameters) instructions)),(define (foo parameters) instructions... return_value) or  (define foo (lambda (parameters) instructions... return_value)),
-ISLISP,,(defun foo («parameters»)instructions),(defun foo («parameters»)...value),
+Scheme,,(define (foo parameters) instructions) or  (define foo (lambda (parameters) instructions)),<code>(define (foo parameters) instructions... return_value) or <br/> (define foo ([[anonymous function|lambda]] (parameters) instructions... return_value))</code>,
+ISLISP,,(defun foo («parameters»)instructions),<code>([[defun]] foo («parameters»)<dl><dd>...</dd><dd>value)</dd></dl></code>,
 Pascal,foo«(parameters)»,procedure foo«(parameters)»; «forward;»forward declaration[a] «labellabel declarations» «constconstant declarations» «typetype declarations» «varvariable declarations» «local function declarations»begininstructionsend;,function foo«(parameters)»: type; «forward;»forward declaration[a] «labellabel declarations» «constconstant declarations» «typetype declarations» «varvariable declarations» «local function declarations»begin instructions;  foo := valueend;,program name; «labellabel declarations» «constconstant declarations» «typetype declarations» «varvariable declarations» «function declarations»begininstructions end.
 Visual Basic,Foo(«parameters»),Sub Foo«(parameters)» instructions  End Sub,Function Foo«(parameters)»« As type»instructions Foo = valueEnd Function,Sub Main()instructionsEnd Sub
-Visual Basic .NET,,,Same as above; alternatively: Function Foo«(parameters)»« As type»instructionsReturn valueEnd Function
-The As clause is not required if Option Strict is off. A type character may be used instead of the As clause.,,,
+Visual Basic .NET,,,rowspan=2| Same as above; alternatively:
+<code>Function Foo«(parameters)»« As type»</code><dl><dd><code>instructions<br />Return value</code></dd></dl><code>End Function</code>
+The As clause is not required if Option Strict is off. A type character may be used instead of the As clause.,,
 "If control exits the function without a return value having been explicitly specified, the function returns the default value for the return type.",Sub Main(««ByVal »args() As String»)  instructions  End Subor
 Function Main(««ByVal »args() As String») As Integer instructionsEnd Function,
 Xojo
@@ -35,13 +36,18 @@ Rust,foo(«paramaters»),fn foo(«paramaters») { instructions },fn foo(«parama
 Scala,foo«(parameters)»,def foo«(parameters)»«: Unit =» { instructions },def foo«(parameters)»«: type» = { instructions ... «return» value },def main(args: Array[String]) { instructions }
 Windows PowerShell,foo «parameters»,function foo  { instructions };orfunction foo { «param(parameters)» instructions },function foo «(parameters)»  { instructions  … return value }; orfunction foo { «param(parameters)» instructions … return value },n/a
 Bash shell,foo «parameters»,function foo { 4instructions } or foo () { 4instructions  },function foo { 4instructions 4return «exit_code» } or foo () { 4instructions 4return «exit_code»  },
-* parameters ** $n ($1, $2, $3, ...) ** $@ (all parameters) ** $# (the number of parameters) ** $0 (this function name)",,,
-,OCaml,foo parameters,let «rec» foo parameters = instructions,,let «rec» foo parameters = instructions... return_value
-F#,[] let main args = instructions,,,,
-Standard ML,fun foo parameters = ( instructions ),,fun foo parameters = ( instructions... return_value ),
-Haskell,foo parameters = doTab instructions,,foo parameters = return_value  or  foo parameters = doTab instructionsTab return value,«main :: IO ()»  main = do instructions
+,,colspan=2|
+* parameters
+** <code>$n</code> ($1, $2, $3, ...)
+** <code>$@</code> (all parameters)
+** <code>$#</code> (the number of parameters)
+** <code>$0</code> (this function name),
+OCaml,foo parameters,let «rec» foo parameters = instructions,let «rec» foo parameters = instructions... return_value,
+F#,,,,<code>[<EntryPoint>] let main args = instructions</code>
+Standard ML,,fun foo parameters = ( instructions ),fun foo parameters = ( instructions... return_value ),
+Haskell,,foo parameters = doTab instructions,foo parameters = return_value  or  foo parameters = doTab instructionsTab return value,<code>«main :: IO ()» <br/> main = do instructions</code>
 Eiffel,foo («parameters»),foo («parameters»)require preconditions do instructions ensure postconditions end,foo («parameters»): typerequire preconditions do instructionsResult := value ensure postconditions end,root class and feature[b]
 CoffeeScript,foo(),foo = ->,foo = -> value,n/a
-,foo parameters,foo = () ->,foo = ( parameters ) -> value,
-COBOL," CALL "foo" «USING parameters»  «exception-handling»  «END-CALL»COBOL calling programs[d]",«IDENTIFICATION DIVISION.» PROGRAM-ID. foo. «other divisions...» PROCEDURE DIVISION «USING parameters».  instructions.,«IDENTIFICATION DIVISION.» PROGRAM-ID/FUNCTION-ID. foo. «other divisions...» DATA DIVISION. «other sections...» LINKAGE SECTION. «parameter definitions...» variable-to-return definition «other sections...» PROCEDURE DIVISION «USING parameters» RETURNING variable-to-return.  instructions.,n/a
-,«FUNCTION» foo«(«parameters»)»,n/a,,
+,foo parameters,foo = () ->,<code>foo = ( parameters ) <nowiki>-></nowiki> value</code>,
+COBOL," CALL ""foo"" «USING parameters»  «exception-handling»  «END-CALL»COBOL calling programs[d]",«IDENTIFICATION DIVISION.» PROGRAM-ID. foo. «other divisions...» PROCEDURE DIVISION «USING parameters».  instructions.,rowspan=2  «IDENTIFICATION DIVISION.» PROGRAM-ID/FUNCTION-ID. foo. «other divisions...» DATA DIVISION. «other sections...» LINKAGE SECTION. «parameter definitions...» variable-to-return definition «other sections...» PROCEDURE DIVISION «USING parameters» RETURNING variable-to-return.  instructions.,n/a
+,«FUNCTION» foo«(«parameters»)»,{{n/a}},

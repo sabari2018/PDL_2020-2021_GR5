@@ -1,18 +1,18 @@
-,Launch,PowerVR core,Market,Chipset,Code name,Device id.,Core renderclock (MHz),Pixel pipelines,vertex/pixel),API support,,,GB/s),DVMT (MB),,,
-,,,,,,,,,,Direct3D,OpenGL,OpenCL,,,MPEG-2,VC-1,AVC
+Graphics,Launch,PowerVR core,Market,Chipset,Code name,Device id.,Core renderclock (MHz),Pixel pipelines,vertex/pixel),API support,,,GB/s),| [[Dynamic video memory technology|DVMT]] <br>([[Megabyte|MB]]),style="width:11%" | Hardware acceleration,,
+,,,,,,,,,,![[Direct3D]],[[OpenGL]],[[OpenCL]],,,[[H.262/MPEG-2 Part 2|MPEG-2]],[[VC-1]],[[H.264/MPEG-4 AVC|AVC]]
 GMA 500,2008,SGX535,CE,CE3100,Canmore,2E5B,Dunno,2,3.0,9.0c,2.0,;mdash;,4.2,256,Full,Full,Full
-,2009,,,Atom CE4100,Sodaville,,,,,,,,,,,,
-,,,,Atom CE4110,,,200,,,,,,,,,,
+,2009,,,Atom CE4100,| [[Sodaville (SoC)|Sodaville]],,,,,,,,,,,,
+,,,,Atom CE4110,,,| 200,,,,,,,,,,
 ,,,,Atom CE4130,,,,,,,,,,,,,
-,,,,Atom CE4150,400,,,,,,,,,,
+,,,,Atom CE4150,| 400,,,,,,,,,,
 ,,,,Atom CE4170,,,,,,,,,,,
-2010,Atom CE4200,,,Groveland,Dunno,,,,,,,,,,
+2010,Atom CE4200,,,[[Groveland (SoC)|Groveland]],{{Dunno}},,,,,,,,,,
 2008,MID,,UL11L,Poulsbo (Menlow),81088109,100,,,,,,,,,,
-,,,US15L,,,200,,,,,,,,,,
+,,,US15L,,,| 200,,,,,,,,,,
 ,,,US15W,,,,,,,,,,,,,
 GMA 600,2010,,MID,Atom Z6xx,Lincroft (Moorestown),4102,400,2,3.0,9.0c,2.0,;mdash;,6.4,759,Full,Full,Full
 GMA,2012,SGX540,Smartphone,Atom Z24xx,Penwell (Medfield),Dunno,400,4,;mdash;,;mdash;,ES 2.0,;mdash;,6.4,1024,Full,Full,Full
 GMA 3600,2011,SGX545,NettopNetbook,Atom D2500Atom N2600,Cedarview (Cedar Trail),0BE00BE10BE20BE3,400,4,3.0,9.0c,3.0,;mdash;,8.56.4,1024,Full,Full,Full
-GMA 3650,,,,Atom D2700Atom N2800,,," 640 ",,,,,,8.5,,,,
+GMA 3650,,,,Atom D2700<br>Atom N2800,,,640<ref name="32nm"/>,,,,,,8.5,,,,
 GMA,2012,,Tablet,Atom Z2760,Cloverview (Clover Trail),08C708C808C908CA08CB08CC08CD08CE08CF,533,4,3.0,9.0c,2.0,;mdash;,6.4,2048,Full,Full,Full
 GMA,2012,SGX544 MP2,Tablet,Atom Z2520Atom Z2560Atom Z2580,Cloverview (Clover Trail+),?,300Mhz400MHz533MHz,?,?,9.0 L3,"  2.0ES, 2.0?  ",1.1,?,?,Full,Full,Full

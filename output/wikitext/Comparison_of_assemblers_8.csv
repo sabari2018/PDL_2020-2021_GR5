@@ -17,9 +17,9 @@ Macro Assembly Program (MAP),Free," 704x, 709x"," IBSYS/IBJOB on 709, 704x, 709x
 Meta-Symbol,free,SDS Sigma series," BTM, UTS, CP-V"
 Symbolic Assembly Program (SAP),free,IBM 704,IBM 704
 Symbolic Programming System (SPS),Free," IBM 14xx, 1620, 1710"," IBM 1401, 1440, 1460, 1620, 1710"
-"! ASMB, ASBL, NSBL - Numeric op codes,used for 1900 Operating System Executive",proprietary,ICL 1900,ICL 1900
-"! GINerator mnemonic opcodes,used for GEORGE (operating system)",proprietary,ICL 1900,ICL 1900
-"! PLAN mnemonic opcodes,used for commercial 1900 programs",proprietary,ICL 1900,ICL 1900
+" ASMB, ASBL, NSBL - Numeric op codes,used for 1900 Operating System Executive",proprietary,ICL 1900,ICL 1900
+" GINerator mnemonic opcodes,used for GEORGE (operating system)",proprietary,ICL 1900,ICL 1900
+" PLAN mnemonic opcodes,used for commercial 1900 programs",proprietary,ICL 1900,ICL 1900
 Single Address Assembly Language (SAAL),free,UNIVAC 1005,UNIVAC 1005
 Sleuth,free,UNIVAC 1107," EXEC, EXEC II, EXEC 8"
 Meta Assembler (MASM),free,UNIVAC 1100/2200 series,UNIVAC EXEC 8

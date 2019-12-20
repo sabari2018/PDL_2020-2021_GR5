@@ -1,7 +1,8 @@
-Model",Code name",Fab (nm)",Bus interface",Core clock (MHz)",Boost clock (MHz)",Memory clock (MHz)",Core config1",Fillrate",,Memory",,,,Processing power (GFLOPS)",,Supported API version",,,,,TBP (Watts)",Notes"
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,Vulkan,OpenCL,CUDA,,
-Quadro T1000,TU117",12",PCIe 3.0,,,2001",768:??:??:??:0,,,4",128",GDDR5",128",2600,,12.1",4.6",1.1",1.2",7.5",40-50,"
-"!Quadro T2000",,,PCIe 3.0,1575,1785,,1024:64:32:??:0,57.1,114.2,,,,,3500,,,,,,,40-60,
-"!Quadro RTX 3000",TU106,12",PCIe 3.0",,,",2304:??:??:36:288,,,6,336,GDDR6",192,6400,,,,,,,60-80,
-"!Quadro RTX 4000",TU104,,,,,,2560:??:??:40:320,",",8,448,,256",8000,",,,,,,80-110",
-"!Quadro RTX 5000",TU102,,,,,,3072:??:??:48:384,,,16,448,,,9400,,,,,,,,
+Model,Code name," rowspan=""2""  Fab (nm)",Bus interface," rowspan=""2""  Core clock (MHz)"," rowspan=""2""  Boost clock (MHz)"," rowspan=""2""  Memory clock (MHz)",Core config1,Fillrate,,Memory,,,,| Processing power ([[GFLOPS]]),,| Supported [[Application programming interface|API]] version,,,,,rowspan="2" |[[Thermal design power|TBP]]
+(Watts),| Notes,
+,,Pixel (GP/s),,Texture (GT/s),Size (GB),Bandwidth (GB/s),,Bus type,Bus width (bit),Single precision,Double precision,Direct3D,[[OpenGL]],[[Vulkan (API)|Vulkan]],[[OpenCL]],[[CUDA]]
+Quadro T1000,TU117,12,PCIe 3.0,,,2001,768:??:??:??:0,,,4,128,GDDR5,128,2600,,12.1,4.6,1.1,1.2,7.5,40-50,,|
+Quadro T2000,,,PCIe 3.0,1575,1785,,1024:64:32:??:0,57.1,114.2,,,,,3500,,,,,,,40-60,,
+Quadro RTX 3000,TU106,12,PCIe 3.0,,,,2304:??:??:36:288,,,6,336,GDDR6,192,6400,,,,,,,60-80,,
+Quadro RTX 4000,TU104,,,,,,2560:??:??:40:320,,,8,448,,| 256,8000,|,,,,,,|80-110,,
+Quadro RTX 5000,TU102,,,,,,3072:??:??:48:384,,,16,448,,,9400,,,,,,,,,

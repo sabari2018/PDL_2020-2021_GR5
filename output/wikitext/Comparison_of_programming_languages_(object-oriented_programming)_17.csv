@@ -6,7 +6,7 @@ Java,rowspan=3 n/a,,,,
 Objective-C
 Visual Basic .NET
 D,f in { asserts } body{ instructions },f out (result) { asserts } body{ instructions },assert(expression),invariant() { expression },,
-Eiffel,f require tag: expression do end,f do  ensure tag: expression end,f do  check tag: expression end  end,class X invariant tag: expression end,,from  instructions  invariant tag: expression  until  expr  loop  instructions variant  tag: expression end
+Eiffel,f require tag: expression do end,f do  ensure tag: expression end,f do  check tag: expression end  end,class X invariant tag: expression end,,<code>from  instructions <br /> invariant <br />tag: expression <br /> until <br /> expr <br /> loop <br /> instructions <br />variant <br /> tag: expression <br />end</code>
 Python,rowspan=3 n/a,,,,
 PHP
 Perl

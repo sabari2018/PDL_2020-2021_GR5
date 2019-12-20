@@ -1,4 +1,4 @@
-Client,Pop-up,Tray notification,Browser plugin,E-mail," "newspaper"-like",Media aggregator,Notes,Downloadable attachments
+Client,Pop-up,Tray notification,Browser plugin,E-mail," ""newspaper""-like",Media aggregator,Notes,Downloadable attachments
 Akregator,yes,yes,yes (integration with konqueror),yes,dunno,yes,KDE,dunno
 Amarok,dunno,dunno,dunno,dunno,dunno,yes,KDE,dunno
 AOL Explorer,dunno,dunno,n/a,dunno,dunno,dunno,Discontinued; Feed support is available in Internet Explorer 7,dunno
@@ -52,4 +52,4 @@ Winamp,no,dunno,no,no,no,yes,Media Player,dunno
 Windows Live Mail,dunno,dunno,dunno,yes,dunno,dunno,,dunno
 Zimbra,dunno,dunno,dunno,dunno,dunno,dunno,Groupware suite,dunno
 Zune,dunno,dunno,dunno,dunno,dunno,yes,Media player,dunno
-Client,Pop-up,Tray notification,Browser plugin,E-mail," "newspaper"-like",Media aggregator,Notes,Downloadable attachments
+Client,Pop-up,Tray notification,Browser plugin,E-mail," ""newspaper""-like",Media aggregator,Notes,Downloadable attachments

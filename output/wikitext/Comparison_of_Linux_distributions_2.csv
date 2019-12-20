@@ -1,11 +1,11 @@
-Distribution," abbr="Kernel"  Default Linux kernel"," abbr="File system"  Default file system"," abbr="Init system"  Default init system"," abbr="Environment"  Install-time desktop environment or window manager selection"," abbr="Reproducible builds"  Reproducible builds"
+Distribution," abbr=""Kernel""  Default Linux kernel"," abbr=""File system""  Default file system"," abbr=""Init system""  Default init system"," abbr=""Environment""  Install-time desktop environment or window manager selection"," abbr=""Reproducible builds""  Reproducible builds"
 Alpine Linux,Binary blobs,ext4,openrc,no2 none,no
 ALT Linux,Binary blobs,ext3,systemd," KDE Plasma Workspaces, Xfce",no
 Arch Linux,Binary blobs,none,systemd,no2 none,no
 BLAG,Linux-libre,ext3,sysvinit,GNOME,no
 Bodhi Linux,Binary blobs,ext4,systemd,Moksha (Enlightenment fork),no
-Canaima," Binary blobs",dunno,systemd,Cinnamon and MATE,no
-CentOS," Binary blobs",xfs,systemd,GNOME,no
+Canaima,Binary blobs,dunno,systemd,Cinnamon and MATE,no
+CentOS,Binary blobs,xfs,systemd,GNOME,no
 Chakra,Binary blobs,ext4,systemd,KDE Plasma Workspaces,no
 ClearOS,Binary blobs,ext3,systemd,No2 none (Web based),no
 CoreOS,Binary blobs,ext4,systemd,None,no
@@ -26,7 +26,7 @@ Instant WebKiosk,Binary blobs,SquashFS,systemd,Has no DE. Its a browser-only int
 Kali Linux,Binary blobs,ext3,systemd,GNOME,no
 Knoppix,Binary blobs,xfs,microknoppix,LXDE,no
 LibreCMC,Binary blobs,ext4,busybox-init,No2 none,no
-Linux Mint," Binary blobs",ext4,systemd," MATE, Cinnamon, KDE 4, XFCE",no
+Linux Mint,Binary blobs,ext4,systemd," MATE, Cinnamon, KDE 4, XFCE",no
 Mageia,Binary blobs,ext4,systemd," KDE Plasma Workspaces, GNOME",no
 Mandriva Linux,Binary blobs,ext4,systemd,KDE Plasma Workspaces,no
 Manjaro Linux,Binary blobs,none,systemd," Xfce, KDE, GNOME ",no
@@ -46,28 +46,28 @@ Red Hat Enterprise Linux,Binary blobs,xfs,systemd,GNOME,no
 Rxart Desktop,Binary blobs,ext3,dunno,KDE Plasma Workspaces,no
 Sabayon Linux,Binary blobs,ext4,systemd," KDE Plasma Workspaces, GNOME",no
 Scientific Linux,Binary blobs,ext4,"sysvinit, systemd",GNOME,no
-Slackware," Binary blobs",ext4,sysvinit compatible BSD init scripts," KDE Plasma Workspaces, Xfce, Fluxbox, Blackbox, twm",no
+Slackware,Binary blobs,ext4,sysvinit compatible BSD init scripts," KDE Plasma Workspaces, Xfce, Fluxbox, Blackbox, twm",no
 Slax,Binary blobs,SquashFS,sysvinit,KDE Plasma Workspaces,no
 SliTaz GNU/Linux,Binary blobs,ext3,busybox-init,Openbox,no
 Solus,Binary blobs,ext4,systemd," Budgie, Gnome, MATE",no
 Source Mage GNU/Linux,Binary blobs,ext2,simpleinit-msb,no2 none,no
 SteamOS,Binary blobs,dunno,systemd,Steam,no
 SUSE Linux Enterprise Desktop,Binary blobs,systemd,GNOME,no
-Tails," Vanilla Linux",dunno,systemd,GNOME,no
+Tails,Vanilla Linux,dunno,systemd,GNOME,no
 Tor-ramdisk,Binary blobs,ext2,dunno,no2 none,no
 Trisquel,Linux-libre," ext4, xfs",systemd," GNOME, LXDE",no
 TurnKey GNU/Linux,Binary blobs,ext4,systemd,none - headless server by design; provides Webmin for administration,no
 Ubuntu/Edubuntu,Binary blobs,systemd,Unity,no
 Ubuntu GNOME,Binary blobs,ext4,systemd,GNOME 3,no
 Ubuntu MATE,Binary blobs,ext4,systemd,MATE,no
-Kubuntu,Binary blobs," ext4",systemd,KDE Plasma Workspaces,no
-Xubuntu,Binary blobs," ext4",systemd,Xfce,no
+Kubuntu,Binary blobs,ext4,systemd,KDE Plasma Workspaces,no
+Xubuntu,Binary blobs,ext4,systemd,Xfce,no
 Lubuntu,Binary blobs,ext4,systemd,LXQt,no
-Ututo," Ututo XS (stable) is de-blobed with Linux-libre tools. Ututo UL (development) uses Linux-libre. Ututo UL means "Ubuntu-Libre"",ext3,systemd,GNOME,no
+Ututo," Ututo XS (stable) is de-blobed with Linux-libre tools. Ututo UL (development) uses Linux-libre. Ututo UL means ""Ubuntu-Libre""",ext3,systemd,GNOME,no
 VectorLinux,Binary blobs,ReiserFS,sysvinit," KDE, Openbox, Fluxbox, IceWM, Xfce",no
 Void Linux,Binary blobs,none,runit,no2 none,no
 Webconverger,Binary blobs,gitfs,sysvinit,dwm enforcing a Browser-only interface,no
 XBMC Live,Binary blobs,ext3,systemd,XBMC Media Center,no
 Zentyal,Binary blobs,ext4,systemd,LXDE,no
 Zenwalk,Binary blobs,ext4,sysvinit,Xfce,no
-Distribution," abbr="Kernel"  Default Linux kernel"," abbr="File system"  Default file system"," abbr="Init system"  Default init system"," abbr="Environment"  Install-time desktop environment or window manager selection"," abbr="Reproducible builds"  Reproducible builds "
+Distribution," abbr=""Kernel""  Default Linux kernel"," abbr=""File system""  Default file system"," abbr=""Init system""  Default init system"," abbr=""Environment""  Install-time desktop environment or window manager selection"," abbr=""Reproducible builds""  Reproducible builds "

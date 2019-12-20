@@ -1,4 +1,4 @@
-",Compare multiple files,Hash single file,Hash several files,Hash directories  ; sub-directories,exclude filter,Binary output,Bubble Babble output,Base64 output,Hexadecimal output
+Software,Compare multiple files,Hash single file,Hash several files,Hash directories  ; sub-directories,exclude filter,Binary output,Bubble Babble output,Base64 output,Hexadecimal output
 7-Zip,no,yes,yes,yes,no,dunno,dunno,dunno,dunno
 AccuHash,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 BeaverSFV,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
@@ -53,4 +53,4 @@ TeraCopy,yes,yes,yes,yes,no,no,no,no,yes
 Total Commander,dunno,yes,yes,yes,dunno,dunno,dunno,dunno,dunno
 WinHasher,yes,yes,dunno,no,dunno,no,yes,yes,yes
 wxChecksums,yes,yes,dunno,yes,yes,no,no,no,yes
-"!,Compare multiple files,Hash single file,Hash several files,Hash directories  ; sub-directories,exclude filter,Binary output,Bubble Babble output,Base64 output,Hexadecimal output
+Software,Compare multiple files,Hash single file,Hash several files,Hash directories  ; sub-directories,exclude filter,Binary output,Bubble Babble output,Base64 output,Hexadecimal output

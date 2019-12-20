@@ -4,26 +4,26 @@ Archi-tecture,Bits,Version,Intro-duced,Max #operands,Type,Design,Registers(exclu
 8080,8,,1974,2,Register Memory,CISC,8,Variable (8 to 24 bits),Condition register,Little,,,
 8051,32 (8→32),,1977?,1,Register Register,CISC,32 in 4-bit16 in 8-bit8 in 16-bit4 in 32-bit,Variable (8-bit to 128 bytes),Compare and branch,Little,,,
 x86," 16, 32, 64(16→32→64)",,1978,2 (integer)3 (AVX),Register Memory,CISC,8 (+ 4 or 6 segment reg.) (16/32-bit) 16 (+ 2 segment reg. gs/cs) (64-bit)," Variable (8086 ~ 80386: variable between 1 and 6 bytes /w MMU + intel SDK, 80486: 2 to 5 bytes with prefix, pentium and onward: 2 to 4 bytes with prefix, x64: 4 bytes prefix, third party x86 emulation: 1 to 15 bytes w/o prefix  ; MMU . SSE/MMX: 4 bytes /w prefix AVX: 8 Bytes /w prefix)",Condition code,Little," MMX, SSE,PAE, BMI, AVX, AES, FMA, XOP, F16C",No,No
-Alpha,64,,1992,3,Register Register,RISC," 32 (including "zero")",Fixed (32-bit),Condition register,Bi," Motion Video InstructionsMVI, Byte-Word ExtensionsBWX, Floating-point ExtensionsFIX, Count ExtensionsCIX",No,
+Alpha,64,,1992,3,Register Register,RISC," 32 (including ""zero"")",Fixed (32-bit),Condition register,Bi," Motion Video InstructionsMVI, Byte-Word ExtensionsBWX, Floating-point ExtensionsFIX, Count ExtensionsCIX",No,
 ARC,16/32,ARCv2,1996,3,Register Register,RISC,16 or 32 including SP  user can increase to 60,Variable (16- and 32-bit),Compare and branch,Bi,APEX User-defined instructions,,
 ARM/A32,32,ARMv1-v8,1983,3,Register Register,RISC,15,Fixed (32-bit),Condition code,Bi," NEON, Vector Floating PointVFP,TrustZone, LPAELarge Physical Address Extension",,No
 Thumb/T32,32,ARMv6-ARMv8,1983,3,Register Register,RISC,7 with 16-bit Thumb instructions15 with 32-bit Thumb-2 instructions," Thumb: Fixed (16-bit), Thumb-2:Variable (16- and 32-bit)",Condition code,Bi," NEON, Vector Floating PointVFP,TrustZone, LPAELarge Physical Address Extension",,No
-A64,64,ARMv8-A,2011,3,Register Register,RISC," 32 (including the stack pointer/"zero" register) ",Fixed (32-bit),Condition code,Bi,none: all ARMv7extensions are non-optional,,No
-AVR,8,,1997,2,Register Register,RISC," 3216 on "reduced architecture""," Variable (mostly 16-bit, four instructions are 32-bit)"," Condition register,skip conditionedon an I/O orgeneral purposeregister bit,compare and skip",Little,,,
+A64,64,ARMv8-A,2011,3,Register Register,RISC," 32 (including the stack pointer/""zero"" register) ",Fixed (32-bit),Condition code,Bi,none: all ARMv7extensions are non-optional,,No
+AVR,8,,1997,2,Register Register,RISC," 3216 on ""reduced architecture"""," Variable (mostly 16-bit, four instructions are 32-bit)"," Condition register,skip conditionedon an I/O orgeneral purposeregister bit,compare and skip",Little,,,
 AVR32,32,Rev 2,2006,2–3,,RISC,15,Variable,,Big,Java Virtual Machine,,
 Blackfin,32,,2000,3,Register Register,RISC,2 accumulators 8 data registers
 8 pointer registers
 4 index registers
 4 buffer registers,Variable(16- or 32-bit),Condition code,Little,,,
 CDC 6000,60,,1964,3,Register Memory,RISC," 24 (8 18-bit address reg.,8 18-bit index reg.,8 60-bit operand reg.)"," Variable (15, 30, and 60-bit)",Compare and branch,n/a," Compare/Move Unit, additionalPeripheral Processing Units",No,No
-Crusoe(native VLIW),32,,2000,1,Register Register," 1 in native push stack mode6 in x86 emulation +8 in x87/MMX mode +50 in rename status12 integer + 48 shadow +4 debug in native VLIWmode"," Variable (64- or 128-bit in native mode, 15 bytes in x86 emulation)"," Condition code",Little,,,
-Elbrus(native VLIW),64,Elbrus-4S,2014,1," Register Register",VLIW,8-64,64,Condition code,Little," Just-in-time dynamic trans-lation: MMX, SSE,AVX",No,No
+Crusoe(native VLIW),32,,2000,1,Register Register,1 in native push stack mode6 in x86 emulation +8 in x87/MMX mode +50 in rename status12 integer + 48 shadow +4 debug in native VLIWmode," Variable (64- or 128-bit in native mode, 15 bytes in x86 emulation)",Condition code,Little,,,
+Elbrus(native VLIW),64,Elbrus-4S,2014,1,Register Register,VLIW,8-64,64,Condition code,Little," Just-in-time dynamic trans-lation: MMX, SSE,AVX",No,No
 DLX,32,,1990,3,,RISC,32,Fixed (32-bit),,Big,,,
 eSi-RISC,16/32,,2009,3,Register Register,RISC,8–72,Variable (16- or 32-bit),Compare and branchand condition register,Bi,User-defined instructions,No,No
 Itanium(IA-64),64,,2001,,Register Register,EPIC,128," Fixed (128 bit bundles with 5 bit template tagand 3 instructions, each 41 bit long)",Condition register,Bi(selectable),Intel Virtualization Technology,No,No
 M32R,32,,1997,3,Register Register,RISC,16,Variable (16- or 32-bit),Condition register,Bi,,,
 Mico32,32,dunno,2006,3,Register Register,RISC,32,Fixed (32-bit),Compare and branch,Big,User-defined instructions,Yes,Yes
-MIPS,64 (32→64),6,1981,1–3,Register Register,RISC," 4–32 (including "zero")",Fixed (32-bit),Condition register,Bi," MDMX, MIPS-3D",Yes,Yes
+MIPS,64 (32→64),6,1981,1–3,Register Register,RISC," 4–32 (including ""zero"")",Fixed (32-bit),Condition register,Bi," MDMX, MIPS-3D",Yes,Yes
 MMIX,64,dunno,1999,3,Register Register,RISC,256,Fixed (32-bit),dunno,Big,dunno,Yes,Yes
 NS320xx,32,,1982,5,Memory Memory,CISC,8," Variable Huffman coded, up to 23 bytes long",Condition code,Little,BitBlt instructions,,
 OpenRISC," 32, 64",1.3,2010,3,Register Register,RISC,16 or 32,Fixed,dunno,dunno,dunno,Yes,Yes
@@ -31,10 +31,10 @@ PA-RISC(HP/PA),64 (32→64),2.0,1986,3,Register Register,RISC,32,Fixed (32-bit),
 PDP-8,12,,1966,,Register Memory,CISC,1 accumulator 1 multiplier quotient register,Fixed (12-bit),Condition register Test and branch,,EAE(Extended Arithmetic Element),,
 PDP-11,16,,1970,3,Memory Memory,CISC," 8 (includes stack pointer,though any register canact as stack pointer)",Fixed (16-bit),Condition code,Little," Floating Point,Commercial Instruction Set",No,No
 " POWER, PowerPC, Power ISA",32/64 (32→64),3.0B,1990,3,Register Register,RISC,32," Fixed (32-bit), Variable",Condition code,Big/Bi," VSX, Cell",Yes,Yes
-RISC-V," 32, 64, 128",2.2,2010,dunno,Register Register,RISC," 32 (including "zero") ",Variable,Compare and branch,Little,dunno,Yes,Yes
+RISC-V," 32, 64, 128",2.2,2010,dunno,Register Register,RISC," 32 (including ""zero"") ",Variable,Compare and branch,Little,dunno,Yes,Yes
 RX,64/32/16,,2000,3,Memory Memory,CISC,4 integer + 4 address,Variable,Compare and branch,Little,,,No
 S+core,16/32,,2005,,,RISC,,,,Little,,,
-SPARC,64 (32→64),OSA2017,1985,3,Register Register,RISC," 32 (including "zero")",Fixed (32-bit),Condition code,Big → Bi,VIS,Yes,Yes
+SPARC,64 (32→64),OSA2017,1985,3,Register Register,RISC," 32 (including ""zero"")",Fixed (32-bit),Condition code,Big → Bi,VIS,Yes,Yes
 SuperH (SH),32,,1994,2,Register RegisterRegister Memory,RISC,16," Fixed (16- or 32-bit), Variable",Condition code(single bit),Bi,,,
 System/360System/370z/Architecture,64 (32→64),,1964," 2 (most)3 (FMA, distinctoperand facility)4 (some vector inst.)",Register MemoryMemory MemoryRegister Register,CISC,16," Variable (16-, 32-, or 48-bit)"," Condition code, compare and branch",Big,,No,No
 Transputer,32 (4→64),,1987,1,Stack machine,MISC,3 (as stack),Variable (8 ~ 120 bytes),Compare and branch,Little,,,

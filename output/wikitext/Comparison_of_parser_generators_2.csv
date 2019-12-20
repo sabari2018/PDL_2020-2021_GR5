@@ -18,7 +18,7 @@ CookCC,LALR(1),Java annotations,Java,Mixed,generated,Java virtual machine,No," F
 CppCC,LL(k),?,C++,Mixed,generated,POSIX,No," Free, GNU GPL"
 CSP,LR(1),?,C++,Separate,generated,POSIX,No," Free, Apache 2.0"
 CUP,LALR(1),?,Java,Mixed,external,Java virtual machine,No," Free, BSD-like"
-Dragon," LR(1), LALR(1) ",?," Java ",Separate,generated,All,No," Free, GNU GPL"
+Dragon," LR(1), LALR(1) ",?,Java,Separate,generated,All,No," Free, GNU GPL"
 eli,LALR(1),?,C,Mixed,generated,POSIX,No," Free, GNU GPL, GNU LGPL"
 Tunnel Grammar Studio," Recursive descent, backtracking ",ABNF,C++,Separate,generated,Windows,Yes,Proprietary
 Essence,LR(?),?,Scheme 48,Mixed,external,All,No," Free, BSD"
@@ -51,13 +51,13 @@ Lime,LALR(1),?,PHP,Mixed,external,All,No," Free, GNU GPL"
 LISA," LR(?), LL(?), LALR(?), SLR(?) ",?,Java,Mixed,generated,Java virtual machine,Yes," Free, public domain"
 LLgen,LL(1),?,C,Mixed,external,POSIX,No," Free, BSD"
 LLnextgen,LL(1),?,C,Mixed,external,All,No," Free, GNU GPL"
-LLLPG,LL(k) + syntactic and semantic predicates,ANTLR-like,C#,Mixed,generated (?)," Mono ",Visual Studio," Free, GNU LGPL"
+LLLPG,LL(k) + syntactic and semantic predicates,ANTLR-like,C#,Mixed,generated (?),Mono,Visual Studio," Free, GNU LGPL"
 LPG,LALR(k),?,Java,Mixed,generated,Java virtual machine,No," Free, EPL"
 LRSTAR," LALR(1), LR(1), LR(*) "," EBNF, Yacc-like ",C++,Separate,generated,Windows,Visual Studio," Free, BSD"
 Menhir,LR(1),?,OCaml,Mixed,generated,All,No," Free, QPL"
 ML-Yacc,LALR(1),?,ML,Mixed,external,All,No,?
 Monkey,LR(1),?,Java,Separate,generated,Java virtual machine,No," Free, GNU GPL"
-Msta," LALR(k), LR(k) "," EBNF "," C, C++ ",Mixed,external or generated," POSIX, Cygwin ",No," Free, GNU GPL"
+Msta," LALR(k), LR(k) ",EBNF," C, C++ ",Mixed,external or generated," POSIX, Cygwin ",No," Free, GNU GPL"
 MTP (More Than Parsing),LL(1),?,Java,Separate,generated,Java virtual machine,No," Free, GNU GPL"
 MyParser,LL(*),Markdown,C++11,Separate,internal,Any with standard C++11 compiler,No," Free, MIT"
 NLT,GLR,C#/BNF-like,C#,Mixed,mixed,.NET Framework,No," Free, MIT"
@@ -89,9 +89,9 @@ UltraGram," LALR(1), LR(1), GLR ",BNF," C++, Java, C#, Visual Basic .NET ",Separ
 UniCC,LALR(1),EBNF," C, Python, JavaScript, JSON, XML ",Mixed,generated,POSIX,No," Free, BSD"
 UrchinCC,LL(1),?,Java,?,generated,Java virtual machine,No,?
 Whale," LR(?), some conjunctive stuff, see Whale Calf ",?,C++,Mixed,external,All,No,Proprietary
-wisent,LALR(1),?," Java ",Mixed,external,All,No," Free, GNU GPL"
+wisent,LALR(1),?,Java,Mixed,external,All,No," Free, GNU GPL"
 AT ;T/Sun,LALR(1),Yacc,C,Mixed,external,POSIX,No," Free, CPL  ; CDDL"
-Yacc++," LR(1), LALR(1) ",Yacc," C# ",Mixed,generated or external,All,No,Proprietary
+Yacc++," LR(1), LALR(1) ",Yacc,C#,Mixed,generated or external,All,No,Proprietary
 Yapps,LL(1),?,Python,Mixed,generated,All,No," Free, MIT"
 yecc,LALR(1),?,Erlang,Separate,generated,All,No," Free, Apache 2.0"
 Visual BNF," LR(1), LALR(1) ",?,C#,Separate,generated,.NET Framework,Yes,Proprietary

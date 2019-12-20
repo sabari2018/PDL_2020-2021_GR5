@@ -5,10 +5,10 @@ DOC,.doc,?,yes,yes,yes,?,yes,no,?,?,yes
 DOCX,.docx,?,yes,yes,yes,?,yes,yes,yes,?,yes
 EPUB (IDPF),.epub,yes,yes,yes,yes,yes,yes,yes,yes-no,yes-no,yes
 FictionBook,.fb2,no,yes,yes-no,no,no,yes,yes,yes,?,?
-HTML,.html,no,yes,yes,yes,no,yes,yes,no,no," yes"
+HTML,.html,no,yes,yes,yes,no,yes,yes,no,no,yes
 iBooks,.ibook,yes,yes,yes,yes,yes,yes,no,yes,yes,yes
 INF,.inf,no,yes,yes,no,?,yes,yes,yes-no,yes-no,no
-Kindle,.azw,yes,yes,yes,yes,yes,yes,no,yes,yes," yes"
+Kindle,.azw,yes,yes,yes,yes,yes,yes,no,yes,yes,yes
 Microsoft Reader,.lit,yes,yes,?,no,no,yes,no,?,yes,?
 Mobipocket," .prc, .mobi",yes,yes,yes,no,yes,yes,no,yes,yes,?
 Multimedia EBook,.exe,yes,yes,?,yes,yes,no,yes,yes,yes,?

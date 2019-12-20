@@ -42,4 +42,4 @@ Swift,name.count,0,name.count - 1
 Visual Basic,UBound(name)-LBound(name)+1,LBound(name),UBound(name)
 Wolfram Language,Length[name],1  First[name],-1  Last[name]
 Xojo,UBound(name),0,UBound(name)
-XPath/XQuery,count($name),1," count($name) last()array:size(name)"
+XPath/XQuery,count($name),1,count($name) last()array:size(name)

@@ -1,4 +1,4 @@
-",Creator,Latest stable version,Release date,Software license,Open source,Programming language,Plugin support
+,Creator,Latest stable version,Release date,Software license,Open source,Programming language,Plugin support
 Appetizer,Laurent Cozic,1.4.6.494,20100213,GPL,yes," C++, wxWidgets",yes
 ASuite,SalvadorSoftware,1.5.1.2,20080524,GPL,yes,Delphi,no
 Classic Shell,Ivo Beltchev,4.3.1,2017812,MIT,yes,C++,yes (via shell namespace extensions inside the menu)

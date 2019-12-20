@@ -1,22 +1,22 @@
-Display technology,Screen shape,Largest known diagonal,,Typical use,Usable in bright room
-,,(in),(cm),,
-Eidophor front projection,Flat,(limited only by brightness)",,TV,no
+Display technology,Screen shape,Largest known diagonal,,Typical use,| Usable in bright room
+,,! (in),(cm),,
+Eidophor front projection,Flat,(limited only by brightness),,TV,{{no}}
 CRT,Spherical curve or Flat,42,107," Computer monitor, TV",yes
 CRT,Cylindrical curve or Flat,42,107," Computer monitor, TV",yes
 CRT,Spherical curve or Flat,30,76," Computer monitor, TV, Radar display, Oscilloscope",yes
 Direct view CRT,Spherical curve,24,61," Computer monitor,Radar display",no
 CRT self-contained rear-projection,Flat lenticular,80,203,TV,yes
-CRT front projection,Flat,(limited only by brightness)",,TV or presentation,no
+CRT front projection,Flat,(limited only by brightness),,TV or presentation,{{no}}
 Plasma display panel (PDP),Flat,152,386,TV,partial
 Direct view LCD,Flat,110,274," Computer monitor, TV",yes
 LCD self-contained rear-projection,Flat lenticular,70,178,TV,yes
-LCD front-projection,Flat,(limited only by brightness)",,TV or presentation,yes
+LCD front-projection,Flat,(limited only by brightness),,TV or presentation,{{yes}}
 DLP self-contained rear-projection,Flat lenticular,120,305,TV,yes
-DLP front-projection,Flat,(limited only by brightness)",,TV or presentation,yes
+DLP front-projection,Flat,(limited only by brightness),,TV or presentation,{{yes}}
 LCoS self-contained rear-projection,Flat,110,279,TV,yes
-LCoS front-projection,Flat,(limited only by brightness)",,TV or presentation,yes
+LCoS front-projection,Flat,(limited only by brightness),,TV or presentation,{{yes}}
 Laser self-contained rear projection,Flat lenticular,75,191,TV,yes
-LED,Flat,279.92,711," TV",yes
+LED,Flat,279.92,711,TV,yes
 SED,Flat,55,140," Computer monitor, TV",yes
 FED,Flat,dunno,dunno," Computer monitor, TV",yes
 EPD (e-paper),Flat (flexible),dunno,dunno,Electronic paper,yes

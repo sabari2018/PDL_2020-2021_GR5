@@ -1,12 +1,12 @@
-width=20S No.,Name,width=60Operator,width=180Manufacturer," Max range"," Missile mass",Warhead/payload,width=80Status,width=40First flight,MIRV,width=150Mobility,width=50Accuracy (CEP)
+width=20S No.,Name,width=60Operator,width=180Manufacturer,Max range,Missile mass,Warhead/payload,width=80Status,width=40First flight,MIRV,width=150Mobility,width=50Accuracy (CEP)
 1,RS-28 Sarmat,Russia,State Rocket Center Makeyev,"10,000 km",220 tonnes,"10,000 kg ",Under development,2018,Yes,Silo,16
 2,BZhRK Barguzin,Russia,Votkinsk,"12,600 km",45-50 tonnes,N/A,Under development,N/A,Yes,Railroad,N/A
-3,R-36M2 Voevoda,USSR,YuzhmashYuzhny Machine-Building Plant,"11,000 km (or 16,000 km with a single warhead)","211,400 kg","10 x 800 kt / 8730 kg",Active,1986,Yes,Silo,220 m
+3,R-36M2 Voevoda,USSR,YuzhmashYuzhny Machine-Building Plant,"11,000 km (or 16,000 km with a single warhead)","211,400 kg",10 x 800 kt / 8730 kg,Active,1986,Yes,Silo,220 m
 4,UR-100N UTTKh,USSR,Khrunichev Machine-Building Plant,"10,000 km","105,600 kg",6 x 550 kt / 4350 kg,Active,1977,Yes,Silo,N/A
 5,RT-2PM Topol,USSR,Votkinsk Machine Building Plant,"10,500 km","45,100 kg",800 kt,Active,1985,No,Road-mobile TEL,200 m
 6,RT-2PM2 Topol-M,Russia,Votkinsk Machine Building Plant,"11,000 km","47,200 kg",800 kt,Active,1994,Yes,"Silo, road-mobile TEL",200 m
 7,RS-24,Russia,Votkinsk Machine Building Plant,"12,000 km","49,000 kg",4 x 300 kt,Active,2007,Yes,"Silo, road-mobile TEL",150 m
-8,R-29R,Russia,State Rocket Center Makeyev,"6,500 km","35,300 kg",1650 kg,Active,N/A,N/A,"Delta III Submarine",N/A
+8,R-29R,Russia,State Rocket Center Makeyev,"6,500 km","35,300 kg",1650 kg,Active,N/A,N/A,Delta III Submarine,N/A
 9,R-29RK,Russia,State Rocket Center Makayev,"6,500 km","34,388 kg",1650 kg,Active,N/A,Yes,Delta III Submarine,N/A
 10,R-29RL,Russia,State Rocket Center Makeyev,"9,000 km","35,300 kg",1650 kg,Active,N/A,Yes,Delta III Submarine,N/A
 11,R-29RM,Russia,Krasnoyarsk Machine-Building Plant,"8,300 km","40,300 kg",2800 kg,Active,N/A,Yes,Delta IV Submarine,N/A

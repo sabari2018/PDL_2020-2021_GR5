@@ -1,4 +1,4 @@
-,Import namespace,,Import item
+,Import namespace,,| Import item
 ,qualified,unqualified,
 ABAP Objects,,,
 C++ (STL),,using namespace ns;,using ns::item ;
@@ -16,4 +16,4 @@ Ruby,,,
 Windows PowerShell,,,
 OCaml,,open ns,
 F#,,,
-COBOL,n/a,,
+COBOL,colspan=3 n/a

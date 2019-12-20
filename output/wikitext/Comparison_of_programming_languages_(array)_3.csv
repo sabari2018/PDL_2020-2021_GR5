@@ -1,20 +1,20 @@
 Format,Languages
-name[first:last]," Julia"
+name[first:last],Julia
 name[first+(⍳len)-⎕IO],APL
 name[first:end:step]," Python, Go"
 name[first..last]," Pascal, Delphi, Nim"
 $name[first..last],Windows PowerShell
-@name[first..last]," Perl"
-" name[first..last] name[first...end] name[first, len]"," Ruby"
+@name[first..last],Perl
+" name[first..last] name[first...end] name[first, len]",Ruby
 copy/part skip name first len,Red
-name(first..last)," Ada"
+name(first..last),Ada
 name(first:last)," Fortran, GNU Octave, MATLAB"
 namefirst;;last;;step," Mathematica, Wolfram Language"
-namefirst:last," S-Lang"
+namefirst:last,S-Lang
 name.[first..last],F#
-" name.slice(first, end)"," Scala"
+" name.slice(first, end)",Scala
 " name.slice(first, len)",CFML
-" array_slice(name, first, len)"," PHP"
+" array_slice(name, first, len)",PHP
 (subseq name first end),Common Lisp
 (subseq name first end),ISLISP
 Array.sub name first len,OCaml

@@ -1,10 +1,10 @@
 Name,Can boot an OS on another disk partition as guest,USB support,GUI,Live memory allocation,3D acceleration,Snapshots per VM,Snapshot of running system,Live migration,Shared folders,Shared clipboard,PCI passthrough
-KVM,yes,yes," yes",yes,yes (via AIGLX),yes," yes"," yes",,,yes
+KVM,yes,yes,yes,yes,yes (via AIGLX),yes,yes,yes,,,yes
 User Mode Linux,yes,no,no,no,no,,,no,yes,N/A,
-"! Containers, or Zones",yes,yes,yes,yes,Not needed,yes,yes,no,yes,Not needed,Not needed
+" Containers, or Zones",yes,yes,yes,yes,Not needed,yes,yes,no,yes,Not needed,Not needed
 DosBox,no,no,SVN builds only,no,Glide (SVN builds only),no,yes,no,no,no,no
-"! Oracle VirtualBox (formerly OSE, GPLv2), with Guest Additions (GPLv2)",yes,USB 1.1 only,yes,yes,no," yes branched",yes,yes," with Guest Additions  "," with Guest Additions",no
-"! Oracle VirtualBox with Extension Pack (PUEL) and Guest Additions (GPLv2)",yes,yes,yes,yes,"  OpenGL 2.0 and Direct3D 8/9"," yes branched",yes,yes,yes,yes," Linux only"
+" Oracle VirtualBox (formerly OSE, GPLv2), with Guest Additions (GPLv2)",yes,USB 1.1 only,yes,yes,no,yes branched,yes,yes,with Guest Additions,with Guest Additions,no
+Oracle VirtualBox with Extension Pack (PUEL) and Guest Additions (GPLv2),yes,yes,yes,yes,OpenGL 2.0 and Direct3D 8/9,yes branched,yes,yes,yes,yes,Linux only
 Oracle VM Server for SPARC (LDoms),yes,USB 2.0,yes,yes,no,yes,no,yes,yes,no,yes
 OKL4 Microvisor,yes,yes,VMs only,yes,yes,,,no,,,Static assignment
 Virtual Iron 4.2,,,,,,,,yes,,,
@@ -20,15 +20,15 @@ VMware ESX Server 2.5.3,,,yes,,no,,,,,,no
 VMware ESX Server 4.0 (vSphere),yes,yes,yes,yes,yes,?,yes,yes,,,yes
 VMware Fusion 2.0,yes,yes,yes,no,DirectX 9 Shader model 2,,,no,,,no
 VMware Server,yes,yes,yes,yes,no,1,yes,no,yes,yes,
-VMware Workstation 5.5,yes,yes,yes,yes," Experimental support for DirectX 8; also supported with VMGL",yes branched,yes,no,yes,yes,no
-VMware Workstation 6.0,yes,yes,yes,yes," Experimental support for DirectX 8; Also supported with VMGL",yes branched,yes,no,yes,yes,no
-VMware Workstation 7.0 and 8.0,yes,yes,yes,yes," Support for DirectX 9.0c Shader Model 3 and OpenGL 2.13D.",yes branched,yes,no,yes,yes,no
-VMware Player,yes,yes,yes,yes," supported with VMGL",no,no,no,yes,,no
+VMware Workstation 5.5,yes,yes,yes,yes,Experimental support for DirectX 8; also supported with VMGL,yes branched,yes,no,yes,yes,no
+VMware Workstation 6.0,yes,yes,yes,yes,Experimental support for DirectX 8; Also supported with VMGL,yes branched,yes,no,yes,yes,no
+VMware Workstation 7.0 and 8.0,yes,yes,yes,yes,Support for DirectX 9.0c Shader Model 3 and OpenGL 2.13D.,yes branched,yes,no,yes,yes,no
+VMware Player,yes,yes,yes,yes,supported with VMGL,no,no,no,yes,,no
 Wind River hypervisor,yes,yes,yes,yes,yes,,,no,,,
 Wind River VxWorks MILS Platform,yes,,,,,,,,,,
-Xen,yes,yes," yes",yes," Supported with VMGL",?,yes,yes,,,yes
+Xen,yes,yes,yes,yes,Supported with VMGL,?,yes,yes,,,yes
 XCP-ng,yes,yes,yes,yes,,,yes,yes,,,
-XenServer,yes,," yes",yes," Supported with VMGL",yes,yes,yes,,,yes
+XenServer,yes,,yes,yes,Supported with VMGL,yes,yes,yes,,,yes
 z/VM,yes,Not applicable,yes (zURM/HMC),yes,Not applicable,,,yes (2011),,Not applicable,Not applicable
 z LPARs,yes,Not applicable,yes (HMC),yes,Not applicable,,,yes (2007),,Not applicable,Not applicable
 Name,Can boot an OS on another disk partition as guest,USB,GUI,Live memory allocation,3D acceleration,Snapshots per VM,Snapshot of running system,Live migration,Shared folders,Shared clipboard,PCI passthrough

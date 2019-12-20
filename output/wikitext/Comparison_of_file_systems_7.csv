@@ -1,4 +1,4 @@
-File system,DOS,Windows 9x,Windows NT,Linux," "classic" Mac OS",macOS,FreeBSD,OS/2,BeOS,Minix,Solaris,z/OS
+File system,DOS,Windows 9x,Windows NT,Linux," ""classic"" Mac OS",macOS,FreeBSD,OS/2,BeOS,Minix,Solaris,z/OS
 APFS,no,no,no,partial (read-only with apfs-fuse or linux-apfs),no,yes (Since macOS Sierra),no,no,no,no,no,no
 BeeGFS,no,no,no,yes,no,dunno,no,no,dunno,dunno,dunno,no
 DECtape,no,no,no,no,no,no,no,no,no,no,no,no
@@ -6,7 +6,7 @@ Level-D,no,no,no,dunno,no,dunno,no,no,no,no,dunno,dunno
 RT-11,no,no,no,no,no,no,no,no,no,no,no,no
 Version 6 Unix file system (V6FS),no,no,no,dunno,no,no,no,no,no,no,no,no
 Version 7 Unix file system (V7FS),no,no,no,yes,no,dunno,no,no,dunno,dunno,dunno,dunno
-exFAT,no,no," yes (installable drivers for 2003. Included with Windows Vista SP1 and newer.)",yes (available as a kernel module or FUSE driver),no,yes,yes (available as a FUSE driver),no,no,no,yes (available as a FUSE driver),no
+exFAT,no,no,yes (installable drivers for 2003. Included with Windows Vista SP1 and newer.),yes (available as a kernel module or FUSE driver),no,yes,yes (available as a FUSE driver),no,no,no,yes (available as a FUSE driver),no
 FAT12,yes,yes,yes,yes,yes,yes,yes,yes,yes," partial (via dosdir, dosread, doswrite)",yes,dunno
 FAT16 / FAT16B / FAT16X," yes (FAT16 from DOS 3.0, FAT16B from DOS 3.31, FAT16X from DOS 7.0)",yes,yes,yes,yes,yes,yes,yes,yes," partial (via dosdir, dosread, doswrite, not FAT16X)",yes,dunno
 FAT32 / FAT32X,yes (from DOS 7.10),yes (from Windows 95 OSR2),yes (from Windows 2000),yes,yes?,yes,yes,yes,yes,no,yes,dunno
@@ -14,7 +14,7 @@ GFS,no,no,no,yes,no,dunno,no,dunno,dunno,dunno,dunno,dunno
 HPFS,partial (with third-party drivers),no,partial (with NT 3.1 to 4.0 only),yes,dunno,dunno,yes,yes (from OS/2 1.2),dunno,no,dunno,dunno
 NTFS,partial (with third-party drivers)," yes (with 3rd-party drivers like Paragon NTFS for Win98, DiskInternals NTFS Reader)",yes,yes with ntfs-3g,no," yes natively read only, write support with Paragon NTFS or ntfs-3g",yes with ntfs-3g,dunno,yes with ntfs-3g,no,yes with ntfs-3g,dunno
 Apple HFS,no,no,yes with Paragon HFS+,yes,yes,yes,no,dunno,yes,no,dunno,no
-Apple HFS Plus,no,no," yes with Paragon HFS+ ",partial - writing support only to unjournalled FS,yes from Mac OS 8.1,yes,no,dunno,with addon,no,dunno,no
+Apple HFS Plus,no,no,yes with Paragon HFS+,partial - writing support only to unjournalled FS,yes from Mac OS 8.1,yes,no,dunno,with addon,no,dunno,no
 FFS,no,no,dunno,dunno,dunno,yes,yes,dunno,dunno,dunno,dunno,dunno
 UFS1,no,no," partial (with ufs2tools, read only)",partial - read only,dunno,yes,yes,no,dunno,dunno,yes,dunno
 UFS2,no,no," partial (with ufs2tools, read only)",yes,dunno,yes,yes,no,dunno,dunno,dunno,dunno
@@ -23,7 +23,7 @@ ext,no,no,no,yes - until 2.1.20,no,no,no,no,no,no,no,no
 Xiafs,no,no,no,yes - until 2.1.20 Experimental port available to 2.6.32 and later,no,no,no,no,no,no,no,no
 ext2,no,no,yes with Paragon ExtFS  or partial with Ext2 IFS or ext2fsd,yes,no,yes with Paragon ExtFS  or ext2fsx,yes,no,yes,dunno,dunno,dunno
 ext3,no,no,yes with Paragon ExtFS,no,with addon,dunno,yes,dunno
-ext4,no,no," yes with Paragon ExtFS  or partial with Ext2 IFS or ext2fsd",yes,dunno," yes with Paragon ExtFS "," partial support in kernel since version 10.1 (read-only)",no,with addon,dunno,dunno,dunno
+ext4,no,no,yes with Paragon ExtFS  or partial with Ext2 IFS or ext2fsd,yes,dunno,yes with Paragon ExtFS,partial support in kernel since version 10.1 (read-only),no,with addon,dunno,dunno,dunno
 NOVA,no,no,no,yes,no,no,no,no,no,no,no,no
 Lustre,no,no,no,yes,dunno,dunno,no,dunno,dunno,dunno,yes,dunno
 NILFS,no,no,dunno,yes as an external kernel module,dunno,dunno,no,dunno,dunno,dunno,dunno,dunno
@@ -53,6 +53,6 @@ IBM zFS,no,no,no,no,no,no,no,no,no,no,no,yes
 ReFS,no,no,yes (from Windows Server 2012 and from Windows 8.1),Partial - with Paragon ReFS for Linux,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 ISO 9660,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
 Rock Ridge,no,no,no,yes,no,yes,yes,no,no,yes,yes,dunno
-"! Joliet ("CDFS")",no,yes,yes,yes,dunno,yes,yes,yes,yes,dunno,yes,dunno
+" Joliet (""CDFS"")",no,yes,yes,yes,dunno,yes,yes,yes,yes,dunno,yes,dunno
 SquashFS,no,no,partial (There are ports of unsquashfs and mksquashfs.),yes,no,partial (There are ports of unsquashfs and mksquashfs.),partial (There are ports of unsquashfs and mksquashfs and fusefs-port.),no,no,no,no,no
-File system,DOS,Windows 9x,Windows NT,Linux," "classic" Mac OS",macOS,FreeBSD,OS/2,BeOS,Minix,Solaris,z/OS
+File system,DOS,Windows 9x,Windows NT,Linux," ""classic"" Mac OS",macOS,FreeBSD,OS/2,BeOS,Minix,Solaris,z/OS

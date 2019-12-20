@@ -1,4 +1,4 @@
-,String representation,,Object copy,Value equality,Object comparison,Hash code,Object ID
+,String representation,,Object copy,Value equality,Object comparison,Hash code,| Object ID
 ,Human-readable,Source-compatible,,,,,
 ABAP Objects,n/a,,,,,,
 C++ (STL),,,,x == y,,,pointer to object can be converted into an integer ID
@@ -14,10 +14,10 @@ Python,str(x),repr(x),copy.copy(x),x == y," cmp(x, y)",hash(x),id(x)
 Visual Basic .NET,x.ToString(),,x.Clone(),x.Equals(y),x.CompareTo(y),x.GetHashCode(),
 Eiffel,x.out,,x.twin,x.is_equal(y)," When x is COMPARABLE, one can simply do x "," When x is HASHABLE, one can use x.hash_code"," When x is IDENTIFIED, one can use x.object_id"
 PHP,$x->__toString(),,clone x,x == y,,,spl_object_hash(x)
-Perl," "$x""," Data::Dumper->Dump([$x],[x])",Storable::dclone($x),,,,Scalar::Util::refaddr( $x )
-Raku," ~x",x.perl,x.clone,x eqv y,x cmp y,,x.WHICH
+Perl," ""$x"""," Data::Dumper->Dump([$x],[x])",Storable::dclone($x),,,,Scalar::Util::refaddr( $x )
+Raku,~x,x.perl,x.clone,x eqv y,x cmp y,,x.WHICH
 Ruby,x.to_s,x.inspect,x.dup or  x.clone,x == y or  x.eql?(y),x  y,x.hash,x.object_id
 Windows PowerShell,x.ToString(),,x.Clone(),x.Equals(y),x.CompareTo(y),x.GetHashCode(),
 OCaml,,,Oo.copy x,x = y,,Hashtbl.hash x,Oo.id x
-F#," string x or x.ToString() or sprintf "%O" x"," sprintf "%A" x",x.Clone(),x = y or x.Equals(y),compare x y or x.CompareTo(y),hash x or x.GetHashCode(),
-COBOL,n/a,,,,,,
+F#," string x or x.ToString() or sprintf ""%O"" x"," sprintf ""%A"" x",x.Clone(),x = y or x.Equals(y),compare x y or x.CompareTo(y),hash x or x.GetHashCode(),
+COBOL,colspan=7 n/a

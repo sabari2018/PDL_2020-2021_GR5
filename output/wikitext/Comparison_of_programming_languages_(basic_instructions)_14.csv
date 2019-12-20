@@ -1,9 +1,9 @@
 ,read from,write to,
-,stdin,stdout,stderr
-" Ada",Get (x),Put (x)," Put (Standard_Error, x)"
+,stdin,stdout,[[stderr]]
+Ada,Get (x),Put (x)," Put (Standard_Error, x)"
 ALGOL 68," readf(($format$, x)); or  getf(stand in, ($format$, x));"," printf(($format$, x)); or  putf(stand out, ($format$, x)); "," putf(stand error, ($format$, x));ALGOL Unformatted[a]"
 APL,x←⎕,⎕←x,⍞←x
-C (C99)," more c input[b]"," more c output[c]"," more c error output[d]"
+C (C99),more c input[b],more c output[c],more c error output[d]
 Objective-C,data = NSFileHandle fileHandleWithStandardInput] readDataToEndOfFile];,NSFileHandle fileHandleWithStandardOutput] writeData:data];,NSFileHandle fileHandleWithStandardError] writeData:data];
 C++," «std::»cin >> x; or  «std::»getline(«std::»cin, str);",«std::»cout,«std::»cerr  «std::»clog
 C#,x = Console.Read(); orx = Console.ReadLine();," Console.Write(«format, »x); or  Console.WriteLine(«format, »x);"," Console.Error.Write(«format, »x); or  Console.Error.WriteLine(«format, »x);"
@@ -22,7 +22,7 @@ Visual Basic," Input« prompt,» x",Print x or  ? x,n/a
 Visual Basic .NET,x  = Console.Read() or  x = Console.ReadLine()," Console.Write(«format, »x) or  Console.WriteLine(«format, »x)"," Console.Error.Write(«format, »x) or  Console.Error.WriteLine(«format, »x)"
 Xojo,x  = StandardInputStream.Read() or  x = StandardInputStreame.ReadLine(),StandardOutputStream.Write(x) or  StandardOutputStream.WriteLine(x),StdErr.Write(x) or  StdErr.WriteLine(x)
 Python 2.x,x = raw_input(«prompt»),print x or  sys.stdout.write(x)," print >> sys.stderr, x or  sys.stderr.write(x)"
-Python 3.x,x = input(«prompt»)," print(x«, end=""»)"," print(x«, end=""», file=sys.stderr)"
+Python 3.x,x = input(«prompt»)," print(x«, end=""""»)"," print(x«, end=""""», file=sys.stderr)"
 S-Lang," fgets ( ;x, stdin)"," fputs (x, stdout)"," fputs (x, stderr)"
 Fortran," READ(*,format) variable names or  READ(INPUT_UNIT,format) variable namesFortran standard units[e]"," WRITE(*,format) expressions or WRITE(OUTPUT_UNIT,format) expressionsFortran standard units[e]"," WRITE(ERROR_UNIT,format) expressionsFortran standard units[e]"
 Forth,buffer length ACCEPT ( # chars read ) KEY ( char ),buffer length TYPEchar EMIT,n/a

@@ -1,6 +1,6 @@
 IRC daemon
 Channel types,Halfop support (+h %),Admin/protect support (+a/+u  ;/!/*),Founder/owner support (+q ~/.)
-Operator prefixing,Advanced operator ACL," Operator "levels""
+Operator prefixing,Advanced operator ACL," Operator ""levels"""
 vHost via I-line (or equivalent)
 i18n nicknames,RDBMS integration (SQL)
 Bahamut,#,no,no,no,no,no,no,partial,no,no

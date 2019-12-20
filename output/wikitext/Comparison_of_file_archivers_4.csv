@@ -1,4 +1,4 @@
-",ZIP,TAR,GZ,BZ/BZ2,7z,xz,RAR,LHA/LZH,ACE,SIT,SITX,ARJ,KGB,DAR,ARC,CAB,ALZ,ISO/CD Image,ZPAQ
+,ZIP,TAR,GZ,BZ/BZ2,7z,xz,RAR,LHA/LZH,ACE,SIT,SITX,ARJ,KGB,DAR,ARC,CAB,ALZ,ISO/CD Image,ZPAQ
 7-Zip,yes,yes,yes,yes,yes,yes,yes,yes,reading-7zip1,no,no,yes,no,no,no,yes,no,yes,no
 ALZip,yes,yes,yes,yes,yes,unk,yes,yes,yes,no,no,yes,no,no,yes,yes,yes,yes,no
 TAR,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no

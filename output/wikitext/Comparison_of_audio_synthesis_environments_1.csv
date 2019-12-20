@@ -1,5 +1,5 @@
 Name,Creator,Primary Purpose(s),First release date,Most recent update,Most recent version,Cost,License,Main user interface type,Development status
-Bidule,"Plogue","Realtime synthesis, acoustic research, all-purpose programming language",2002,2017-06,0.9757,nonfree,Proprietary,Graphical,Mature
+Bidule,Plogue,"Realtime synthesis, acoustic research, all-purpose programming language",2002,2017-06,0.9757,nonfree,Proprietary,Graphical,Mature
 ChucK,Ge Wang and Perry Cook," Realtime synthesis, acoustic research, algorithmic composition",2004,2018-02-09,v1.4.0.0,free,GPL,Document,Immature
 Csound,Barry Vercoe," Realtime performance, sound synthesis, acoustic research",1986,2019-07-12,v6.13.0,free,LGPL," Document, graphical",Mature
 Impromptu,Andrew Sorensen," Live coding, algorithmic composition, hardware control, realtime synthesis, 2d/3d graphics programming",2006,2010-10,v2.5,free,Proprietary,Document,Stable

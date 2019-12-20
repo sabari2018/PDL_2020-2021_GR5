@@ -7,12 +7,12 @@ GnuTLS,GnuTLS project,yes,GNU LGPLv2.1+,Free Software Foundation,C,Latest stable
 Java Secure Socket Extension (JSSE),Oracle,Yes,GNU GPLv2 and commercial license,Oracle,Java,Latest stable software release/Java (software platform),US
 LibreSSL,OpenBSD Project,yes," Apache License 1.0, 4-clause BSD License, ISC License, and some are public domain"," Eric Young, Tim Hudson, Sun, OpenSSL project, OpenBSD Project, and others"," C, assembly",Latest stable software release/LibreSSL,Canada
 MatrixSSL,PeerSec Networks,yes,GNU GPLv2+ and commercial license,PeerSec Networks,C,Latest stable software release/MatrixSSL,US
-mbed TLS (previously PolarSSL),ARM,yes," GNU GPLv2+ and commercial license",ARM Holdings,C,Latest stable software release/mbed TLS,EU (Netherlands)
+mbed TLS (previously PolarSSL),ARM,yes,GNU GPLv2+ and commercial license,ARM Holdings,C,Latest stable software release/mbed TLS,EU (Netherlands)
 Network Security Services (NSS)," Sun, Oracle, Google and others",yes,MPL 2.0,NSS contributors," C, assembly",Latest stable software release/Network Security Services,US
 OpenSSL,OpenSSL project,yes,OpenSSL-SSLeay dual-license," Eric Young, Tim Hudson, Sun, OpenSSL project, and others"," C, assembly",Latest stable software release/OpenSSL,Australia/EU
 RSA BSAFE SSL-J,RSA Security,no,proprietary,RSA Security,Java,Latest stable software release/RSA BSAFE SSL-J,Australia
 RSA BSAFE Micro-Edition Suite,RSA Security,no,proprietary,RSA Security," C, assembly",Latest stable software release/RSA BSAFE Micro Edition Suite,Australia
-S2n,Amazon,yes," GNU GPLv2+ and commercial license"," Amazon, Inc.",C,Continuous,US
+S2n,Amazon,yes,GNU GPLv2+ and commercial license," Amazon, Inc.",C,Continuous,US
 SChannel,Microsoft,no,proprietary,Microsoft Inc.,," Windows 10, 2015-07-29",US
 [https://developer.apple.com/library/mac/documentation/Security/Reference/secureTransportRef/index.html Secure Transport],Apple Inc.,Yes,APSL 2.0,Apple Inc.,," 57337.20.44 (OS X 10.11.2), 2015-12-08",US
 wolfSSL (previously CyaSSL),wolfSSL,yes,GNU GPLv2+ and commercial license,wolfSSL Inc.,C,Latest stable software release/wolfSSL,US

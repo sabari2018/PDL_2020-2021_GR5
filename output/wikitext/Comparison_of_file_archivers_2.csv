@@ -1,4 +1,4 @@
-",Windows,DOS,Mac OS X,Linux,BSD,Other Unix,AmigaOS,Android,Windows Mobile,Windows Phone
+,Windows,DOS,Mac OS X,Linux,BSD,Other Unix,AmigaOS,Android,Windows Mobile,Windows Phone
 7-Zip,os-7zip-11,Command-line interfaceos-7zip-22,os-7zip-22,os-7zip-22,Command-line interfaceos-7zip-22,Command-line interfaceos-7zip-22,Command-line interface,no,yes,no
 ALZip,yes,Command-line interface,no,no,no,no,no,no,no,no
 ALZip for Mac,no,no,yes,no,no,no,no,no,no,no
@@ -24,8 +24,8 @@ Star,yes,no,yes,yes,yes,yes,yes,yes,unk,dunno
 StuffIt,yes,unk,yes," X86 only, older version (5.2.0?)",no,older version (5.2.0?),no,unk,unk,dunno
 The Unarchiver,Command-line interface,no,yes,Command-line interface,no,no,no,unk,no,dunno
 TUGZip,yes,unk,no,no,no,no,no,unk,unk,dunno
-WinAce,yes,Command-line interfaceos-winace5,Command-line interface expander onlyos-winace5," os-winace5",no,no,Command-line interface expander only,unk,unk,dunno
-WinRAR and RAR,os-7zip-11,yes,Command-line interfaceos-winrar6," os-winrar6",Command-line interfaceos-winrar6,Command-line interfaceos-winrar6,Command-line interface expander only,yes,yes,dunno
+WinAce,yes,Command-line interfaceos-winace5,Command-line interface expander onlyos-winace5,os-winace5,no,no,Command-line interface expander only,unk,unk,dunno
+WinRAR and RAR,os-7zip-11,yes,Command-line interfaceos-winrar6,os-winrar6,Command-line interfaceos-winrar6,Command-line interfaceos-winrar6,Command-line interface expander only,yes,yes,dunno
 WinZip,os-7zip-11,Command-line interface,yes,no,no,no,yes,yes,unk,dunno
 XAD,no,no,no,yes,yes,yes,yes,unk,unk,dunno
 Xarchiver,no,no,no,yes,yes,unk,unk,unk,unk,dunno

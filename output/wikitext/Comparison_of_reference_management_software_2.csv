@@ -1,4 +1,4 @@
-",Windows,macOS,Linux,ChromeOS,BSD,Unix,iOS App,Android App,Windows App
+Software,Windows,macOS,Linux,ChromeOS,BSD,Unix,iOS App,Android App,Windows App
 Bebop,yes,yes,yes,dunno,yes,yes,no,no,no
 BibBase,n/a,n/a,n/a,n/a,n/a,n/a,dunno,dunno,dunno
 BibDesk,no,yes,no,dunno,no,no,Third-party - PocketBib,dunno,dunno
@@ -14,7 +14,7 @@ JabRef,yes,yes,yes,no,yes,yes,no,no,no
 KBibTeX,table-experimental,table-experimental,yes,dunno,yes,yes,no,no,no
 Mendeley,yes,yes,yes,no,no,no,yes,yes,no
 Paperpile,yes,yes,yes,yes,no (requires Chromium),no (requires Chromium),in beta,in beta,no
-Pybliographer,partial," partial",yes,dunno,yes,yes,no,no,no
+Pybliographer,partial,partial,yes,dunno,yes,yes,no,no,no
 Qiqqa,yes,no,no,dunno,no,no,no,yes,no
 ReadCube (now Papers),Yesalign=style=color=,Yesalign=style=color=,Noalign=style=color=,Yesalign=style=color=,no,no,yes,yes,Yesalign=style=color=
 refbase,yes,yes,yes,dunno,yes,yes,no,no,no

@@ -1,4 +1,4 @@
-",HTML,LaTeX,RTF,Plain text,RSS,Other
+Software,HTML,LaTeX,RTF,Plain text,RSS,Other
 Bebop,yes,no,no,no,yes,unAPI
 BibBase,yes,no,no,no,yes,no
 BibDesk,yes,yes,yes,yes,yes," Atom, DOC, PDF, XML,"
@@ -12,13 +12,13 @@ colwiz,yes,yes,yes,no,no,PDF
 EndNote,yes,no,yes,yes,no," clipboard, XML"
 F1000Workspace,yes,no,yes,yes,no,PDF
 JabRef,yes,yes,yes,yes,no,clipboard
-KBibTeX,yes,no,yes,no,no," PS"
+KBibTeX,yes,no,yes,no,no,PS
 Mendeley,yes,yes,yes,yes,yes," clipboard, embeddable HTML widget, RSS"
 Paperpile,dunno,dunno,dunno,dunno,dunno,dunno
 Pybliographer,yes,dunno,no,yes,no,no
 ReadCube (now Papers),yes,no,no,no,no,PDF
 refbase,yes,yes,yes,yes,yes," Markdown, PDF, unAPI"
-RefDB,yes,dunno,yes,yes,no," TEI"
+RefDB,yes,dunno,yes,yes,no,TEI
 Reference Manager,yes,no,yes,yes,no,clipboard
 Referencer,dunno,dunno,dunno,dunno,dunno,dunno
 RefWorks,yes,no,yes,yes,no," DOC, ODT"

@@ -1,17 +1,17 @@
 Format,Languages
 string (stringFirst .. stringFirst + n - 1),Ada
-" substr(string, 0, n)","Raku"
-" LEFT$(string,n)","VB"
+" substr(string, 0, n)",Raku
+" LEFT$(string,n)",VB
 " left(string,n)","VB, Ingres, Pick Basic"
 " strncpy(string2, string, n)",C standard library
-" string.substr(0,n)","Raku"
+" string.substr(0,n)",Raku
 [string substringToIndex:n],Objective-C (NSString * only)
 (apply str (take n string)),Clojure
 string[0 .. n],D
 " string:substr(string, start, length)",Erlang
 (subseq string 0 n),Common Lisp
 string[:n],"Cobra, Go, Python"
-" left(string,n «,padchar»)","Erlang"
+" left(string,n «,padchar»)",Erlang
 " string[0, n]  string[0..n - 1]",Ruby
 " string[1, n]",Pick Basic
 string[ .. n],Seed7

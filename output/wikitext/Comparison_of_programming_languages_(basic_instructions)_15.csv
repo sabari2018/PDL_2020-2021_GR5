@@ -1,5 +1,5 @@
 ,Argument values,Argument counts,Program name / Script name
-" Ada",Argument (n),Argument_Count,Command_Name
+Ada,Argument (n),Argument_Count,Command_Name
 C (C99),argv[n],argc,first argument
 Objective-C,,,
 C++,,,
@@ -29,4 +29,4 @@ OCaml,Sys.argv.(n),Array.length Sys.argv,first argument
 F#,args.[n],args.Length,Assembly.GetEntryAssembly().Location
 Standard ML," List.nth (CommandLine.arguments (), n)",length (CommandLine.arguments ()),CommandLine.name ()
 Haskell (GHC),lang=haskelldo { args <- System.getArgs; return length args,n },lang=haskelldo { args <- System.getArgs; return length args },System.getProgName
-COBOL,COBOL Arguments[b],,n/a
+COBOL,COBOL Arguments[b],,{{n/a}}

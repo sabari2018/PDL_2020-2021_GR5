@@ -1,5 +1,5 @@
-Model",Launch",Fab (nm)",Bus interface",Memory",,
-,,,,Size (KiB),Bus type,Bus width (bit)
-Mach 8,1991,800"," ISA, MCA",5121024,DRAMVRAM,32
-Mach 32,1992,," ISA, EISA, VLBPCI, MCA",10242048,DRAMVRAM,64"
+Model,Launch,Fab (nm),Bus interface,Memory,,
+,,,,! Size ([[Kibibyte|KiB]]),Bus type,Bus width ([[bit]])
+Mach 8,1991,800," ISA, MCA",5121024,DRAMVRAM,32
+Mach 32,1992,," ISA, EISA, VLBPCI, MCA",10242048,DRAMVRAM,| 64
 Mach 64,1994,600," ISA, VLB, PCI"," 1024, 2048, 4096, 8192"," DRAM, VRAM, SGRAM ",

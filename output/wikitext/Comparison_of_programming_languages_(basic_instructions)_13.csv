@@ -1,42 +1,43 @@
 ,string to integer,string to long integer,string to floating point,integer to string,floating point to string
-" Ada",IntegerValue (string_expression),Long_IntegerValue (string_expression),FloatValue (string_expression),IntegerImage (integer_expression),FloatImage (float_expression)
-ALGOL 68 with general, and then specific formats",align=center With prior declarations and association of: string buf := "12345678.9012e34 "; file proxy; associate(proxy, buf);",,,,
-," get(proxy, ivar);"," get(proxy, livar);"," get(proxy, rvar);"," put(proxy, ival);"," put(proxy, rval);"
-," getf(proxy, ($g$, ivar));or getf(proxy, ($dddd$, ivar));"," getf(proxy, ($g$, livar));or getf(proxy, ($8d$, livar));"," getf(proxy, ($g$, rvar));or getf(proxy, ($8d.4dE2d$, rvar));"," putf(proxy, ($g$, ival));or putf(proxy, ($4d$, ival));"," putf(proxy, ($g(width, places, exp)$, rval));or putf(proxy, ($8d.4dE2d$, rval));"
+Ada,IntegerValue (string_expression),Long_IntegerValue (string_expression),FloatValue (string_expression),IntegerImage (integer_expression),FloatImage (float_expression)
+" ALGOL 68 with general, and then specific formats"," align=center With prior declarations and association of: string buf := ""12345678.9012e34 ""; file proxy; associate(proxy, buf);",,,,
+," get(proxy, ivar);"," get(proxy, livar);"," get(proxy, rvar);"," put(proxy, ival);",<pre>put(proxy, rval);</pre>
+," getf(proxy, ($g$, ivar));or getf(proxy, ($dddd$, ivar));"," getf(proxy, ($g$, livar));or getf(proxy, ($8d$, livar));"," getf(proxy, ($g$, rvar));or getf(proxy, ($8d.4dE2d$, rvar));"," putf(proxy, ($g$, ival));or putf(proxy, ($4d$, ival));",<pre>putf(proxy, ($g(width, places, exp)$, rval));</pre>or
+<pre>putf(proxy, ($8d.4dE2d$, rval));</pre>
 APL,⍎string_expression,⍎string_expression,⍎string_expression,⍕integer_expression,⍕float_expression
-C (C99),integer = atoi(string);,long = atol(string);,float = atof(string);,"  sprintf(string, "%i", integer);","  sprintf(string, "%f", float);"
-Objective-C,integer = [string intValue];,long = [string longLongValue];,float = [string doubleValue];,"  string = [NSString stringWithFormat:@"%i", integer];","  string = [NSString stringWithFormat:@"%f", float];"
-C++ (STL),«std::»istringstream(string) >> number;,,,«std::»ostringstream o; o,
+C (C99),integer = atoi(string);,long = atol(string);,float = atof(string);,"  sprintf(string, ""%i"", integer);","  sprintf(string, ""%f"", float);"
+Objective-C,integer = [string intValue];,long = [string longLongValue];,float = [string doubleValue];,"  string = [NSString stringWithFormat:@""%i"", integer];","  string = [NSString stringWithFormat:@""%f"", float];"
+C++ (STL),«std::»istringstream(string) >> number;,,,| <code>«std::»ostringstream o; o << number; string = o.str();</code>,
 C++11,integer = «std::»stoi(string);,long = «std::»stol(string);,float = «std::»stof(string); double = «std::»stod(string);,string = «std::»to_string(number);,
 C#,integer = int.Parse(string);,long = long.Parse(string);,float = float.Parse(string); double = double.Parse(string);,string = number.ToString();,
 D,integer = std.conv.to!int(string),long = std.conv.to!long(string),float = std.conv.to!float(string) double = std.conv.to!double(string),string = std.conv.to!string(number),
 Java,integer = Integer.parseInt(string);,long = Long.parseLong(string);,float = Float.parseFloat(string); double = Double.parseDouble(string);,string = Integer.toString(integer); string = String.valueOf(integer);,string = Float.toString(float); string = Double.toString(double);
-JavaScriptJavaScripts technicalities[a],integer = parseInt(string);,,float = parseFloat(string); float = new Number (string);
+JavaScriptJavaScripts technicalities[a],integer = parseInt(string);,,<code> float = parseFloat(string);</code><code> float = new Number (string);</code>
 float = Number (string);
-float = +string;,string = number.toString (); string = String (number); string = number+""; string = `${number}`",
+float = +string;,"   string = number.toString (); string = String (number); string = number+""""; string = `${number}`",
 Go,"  integer, error = strconv.Atoi(string) integer, error = strconv.ParseInt(string, 10, 0)","  long, error = strconv.ParseInt(string, 10, 64)","  float, error = strconv.ParseFloat(string, 64)","  string = strconv.Itoa(integer) string = strconv.FormatInt(integer, 10)"
 string = fmt.Sprint(integer),string = strconv.FormatFloat(float) string = fmt.Sprint(float)
-Common Lisp,(setf integer (parse-integer string)),,(setf float (read-from-string string)),(setf string (princ-to-string number)),
-Scheme,(define number (string->number string)),,,(define string (number->string number)),
-ISLISP,(setf integer (convert string  ;lt;integer ;gt;)),,(setf float (convert string  ;lt;float ;gt;)),(setf string (convert number  ;lt;string ;gt;)),
+Common Lisp,(setf integer (parse-integer string)),,(setf float (read-from-string string)),| <code>(setf string (princ-to-string number))</code>,
+Scheme,(define number (string->number string)),,,| <code>(define string (number->string number))</code>,
+ISLISP,(setf integer (convert string  ;lt;integer ;gt;)),,(setf float (convert string  ;lt;float ;gt;)),| <code>(setf string (convert number  ;lt;string ;gt;))</code>,
 Pascal,integer := StrToInt(string);,,float := StrToFloat(string);,string := IntToStr(integer);,string := FloatToStr(float);
 Visual Basic,integer = CInt(string),long = CLng(string),float = CSng(string) double = CDbl(string),string = CStr(number),
 Visual Basic .NET (can use both VB syntax above
-and .NET methods shown right),integer = Integer.Parse(string),long = Long.Parse(string),float = Single.Parse(string) double = Double.Parse(string),string = number.ToString()",
+and .NET methods shown right),integer = Integer.Parse(string),long = Long.Parse(string),float = Single.Parse(string) double = Double.Parse(string),string = number.ToString(),
 Xojo,integer = Val(string),long = Val(string),double = Val(string) double = CDbl(string),string = CStr(number) or string = Str(number),
 Python,integer = int(string),long = long(string),float = float(string),string = str(number),
 S-Lang,integer = atoi(string);,long = atol(string);,float = atof(string);,string = string(number);,
-Fortran,READ(string,format) number",,,WRITE(string,format) number",
-PHP,integer = intval(string); or integer = (int)string;,,float = floatval(string); float = (float)string;,string = "$number"; or string = strval(number); or",
+Fortran,"   READ(string,format) number",,,|  <code>WRITE(string,format) number</code>,
+PHP,integer = intval(string); or integer = (int)string;,,float = floatval(string); float = (float)string;,| <code> string = "$number"; or</code><code> string = strval(number); or</code>,
 string = (string)number;
-PerlPerls technicalities[b],number = 0 + string;,,,string = "number";",
-Raku,number = +string;,,,string = ~number;,
-Ruby,integer = string.to_i or integer = Integer(string),,float = string.to_f float = Float(string),string = number.to_s,
+PerlPerls technicalities[b],number = 0 + string;,,,| <code> string = "number";</code>,
+Raku,number = +string;,,,| <code> string = ~number;</code>,
+Ruby,integer = string.to_i or integer = Integer(string),,float = string.to_f float = Float(string),| <code> string = number.to_s</code>,
 Scala,integer = string.toInt,long = string.toLong,float = string.toFloat double = string.toDouble,string = number.toString,
-Smalltalk,integer := Integer readFrom: string,,float := Float readFrom: string,string := number asString,
-Windows PowerShell,integer = [int]string,long = [long]string,float = [float]string,string = [string]number; orstring = "number"; orstring = (number).ToString()",
+Smalltalk,integer := Integer readFrom: string,,float := Float readFrom: string,| <code> string := number asString</code>,
+Windows PowerShell,integer = [int]string,long = [long]string,float = [float]string,"  string = [string]number; orstring = ""number""; orstring = (number).ToString()",
 OCaml,let integer = int_of_string string,,let float = float_of_string string,let string = string_of_int integer,let string = string_of_float float
 F#,let integer = int string,let integer = int64 string,let float = float string,let string = string number,
 Standard ML,val integer = Int.fromString string,,val float = Real.fromString string,val string = Int.toString integer,val string = Real.toString float
-Haskell (GHC),number = read string,,,string = show number,
-COBOL,MOVE «FUNCTION» NUMVAL(string)COBOLs NUMVAL alternatives[c] TO number,,,MOVE number TO numeric-edited,
+Haskell (GHC),number = read string,,,| <code> string = show number</code>,
+COBOL,MOVE «FUNCTION» NUMVAL(string)COBOLs NUMVAL alternatives[c] TO number,,,|  <code>MOVE number TO numeric-edited</code>,

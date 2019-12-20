@@ -24,7 +24,7 @@ Scannerless Boolean Parser,Scannerless GLR (Boolean grammars),?," Haskell, Java 
 SDF/SGLR,Scannerless GLR,SDF," C, Java ",Separate,scannerless,All,Yes," Free, BSD"
 SmaCC," GLR(1), LALR(1), LR(1) ",?,Smalltalk,Mixed,internal,All,Yes," Free, MIT"
 SPARK,Earley,?,Python,Mixed,external,All,No," Free, MIT"
-Tom,GLR,?,C,Generated,none,All,No," Free, "No licensing or copyright restrictions""
+Tom,GLR,?,C,Generated,none,All,No," Free, ""No licensing or copyright restrictions"""
 UltraGram," LALR, LR, GLR ",?," C#, Java, Visual Basic .NET ",Separate,generated,Windows,Yes,Proprietary
 Wormhole," Pruning, LR, GLR, Scannerless GLR ",?," C, Python ",Mixed,scannerless,Windows,No," Free, MIT"
 Whale Calf," General tabular, SLL(k), Linear normal form (LR, Binary normal form (Boolean grammars) ",?,C++,Separate,external,All,No,Proprietary

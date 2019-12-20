@@ -8,7 +8,7 @@ RT-11,no,no,yes (date only),no,no,no,no,no,no,yes
 Version 6 Unix file system (V6FS),yes,yes,no,yes,no,no,no,no,no,no
 Version 7 Unix file system (V7FS),yes,yes,no,yes,no,no,no,no,no,no
 exFAT,no,no,yes,yes,no,no,no,no,no,no
-FAT12/FAT16/FAT32,no,no,yes,yes," name=fat-ctime Some FAT implementations, such as in Linux, show file modification timestamp (mtime) in the metadata change timestamp (ctime) field. This timestamp is however, not updated on file metadata change.",no,no,no," name=note-22 Particular Installable File System drivers and operating systems may not support extended attributes on FAT12 and FAT16. The OS/2 and Windows NT filesystem drivers for FAT12 and FAT16 support extended attributes (using a "EA DATA. SF" pseudo-file to reserve the clusters allocated to them). Other filesystem drivers for other operating systems do not.",no
+FAT12/FAT16/FAT32,no,no,yes,yes," name=fat-ctime Some FAT implementations, such as in Linux, show file modification timestamp (mtime) in the metadata change timestamp (ctime) field. This timestamp is however, not updated on file metadata change.",no,no,no," name=note-22 Particular Installable File System drivers and operating systems may not support extended attributes on FAT12 and FAT16. The OS/2 and Windows NT filesystem drivers for FAT12 and FAT16 support extended attributes (using a ""EA DATA. SF"" pseudo-file to reserve the clusters allocated to them). Other filesystem drivers for other operating systems do not.",no
 HPFS," name=note-14 The f-node contains a field for a user identifier. This is not used except by OS/2 Warp Server, however.",no,yes,yes,no,no,no,dunno,yes,no
 NTFS,yes," name=note-5 NTFS access control lists can express any access policy possible using simple POSIX file permissions (and far more), but use of a POSIX-like interface is not supported without an add-on such as Services for UNIX or Cygwin.",yes,yes,yes,no,yes," As of Vista, NTFS has support for Mandatory Labels, which are used to enforce Mandatory Integrity Control.",yes,no
 ReFS,yes,yes,yes,yes,yes,no,yes,dunno," Initially, ReFS lacked support for ADS, but Server 2012 R2 and up add support for ADS on ReFS",Data checksums not enabled by default
@@ -21,7 +21,7 @@ HAMMER,yes,yes,yes,yes,yes,dunno,yes,yes,no,yes
 LFS,yes,yes,no,yes,yes,no,no,no,no,no
 ext,yes,yes,no,no,no,no,no,no,no,no
 Xiafs,yes,yes,no,yes,yes,no,no,no,no,no
-ext2,yes,yes,no,yes,yes,no," name=note-23 Some patch.",name=note-23,yes,no
+ext2,yes,yes,no,yes,yes,no,name=note-23 Some patch.,name=note-23,yes,no
 ext3,yes,yes,no,yes,yes,no,name=note-23,name=note-23,yes,no
 ext4,yes,yes,yes,yes,yes,no,name=note-23,name=note-23,yes,Journal and metadata only
 NOVA,yes,yes,yes,yes,yes,no,no,no,no,yes
@@ -39,14 +39,14 @@ JFS,yes,yes,yes,yes,yes,no,yes,yes,yes,no
 QFS,yes,yes,yes,yes,yes,yes,yes,no,yes,no
 BFS,yes,yes,yes,no,no,no,no,no,yes,no
 AdvFS,yes,yes,no,yes,yes,no,yes,no,yes,no
-NSS,yes,yes," name=note-31 The local time, timezone/UTC offset, and date are derived from the time settings of the reference/single timesync source in the NDS tree.",name=note-31,yes,name=note-31,yes,dunno," name=note-19 Novell calls this feature "multiple data streams". Published specifications say that NWFS allows for 16 attributes and 10 data streams, and NSS allows for unlimited quantities of both.name=note-29 Some file and directory metadata is stored on the NetWare server irrespective of whether Directory Services is installed or not, like date/time of creation, file size, purge status, etc; and some file and directory metadata is stored in NDS/eDirectory, like file/object permissions, ownership, etc.",no
+NSS,yes,yes," name=note-31 The local time, timezone/UTC offset, and date are derived from the time settings of the reference/single timesync source in the NDS tree.",name=note-31,yes,name=note-31,yes,dunno," name=note-19 Novell calls this feature ""multiple data streams"". Published specifications say that NWFS allows for 16 attributes and 10 data streams, and NSS allows for unlimited quantities of both.name=note-29 Some file and directory metadata is stored on the NetWare server irrespective of whether Directory Services is installed or not, like date/time of creation, file size, purge status, etc; and some file and directory metadata is stored in NDS/eDirectory, like file/object permissions, ownership, etc.",no
 NWFS,yes,dunno,name=note-31,name=note-31,yes,name=note-31,yes,dunno,name=note-19name=note-29,no
 ODS-5,yes,yes,yes,dunno,dunno,yes,yes,dunno," name=note-17 Record Management Services (RMS) attributes include record type and size, among many others.",no
 APFS,yes,yes,yes,yes,yes,yes,yes,dunno,yes,partial
 VxFS,yes,yes,yes,yes,yes,no,yes,dunno,name=note-23,no
 UDF,yes,yes,yes,yes,yes,yes,yes,no,yes,no
 Fossil,yes," name=note-61 File permission in 9P are a variation of the traditional Unix permissions with some minor changes, e.g. the suid bit is replaced by a new exclusive access bit.",no,yes,yes,no,no,no,no,no
-ZFS,yes,yes,yes,yes,yes,yes,yes," name=note-69 Supported on FreeBSD and Linux implementations, support may not be available on all operating systems."," name=note-60 Solaris "extended attributes" are really full-blown alternate data streams, in both the Solaris UFS and ZFS.",yes
+ZFS,yes,yes,yes,yes,yes,yes,yes," name=note-69 Supported on FreeBSD and Linux implementations, support may not be available on all operating systems."," name=note-60 Solaris ""extended attributes"" are really full-blown alternate data streams, in both the Solaris UFS and ZFS.",yes
 Btrfs,yes,yes,yes,yes,yes,no,yes,yes,yes,disabling copy-on-write (COW) to prevent fragmentation also disables checksumming
 Minix V1,yes,yes,no,no,no,no,no,no,no,no
 Minix V2,yes,yes,no,yes,yes,no,no,no,no,no
@@ -55,7 +55,7 @@ VMFS2,yes,yes,no,yes,yes,no,no,no,no,no
 VMFS3,yes,yes,no,yes,yes,no,no,no,no,no
 ISO 9660:1988,no,no,yes,no,no,no,no,no,no,no
 Rock Ridge,yes,yes,no," Access times are preserved from the original file system at creation time, but Rock Ridge file systems themselves are read-only.",yes,no," libburnia can back up and restore ACLs with file system creation and extraction programs, but no kernel support exists."," name=note-78libburnia can back up and restore extended attributes and MAC labels with file system creation and extraction programs, but no kernel support exists.",name=note-78,no
-" Joliet ("CDFS")",no,no,yes,no,no,no,no,no,no,no
+" Joliet (""CDFS"")",no,no,yes,no,no,no,no,no,no,no
 ISO 9660:1999,no,no,yes,no,no,no,no,no,no,no
 High Sierra,no,no,yes,no,no,no,no,no,no,no
 SquashFS,yes,yes,yes,yes,yes,no,yes,no,yes,no

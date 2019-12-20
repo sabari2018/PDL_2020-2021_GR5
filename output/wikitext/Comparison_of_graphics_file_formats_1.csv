@@ -1,4 +1,4 @@
-",Full name,Owner,Based Format,File extension,MIME type,Application,Patented
+Format,Full name,Owner,Based Format,File extension,MIME type,Application,Patented
 Abc,Advanced Bitonal Compression,LEAD Technologies,,.abc,,Bitonal document and check images.,Yes
 ADRG,ARC Digitized Raster Graphics,,,.adrg,,,
 AdobeResource,,Adobe Systems,TIFF?,,,,
@@ -54,7 +54,7 @@ DDS,DirectDraw Surface,Microsoft,,.dds,,,
 Degas,Design  ; Entertainment Graphic Arts System,Integral Solutions,," .pi1, .pi2, .pi3,.pc1, .pc2, .pc3",,An application on Atari ST,
 DNG,Digital Negative,Adobe Systems," Compatible with ISO 12234-2, TIFF/EP",.dng,,A raw image format suitable as an archival format and as the native raw format of digital cameras,No: no known intellectual property encumbrances or license requirements
 DIA,Dia Drawing,,XML,.dia,,Used by Dia,
-DICOM,Digital Imaging and Communications in Medicine,National Electrical Manufacturers Association,," .dcm, .dicom",application/dicom," Numerous biomedical imaging applications (e.g. Photoshop)",
+DICOM,Digital Imaging and Communications in Medicine,National Electrical Manufacturers Association,," .dcm, .dicom",application/dicom,Numerous biomedical imaging applications (e.g. Photoshop),
 DjVu,DjVu,AT ;T Research,," .djvu, .djv",image/vnd.djvu,,
 Doodle,,,,.doo,,An application on Atari ST,
 DPX,Digital Picture eXchange file format,,,.dpx,image/dpx,,
@@ -244,4 +244,4 @@ YCbCr,,,,.ycbcr,,,
 YCbCrA,,,,.ycbcra,,,
 YUV,,,,.yuv,,,
 ZDT,,,,.zdt,,Used by TECH Win,
-"!,Full name,Owner,Based Format,File extension,MIME type,Application,Patented
+Format,Full name,Owner,Based Format,File extension,MIME type,Application,Patented

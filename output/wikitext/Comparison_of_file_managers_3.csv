@@ -1,4 +1,4 @@
-",Family,UI,Icon view,List view,Column view,Thumbnails,Details + Thumbs,Grouping,Content dependent,Twin panel,Favorites / Bookmark,Panel tabs
+File manager,Family,UI,Icon view,List view,Column view,Thumbnails,Details + Thumbs,Grouping,Content dependent,Twin panel,Favorites / Bookmark,Panel tabs
 Altap Salamander,Orthodox,GUI,yes,yes,yes,yes,no,no,no,yes,partial,no
 Commander One,Orthodox,GUI,yes,yes,yes,yes,dunno,dunno,no,dunno,yes,yes
 CRAX Commander,Orthodox,GUI,yes,yes,no,yes,dunno,dunno,no,yes,yes,yes
@@ -10,7 +10,7 @@ Dolphin,Navigational,GUI,yes,yes,yes,yes,yes,yes,no,yes,yes,yes
 Double Commander,Orthodox,GUI,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
 DOS Navigator,Orthodox,Text,dunno,yes,dunno,dunno,dunno,dunno,dunno,yes,dunno,dunno
 emelFM2,Orthodox,GUI,no,yes,no,yes,dunno,no,no,yes,dunno,no
-FAR Manager,Orthodox,Text,partial,yes,yes,yes," partial",yes,yes,yes,yes," partial "
+FAR Manager,Orthodox,Text,partial,yes,yes,yes,partial,yes,yes,yes,yes,partial
 File Commander,Orthodox,Text,no,yes,yes,no,partial,yes,no,yes,no,no
 File Manager,Orthodox,GUI,yes,yes,no,dunno,dunno,dunno,dunno,yes,no,no
 Files (Apple),,GUI,yes,,,yes,yes,,,,,
@@ -32,11 +32,11 @@ STDU Explorer,Navigational,GUI,yes,yes,yes,yes,no,no,no,no,no,no
 Total Commander,Orthodox,GUI,yes,yes,yes,yes,yes,yes,yes In viewing,yes,yes,yes
 Thunar,Navigational,GUI,yes,yes,yes,yes,yes,no,dunno,no,yes,yes
 Volkov Commander,Orthodox,Text,dunno,yes,dunno,dunno,dunno,dunno,dunno,yes,dunno,dunno
-Windows Explorer,Navigational / Spatial,GUI,yes,yes," yes ",yes," partial ",yes,yes,no,yes,no
+Windows Explorer,Navigational / Spatial,GUI,yes,yes,yes,yes,partial,yes,yes,no,yes,no
 Xandros File Manager,Navigational,GUI,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Xfe,Hybrid Navigational,GUI,yes,yes,yes,yes,yes,no,no,yes,yes,no
 Xfm,Spatial,GUI,yes,no,no,no,no,dunno,dunno,no,dunno,no
 xplorer²,Hybrid Navigational / Orthodox,GUI,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
 XYplorer,Hybrid Navigational / Orthodox,GUI,yes,yes,yes,yes,yes,no,no,yes,yes,yes
 ZTreeWin,Orthodox,Text,no,yes,yes,no,partial,yes,no,yes,yes,no
-"!,Family,UI,Icon view,List view,Column view,Thumbnails,Details + Thumbs,Grouping,Content dependent,Twin panel,Favorites / Bookmark,Panel tabs
+File manager,Family,UI,Icon view,List view,Column view,Thumbnails,Details + Thumbs,Grouping,Content dependent,Twin panel,Favorites / Bookmark,Panel tabs

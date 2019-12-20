@@ -1,22 +1,22 @@
-Model",Features",,,,,
+Model,Features,,,,,
 ,Gamma-correct antialiasing,64-bit OpenEXR HDR,Scalable Link Interface (SLI),TurboCache,Dual Link DVI
-"!,no,no,yes2 Yes (PCIe only)(No SLI bridge),yes,no
-"!,yes,yes,no,yes,no
-"!,yes,yes,no,yes,no
-"!,yes,yes,no,yes,no
-"!,yes,yes,yes2 Yes (PCIe only)(No SLI bridge),yes,no
-"!,yes,yes,yes2 Yes (PCIe only)(No SLI bridge),no,One port
-"!,yes,yes,yes2 Yes (PCIe only),no,One port
-"!,yes,yes,yes2 Yes (PCIe only),no,One port
-"!,yes,yes,yes,no,One port
-"!,yes,yes,yes2 Yes (Depending on OEM Design),no,One port
-"!,yes,yes,no,no,One port
-"!,yes,yes,yes,no,One port
-"!,yes,yes,yes,no,One port
-"!,yes,yes,yes,no,One port
-"!,yes,yes,yes2 Yes (PCIe only),no,Two ports
-"!,yes,yes,yes,no,Two ports
-"!,yes,yes,yes,no,Two ports
-"!,yes,yes,yes,no,Two ports
-"!,yes,yes,yes2 Yes (PCIe only),no,Two ports
-"!,yes,yes,yes,no,Two ports
+GeForce 7100 GS,no,no,yes2 Yes (PCIe only)(No SLI bridge),yes,no
+GeForce 7200 GS,yes,yes,no,yes,no
+GeForce 7300 SE,yes,yes,no,yes,no
+GeForce 7300 LE,yes,yes,no,yes,no
+GeForce 7300 GS,yes,yes,yes2 Yes (PCIe only)(No SLI bridge),yes,no
+GeForce 7300 GT,yes,yes,yes2 Yes (PCIe only)(No SLI bridge),no,One port
+GeForce 7600 GS,yes,yes,yes2 Yes (PCIe only),no,One port
+GeForce 7600 GT,yes,yes,yes2 Yes (PCIe only),no,One port
+GeForce 7600 GT (80 nm),yes,yes,yes,no,One port
+GeForce 7650 GS (80 nm),yes,yes,yes2 Yes (Depending on OEM Design),no,One port
+GeForce 7800 GS,yes,yes,no,no,One port
+GeForce 7800 GT,yes,yes,yes,no,One port
+GeForce 7800 GTX,yes,yes,yes,no,One port
+GeForce 7800 GTX 512,yes,yes,yes,no,One port
+GeForce 7900 GS,yes,yes,yes2 Yes (PCIe only),no,Two ports
+GeForce 7900 GT,yes,yes,yes,no,Two ports
+GeForce 7900 GTO,yes,yes,yes,no,Two ports
+GeForce 7900 GTX,yes,yes,yes,no,Two ports
+GeForce 7950 GT,yes,yes,yes2 Yes (PCIe only),no,Two ports
+GeForce 7950 GX2,yes,yes,yes,no,Two ports

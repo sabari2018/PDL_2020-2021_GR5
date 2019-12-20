@@ -17,5 +17,5 @@ PHPEdit,WaterProof SARL,LSR,article =,latest release version = 3.6.4,latest rele
 PhpStorm (IntelliJ IDEA),JetBrains,2019.1  / 28 March 2019," Windows, Solaris",proprietary,yes,yes,yes," CVS, Git, SVN"
 Quanta Plus,KDE Web Dev Team," 3.5.8 / October 16, 2007",Linux,GPL,unk,no,unk,unk
 RadPHP (formerly Delphi for PHP),Embarcadero Technologies," XE2 / August 30, 2011",Windows,proprietary,yes,yes,yes,unk
-SlickEdit,SlickEdit,October 2016," Solaris",Proprietary,Yes,Yes,No,Yes
+SlickEdit,SlickEdit,October 2016,Solaris,Proprietary,Yes,Yes,No,Yes
 Zend Studio,Zend,10.6 / February 2014,Cross-platform,proprietary,yes,yes,yes," CVS, Git, SVN, others (via plugins) "

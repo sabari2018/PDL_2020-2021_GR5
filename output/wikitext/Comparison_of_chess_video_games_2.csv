@@ -1,4 +1,4 @@
-",included chess engine(s),Can open/save PGN,Can import UCI engines,Levels,3D or Animated pieces,Variants,Multiplayer
+,included chess engine(s),Can open/save PGN,Can import UCI engines,Levels,3D or Animated pieces,Variants,Multiplayer
 Aquarium," Crafty, Delfi, Rybka, Spike ",yes,yes," multivariation, uci_elo",no,Chess960,no
 Battle Chess,n/a,no,no,,yes,no,
 Battle Chess: Game of Kings,n/a,no,no,,yes,no,
@@ -9,7 +9,7 @@ Chessbase,Fritz,yes,yes,uci_elo for analysis but no timed games,yes,Chess960,no
 Chessmaster,The King,yes,no,Personalities with Elo ratings,yes,no,no longer supported
 Chess Titans,n/a,no,no,yes,no,no,
 ChessV,,,,,,,
-Fritz," Fritz",yes,yes," Friend Mode, Handicap and Fun, uci_elo",yes,Chess960,
+Fritz,Fritz,yes,yes," Friend Mode, Handicap and Fun, uci_elo",yes,Chess960,
 Fritz and Chesster,Koenig Schwarz,,,,,
 GNOME Chess,,,,,,
 GNU Chess,GNU chess,yes,no,,no," Knightmate, Capablanca, Gothic, Shatranj, Courier, Cylinder, Berolina",no

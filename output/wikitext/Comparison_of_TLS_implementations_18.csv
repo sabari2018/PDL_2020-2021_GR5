@@ -1,5 +1,5 @@
 Implementation,TPM support,Hardware token support,Objects identified via
-Botan," partial",PKCS11,
+Botan,partial,PKCS11,
 cryptlib,no,PKCS11,User-defined label
 GnuTLS,yes,PKCS11,RFC7512 PKCS #11 URLs
 JSSE,no," PKCS11 Java Cryptography Architecture,Java Cryptography Extension",

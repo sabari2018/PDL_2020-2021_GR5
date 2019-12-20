@@ -1,9 +1,9 @@
 variable,constant,type synonym
-" Ada",identifier : type« := initial_value»Ada declaration[e],identifier : constant type := final_value,subtype identifier is type
+Ada,identifier : type« := initial_value»Ada declaration[e],identifier : constant type := final_value,subtype identifier is type
 ALGOL 68,modename name« := initial_value»;,modename name = value;,mode synonym = modename;
 C (C99),type name« = initial_value»;,enum{ name = value };,typedef type synonym;
 Objective-C,,,
-C++,,const type name = value;,
+C++,,<code>const type name = value;</code>,
 C#," type name1« = initial_value», name2« = initial_value», ... ; or  var name = initial_value;"," const type name = value, name = value, ... ; or  readonly type name = value, name = value, ... ;",using synonym = type;
 D,type name« = initial_value»; or  auto name = value;,const type name = value; or  immutable type name = value;,alias type synonym;
 Java,type name« = initial_value»;,final type name = value;,n/a
@@ -14,11 +14,11 @@ Common Lisp,(defparameter name initial_value) or  (defvar name initial_value) or
 Scheme,(define name initial_value),,
 ISLISP,(defglobal name initial_value) or  (defdynamic name initial_value),(defconstant name value),n/a
 PascalPascals declarations[a],name: type« = initial_value»,name = value,synonym = type
-Visual Basic,Dim name «As type»,See notes to left. Constants use the same syntax, and:"
-* use Const instead of Dim * have a restriction to only certain primitive types,
-"Const name1 «As type» = value, name2 «As type» = value, ...",,
+Visual Basic,Dim name «As type»," rowspan=3See notes to left. Constants use the same syntax, and:"
+* use Const instead of Dim * have a restriction to only certain primitive types
+"Const name1 «As type» = value, name2 «As type» = value, ...",
 Visual Basic .NET,The variable declaration syntax of VB.NET is surprisingly difficult to precisely describe.
-"Given that there exist the identifier suffixes ("modifiers"): * type_character, available as an alternative to an As clause for some primitive data types; * nullable_specifier; and * array_specifier;"
+"Given that there exist the identifier suffixes (""modifiers""): * type_character, available as an alternative to an As clause for some primitive data types; * nullable_specifier; and * array_specifier;"
 "and that * a modified_identifier is of the form identifier«type_character»«nullable_specifier»«array_specifier»; * a modified_identifier_list is a comma-separated list of two or more occurrences of  modified_identifier; and * a declarator_list is a comma-separated list of declarators, which can be of the form **identifier As object_creation_expression (object initializer declarator), ** modified_identifier« As non_array_type«array_rank_specifier»»« = initial_value» (single declarator), or ** modified_identifier_list« As «non_array_type««array_rank_specifier»» (multiple declarator);"
 "valid declaration statements are of the form Dim declarator_list,"
 "where, for the purpose of semantic analysis, to convert the declarator_list to a list of only single declarators:  The As clauses of each multiple declarator is distributed over its modified_identifier_list The As New type... of each object initializer declarator is replaced with As type = New type... "
@@ -28,10 +28,10 @@ Visual Basic .NET,The variable declaration syntax of VB.NET is surprisingly diff
 name = initial_value,Imports synonym = type
 Xojo,Dim name «As type»« = initial_value»,n/a
 Python,name = initial_value,n/a,synonym = typevariable types[b]
-CoffeeScript,,,n/a
+CoffeeScript,,,{{n/a}}
 S-Lang,name = initial_value;,,typedef struct {...} typename
 Fortran,type name," type, PARAMETER ::  name = value",
-PHP,$name = initial_value;," define("name", value);  const name = value (5.3+)",n/a
+PHP,$name = initial_value;," define(""name"", value);  const name = value (5.3+)",n/a
 Perl,«my» $name« = initial_value»;Perls my keyword[c],use constant name => value;,
 Raku,«my «type»» $name« = initial_value»;Perls my keyword[c],«my «type»» constant name = value;,::synonym ::= type
 Ruby,name = initial_value,Name = value,synonym = typevariable types[b]

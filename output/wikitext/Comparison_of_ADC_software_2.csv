@@ -10,5 +10,5 @@ Erlhub,yes,yes,yes,Any Erlang enabled platform
 Qhub,dunno,dunno,dunno,dunno
 Starlet ADC Hub,no,no,no,OpenVMS
 Starhub,yes,yes,yes,Any Java enabled platform
-RusHub,yes,yes,yes," Solaris"
+RusHub,yes,yes,yes,Solaris
 ADC hub,Windows,Linux,OS X,Other

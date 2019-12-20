@@ -1,5 +1,5 @@
-",,,,,Web-related",,,
-"!,",",",",",",","
+,,,,,| Web-related,,,
+Name,Conditional compilation,Sockets,Multi-threading,Tabling,HTTP client,HTTP server,HTML Parser,RDF Triple store
 BProlog,,,,yes,,,,
 Ciao,Yes,Yes,Yes,Yes,Yes,Yes,Yes,
 ECLiPSe,Yes,Yes,Yes,,Yes,,Yes,

@@ -1,4 +1,4 @@
-,Client," Vista"," XP, 2000",NT 4.0,NT 3.x," Me, 98",95,3.1x,ReactOS,macOS (Intel/PPC),OS 9,OS 8,System 7 (PPC/68k)," Haiku"," eCS",AmigaOS (68k)," AmigaOS 4, MorphOS (PPC)",DOS
+,Client,Vista," XP, 2000",NT 4.0,NT 3.x," Me, 98",95,3.1x,ReactOS,macOS (Intel/PPC),OS 9,OS 8,System 7 (PPC/68k),Haiku,eCS,AmigaOS (68k)," AmigaOS 4, MorphOS (PPC)",[[DOS]]
 Bersirc,yes,yes,dunno,no,dunno,dunno,no,dunno,dunno,no,no,no,no,no,no,no,no
 BitchX,Requires name=bitchxinstallgroup=Note,yes,yes,no,yes,yes,no,dunno,yes,no,no,no,dunno,yes,yes,yes,no
 ChatZilla,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,yes,yes,yes,dunno,yes,no

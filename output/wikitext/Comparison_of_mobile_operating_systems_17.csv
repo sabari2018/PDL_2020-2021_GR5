@@ -1,7 +1,7 @@
-" width="10%" Feature"," width="10%" Android"," width="10%" iOS"," width="10%" Windows 10 Mobile"," width="10%" BlackBerry 10"," width="10%" Tizen"," width="10%" Sailfish OS"," width="10%" Ubuntu Touch"
+" width=""10%"" Feature"," width=""10%"" Android"," width=""10%"" iOS"," width=""10%"" Windows 10 Mobile"," width=""10%"" BlackBerry 10"," width=""10%"" Tizen"," width=""10%"" Sailfish OS"," width=""10%"" Ubuntu Touch"
 Non-intrusive incoming calls,5+ or 3rd party software,"No, 3rd party software on jailbroken devices",No,No,No,No,?
 Non-intrusive notifications,Yes,5+,"Yes, except Calendar Reminders",6+,?,?,?
-Move apps to external storage,2.2+,External storage not allowed for apps,"8.1+",No,No,No,No
+Move apps to external storage,2.2+,External storage not allowed for apps,8.1+,No,No,No,No
 Remote Frame Buffer (RFB) protocol,Yes,3rd party software,?,?,?,?,?
 Screencast on device,"No2 No, 3rd party software like LineageOS ScreenCast, AOKP or OmniROM",9+,No,No,No,No,Yes
 Screencast over USB,"4.4+ over USB,",8+: on OS X,8.1+,No,No,?,No

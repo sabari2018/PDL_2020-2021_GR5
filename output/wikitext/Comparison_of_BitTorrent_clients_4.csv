@@ -5,7 +5,7 @@ BitComet,yes,no,yes,yes2 Separate download,yes,yes,yes,yes,yes,yes,yes,no," HTTP
 BitLet,no,no,no,no,yes,no,no,no,no,no,no,no,no
 BitLord,yes,no,no,no,yes,yes,yes,yes,yes,yes,yes,yes," HTTP 1.1, SOCKS4-4a-5"
 BitTornado,no,no,yes,yes,yes,no,no,no,no,yes,no,no,no
-" BitTorrent 5, Mainline",no,no,no," yes",yes,yes,no,yes,yes,yes,no,no,yes
+" BitTorrent 5, Mainline",no,no,no,yes,yes,yes,no,yes,yes,yes,no,no,yes
 BitTorrent 6,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes," HTTP(S), SOCKS4-5"
 BitTyrant,no,no,date=December 2008,yes,yes,yes,yes,yes,yes,yes,no,no,no
 Blog Torrent,no,no,no,yes,no,no,no,no,no,no,no,no,no
@@ -29,6 +29,6 @@ Tonido,no,no,no,no,yes,yes,yes,yes,no,no,no,no,no
 TorrentFlux,no,no,yes,no,yes,no,no,no,no,yes,no,no,no
 Transmission,yes,yes,no,no,yes,yes,yes,yes,yes,yes,yes,yes,no
 Tribler,yes,no,no,yes,yes,yes,no,yes,yes,yes,no,no,Uses P2P onion routing to provide anonymity.
-Vuze (formerly Azureus),yes,yes,yes,yes,yes,yes,yes," yes",yes,yes,yes,Plugin," HTTP(S)?, SOCKS4-4a-5"
+Vuze (formerly Azureus),yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,Plugin," HTTP(S)?, SOCKS4-4a-5"
 Xunlei,yes,no,no,yes,yes,yes,yes,yes,yes,no,yes,yes," HTTP, SOCKS5, FTP"
 BitTorrent client,Magnet URI,Preload Magnet metadata,Super-seeding,Embedded tracker,UPnP,NAT Port Mapping Protocol,NAT traversal,DHT,Peer exchange,Encryption,UDP tracker,LPD,Proxy server

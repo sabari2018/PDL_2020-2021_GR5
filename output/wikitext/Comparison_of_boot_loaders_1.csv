@@ -1,5 +1,5 @@
-Name,License,Can reside in,,,,Can boot from,,,,,,,,Can boot,,,,,,,,
-,,ESP (UEFI),MBR,VBR,Floppy
+Name,License,Can reside in,,,,| Can boot from,,,,,,,,| Can boot,,,,,,,,
+,,ESP (UEFI),MBR,[[Volume boot record|VBR]],[[Floppy]]
 Hard disk,Second Hard disk,Logical partitions,CD-ROM,Floppy,USB,Zip,LAN
 MS-DOS,Me,Windows NT series,7/8/10,Linux,ReactOS,MenuetOS,*BSD,Mac OS X
 Acronis OS Selector,proprietary,Dunno,Dunno,Dunno,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Dunno,Yes,Yes,Yes,Yes,Yes,Dunno,Dunno,Yes,Yes
@@ -19,7 +19,7 @@ GRUB Legacy,GPLv2+,Dunno,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,Call
 GNU GRUB,GPLv3,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,Calls NTLDR,Calls Windows Boot Manager,yes,Calls FreeLoader,yes,yes,yes
 GRUB4DOS,GPLv2+,Dunno,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,Calls NTLDR,Calls Windows Boot Manager,yes,dunno,dunno,dunno,dunno
 Gujin [http://gujin.sourceforge.net/],GPLv2,Dunno,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,Calls NTLDR,yes,yes,dunno,dunno,dunno,dunno
-systemd-boot / Gummiboot,LGPL 2.1,yes,no,no,dunno,yes,yes,yes,dunno,dunno,yes,dunno,dunno,no,no,Windows Server 2013 64bits with UEFI only,Calls Windows Boot Manager,yes,dunno,dunno,UEFI only," yes"
+systemd-boot / Gummiboot,LGPL 2.1,yes,no,no,dunno,yes,yes,yes,dunno,dunno,yes,dunno,dunno,no,no,Windows Server 2013 64bits with UEFI only,Calls Windows Boot Manager,yes,dunno,dunno,UEFI only,yes
 iBoot,proprietary,yes,dunno,dunno,dunno,yes,dunno,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,yes
 LILO,BSD license,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno,dunno,yes,Calls NTLDR,yes,yes,dunno,dunno," Calls biosboot (FreeBSD, PC-BSD, ...)",dunno
 loader(8),BSD license,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno," yes (FreeBSD, TrueOS)",dunno
@@ -37,5 +37,5 @@ SYSLINUX,GPLv2+,yes,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,Calls NTL
 XOSL,GPLv2,Dunno,no,no,yes,yes,yes,yes,yes,dunno,no,dunno,no,yes,yes,yes,yes,yes,dunno,dunno,dunno,dunno
 Windows Boot Manager,proprietary,yes,no,yes,no,yes,yes,dunno,yes,yes,yes,yes,dunno,dunno,yes,Calls NTLDR,yes,Calls GRUB or LILO,dunno,dunno,dunno,dunno
 FreeLoader (ReactOS Boot Loader),GPLv2+,Dunno,no,yes,yes,yes,yes,dunno,yes,yes,yes,yes,dunno,yes,yes,partial,Calls Windows Boot Manager,yes,yes,dunno,dunno,dunno
-Name,Software license,Can reside in,,,,Can boot from,,,,,,,,Can boot,,,,,,,,
-,,ESP (UEFI),MBR,VBR,Floppy,Hard disk,Second hard disk,Logical partitions,CD-ROM,Floppy,USB,Zip,LAN,MS-DOS,Me,Windows NT series,7/8,Linux,ReactOS,MenuetOS,*BSD,Mac OS X
+Name,Software license,Can reside in,,,,| Can boot from,,,,,,,,| Can boot,,,,,,,,
+,,ESP (UEFI),MBR,VBR,Floppy,Hard disk,Second hard disk,Logical partitions,CD-ROM,Floppy,USB,Zip,LAN,MS-DOS,Me,Windows NT series,7/8,Linux,ReactOS,MenuetOS,[[*BSD]],[[Mac OS X|Mac OS X]]

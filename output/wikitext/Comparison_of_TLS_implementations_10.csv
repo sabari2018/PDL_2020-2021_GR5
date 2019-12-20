@@ -1,4 +1,4 @@
-Implementation," sect163k1NIST K-163(1)"," sect163r1(2)"," sect163r2NIST B-163(3)"," sect193r1(4)"," sect193r2(5)"," sect233k1NIST K-233(6)"," sect233r1NIST B-233(7)"," sect239k1(8)"," sect283k1NIST K-283(9)"," sect283r1NIST B-283(10)"," sect409k1NIST K-409(11)"," sect409r1NIST B-409(12)"," sect571k1NIST K-571(13)"," sect571r1NIST B-571(14)"
+Implementation,sect163k1NIST K-163(1),sect163r1(2),sect163r2NIST B-163(3),sect193r1(4),sect193r2(5),sect233k1NIST K-233(6),sect233r1NIST B-233(7),sect239k1(8),sect283k1NIST K-283(9),sect283r1NIST B-283(10),sect409k1NIST K-409(11),sect409r1NIST B-409(12),sect571k1NIST K-571(13),sect571r1NIST B-571(14)
 Botan,no,no,no,no,no,no,no,no,no,no,no,no,no,no
 BoringSSL,no,no,no,no,no,no,no,no,no,no,no,no,no,no
 GnuTLS,no,no,no,no,no,no,no,no,no,no,no,no,no,no
@@ -13,4 +13,4 @@ RSA BSAFE,yes,no,yes,no,no,yes,yes,no,yes,yes,yes,yes,yes,yes
 [https://developer.apple.com/library/mac/documentation/Security/Reference/secureTransportRef/index.html Secure Transport],no,no,no,no,no,no,no,no,no,no,no,no,no,no
 wolfSSL,no,no,no,no,no,no,no,no,no,no,no,no,no,no
 Erlang/OTP SSL application,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
-Implementation," sect163k1NIST K-163(1)"," sect163r1(2)"," sect163r2NIST B-163(3)"," sect193r1(4)"," sect193r2(5)"," sect233k1NIST K-233(6)"," sect233r1NIST B-233(7)"," sect239k1(8)"," sect283k1NIST K-283(9)"," sect283r1NIST B-283(10)"," sect409k1NIST K-409(11)"," sect409r1NIST B-409(12)"," sect571k1NIST K-571(13)"," sect571r1NIST B-571(14)"
+Implementation,sect163k1NIST K-163(1),sect163r1(2),sect163r2NIST B-163(3),sect193r1(4),sect193r2(5),sect233k1NIST K-233(6),sect233r1NIST B-233(7),sect239k1(8),sect283k1NIST K-283(9),sect283r1NIST B-283(10),sect409k1NIST K-409(11),sect409r1NIST B-409(12),sect571k1NIST K-571(13),sect571r1NIST B-571(14)

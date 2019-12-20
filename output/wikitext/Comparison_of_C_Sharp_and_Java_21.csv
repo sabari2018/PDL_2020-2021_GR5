@@ -1,4 +1,4 @@
-",","
+Native interoperability,Java,C#
 Cross-language interoperability," yes (with Nashorn, JNA)"
 External/native methods,yes,yes
 Marshalling,External glue code needed,yes; metadata controlled

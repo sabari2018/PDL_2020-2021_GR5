@@ -1,4 +1,4 @@
-Name",Shell scripting",,MIDI",,OSC",,HID",VST",Audio Units",,Other"
+Name,Shell scripting,,MIDI,,OSC,,HID,| [[Virtual Studio Technology|VST]],| [[Audio Units]],,| Other
 ,In,Out,In,Out,In,Out,,,As host,As unit,
 Bidule,,,yes,yes,yes,yes,yes,yes,yes,yes,
 ChucK,,,yes,yes,yes,yes,yes,,,,

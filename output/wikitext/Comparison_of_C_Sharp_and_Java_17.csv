@@ -1,5 +1,5 @@
-",","
-Method references," yes ",yes
+Functional programming,Java,C#
+Method references,yes,yes
 Closures,All lambdas do not introduce a new level of scope. All referenced variables must be effectively final,yes
 Lambda expressions,yes,yes
 Expression trees,no,yes

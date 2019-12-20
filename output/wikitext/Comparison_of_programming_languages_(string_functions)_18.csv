@@ -1,9 +1,9 @@
 Format,Languages
-" string1 ne string2, or string1 NE string2","ALGOL 68 – note: the operator "ne" is literally in bold type-font."
+" string1 ne string2, or string1 NE string2","ALGOL 68 – note: the operator ""ne"" is literally in bold type-font."
 string1 /= string2,"Ada, Erlang, Haskell "
 string1  string2,"VB, VB .NET, Pascal, Delphi), F#, Cobra, Python 2 (deprecated)"
 string1 # string2,BASIC (some implementations)
-string1 ne string2,"Raku "
+string1 ne string2,Raku
 (string string1 string2),Scheme (SRFI 13)
 (string/= string1 string2),Common Lisp
 (string/= string1 string2),ISLISP

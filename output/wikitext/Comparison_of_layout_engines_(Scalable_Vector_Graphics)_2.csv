@@ -1,8 +1,8 @@
-",",",",",","
-"!,5.0",yes,dunno",2.1,no,5.1
-"!,,1.8",,yes",;lt;embed ;gt;  ;mdash; Presto does not scale the image properly if its size is given in relative units.group=note,;lt;embed ;gt;,  ;lt;object ;gt;  ;mdash; KSVG does not scale the image properly if its size is given in relative units.group=note",5.2
-"!,,,,,yes,,5.1
-"!,2.0",no,2.1",no",dunno
-"!,," list-style-image  ;mdash; WebKit does render the image if its size is given in relative units.group=note",,,dunno
-"!,no,41,no,,2.1.1,dunno
-"!,5.0,yes,yes,no,dunno,dunno
+Trident,Gecko,WebKit,Blink,Presto,KSVG,Amaya
+;lt;img ;gt;,5.0,yes,dunno,2.1,no,5.1
+;lt;embed ;gt;,,1.8,,yes,;lt;embed ;gt;  ;mdash; Presto does not scale the image properly if its size is given in relative units.group=note,{{partial}}{{#tag:ref|<code> ;lt;embed ;gt;</code>, <code> ;lt;object ;gt;</code>  ;mdash; KSVG does not scale the image properly if its size is given in relative units.|group=note}},{{yes|5.2}}
+;lt;object ;gt;,,,,,{{yes}},,{{yes|5.1}}
+CSS background-image,2.0,no,2.1,no,dunno
+CSS list-style-image,,list-style-image  ;mdash; WebKit does render the image if its size is given in relative units.group=note,,,{{dunno}}
+as Favicon,no,41,no,,2.1.1,{{dunno}}
+in data URIs,5.0,yes,yes,no,dunno,dunno

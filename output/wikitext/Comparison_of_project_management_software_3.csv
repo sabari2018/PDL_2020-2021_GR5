@@ -14,7 +14,7 @@ CEITON,yes,yes,yes
 Clarizen,yes,yes,No
 Collabtive,No,yes,No
 Compuware Changepoint,No,yes,No
-ConceptDraw Project," yes "," yes ",No
+ConceptDraw Project,yes,yes,No
 Concerto Project Management,yes,yes,Yes
 Copper Project,yes,yes,yes
 dotProject,No,No,No
@@ -37,8 +37,8 @@ HeySpace,No,No,No
 HP Project  ; Portfolio Software,No,No,No
 Huddle,No,No,No
 Hyperoffice,No,yes,No
-iManageProject,No," yes",No
-InLoox," yes"," yes"," yes"
+iManageProject,No,yes,No
+InLoox,yes,yes,yes
 in-Step BLUE,yes,yes,No
 Jira,No,Yes,No
 Launchpad,No,No,No
@@ -46,7 +46,7 @@ LibrePlan,No,yes,No
 LiquidPlanner,No,yes,No
 LisaProject,No,No,No
 MacProject,No,No,No
-MantisBT,No," yes",No
+MantisBT,No,yes,No
 MeisterTask,no,yes,no
 Métier,yes,yes,yes
 Microsoft Dynamics AX,Yes,Yes,Yes
@@ -66,7 +66,7 @@ OpenProj,No,No,No
 OpenProject,yes,yes,no
 Oracle Primavera EPPM (Primavera P6),Yes,Yes,No
 phpGroupWare,No,No,No
-PHProjekt,No," yes",No
+PHProjekt,No,yes,No
 Pivotal Tracker,No,No,No
 Plandora,yes,yes,No
 Planisware,yes,yes,yes
@@ -74,8 +74,8 @@ PLANTA Project,yes,yes,No
 Project KickStart,No,No,No
 Project Team Builder,No,No,No
 ProjectLibre,yes,yes,no
-ProjectManager.com," yes"," yes",No
-Project.net,No," yes",Yes
+ProjectManager.com,yes,yes,No
+Project.net,No,yes,Yes
 Projectplace,No,No,No
 Projektron BCS,yes,yes,yes
 ProjeQtOr,yes,yes,yes
@@ -88,7 +88,7 @@ Redbooth,No,yes,No
 Redmine,No,yes,No
 Rillsoft Project  ; Integration Server,Yes,Yes,No
 SAP Business ByDesign,yes,yes,yes
-Sciforma,yes," yes",No
+Sciforma,yes,yes,No
 Scoro,yes,yes,yes
 Severa,No,yes,No
 Smartsheet,No,No,No
@@ -108,13 +108,13 @@ Traction TeamPage,No,Yes,No
 Trello,No,No,No
 Triskell,yes,yes,yes
 Tuleap,no,no,no
-Twproject," yes",yes,No
+Twproject,yes,yes,No
 UniPhi,yes,yes,yes
 VPMi,yes,yes,No
-web2project,No," No",No
+web2project,No,No,No
 Workamajig,yes,yes,No
 Workfront,yes,yes,No
 WorkPLAN Enterprise,No,yes,No
 workspace.com,No,yes,No
 Wrike,No,Yes,No
-Zoho Projects," Yes"," yes"," yes "
+Zoho Projects,Yes,yes,yes

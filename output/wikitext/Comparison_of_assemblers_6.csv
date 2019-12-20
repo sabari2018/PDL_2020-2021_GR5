@@ -3,16 +3,16 @@ A86/A386," Windows, DOS",no,proprietary,No
 ACK," Linux, MINIX, Unix-like",yes,BSD since 2003,1985-? ACK
 IBM ALP,OS/2,no,proprietary,No
 AT ;T,Unix System V,no,proprietary,1985-?ATT
-Digital Research ASM86," ISIS and iRMX",no,proprietary,1978-1992
+Digital Research ASM86,ISIS and iRMX,no,proprietary,1978-1992
 FASM," Windows, DOS, Linux, Unix-like",yes,BSD with added Copyleft,yes
 GAS," Windows, DOS, OS/2",yes,GPL-lic,Since 1987
 HLA," Windows, Linux, FreeBSD, macOS",yes,Public domain,yes
-"! Open Watcom Assembler (HJWASM a.k.a. UASM, JWASM, WASM)"," Windows, DOS, FreeBSD, OS/2"," approved by OSI, but not by FSF",Sybase Open Watcom Public,yes
+" Open Watcom Assembler (HJWASM a.k.a. UASM, JWASM, WASM)"," Windows, DOS, FreeBSD, OS/2"," approved by OSI, but not by FSF",Sybase Open Watcom Public,yes
 MASM," Windows, DOS, OS/2",no,Microsoft EULA,Since 1981MASM
 NASM," Windows, DOS, OS/2",yes,BSD,yes
 Tim Patersons ASM," 86-DOS, DOS DEBUG",no,proprietary,[http://www.patersontech.com/dos/manuals.aspx 1979-1983]
 TASM," Windows, DOS",no,proprietary,TASM1TASM2
-TCCASM," Windows",yes,LGPL,yes
+TCCASM,Windows,yes,LGPL,yes
 vasm,various,yes,free,yes
 Xenix,Xenix 2.3 and 3.0 (before 1985),no,proprietary,1982-1984
 Yasm," Windows, DOS, Linux, Unix-like",yes,BSD,YASM

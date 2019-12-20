@@ -1,4 +1,4 @@
-",Language,Latest stable version,Academic/noncommercialuse is free,Can be used inproprietary apps,License,Notes
+Name,Language,Latest stable version,Academic/noncommercialuse is free,Can be used inproprietary apps,License,Notes
 ALGLIB," C++, C#, FreePascal, VBA",3.8.0 / August 2013,yes,yes," Dual (Commercial, GPL)"," General purpose library, includes optimization package."
 AMPL," C, C++, C#, Python, Java, Matlab, R",October 2018,yes,yes," Dual (Commercial, academic)"," A popular algebraic modeling language for linear, mixed-integer and nonlinear optimization. Student and AMPL for courses versions are available for free."
 APMonitor," Fortran, C++, Python, Matlab, Julia",0.6.2 / March 2016,yes,yes," Dual (Commercial, academic)"," A differential and algebraic modeling language for mixed-integer and nonlinear optimization. Freely available interfaces for Matlab, Python, and Julia."

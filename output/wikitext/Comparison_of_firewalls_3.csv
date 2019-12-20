@@ -8,5 +8,5 @@ Windows 7 /Windows 2008 R2Firewall,yes,yes,yes,yes,no,no,yes,yes,yes
 WinGate,yes,yes,yes,yes,yes,no,no,no,yes
 Zeroshell,yes,yes,yes,yes,yes,yes,yes,yes,yes
 Zorp,yes,yes,yes,yes,yes,yes,no,no,no
-pfSense,yes,yes,yes,yes,yes,"no","no",yes,yes
+pfSense,yes,yes,yes,yes,yes,no,no,yes,yes
 IPFire,yes,yes,yes,yes,yes,yes,yes,yes,yes

@@ -11,7 +11,7 @@ item.fmt(formatstring),Raku,C
 printf -v outputstring formatstring items,Bash shell,C
 formatstring % (items),"Python, Ruby",C
 formatstring.format(items),Python,.NET
-Printf.sprintf formatstring items," F#",C
+Printf.sprintf formatstring items,F#,C
 Text.Printf.printf formatstring items,Haskell (GHC),C
 formatstring printf: items,Smalltalk,C
 " String.format(formatstring, items)",Java,C

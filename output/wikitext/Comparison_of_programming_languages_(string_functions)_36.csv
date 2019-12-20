@@ -8,7 +8,7 @@ string.Substring(string.Length()-n),C#
 string[len(string)-n:],Go
 string.substring(string.length()-n),Java
 string.slice(-n),JavaScript
-" right(string,n «,padchar»)","Erlang"
+" right(string,n «,padchar»)",Erlang
 " substr(string,-n)","Perl 5, PHP"
 " substr(string,*-n)  string.substr(*-n)",Raku
 string[-n:],"Cobra, Python"
@@ -16,9 +16,9 @@ string[n],Pick Basic
 (string-take-right string n),Scheme (SRFI 13)
 string[-n..-1],"Ruby, Ya"
 string[$-n .. $],D
-String.sub string (String.length string - n) n,"OCaml"
+String.sub string (String.length string - n) n,OCaml
 " string.sub(string, -n)  (string):sub(-n)",Lua
 string last: n,"Smalltalk (Squeak, Pharo)"
-" StringTake[string, -n]","Mathematica"
+" StringTake[string, -n]",Mathematica
 string (1:n),COBOL
 ¯n↑string.,APL

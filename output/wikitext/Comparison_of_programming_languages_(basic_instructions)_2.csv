@@ -1,13 +1,13 @@
 Single precision,Double precision,Other precision,Processor dependent
-" Ada",Float,Long_Float,n/a
+Ada,Float,Long_Float,n/a
 ALGOL 68,reala68[a],long reala68[a]," short real, long long real, etc.a68g[d]"
 C,floatlax floats[b],double,long doubleC-long-double[f]
 C++ (STL),,,
-Objective-C (Cocoa),,,,CGFloat
-C#,float,,n/a
+Objective-C (Cocoa),,,,<code>CGFloat</code>
+C#,float,,{{n/a}}
 Java,,,
-Go,float32,,,float64
-Rust,f32,,,f64
+Go,float32,,,<code>float64</code>
+Rust,f32,,,<code>f64</code>
 Swift,FloatFloat32,DoubleFloat64,Float80Swift-long-double[g],CGFloat
 D,float,double,,real
 Common Lisp,single-float,double-float," float, short-float, long-float"
@@ -18,7 +18,7 @@ Visual Basic,Single,Double,n/a
 Visual Basic .NET,,,
 Xojo,,,
 Python,n/a,float,
-JavaScript,,Number,n/a
+JavaScript,,Number,{{n/a}}
 S-Lang,,,
 Fortran,REAL(KIND = n)real inds[c],,
 PHP,,float,
@@ -31,7 +31,7 @@ Smalltalk,Float,Double,
 Windows PowerShell,,
 OCaml,n/a,float,n/a
 F#,float32,,
-Standard ML,n/a,,,real
+Standard ML,n/a,,,<code>real</code>
 Haskell (GHC),Float,Double,
 Eiffel,REAL_32,REAL_64,
 COBOL,FLOAT-BINARY-7Cobol_ieee[e],FLOAT-BINARY-34Cobol_ieee[e]," FLOAT-SHORT, FLOAT-LONG, FLOAT-EXTENDED"

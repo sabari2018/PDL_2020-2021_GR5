@@ -1,4 +1,4 @@
-" width="10%" Feature"," width="10%" Android"," width="10%" iOS"," width="10%" Windows 10 Mobile"," width="10%" BlackBerry 10"," width="10%" Tizen"," width="10%" Sailfish OS"," width="10%" Ubuntu Touch"
+" width=""10%"" Feature"," width=""10%"" Android"," width=""10%"" iOS"," width=""10%"" Windows 10 Mobile"," width=""10%"" BlackBerry 10"," width=""10%"" Tizen"," width=""10%"" Sailfish OS"," width=""10%"" Ubuntu Touch"
 System wide base text size,Yes,Yes,Yes,Yes,?,2.1.0+: Set text size,?
 Monaural output,Yes,Yes,No,No,No,No,No
 Always visible scrollbar,No,No,No,No,No,No,No

@@ -32,6 +32,6 @@ rcirc,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
 Smuxi,dunno,dunno,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,yes,dunno,yes,dunno,dunno,dunno,dunno,dunno
 Snak,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no
 Visual IRC,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no
-WeeChat,dunno,dunno," WeeChat tested on FreeBSD 4.11, 5.4, 6.0; NetBSD 2.0, 2.1; OpenBSD 3.6, 3.7, 3.8; Solaris 5.10; QNX 6.3name=Unix_operating_system_support_WeeChat_Agroup=Note",dunno,dunno,dunno,dunno,yes," In developmentname=Unix_operating_system_support_WeeChat_Bgroup=Note",dunno,yes,dunno,yes,dunno,dunno,dunno,yes,dunno
+WeeChat,dunno,dunno," WeeChat tested on FreeBSD 4.11, 5.4, 6.0; NetBSD 2.0, 2.1; OpenBSD 3.6, 3.7, 3.8; Solaris 5.10; QNX 6.3name=Unix_operating_system_support_WeeChat_Agroup=Note",dunno,dunno,dunno,dunno,yes,In developmentname=Unix_operating_system_support_WeeChat_Bgroup=Note,dunno,yes,dunno,yes,dunno,dunno,dunno,yes,dunno
 XChat,dunno,dunno,yes,yes,dunno,yes,dunno,XChat tested on HP-UX 10.20 and 11name=Unix_operating_system_support_XChat_Agroup=Note,yes,dunno,yes,dunno,yes,dunno,dunno,dunno,dunno,yes
 Client,386BSD," BSD/OS (BSD/386, BSDI)"," FreeBSD, NetBSD, OpenBSD",SunOS,ULTRIX,AIX,A/UX,HP-UX,IRIX,SCO OpenServer,Solaris,UnixWare,Linux,NeXTSTEP,OpenVMS,OSF/1,QNX,Tru64 UNIX

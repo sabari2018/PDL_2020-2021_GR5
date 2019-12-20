@@ -2,9 +2,9 @@ Name,IP SLA Reports,Logical Grouping,Trending,Trend Prediction,Auto Discovery,Ag
 Argus - The all seeing,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No," Viewing, Acknowledging, Reporting",Yes,Unknown,Perl," Flat file, Berkeley DB",Artistic License,No,Yes,Yes,2013-02,3.7
 Avaya VPFM,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes,Unknown,MySQL,Commercial,Yes,Yes,Yes
 Cacti,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes,PHP," RRDtool, MySQL",GPL-lic,Via plugin,Yes,Yes,2019-06-07,1.2.4
-"! Check MK",Via plugin,Yes,Yes,Yes,Via plugin,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes," C, Python",RRDtool,GPL-lic,Via plugin,Yes,Yes,2019-11-11,1.6.0p6
+Check MK,Via plugin,Yes,Yes,Yes,Via plugin,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes," C, Python",RRDtool,GPL-lic,Via plugin,Yes,Yes,2019-11-11,1.6.0p6
 collectd,No,No,No,No,Push model;multicast possible,Yes,Yes,Yes,Yes,Yes,No,Viewing,Yes,No,C,RRDtool,GPLv2,No,Apache ACL,Yes,2019-11-13,5.10
-Cruz,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes," Java, C++, .NET"," Oracle",Commercial,Yes,Yes,Yes,2019-02,8.0.0
+Cruz,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes," Java, C++, .NET",Oracle,Commercial,Yes,Yes,Yes,2019-02,8.0.0
 Entuity,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes," C, Java",MariaDB,Commercial,Yes,Yes,Yes,2017-12-22,16.5 P3
 FreeNATS,Yes,Yes,No,No,Yes,No,No,Via plugin,Yes,In PHP Code,No,Full Control,No,No,PHP,MySQL,GPL-lic,No,Yes,Unknown,2011-07-09,1.13.3b
 Ganglia,No,Yes,Yes,No,Yes2Via gmond check in,No,Via plugin,No,Yes,No,No,Viewing,Yes,Unknown," C, PHP",RRDtool,BSD-lic,Yes,No,Unknown,2016-06-14,3.7.2
@@ -21,7 +21,7 @@ Netdisco,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Perl,PostgreSQL,BSD-
 NetXMS,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Yes,Unknown,Unknown,Unknown,Yes,Unknown,Unknown,Unknown," C, Java"," Oracle, MySQL, MongoDB, PostgreSQL, IBM DB2, Tuxedo",GPL-lic,Yes,Yes,Unknown,2019-09-11,3.0
 NeuralStar,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes,Unknown,MS SQL,Commercial,Yes,Yes,Yes
 CA UIM fka Nimsoft Monitor,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No," Viewing, Acknowledging, Reporting",Yes,Yes,Unknown," Oracle, MySQL"," Limited free, Commercial",Yes,Yes,Yes,2013-06-30,1.8.6
-Octopussy,No,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,No,Full control,No,Yes," ASP",MySQL,GPL-lic,No,Yes,No,2017-06-03,1.0.16
+Octopussy,No,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,No,Full control,No,Yes,ASP,MySQL,GPL-lic,No,Yes,No,2017-06-03,1.0.16
 op5 Monitor,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Via plugin," C, PHP"," Flat file, SQL"," Limited free, Commercial",Yes,Yes,Yes,Monthly,7.3.0
 OpenKBM,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Unknown,Proprietary with JDBC support,Commercial,Yes,Yes,Yes
 OpenNMS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Full Control,Yes,Yes,Java," JRobin / RRDTool / Apache Cassandra, PostgreSQL ",AGPLv3,Yes,Yes,Yes,2019-09-26,25.0.0
@@ -31,7 +31,7 @@ Opsview,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,No," C, ExtJS
 OSI NetExpert,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes," Java, C++",Oracle,Commercial,Yes,Yes,Yes,2013-04,10.0
 PA Server Monitor,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No," Viewing, Reporting",Yes,Yes,C++," SQLite, Microsoft SQL Server",Commercial,Yes,Yes,No,2014-07,5.5
 PacketTrap,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No," Viewing, Reporting",Yes,Yes,Unknown,SQL,Commercial,Yes,Yes,Yes
-Pandora FMS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes," Perl, PHP, C++, JavaScript"," Oracle "," GPLv2, Commercial",Yes,Yes,Yes,2017-07,7.0 NG 707
+Pandora FMS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes," Perl, PHP, C++, JavaScript",Oracle," GPLv2, Commercial",Yes,Yes,Yes,2017-07,7.0 NG 707
 PathSolutions TotalView,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Windows,SQLite,Commercial,Yes,Yes,No,2018-06-01,9.01
 Performance Co-Pilot,No,Yes,Yes,No,Yes," Optional, Limited",Yes,Yes,Yes,Yes,No,Viewing,Yes,Yes," C Python, POSIX, MinGW",Flat file," GPL, LGPL",No,Yes,Yes,2016-11-15,3.11.6
 PRTG,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Windows,Flat file," Limited free, Commercial",Yes,Yes,Yes,2019-05-15,19.2.50

@@ -28,8 +28,8 @@ openSUSE,Discontinued42.1,yes,no,no,no,partial,no,no,no,no,no,no,no,no
 OpenWrt,yes,yes,no,yes,no,no,no,yes,no,no,yes,yes,no,no,no,no
 Oracle Linux,yes,yes,Discontinued5,no,no,no,no,no,no,no,no,no,no,no,no,no
 Parabola GNU/Linux-libre,yes,yes,no,no,Test release,no,no,"Yes, ARMv7",no,Discontinued,Discontinued
-Red Flag Linux,Discontinued8.0,Discontinued8.0,no,"Discontinued3",no,no,no,no,no,no,no,no,no,no,no
-Red Hat Linux,Discontinued9.0,no,Discontinued7.1-7.2,Test release5.1,no,Discontinued4.0-4.25.1-6.2,"Test release5.1",no,no,no,"Test release5.1",no,Discontinued7.2,yes,Discontinued2.1-7.1,"Test release5.1"
+Red Flag Linux,Discontinued8.0,Discontinued8.0,no,Discontinued3,no,no,no,no,no,no,no,no,no,no,no
+Red Hat Linux,Discontinued9.0,no,Discontinued7.1-7.2,Test release5.1,no,Discontinued4.0-4.25.1-6.2,Test release5.1,no,no,no,Test release5.1,no,Discontinued7.2,yes,Discontinued2.1-7.1,Test release5.1
 Red Hat Enterprise Linux,Discontinued2.1-6,yes3+,Discontinued2.1-5,yes3+,yes3+,no,no,no,no,no,no,no,Discontinued3-4,yes3+,no,no
 Sabayon Linux,Discontinued,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no
 Scientific Linux,yes,yes,Discontinued3-4,no,no,no,no,no,no,no,no,no,no,no,no,no

@@ -1,4 +1,4 @@
-Product,Creator,",Latest stable release,License,Runs on Windows,Runs on Mac OS X,Runs on Linux,Oracle,MySQL,PostgreSQL,MS SQL Server,ODBC,JDBC,SQLite,Other,Programming language
+Product,Creator,Latest stable release date,Latest stable release,License,Runs on Windows,Runs on Mac OS X,Runs on Linux,Oracle,MySQL,PostgreSQL,MS SQL Server,ODBC,JDBC,SQLite,Other,Programming language
 Adminer,Jakub Vrána,releasedate,Adminer version,Apache License or GPL,yes,yes,yes,yes,yes,yes,yes,,,yes,,PHP
 DaDaBIK,Eugenio Tacchini,releasedate,DaDaBIK version,Proprietary,yes,yes,yes,yes,yes,yes,yes,no,no,yes,,PHP
 Database Deployment Manager,The Unauthorized Frog project,2012-05-29,v0.1i,LGPL,yes,no,yes,,yes,,,,,,,Qt/C++
@@ -6,7 +6,7 @@ DatabaseSpy,Altova,releasedate,DatabaseSpy version,Proprietary,yes,no,no,yes,yes
 Database Workbench,Upscene Productions,2017-06-29,5.3.2,Proprietary,yes,requires Wine,requires Wine,yes,yes,,yes,yes,,,"Firebird, SQL Anywhere, NexusDB and MariaDB",Delphi
 DataGrip,JetBrains,2017-09-06,2017.2.2,Proprietary,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,"DB2, H2, Hypersonic SQL, Amazon Redshift, Apache Derby",Java
 DBeaver,Serge Rider,2019-03-10,6.0,Apache License,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,"Oracle, SQL Server, Firebird all with JDBC driver",Java
-DBEdit,Jef Van Den Ouweland,2012-05-10,2.4.6,GPL,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,"H2",Java
+DBEdit,Jef Van Den Ouweland,2012-05-10,2.4.6,GPL,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,H2,Java
 Epictetus,Antilogic Software,dunno,dunno,Proprietary,yes,yes,yes,yes,,yes,yes,,,,"Firebird, H2, HSQLDB",Java
 HeidiSQL,Ansgar Becker,releasedate,HeidiSQL version,GPL,yes,requires Wine,requires Wine,,yes,yes,yes,,,,,Embarcadero Delphi
 Maatkit,Baron Schwartz,2010-06-01,5247,GPL,yes,yes,yes,,yes,,,,,,,Perl
@@ -25,6 +25,6 @@ phpMyAdmin,phpMyAdmin Development Team,releasedate,phpMyAdmin version,GPL,yes,ye
 SQL Database Studio,Jan Prochazka,2016-05-27,3.4.1,Proprietary,yes,no,no,no,no,no,yes,,,,,".NET, WPF, C#"
 SQLyog,Webyog Softworks Pvt. Ltd.,releasedate,SQLyog version,GPLv2,yes,requires Wine,requires Wine,,yes,,,,,,,C++
 SQuirreL SQL," Colin Bell, Gerd Wagner, Rob Manning and others",releasedate,SQuirreL SQL Client version,GPLv2  ; LGPLv2,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,"Access,Axion Java RDBMS, Fujitsu Siemens SESAM/SQL, Firebird, Ingres, OpenIngres, InstantDB, InterBase, Mckoi SQL Database, Microsoft SQL Server, Mimer SQL, Netezza, Pointbase, SAPDB, Sybase, Sunopsis XML Driver, Teradata Warehouse, ThinkSQL RDBMS, Vertica Analytic Database, and others with JDBC drivers.",Java
-Toad,Quest Software,Various,Various,Proprietary,yes,no,no,yes,yes,,yes,yes,,,"DB2, Sybase","C#.NET"
+Toad,Quest Software,Various,Various,Proprietary,yes,no,no,yes,yes,,yes,yes,,,"DB2, Sybase",C#.NET
 Toad Data Modeler,Quest Software,2009-03-05,3.3.8,Proprietary,yes,no,no,yes,yes,yes,yes,,,,"DB2, MS Access, Sybase",Embarcadero Delphi
 TOra,Community,2017-07-04,3.2,GPL,yes,yes,yes,yes,yes,yes,,,,,Teradata,Qt

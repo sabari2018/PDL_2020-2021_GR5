@@ -1,5 +1,5 @@
-Client",Label messages",,,,Reformat received messages",,Bi-directional text support",Composing messages",,,Native images preview",,,,,Postpone / scheduled message sending",Native documents preview",,,,,,
-,with colors,with flag,antidelete,add note," edit headers (e.g., Subject)",forced recode group=Noterecode,,Spell checking,Signatures,Bottom-posts replies,jpeg,gif,bmp,png,others,,txt,pdf,doc,xls,odt,ods,others
+Client,Label messages,,,,Reformat received messages,,Bi-directional text support,| Composing messages,,,| Native images preview,,,,,| Postpone / scheduled message sending,| Native documents preview,,,,,,
+,with colors,with flag,antidelete,add note," edit headers (e.g., Subject)",forced recode group=Noterecode,,Spell checking,Signatures,Bottom-posts replies,jpeg,gif,bmp,png,others,,txt,pdf,doc,xls,[[OpenDocument|odt]],[[OpenDocument|ods]],others
 Alpine,yes,yes,dunno,dunno,dunno,dunno,dunno,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno
 Becky! Internet Mail,yes,yes,dunno,yes,yes,yes,dunno,yes,yes,yes,yes,yes,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Citadel,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
@@ -45,5 +45,5 @@ Windows Live Mail,no,yes,no,no,dunno,dunno,dunno,yes,yes,dunno,yes,yes,yes,yes,d
 Windows Mail,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 YAM,no,no,no,no,no,no,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
 Zimbra,yes,yes,yes,yes,dunno,dunno,dunno,yes,yes,dunno,yes,yes,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
-Client",Label messages",,,,Reformat received messages",,Bi-directional text support",Composing messages",,,Native images preview",,,,,Postpone/?scheduled message sending",Native documents preview",,,,,,
-,with colors,with flag,antidelete,add note," edit headers (e.g., Subject)",forced recode group=Noterecode,,Spell checking,Signatures,Bottom-posts replies,jpeg,gif,bmp,png,others,,txt,pdf,doc,xls,odt,ods,others
+Client,Label messages,,,,Reformat received messages,,Bi-directional text support,| Composing messages,,,| Native images preview,,,,,| Postpone/?scheduled message sending,| Native documents preview,,,,,,
+,with colors,with flag,antidelete,add note," edit headers (e.g., Subject)",forced recode group=Noterecode,,Spell checking,Signatures,Bottom-posts replies,jpeg,gif,bmp,png,others,,txt,pdf,doc,xls,[[OpenDocument|odt]],[[OpenDocument|ods]],others

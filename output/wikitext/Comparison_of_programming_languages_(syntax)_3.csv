@@ -14,8 +14,8 @@ comment ~ ;," ALGOL 60, SIMULA "
 (* ~ *)," Pascal, Newspeak, F# "
 { ~ }," Delphi, Object Pascal, Pascal, Red"
 # ~ #,Curl
-%{ ~ %}," MATLAB (the symbols must be in a separate line)"
+%{ ~ %},MATLAB (the symbols must be in a separate line)
 # ~ #," Lisp, Scheme, Racket (can be nested in all three)."
 " -- ~ ,--[=[ ~ ]=],--[=...=[ ~ ]=...=]",Lua (brackets can have any number of matching = characters; can be nested within non-matching delimiters)
-" " ~ "",Smalltalk
+" "" ~ """,Smalltalk
 (comment ~ ),Clojure

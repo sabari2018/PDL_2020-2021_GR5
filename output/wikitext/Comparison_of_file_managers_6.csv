@@ -1,14 +1,14 @@
-",Symbolic links,Browse compressed folders,Slideshows,Shows combined Size of Selected Directories,Branch Sizes,Directory Compare,Synchronizer,Find as you type (Type-ahead find),Embedded/Integrated Terminal," For Directories, size column shows:"
+File manager,Symbolic links,Browse compressed folders,Slideshows,Shows combined Size of Selected Directories,Branch Sizes,Directory Compare,Synchronizer,Find as you type (Type-ahead find),Embedded/Integrated Terminal," For Directories, size column shows:"
 Altap Salamander,dunno,yes,no,yes,dunno,yes,partial (for remote folders),yes,yes,DIR
 Commander One,yes,yes,no,yes,dunno,no,no,yes," yes, in the PRO Pack",DIR and Total size including subdirectories
 CRAX Commander,yes,yes,dunno,yes,yes,yes,no,yes,no,DIR and Total size including subdirectories
 Directory Opus,yes,yes,dunno,yes,yes,yes,yes,yes,yes,DIR and Total size including subdirectories
-Dired,dunno,yes,no,no,dunno,dunno,dunno,yes,yes," Literal "
+Dired,dunno,yes,no,no,dunno,dunno,dunno,yes,yes,Literal
 Documents by Readdle,,,,,,,,,,
 DOS Navigator,no,yes,no,yes,dunno,yes,dunno,yes,yes,Total size including subdirectories
 Dolphin,dunno,yes,no,yes,no,no,no,yes,yes,Number of entries
 Double Commander,yes,yes,no,yes,yes,yes,yes,yes,yes,DIR
-emelFM2,dunno,dunno,no,yes,dunno,yes,dunno,yes,yes," Literal "
+emelFM2,dunno,dunno,no,yes,dunno,yes,dunno,yes,yes,Literal
 FAR Manager,yes,yes,partial,yes,yes,dunno
 File Commander,dunno,yes,no,yes,yes,yes,yes,yes,dunno,dunno
 Files (Apple),,,,,,,,,,
@@ -36,4 +36,4 @@ Xfm,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,no,dunno
 xplorer²,dunno,yes,no,yes,yes,yes,yes,yes,yes,dunno
 XYplorer,dunno,yes,yes,yes,yes,yes,partial,yes,yes,Contents including subs
 ZTreeWin,dunno,yes,no,yes,yes,yes,no,yes,dunno,Selectable: Number of entries or Size (Optional: Including subs)
-"!,Symbolic links,Browse compressed folders,Slideshows,Shows combined Size of Selected Directories,Branch Sizes,Directory Compare,Synchronizer,Find as you type (Type-ahead find),Embedded/Integrated Terminal," For Directories, size column shows: "
+File manager,Symbolic links,Browse compressed folders,Slideshows,Shows combined Size of Selected Directories,Branch Sizes,Directory Compare,Synchronizer,Find as you type (Type-ahead find),Embedded/Integrated Terminal," For Directories, size column shows: "
