@@ -1,0 +1,36 @@
+Audio player,Microsoft Windows,OS X,Linux,IOS,Android (operating system),BSD Unix,Solaris (operating system),Unix-like,DOS
+AIMP,Yes,No,via Wine (software),No,Yes,No,No,No,No
+Amarok (software),Yes,beta,Yes,No,No,Yes,Yes,Yes,No
+ATunes,Yes,Yes,Yes,No,No,Yes,Yes,No,No
+Audacious (software),Yes,No,Yes,No,No,Yes,Yes,Yes,No
+Audion (software),No,Yes,No,No,No,No,No,No,No
+Banshee (media player),alpha,beta,Yes,No,No,Yes,No,No,No
+Cmus,No,Yes,Yes,No,No,Yes,Yes,Yes,No
+Cog (software),No,Yes,No,No,No,No,No,No,No
+Clementine (software),Yes,Yes,Yes,No,remote controller only,Yes,Yes,Yes,No
+Ecoute,No,Yes,No,Yes,No,No,No,No,No
+Exaile,Yes,No,Yes,No,No,Yes,No,No,No
+Foobar2000,Yes,beta[osnotes 1],via Wine (software)Wine (software),Yes,Yes,No,No,No,No
+Guayadeque Music Player,No,Yes,Yes,Yes,No,No,No,No,No
+Groove Music,Yes,No,No,No,No,No,No,No,No
+ITunes,Yes,Yes,No,Yes,No,No,No,No,No
+JRiver Media Center,Yes,Yes,Yes,remote controller only,Yes,No,No,No,No
+MediaMonkey,Yes,No,No,No,Yes,No,No,No,No
+MPXPLAY,Yes,No,No,No,No,No,No,No,Yes
+Music Player Daemon,cygwin,Yes,Yes,No,No,Yes,Yes,Yes,No
+MusicBee,Yes,No,Partial[15],No,No,No,No,No,No
+Musicmatch Jukebox,Yes,No,No,No,No,No,No,No,No
+MusikCube,Yes,No,No,No,No,No,No,No,No
+Quod Libet (software),Yes,Yes,Yes,No,No,Yes,Yes,Yes,No
+Rdio,Yes,Yes,No,Yes,Yes,No,No,No,No
+Rhapsody (online music service),Yes,No,Yes,Yes,Yes,No,No,No,No
+Rhythmbox,No,No,Yes,No,No,Yes,Yes,Yes,No
+Songbird (software),Yes,Yes,No,No,Yes,No,No,No,No
+Sonique (media player),Yes,No,No,No,No,No,No,No,No
+Spotify,Yes,Yes,Yes,Yes,Yes,No,No,No,No
+Style Jukebox,Yes,No,No,Yes,Yes,No,No,No,No
+Winamp,Yes,Yes,No,No,Yes,No,No,No,No
+XMMS,No,Yes,Yes,No,No,Yes,Yes,Yes,No
+Xmplay,Yes,No,No,No,No,No,No,No,No
+Zinf,Yes,No,Yes,No,No,Yes,Yes,Yes,No
+Audio player,Windows,OS X,Linux,iOS,Android,BSD Unix,Solaris,Other Unix,DOS

@@ -1,0 +1,38 @@
+Client (computing),Client-to-client protocol,Direct Client-to-Client,IPv6,Secure Sockets Layer,Transport Layer Security,DNS-based Authentication of Named Entities,Online Certificate Status Protocol,Certificate revocation list,Simple Authentication and Security Layer,Off-the-Record Messaging
+Bersirc,?,Partial,No,No,?,?,?,?,?,No
+BitchX,Yes,Yes,Yes,Yes,Yes,?,?,?,?,No
+ChatZilla,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,script,No
+Colloquy (IRC client),Yes,Yes,Yes,Yes,?,?,?,?,Yes,No[54]
+degesch,Yes,Yes,Yes,No,Yes,?,?,?,?,No
+DMDirc,Yes,Yes,Yes,Yes,?,?,?,?,?,No
+ERC (software),Yes,Yes,Yes,Yes,Yes,?,?,?,Yes[Note 1],No
+HexChat,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes[Note 2]
+HydraIRC,Yes,Yes,?,No,No,?,No,No,?,No
+IceChat,Yes,Yes,Yes,Yes,?,?,?,?,Yes,No
+IRCCloud,Yes,No,Yes,Yes,Yes,No,No,No,Yes,No
+IrcII,Yes,Yes,Yes,Yes,?,?,?,?,?,No
+IRCjr,Yes,No,No,No,No,?,No,No,No,No
+Ircle,Yes,Yes,?,Yes,?,?,?,?,?,No
+Irssi,Yes,Yes,Yes,Yes,Yes,Yes,No,?,Yes,Yes[55][56][Note 2]
+jIRCii,Yes,Yes,Yes,Yes,?,?,?,?,?,No
+KiwiIRC,Yes,No,Yes,Yes,Yes,?,No,No,Yes,No
+Konversation,Yes,Yes,Yes,Yes,Yes,?,?,?,Yes,No
+KVIrc,Yes,Yes,Yes,Yes,Yes,?,No,No,Yes,No
+LimeChat,?,Yes,Yes,Yes,?,?,?,?,Yes,No
+Linkinus,Yes,Yes,No,Yes,?,?,?,?,No,No
+Mibbit,?,Partial[Note 3][Note 4],No,Yes,?,?,?,?,Yes,No
+MIRC,Yes,Yes,Yes,Yes,Yes,?,?,?,Yes,No
+Nettalk (IRC client),Yes,Yes,No,No,?,?,?,?,?,No
+Opera (web browser),Yes[57],Yes,Yes,Yes,Yes,?,?,?,?,No
+PIRCH (IRC client),Yes,Yes,No,No,?,?,?,?,?,No
+PJIRC,?,Yes,No,No,?,?,?,?,?,No
+Quassel IRC,Yes,No,Yes,Yes,Yes,?,No,No,Yes,No[58]
+Qwebirc,Yes,No,No,Yes,No,?,No,No,No,No
+Rcirc,Partial,No,No,Yes,Yes,?,?,?,?,No
+Scrollback,Partial,No,Yes,Yes,?,?,?,?,No,No
+Smuxi,Yes,No,Yes,Yes,?,?,?,?,No,No[59]
+Snak,Yes,Yes,Yes,Yes,?,?,?,?,?,No
+Visual IRC,Yes,Yes,No,No,?,?,?,?,?,No
+WeeChat,Yes,Yes,Yes,Yes,Yes,?,?,?,Yes,Yes[55][60][Note 2]
+XChat,Yes,Yes,Partial[Note 4],Yes,?,No,?,?,script,Yes[55][56][Note 2]
+Client,CTCP,DCC,IPv6,SSL,TLS,DANE,OCSP,CRL,SASL,OTR

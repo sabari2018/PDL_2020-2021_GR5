@@ -1,0 +1,26 @@
+Example usage,Languages
+String .Trim([ chars ])," C Sharp (programming language), C Sharp (programming language), C Sharp (programming language) "
+string .strip();,D (programming language)
+(.trim  string ),Clojure
+sequence  [ predicate? ] trim,Factor (programming language)
+(string-trim '(#\Space #\Tab #\Newline)  string ),Common Lisp
+(string-trim  string ),Scheme (programming language)
+string .trim()," Java (programming language), Java (programming language) (1.8.1+, Firefox 3.5+) "
+Trim( String )," Pascal (programming language),Pascal (programming language) Pascal (programming language), Pascal (programming language), Pascal (programming language) "
+string .strip(),Python (programming language)
+" strings.Trim( string ,  chars ) ",Go (programming language)
+LTRIM(RTRIM( String ))," Oracle Corporation Oracle Corporation, Oracle Corporation "
+" strip( string  [, option ,  char ]) ",REXX (programming language)
+" string:strip( string  [, option ,  char ]) ",Erlang (programming language)
+string .strip or  string .lstrip or  string .rstrip,Ruby (programming language)
+string  =~ s/^\s+//r =~ s/\s+$//r,Perl 5
+string .trim,Raku (programming language)
+trim( string )," PHP, PHP "
+[ string  stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]],Objective-C using Objective-C
+string  withBlanksTrimmed  string  withoutSpaces  string  withoutSeparators," Smalltalk (Squeak, Pharo) Smalltalk "
+strip(string),SAS System
+string trim  $string,Tcl
+TRIM( string ) or TRIM(ADJUSTL( string )),Fortran
+TRIM( string ),SQL
+TRIM( string ) or LTrim( string ) or RTrim( String ),ColdFusion
+String.trim  string,OCaml 4+

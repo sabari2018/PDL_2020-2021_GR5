@@ -1,0 +1,6 @@
+Model,Code name,Fab (Nanometer),Computer bus Computer bus,Core clock (Hertz),Shader clock (Hertz),Memory clock (Hertz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS)GFLOPSGFLOPS,,Supported Application programming interface version,,,,,Thermal design power (Watts),Notes
+,,,,,,,,Pixel (Pixel/s),Texture (Texel (graphics)/s),Size (Gigabyte),Bandwidth (Gigabyte/s),Bus type,Bus width (Bit),Single precision floating-point format,Double precision floating-point format,Direct3D,OpenGL,Vulkan (API),OpenCL,CUDA,,
+Quadro M2000,GM206,28,PCIe 3.0 ×16,1180,1180,1653 (6612),768:48:32:6,37.8,56.6,4,105.8,GDDR5,128,1812.5,56.6,12.1,4.6,1.1,1.2,5.2,75,Four DisplayPort 1.2a
+Quadro M4000,GM204,,,800,800,1503 (6012),1664:104:56:13,51.2,83.2,8,192.4,,256,2662.4,83.2,,,,,,120,
+Quadro M5000,,,,1050,1050,1653 (6612),2048:128:64:16,67.2,134.4,,211.6,,,4300.8,134.4,,,,,,150," Four DisplayPort 1.2a, One DVI-I "
+Quadro M6000,GM200,,,988,988,1653 (6612),3072:192:96:24,94.8,189.7,12 24,317,384,6070,190,250[170],,,,,

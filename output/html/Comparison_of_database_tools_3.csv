@@ -1,0 +1,24 @@
+,user manager,Plug-in (computing),Compare,Import,Export,Debugger,Source control,Spatial Visualization
+Adminer,Yes,Yes,Yes," SQL script, CSV, Tab Separated Values (as a plugin); imports of server-site file in SQL or SQL in zip, Tab Separated Values or Tab Separated Values "," SQL script, CSV, Tab Separated Values, Tab Separated Values, Tab Separated Values; XML (as a plugin) ",No,Git (software)
+DatabaseSpy,No,No,Yes," CSV, XML "," XML, XML Structure, CSV, HTML, MS Excel ",No,?
+DaDaBIK,Some[15],No,No,No,Comma-separated values,Yes,No
+Database Workbench,Yes,No,Yes,Yes,Yes,Yes,?
+DataGrip,No,Yes,Yes,Yes," Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file ",No,Yes
+DBeaver,Yes,Yes,Yes,Yes,Yes,No,With Eclipse (software) plugins
+DBEdit,No,No,No,No," MS Excel, MS Excel, Text, SQL script ",No,?
+Epictetus Database Client,No,Yes,No,No,Excel,No,?
+ModelRight,Some,Yes,Yes," Yes - from supported databases using native interfaces, or from any ODBC source "," SQL; SQL; SQL; Diagram as BMP, SQL ",No,?
+Navicat,Yes,No,Yes," Yes - Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, or from any ODBC source (See link for limitationsText file) "," Yes - Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file (See link for limitationsText file) ",Yes,No
+Navicat,No,No,Yes,Yes - Import Database from server/ODBC,Yes - Export SQL,No,No
+MySQL Workbench,Yes,Yes,Yes," Yes - Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, SQL INSERTS, Tab-separated, Comma-separated values "," Yes - Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, SQL INSERTS, Tab-separated, Comma-separated values ",Yes,No
+Oracle SQL Developer,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Orbada,No,Yes,Yes,SQL script," SQL script, CSV, XML, HTML, PDF, Excel, DBF, DataText ",No,No,
+PgAdmin III,Yes,Yes,No," Comma-separated values, Comma-separated values, or binary "," Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values ",Yes,No
+PhpMyAdmin,Yes,Some,Yes," Yes - Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values "," Yes - Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values ",Yes,Git (software)
+SQL Database Studio,Yes,Yes,No," Comma-separated values, Comma-separated values, Comma-separated values "," Comma-separated values, Comma-separated values, Comma-separated values, SQL INSERTS, Tab-separated, Comma-separated values ",No,No
+SQLyog,Yes,?,Yes,Yes,Yes,?,?
+SQL Server Management Studio,Yes,Yes,?,Yes,Yes,Yes,Yes[17],Yes
+SQuirreL SQL,?,Yes,Yes,Yes,?,No,?
+Toad (software),Some,No,Yes,Yes,Yes,Yes," Subversion (software), Subversion (software), Subversion (software), Subversion (software) "
+Toad Data Modeler,No,?,Yes," Toad for Oracle ERD, ERWin 7.1(XML) via plugin "," SQL; meta data in XML; report in HTML/RTF/CSV; diagram as BMP, JPEG, PNG ",No,?
+TOra,Some,No,Yes,Yes,Yes,Yes,No

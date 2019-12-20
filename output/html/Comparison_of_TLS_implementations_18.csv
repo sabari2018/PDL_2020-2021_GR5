@@ -1,0 +1,16 @@
+Implementation,Trusted Platform Module support,Hardware token support,Objects identified via
+Botan (programming library),Partial[187],PKCS11,
+Cryptlib,No,PKCS11,User-defined label
+GnuTLS,Yes,PKCS11,RFC7512 PKCS #11 URLs[224]
+Java Secure Socket Extension,No," PKCS11 PKCS11, PKCS11 ",
+LibreSSL,Yes,PKCS11 (via 3rd party module),Custom method
+MatrixSSL,No,PKCS11,
+Mbed TLS,No,PKCS11 (via libpkcs11-helper) or standard hooks,Custom method
+Network Security Services,No,PKCS11,
+OpenSSL,Yes,PKCS11 (via 3rd party module)PKCS11,RFC7512 PKCS #11 URLs[224]
+RSA BSAFE Micro-Edition Suite,No,PKCS11 (via 3rd party module),User-defined label
+RSA BSAFE SSL-J,No,No,
+SChannel,No,Microsoft CryptoAPI," UUID, User-defined label "
+Secure Transport,,,
+WolfSSL,No,No,
+Implementation,TPM support,Hardware token support,Objects identified via

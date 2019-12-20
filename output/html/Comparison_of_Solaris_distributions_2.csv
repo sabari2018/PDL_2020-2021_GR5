@@ -1,0 +1,8 @@
+Distribution,Supported Instruction set architecture,Install-time Desktop environment selection
+BeleniX," X86, X86 "," KDE, KDE "
+Nexenta OS," X86, X86 ",GNOME
+NexentaStor,X86(-64?),?
+OmniOS (page does not exist)," X86, X86 ",none
+OpenIndiana," X86, X86 ",GNOME
+SmartOS,X86-64X86-64,none
+V9os (page does not exist),SPARC,none

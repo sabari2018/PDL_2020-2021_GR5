@@ -1,0 +1,17 @@
+Implementation,PKCS11,AES instruction set,VIA PadLock,ARM architecture,Intel SGX,Intel QAT,Intel SHA extensions
+Botan (programming library),Yes[209],Yes,No,Yes,No,No,
+Cryptlib,Yes,Yes,Yes,No,,No,
+Crypto++,,Yes,,,,No,Yes
+GnuTLS,Yes,Yes,Yes,Yes[210],No,No,
+Java Secure Socket Extension,Yes,Yes[211],No,No,,No,
+LibreSSL,No,Yes,Yes,No,,No,
+MatrixSSL,Yes,Yes,No,Yes,,No,
+Mbed TLS,Yes,Yes[212],Yes,No,,No,
+Network Security Services,Yes[213],Yes[214],No[215],No,,No,
+OpenSSL,Yes[216],Yes,Yes,Yes[217],,No,Yes
+RSA BSAFE Micro Edition Suite,Yes,Yes,No,Yes,No,No,Yes
+RSA BSAFE SSL-J RSA BSAFERSA BSAFE,Yes,Yes,No,Yes,No,No,Yes
+SChannel,No,Yes,No,No,,No,
+Secure Transport,No,Yes[220][221],No,Yes,,No,
+WolfSSL,No,Yes,No,Yes,Yes,Yes[222],
+Implementation,PKCS #11 device,Intel AES-NI,VIA PadLock,ARMv8-A,Intel SGX,Intel QAT,Intel SHA

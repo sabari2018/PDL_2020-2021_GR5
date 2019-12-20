@@ -1,0 +1,20 @@
+Format,Type,3GP and 3G2,Advanced Systems FormatAdvanced Systems Format,Audio Video InterleaveAudio Video Interleave,DivX Media Format,Enhanced VOB,Flash Video,Flash Video,MatroskaMatroska," MPEG program stream, MPEG program streamMPEG program stream ",.m2ts,MPEG-4 Part 14,Material eXchange FormatMaterial eXchange Format,OggOgg,QuickTime File FormatQuickTime File Format,RMVB,VOB,WebMWebM
+VSFilter,Picture,No,No,Needs alterations,No,No,No,No,Mature[C],No,As PGS[D],Yes,No,No,Not standard,No,Yes,No
+Digital Video BroadcastingDigital Video Broadcasting,Picture,No,No,No,No,No,No,No,Mature[E],Yes,No,No,Yes[78],No,No,No,No,No
+Presentation Graphic Stream,Picture,No,No,No,No,HD DVD,No,No,Mature[E],No,Blu-ray,As VSFilterVSFilter,No,No,No,No,As VSFilterVSFilter,No
+XSUB,Picture,No,No,Needs alterations[79][80],Yes,No,No,No,No,No,No,No,No,No,No,No,No,No
+Ogg Kate[81],Picture or Formatted text,No,No,No,No,No,No,No,Software release life cycle,No,No,No,No,Yes,No,No,No,No
+Synchronized Multimedia Integration Language,XML,No,No,No,No,No,No,No,No,No,No,No,No,No,QuickTime SMIL,RealText,No,No
+Universal Subtitle Format,XML,No,No,Needs alterations,No,No,No,No,Planned,No,No,No,No,No,No,No,No,No
+MPEG-4 Part 17MPEG-4 Part 17,XML,Yes,No,No,No,No,No,Yes[31],No[H],No,No,Yes,No,No,Yes[37],No,No,No
+SAMI,HTML,No,Yes,Needs alterations,No,No,No,No,No,No,No,No,As SMPTE-TT,No,No,No,No,No
+SubRipSubRip,Formatted text,As MPEG-4 Part 17MPEG-4 Part 17,As SAMISAMI,Needs alterations[64],No,No,No,As MPEG-4 Part 17MPEG-4 Part 17,Yes[84],No,No,As MPEG-4 Part 17MPEG-4 Part 17,As SMPTE-TT,As Ogg Kate[85],As MPEG-4 Part 17MPEG-4 Part 17,No,No,As WebVTT
+WebVTT,Formatted text,As MPEG-4 Part 17MPEG-4 Part 17,No,No,No,No,Using ActionScriptActionScript,As MPEG-4 Part 17MPEG-4 Part 17,Yes[87],No,No,Yes[88],As SMPTE-TT,No,As MPEG-4 Part 17MPEG-4 Part 17,No,No,Yes
+" Advanced SubStation Alpha, Advanced SubStation Alpha ",Formatted text,No,No,Needs alterations[64],No,No,No,No,Yes[89],No,No,No,As SMPTE-TT,No,No,No,No,No
+TextST[F],Text stream,No,No,No,No,No,No,No,Software release life cycle,No,Yes,No,No,No,No,No,No,No
+SMPTE-TT[72],Text stream,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No
+Ogg Writ[90],Text stream,No,No,No,No,No,No,No,No,No,No,No,No,Software release life cycleSoftware release life cycle,No,No,No,No
+MicroDVD,Plain text,No,No,Needs alterations,No,No,No,No,No,No,No,No,No,As Ogg Writ[L],No,No,No,No
+Others,Other,—,—,—,—,—,—,—," Generic bitmap images, generic plain text[46] ",CEA-708,—,MPEG-4 Part 11,EBU-TT[92],—,EIA-608,—,—,—
+Obsolete,Other,—,—,—,—,—,—,—,—,—,—,—,—,Continuous Media Markup Language,—,—,—,—
+Format,Type,3GP and 3G2,Advanced Systems FormatAdvanced Systems Format,Audio Video InterleaveAudio Video Interleave,DivX Media Format,Enhanced VOB,Flash Video,Flash Video,MatroskaMatroska," MPEG program stream, MPEG program streamMPEG program stream ",.m2ts,MPEG-4 Part 14,Material eXchange FormatMaterial eXchange Format,OggOgg,QuickTime File FormatQuickTime File Format,RMVB,VOB,WebMWebM

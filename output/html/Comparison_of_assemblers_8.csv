@@ -1,0 +1,26 @@
+Assembler,Software license,Instruction set,Host Computing platform
+Assembly Language for Multics (ALM),MIT License,GE-645 GE-645,GE-645 GE-645
+The Macroassembler AS,Free," 29xxx, AVR microcontrollers, 65816, ACE, F2MC-8L, F2MC-16L, HMCS400, 6301, 6309, H8/300(H), H8/500, SH7000 / SH7600 / SH7700, HuC6280, PPC403GA, 4004/4040, 8008, MCS-48, MCS-41, AVR microcontrollers, MCS-251, MCS-96/196/296, 8080/8085, AVR microcontrollers/AVR microcontrollers, i960, CDP1802(A)/1804(A)/1805(A), LatticeMico8, PIC 16C5x, PIC 16C8x, PIC 17C42, MELPS-740, MELPS-7700, MELPS-4500, M16, M16C, AVR microcontrollers (up to 68040), ColdFire, DSP56000, DSP56300, PowerPC 601/505, M-Core, AVR microcontrollers, 68HC11(K4), 6805, 68HC(S)08, 6809, 68HC12 incl. XGATE, 68HC16, 68RS08, SC/MP, INS807x, COP4, COP8, SC14xxx, µpD7720/7725, µpD77230, µpD78C1x, 75K0, 78K0, 78K2, 78K3, 78K4, V30/35, OLMS-40, OLMS-50, XA, AVR microcontrollers, (W)65(S)C02, 65C19, 80C382, 80C166/167, 2650, 8X30x, ST6, ST7, ST9, 6804, SYM53C8xx, TMS3201x, TMS320C2x, TMS320C20x, TMS320C3x, TMS320C4x, TMS320C5x, TMS320C54x, TMS320C6x, TMS7000, TMS9900, TMS370xxx, MSP430(X), TLCS-900, TLCS-90, TLCS-870, TLCS-47, TLCS-9000, TC9331, KCPSM/KCPSM3 ('PicoBlaze'), AVR microcontrollers, Z180, Z380, Z8, eZ8, MIL STD 1750 "," Win32, DOS/DPMI, DOS (no longer maintained), OS/2 (no longer maintained), Win32 "
+Babbage (programming language),Proprietary software,GEC 4000 series,GEC 4000 series
+COMPASSCOMPASS,Proprietary software,Control Data Corporation mainframe,Control Data Corporation mainframe
+MACRO-10,Free,PDP-10,PDP-10
+MACRO-11,Free,PDP-11,PDP-11
+Vasm,Free," Zilog Z80, Zilog Z80 ",various
+GPUTILS,GNU General Public License,PIC microcontroller,many
+MIPS architecture,Free,MIPS architecture,MIPS architecture
+Symbolic Optimal Assembly Program (SOAP),Proprietary software,IBM 650,IBM 650
+Technical Assembly System (TASS),Free,IBM 650,IBM 650
+AutocoderAutocoder,Free," IBM IBM 700/7000 series, IBM 700/7000 series, IBM 700/7000 series, IBM 700/7000 series, IBM 700/7000 series, IBM 700/7000 series, IBM 700/7000 series, IBM 700/7000 series ",various
+FORTRAN Assembly Program (FAP),Free," IBM 709, IBM 709, IBM 709 "," History of IBM mainframe operating systems, History of IBM mainframe operating systems "
+GCOS Macro Assembly Program (GMAP),Free," GE-600 series, GE-600 series ",General Comprehensive Operating System
+IBM 7090/94 IBSYS (MAP),Free," IBM 709, IBM 709, IBM 709 "," IBM 7090/94 IBSYS/IBJOB on 709, 704x, 709x "
+Meta-Symbol,Free,SDS Sigma series," BTM, Universal Time-Sharing System, Universal Time-Sharing System "
+Symbolic Assembly Program (SAP),Free,IBM 704,IBM 704
+Symbolic Programming System (SPS)Symbolic Programming System,Free," IBM IBM 1401, IBM 1401, IBM 1401 "," IBM 1401, 1440, 1460, 1620, 1710 "
+" ASMB, ASBL, NSBL - Numeric op codes, used for 1900 Operating System Executive ",Proprietary software,ICL 1900,ICL 1900
+" GINerator mnemonic opcodes, used for GEORGE (operating system) ",Proprietary software,ICL 1900,ICL 1900
+" PLAN mnemonic opcodes, used for commercial 1900 programs ",Proprietary software,ICL 1900,ICL 1900
+Single Address Assembly Language (SAAL),Free,UNIVAC 1005,UNIVAC 1005
+Sleuth,Free,UNIVAC 1107," UNIVAC EXEC I, UNIVAC EXEC I, UNIVAC EXEC I "
+Meta Assembler (MASM),Free,UNIVAC 1100/2200 series,UNIVAC EXEC 8
+UTMOST,?,UNIVAC III,UNIVAC III

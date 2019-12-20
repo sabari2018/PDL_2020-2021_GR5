@@ -1,0 +1,26 @@
+,,CrushFTP Server,ProFTPD,Pure-FTPd,Vsftpd,Wu-ftp
+,License type,Proprietary software,FLOSS/FLOSS,BSD,FLOSS/FLOSS,Proprietary software
+OS,Linux,Yes,Yes,Yes,Yes,Yes
+,Mac OS X,Yes,Yes,Yes,Yes,Yes
+,Unix,Yes,Yes,Yes,Yes,Yes
+,Windows,Yes,No,?,?,?
+User Interface,Command-line interface,Yes,Yes,?,?,?
+,Graphical user interface integrated,Yes,No,?,?,?
+,Graphical user interface separately,Yes,Yes,?,?,?
+,Web application,Yes,?,?,?,?
+Services,FTP,Yes,Yes,Yes,Yes,Yes
+,SSH File Transfer Protocol,Yes,Yes,No,No,No
+,FTPS,Yes,Yes,Yes,Yes,?
+,Secure copy,Yes,?,?,?,?
+,WebDAV,Yes,?,?,?,?
+,HTTP,Yes,?,?,?,?
+,AS2,Yes,?,?,?,?
+Authentication,LDAP,Yes,Yes,Yes,?,?
+,Active Directory,Yes,?,?,?,?
+,Local,Yes,Yes,Yes,Yes,Yes
+,Database,Yes,Yes,Yes,?,?
+High Availability,Failover Cluster,Yes,?,?,?,?
+,Load Balancer,Yes,?,?,?,?
+Automation,Event-driven programming,Yes,Yes,?,?,?
+,Scripting language,Yes,Yes,?,?,?
+,,CrushFTP Server,ProFTPD,Pure-FTPd,Vsftpd,Wu-ftp

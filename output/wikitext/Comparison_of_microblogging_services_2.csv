@@ -1,0 +1,8 @@
+Service,Tagginggroup=NoteTagging,Groups,Conversationgroup=NoteConversation,Privategroup=NotePrivate,Private following list,RSS,Atom,Bookmarklet
+Tumblr,yes,no,no,yes,yes,yes,no,dunno
+Facebook,yes,yes,yes,yes,dunno,yes,no,dunno
+identi.ca / GNU social,yes,yes,yes,yes,dunno,yes,yes,yes
+Twitter,yes,no,yes,yes,yes,no,no,no
+Mastodon,yes,no,yes,yes,dunno,no,yes,no
+Misskey,yes,yes,yes,yes,yes,yes,no,yes
+micro.blog,yes,no,yes,no,dunno,yes,no,no

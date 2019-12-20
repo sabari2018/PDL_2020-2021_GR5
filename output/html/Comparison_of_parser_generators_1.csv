@@ -1,0 +1,23 @@
+Name,Lexer algorithm,Programming language," Grammar, code",Development platform,Software license
+Alex,Deterministic finite automaton,Haskell (programming language),Mixed,All," Free, BSD licenses "
+AnnoFlex,Deterministic finite automaton,Java (programming language),Mixed,Java virtual machine," Free, BSD licenses "
+AustenX,Deterministic finite automaton,Java (programming language),Separate,All," Free, BSD licenses "
+Booze-tools,Deterministic finite automaton,state machine is runtime-generated or saved as JSON,Mixed,Python (programming language)," Free, Public domain "
+C# Flex,Deterministic finite automaton,C Sharp (programming language),Mixed,Common Language Runtime," Free, GNU General Public License "
+C# Lex,Deterministic finite automaton,C Sharp (programming language),Mixed,Common Language Runtime,?
+CookCC,Deterministic finite automaton,Java (programming language),Mixed,Java virtual machine," Free, Apache License 2.0 "
+DFAlex,Deterministic finite automaton,no code generation required,Java (programming language),Java (programming language)," Free, Apache License 2.0 "
+Dolphin,Deterministic finite automaton,C++,Separate,All,Proprietary software
+Flex (lexical analyser generator),Deterministic finite automaton table driven," C (programming language), C (programming language)",Mixed,All," Free, BSD licenses "
+gelex,Deterministic finite automaton,Eiffel (programming language),Mixed,Eiffel (programming language)," Free, MIT License "
+golex,Deterministic finite automaton,Go (programming language),Mixed,Go (programming language)," Free, BSD licenses-style "
+gplex,Deterministic finite automaton,C Sharp (programming language),Mixed,Common Language Runtime," Free, BSD licenses-like "
+JFlex,Deterministic finite automaton,Java (programming language),Mixed,Java virtual machine," Free, BSD licenses "
+JLex,Deterministic finite automaton,Java (programming language),Mixed,Java virtual machine," Free, BSD licenses-like "
+Lex (software),Deterministic finite automaton,C (programming language),Mixed,POSIX," Partial, Proprietary software, Proprietary software "
+lexertl,Deterministic finite automaton,C++,?,All," Free, GNU Lesser General Public License "
+LRSTAR,Deterministic finite automaton,C++,Separate,Microsoft Windows," Free, BSD licenses "
+Quex,Deterministic finite automaton direct code," C (programming language), C (programming language)",Mixed,All," Free, GNU Lesser General Public License "
+Ragel,Deterministic finite automaton," C (programming language), C (programming language), C (programming language)",Mixed,All," Free, GNU General Public License, GNU General Public LicenseGNU General Public LicenseGNU General Public License "
+RE/flex," Deterministic finite automaton direct code, DFA table driven, and Deterministic finite automaton regex libraries",C++,Mixed,All," Free, BSD licenses "
+Re2c,Deterministic finite automaton direct code,C (programming language),Mixed,All," Free, Public domain "

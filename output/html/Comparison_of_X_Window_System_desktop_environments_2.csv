@@ -1,0 +1,24 @@
+,KDE Software Compilation,GNOME,MATE (software),Xfce,LXDE,ROX Desktop,Étoilé,Equinox Desktop Environment,Enlightenment (software)
+X window manager,KWin,Mutter (window manager),MATE (software),Xfce,Openbox,OroboROX,Azalea,edewm,Enlightenment
+X display manager (program type)," KDE Display Manager, KDE Display Manager ",GNOME Display Manager,,,LXDM,,,elma,Entrance (display manager)
+File manager,Dolphin (software) (Dolphin (software) before Dolphin (software)),GNOME Files,MATE (software),Thunar,PCMan File Manager,ROX Filer,,Efiler," EFM, Entropy "
+Widget toolkit,Qt (framework),GTK+,,,GTK+(legacy) / GTK+,GTK+,GNUstep,FLTK (previously eFLTK),Elementary
+Terminal emulator,Konsole,GNOME Terminal,MATE (software),Terminal (Xfce),LXTerminal,ROXTerm,Aterm (page does not exist),,Terminology
+Text editor,KWrite (KWrite before SC 4),Gedit,Pluma (editor)," Xfce, Xfce ",Leafpad,Edit,TextEdit,," Eyesight, Ecrire "
+Video player (software),Kdemultimedia (Kdemultimedia before Kdemultimedia),GNOME Videos,,Parole,lxine,mplayer-rox,,," Enna (media center), Eclair "
+Audio player (software)," JuK, JuK "," Banshee (media player), Banshee (media player) ",,,LXMusic,MusicBox,Melodie,,Enjoy
+Optical disc authoring software,K3b,Brasero (software),,Xfburn,,RoxISO,,,
+CD ripper," K3b, KAudioCreator ",Sound Juicer,,,,Ripper,,,Extrackt
+Image viewer,Gwenview,Eye of GNOME,MATE (software),Ristretto,GPicView,Picky,,Eimage,Ephoto
+Office suite," Calligra Suite, Calligra Suite ",GnomeOffice,,,,,,,
+Web browser," Konqueror, Konqueror ",Web (web browser),,Midori (web browser),,,,,Eve
+E-mail client,Kontact,Evolution (software),,,,GNUMail,,,
+Personal information management,Kontact,,,,,Contacts,,,
+Instant messenger," Kopete, Kopete ",Empathy (software),,,,,,,Shotgun
+File archiver,Ark (software),Archive Manager,MATE (software)," Xarchiver, Squeeze ",Xarchiver,Archive,,,
+PDF viewer,Okular (Okular before Okular),Evince,MATE (software),,,,Vindaloo,,Epdf
+Integrated development environment,KDevelop,Anjuta,,,,," Gorm (computing), ProjectCenter ",,EDI
+X session manager,Ksmserver (page does not exist),Gnome-session (page does not exist),Mate-session (page does not exist),Xfce4-session (page does not exist),LXSession (page does not exist),ROX-Session (page does not exist),,,
+Widget engine,built-in – KDE Plasma Workspaces (KDE Plasma Workspaces before KDE Plasma Workspaces),GDesklets,,,,,,,Elementary
+Software license used," GPL, GPL, GPL, others "," GPL, GPL "," GPL, GPL "," GPL, GPL, GPL "," GPL, GPL ",GPL," GPL, GPL "," GPL, GPL "," BSD licenses, BSD licenses "
+,KDE Software Compilation,GNOME,MATE,Xfce,LXDE,ROX Desktop,Étoilé,EDE,Enlightenment

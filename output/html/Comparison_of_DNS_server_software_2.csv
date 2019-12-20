@@ -1,0 +1,18 @@
+Server,Berkeley Software Distribution,Solaris (operating system),Linux,Mac OS X,Microsoft Windows
+BIND,Yes,Yes,Yes,Yes,Yes[Note 1]
+Microsoft DNS,No,No,No,No,Included[Note 2]
+Djbdns,Yes,Yes,Yes,Yes,No
+Dnsmasq,Yes,Yes,Yes,Yes,No
+Simple DNS Plus,No,No,No,No,Yes
+NSD,Yes,Yes,Yes,Yes,No
+Knot DNS,Yes,No,Yes,Yes,No
+Knot Resolver (page does not exist),Partial,No,Yes,Yes,No
+PowerDNS,Yes,Yes [7],Yes,Software release life cycle,No
+MaraDNS,Yes,Yes [8],Yes,Yes,Partial
+Pdnsd,Yes,Partial[40],Yes,Yes,No
+Posadis,Yes,Yes,Yes,Yes,Yes [9]
+Unbound (DNS Server),Yes,Yes,Yes,Yes,Yes
+Cisco Network Registrar,No,Yes,Yes,No,Yes
+YADIFA,Yes,Yes,Yes,Yes,No
+Secure64 DNS,No,No,Yes,No,No
+Secure64 DNS,No,No,Yes,No,No

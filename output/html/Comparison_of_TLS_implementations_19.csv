@@ -1,0 +1,11 @@
+Implementation,Dependencies,Optional dependencies
+Botan (programming library),C++11," Sqlite, Sqlite (compression), Sqlite (compression), Sqlite (compression), Sqlite, Sqlite (crypto backend), trousers (TPM) "
+GnuTLS,libc nettle gmp,zlib (compression) p11-kit (PKCS #11) trousers (TPM)
+Java Secure Socket Extension,Java,
+MatrixSSL,none,zlib (compression)
+MatrixSSL,libc or newlib,
+Mbed TLS,libc,libpkcs11-helper (PKCS #11) zlib (compression)
+Network Security Services,libc libnspr4 libsoftokn3 libplc4 libplds4,zlib (compression)
+OpenSSL,libc,zlib (compression)
+WolfSSL,None," libc, zlib (compression) "
+Erlang (programming language)/OTP ssl application," libcrypto (from OpenSSL), Erlang/OTP and its public_key, crypto and asn1 applications ",Erlang/OTP -inets (http fetching of CRLs)

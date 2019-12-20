@@ -1,0 +1,28 @@
+Country,,Motorways,,Express-/Speedways,,,Motor-  ;Express-/Speedwaysdirections,,Primary roads,,,,Secondary roadsoutside urban areas,,,Warning signs,,,Road works /Detours,
+scope="col"  Name,scope="col"  Code
+scope="col"  40pxwhiteongreen,scope="col"  40pxwhiteonblue
+scope="col"  n/a,scope="col"  40pxwhiteongreen,scope="col"  40pxwhiteonblue
+scope="col"  40pxwhiteongreen,scope="col"  40pxwhiteonblue
+scope="col"  40pxwhiteongreen,scope="col"  40pxwhiteonblue
+"! scope="col"  40pxblackonyellow",scope="col"  40px40pxblack/redonwhite
+scope="col"  n/a,scope="col"  40pxblackonwhite,scope="col"  other
+scope="col"  40pxTriangle on white,scope="col"  40pxTriangle on yellow/ orange,scope="col"  40pxDiamond on yellow,scope="col"  40pxon orange,scope="col"  40pxon yellow
+,scope="row"  Austria,A,,w/b,,,w/b,,w/b,°w/g,,,bl/w,×,,,bl/w,,,,bl/y
+scope="row"  Czech Republic,CZ,w/g,,,,w/b,w/g,w/b,,w/b,,,,bl/w,,bl/w,,,bl/o,
+scope="row"  Germany,D,,w/b,,,w/b,,w/b,,,bl/y,,×,,,bl/w,,,,bl/y
+scope="row"  Liechtenstein,LI,w/g,,,w/g,,w/g,,,w/b,,,,bl/w,,bl/w,,,bl/o,
+scope="row"  Lithuania,LT,w/g,,,,w/b,w/g,,,w/b,,,,bl/w,,bl/w,,,,bl/y
+scope="row"  France,F,,w/b,,,w/b,,w/b,°w/g,,,bl/w,×,,,bl/w,°bl/y,,bl/o,
+scope="row"  Greece,GR,y+w/g,,,,y+w/b,°y+w/g,°y+w/b,,y+w/b,,,,bl/w,,,bl/o,,bl/o,
+scope="row"  Ireland,IRL,,w/b,×,,,,w/b,w/g,,,,,bl/w,,,,bl/y,bl/o,
+scope="row"  Italy,I,w/g,,,,w/b,°w/g,°w/b,,w/b,,,x,,,bl/w,°bl/y,,,bl/y
+Scope="row"   Netherlands,NL,,w/b,,,w/b,,w/b,,w/b,,,x,,,bl/w,,,,bl/y
+scope="row"  Norway,N,,w/b,,,w/b,,w/b,,,bl/y,,×,,,bl/w,°bl/gg,,bl/o,
+scope="row"  Poland,PL,,w/b,,,w/b,,w/b,w/g,,,,x,,,,bl/o,,bl/o,
+scope="row"  Portugal,P,,w/b,,,w/b,,w/b,,,,bl/w,,bl/w,,bl/w,,,,bl/y
+Romania,RO,w/g,,x,,,w/g,,,w/b,,,x,,,bl/w,,,,bl/y
+scope="row"  Slovakia,SK,,w/b,,,w/b,w/g,,,w/b,,,,bl/w,,bl/w,,,,bl/y
+scope="row"  Sweden,S,w/g,,,w/g,,w/g,,,w/b,,,x,,,,bl/o,,bl/o,
+scope="row"  Switzerland,CH,w/g,,,w/g,,w/g,,,w/b,,,,bl/w,,bl/w,,,bl/o,
+scope="row"  United Kingdom,GB,,w/b,x,,,,w/b,w/g,,,,,bl/w,,bl/w,,,,bl/y
+Legend:  t/b – applied text/icon and background colour code (black, blue, green, gleaming green, orange, red, yellow, white)° – partially applicable    × – not applicable ",,,,,,,,,,,,,,,,,,,,,

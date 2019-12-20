@@ -1,0 +1,5 @@
+Model,Launch,Fab (Nanometre),Bus interface,Memory,,
+,,,,Size (Kibibyte),Bus type,Bus width (Bit)
+Mach 8,1991,800," ISA, MCA ",512 1024,DRAM VRAM,32
+Mach 32,1992,," ISA, EISA, VLB PCI, MCA ",1024 2048,DRAM VRAM,64
+Mach 64,1994,600," ISA, VLB, PCI "," 1024, 2048, 4096, 8192 "," DRAM, VRAM, SGRAM ",

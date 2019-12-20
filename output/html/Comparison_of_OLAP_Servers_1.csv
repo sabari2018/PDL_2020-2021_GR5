@@ -1,0 +1,17 @@
+OLAP server,Company,Website,Latest stable version,Software license,License pricing
+Apache Kylin,The Apache Software Foundation,[1],2.5.1,Apache License,free
+Druid (open-source data store),Open source,[2],0.11.0,Apache License,free
+Apache Pinot (Incubating),The Apache Software Foundation,[3],0.2.0,Apache License,free
+Essbase,Oracle Corporation,[4],11.1.2.4,Proprietary software,[1]
+TM1,IBM,[5],10.2.2 FP7,Proprietary software,-
+IcCube,IcCube,[6],6.8.9,Proprietary software,community/[2]
+Infor BI OLAP Server,Infor,[7],10.6.0,Proprietary software,-
+Jedox,Jedox,[8],2019.3,Proprietary software,[3]
+Kyligence,Kyligence (page does not exist),[9],3.2.1,Proprietary,-
+Kyvos,Kyvos Insights,[10],5.2,Proprietary software,-
+Microsoft Analysis Services,Microsoft,[11],2016,Proprietary software,[4]
+MicroStrategy Intelligence Server,MicroStrategy,[12],10.11,Proprietary software,-
+Mondrian OLAP server,Pentaho,[13],3.7,Eclipse Public License,free
+Oracle OLAP,Oracle Corporation,[14],11g R2,Proprietary software,[5]
+SAP NetWeaver Business Intelligence,SAP AG,[15],7.30,Proprietary software,-
+SAS System,SAS Institute,[16],9.4,Proprietary software,-

@@ -1,0 +1,16 @@
+Name,User interface,SSH1,SSH2,Additional protocols,,Tunneling protocol,,,Session multiplexing [Note 1],Kerberos (protocol),IPv6,Terminal emulator,SSH file transfer protocol/SSH file transfer protocol,Proxy client[Note 2]
+,,,,TELNET,Rlogin,Port forwarding,SOCKS SOCKS,Virtual private network Virtual private network,,,,,,
+AbsoluteTelnet," Graphical user interface (multi-session, single-window) ",Yes,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes," SOCKS 4, 5; HTTP "
+Dropbear (software),Command line interface,No,Yes,No,No,Yes,No,No,No,No,Yes,Yes,Yes,?
+Lsh,command line,No,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,Yes,Yes,?
+OpenSSH (OpenBSD Secure Shell),Command line interface,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,ProxyCommand
+PuTTY,Graphical user interface or Graphical user interface,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes[Note 5],Yes,Yes,Yes[Note 6]," SOCKS 4, 5; HTTP; Telnet; Local "
+SecureCRT,Graphical user interface,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes," SOCKS 4, 5; HTTP; Telnet; Generic "
+SmartFTP," Graphical user interface (multi-session, single-window) ",No,Yes,Yes,No,No,No,No,No,Yes,Yes,Yes,Yes," SOCKS 4, 5; HTTP "
+Tera Term,Graphical user interface,Yes,Yes,Yes,No,Yes,No,No,No,No,Yes,Yes,SCP," SOCKS 4, 5; HTTP; Telnet "
+TN3270 Plus,Graphical user interface,Yes,Yes,Yes,No,No,Yes,No,Yes,No,Yes,Yes,No,SOCKS 4
+TtyEmulator,Graphical user interface or Graphical user interface,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,No," SOCKS 4,4a, 5; HTTP Local "
+WinSCP WinSCP,Graphical user interface or Graphical user interface,Yes,Yes,No,No,limited[Note 8],No,No,No,Yes,Yes,simple,Yes," SOCKS 4, 5; HTTP; Telnet; Local "
+ZOC (software),Tabbed document interface or Tabbed document interface,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,SCP through terminal[Note 9],SOCKS 4; 5; HTTP; Jumpserver
+Name,User interface,SSH1,SSH2,Additional protocols,,Tunneling protocol,,,Session multiplexing [Note 1],Kerberos (protocol),IPv6,Terminal emulator,SSH file transfer protocol/SSH file transfer protocol,Proxy client[Note 2]
+,,,,TELNET,Rlogin,Port forwarding,SOCKS SOCKS,Virtual private network Virtual private network,,,,,,

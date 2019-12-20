@@ -1,0 +1,14 @@
+OLAP server,# cubes,# measures,# dimensions,# dimensions in cube,# hierarchies in dimension,# levels in hierarchy,# dimension members
+Apache Kylin,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted
+Druid (open-source data store),Unrestricted[a],Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted
+Apache Pinot (Incubating),Unrestricted[a],Unrestricted,Unrestricted,Unrestricted,-,-,Unrestricted
+EssbaseEssbase,?,?,?,255,255,?," 20,000,000 (ASO), 1,000,000 (BSO) "
+IBM Cognos TM1,Unrestricted[a],Unrestricted,Unrestricted[a],256,Unrestricted[a],Unrestricted,Unrestricted
+IcCube," 2,147,483,647 "," 2,147,483,647 "," 2,147,483,647 "," 2,147,483,647 "," 2,147,483,647 "," 2,147,483,647 "," 2,147,483,647 "
+Infor BI OLAP Server,?," 10,000,000 ",?,30,?,?," 10,000,000 "
+Jedox,2    32       {\displaystyle 2^{32}}   https://wikimedia.org/api/rest_v1/media/math/render/svg/a8c222ea8e5f187a2bb499395b6f4a6f38b43633 (32 bits),2    32       {\displaystyle 2^{32}}   https://wikimedia.org/api/rest_v1/media/math/render/svg/a8c222ea8e5f187a2bb499395b6f4a6f38b43633,2    32       {\displaystyle 2^{32}}   https://wikimedia.org/api/rest_v1/media/math/render/svg/a8c222ea8e5f187a2bb499395b6f4a6f38b43633 (32 bits),250,2    32       {\displaystyle 2^{32}}   https://wikimedia.org/api/rest_v1/media/math/render/svg/a8c222ea8e5f187a2bb499395b6f4a6f38b43633,2    32       {\displaystyle 2^{32}}   https://wikimedia.org/api/rest_v1/media/math/render/svg/a8c222ea8e5f187a2bb499395b6f4a6f38b43633,2    32       {\displaystyle 2^{32}}   https://wikimedia.org/api/rest_v1/media/math/render/svg/a8c222ea8e5f187a2bb499395b6f4a6f38b43633
+Kyligence,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted
+Kyvos,Unrestricted,Unrestricted,Unrestricted,Unrestricted,1,Unrestricted,Unrestricted
+Microsoft Analysis ServicesMicrosoft Analysis Services," 2,147,483,647 "," 2,147,483,647 "," 2,147,483,647 "," 2,147,483,647 (max. number of dimensions in a database) "," 2,147,483,647 "," 2,147,483,647 "," 2,147,483,647 (xOLAP) Unrestricted (In-memory)  "
+MicroStrategy,Unrestricted[a],Unrestricted[a],Unrestricted[a],?,Unrestricted[a],Unrestricted[a],Unrestricted[a]
+SAS SystemSAS System,Unrestricted[a],1024,128,?,128,19," 4,294,967,296 "

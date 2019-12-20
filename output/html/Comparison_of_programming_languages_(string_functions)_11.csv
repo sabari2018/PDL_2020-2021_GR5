@@ -1,0 +1,15 @@
+Format,Languages
+string1  ==  string2," Python (programming language), Python (programming language) (STL), Python (programming language), Python (programming language), Python (programming language), Python (programming language) (similarity), Python (programming language) (similarity), Python (programming language), Python (programming language), Python (programming language), Python (programming language), Python (programming language), Python (programming language), Python (programming language), Ya "
+string1  ===  string2," JavaScript, JavaScript "
+string1  ==  string2  or    string1  .EQ.  string2,Fortran
+" strcmp( string1 ,  string2 ) == 0 ",C (programming language)
+(string=?  string1   string2 ),Scheme (programming language)
+(string=  string1   string2 )," Common Lisp, Common Lisp "
+string1  =  string2," ALGOL 68, ALGOL 68, ALGOL 68 (ALGOL 68), ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68 "
+" test  string1  =  string2 , or  [  string1  =  string2  ] ",Bourne Shell
+string1  eq  string2," Perl, Perl "
+string1 .equals( string2 )," Cobra (programming language), Cobra (programming language) "
+string1 .Equals( string2 ),C Sharp (programming language)
+"  string1  -eq  string2 , or  [string]::Equals( string1 ,  string2 ) ",Windows PowerShell
+" [ string1  isEqualToString: string2 ], or  [ string1  isEqual: string2 ] ",Objective-C (NSString * only)
+string1  ≡  string2,APL (programming language)

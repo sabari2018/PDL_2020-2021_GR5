@@ -1,0 +1,35 @@
+Format,Languages
+UCase( string ),Visual Basic
+ucase( string ),FreeBASIC
+toupper( string ),AWK (changes string)
+uc( string )," Perl, Perl "
+string .uc,Raku (programming language)
+toupper( char ),C (programming language) (operates on one character)
+" for(size_t i = 0, len = strlen( string ); i< len; i++)  string [i] = toupper( string [i]); for (char *c =  string ; *c != '\0'; c++) *c = toupper(*c); ",C (programming language) (string / char array)
+std.string.toUpper( string ),D (programming language)
+" transform( string .begin(),  string .end(),  result .begin(), toupper)[20] ",C++C++
+uppercase( string ),Object Pascal (Object Pascal)
+upcase( char ),Object Pascal (Object Pascal) (operates on one character)
+strtoupper( string ),PHP
+upper( string ),Seed7
+" Echo (command) ""string"" | Echo (command) 'a-z' 'A-Z'  ",Unix
+" translate( string ), or  UPPER variables, or  PARSE UPPER VAR SrcVar DstVar  ",Rexx
+string .upper(),Python (programming language)
+upcase( string ),Pick Basic
+string .upcase,Ruby (programming language) Ruby (programming language)
+strings.ToUpper( string ),Go (programming language)
+(string-upcase  string )," Scheme (programming language), Scheme (programming language) "
+String.uppercase  string,OCaml
+String.map Char.toUpper  string,Standard ML
+map Char.toUpper  string,Haskell (programming language)
+string .toUpperCase()," Java (programming language), Java (programming language) "
+to_upper( string ),Erlang (programming language)
+string .ToUpper()," Visual Basic .NET, Visual Basic .NET, Visual Basic .NET, Visual Basic .NET "
+string .uppercaseString," Objective-C (NSString * only), Objective-C (Foundation) "
+string.upper( string )   ( string ):upper(),Lua (programming language)
+string  asUppercase,Smalltalk
+UPPER( string ),SQL
+ToUpperCase[ string ],Mathematica
+«FUNCTION» UPPER-CASE( string ),COBOL
+string .toUpper,Cobra (programming language)
+string toupper  string,Tcl

@@ -1,0 +1,30 @@
+AngularJS,Apache Royale,Dojo,Ember.js,Enyo,Ext JS,Google Web Toolkit,jQuery,jQWidgets,MooTools,OpenUI5,Prototype  ; script. aculo.us,qooxdoo,SmartClient and SmartGWT,SproutCore,Vue,Wakanda,ZK,Webix
+Feature detection,yes,,yes,yes,,yes,no,yes,yes,yes,,no,yes,Partial,yes,,Partial,no,yes
+DOM wrapped,yes,,yes,no,yes,yes,yes,yes,,no,,no,yes,yes,no,,yes,yes,yes
+XMLHttpRequestdata retrieval,yes,yes,yes,,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,,yes,,yes
+WebSocket,,,yes,yes,yes,yes,Via Plugin,,yes,,yes
+Server push data retrieval,,,yes,,,yes,yes,yes,Via Plugin,,,yes,yes
+Other data retrieval,,"  Yes: XML, HTML, CSV, ATOM, AMF, JSON","  Yes: XML, HTML, CSV, ATOM",,,"  Yes: XML, SOAP, AMF, Ext.Direct","  Yes: RPC, RequestFactory","  Yes: XML, HTML","  Yes: XML, JSON, CSV, TSV","  Yes: XML, HTML",,,,"  Yes: XML, WSDL, RSS, and Java-based SQL, Hibernate, POJO adapters",,,"  Yes: JSON-RPC, Wakanda REST",,"  Yes:  XML, HTML, CS, JSON, JSArray, CSV"
+Drag and drop,,yes,yes,,,yes,With plugin,With plugins,yes,yes,yes,yes,yes,yes,yes,,yes,yes,yes
+Simple visual effects,yes,yes,yes,,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,,yes,yes,yes
+Animation /  advanced visual effects,yes,,yes,,yes,yes,yes,yes,yes,yes,,yes,yes,yes,yes
+Back button support /  history management,,,yes,yes,yes,yes,yes,With plugins,no,With plugin,,yes,yes,yes,yes,,,yes,yes
+Input form widgets  ; validation,yes,yes,yes,,yes,yes," yes, Validation requires plugin",With plugins,yes,yes,yes,yes,yes,yes,yes,,yes,yes,yes
+,AngularJS,Apache Royale,Dojo,Ember.js,Enyo,ExtJS,Google Web Toolkit,jQuery,jQWidgets,MooTools,OpenUI5,Prototype  ; script. aculo.us,qooxdoo,SmartClient and SmartGWT,SproutCore,Vue,Wakanda,ZK,Webix
+Grid,,yes,yes,,,yes,yes,With plugins,yes,With plugin,yes,,yes,yes,yes,,yes,yes,yes
+Hierarchical Tree,,yes,yes,,yes,yes,yes,With plugins,yes,With plugins,yes,,yes,yes,yes,,yes (Auto Form),yes,yes
+Rich text editor,no,yes,yes,,,yes,yes,With plugins,yes,yes,,,yes,yes,Via plugin,,yes,yes,yes
+Autocompletion tools,no,,yes,,,yes,yes,yes,yes,With plugin,,yes,,yes,With plugins,,yes,yes,yes
+HTML generation tools,no,,yes,,,yes,yes,yes,yes,,yes,yes,yes,yes,,no,yes,yes
+Widgets themeable / skinnable,,yes,yes,,yes,yes,yes,yes,,yes,yes,yes,,yes,yes,,,yes,yes
+GUI resizable panels and modal dialogs,,yes,yes,,yes,yes,yes,With plugins,yes,yes,,,yes,yes,yes,,yes,yes,yes
+GUI page layout,,,yes,,,yes,yes,With plugin,yes,yes,yes
+Canvas support,,yes,yes,,yes,yes,yes,With plugin,yes,yes,,,yes,yes,yes,,yes,yes,yes
+Mobile/tablet support (touch events),yes,yes,yes,yes,yes,yes,With plugin,With plugin,yes,With plugin,yes,,yes,yes,yes,,yes,yes,yes
+Accessibility /  graceful degradation,yes,,yes,no,yes,yes,yes,yes,yes,yes,,,no,Degradation: NoAccessibility: Yes,Degradation: NoAccessibility: Yes,,,yes,yes
+ARIA compliant,,,yes,yes
+"! Developer tools, Visual design",,,yes,,in progress,yes,yes,yes,yes,yes,,,yes,yes,no,,yes,yes,Yes
+Offline storage,,yes,no,,yes,yes,Via Google Gears,With plugin,yes,,,,yes,yes,yes,,planned,yes,yes
+Cross-browser 2d Vector Graphics,,,yes,,,yes,,With plugin,yes,,,,yes,no],,yes (via Raphael),yes
+Charting  ; Dashboard,,yes,yes,,,yes,,With plugin,yes,,,,,yes,no,,yes,yes,yes
+RTL Support in UI Components,,yes,yes,,,yes,,Depends on the plugin used,yes,,yes,,,yes,yes,,,,no

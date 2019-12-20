@@ -1,0 +1,5 @@
+Country,Spacecraft,Power,Thrust,Specific impulse,Year launched
+//upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/23px-Flag_of_Japan.svg.png Japan," Hayabusa (μ-10, microwave ion thrusters) ",350 W,8 mN,3200s,2003
+//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/23px-Flag_of_the_People%27s_Republic_of_China.svg.png China," Shijian 9A (LIPS-200, ring-cusp magnetic field ion thruster) ",1 kW,40 mN,3000s,2012
+//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/23px-Flag_of_India.svg.png India," GSAT-9 (Xenon based ion thruster, partial) ",3.5 kW,72 mN,,2017
+,GSAT-20 (Full),,,,2020 (Planned)

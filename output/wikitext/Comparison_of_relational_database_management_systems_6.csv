@@ -1,0 +1,45 @@
+,R-/R+ tree,Hash,Expression,Partial,Reverse,Bitmap,GiST,GIN,Full-text,Spatial,FOT,Duplicate index prevention
+4th Dimension,dunno,Cluster,dunno,dunno,dunno,dunno,dunno,dunno,yes,dunno,dunno,no
+ADABAS,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,no
+Adaptive Server Enterprise,no,no,yes,no,yes,no,no,no,yes,dunno,dunno,no
+Advantage Database Server,no,no,yes,no,yes,yes,no,no,yes,dunno,dunno,no
+Apache Derby,no,no,no,no,no,no,no,no,no,dunno,dunno,no
+ClustrixDB,no,yes,no,no,no,no,no,no,no,no,dunno,no
+CUBRID,no,no,yes,yes,yes,no,no,no,no,no,no,no
+DB2,Yes,Yes,yes,no,yes,yes,no,no,yes,dunno,dunno,no
+Empress Embedded Database,yes,no,no,yes,no,yes,no,no,no,dunno,dunno,no
+EXASolution,no,yes,no,no,no,no,no,no,no,dunno,dunno,no
+Firebird,no,no,yes,no,yes,no,no,no,no,dunno,dunno,no
+HSQLDB,no,no,no,no,no,no,no,no,no,dunno,dunno,no
+H2,no,yes,no,no,no,no,no,no,yes,yes,dunno,no
+Informix Dynamic Server,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+Ingres,yes,yes,Ingres v10,no,no,Ingres v10,no,no,no,dunno,dunno,no
+InterBase,no,no,no,no,no,no,no,no,no,dunno,dunno,no
+10,no,yes temporary indexes for equality joins,yes for some scalar functions like LOWER and UPPER,no,no,no,no,no,yes,no,no,yes
+LucidDB,no,no,no,no,no,yes,no,no,no,dunno,dunno,no
+MariaDB,",",PERSISTENT virtual columns only,no,no,no,no,no,yes,",dunno,no
+MaxDB,no,no,no,no,no,no,no,no,no,dunno,dunno,no
+Microsoft Access (JET),no,no,no,no,no,no,no,no,no,dunno,dunno,no
+Microsoft Visual Foxpro,no,no,yes,yes,yes2,yes,no,no,no,dunno,dunno,no
+Microsoft SQL Server,Spatial Indexes,yes4,yes3,yes,on Computed columns3,Bitmap filter index for Star Join Query,no,no,yes,yes,dunno,no
+Microsoft SQL Server Compact (Embedded Database),no,no,no,no,no,no,no,no,no,dunno,dunno,no
+Mimer SQL,no,no,no,no,yes,no,no,no,yes,yes,no,no
+MonetDB,no,yes,no,no,no,yes,no,no,no,no,no,no
+MySQL,Spatial IndexesCitation,publisher   = Oracle,series      = MySQL,url         = https://dev.mysql.com/doc/refman/5.7/en/create-index.html#create-index-storage-engine-index-types,title       = Index Types Per Storage Engine,access-date = 24 September 2017
+,",no,no,no,no,no,no,",",dunno,no
+OpenLink Virtuoso,yes,Cluster,yes,yes,no,yes,no,no,yes,yes (Commercial only),no,no
+Oracle,yes 11,Cluster Tables,yes,yes 6,yes,yes,no,no,yes,yes,dunno,yes
+Oracle Rdb,No,Yes,dunno,No,No,dunno,No,No,dunno,dunno,dunno,no
+Pervasive PSQL,no,no,no,no,no,no,no,no,no,no,no,no
+Polyhedra DBMS,no,yes,no,no,no,no,no,no,no,no,dunno,no
+PostgreSQL,yes,yes,yes,yes,yes7,yes,yes,yes,yes,PostGIS,dunno,no
+Raima Database Manager,yes,yes,no,yes,yes,no,no,no,no,yes,no,no
+RDM Server,no,no,no,yes,yes,no,no,no,no,no,no,no
+SAP HANA,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,no
+solidDB,no,no,no,no,yes,no,no,no,no,no,no,no
+SQL Anywhere,no,no,yes,no,no,no,no,no,yes,yes,dunno,yes
+SQLite,yes,no,yes,yes,no,no,no,no,yes,SpatiaLite,dunno,no
+SQream DB,dunno,dunno,dunno,dunno,yes,dunno,dunno,dunno,dunno,dunno,dunno,no
+Teradata,no,yes,yes,yes,no,yes,no,no,dunno,dunno,dunno,no
+UniVerse,yes,yes,yes3,yes3,yes3,no,no,no,dunno,yes,dunno,no
+,R-/R+ tree,Hash,Expression,Partial,Reverse,Bitmap,GiST,GIN,Full-text,Spatial,FOT,Duplicate index prevention

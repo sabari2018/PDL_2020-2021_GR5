@@ -1,0 +1,42 @@
+File manager,Family,UI,Icon view,List view,Column view,Thumbnails,Details + Thumbs,Grouping,Content dependent,Twin panel,Favorites / Bookmark,Panel tabs
+Altap Salamander,Orthodox,GUI,yes,yes,yes,yes,no,no,no,yes,partial,no
+Commander One,Orthodox,GUI,yes,yes,yes,yes,dunno,dunno,no,dunno,yes,yes
+CRAX Commander,Orthodox,GUI,yes,yes,no,yes,dunno,dunno,no,yes,yes,yes
+Demos Commander,Orthodox,Text,dunno,yes,dunno,dunno,dunno,dunno,dunno,yes,dunno,dunno
+Directory Opus,Orthodox,GUI,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+Dired,Orthodox,Text,dunno,yes,dunno," yes, on GUI"
+,Documents by Readdle,,GUI,yes,,,yes,,,,,,
+Dolphin,Navigational,GUI,yes,yes,yes,yes,yes,yes,no,yes,yes,yes
+Double Commander,Orthodox,GUI,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+DOS Navigator,Orthodox,Text,dunno,yes,dunno,dunno,dunno,dunno,dunno,yes,dunno,dunno
+emelFM2,Orthodox,GUI,no,yes,no,yes,dunno,no,no,yes,dunno,no
+FAR Manager,Orthodox,Text,partial,yes,yes,yes,partial,yes,yes,yes,yes,partial
+File Commander,Orthodox,Text,no,yes,yes,no,partial,yes,no,yes,no,no
+File Manager,Orthodox,GUI,yes,yes,no,dunno,dunno,dunno,dunno,yes,no,no
+Files (Apple),,GUI,yes,,,yes,yes,,,,,
+Files by Google,,GUI,,,,,,,,,,
+Finder,Spatial / Miller Columns,GUI,yes,yes,yes,yes," yes, with Cover Flow",yes,no,no,yes,no
+ForkLift,Orthodox,GUI,yes,yes,yes,yes,partial,yes,no,yes,yes,yes
+gentoo,Orthodox,GUI,dunno,yes,dunno,dunno,dunno,dunno,dunno,yes,dunno,dunno
+GNOME Commander,Orthodox,GUI,no,yes,no,no,dunno,no,no,yes,dunno,yes
+Konqueror,Navigational / Orthodox,GUI,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+Krusader,Orthodox,GUI,yes,yes,yes,yes,dunno,no,yes,yes,yes,yes
+Midnight Commander,Orthodox,Text,no,yes,yes,dunno,dunno,dunno,yes,yes,yes,dunno
+GNOME Files (Nautilus),Navigational / Spatial,GUI,yes,no,yes,yes,yes,no,no,no,yes,yes
+Nemo,Navigational / Spatial,GUI,yes,yes,yes,yes,yes,no,no," yes,press[F3]",yes,yes
+Nomad.NET,Orthodox,GUI,yes,yes,yes,yes,dunno,yes," partial, Manual",yes,yes," yes, Shared"
+Path Finder,Navigational,GUI,yes,yes,yes,yes,no,yes,no,yes,yes,yes
+PCManFM,Navigational,GUI,yes,yes,yes,yes,yes,dunno,no,yes,yes,yes
+ROX-Filer,Spatial,GUI,yes,yes,no,yes,yes,no,no,no,yes,no
+STDU Explorer,Navigational,GUI,yes,yes,yes,yes,no,no,no,no,no,no
+Total Commander,Orthodox,GUI,yes,yes,yes,yes,yes,yes,yes In viewing,yes,yes,yes
+Thunar,Navigational,GUI,yes,yes,yes,yes,yes,no,dunno,no,yes,yes
+Volkov Commander,Orthodox,Text,dunno,yes,dunno,dunno,dunno,dunno,dunno,yes,dunno,dunno
+Windows Explorer,Navigational / Spatial,GUI,yes,yes,yes,yes,partial,yes,yes,no,yes,no
+Xandros File Manager,Navigational,GUI,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Xfe,Hybrid Navigational,GUI,yes,yes,yes,yes,yes,no,no,yes,yes,no
+Xfm,Spatial,GUI,yes,no,no,no,no,dunno,dunno,no,dunno,no
+xplorer²,Hybrid Navigational / Orthodox,GUI,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+XYplorer,Hybrid Navigational / Orthodox,GUI,yes,yes,yes,yes,yes,no,no,yes,yes,yes
+ZTreeWin,Orthodox,Text,no,yes,yes,no,partial,yes,no,yes,yes,no
+File manager,Family,UI,Icon view,List view,Column view,Thumbnails,Details + Thumbs,Grouping,Content dependent,Twin panel,Favorites / Bookmark,Panel tabs

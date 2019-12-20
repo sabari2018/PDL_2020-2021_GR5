@@ -1,0 +1,73 @@
+Distribution,Default Linux kernel,Default File system,Default Init,Install-time Desktop environment or Desktop environment selection,Reproducible builds
+Alpine Linux,Binary blobs,ext4,OpenRC,none,No
+ALT Linux,Binary blobs,ext3,Systemd," KDE Plasma Workspaces, Xfce ",No
+Arch Linux,Binary blobs[80],none[81],systemd,none,No
+BLAG Linux and GNU,Linux-libre,ext3,sysvinit,GNOME,No
+Bodhi Linux,Binary blobs,ext4,systemd,Moksha (Enlightenment (window manager) fork),No
+Canaima (operating system),Binary blobs[80],?,systemd,Cinnamon (software) and Cinnamon (software),No
+CentOS,Binary blobs[80],xfs,systemd,GNOME,No
+Chakra (operating system),Binary blobs,ext4,systemd,KDE Plasma Workspaces,No
+ClearOS,Binary blobs,ext3,systemd,none (Web based),No
+CoreOS,Binary blobs,ext4,systemd,None,No
+CrunchBang Linux,Binary blobs,ext4,sysvinit,Openbox,No
+Damn Small Linux,Binary blobs,ext3,sysvinit,JWM,No
+Debian," By default Linux-libre, but the Debian Project also hosts a non-free repository allowing blobs to be installed optionally.Linux-libre Built with Linux-libre tools.Linux-libre ",ext4,systemd," GNOME, KDE, KDE, KDEKDE ",In progress[84][85]
+Devuan,Binary blobs,Ext4,Sysvinit,Xfce,No
+Dragora GNU/Linux-Libre,Linux-libre,ext4,Runit,Xfce,No
+Dyne:bolic,Linux-libre,?,systemd,GNOME,No
+Fedora (operating system),Binary blobs,ext4,systemd," GNOME (default Workstation Edition), Spins for: KDE Plasma Workspaces, Xfce, LXDE, MATE (with Compiz), Cinnamon, Sugar (software) ",In progress[86]
+Funtoo Linux,Binary blobs,none,openrc,None,No
+Gentoo Linux,Binary blobs,none,openrc," Awesome (window manager), Enlightenment, Fluxbox, GNOME, KDE, LXDE-Meta, Openbox, XBMC and Xfce (live DVD)Awesome (window manager) ",No
+GNewSense," Debian Linux kernel, and (unlike Debian) blobs cannot be installed[82] ",ext3,sysvinit,GNOME,No
+GnuLinEx,Binary blobs,ext2,?,GNOME,No
+Guix System Distribution,Linux-libre," btrfs, ext4 ",GNU Shepherd," GNOME, Xfce, Mate, Enlightenment, i3, ratpoison, xmonad ",In progress[88]
+Hyperbola GNU/Linux-libre,Linux-libre,none,openrc[89],none,No
+Instant WebKiosk,Binary blobs,SquashFS,systemd,Has no DE. It's a browser-only interface,No
+Kali Linux,Binary blobs,ext3,systemd,GNOME,No
+Knoppix,Binary blobs,xfs,microknoppix,LXDE,No
+LibreCMCLibreCMC,Binary blobs,ext4,busybox-init,none,No
+Linux MintLinux Mint,Binary blobs[80],ext4,Systemd," MATE (desktop environment), MATE (desktop environment), MATE (desktop environment), MATE (desktop environment) ",No
+Mageia,Binary blobs,ext4,systemd," KDE Plasma Workspaces, GNOME ",No
+Mandriva Linux,Binary blobs,ext4,systemd,KDE Plasma Workspaces,No
+Manjaro Linux,Binary blobs,none[92],systemd," Xfce, Xfce, Xfce Xfce ",No
+MEPIS,Binary blobs," ext3, ext4 ",sysvinit,KDE Plasma Workspaces,No
+Musix GNU+LinuxMusix GNU+Linux,Linux-libre,ext4,initscripts,LXDE,No
+OpenELEC,Binary blobs,SquashFS,shell script,XBMC Media Center,No
+OpenSUSE,Binary blobs,btrfs,systemd," KDE Plasma Workspaces, GNOME, Xfce ",In progress[95]
+OpenWrt,Binary blobs,Overlayfs+Overlayfs/OverlayfsOverlayfs,procd[97],none,No
+Parabola GNU/Linux-libre,Linux-libre,none,openrc or systemd,none,No
+Pardus (operating system),Binary blobs,ext4,systemd,KDE Plasma Workspaces,No
+Parsix,Binary blobs,ext4,systemd,GNOME,No
+PCLinuxOS,Binary blobs,none,sysvinit," KDE Plasma Workspaces, GNOME, LXDE, Xfce, Enlightenment, Openbox ",No
+Pentoo,Binary blobs,SquashFS,openrc,Enlightenment,No
+Porteus (operating system),Binary blobs," Squashfs, ext2, ext3, ext4, FAT32, reiser, xfs ",sysvinit," KDE, LXDE, Xfce, Openbox, Razor-qt ",No
+Puppy Linux,Binary blobs,SquashFS containing ext2,busybox-init,JWM,No
+Red Hat Enterprise Linux,Binary blobs,xfs,systemd,GNOME,No
+Pixart,Binary blobs,ext3,?,KDE Plasma Workspaces,No
+Sabayon Linux,Binary blobs,ext4[98],systemd," KDE Plasma Workspaces, GNOME ",No
+Scientific Linux,Binary blobs,ext4," sysvinit, systemd[99] ",GNOME,No
+Slackware,Binary blobs[80],ext4,sysvinit compatible BSD BSD scripts," KDE Plasma Workspaces, Xfce, Fluxbox, Blackbox, Blackbox ",No
+Slax,Binary blobs,SquashFS,sysvinit,KDE Plasma Workspaces,No
+SliTaz GNU/Linux,Binary blobs,ext3,busybox-init,Openbox,No
+Solus (operating system),Binary blobs,ext4,systemd," Budgie (desktop environment), Gnome, MATE ",No
+Source Mage GNU/Linux,Binary blobs,ext2,simpleinit-msb,none,No
+SteamOS,Binary blobs,?,systemd,Steam (software),No
+SUSE Linux Enterprise Desktop,Binary blobs[80],btrfs[100],systemd,GNOME,No
+The Amnesic Incognito Live System,Vanilla Linux[80],?,systemd,GNOME,No
+Tor-ramdisk,Binary blobs,ext2,?,none,No
+Trisquel,Linux-libre," ext4, xfs ",Systemd," GNOME, GNOME ",No
+TurnKey Linux Virtual Appliance Library,Binary blobs,ext4,systemd,none - headless server by design; provides Webmin for administration,No
+Ubuntu (operating system)/Ubuntu (operating system),Binary blobs[80],ext4[101],systemd,Unity (user interface),No
+Ubuntu GNOME,Binary blobs,ext4,systemd,GNOME 3,No
+Ubuntu MATE,Binary blobs,ext4,systemd,MATE,No
+Kubuntu,Binary blobs,ext4[101],systemd,KDE Plasma Workspaces,No
+Xubuntu,Binary blobs,ext4[101],systemd,Xfce,No
+Lubuntu,Binary blobs,ext4,systemd,LXQt,No
+Ututo," Ututo XS (stable) is de-blobed with Linux-libre tools.Linux-libre Ututo UL (development) uses Linux-libre. Ututo UL means ""Ubuntu-Libre"" ",ext3,systemd,GNOME,No
+VectorLinux,Binary blobs,ReiserFS,sysvinit," KDE, Openbox, Fluxbox, IceWM, Xfce ",No
+Void Linux,Binary blobs,none,runit,none,No
+Webconverger,Binary blobs,gitfs,sysvinit,Dwm enforcing a Browser-only interface,No
+XBMC Live,Binary blobs,ext3,Systemd,XBMC Media Center,No
+Zentyal,Binary blobs,ext4,systemd,LXDE,No
+Zenwalk,Binary blobs,ext4,sysvinit,Xfce,No
+Distribution,Default Linux kernel,Default file system,Default init system,Install-time desktop environment or window manager selection,Reproducible builds

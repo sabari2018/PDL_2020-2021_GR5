@@ -1,0 +1,6 @@
+Engine,Origin,Designer,Vehicle,Use,Propellant," name=VSLAt sea level if denoted SL, in vacuum otherwise",name=VSL,Mass (kg),Thrust:Weight is calculated at standard gravity.,Chamber pressure (bar),Oxidiser:zwspfuel ratio
+,Aestus,EUR,Airbus Defence and Space," Ariane 5 G, G+, ES",Upper,N2O4 ;thinsp;/ ;thinsp;MMH,324," 30,000",111,27.6,11,1.9
+Aestus II,EUR,Airbus Defence and Space,Ariane 5,Upper,N2O4 ;thinsp;/ ;thinsp;MMH,340," 55,400",138,41.0,60,1.9
+F-1Most powerful single-chamber liquid-fueled rocket engine ever developed,USA,Rocketdyne,Saturn V,1st,RP-1 ;thinsp;/ ;thinsp;LOX,304  263 (SL)," 7,770,000  6,770,000 (SL)"," 8,391",82.27,70,2.27
+F-1ATested but never flown,USA,Rocketdyne,,1st,RP-1 ;thinsp;/ ;thinsp;LOX,303  270 (SL)," 8,989,000  8,007,000 (SL)"," 9,015",90.6,80,2.27
+Gamma 2,UK,Bristol Siddeley,Black Arrow,2nd,H2O2,265," 68,200",173,40.22,nts

@@ -1,0 +1,30 @@
+Name,Interface,Type of Client,Downloading headers XOVER,Parchive,NZB,unZip or unRAR,Integrated Search Service (retention / $$$/yr),IPv6,SSL/TLS,Audio Video Streaming,Price,Computing platform,License,Other
+Arachne (software),GUI,Traditional Newsreader,Yes,No,No,,,,,,Free," DOS, DOS ",GPL,
+BinTube,GUI,Binary Grabber,No,Yes,Yes,Yes,Yes (3200 Days / Free),Yes,Yes,Yes,$59.95 / Free with subscription,Microsoft Windows,Proprietary software,Streams media while downloading; Free with Usenet Service
+Claws Mail,GUI,,,,,,,,,,Free,Cross-platform,GPL,
+Forté Agent,GUI,Combination,Yes,Yes,Yes,Yes,,,Yes,,$29,Microsoft Windows,Proprietary software,Includes 3 month newsgroup service trial; Shareware
+Gnus,Text-based,Traditional Newsreader,Yes,No,No,No,No,Yes,Yes,No,Free,Cross-platform,GPL,Runs in Emacs; also does Emacs
+GrabIt,GUI,Binary Grabber,Yes,Yes,Yes,Yes,Yes ( 30 days / $24.99/yr ),No,Yes,,Free (searching extra),Microsoft Windows,Proprietary software,Usenet Search Service
+KNode,GUI,Traditional Newsreader,Yes,No,No,,,Yes,Yes,,Free,Unix-like,GPL,KDE
+Lotus Notes,GUI,Traditional Newsreader,Yes,No,No,,,,,,Varies," Microsoft Windows, Microsoft Windows, Microsoft Windows ",Proprietary software,
+Name,Interface,Type of Client,Downloading headers XOVER,Parchive,NZB,unZip unRAR,Integrated Search Service (retention / $$$/yr),IPv6,SSL/TLS,Audio Video Streaming,Price,Platform (computing),License,Other
+Lynx (web browser),Text-based,Traditional Newsreader,Yes,No,No,,,Yes,Yes,,Free,Cross-platform,GPL,Limited USENET support
+Mozilla Mail &amp; Newsgroups,GUI,Traditional Newsreader,Yes,No,No,No,No,,,,Free,Cross-platform,Mozilla Public License/Mozilla Public License/Mozilla Public License tri-license,Replaced by SeaMonkey
+Mozilla Thunderbird,GUI,Traditional Newsreader,Yes,No,No,No,No,Yes,Yes,,Free,Cross-platform,Mozilla Public License,Plugin support
+NewsBin,GUI,Binary Grabber,Yes,Yes,Yes,Yes,Yes ( $10/yr ),Yes,Yes,,$20,Microsoft Windows,Proprietary software,Shareware
+NewsLeecher,GUI,Combination,Yes,Yes,Yes,Yes,Yes Optional extra Add $10 per year,No,Yes,,Varies,Microsoft Windows,Proprietary software,Shareware
+Novell GroupWise,GUI,Traditional Newsreader,Yes,No,No,,,,,,Varies," Microsoft Windows, Microsoft Windows ",Proprietary software,
+Opera Mail,GUI,Traditional Newsreader,Yes,No,No,,No,Yes,Yes,,Free,Cross-platform,Proprietary software,Part of Opera (web browser) up to version 12.17
+Outlook Express,GUI,Traditional Newsreader,Yes,No,No,No,No,Yes,Yes,,,Microsoft Windows,Proprietary software,Part of Microsoft Windows (up to Microsoft Windows)
+Pan (newsreader),GUI,Combination,Yes,No,Yes,No,,Yes,Yes,,Free," Unix-like, Unix-like ",GPL,Gtk+
+Name,Interface,Type of Client,Downloading headers XOVER,Parchive,NZB,unZip &amp; unRAR,Integrated Search Service (retention / $$$/yr),IPv6,SSL/TLS,Audio Video Streaming,Price,Platform (computing),License,Other
+SeaMonkey,GUI,Traditional Newsreader,Yes,No,No,No,No,,,,Free,Cross-platform,Mozilla Public License,Replaced Mozilla Mail &amp; Newsgroups
+Slrn,Text-based (computing),Traditional Newsreader,Yes,Yes (using macros),Yes (using macros),Yes (using macros),No,Yes,Yes,No,Free,Cross-platform,GPL,Highly extensible using S-Lang (programming language) scripts (macros)
+Sylpheed,GUI,Traditional Newsreader,Yes,No,No,,,,Yes,,Free,Cross-platform,GPL/GPL,Gtk+
+Tin (newsreader),Text-based (computing),Traditional Newsreader,Yes,No,No,No,,Yes,No,,Free,Unix-like,BSD licenses,Free Software
+Unison (Usenet client),GUI,Combination,Yes,Yes,Yes,Yes,,Yes,Yes,Yes (audio only),Free,Mac OS X,Proprietary software,Development has ceased. Free but unsupported.
+Usenet Explorer,GUI,Combination,Yes,Yes,Yes,Yes,Yes ( 1500 days / $23.34/yr ),Yes,Yes,,$35,Microsoft Windows,Proprietary software,Shareware
+Windows Live Mail,GUI,Traditional Newsreader,Yes,,,,,Yes,,,Free,Microsoft Windows,Proprietary software,
+Windows Mail,GUI,Traditional Newsreader,Yes,,,,,Yes,,,,Microsoft Windows,Proprietary software,Part of Windows Vista and Windows Vista
+Xnews,GUI,Combination,Yes,No,No (Can create NBZs),,,No,,,Free,Microsoft Windows,Proprietary software,
+XPN (newsreader),GUI,Traditional Newsreader,Yes,No,No,,,,Yes,,Free,Cross-platform,GPL,

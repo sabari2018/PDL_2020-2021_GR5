@@ -1,0 +1,24 @@
+Shell,Pipeline (software),Command substitution,Process substitution,Subshells,Transmission Control Protocol/Transmission Control Protocol connections as streams,Keystroke stacking
+Bourne shell,bytes concurrent,Yes,No,Yes,No,N/A[nb 19]
+POSIX shell,bytes concurrent,Yes,No,Yes,No,N/A[nb 19]
+Bash (Unix shell) (v4.0),bytes concurrent,Yes,Yes (if system supports /dev/fd/ ⟨n⟩  or named pipes),Yes,Yes (client only),N/A[nb 19]
+C shell,bytes concurrent,Yes,No,Yes,No,N/A[nb 19]
+Tcsh,bytes concurrent,Yes,No,Yes,No,N/A[nb 19]
+Hamilton C shell,bytes concurrent,Yes,No,Yes,No,?
+Scsh,text,?,?,?,Yes,N/A[nb 19]
+Korn Shell (ksh93t+),bytes (may contain serialized objects if print -C is used) concurrent,Yes ($(...) and ${<space>...;}),Yes (if system supports /dev/fd/ ⟨n⟩ ),Yes," Yes (and SCTP support, client only) ",N/A[nb 19]
+Pdksh,bytes concurrent,Yes,No,Yes,No,N/A[nb 19]
+Zsh,bytes concurrent,Yes,Yes,Yes," Yes (client and server, but only TCP) ",N/A[nb 19]
+Almquist shell,bytes concurrent,Yes,No,Yes,No,N/A[nb 19]
+CCP (CP/M),No,No,No,No,No,No
+COMMAND.COM,text sequential temporary files,No,No,Partial (only under DR-DOS multitasker via COMMAND.COM /T),No,No
+OS/2 CMD.EXE,text concurrent,No,No,?,No,No
+Windows CMD.EXE,text concurrent,Yes (via FOR /F command),No,Yes (Backtick: ` in FOR /F usebackq),No,No
+4DOS,text sequential temporary files,Yes (via FOR /F command),?," Partial (via %@EXECSTR[] and %@EXEC[], or via SET /M, ESET /M and UNSET /M and %@MASTER[...]) ",No,Yes (via KEYSTACK and KSTACK.COM)KSTACK.COM
+4OS2,text concurrent,?,?,?,No,Yes (via KEYSTACK)
+Take Command Console (formerly 4NT),text concurrent,Yes (via FOR /F command),?,Partial (via %@EXECSTR[] and %@EXEC[])," Yes (via FTP, TFTP, FTPS, SFTP, HTTP, HTTPS and IFTP, client only) ",Yes (via KEYSTACK)
+Windows PowerShell,objects concurrent,Yes,No,Yes,Yes,?
+Rc,text concurrent,Yes,Yes (via: <{cmd} if system supports /dev/fd/ ⟨n⟩ ),Yes,No,?
+BeanShell,not supported,?,?,?,Yes,?
+DIGITAL Command Language,text (via PIPE command),Yes,No,Yes (spawn),Yes (server TCP only),No
+Friendly interactive shell,bytes concurrent,Yes (...),No (broken)[52],No,No,N/A[nb 19]
