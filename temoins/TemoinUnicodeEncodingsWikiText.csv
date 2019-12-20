@@ -1,6 +1,6 @@
 Code range (hexadecimal),,,,,,,,,,,,UTF-7,UTF-8 quoted-printable,UTF-8 base64,UTF-16 q.-p.,UTF-16 base64
 GB 18030 q.-p.,,,,,,,,,,,,GB 18030 base64
-ASCIIgraphic characters(except U+003D "="),,,,,,,,,,,,for "direct characters" (depends on the encoder setting for some code points), 2 for U+002B "+", otherwise same as for 000080 – 00FFFF",1,,4,
+"ASCIIgraphic characters(except U+003D "=")",,,,,,,,,,,,for "direct characters" (depends on the encoder setting for some code points), 2 for U+002B "+", otherwise same as for 000080 – 00FFFF",1,,4,
 1,,,,,,,,,,,,,,
 00003D (equals sign),,,,,,,,,,,,,,,3,,
 3,,,,,,,,,,,,,,,
