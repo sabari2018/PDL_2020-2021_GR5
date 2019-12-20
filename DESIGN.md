@@ -3,7 +3,7 @@
 
 ## Global architecture
 
-This project contains two packages : one "model" which contains all classes and "test" which contains all test classes.
+This project contains two packages : "model" which contains all classes and "test" which contains all test classes.
 
 The global architecture is : 
 
