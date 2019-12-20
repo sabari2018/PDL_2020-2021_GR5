@@ -1,0 +1,30 @@
+Software,Word for Windows,Word for Mac,Pages,Apache OpenOffice / LibreOffice,Kile/LyX,Google Docs,RTF scan[30],Other
+Bebop,No,No,No,No,No,No,No,none
+BibBase,No,No,No,No,No,No,No,none
+BibDesk,No,No,No,No,Yes,?,?,?
+Biblioscape,Yes,No,No,No,No,No,?,WordPerfect
+BibSonomy,No,No,No,No,No,No,No,none
+Bibus,Yes,?,?,Yes,No,No,?,none
+Bookends,Yes,Yes,Yes,Yes,No,No,Yes," Mellel, Mellel "
+Citavi,Yes,No,No,Only versions prior to 6.0,Yes[31],No,Only versions prior to 6.0," LaTeX editors LEd, LEd, LEd, LEd, LEd, LEd, LEd "
+CiteULike,No,No,No,No,No,No,No,none
+colwiz,Yes,?,?,Yes,No,No,?," NeoOffice, Star Office "
+EndNote,Yes,Yes,Yes,No[32],No,No,Yes,No
+F1000Workspace,Yes,Yes,No,No,No,Yes,No,Manuscripts App
+JabRef,Yes[33],?,?,Yes[34],Yes,No,?," Emacs, Emacs, Emacs, Emacs, Emacs "
+KBibTeX,No,?,?,No,Yes,No,?,none
+Mendeley,Yes,Partial[35],No,Yes,No,No,?,NeoOffice
+Paperpile,in beta,No,No,No,No,Yes,No,No
+Pybliographer,No,?,?,Yes,Yes,No,?,none
+Qiqqa,Yes,?,?,No,Yes,No,No,none
+ReadCube (now Papers),Yes,Yes,?,No,No,Yes,No,none
+refbase,No,?,?,Yes[36],No,No,Yes," MediaWiki, MediaWiki, MediaWiki "
+RefDB,No,?,?,No,No,No,No,none
+Reference Manager,Yes,No,No,No,No,No,Yes,none
+Referencer,?,?,?,?,?,?,?,?
+RefWorks,Yes,Yes,No,No,No,Yes,Yes,none
+SciRef,Yes,?,?,No,No,No,No,none
+Sente,Yes,?,Only versions prior to 5.0,No,No,No,Yes," Mellel, Mellel, TextEdit; HTML and plain text scan "
+Wikindx,No,?,?,No,No,No,Yes,Integrated WYSIWYG word processor (RTF output for Word/OpenOffice)
+WizFolio,Yes,?,?,Yes,No,Yes,?,Zoho Writer (page does not exist)
+Zotero,Yes,Yes,No,Yes,(with LyZ)[37],Yes,Yes,NeoOffice

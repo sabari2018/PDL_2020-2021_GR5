@@ -1,0 +1,36 @@
+scope="col" width="5em",Austria,Belgium,CzechRepublic,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia ;Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland ;Liechtenstein,Turkey,Ukraine,UnitedKingdom
+scope="col"  Road closed to all vehicles in both directions,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+scope="col"  No entry for vehicular traffic,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px(no exceptions)60px(with exceptions),60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+scope="col"  No motor vehicles,60px,NOTUSED,60px,60px,60px,60px,60px," 60px",60px,60px,60px,,NOTUSED,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px," 60px",60px,60px,60px
+scope="col"   No motor vehicles except motorcycles,60px,60px,60px,NOTUSED,60px,NOTUSED,,60px,60px,60px,60px,NOTUSED,60px,60px,60px,NOTUSED,60px,60px,60px,NOTUSED,60px,60px,60px,60px,60px,60px,NOTUSED,60px
+scope="col"  No motorcycles,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+scope="col"  No bicycles,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+scope="col"  No pedestrians,60px,60px,60px,60px,60px,60px,60px," 60px",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+scope="col"  No buses,60px,60px,60px,60px,60px,60px,60px," 60px",,60px,60px,,60px,,60px,,60px,60px,60px,NOTUSED,60px,60px,,,60px,60px,,60px
+scope="col"  No heavy goods vehicles,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px or 60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+scope="col"  No tractors,,NOTUSED,60px,60px,60px,60px,60px," 60px",60px,60px,60px,NOTUSED,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,DISUSED,60px,60px,NOTUSED
+scope="col"  No trailers,60px,,60px,,60px,60px,60px," 60pxor60px",60px,60px,,,60px,60px,60px,,60px,60pxor60px,60px,60px,60px,60pxor60pxor60px,60px,60px,60px,60px,60px,NOTUSED
+scope="col"  No horns or excessive motor noise,60px,NOTUSED,60px,,60px,NOTUSED,60px,,60px,NOTUSED,,,60px,60px,NOTUSED,,60px,60px,60px,60px,60px,60px,60px,NOTUSED,REPLACEDby signno. 4.14,60px,60px,NOTUSED
+scope="col" width="5em",Austria,Belgium,CzechRepublic,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia ;Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland ;Liechtenstein,Turkey,Ukraine,UnitedKingdom
+scope="col"  No overtaking,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60pxor60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+scope="col"  No overtaking by heavy goods vehicles,60px,60px,60px,60px,60px,60px,60px," 60px",60px,60px,60px,60px," 60px",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,NOTUSED
+scope="col"  Maximum speed limit,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+scope="col"  Speed limit zone,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px60px,60px,60px,60px,60px,60px,60px,60px,60px,,60px,60px,NOTUSED,60pxor60px,,60px,60px
+scope="col"  Maximum height,60px,60px,60px,60px,60px,60px,60px," 60px",60px,60px,60px,60px," 60px",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+scope="col"  Maximum width,60px,60px,60px,60px,60px,60px,60px," 60px",60px,60px,60px,60px," 60px",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+scope="col"  Maximum vehicle length,60pxor60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60pxand60px
+scope="col"  Maximum weight,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60pxor60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+scope="col"  Maximum weight per axle,60px,NOTUSED,60px,60px,60px,60px,60px," 60px",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,NOTUSED
+scope="col"  Maximum weight per tandem axle,NOTUSED,,,60px,60px,60px,NOTUSED,,,,,,,,NOTUSED,60px,NOTUSED,,60pxor60px,NOTUSED,,,,60px,60px,NOTUSED,,
+scope="col" width="5em",Austria,Belgium,CzechRepublic,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia ;Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland ;Liechtenstein,Turkey,Ukraine,UnitedKingdom
+scope="col"  No vehicles carrying dangerous goods,60px,60pxor 60px,60px,60px,60px,60px,60px," 60px",60px,60px,60px,NOTUSED,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+scope="col"  No vehicles carrying dangerous water pollutants,60px,60px,60px,NOTUSED,,,60px," 60px",60px,60px,60px,,60px,60px,rowspan="3"  NOTUSED,,60px,60px,60px,NOTUSED,60px,60px,60px,NOTUSED,60px,60px,60px,NOTUSED
+scope="col"  No vehicles carrying explosives,NOTUSED,60px,NOTUSED,,,,60px," 60px60px",60px,60px,NOTUSED,60px,60px,60px,60px,,60px,60px,60px,NOTUSED,60px,60px,60px30px," 60px50px",60px,60px,60px60px
+scope="col"  Minimum safe following distance between vehicles,,NOTUSED,60px,,60px,60px,60px," 60px(over 3.5t)",60px,60pxor60px,60px,NOTUSED,60px,60px,,,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,NOTUSED
+scope="col"  No right turn,60px,60px,60px,60px,60px,60px,60px,NOTUSED,60px,60px,60px,60px,60px,60px,NOTUSED,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+scope="col"  No left turn,60px,60px,60px,60px,60px,60px,60px,,60px,60px,60px,60px,60px,60px,,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+scope="col"  No U-turns,60px,60px,60px,60px,60px,60px,60px," 60px",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+scope="col"  No parking or waiting,60px,60px,60px,60px,60px,60px,60px," 60px",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+scope="col"  No stopping,60px,60px,60px,60px,60px,60px,60px," 60px",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+scope="col"  No parking zone,60px,,60px,,60px,60px,60px," 60px",60px,60px,60px,60px60px,NOTUSED,60px,,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px  or  60px,,60px,60px
+scope="col" width="5em",Austria,Belgium,CzechRepublic,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia ;Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland ;Liechtenstein,Turkey,Ukraine,UnitedKingdom

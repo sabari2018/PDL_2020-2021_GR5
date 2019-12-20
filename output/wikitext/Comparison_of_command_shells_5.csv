@@ -1,0 +1,24 @@
+Shell,Pipes,Command substitution,Process substitution,Subshells,TCP/UDP connections as streams,Keystroke stacking
+Bourne shell,bytes concurrent,yes,no,yes,no,N/A
+POSIX shell,bytes concurrent,yes,no,yes,no,N/A
+bash (v4.0),bytes concurrent,yes,Yes (if system supports /dev/fd/n or named pipes),yes,Yes (client only),N/A
+csh,bytes concurrent,yes,no,yes,no,N/A
+tcsh,bytes concurrent,yes,no,yes,no,N/A
+Hamilton C shell,bytes concurrent,yes,no,yes,no,?
+Scsh,text,?,?,?,yes,N/A
+ksh (ksh93t+),bytes (may contain serialized objects if print -C is used) concurrent,Yes ($(...) and ${...;}),Yes (if system supports /dev/fd/n),yes,"Yes (and SCTP support, client only)",N/A
+pdksh,bytes concurrent,yes,no,yes,no,N/A
+zsh,bytes concurrent,yes,yes,yes,"Yes (client and server, but only TCP)",N/A
+ash,bytes concurrent,yes,no,yes,no,N/A
+CCP,no,no,no,no,no,no
+COMMAND.COM,text sequential temporary files,no,no,partial (only under DR-DOS multitasker via COMMAND.COM /T),no,no
+OS/2 CMD.EXE,text concurrent,no,no,?,no,no
+Windows CMD.EXE,text concurrent,Yes (via FOR /F command),no,Yes (Backtick: ` in FOR /F usebackq),no,no
+4DOS,text sequential temporary files,Yes (via FOR /F command),?,"partial (via %@EXECSTR[] and %@EXEC[], or via SET /M, ESET /M and UNSET /M and %@MASTER[...])",no,yes (via KEYSTACK and KSTACK)
+4OS2,text concurrent,?,?,?,no,yes (via KEYSTACK)
+TCC (formerly 4NT),text concurrent,Yes (via FOR /F command),?,partial (via %@EXECSTR[] and %@EXEC[]),"yes (via FTP, TFTP, FTPS, SFTP, HTTP, HTTPS and IFTP, client only)",yes (via KEYSTACK)
+PowerShell,objects concurrent,yes,no,yes,yes,?
+rc,text concurrent,yes,Yes (via:  if system supports /dev/fd/n),yes,no,?
+BeanShell,not supported,?,?,?,yes,?
+VMS DCL,text (via PIPE command),yes,no,Yes (spawn),Yes (server TCP only),no
+fish,bytes concurrent,yes (...),No (broken),no,no,N/A

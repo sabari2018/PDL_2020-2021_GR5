@@ -1,0 +1,48 @@
+Name,IP SLA Reports,Logical Grouping,Trending,Trend Prediction,Auto Discovery,Agentless,Simple Network Management Protocol,Syslog,Plugins,Triggers / Alerts,Management information base Compiler,Web application,Distributed Monitoring,Inventory,Platform,Data Storage Method,License,Network mapping,Access Control,IPv6,Latest release date,Latest release version
+Argus (monitoring software),Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No," Viewing, Acknowledging, Reporting ",Yes,Unknown,Perl," Flat file, Flat file ",Artistic License,No,Yes,Yes,2013-02,3.7
+Avaya Visualization Performance &amp; Fault Manager,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes,Unknown,MySQL,Commercial,Yes,Yes,Yes
+Cacti (software),Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes,PHP," RRDtool, RRDtool ",GNU General Public License,Via plugin,Yes,Yes,2019-06-07,1.2.4
+Check MK,Via plugin,Yes,Yes,Yes,Via plugin,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes," C (programming language), C (programming language) ",RRDtool,GNU General Public License,Via plugin,Yes,Yes,2019-11-11,1.6.0p6
+Collectd,No,No,No,No,Push model; Multicast possible,Yes,Yes,Yes,Yes,Yes,No,Viewing,Yes,No,C (programming language),RRDtool,GNU General Public License,No,Apache ACL,Yes,2019-11-13,5.10
+Dorado Software,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes," Java (programming language), Java (programming language), Java (programming language) "," MySQL, MySQL ",Commercial,Yes,Yes,Yes,2019-02,8.0.0
+Entuity Network Management,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes," C (programming language), C (programming language), C (programming language) ",MariaDB,Commercial,Yes,Yes,Yes,2017-12-22,16.5 P3
+FreeNATS,Yes,Yes,No,No,Yes,No,No,Via plugin,Yes,In PHP Code,No,Full Control,No,No,PHP,MySQL,GNU General Public License,No,Yes,Unknown,2011-07-09,1.13.3b
+Ganglia (software),No,Yes,Yes,No,Via gmond check in,No,Via plugin,No,Yes,No,No,Viewing,Yes,Unknown," C (programming language), C (programming language) ",RRDtool,BSD licenses,Yes,No,Unknown,2016-06-14,3.7.2
+Hinemos,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes,Java (programming language),PostgreSQL,GNU General Public License,Yes,Yes,Yes,2017-06-09,6.0.1
+Openview,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Via integration,Yes,Yes,No,Full Control,Yes,Yes," C++, C++, C++ "," PostgreSQL, PostgreSQL ",Commercial,Yes,Yes,Yes,2016-08,10.20
+Icinga,Via plugin,Yes,Yes,No,Via plugin,Yes,Via plugin,Via plugin,Yes,Yes,No,Full Control,Yes,Via plugin,C[1]," MySQL, MySQL, MySQL ",GNU General Public License,,Yes,Yes,2019-03-19,2.10.4
+InterMapper,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Viewing,Yes,Yes," Windows, Windows &amp; Windows ",PostgreSQL," Limited free, Commercial ",Yes,Yes,Yes,2017-07,6.1.5
+Isyvmon,Yes,Yes,Yes,No,Via plugin,No,Yes,Yes,Yes,Yes,No,Full Control,Yes,Via plugin,PHP," RRDtool, RRDtool "," Limited free, Commercial ",Via plugin,Yes,Yes
+Kaseya Network Monitor,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Full Control,Yes,Yes,Unknown,FirebirdSQL,Commercial,Yes,Yes,Unknown
+Munin (network monitoring application),No,Yes,Yes,Yes,No,No,Yes,No,Yes,Partial,No,Viewing,Via nodes,Unknown,Perl,RRDtool,GNU General Public License,Unknown,Unknown,Yes,2016-09-19,2.0.26
+Nagios,Via plugin,Yes,Yes,No,Via plugin,Yes,Via plugin,Via plugin,Yes,Yes,No,Yes,Yes,Via plugin,C (programming language)," Flat file, Flat file (via ndoutils), MySql (Via Nconf) ",GNU General Public License,Yes,Yes,Yes[2],2019-07-29,4.4.4[3]
+NeDi,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes," Perl, Perl "," PostgreSQL, PostgreSQL, PostgreSQL, PostgreSQL "," GPL3, Commercial ",Yes,Yes,Yes,2016-04,1.6[4]
+Netdisco,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Perl,PostgreSQL,BSD licenses,Yes,Yes,Yes,2017-10,2.036011[5]
+NetXMS,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Yes,Unknown,Unknown,Unknown,Yes,Unknown,Unknown,Unknown," C (programming language), C (programming language) "," Oracle Database, Oracle Database, Oracle Database, Oracle Database, Oracle Database, Oracle Database ",GNU General Public License,Yes,Yes,Unknown,2019-09-11,3.0
+Kratos Defense &amp; Security Solutions,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes,Unknown,MS SQL,Commercial,Yes,Yes,Yes
+UIM,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No," Viewing, Acknowledging, Reporting ",Yes,Yes,Unknown," SQLServer (page does not exist), SQLServer (page does not exist), SQLServer (page does not exist) "," Limited free, Commercial ",Yes,Yes,Yes,2013-06-30,1.8.6
+Octopussy (software),No,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,No,Full control,No,Yes," Perl, Perl ",MySQL,GNU General Public License,No,Yes,No,2017-06-03,1.0.16
+Op5 Monitor,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Via plugin," C (programming language), C (programming language) "," Flat file, Flat file "," Limited free, Commercial ",Yes,Yes,Yes,Monthly,7.3.0
+OpenKBM,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Unknown,Proprietary with JDBC support,Commercial,Yes,Yes,Yes
+OpenNMS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Full Control,Yes,Yes,Java (programming language)," JRobin / RRDTool / RRDTool, RRDTool ",Affero General Public License,Yes,Yes,Yes,2019-09-26,25.0.0
+NMIS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Full Control,No,Yes,Yes,Yes,Perl," MongoDB, MongoDB "," GPL, Commercial ",Yes,Yes,Yes,2015-10,8.5.10G
+OPNET,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No," Viewing, Acknowledging, Reporting ",Yes,No,Unknown,Unknown,Commercial,Yes,Yes,Unknown
+Opsview,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,No," Perl, Perl, Perl ",SQL,Commercial,Yes,Yes,No,2019-08-07,6.2
+Objective Systems Integrators,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes," Java (programming language), Java (programming language) ",Oracle database,Commercial,Yes,Yes,Yes,2013-04,10.0
+PA Server Monitor,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No," Viewing, Reporting ",Yes,Yes,C++," SQLite, SQLite ",Commercial,Yes,Yes,No,2014-07,5.5
+PacketTrap,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No," Viewing, Reporting ",Yes,Yes,Unknown,SQL,Commercial,Yes,Yes,Yes
+Pandora FMS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes," Perl, Perl, Perl, Perl "," MySQL, MySQL "," GPL, Commercial ",Yes,Yes,Yes,2017-07,7.0 NG 707
+PathSolutions TotalView,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Windows,SQLite,Commercial,Yes,Yes,No,2018-06-01,9.01
+Performance Co-Pilot,No,Yes,Yes,No,Yes," Optional, Limited ",Yes,Yes,Yes,Yes,No,Viewing,Yes,Yes," C (programming language) C (programming language), C (programming language), C (programming language), C (programming language) ",Flat file," GNU General Public License, GNU General Public License ",No,Yes,Yes,2016-11-15,3.11.6
+PRTG Network Monitor,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Windows,Flat file," Limited free, Commercial ",Yes,Yes,Yes,2019-05-15,19.2.50
+ScienceLogic,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes,Python (programming language),MySQL,Commercial,Yes,Yes,Yes
+SevOne,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes," C (programming language), C (programming language), C (programming language) ",MySQL,Commercial,Yes,Yes,Yes,2018-09,5.7.2.4[6]
+Shinken (software),Via plugin,Yes,Yes,No,Yes,Yes,Via plugin,Via plugin,Yes,Yes,No," Viewing, Acknowledging, Reporting ",Yes,Via plugin,Python (programming language)," Flat file, Flat file, Flat file, Flat file, Flat file, Flat file ",Affero General Public License,Yes,Yes,Yes,2016-03-10,2.4.3
+SolarWinds,Yes,Yes,Yes,Yes,Yes,Partial,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes,.NET Framework,SQL,Commercial,Yes,Yes,Yes,
+Spiceworks,?,Yes,?,?,Yes,Yes,?,?,Yes,Yes,?,?,?,Yes,PHP,Sqlite,?,Yes,?,?,2018-03-21,7.5.00107
+de:Spectrum Enterprise Manager,Yes,Yes,Perf. AddOn,Perf. AddOn,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes," C++, C++ "," Sleepycat-QSL, Sleepycat "," Commercial, per Device ",Yes,Yes,Yes,2018-03,10.2
+Xymon,Yes,Yes,Yes,No,Via plugin,Via plugin,Via plugin,No,Yes,Yes,No," Viewing, Acknowledging, Reporting ",Yes,Via plugin," C (programming language), Shell "," Flat file, Flat file, Flat file via plugin ",GNU General Public License,Via plugin,Apache ACL,No,2017-01-18,4.3.28
+Vigilo NMS,Yes (NMS and NOC editions),Yes,Yes,Yes via integration,Yes via integration,Yes,Yes,Yes via Prelude SIEM,Yes,Yes,No," Viewing, Acknowledging, Reporting ",Yes (NMS and NOC editions),Yes via GLPI," Python (programming language), Python (programming language) "," PostgreSQL, PostgreSQL "," Free (GPL) OSS edition, Commercial NOC/NMS editions ",Yes (NMS and NOC editions),Yes (NMS and NOC editions),Via plugin,2017-09-14,4.1.0
+Zabbix,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes," C (programming language), C (programming language) "," Oracle Database, Oracle Database, Oracle Database, Oracle Database, Oracle Database ",GNU General Public License,Yes,Yes,Yes,2019-03-29,4.2
+Zenoss Core,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes," Python (programming language), Python (programming language) "," ZODB, ZODB, ZODB "," Free Core GNU General Public License, Commercial Enterprise ",Yes,Yes,Yes,2018-01-09,6.1.0
+Name,IP SLA Reports,Logical Grouping,Trending,Trend Prediction,Auto Discovery,Agentless,Simple Network Management Protocol,Syslog,Plugins,Triggers / Alerts,Management information base Compiler,Web application,Distributed Monitoring,Inventory,Platform,Data Storage Method,Software license agreement,Network mapping,Access Control,IPv6,Latest release date,Latest release version

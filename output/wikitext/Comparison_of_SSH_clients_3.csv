@@ -1,0 +1,16 @@
+Name,User interface,SSH1,SSH2,Additional protocols,,Tunneling,,,Sessionmultiplexinggroup=Notemux,Kerberos,IPv6,Terminal,SFTP/SCP,Proxy clientgroup=NoteconnectViaProxy
+TELNET,,,,rlogin,Portforwarding,group=NoteSOCKS,VPNgroup=NoteVPN,,,,,,
+AbsoluteTelnet," GUI (multi-session,single-window)",yes,yes,yes,no,yes,yes,no,yes,yes,yes,yes,yes," SOCKS 4, 5; HTTP"
+Dropbear,command line,no,yes,no,no,yes,no,no,no,no,yes,yes,yes,dunno
+lsh,command line,no,yes,yes,no,yes,yes,no,yes,no,yes,yes,yes,dunno
+OpenSSH (OpenBSD Secure Shell),command line,yes,yes,no,no,yes,yes,yes,yes,yes,yes,yes,yes,ProxyCommand
+PuTTY,GUI or command line,yes,yes,yes,yes,yes,yes,no,yes,group=Noteputty_kerberos,yes,yes,group=Notescp_bin,"  SOCKS 4, 5; HTTP; Telnet; Local"
+SecureCRT,GUI,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,yes," SOCKS 4, 5; HTTP; Telnet; Generic"
+SmartFTP," GUI (multi-session,single-window)",no,yes,yes,no,no,no,no,no,yes,yes,yes,yes," SOCKS 4, 5; HTTP"
+Tera Term,GUI,yes,yes,yes,no,yes,no,no,no,no,yes,yes,SCP,"  SOCKS 4, 5; HTTP; Telnet"
+TN3270 Plus,GUI,yes,yes,yes,no,no,yes,no,yes,no,yes,yes,no,SOCKS 4
+TtyEmulator,GUI or command line,yes,yes,yes,yes,yes,yes,no,yes,no,no,yes,no,"  SOCKS 4,4a, 5; HTTP Local"
+group=Notewinscp_contributions,GUI or command line,yes,yes,no,no,limitedgroup=Notewinscp_tunneling,no,no,no,yes,yes,simple,yes,"  SOCKS 4, 5; HTTP; Telnet; Local"
+ZOC,TDI or command line,yes,yes,yes,yes,yes,yes,no,no,no,yes,yes,SCP through terminalgroup=Notezoc_scp_through_terminal,SOCKS 4; 5; HTTP; Jumpserver
+Name,User interface,SSH1,SSH2,Additional protocols,,Tunneling,,,Sessionmultiplexinggroup=Notemux,Kerberos,IPv6,Terminal,SFTP/SCP,Proxy clientgroup=NoteconnectViaProxy
+,,,,TELNET,rlogin,Portforwarding,group=NoteSOCKS,VPNgroup=NoteVPN,,,,,,

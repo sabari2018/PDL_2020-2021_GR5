@@ -1,0 +1,29 @@
+Format,Languages
+IF  string1 < string2  THEN -1 ELSE ABS ( string1 > string2 ) FI,ALGOL 68
+" cmp( string1 ,  string2 ) ",Python 2
+( string1  >  string2 ) - ( string1  <  string2 ),Python (programming language)
+" Strcmp( string1 ,  string2 ) "," C (programming language), C (programming language) "
+" std.string.cmp( string1 ,  string2 ) ",D (programming language)
+" StrComp( string1 ,  string2 ) "," Visual Basic, Visual Basic (Visual Basic) "
+string1  cmp  string2," Perl, Perl "
+string1  compare:  string2," Smalltalk (Smalltalk, Smalltalk) "
+string1  <=>  string2,Ruby (programming language)
+string1 .compare( string2 )," C++ (STL), C++ (Foundation) "
+" compare( string1 ,  string2 ) "," Rexx, Rexx "
+" CompareStr( string1 ,  string2 ) "," Pascal (programming language), Pascal (programming language) (Pascal (programming language)) "
+string1 .compareTo( string2 )," Cobra (programming language), Cobra (programming language) "
+string1 .CompareTo( string2 )," Visual Basic .Net, Visual Basic .Net, Visual Basic .Net "
+(compare  string1   string2 ),Clojure
+(string=  string1   string2 ),Common Lisp
+(string-compare  string1   string2   p<   p=   p> ),Scheme (programming language) (SRFI 13)
+(string=  string1   string2 ),ISLISP
+compare  string1   string2,OCaml
+" String.compare ( string1 ,  string2 ) ",Standard ML Standard ML
+compare  string1   string2,Haskell (programming language) Haskell (programming language)
+" [string]::Compare( string1 ,  string2 ) ",Windows PowerShell
+[ string1  compare: string2 ],Objective-C (NSString * only)
+" LLT( string1 , string2 )   LLE( string1 , string2 )   LGT( string1 , string2 )   LGE( string1 , string2 )  ",Fortran Fortran
+string1 .localeCompare( string2 ),JavaScript
+" bytes.Compare([]byte( string1 ), []byte( string2 )) ",Go (programming language)
+string compare ?-nocase? ?-length int?  string1   string2,Tcl
+" compare( string1 , string2 , count ) ",PL/IPL/I

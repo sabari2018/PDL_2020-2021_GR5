@@ -1,0 +1,13 @@
+IDE,Developer,Latest stable release,Windows,Linux,macOS,Other platforms,Mobiles,Debugger,GUI builder,License,Autocomplete
+Delphi,Embarcadero Technologies,Delphi 10.3 (Rio) / November 21 2018,yes,no,no," cross-compile to Android, iOS (Linux server on the roadmap)",yes,yes,yes,proprietary,yes
+Free Pascal IDE,Volunteers," 3.0.4 /  December 6, 2017",yes,yes,yes," Android, Haiku, AIX, Solaris, Windows CE, Java Virtual Machine, LLVM (experimental), JavaScript transpiler, Embedded systems.",yes,yes,no,GPL; LGPL with static linking exception,no
+KDevelop,KDevelop Team,Latest stable release/KDevelop (only 3.x supports Pascal),yes,yes,yes," Solaris, other Unix",no,no,no,GPL,
+Lazarus,Volunteers," 2.0.0 / February 6, 2019",yes,yes,yes,See Free Pascal,yes,yes,yes,GPL; LGPL with static linking exception,yes
+MIDletPascal,Code Research Laboratories," 3.5 / February 2, 2013",yes,no,no,cross-compile from Windows to Java ME,yes,no,no,GPL,
+Morfik,Morfik Technology Pty Ltd.,2.0.5.27,yes,yes,yes,compiles to web apps),yes,yes,yes,proprietary,
+MSEide,Martin Schreiber,4.6 / 2017-11-24,yes,yes,no,FreeBSD,yes,yes,yes,GPL; LGPL with static linking exception for the library MSEgui,
+Understand,SciTools,4.0 / April 2015,yes,yes,yes,Solaris,yes,no,yes,proprietary,
+Visual Studio via Oxygene,RemObjects Software,10.0 / August 2018,yes and additional Water IDE,no,yes via Fire IDE," JVM, Mono, Cocoa, Android, iOS, WebAssembly, cross compile to Linux",yes,yes,yes,proprietary; free compiler,yes
+PocketStudio,winsoft,3.0,no,no,no,Palm OS,yes,yes,yes,proprietary,
+Dev-Pascal,Bloodshed Software,1.9.2 (using FPC 1.9.2 from 2005),yes,no,no,,no,yes,no,GPL,
+PascalABC.NET,Volunteers," 3.4 /  Jule 27, 2018",yes,yes,yes,compiles to CLR,no,yes,yes,LGPL,yes

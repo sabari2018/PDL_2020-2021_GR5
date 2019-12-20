@@ -1,0 +1,35 @@
+Function,Size (Bit)Bit,,,,,,Words × Passes = Rounds[note 2],Operations[note 3],EndiannessEndianness
+,Word (computer architecture),Cryptographic hash function,Merkle–Damgård constructionMerkle–Damgård construction,Computation values[note 6],Merkle–Damgård construction,Merkle–Damgård construction Merkle–Damgård construction,,,
+GOST (hash function),32,×8 = 256,,,×8 = 256,32,4,A B L S,Little
+HAVAL,32,×4 = 128,×8 = 256,," ×32 = 1,024 ",64,32 × 3 = 96,A B S,Little
+HAVAL,,×5 = 160,,,,,
+HAVAL,,×6 = 192,,,,,
+HAVAL,,×7 = 224,,,,,
+HAVAL,,×8 = 256,,,,,
+HAVAL,,×4 = 128,32 × 4 = 128,,,,
+HAVAL,,×5 = 160,,,,,
+HAVAL,,×6 = 192,,,,,
+HAVAL,,×7 = 224,,,,,
+HAVAL,,×8 = 256,,,,,
+HAVAL,,×4 = 128,32 × 5 = 160,,,,
+HAVAL,,×5 = 160,,,,,
+HAVAL,,×6 = 192,,,,,
+HAVAL,,×7 = 224,,,,,
+HAVAL,,×8 = 256,,,,,
+MD2 (hash function),8,×16 = 128,×32 = 256,×48 = 384,×16 = 128,None,48 × 18 = 864,B,,N/A
+MD4,32,×4 = 128,,,×16 = 512,64,16 × 3 = 48,A B S,,Little
+MD5,,16 × 4 = 64,,,,
+RIPEMD,32,×4 = 128,,×8 = 256,×16 = 512,64,16 × 3 = 48,A B S,,,Little
+RIPEMD-128,,16 × 4 = 64,,,,,,,
+RIPEMD-256,×8 = 256,,,,,,,,,
+RIPEMD-160,×5 = 160,,×10 = 320,16 × 5 = 80,,,,,,
+RIPEMD-320,×10 = 320,,,,,,,,,
+SHA-0,,32,×5 = 160,,,×16 = 512,64,16 × 5 = 80,A B S,Big,
+SHA-1,,,,,,
+SHA-256,,,×8 = 256,×8 = 256,,,,16 × 4 = 64,,
+SHA-224,,,×7 = 224,,,,,
+SHA-512,64,×8 = 512,×8 = 512,,×16 = 1024,128,16 × 5 = 80,
+SHA-384,,×6 = 384,,,,
+Tiger (hash function),64,×3 = 192,×3 = 192,,×8 = 512,64,8 × 3 = 24,A B L S,,,Not Specified
+Tiger (hash function),,×2.5=160,,,,,,,
+Tiger (hash function),,×2 = 128,,,,,,,

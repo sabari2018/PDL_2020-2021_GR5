@@ -1,0 +1,16 @@
+JVM,X86,X86-64,SPARC,MIPS architecture,Itanium,Power ISA,ARM architecture,DEC Alpha,IBM System/390,Z/Architecture,M68k
+CACAO (page does not exist),Yes[17],Yes[17],Not any more[17],Yes[17],No[17],Yes[17],Yes[17],Yes[17],Yes[17],No[17],Not any more[17]
+GNU Compiler for Java,Yes[37],Yes[37],Yes[37],Yes[37],Yes[37],Yes[37],Yes[37],Yes[37],Yes[37],No[37],No[37]
+" HotSpot, HotSpot edition ",Yes[38],Yes[38],Solaris only[38],Port[39][40],No[38],PowerPC/PowerPC portPowerPC,Yes[38],No[38],No[38],No[38],No[38]
+" HotSpot, Oracle JDK edition ",Yes[38],Yes[38],Solaris only[38],No[38],Java 1.6[42],No[38],Yes[38],No[38],No[38],No[38],No[38]
+" HotSpot, Java SE embedded edition ",Yes[5],Yes[5],Yes[5],?,?,Yes[5],Yes[5],?,?,?,?
+" HotSpot, Zero port ",Yes[43],Yes[43],No[43],Yes[43],Yes[43],Yes[43],Yes[43],Yes[43],No[43],Yes[43],No[43]
+IKVM.NET,Any architecture with a .NET framework.,,,,,,,,,,
+JAmiga (page does not exist),?,?,No,No,No,Yes,No,No,No,No,Yes
+JamVM,Yes[23],Yes[23],Yes[23],Yes[23],No[23],Yes[23],Yes[23],No[23],No[23],No[23],No[23]
+Jato VM (page does not exist),Yes[10],Under development[44],No,No,No,Under development[44],Preliminary ARMv5 support[25],No,No,No,No
+JC virtual machine (page does not exist),Yes,No,No,No,No,No,No,No,No,No,No
+Jikes RVM,Yes[45],No[45],No[45],No[45],No[45],Yes[45],No[45],No[45],No[45],No[45],No[45]
+Kaffe,Yes[13],Yes[13],Yes[13],Yes[13],Yes[13],Yes[13],Yes[13],Yes[13],Yes[13],No[13],Yes[13]
+Mysaifu JVM (page does not exist),No[46],No[46],No[46],No[46],No[46],No[46],Yes[46],No[46],No[46],No[46],No[46]
+SableVM,Yes[47],Yes,Yes[47],Yes,Yes[47],Yes[47],Yes[47],Yes[47],Yes[47],No[47],Yes[47]

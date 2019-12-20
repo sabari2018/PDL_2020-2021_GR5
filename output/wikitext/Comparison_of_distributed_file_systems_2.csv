@@ -1,0 +1,10 @@
+Written in,License,Access API
+BeeGFS,C / C++," FRAUNHOFER FS (FhGFS) EULA, GPLv2 client",POSIX
+ObjectiveFS,C,proprietary," POSIX, FUSE"
+Spectrum Scale (GPFS)," C, C++",proprietary," SMB, Swift"
+MapR-FS," C, C++",proprietary," POSIX, NFS, FUSE, S3"
+[https://www.panasas.com/panfs-architecture/panfs/ PanFS]," C, C++",proprietary," DirectFlow, NFS, SMB/CIFS, HTTP, CLI"
+Infinit,C++,proprietary (to be open sourced)," FUSE, NFS/SMB, POSIX, CLI, SDK (libinfinit)"
+Isilon OneFS,C/C++,Proprietary," POSIX, NFS, CLI, Rest API"
+Scality,C,proprietary," FUSE, REST, AWS S3"
+Quobyte," Java, C++",proprietary," POSIX, FUSE, NFS,  Tensorflow Plugin, CLI, Rest API "

@@ -1,0 +1,36 @@
+OS,Version,Claimed IPv6-ready,Installed by default,DHCPv6,Neighbor Discovery Protocol RDNSS,Notes
+IBM AIX,4.3,Yes,Yes,Yes,No,
+AlliedWare Plus,5.4.4,Yes,Yes,Yes,No,
+Android (operating system),5.0 (Android Lollipop),Yes[1][2],Yes,No[3],Yes,
+ChromeOS,67.0.3396.99,Yes,Yes,No,Yes,
+Cisco IOS,15.3,Yes,Yes,Yes,Yes[4]," Support for RDNSS option as of 15.4(1)T, 15.3(2)S. "
+Cisco Meraki,MX + MR + MX series,No,No,No,No," [5] Devices can only carry / pass through IPv6 on bridge, but not route "
+Debian,3.0 (woody),Yes,Yes,Yes,Yes," RDNSS support with ""rdnssd"" and ""resolvconf"" or ""openresolve"" packages. "
+Fedora (operating system),13,Yes,Yes[6],Yes[6],Yes[6],
+FreeBSD,9.0,Yes[7],Yes,Addon[8],Yes[9],
+HP-UX,11i,Yes,Yes,Yes,Yes,[10]
+IBM i,7.1,Yes,Yes,Yes,No,[11]
+IOS,4.1,Yes,Yes,Yes,Yes[12],
+Juniper JUNOS,14.1,Yes,Yes,Yes,Yes,RDNSS support introduced in JunOS 14.1[13]
+MacOS,Mac OS X Lion,Yes,Yes,Yes[14],Yes[15],Versions 10.7 through 10.10 often prefer IPv4 even when working IPv6 connectivity is available.Happy Eyeballs Versions 10.11 and up will prioritize IPv6 Traffic in spec with Happy Eyeballs.Happy Eyeballs
+MeeGo,1.2,No[18],Yes[19],No,Yes[20],
+NetBSD,7.0,Yes,Yes,Yes,Yes,
+OpenBSD,5.2,Yes,Yes,Addon[8],Yes,RDNSS is only supported for rad(8) so far.
+OpenSUSE,42.1 (Leap),Yes[21],Yes,Yes,Yes,
+OpenVMS,8.3,Yes,Yes,No,No,
+ReactOS,0.4.11,No,No,No,No," Though ReactOS itself has no IPv6 support, ReactOS Foundation services are all IPv6 enabled. "
+Red Hat Enterprise Linux,6,Yes[22],Yes,Yes[8],Yes,
+Solaris (operating system),11,Yes,Yes,Yes,Yes[23],
+SUSE Linux Enterprise Server,11,Yes[24],Yes,Yes,Yes,
+Symbian,7.0,Yes,Yes,No,No,Wikipedia:Link rot[ Wikipedia:Link rot ]
+Ubuntu (operating system),All supported versions,Yes,Yes,Yes,Yes," RDNSS support available so long as NetworkManager uses IPv6 ""Automatic"" setting, otherwise ""rdnssd"" package required. "
+WebOS,2.1.0,No,No,No,No,[25]
+Windows NT [includes Windows NT],5.1 (Windows XP),Yes,No,Addon[8],No," Windows XP users can use Dibbler, an open source DHCPv6 implementation. --update: Windows XP fully supports IPv6- but NOT IPv6 DNS queries (nslookup)[26] "
+," 6.X (Windows Vista), Windows Vista, Windows Vista, Windows Vista, Windows Vista ",Yes[27],Yes,Yes[8],No,dnssd-win32 provides an open source implementation of ND RDNSS[28]
+,Windows 10,Yes[27],Yes,Yes[8],Yes,Windows 10 Creators Update introduces support for RFC 8106 (6106) RDNSS.
+Windows Mobile,6.5,Yes,Yes,Lite[29],No," If the OEM explicitly unsets the SYSGEN_TCPIP6 pre-processor symbol, the built image will not have any IPv6 capabilities. "
+Windows Phone,7.5,No,No,No,No,Windows Phone 8 might have some support.[30]
+,8(.1)[31],Yes,Yes,Yes,No,Private lab research. No privacy extensions (RFC4941).
+Z/OS,V1R4.0,Yes,Yes,No[32],,
+Z/VM,V5R1.0,Yes,Yes,No,No,[33]
+VSE (operating system),V4R2,Addon[34],No,,," Via a third party TCP/IP stack, IP6/VSE from Barnard Software, Inc. "

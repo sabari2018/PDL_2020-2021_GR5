@@ -1,0 +1,25 @@
+Format,Languages
+reverse  string," Perl 5, Perl 5 "
+flip  string     string .flip,Raku (programming language)
+lists:reverse( string ),Erlang (programming language)
+strrev( string ),PHP
+string [::-1],Python (programming language)
+(string-reverse  string ),Scheme (programming language) (SRFI 13)
+(reverse  string ),Common Lisp
+string .reverse," Ruby (programming language), Ruby (programming language) (modifies string) "
+new StringBuilder( string ).reverse().toString(),Java (programming language)
+" std::reverse( string .begin(),  string .end()); "," C++ (C++ only, modifies string) "
+StrReverse( string ),Visual Basic
+string .Reverse().ToString()," Visual Basic .NET, Visual Basic .NET "
+implode (rev (explode  string )),Standard ML
+"  string .split("""").reverse().join("""") ",JavaScript
+string.reverse( string )   ( string ):reverse(),Lua (programming language)
+string  reverse,Smalltalk
+StringReverse[ string ],Mathematica
+reverse( string ),PL/I
+«FUNCTION» REVERSE( string ),COBOL
+string .toCharArray.toList.reversed.join( ),Cobra (programming language)
+String( string .characters.reverse()),Swift (programming language) (2.x)
+String(reverse( string )),Swift (programming language) (1.2)
+string reverse  string,Tcl
+⌽ string,APL (programming language)

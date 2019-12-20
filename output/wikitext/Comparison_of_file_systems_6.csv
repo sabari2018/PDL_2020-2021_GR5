@@ -1,0 +1,52 @@
+File system,Sparse files,Transparent compression,Block suballocation,Tail packing,Extents,Variable file block sizename=note-41 Variable block size refers to systems which support different block sizes on a per-file basis. (This is similar to extents but a slightly different implementational choice.) The current implementation in UFS2 is read-only.,Allocate-on-flush,Copy on write,Trim support
+DECtape,no,no,no,no,no,no,no,no,no
+BeeGFS,yes,yes,no,no,yes,yes,yes,yes,dunno
+Level-D,no,no,no,no,yes,no,no,no,dunno
+APFS,yes,no,dunno,dunno,yes,dunno,yes,yes,yes
+Version 6 Unix file system (V6FS),yes,no,no,no,no,no,no,dunno,no
+Version 7 Unix file system (V7FS),yes,no,no,no,no,no,no,dunno,no
+exFAT,no,no,no,no,no,no,no,no,yes
+FAT12,partial (only inside of compressed volumes)),no,partial (only inside of compressed volumes),no,no,no,yes (Linux)
+FAT16 / FAT16B / FAT16X,partial (only inside of compressed volumes)," name=note-51 6.3, 6.20, and 98 and Me are FAT, but are not supported for other operating systems.",partial (only inside of 4 and DriveSpace 3 compressed volumes,no,no,no,yes (Linux)
+FAT32 / FAT32X,no,no,no,no,no,no,no,no,yes (Linux)
+GFS,yes,no,no,Only for "stuffed" inodes,no,no,no,dunno,yes
+HPFS,no,no,no,no,yes,no,no,dunno,no
+NTFS,yes,yes,partial,no,yes,no,no,dunno,yes (NT 6.1 + newer)
+HFS Plus,no,no,no,no,yes,no,no,dunno,yes (macOS)
+FFS,yes,no,name=note-45 Other block:fragment size ratios supported; 8:1 is typical and recommended by most implementations.,no,no,no,no,dunno,no
+UFS1,yes,no,name=note-45,no,no,no,no,dunno,no
+UFS2,yes,no,name=note-45,no,no,yes,no,dunno,yes
+LFS,yes,no,name=note-45,no,no,no,no,yes,dunno
+ext,yes,no,no,no,no,no,no,no,no
+Xiafs,yes,no,no,no,no,no,no,dunno,dunno
+ext2,yes," name=note-49 patches providing block-based compression for ext2, has been available since 1997, but has never been merged into the mainline Linux kernel."," name=note-47 Fragments were planned, but never actually implemented on ext2 and ext3.",no,no,no,no,no,yes
+ext3,yes,no,name=note-47,no,no,no,no,no,yes
+ext4,yes,no,name=note-47,no,yes,no,yes,no,yes
+NOVA,yes,no,no,no,yes,no,no,yes,dunno
+F2FS,yes,no,no,no," name=note-75  Stores one largest extent in disk, and caches multiple extents in DRAM dynamically.",no,yes,yes,yes
+Lustre,yes,no,no,no,yes,no,yes,dunno,dunno
+NILFS,yes,no,no,no,no,no,yes,yes,dunno
+ReiserFS,yes,no,name=note-73 Tail packing is technically a special case of block suballocation where the suballocation unit size is always 1 byte.,yes,no,no,no,dunno,dunno
+Reiser4,yes,name=note-50,name=note-73,yes,name=note-39 In "extents" mode.,no,yes,dunno,dunno
+OCFS,dunno,no,no,no,yes,no,no,dunno,dunno
+OCFS2,yes,no,no,no,yes,no,no,dunno,dunno
+XFS,yes,no,no,no,yes,no,yes," yes, on request",yes (Linux)
+JFS,yes,yes2 only in JFS1 on AIX,yes,no,yes,no,no,dunno,yes (Linux)
+QFS,dunno,no,yes,no,no,no,no,dunno,dunno
+BFS,dunno,no,no,no,yes,no,no,dunno,yes (Haiku)
+NSS,dunno,yes,no,no,yes,no,no,dunno,dunno
+NWFS,dunno,yes,name=note-42 Each possible size (in sectors) of file tail has a corresponding suballocation block chain in which all the tails of that size are stored. The overhead of managing suballocation block chains is usually less than the amount of block overhead saved by being able to increase the block size but the process is less efficient if there is not much free disk space.,no,no,no,no,dunno,dunno
+ODS-5,dunno,no,no,no,yes,no,no,dunno,dunno
+VxFS,yes,no,dunno,no,yes,no,no,dunno,dunno
+UDF,no,no,no,no,yes,no,name=note-46 Depends on UDF implementation.,dunno,no
+Fossil,dunno,yes,no,no,no,no,no,dunno,dunno
+ZFS,yes,yes,yes,no,no,yes,yes,yes," yes (FreeBSD, illumos)"
+Btrfs,yes,yes,yes,yes,yes,yes,yes,yes,yes
+VMFS2,yes,no,yes,no,no,no,no,dunno,dunno
+VMFS3,yes,no,yes,no,no,no,no,dunno,dunno
+ReFS,yes,no,dunno,dunno,dunno,no,dunno,yes,dunno
+ISO 9660,no," name=note-80Linux supports the zisofs extension that allows per-file compression, and file system creation tools may support creating such images.  zisofs images are incompatible on non-Linux OSes.",no,no,name=note-81ISO 9660 Level 3 only,no,no,no,no
+Rock Ridge,no,name=note-80,no,no,name=note-81,no,no,no,no
+Joliet ("CDFS"),no,name=note-80,no,no,name=note-81,no,no,no,no
+SquashFS,yes,yes,no,no,no,no,no,no,no
+File system,Sparse files,Transparent compression,Block suballocation,Tail packing,Extents,Variable file block sizename=note-41,Allocate-on-flush,Copy on write,Trim support

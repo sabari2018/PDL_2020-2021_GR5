@@ -1,0 +1,37 @@
+Format,Languages
+string[ startpos : endpos ],ALGOL 68 (changes base index)
+string ( startpos  ..  endpos ),Ada (programming language) (changes base index)
+" Mid( string ,  startpos ,  numChars ) ",Visual Basic
+" mid( string ,  startpos ,  numChars ) ",FreeBASIC
+string [ startpos +(⍳ numChars )-~⎕IO],APL (programming language)
+" MID$( string ,  startpos ,  numChars ) ",BASIC
+" substr( string ,  startpos ,  numChars ) "," AWK (changes string), AWK,AWKAWK AWKAWKAWK "
+" substr( string ,  startpos ,  numChars )    string .substr( startpos ,  numChars ) ",Raku (programming language)Raku (programming language)Raku (programming language)
+" substr( string ,  startpos  «, numChars ,  padChar ») ",Rexx
+string [ startpos : endpos ]," Cobra (programming language), Cobra (programming language),Cobra (programming language)Cobra (programming language) Cobra (programming language) "
+"  string [ startpos ,  numChars ] ",Pick Basic
+"  string [ startpos ,  numChars ]    string [ startpos  ..  endpos -1]    string [ startpos  ...  endpos ] ",Ruby (programming language)Ruby (programming language)Ruby (programming language)
+string [ startpos  ..  endpos ]    string [ startpos  len  numChars ],Seed7
+"  string .slice( startpos «,  endpos ») ",JavaScriptJavaScriptJavaScript
+"  string .substr( startpos «,  numChars ») "," C++ (STL), C++ "
+"  string .Substring( startpos ,  numChars ) "," Visual Basic .NET, Visual Basic .NET, Visual Basic .NET, Visual Basic .NET "
+"  string .substring( startpos «,  endpos ») "," Java (programming language), Java (programming language) "
+" copy( string ,  startpos ,  numChars ) ",Object Pascal (Object Pascal)
+(substring  string   startpos   endpos ),Scheme (programming language)
+(subseq  string   startpos   endpos ),Common Lisp
+(subseq  string   startpos   endpos ),ISLISP
+String.sub  string   startpos   numChars,OCaml
+" substring ( string ,  startpos ,  numChars ) ",Standard ML
+" string:sub_string( string ,  startpos ,  endpos ) string:substr( string ,  startpos ,  numChars ) ",Erlang (programming language)
+" strncpy( result ,  string  +  startpos ,  numChars ); ",C (programming language)
+string [ startpos ..  endpos +1],D (programming language)
+take  numChars  $ drop  startpos   string,Haskell (programming language)
+" [ string  substringWithRange:NSMakeRange( startpos ,  numChars )] ",Objective-C (NSString * only)
+string .[ startpos .. endpos ],F Sharp (programming language)
+" string.sub( string ,  startpos ,  endpos )   ( string ):sub( startpos ,  endpos ) ",Lua (programming language)Lua (programming language)Lua (programming language)
+string  copyFrom:  startpos  to:  endpos,Smalltalk
+string ( startpos : endpos ),Fortran
+SUBSTRING( string  FROM  startpos  «FOR  numChars »),SQL
+" StringTake[ string , { startpos ,  endpos }] ",MathematicaMathematicaMathematica
+string [ startpos  ..  endpos ],Ya,string  ( startpos : numChars )
+string range  string startpos endpos,Tcl,

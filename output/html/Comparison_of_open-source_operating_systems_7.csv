@@ -1,0 +1,27 @@
+Name,RAID,Disk quota,Resource access control,Encryption,other special File system features
+Linux,Yes,Yes," Filesystem permissions, Filesystem permissions, Filesystem permissions ",Yes," Logical Volume Manager (Linux), Logical Volume Manager (Linux) "
+FreeBSD,Yes,Yes," Unix, ACL, MAC ",Yes," GEOM, snapshots, background GEOM, user-mountable file systems "
+OpenBSD,Yes,Yes,Unix,Yes,
+NetBSD,Yes,Yes," Unix, Veriexec ",Yes," Snapshots, Journaling "
+DragonFly BSD,Yes,Yes,Unix,Yes," HAMMER (file system), Snapshots, Checksumming, Deduplication "
+" OpenSolaris, OpenSolaris ",Yes,Yes," Unix, ACL, MAC ",Yes," Solaris Volume Manager, Solaris Volume Manager, Solaris Volume Manager, transparent data repair "
+AuroraUX (page does not exist),Yes,Yes," Unix, ACL, MAC ",," Solaris Volume Manager, ZFS, snapshots, transparent data repair "
+" Darwin (operating system), Darwin (operating system) ",,Yes," Unix, ACL ",Yes,
+MINIX,,,Unix,,
+FreeDOS,,,No,,
+Genode,No,No,No,No,Per-process virtual file-system layer
+KolibriOS,,,No,,
+MenuetOS,,,No,,
+GNU,,,Unix,,
+ReactOS,,,No,,
+" L4 microkernel family, L4 microkernel family, L4 microkernel family ",,,,,
+Plan 9 from Bell Labs,No,No," Filesystem permissions, no root ",No," snapshots, Venti archival storage, per-process namespace, user-mountable file systems "
+Amiga Research Operating System,,,,,
+Syllable Desktop,,,Unix,," 64-bit, 64-bit, 64-bit "
+Inferno (operating system),No,No," Unix-like, no root ",No," per-process namespace, user-mountable file systems "
+FreeRTOS,,,,,
+ECos,,,,,
+RTEMS,,,,,
+HelenOS,No,No,No,No,No
+E/OS,Yes,Yes,Unix,Yes,No
+Name,RAID,quota,Resource access control,encryption,other special file system features

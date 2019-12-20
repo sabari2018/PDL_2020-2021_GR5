@@ -1,0 +1,8 @@
+,,,Trident,Gecko,WebKit,Blink,Presto,KHTML,Prince XML,Amaya,Batik,Renesis,LeonLabs
+SVG,1.1,Tiny (SVGT),5.0,partial,partial,partial,1.0,KHTML does not have any native image support. This is by design: in plugin for Konqueror, known as KSVG.group=note",partial,partial,Mostly,partial,partial
+Basic (SVGB),Mostly,,,,,,,,,
+Full,,,,,,,,,,
+1.2,Tiny,no,no,no,no,2.1,no,dunno,dunno,partial,partial,partial,
+Full,no,,,,,no,,no,no,no,no,
+sXBL,,,,,,,,,yes,,
+XBL 2.0,,,,,,,,,no,,

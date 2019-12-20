@@ -1,0 +1,30 @@
+Format,Languages,Format string syntax
+" associate( file ,  string ); Putf (page does not exist)( file ,  $formatstring$ ,  items ) ",ALGOL 68,ALGOL
+" Format( item ,  formatstring ) ",Visual Basic,
+" Sprintf( formatstring ,  items ) "," Perl, Perl, Perl, Perl ",C
+item.fmt( formatstring ),Raku (programming language),C
+" io_lib:format( formatstring ,  items ) ",Erlang (programming language),
+" Sprintf( outputstring ,  formatstring ,  items ) ",C (programming language),C
+" std.string.format( formatstring ,  items ) ",D (programming language),C
+" Format( formatstring ,  items ) ",Object Pascal (Object Pascal),
+" fmt.Sprintf( formatstring ,  items ) ",Go (programming language),C
+Printf -v  outputstring   formatstring   items,Bash shell,C
+formatstring  % ( items )," Python (programming language), Python (programming language) ",C
+formatstring .format( items ),Python scripting language,.NET
+Printf.sprintf  formatstring [13]  items," OCaml, OCaml ",C
+Text.Printf.printf  formatstring   items,Haskell (programming language) (GHC),C
+formatstring  printf:  items,Smalltalk,C
+" String.format( formatstring ,  items ) ",Java (programming language),C
+" String.Format( formatstring ,  items ) "," Visual Basic .NET, Visual Basic .NET, Visual Basic .NET ",.NET
+(format  formatstring   items ),Scheme (programming language) (SRFI 28),Lisp
+(Format (Common Lisp) nil  formatstring   items ),Common Lisp,Lisp
+(format  formatstring   items ),Clojure,Lisp
+formatstring  -f  items,Windows PowerShell,.NET
+" [NSString stringWithFormat: formatstring ,  items ] ",Objective-C (NSString * only),C
+" String(format: formatstring ,  items ) ",Swift (programming language) (Foundation),C
+" string.format( formatstring ,  items )   ( formatstring ):format( items ) ",Lua (programming language),C
+" WRITE ( outputstring ,  formatstring )  items  ",Fortran,Fortran
+put string( string ) edit( items )( format ),PL/I,PL/I (similar to Fortran)
+" String.format( formatstring ,  items ) ",Cobra (programming language),.NET
+format  formatstring items,Tcl,C
+formatnumbers  ⍕  items  or  formatstring  ⎕FMT  items,APL (programming language),APL

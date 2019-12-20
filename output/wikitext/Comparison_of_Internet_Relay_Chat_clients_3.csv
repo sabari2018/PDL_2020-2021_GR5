@@ -1,0 +1,39 @@
+,Client," Vista"," XP, 2000",NT 4.0,NT 3.x," Me, 98",95,3.1x,ReactOS,macOS (Intel/PPC),OS 9,OS 8,System 7 (PPC/68k)," Haiku"," eCS",AmigaOS (68k)," AmigaOS 4, MorphOS (PPC)",DOS
+Bersirc,yes,yes,dunno,no,dunno,dunno,no,dunno,dunno,no,no,no,no,no,no,no,no
+BitchX,Requires name=bitchxinstallgroup=Note,yes,yes,no,yes,yes,no,dunno,yes,no,no,no,dunno,yes,yes,yes,no
+ChatZilla,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,yes,yes,yes,dunno,yes,no
+Colloquy,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,no
+degesch,no,no,no,no,no,no,no,no,dunno,no,no,no,no,no,no,no,no
+ERC,yes,yes,dunno,no,dunno,dunno,no,dunno,yes,no,no,no,no,no,dunno,dunno,dunno
+HexChat,yes,dropped (2.9.5),no,no,no,no,no,no,no,no,no,no,dunno,no,no,no,no
+HydraIRC,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no
+IceChat,yes,yes,no,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no
+IRCCloud,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no
+ircII,yes,yes,yes,no,yes,yes,no,dunno,yes,no,no,no,no,no,no,dunno,no
+IRCjr,no,Requires SwsVpktname=swsvpktgroup=Note,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,yes
+Ircle,no,no,no,no,no,no,no,no,yes,yes,yes,yes,no,no,no,no,no
+Irssi,yes,yes,yes,no,yes,yes,no,dunno,yes,no,no,no,yes,yes,dunno,yes,no
+jIRCii,yes,yes,yes,dunno,yes,yes,no,dunno,yes,yes,yes,dunno,yes,yes,dunno,yes,no
+KiwiIRC,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no
+Konversation,partial,partial,partial,no,partial,partial,no,dunno,partial,no,no,no,no,no,no,no,no
+KVIrc,yes,yes,yes,no,yes,no,no,yes,yes,yes,no,no,no,yes,no,no,no
+LeafChat,Yes,Yes,no,no,no,no,no,no,Yes,no,no,no,no,no,no,no,no
+LimeChat,no,no,no,no,no,no,no,no,Requires name=rubycocoagroup=Note,no,no,no,no,no,no,no,no
+Linkinus,no,no,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,no
+Mibbit,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no
+mIRC,yes,yes,yes,partial,yes,yes,partial,dunno,no,no,no,no,no,no,no,no,no
+Nettalk,yes,yes,dunno,no,Does not support name=nowin95group=Note,no,no,dunno,no,no,no,no,no,no,no,no,no
+Opera,yes,yes,dropped (10.10),no,dropped,dropped,dropped,no,dropped,dropped,dropped,no,dropped,dropped,no,no,no
+PIRCH,yes,yes,yes,dunno,yes,yes,yes,dunno,no,no,no,no,no,no,no,no,no
+PJIRC,yes,yes,yes,yes,yes,yes,no,yes,yes,no,no,yes,yes,no,no,no,no
+Quassel,yes,yes,no,no,no,no,no,no,yes,no,no,no,no,yes,no,no,no
+qwebirc,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no
+rIRC,yes,yes,yes,dunno,dunno,dunno,dunno,dunno,no,no,no,no,no,no,no,no,no
+rcirc,yes,yes,dunno,dunno,no,no,no,no,yes,no,no,no,no,no,no,no,no
+Scrollback,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no
+Smuxi,yes,yes,no,no,no,no,no,no,yes,no,no,no,no,no,no,no,no
+Snak,no,no,no,no,no,no,no,no,yes,yes,yes,dunno,no,no,no,no,no
+Visual IRC,yes,yes,yes,no,yes,yes,no,dunno,no,no,no,no,no,no,no,no,no
+WeeChat,partial,partial,partial,no,partial,partial,no,dunno,yes,no,no,no,partial,no,no,no,no
+XChat,yes,yes,yes,dunno,yes,yes,no,dunno,yes,no,no,no,dunno,dunno,no,no,no
+Client," Windows 7, Vista"," XP, 2000",NT 4.0,NT 3.x," Me, 98",95,3.1x,ReactOS,OS X (Intel/PPC),OS 9,OS 8,System 7 (PPC/68k)," BeOS, Haiku"," OS/2, eCS",AmigaOS (68k)," AmigaOS 4, MorphOS (PPC)",DOS

@@ -1,0 +1,30 @@
+Name," X86, X86, X86 ",x86 Symmetric multiprocessing,Xen,IA-64,X86-64,PowerPC,PowerPC SMP,SPARC32,SPARC SMP,DEC Alpha,MIPS architecture,ARM architecture,XScale,M68k,PA-RISC,OpenRISC,others,hosted mode
+Linux,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes," FR-V, FR-V, FR-V, FR-V, FR-V, FR-V, FR-V, FR-V "," User-mode Linux, User-mode Linux, User-mode Linux, User-mode Linux, User-mode Linux "
+FreeBSDFreeBSD,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,No,No,No,PC-9801,
+OpenBSDOpenBSD,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,No,SuperH ],
+NetBSDNetBSD,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes," SuperH, SuperH, SuperH, SuperH, SuperH, mipseb, SuperH, SuperH, SuperH, SuperH ",
+DragonFly BSDDragonFly BSD,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,,vkernel
+OpenSolarisOpenSolaris OpenSolaris,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,No,No,No,No,No,No,No,,
+AuroraUX (page does not exist)AuroraUX (page does not exist),Yes,Yes,Yes,No,Yes,Yes[Note 1],No,Yes,Yes,No,Yes[Note 1],Yes,No,No,No,No,
+" Darwin (operating system), Darwin (operating system)Darwin (operating system) ",Yes,Yes,No,No,Yes,Yes,Yes,No,No,No,No,Yes,No,Yes,No,No,,L4/Darwin
+MINIXMINIX,Yes,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,,
+FreeDOS,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,,
+Genode,Yes,Yes,Yes,No,No,No,No,No,No,No,No,Yes,No,No,No,No,RISC-V,Linux
+Haiku (operating system),Yes,Yes,No,No,Yes,No,No,No,No,No,No,No[Note 1][8],No,No,No,No,,
+KolibriOS,Yes,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,,
+MenuetOS,Yes,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,,
+GNU,Yes,Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2]," FR-V, FR-V, FR-V, FR-V, FR-V, FR-V, FR-V, FR-VFR-V "," User-mode Linux, User-mode LinuxUser-mode Linux "
+ReactOS,Yes,Yes,No[Note 1],No,Yes,No[Note 1],No[Note 1],No,No,No,No,Yes,No,No,No,No,,
+RISC OS,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,,
+" L4 microkernel family, L4 microkernel family ",Yes,No,No,Yes[Note 4],Yes[Note 4],Yes[Note 4],No,No,No,Yes[Note 4],Yes[Note 4],Yes,No,No,No,No,,
+Plan 9 from Bell Labs,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes[Note 5],Yes[Note 5],Yes,Yes,Yes,Yes,Yes[Note 5],No,No,See[9][10]," Lguest, Lguest "
+Amiga Research Operating System,Yes,No,No,No,Yes,Yes,No,No,No,No,No,No,No,Yes,No,No,," i386-linux, i386-freebsd "
+Syllable Desktop,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,,
+Inferno (operating system),Yes,?,No,No,?,Yes,?,Yes,?,No,Yes,Yes,Yes,Yes[Note 5],No,No," AMD Am29000,AMD Am29000 AMD Am29000 "," Microsoft Windows, Linux, FreeBSD, Plan 9, Microsoft Windows, Microsoft Windows, Microsoft Windows, Microsoft Windows,Microsoft Windows Microsoft Windows,Microsoft Windows Microsoft Windows "
+FreeRTOS,Yes,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Yes," Atmel AVR, Atmel AVR, Atmel AVR, Atmel AVR, Atmel AVR, Atmel AVR, Cortex-M3, Atmel AVR ",
+ECos,Yes,Yes,No,No,No,Yes,No,Yes,No,No,Yes,Yes,Yes,Yes,No,Yes," ColdFire, ColdFire, ColdFire, ColdFire, ColdFire, ColdFire, ColdFire, SuperH "," Microsoft Windows, Linux "
+RTEMS,Yes,No,Xen,No,No,Yes,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes," Blackfin, Nios II, Blackfin, Blackfin, SuperH, Blackfin "," Linux, Solaris, Cygwin, FreeBSD, multiple CPU simulators "
+HelenOS,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Yes,No,No,No,No,,
+E/OS,Yes,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,,
+TempleOS,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,," QEMU, VirtualBox, etc. "
+Name," x86, i386, IA-32 ",x86 SMP,Xen,IA-64,x86-64,PowerPC,PowerPC SMP,SPARC32,SPARC SMP,Alpha,MIPS,ARM,XScale,M68k,PA-RISC,OpenRISC,other,hosted mode

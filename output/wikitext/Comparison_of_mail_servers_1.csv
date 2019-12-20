@@ -1,0 +1,45 @@
+00000Server OS support,00000Features,,,,,,,,,,,,00000Storage,,00000Users
+class="filterable"Mail server,Linux/Unix,SMTP,POP3,IMAP,IMAP IDLE,TLS,DANE,POP over TLS,IPv6,SSL,Webmail,ActiveSync,Sieve,Database,Filesystem,Other,License
+agorum core,yes,yes,no,yes,no,no,no,no,no,yes,yes,no,no,yes,no,no,GPLv2
+Apache James,yes,yes,yes,yes,yes,yes,dunno,yes,Dunno,yes,no,no,yes,yes,yes,no,ASLv2
+Axigen,yes,yes,yes,yes,yes,yes,dunno,yes,yes,yes," Ajax, Basic  ; Mobile",yes,yes," Proprietary, Embedded, Optimized for Email and Groupware",no,yes," Proprietary (free version: 5 domains, 5 users, 5 groups)"
+Citadel,yes,yes,yes,yes,no,yes,dunno,yes,yes,yes,yes,no,yes,yes,no,no,GPLv3
+CommuniGate Pro,yes,yes,yes,yes,yes,yes,dunno,yes,yes,yes,yes,yes,dunno,yes,yes,yes,Proprietary (Free for up to 5 users)
+Courier Mail Server,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,no,maildrop,no,maildir,no,GPLv3
+Cyrus IMAP,yes,no,yes,yes,yes,no,dunno,yes,yes,yes,no,no,yes,yes (indexes),yes,yes,4-clause BSD
+Dovecot,yes,yes,yes,yes,yes,yes,dunno,yes,yes,yes,no,no,yes,yes," maildir, mbox, dbox",no,Mixed: MIT and LGPL 2.1
+Eudora Internet Mail Server,no,yes,yes,yes,dunno,no,dunno,no,Dunno,no,no,no,dunno,no,no,yes,Proprietary
+Exim,yes,yes," Dovecot, UW IMAP"," Dovecot, UW IMAP"," Dovecot, UW IMAP",yes,yes,no,yes,yes,no,no,yes,yes,yes,no,GPLv2+
+FirstClass,yes,yes,yes,yes,dunno,yes,dunno,yes,Dunno,yes,yes,yes,dunno,yes,yes,yes,Proprietary
+Gordano Messaging Suite,yes,yes,yes,yes,yes,yes,dunno,yes,Dunno,yes,yes,yes,no,yes,yes,yes,Proprietary
+GroupWise,yes,yes,yes,yes,dunno,yes,dunno,yes,Dunno,yes,yes,yes,dunno,yes,no,no,Proprietary
+Halon,yes,yes,no,no,no,yes,yes,no,yes,yes,no,no,dunno,yes,yes,yes,Proprietary
+Haraka,yes,yes,no,no,no,yes,dunno,no,yes,yes,no,no,dunno,yes,yes,yes,MIT
+hMailServer,no,yes,yes,yes,yes,yes,dunno,yes,yes,yes,yes,no,dunno,yes,yes,no,GNU AGPL
+IBM Lotus Domino,yes,yes,yes,yes,dunno,yes,dunno,yes,yes,yes,yes,yes,dunno,yes,no,no,Proprietary
+IceWarp Mail Server,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,yes,no,yes,yes,no,Proprietary
+Ipswitch IMail Server,no,yes,yes,yes,yes (since v12.2),yes,dunno,yes,Dunno,yes,yes,yes,dunno,no,yes,no,Proprietary
+Kerio Connect,yes,yes,yes,yes,yes,yes,dunno,yes,yes,yes,yes,yes,yes,no,yes,no,Proprietary
+Kolab,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,GPLv3
+Kopano,yes,External,yes,yes,yes,External
+Mailsite,no,yes,yes,yes,dunno,yes,dunno,yes,Dunno,yes,yes,yes,yes,yes,yes,yes,Proprietary
+Mailtraq,no,yes,yes,yes,yes,yes,dunno,yes,Dunno,yes,yes,no,dunno,yes,yes,yes,Proprietary
+MDaemon,no,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,yes,no,no,yes,yes,Proprietary
+Mercury Mail Transport System,no,yes,yes,yes,yes,yes,dunno,yes,Dunno,yes,yes,no,dunno,no,yes,no,Proprietary donationware
+Microsoft Exchange Server,no,yes,yes,yes,yes,yes,dunno,yes,yes (2007 sp1 onwards),yes,yes,yes,dunno,yes2 ESE only,yes (up to 2003 only),yes,Proprietary
+NetMail,yes,yes,yes,yes,dunno,yes,dunno,yes,dunno,yes,yes,no,dunno,yes,no,no,Proprietary
+OpenSMTPD,yes,yes,no,no,no,yes,no,no,yes,yes,no,no,dunno,possible through custom backends,yes,no,ISC
+Open-Xchange,yes,yes,yes,yes,dunno,yes,dunno,yes,dunno,yes,yes,yes,dunno,yes,no,no," Proprietary/SaaS, with open-source parts"
+Oracle Communications Messaging Server,yes,yes,yes,yes,dunno,yes,dunno,yes,dunno,yes,yes,no,dunno,yes,yes,no,Proprietary
+Postfix,yes,yes," Dovecot, UW IMAP"," Dovecot, UW IMAP"," Dovecot, UW IMAP",yes,yes,no,Yes,yes,no,no,no,yes,yes,yes,IBM Public License
+qmail,yes,yes,yes," Dovecot, UW IMAP"," Dovecot, UW IMAP",no,no," Dovecot, UW IMAP",via Qsmtp,no,no,no,dunno,(cdb),yes,no,Public domain
+Qpopper,yes,no,yes,no,no,no,dunno,yes,dunno,yes,no,no,dunno,no,yes,yes," [http://www.eudora.com/products/unsupported/qpopper/license.html BSD-style], GPL-incompatible"
+Scalix,yes,yes,yes,yes,yes,yes (via Stunnel),dunno,yes (via Stunnel),dunno,yes (via Stunnel),yes,yes,dunno,yes,yes,no," Proprietary with OSS parts, a community (Freeware) and 3 paid editions (SMB, Enterprise, Hosting)"
+Sendmail,yes,yes," Dovecot, UW IMAP"," Dovecot, UW IMAP"," Dovecot, UW IMAP",yes,dunno,no,yes,yes,no,no,no,Dunno,yes,dunno,[http://ftp.sunet.se/pub/unix/mail/sendmail/LICENSE Sendmail License]
+SparkEngine,yes,yes,no,no,no,yes,dunno,no,Dunno,yes,no,no,dunno,yes,yes,yes,Proprietary
+UW IMAP,yes,no,yes,yes,yes,no,no,yes,yes,yes,WebPine,no,no,yes (Indexes),yes,no,Apache License 2.0
+WinGate,no,yes,yes,yes,yes,yes,dunno,yes,no,yes,yes,no,dunno,no,yes,no,Proprietary
+Zarafa,yes,External,yes,yes,yes,External,no,yes,yes,yes,yes,yes,no,yes,yes,no," AGPLv3, paid"
+Zentyal,yes,yes,yes,yes,yes,yes,dunno,yes,no,yes,yes,yes,dunno,yes,yes,no,GPLv2
+Zimbra,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,[http://www.zimbra.com/license/zimbra-public-license-1-3.html ZPL] and proprietary editions
+class="filterable"Mail server,Linux/Unix,SMTP,POP3,IMAP,IMAP IDLE,TLS,DANE,POP over TLS,IPv6,SSL,Webmail,ActiveSync,Sieve,Database,Filesystem,Other,License

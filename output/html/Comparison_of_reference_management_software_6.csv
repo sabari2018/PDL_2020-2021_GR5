@@ -1,0 +1,29 @@
+Software,HTML,LaTeXLaTeX,Rich Text Format,Plain text,RSS,Other
+Bebop,Yes,No,No,No,Yes,UnAPI
+BibBase,Yes,No,No,No,Yes,No
+BibDesk,Yes,Yes,Yes,Yes,Yes," Atom (standard), Atom (standard), Atom (standard), Atom (standard), "
+Biblioscape,Yes,No,Yes,Yes,No,No
+BibSonomy,Yes,No,Yes,Yes,Yes,Comma-separated values
+Bibus,Yes,No,No,No,No,No
+Bookends,Yes,No,Yes,Yes,No,Clipboard (software)
+Citavi,Yes,Yes[26],Yes,Yes,No," Clipboard (software), Clipboard (software), Clipboard (software), Clipboard (software), Clipboard (software) "
+CiteULike,Yes,No,Yes,Yes,Yes,PDF
+colwiz,Yes,Yes,Yes,No,No,PDF
+EndNote,Yes,No,Yes,Yes,No," Clipboard (software), Clipboard (software) "
+F1000Workspace,Yes,No,Yes,Yes,No,PDF
+JabRef,Yes,Yes,Yes,Yes,No,Clipboard (software)
+KBibTeX,Yes,No,Yes,No,No," PDF, PDF "
+Mendeley,Yes,Yes[27],Yes,Yes,Yes," Clipboard (software), embeddable HTML widget, RSS "
+Paperpile,?,?,?,?,?,?
+Pybliographer,Yes,?,No,Yes,No,No
+ReadCube (now Papers),Yes,No,No,No,No,PDF
+refbase,Yes,Yes,Yes,Yes,Yes," Markdown, Markdown, Markdown "
+RefDB,Yes,?,Yes,Yes,No," DocBook, DocBook "
+Reference Manager,Yes,No,Yes,Yes,No,Clipboard (software)
+Referencer,?,?,?,?,?,?
+RefWorks,Yes,No,Yes,Yes,No," DOC (computing), DOC (computing) "
+SciRef,No,No,Yes,Yes,No," DOC (computing), others "
+Sente,Yes,No,Yes,Yes,No,Clipboard (software)
+Wikindx,Yes,No,Yes,Yes,Yes,Multiple via BibUtils plug-in
+WizFolio,Yes,No,Yes,Yes,No," Clipboard (software), Clipboard (software) "
+Zotero,Yes,Possible via plugin[28],Yes,Possible via plugins[29],Yes,Clipboard (software)

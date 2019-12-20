@@ -1,0 +1,29 @@
+Software,BibTeX,Endnote/Refer/BibIX,Medline,MODS XML,RIS,Other
+Bebop,yes,no,no,no,no,unAPI
+BibBase,yes,no,no,no,no,none
+BibDesk,yes,no,yes,yes,yes," Endnote XML, user customizable"
+BibSonomy,yes,yes,no,no,yes,various [http://www.bibsonomy.org/export/]
+Bibus,yes,yes,yes,no,yes,SQLite
+Bookends,yes,yes,yes,no,yes,various user-customizable
+Citavi,yes,yes,yes,yes,yes,various
+CiteULike,yes,no,no,no,yes," Delicious"
+colwiz,yes,yes,no,yes,yes,"  EndNote XML, CSL formatted HTML"
+EndNote,yes,yes,yes,no,yes,various
+F1000Workspace,yes,no,no,no,yes,CSV
+JabRef,yes,yes,no,yes,yes," BibTeXML, OO.o, RTF, SQL database, user-customizable"
+KBibTeX,yes,yes,no,depends,yes," PDF, PostScript, HTML, XML, RTF"
+Mendeley,yes,yes,no,no,yes,Endnote XML
+Paperpile,yes,no,no,no,yes,none
+Pybliographer,yes,yes,yes,no,no,Ovid
+ReadCube (now Papers),yes,yes,no,no,yes,none
+Qiqqa,yes,no,no,no,no,none
+refbase,yes,yes,no,yes,yes," OO.o, SRW XML via SRU, Word XML"
+RefDB,yes,yes,no,yes,yes," SRW XML via SRU web service, TEI"
+Reference Manager,no,no,no,no,yes," TSV, CSV, Reference Manager XML, user-customizable"
+Referencer,yes,no,no,no,no,none
+RefWorks,yes,yes,no,yes,yes," RIS, BibTeX, Tab delimited or XML metadata"
+SciRef,no,no,no,no,yes," Plain text, RTF"
+Sente,yes,yes,no,no,yes,user-customizable
+Wikindx,yes,yes,no,yes,yes," COinS, RTF, HTML, ADS, Word BIB"
+WizFolio,no,no,no,no,yes,no
+Zotero,yes,yes,as of version 4.0,yes,yes," CSV, Several RDF format standards, TEI, Wikipedia citation templates, Endnote XML, CSL JSON, Refer/BiblX, RefWorks tagged "

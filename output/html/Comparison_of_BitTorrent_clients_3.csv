@@ -1,0 +1,37 @@
+BitTorrent client,Graphical user interface,Remote,Command-line interface,Other,Programming language,Based on,IPv6,Micro Transport Protocol
+ABC (Yet Another BitTorrent Client),Yes,Yes,No,No,Python (programming language),BitTornado,buggy[Note 2],No
+Acquisition (software),Yes,No,No,No," Objective-C, Objective-C ",Limewire,No,No
+BitComet,Yes,Yes,Partial[42],No,C++,-,Yes,No
+BitLet,No,No,No,Webapp,Java (programming language) Applet,-,No,No
+BitLord,Yes,No,No,No," Python, C++ ",Libtorrent (Rasterbar),Yes,No
+BitTornado,Yes,No,Partial,No,Python,BitTorrent,Yes,No
+" BitTorrent (software) 5, Mainline ",Yes,No,Partial,No,Python,-,No,No
+BitTorrent 6,Yes,Yes,Partial,No,C++,μTorrent,Yes,Yes
+BitTyrant,Yes,Yes,Partial," Telnet, XML over HTTP remote control API "," Java, Standard Widget Toolkit ",Azureus,Yes,No
+Blog Torrent,Yes,No,No,No,?,?,No,No
+Deluge (software),Yes,Yes,Yes,Daemon (computing)," Python, C++ ",Libtorrent (Rasterbar),Yes,Yes[43]
+FlashGet,Yes,No,No,No,?,?,No,No
+Free Download Manager,Yes,Yes,Partial,No,C++,Libtorrent (Rasterbar),No,No
+Frostwire,Yes,No,No,No,Java (programming language),Libtorrent (Rasterbar),No,Yes[44]
+KGet,Yes,Yes,Partial[Note 3],No,C++,-,Yes,No
+KTorrent,Yes,Yes,Partial,No,C++,-,Yes,Yes[45]
+LimeWire,Yes,No,No,No,Java,Libtorrent (Rasterbar),No,No
+Meerkat Bittorrent Client,Yes,No,No,No,C++,-,No,No
+Miro (software),Yes,No,No,No,C++,Libtorrent (Rasterbar),No,No
+MLDonkey,No,Third Party[46],Partial,Telnet,OCaml,-,No,No
+ΜTorrent,Yes,Yes,No[47],RESTful Web API[48],C++[49],-,Yes[50],Yes[51]
+OneSwarm,Partial,Yes,No-partial,No,Java,Azureus,Yes,No
+Opera (web browser),Yes,No,No,No,C++,-,Yes,No
+QBittorrent,Yes,Yes,Partial,No," Python, C++ ",Libtorrent (Rasterbar),Yes,Yes[52]
+RTorrent,No,Third Party,Yes,SCGI,C++,[libTorrent] (Rakshasa),No[53],No
+Shareaza,Yes,Yes,Partial,No,C++,-,No,No
+SymTorrent,Yes,No,No,No,?,?,No,No
+Tixati,Yes,Yes,No,No,C++,-,Yes,Yes[54]
+Tomato Torrent,Yes,No,No,No,Cocoa (API),BitTorrent,No,No
+Tonido,No,Yes,No,No,C++,Libtorrent (Rasterbar),No,No
+TorrentFlux,No,Yes,No,No,PHP,BitTornado,No,No
+Transmission (BitTorrent client),Yes,Yes,Yes," Daemon, JSON-RPC over HTTP remote control API "," C (programming language), C (programming language) ",libtransmission,Yes,Yes[55]
+Tribler,Yes,Partial,Partial,No," Python, C++ ",Libtorrent (Rasterbar),No,Yes
+Vuze (formerly Azureus),Yes,Yes,Partial," Telnet, XML over HTTP remote control API "," Java, SWT ",-,Yes,Yes[56]
+Xunlei,Yes,No,No,remote control over internet[57],C++,-,No,No
+BitTorrent client,GUI,Web,CLI,Other,Programming language,Based on,IPv6,μTP

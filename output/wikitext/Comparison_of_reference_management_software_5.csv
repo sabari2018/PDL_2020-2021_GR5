@@ -1,0 +1,30 @@
+Software,APA,Chicago/Turabian,Harvard,MLA,Other,Extension method
+Bebop,no,no,no,no,none,none
+BibBase,yes,no,no,no,none,none
+BibDesk,yes,[https://sourceforge.net/p/bibdesk/wiki/Templates/ yes],no,no,[http://bibdesk.sourceforge.net/wiki/index.php/Export_Templates various],BibDesk export templates
+Biblioscape,yes,yes,yes,yes,2000+ styles date=March 2009,Biblioscape format (through GUI)
+BibSonomy,yes,no,yes,no,none,none
+Bibus,yes,no,no,no," [http://bibus-biblio.sourceforge.net/wiki/index.php/Styles_repository 56 styles, user-contributed]",bibus format (through GUI)
+Bookends,yes,yes,yes,yes,variousdate=November 2008,dunno
+Citavi,yes,yes,yes,yes,10600+ styles. Styles can be [http://www.citavi.com/stylerequest requested] and are [http://www.citavi.com/styleproblem centrally corrected]; any BibTeX style when used with LaTeX.," Citavi format (through GUI), includes conditions and programmable components; BibTeX"
+CiteULike,yes,yes,yes,yes,variousdate=March 2009,none
+colwiz,yes,yes,yes,yes,[http://www.zotero.org/styles 9464 styles],CSL
+EndNote,yes,yes,yes,yes,[https://endnote.com/downloads/styles/ 6926 styles],EndNote format (through GUI)
+F1000Workspace,yes,yes,yes,yes,[http://www.zotero.org/styles 9464 styles],CSL
+JabRef,yes,yes,yes,yes,any BibTeX style,BibTeX
+KBibTeX,yes,yes,yes,yes,any BibTeX style,BibTeX
+Mendeley,yes,yes,yes,yes,[http://www.zotero.org/styles 9464 styles],CSL
+Paperpile,yes,yes,yes,yes,[http://www.zotero.org/styles 9464 styles],CSL
+Pybliographer,yes,no,no,no,none,Pybliographer XML
+Qiqqa,yes,yes,yes,yes,[http://www.zotero.org/styles 9464 styles],CSL
+ReadCube (now Papers),yes,yes,yes,yes,[http://www.zotero.org/styles 9464 styles],CSL
+refbase,yes,yes,yes,yes,various polar  ; marine journals,PHP
+RefDB,yes,yes,yes,yes,[http://refdb.sourceforge.net/styles.html 21 biomedical  ; law journals]," XML (citestylex.dtd), interactive script"
+Reference Manager,yes,yes,yes,yes,various,Reference Manager format (through GUI)
+Referencer,dunno,dunno,dunno,dunno,dunno,dunno
+RefWorks,yes,yes,yes,yes," [https://www.refworks.com/content/products/output_style.asp 4256], plus CSL styles",RefWorks format (through CSL
+SciRef,yes,yes,yes,yes,[http://sci-progs.com/help/index.html?adding_of_new_styles.htm various],SciRef format (through GUI)
+Sente,yes,yes,yes,yes,[http://www.thirdstreetsoftware.com/downloads/SenteUserManual/Sente-6.6-User-Manual.pdf various],Sente format (through GUI)
+Wikindx,yes,yes,yes,yes," ABNT, APA, BMJ, Chicago, Harvard, IEEE, MLA, Turabian",Wikindx format (through GUI)
+WizFolio,yes,yes,yes,yes,[https://help.wizfolio.com/Contents/WizCite_Intro.aspx 1000+ styles],WizFolio format (through GUI)
+Zotero,yes,yes,yes,yes,[http://www.zotero.org/styles 9464 styles],CSL

@@ -1,0 +1,19 @@
+Chip series,Micro-architecture,Semiconductor device fabrication,Supported Application programming interface,,,,,AMD support,Year introduced,Introduced with
+Rendering (computer graphics),,,,Computing,,,,
+,,,Vulkan (API)Vulkan (API),OpenGLOpenGL,Direct3D,Heterogeneous System Architecture,OpenCL,,,
+,,ATi Radeon R100 Series,Fixed-pipeline[a],180 nm 150 nm,No,1.3,7.0,No,No,Ended,2000," Original ""ATI Radeon"", as well as Radeon DDR, 7000, 7500, VE, and LE models "
+ATI Radeon R200 series,Programmable pixel &amp; vertex pipelines,150 nm,8.1,2001,,," 8500, 9000, 9200 and 9250 ",,,
+ATi Radeon R300 Series,,150 nm 130 nm 110 nm,2.0[b],9.0 11 (Direct3D feature level),,2002," 9500–9800, X300–X600, X1050 ",,,
+ATi Radeon R400 Series,130 nm 110 nm,9.0b 11 (FL 9_2),,2004,,X700–X850,,,
+Radeon X1000 series,90 nm 80 nm,9.0c 11 (FL 9_3),,2005,,X1300–X1950,,,
+Radeon HD 2000 series,TeraScale (microarchitecture),80 nm 65 nm,3.3,10.0 11 (FL 10_0),,Close to Metal,2007,," Radeon HD 2000 series, HD 3410 ",
+Radeon HD 3000 Series,,55 nm,,10.1 11 (FL 10_1),,AMD APP SDKAMD APP SDK,2007,," HD 3450–3870, Mobility HD 2000 and 3000 series ",
+Radeon HD 4000 Series,55 nm 40 nm,1.0,,,,2008,Radeon HD 4000 Series,,
+Radeon HD 5000 Series,TeraScale (microarchitecture),40 nm,4.5[c],11 (FL 11_0),,1.2,2009,,Radeon HD 5000 Series,
+Radeon HD 6000 Series,TeraScale 2 TeraScale (microarchitecture),,,,,,2010,,Comparison of AMD graphics processing units,
+Radeon HD 7000 Series,Graphics Core Next,28 nm,1.0,4.6 (Mesa 4.5),11 (FL 11_1) 12 (FL11_1),Yes,1.2 2.0 possible,Current,2012,Radeon HD 7000 Series
+AMD Radeon Rx 200 series,Graphics Core Next,,1.1,,11 (FL 12_0) 12 (FL 12_0),," 2.0 2.1 Beta in Linux ROCm 2.2 possible (1.2 in MacOS, Linux) ",,2013,AMD Radeon Rx 200 series
+AMD Radeon Rx 300 series,Graphics Core Next,,,,,,,,2014,AMD Radeon Rx 300 series
+AMD Radeon 400 series,Graphics Core Next,,,,,,,,14 nm,2016,AMD Radeon 400 series
+AMD RX Vega series,Graphics Core Next,,,14 nm 7 nm,11 (FL 12_1) 12 (FL 12_1),,,,2017,AMD RX Vega series
+Radeon RX 5000 series,RDNA (microarchitecture),,,7 nm,,,,,2019,Radeon RX 5000 series

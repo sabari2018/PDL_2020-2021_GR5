@@ -1,0 +1,17 @@
+Implementation,secp160k1(15),arbitrary char2 curves(0xFF02)
+Botan,no,no,no,no,no,no,no,no,yes,yes,yes,No,No
+BoringSSL,no,no,no,no,no,no,yes,no,yes,yes,yes (disabled by default),No,No
+GnuTLS,no,no,no,no,yes,no,yes,no,yes,yes,yes,No,No
+JSSE,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,No,No
+LibreSSL,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,No,No
+MatrixSSL,no,no,no,no,yes,no,yes,no,yes,yes,yes,No,No
+mbed TLS,no,no,no,yes,yes,yes,yes,yes,yes,yes,yes,No,No
+NSS,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,No,No
+OpenSSL,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,No,No
+RSA BSAFE,no,no,no,no,yes,no,yes,no,yes,yes,yes,No,No
+" SChannel Vista/2008, 7/2008R2, 8/2012, 8.1/2012R2, 10",no,no,no,no,no,no,no,no,yes,yes,yes,No,No
+[https://developer.apple.com/library/mac/documentation/Security/Reference/secureTransportRef/index.html Secure Transport],no,no,no,no,yes,no,no,no,yes,no,yes,No,No
+wolfSSL,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,No,No
+Erlang/OTP SSL application,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,no
+class="sortbottom"
+Implementation,secp160k1(15),secp160r1(16),secp160r2(17),secp192k1(18),secp192r1prime192v1NIST P-192(19),secp224k1(20),secp224r1NIST P-244(21),secp256k1(22),secp256r1prime256v1NIST P-256(23),secp384r1NIST P-384(24),secp521r1NIST P-521(25),arbitrary prime curves(0xFF01),arbitrary char2 curves(0xFF02)

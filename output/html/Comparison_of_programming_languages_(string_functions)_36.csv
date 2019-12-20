@@ -1,0 +1,24 @@
+Format,Languages
+string (string'Last -  n  + 1 .. string'Last),Ada (programming language)
+" Right( string , n ) ",Visual Basic
+" RIGHT$( string , n ) ",BASIC
+" right( string , n ) "," FreeBASIC, FreeBASIC, FreeBASIC "
+" strcpy( string2 ,  string + n ) (n must not be greater than the length of  string ) ",C (programming language)
+string .Substring( string .Length()- n ),C Sharp (programming language)
+string [len( string )- n :],Go (programming language)
+string .substring( string .length()- n ),Java (programming language)
+string .slice(- n ),JavaScriptJavaScript
+" right( string , n  «, padchar ») "," Rexx, Rexx "
+" substr( string ,- n ) "," Perl 5, Perl 5 "
+" substr( string ,*- n )    string .substr(*- n ) ",Raku (programming language)
+string [- n :]," Cobra (programming language), Cobra (programming language) "
+string [ n ],Pick Basic
+(string-take-right  string   n ),Scheme (programming language) (SRFI 13)
+string [- n ..-1]," Ruby (programming language), Ya "
+string [$- n  .. $],D (programming language)D (programming language)
+String.sub  string  (String.length  string  -  n )  n,OCamlOCaml
+" string.sub( string , - n )   ( string ):sub(- n ) ",Lua (programming language)
+string  last:  n," Smalltalk (Smalltalk, Smalltalk) "
+" StringTake[ string , - n ] ",MathematicaMathematica
+string  (1: n ),COBOL
+¯n ↑ string .,APL (programming language)

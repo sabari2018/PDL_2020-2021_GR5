@@ -1,0 +1,46 @@
+,Data Domain,Cursor (databases),Database trigger,Function (programming) Function (programming),Subroutine Subroutine,External routine 1
+4th Dimension (Software),Yes,No,Yes,Yes,Yes,Yes
+ADABAS,?,Yes,?,Yes?,Yes?,Yes
+Adaptive Server Enterprise,Yes,Yes,Yes,Yes,Yes,Yes
+Advantage Database Server,Yes,Yes,Yes,Yes,Yes,Yes
+Altibase,Yes,Yes,Yes,Yes,Yes,Yes
+Apache Derby,No,Yes,Yes,Yes 2,Yes 2,Yes 2
+Clustrix,No,Yes,No,Yes,Yes,Yes
+CUBRID,Yes,Yes,Yes,Yes,Yes 2,Yes
+Empress database,Yes via RANGE CHECK,Yes,Yes,Yes,Yes,Yes
+EXASOL,Yes,No,No,Yes,Yes,Yes
+IBM DB2,Yes via CHECK CONSTRAINT,Yes,Yes,Yes,Yes,Yes
+Firebird (database server),Yes,Yes,Yes,Yes,Yes,Yes
+HSQLDB,Yes,No,Yes,Yes,Yes,Yes
+H2 (DBMS),Yes,No,Yes 2,Yes 2,Yes 2,Yes
+Informix Dynamic Server,Yes via CHECK,Yes,Yes,Yes,Yes,Yes  5
+Ingres (database),Yes,Yes,Yes,Yes,Yes,Yes
+InterBase,Yes,Yes,Yes,Yes,Yes,Yes
+Linter SQL RDBMS,No,Yes,Yes,Yes,Yes,No
+LucidDB,No,Yes,No,Yes 2,Yes 2,Yes 2
+MariaDB,Yes[154],Yes,Yes,Yes,Yes,Yes
+MaxDB,Yes,Yes,Yes,Yes,Yes,?
+Microsoft Access (JET),Yes,No,No,No," Yes, But single DML/DDL Operation ",Yes
+Microsoft Visual Foxpro,No,Yes,Yes,Yes,Yes,Yes
+Microsoft SQL Server,Yes,Yes,Yes,Yes,Yes,Yes
+SQL Server Compact,No,Yes,No,No,No,No
+Mimer SQL,Yes,Yes,Yes,Yes,Yes,No
+MonetDB,No,No,Yes,Yes,Yes,Yes
+MySQL,No  3,Yes,Yes,Yes,Yes,Yes
+OpenBase,Yes,Yes,Yes,Yes,Yes,Yes
+Oracle Database,Yes,Yes,Yes,Yes,Yes,Yes
+Oracle Rdb,Yes,Yes,Yes,Yes,Yes,Yes
+Virtuoso Universal Server,Yes,Yes,Yes,Yes,Yes,Yes
+Pervasive PSQL,Yes,Yes,Yes,Yes,Yes,No
+Polyhedra DBMS,No,No,Yes,Yes,Yes,Yes
+PostgreSQL,Yes,Yes,Yes,Yes,Yes,Yes
+Raima Database Manager,No,Yes,No,No,Yes,Yes
+RDM Server,No,Yes,Yes,No,Yes,Yes
+SAP HANA,?,?,?,?,?,?
+SolidDB,Yes,Yes,Yes,Yes,Yes,Yes
+SQL Anywhere,Yes,Yes,Yes,Yes,Yes,Yes
+SQLite,No,No,Yes,No,No,Yes
+Teradata,No,Yes,Yes,Yes,Yes,Yes
+UniData,No,No,Yes,Yes,Yes,Yes
+UniVerse,No,No,Yes,Yes,Yes,Yes
+,Data Domain,Cursor (databases),Database trigger,Function (programming) Function (programming),Subroutine Subroutine,External routine 1

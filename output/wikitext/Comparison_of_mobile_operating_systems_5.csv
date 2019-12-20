@@ -1,0 +1,15 @@
+width="10%" Feature,width="10%" Android,width="10%" iOS,width="10%" Windows 10 Mobile,width="10%" BlackBerry 10,width="10%" Tizen,width="10%" Sailfish OS,width="10%" Ubuntu Touch
+"!Cut, copy, and paste",Yes,3+,Yes,Yes,Yes,Yes,Yes
+Multi-Device clipboard,No,10+,"No, 3rd party software",No,No,No,No
+Undo,No,3+,"Optional for developers, UWP API have this feature",No,No,No,Yes
+Custom home and lock screen wallpaper,Yes,4+,Yes,Yes,Yes,Yes (incl. Ambience),Yes
+Desktop sync,"No2 No, but available using the vendors companion/PC suite application such as Samsung Smart Switch  ; HTC Sense",Yes,Yes,Yes,Yes,?,Yes
+Local full backup,"Yes, via external computer","Yes, using external computer","3rd party software, like WP internals on external computer, officially removed in WP8, was available on WP7 in Zune only when performing update, or anytime via 3rd party software","Yes, using external computer and memory card (7+)",No,Yes,Yes
+Core data missing sync,"Bookmarks (before 4), SMSs and Settings",,"Favorites, Text Messages and Settings",?,?,?,?
+Notification center,Yes,5+,2+,Yes,Yes
+Push notifications,Yes,Yes (Apple Push Notification Service),Yes,Yes,2+,Yes,Yes
+Screenshot,"4+ also available on earlier versions with customized firmware, such as Cyanogen Mod and on older Samsung Galaxy smartphones",Yes,8+,10+,Yes,2.0.2+,Yes
+iCalendar import,"No2 No, but 3rd party app available",Yes,3rd party software (only import not subscribe),Yes,?,1.1.6.27+,No
+Text/document support (read only; creating using third party apps)," Microsoft Office, PDF, TXT/RTF ","Microsoft Office, iWork, PDF, Images, TXT/RTF, VCF"," Microsoft Office 2003/2007, PDF, Images, TXT/RTF "," Microsoft Office, PDF, OpenDocument, TXT","Read only: text files, PDF, HTML, Multiple office formats","Microsoft Office, OpenDocument, PDF, Text",Yes
+Printer support,4.4+ using Google Cloud Print but not over USB unless proprietary vendor solutions such as HP Print Service are used,Yes (AirPrint),10+,Yes,No,?,beta
+Show remembered Wi-Fi connections,Yes,"No, 3rd party software on jailbroken devices",Yes,Yes,?,Yes,Yes

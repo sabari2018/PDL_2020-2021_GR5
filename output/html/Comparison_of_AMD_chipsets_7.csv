@@ -1,0 +1,8 @@
+Model,Release Date,PCI Express,,,USB: 3.2 Gen 2 + 3.2 Gen 1 + 2.0,Serial ATA + Serial ATASerial ATA,RAID,StoreMI,PBO,Processor Overclocking,Thermal design power,Market segmentation,CPU support[15],,
+,,Chipset PCIe lanes[b],AMD CrossFireX,Scalable Link Interface,,,,,,,,,Zen (microarchitecture),Zen+,Zen 2
+X570,2019 July[16],PCIe 4.0 ×16,Yes,Yes,8 + 0 + 4,12," 0, 1, 10 ",Yes,Yes,Yes,~11 W[17][18],Performance / Enthusiast,No,Yes,Yes
+X470,2018 March[19],PCIe 2.0 ×8,,,2 + 6 + 6,4 + 2,,,,,~5 W[20],,Yes,,
+X370,2017 February[21],,,,,,,,,,,,,,No,No,Beta[c]
+B450,2018 March[19],PCIe 2.0 ×6,No,2 + 2 + 6,2 + 1,Yes,,,,,,,,,Yes,Mainstream,Yes
+B350,2017 February[21],,,,,No,,,,,,,,,No,,Beta[c]
+A320,2017 February[21],,,,,,,,,,,,,,,PCIe 2.0 ×4,No,1 + 2 + 6,No,Entry level," No/Beta, depending  on mainboard  manufacturer's  BIOS updates "
