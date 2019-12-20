@@ -18,7 +18,7 @@ public class TestProcessWikiUrl {
     public void testAddWikiUrlFromFileValid(){
         processWikiUrlTest.addWikiUrlFromFile("wikiurlstest", false, "en");
 
-        Assert.assertEquals("La taille n'est pas bonne", processWikiUrlTest.getListWikiUrl().size(), 3);
+        Assert.assertEquals("La taille n'est pas bonne", processWikiUrlTest.getListWikiUrl().size(), 2);
     }
 
     @Test
