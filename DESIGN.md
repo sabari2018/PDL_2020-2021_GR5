@@ -203,7 +203,10 @@ For links, we decided to keep their title only as we prefer to keep comprehensiv
 | testTemoinFour | OK |
 | testTemoinFive | OK |
 | testTemoinSix  | OK |
-  
-
-
-
+  | **TestTable**	| |
+| testGetTitleHtml | OK |
+| testGetExtractionTypeHtml | OK |
+| testGetNumTabHtml | OK |
+| testGetTitleWikiText | OK |
+| testGetExtractionTypeWikiText | OK |
+| testGetNumTabWikiText | OK |
