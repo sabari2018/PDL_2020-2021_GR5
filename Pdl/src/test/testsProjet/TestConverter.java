@@ -16,7 +16,7 @@ public class TestConverter {
     private static Converter converter;
 
     /**
-     * Recover all extracted Tables and associates their CSV files
+     * Recover all extracted Tables and associates their CSV file
      */
     @BeforeClass
     public static void setUp (){
@@ -37,7 +37,7 @@ public class TestConverter {
     }
 
     /**
-     * Test if the CSV file is created and filled
+     * Tests if the CSV file is created and filled
      */
     @Test
     public void testFileIsCreated () {
@@ -64,7 +64,7 @@ public class TestConverter {
     }
 
     /**
-     * Check if there the same row number in the table and the CSV
+     * Checks if there are the same row number in the Table and it CSV file
      */
     @Test
     public void testCheckNbRows () {
@@ -92,7 +92,7 @@ public class TestConverter {
     }
 
     /**
-     * Check if there the same column number in the table and the CSV
+     * Checks if there the same column number in the Table and it CSV file
      */
     @Test
     public void testCheckNbColumn () {
@@ -122,7 +122,7 @@ public class TestConverter {
     }
 
     /**
-     * Check if the CSV is valid -> same number of column in each row of the CSV file
+     * Checks if the CSV is valid, so if there are the same number of column in each row of the CSV file
      */
     @Test
     public void testCsvValid () {
@@ -171,7 +171,7 @@ public class TestConverter {
     }
 
     /**
-     * Display information about table which contains erros
+     * Display information about table which contains errors
      * @param errorsMessage an arrayList which contains all errors messages
      */
     private void displayFileErrors (ArrayList<String> errorsMessage) {
@@ -270,12 +270,4 @@ public class TestConverter {
         }
         return nbColumns;
     }
-
-   /* @AfterClass
-    public static void deleteFile () {
-        for (Map.Entry<Table, File> entry : results.entrySet()){
-            File file = entry.getValue();
-            file.delete();
-        }
-    }*/
 }

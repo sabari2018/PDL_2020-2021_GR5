@@ -98,14 +98,4 @@ public class Table {
         ret.append("=========================\n");
         return ret.toString();
     }
-
-    public boolean isEquals(Table tableToCompare){
-        boolean result = false;
-
-        if(/*this.title.equals(tableToCompare.getTitle()) &&*/ this.extractionType.equals(tableToCompare.getExtractionType()) /*&& this.getContent().equals(tableToCompare.getContent())*/){
-            result = true;
-        }
-
-        return result;
-    }
 }
