@@ -25,7 +25,7 @@ Develop new tools which allow us to evaluate the quality and the performance of 
 ### Getting started
 Make the project easy to use by anyone thanks to a complete and functional dataset and a clear documentation to launch it.
 
-## Functionality of the 2018-2019 project
+## Functionality of the 2019-2020 project
 
 The software takes a file with a list of wikipedia's pages title (taken from the page URL : with "\_" in place of " ") and process each  one to get the HTML and WikiText URL of the page.
 After testing the URL, it treats all the HTML code of each page and try to extract as much table as it can in CSV and then do the same for WikiText.
@@ -38,11 +38,9 @@ Right now, the HTML treatment converts 80% of the pages correctly, and the WikiT
 
 Note : In HTML, any link in a table is not gathered, we just keep the title linked to the link. In wikitext, we keep the link and the title. Also, for each image in a table, we gather the link of the image to put it in the concerned cell (at the place of the image).
 
-## Actual functionalities
+## Possible improvements
 
-Manage to parse correctly all tables by improving parsers.
-
-Improve the software itself for it to run with better performances.
+Manage to parse correctly all tables by improving parsers. Improve the software itself for it to run with better performances.
 
 
 ## Project license
