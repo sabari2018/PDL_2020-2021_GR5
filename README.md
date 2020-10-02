@@ -1,32 +1,34 @@
-# Wikipedia Matrix : The Truth (2019 - 2020)
+# Wikipedia Matrix : The Truth (2020 - 2021)
 
 This project is held at the University of Rennes 1, ISTIC, in Master 1 MIAGE.
 
 ## Project context
 
-This project is a fork of « Wikipedia Matrix » started by the last group of M1 MIAGE (2018 - 2019). We have to correct it and improve it. 
+This project is a fork of « Wikipedia Matrix » started by the last group of M1 MIAGE (2019 - 2020). We have to correct it and improve it. 
 
 ### What is the project « Wikipedia Matrix » ?
 
 The goal of "Wikipedia Matrix" is to collect and extract Wikipedia's tables. These tables are on several Wikipedia pages retrieved by their url. The content of these tables will be returned in files using CSV format.
 
-We read and analyze two Wikipedia page formats :
+We read and analyze Wikipedia pages in two different formats :
 * HTML
-* Wikitext
+* Wikitext : is the language use to write Wikipedia articles
 
 
 ## Objectives
+### Improvement of extractors
+Improve the quality of the source code, the software robustness. Rewrite a more accurate documentation and more tests, develop continuous integration.
 
-3 expected results :
-* Improvement of extractors. (source code, documentation, tests, continuous integration...)
-* Tools which allow us to evaluate our extractors.
-* Make the project easy to use by anyone. (with a complete and functional dataset)
+### Tools to evaluate our extractors
+Develop new tools which allow us to evaluate the quality and the performance of our extractors.
 
+### Getting started
+Make the project easy to use by anyone thanks to a complete and functional dataset and a clear documentation to launch it.
 
-## Actual functionality
+## Functionality of the 2018-2019 project
 
 The software takes a file with a list of wikipedia's pages title (taken from the page URL : with "\_" in place of " ") and process each  one to get the HTML and WikiText URL of the page.
-After testing the URL: it treats all the HTML code of each page and try to extract as much table as it can in CSV and then do the same for WikiText.
+After testing the URL, it treats all the HTML code of each page and try to extract as much table as it can in CSV and then do the same for WikiText.
 
 Right now, the HTML treatment converts 80% of the pages correctly, and the WikiText part is at 59% of pages converted. But some tables seem too complicated to convert to CSV reliably du to different things :
 - We only treat table that are marked as "class="wikitable"".
@@ -36,8 +38,7 @@ Right now, the HTML treatment converts 80% of the pages correctly, and the WikiT
 
 Note : In HTML, any link in a table is not gathered, we just keep the title linked to the link. In wikitext, we keep the link and the title. Also, for each image in a table, we gather the link of the image to put it in the concerned cell (at the place of the image).
 
-
-## Functionnality to develop
+## Actual functionalities
 
 Manage to parse correctly all tables by improving parsers.
 
@@ -61,5 +62,11 @@ This project is licensed under the MIT License.
 
 
 ## Authors
+Clément Depond, Adèle Lecler, Théo Lévêque, Sadou Barry, Jean Zamble.
 
+### Previous Authors
+#### 2019-2020
 Yaëlle Dubois, Maud Garçon, Emile Georget, Hélène Heinlé, Saly Knab, Edgar Lebreton.
+
+#### 2018-2019
+Adrien Royer - Romain Muckenhirn - Mani Rus - Julien Lavazay - Aquil Ali
