@@ -116,6 +116,24 @@
               <item name="PDL_2018-2019_GR3" type="b2602c69:ProjectViewProjectNode" />
               <item name="PDL_2018-2019_GR3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PDL_2018-2019_GR3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PDL_2018-2019_GR3" type="462c0819:PsiDirectoryNode" />
+              <item name="Pdl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PDL_2018-2019_GR3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PDL_2018-2019_GR3" type="462c0819:PsiDirectoryNode" />
+              <item name="Pdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PDL_2018-2019_GR3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PDL_2018-2019_GR3" type="462c0819:PsiDirectoryNode" />
+              <item name="Pdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -257,7 +275,7 @@
       <workItem from="1600693360372" duration="6430000" />
       <workItem from="1600700446399" duration="2005000" />
       <workItem from="1600702470958" duration="5122000" />
-      <workItem from="1601623580234" duration="4881000" />
+      <workItem from="1601623580234" duration="5730000" />
     </task>
     <servers />
   </component>
@@ -294,12 +312,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24859000" />
+    <option name="totallyTimeSpent" value="25708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23181818" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23181818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -316,7 +334,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.45585874" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.45585874" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
