@@ -33,3 +33,5 @@ SHA-384,,{{nowrap|×6 {{=}} 384}},,,,
 Tiger-192,64,×3 = 192,"  rowspan=""3""  ×3 = 192",,×8 = 512,64,8 × 3 = 24,A B L S,,,| Not Specified
 Tiger-160,,×2.5=160,,,,,,,
 Tiger-128,,{{nowrap|×2 {{=}} 128}},,,,,,,
+Function,Word,Digest,Chainingvalues,Computationvalues,Block,Length,Words ×Passes =Rounds,Operations,Endian
+,! colspan="6" | Size ([[bit]]s)

@@ -13,12 +13,13 @@ JRiver Media Center,yes,yes,yes,yes,yes,yes,yes,yes,yes,no
 JuK,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 MediaMonkey,yes,yes,yes,name=plugin,name=plugin,name=plugin,name=plugin,yes,yes,dunno
 MPXPLAY,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
-MusicBee,yes,yes,yes,yes,yes,no,yes,yes,yes,yes
+MusicBee,yes,yes,yes,yes,no,no,yes,yes,yes,yes
 Musicmatch Jukebox,dunno,partial,dunno,no,no,dunno,dunno,dunno,dunno,dunno
 musikCube,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Quod Libet,yes,yes,yes,partial,partial,no,yes,yes,no,no
 Rhapsody,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Rhythmbox,yes,yes,no,no,no,no,no,yes,no,no
+Sayonara Player,yes,yes,no,no,no,dunno,yes,yes,dunno,dunno
 Sonique,no,no,dunno,yes,yes,no,no,no,no,dunno
 Spotify,no,no,no,no,no,no,no,yes,no,no
 Winamp,yes,yes,dunno,no,yes,dunno,yes,dunno,no,dunno

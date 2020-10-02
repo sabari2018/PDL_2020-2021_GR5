@@ -1,8 +1,8 @@
 " scope=""col""  Name"," scope=""col""  Founded year"," scope=""col"" class=""unsortable""  Latest stable version"," scope=""col""  Release year"," scope=""col""  License"," scope=""col""  Online"," scope=""col""  Windows"," scope=""col""  Mac OS X"," scope=""col""  Linux"," scope=""col""  BSD"
 " scope=""col"" class=""unsortable""  Programming language"," scope=""col""  SDK?"," scope=""col"" class=""unsortable""  Languages"," scope=""col"" class=""unsortable""  Fonts"," scope=""col"" class=""unsortable""  Output Formats"," scope=""col"" class=""unsortable""  Notes"
-Google Cloud Vision,,,2015,free,Yes,Browser,Browser,Browser,Unknown,Unknown,Yes,200+,All fonts,text,Google blog post
-Tesseract,1985,4.0.0,2018,Apache,No,yes,yes,yes,yes," C++, C ",yes,100+,Any printed font," Text, hOCR, PDF, others with different user interfaces or the API ",Created by Hewlett-Packard; under further development by Google
-ABBYY FineReader,1989,14,2017-01-25,proprietary,yes,yes,yes,yes,yes,C/C++,yes,192,dunno,"DOC, DOCX, XLS, XLSX, PPTX, RTF, PDF, HTML, CSV, TXT, ODT, DjVu, EPUB, FB2"," ABBYY also supplies SDKs for embedded and mobile devices. Professional, Corporate and Site License Editions for Windows, Express Edition for Mac."
+Google Cloud Vision,,,2015,Proprietary,Yes,Browser,Browser,Browser,Unknown,Unknown,Yes,200+,All fonts,text,Google blog post
+Tesseract,1985,4.1.1,2019,Apache,No,yes,yes,yes,yes," C++, C ",yes,100+,Any printed font," Text, ALTO, hOCR, PDF, others with different user interfaces or the API ",Created by Hewlett-Packard; under further development by Google
+ABBYY FineReader,1989,15,2019,proprietary,yes,yes,yes,yes,yes,C/C++,yes,192,All fonts,"DOC, DOCX, XLS, XLSX, PPTX, RTF, PDF, HTML, CSV, TXT, ODT, DjVu, EPUB, FB2"," ABBYY also supplies SDKs for embedded and mobile devices. Professional, Corporate and Site License Editions for Windows, Express Edition for Mac."
 E-aksharayan,2010,,,,,Yes,No,Yes,No,,,14,,"RTF, TXT, BRL",
 Asprise OCR SDK,1998,15,2015,proprietary,yes,yes,yes,yes,yes," Java, C#,VB.NET, C/C++/Delphi ",yes,20+,dunno," Plain text, searchable PDF, XML"," Java, C#, VB.NET, C/C++/Delphi SDKs for OCR and Barcode recognition on Windows, Linux, Mac OS X and Unix."
 AnyDoc Software,1989,dunno,dunno,proprietary,no,yes,no,no,no,VBScript,dunno,dunno,dunno,," Works with structured, semi-structured, and unstructured documents."

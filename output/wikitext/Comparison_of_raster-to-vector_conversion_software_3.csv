@@ -1,6 +1,5 @@
 NAME,Export universal DXF,inside AutoCAD application available,Curve recognition,Circle recognition,Arc recognition,Orthogonal line detection,Corner detection,Line connection
 Easy Trace,yes,no,yes,yes,yes,yes,yes,yes
-FreeHand,yes,no,yes,yes,yes,yes,yes,yes
 Graphic Tracer Professional,yes,no,yes,yes,yes,yes,yes,yes
 Illustrator,yes,no,yes,yes,yes,yes,yes,yes
 Potrace,yes,no,no,dunno,dunno,dunno,yes,dunno

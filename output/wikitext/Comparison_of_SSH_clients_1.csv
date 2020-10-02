@@ -1,16 +1,16 @@
 Name,Developer,Status,width=60px First release,width=60px Latest release,Current version,Based on,License,Source available
 AbsoluteTelnet,Celestial Software (Brian Pence),site active,1996,2016-10-12,10.16,,Proprietary,no
-ConnectBot,Kenny Root / Jeffrey Sharkey,site active,2007-11,2018-11-09,1.9.2,Trilead SSH-2 for Java,Apache,yes
+Bitvise SSH Client,Bitvise Limited,site active,2001,2020-05-22,8.43,,Proprietary,no
+ConnectBot,Kenny Root / Jeffrey Sharkey,site active,2007-11,2019-11-12,1.9.6,Trilead SSH-2 for Java,Apache,yes
 CRAX Commander,Soft4U2 Marcin Słowik,site active,2013-09,2015-12-01,1.10.6,libSSH2,Proprietary,yes
 Dropbear,Matt Johnston,site active,2003-04-06,2017-05-18,2017.75,,MIT,yes
 eSSH Client,Ecode Software,site inactive,2002-07,,,,Proprietary,no
 lsh,Niels Möller,site active,1999-05-23,2013-06-26,2.1,,GPL,yes
-OpenSSH (OpenBSD Secure Shell),The OpenBSD project,site active,1999-12-01,2019-4-17,8.0,ossh,BSD,yes
-PuTTY,Simon Tatham,site active,1999-01-22,2019-03-16,0.73,,MIT,yes
-SecureCRT,VanDyke Software,site active,1998-06,2018-11-15,8.5.2,,Proprietary,no
-SSH Tectia Client/ConnectSecure,SSH Communications Security (former Tectia),site active,1995-07,2017-06-22,6.4.15,Own implementation in C,Proprietary,no
-SSH Secure Shell Client,SSH Communications Security Corp.,site inactive,2000,2003,3.2.9,,Proprietary,no
+OpenSSH (OpenBSD Secure Shell),The OpenBSD project,site active,1999-12-01,2020-05-27,8.3,ossh,BSD,yes
+PuTTY,Simon Tatham,site active,1999-01-22,2020-06-27,0.74,,MIT,yes
+SecureCRT,VanDyke Software,site active,1998-06,2020-02-11,8.7.0,,Proprietary,no
 Tera Term,TeraTerm Project,site active,2004,2018-08-31,4.100,Tera Term Pro 2.3 (1994–1998),BSD,yes
 TN3270 Plus," SDI USA, Inc.",site active,2006,,,,Proprietary,No
 TtyEmulator,FCS Software,site active,2002-05,,,,Proprietary,no
-ZOC Terminal," EmTec, Innovative Software",site active,1995-07-01,2018-10-17,7.21.1,,Proprietary,no
+wolfSSH,wolfSSL,site active,2016-07-20,2019-10-31,1.4.3,wolfCrypt,GPL or Commercial Distribution,Yes
+ZOC Terminal," EmTec, Innovative Software",site active,1995-07-01,2020-01-09,7.26.1,,Proprietary,no

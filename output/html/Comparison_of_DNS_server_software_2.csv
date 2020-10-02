@@ -9,7 +9,7 @@ Knot DNS,Yes,No,Yes,Yes,No
 Knot Resolver (page does not exist),Partial,No,Yes,Yes,No
 PowerDNS,Yes,Yes [7],Yes,Software release life cycle,No
 MaraDNS,Yes,Yes [8],Yes,Yes,Partial
-Pdnsd,Yes,Partial[40],Yes,Yes,No
+Pdnsd,Yes,Partial[20],Yes,Yes,No
 Posadis,Yes,Yes,Yes,Yes,Yes [9]
 Unbound (DNS Server),Yes,Yes,Yes,Yes,Yes
 Cisco Network Registrar,No,Yes,Yes,No,Yes

@@ -1,11 +1,11 @@
-Name,Author,First public release,Stable version,Cost,Software license,Based framework,Written in
+Name,Author,First public release,Latest stable version,Cost,Software license,width=110pxBased framework,Written in
 AIMP,AIMP DevTeam,2006-08-08,Latest stable software release/AIMP,free,proprietary,BASS audio library (decoder),Delphi
 Amarok,Mark Kretschmann,2003-06-01,Latest stable software release/Amarok,free,GPLv2," via Phonon: VLC, DirectShow, QuickTime",C++
 Aqualung,Tom Szilagyi et al.,2006-01-01,0.9beta11 20130130,free,GPLv2 or later,,C
 aTunes,Alex Aranda et al.,2006-01-01,Latest stable software release/aTunes,free,GPLv2,,Java
 Audacious,Audacious Development Team,2005-10-30,Latest stable software release/Audacious,free,BSD,XMMS based," C, C++ (GTK+)"
 Banshee,Aaron Bockover,2005-02-17,Latest stable software release/Banshee,free,MIT,GStreamer,C#
-Clementine,Clementine Team,2011-03-01,Latest stable software release/Clementine,free,GPL,GStreamer,C++ (Qt)
+Clementine,Clementine Team,2010-02-22,Latest stable software release/Clementine,free,GPL,GStreamer,C++ (Qt)
 cmus,Timo Hirvonen,2005-01-18,Latest stable software release/cmus,free,GPL,,C
 Cog,Vincent Spader,2006-05-01,Latest stable software release/Cog,free,GPL,,Objective-C
 Exaile,Adam Olsen,2006-05-24,Latest stable software release/Exaile,free,GPLv2 or later,GStreamer,Python (GTK+)
@@ -26,16 +26,17 @@ Music Player Daemon,Warren Dukes,2003-05-01,Latest stable software release/Music
 MusicBee,Steven Mayall,2008-12-04,Latest stable software release/MusicBee,free,proprietary,BASS audio library,Visual Basic .NET
 musikCube,Casey Langen,2005-01-01,Latest stable software release/musikCube,free,BSD,,
 Napster,William Christopher Gorog,2003-10-01,Latest stable software release/Napster (pay service),nonfree,proprietary,,
-Quod Libet,Quod Libet Team,2004-11-08,Latest stable software release/Quod_Libet_(software),free,GPL,GStreamer,Python (GTK) PyGTK
-Rdio,Rdio Inc,date=August 2014,Microsoft Windows: 1.12.0.0 (2013) WP 8+ : 4.0.5.0 (df=yes20131028) iOS: 3.0.3 (df=yes20140927),Subscription,proprietary,,
+Quod Libet,Quod Libet Team,2004-11-08,Latest stable software release/Quod_Libet,free,GPL,GStreamer,Python (GTK) PyGTK
+Rdio,Rdio Inc,2010-08-03,Microsoft Windows: 1.12.0.0 (2013) WP 8+ : 4.0.5.0 (df=yes20131028) iOS: 3.0.3 (df=yes20140927),Subscription,proprietary,,
 Rhapsody,RealNetworks,2003-01-01,Latest stable software release/Rhapsody,Subscription,proprietary,,
 Rhythmbox,Colin Walters,2004-04-01,Latest stable software release/Rhythmbox,free,GPL,GStreamer,C
-Songbird,POTI Inc.,2006-02-08,Latest stable software release/Songbird,free,GPL,GStreamer
-Sonic Visualiser," Centre for Digital Music at Queen Mary, University of London",," 3.1.1 (August 14, 2018)",free,GPLv2 or later,,
+Sayonara Player,Michael Lugmair (until 2020 under the pseudonym Lucio Carreras),2011,1.5.1-stable5 / 29 August 2019,free,GPLv3,GStreamer,C++
+Songbird,POTI Inc.,2006-02-08,Latest stable software release/Songbird,free,GPL,GStreamer,
+Sonic Visualiser," Centre for Digital Music at Queen Mary, University of London",2007-05-10," 3.1.1 (August 14, 2018)",free,GPLv2 or later,,
 Sonique,Media Science,1998-11-01,1.96 (March 2002),free,proprietary,,
-Spotify,Spotify LTD,2008,Latest stable software release/Spotify,Nonfree,proprietary,,
+Spotify,Spotify LTD,2008-10-07,Latest stable software release/Spotify,Nonfree,proprietary,,
 Style Jukebox,Digital Geek LTD,2009-07-01,Latest stable software release/Style Jukebox,free,proprietary,,C#
 Winamp,Nullsoft," April 21, 1997",Latest stable software release/Winamp,free,proprietary,Wasabi,C/C++
 XMMS,XMMS Team,1997-11-01,Latest stable software release/XMMS,free,GPL,original,C
-XMPlay,Un4seen Developments,1998,3.8 (20131223),free,proprietary,original (based on the BASS audio library),
-Name,Author,First public release date,Stable version,Cost,Software license,Based framework,Written in
+XMPlay,Un4seen Developments,1998,3.8 (20131223),free,proprietary,BASS audio library,
+Name,Author,First public release,Stable version,Cost,Software license,Based framework,Written in

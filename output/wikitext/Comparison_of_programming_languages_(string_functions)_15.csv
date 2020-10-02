@@ -19,3 +19,4 @@ string.index(?char),Ruby,returns nil
 "strpos(string,char,startpos)",PHP,returns false
 " string.indexOf(char«,startpos«, charcount»»)",Cobra,returns −1
 string⍳char,APL,returns 1 + the last position in string
+string.find(substring),Rust,returns None

@@ -11,7 +11,7 @@ Go,byte rune,string,bool,const (   item1 = iota  item2  ...   ),interface{}
 Rust,char,String,bool," enum name {   item 1 ,  item 2 ,  ...  } ",N/A
 Swift,Character,String,Bool," enum name { case item1, item2, ... } ",Any
 D,char,string,bool," enum name {item1, item2, ... } ",std.variant.Variant
-Common Lisp,,,,,
+Common Lisp,character,string,boolean,(member item1 item2 ...),t
 Scheme,,,,,
 ISLISP,,,,,
 Pascal (ISO),char,N/A,boolean," (item1, item2, ...) ",N/A
@@ -19,7 +19,7 @@ Object Pascal (Delphi),,string,,,variant
 Visual Basic,N/A,String,Boolean,Enum name   item 1« = value»   item 2«  = value»   ...   End Enum,Variant type
 Visual Basic .NET,Char,,,,Object
 Xojo,N/A,,,,Object or Variant
-Python,N/A[d],str,bool,,object
+Python,N/A[d],str,bool,from enum import Enum class Name(Enum):   item 1 = value   item 2 = value   ...  # Python 3.4+,object
 JavaScript,N/A[d],String,Boolean,,Object
 S-Lang,,,,,
 Fortran,CHARACTER(LEN = *)," CHARACTER(LEN = :), allocatable  ",LOGICAL(KIND = n)[f],,CLASS(*)

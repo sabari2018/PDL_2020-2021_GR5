@@ -12,7 +12,7 @@ Intego,VirusBarrier,Yes,Yes,No,No,No,No,No,No,No,No,Yes,Yes,Proprietary software
 Intego,Intego,Yes,Yes,No,No,Yes,No,No,No,No,Yes,Yes,Yes,Proprietary software,Non-free,2000,United States,
 Kaspersky Lab,Kaspersky Internet Security,Yes,Yes,Yes,Yes,No,No,No,Yes,No,Yes,Yes,Yes,Proprietary software,Non-free,2010,Russia,Banned by Federal government of the United States
 Quick Heal,Quick Heal,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Proprietary software,Non-free,1995,India,GoDeep.AI engine,
-Malwarebytes (software),Malwarebytes for Mac,,,,,,,,,,,,,,Free,2006,United States,4 vulnerabilities found by Project Zero in 2016
+Malwarebytes (software),Malwarebytes for Mac,Yes,No,,,No,No,No,No,Yes,No,Yes,,,Free,2006,United States,4 vulnerabilities found by Project Zero in 2016
 Panda Security,Panda Security,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Proprietary software,Non-free,2008,Spain,
 Sophos,Sophos,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,No,Proprietary software,Free,2010,United Kingdom,
 NortonLifeLock,Symantec Endpoint Protection,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,Proprietary software,Non-free,2012,United States,

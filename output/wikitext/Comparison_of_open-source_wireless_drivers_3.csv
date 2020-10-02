@@ -5,6 +5,7 @@ Driver name,Chipset,Integration,Non-free firmware required,License,Original/Prim
 [http://leaf.dragonflybsd.org/cgi/web-man?command=bwi bwi],BroadcomBCM430x/4318,Integrated,Yes,BSD,SepherosaZiehau,Reverse engineering
 [http://leaf.dragonflybsd.org/cgi/web-man?command=iwi iwi],Intel PRO/Wireless2200BG/2915ABG,Integrated,Yes,BSD,Damien Bergamini(OpenBSD),Reverse engineering
 [http://leaf.dragonflybsd.org/cgi/web-man?command=iwl ;section=4 iwl],Intel PRO/Wireless2100,Integrated,Yes,BSD,Damien Bergamini(OpenBSD),Reverse engineering
+[https://man.dragonflybsd.org/?command=iwm iwm],Intel Dual Band Wireless AC 3160/7260/8260/9260/9270/9560,Integrated Integrated,Yes,BSD,OpenBSD
 [http://leaf.dragonflybsd.org/cgi/web-man?command=iwn ;section=4 iwn],Intel 4965/1000/5000/5150/5300/6000/6050,Integrated,Yes,BSD,Damien Bergamini(OpenBSD),Reverse engineering
 ,[http://leaf.dragonflybsd.org/cgi/web-man?command=ral ;section=ANY ral],Ralink RT2500/RT2501/RT2600,Integrated,On Device,BSD,Damien Bergamini,Ported fromFreeBSD
 [http://leaf.dragonflybsd.org/cgi/web-man?command=rtw ;section=ANY rtw],RealtekRTL8180L,Integrated,On Device,BSD,,Ported from NetBSD

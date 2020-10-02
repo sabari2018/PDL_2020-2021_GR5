@@ -5,7 +5,7 @@ string .strip();,D (programming language)
 sequence  [ predicate? ] trim,Factor (programming language)
 (string-trim '(#\Space #\Tab #\Newline)  string ),Common Lisp
 (string-trim  string ),Scheme (programming language)
-string .trim()," Java (programming language), Java (programming language) (1.8.1+, Firefox 3.5+) "
+string .trim()," Java (programming language), Java (programming language) (1.8.1+, Firefox 3.5+), Java (programming language)Java (programming language) "
 Trim( String )," Pascal (programming language),Pascal (programming language) Pascal (programming language), Pascal (programming language), Pascal (programming language) "
 string .strip(),Python (programming language)
 " strings.Trim( string ,  chars ) ",Go (programming language)
@@ -13,7 +13,6 @@ LTRIM(RTRIM( String ))," Oracle Corporation Oracle Corporation, Oracle Corporati
 " strip( string  [, option ,  char ]) ",REXX (programming language)
 " string:strip( string  [, option ,  char ]) ",Erlang (programming language)
 string .strip or  string .lstrip or  string .rstrip,Ruby (programming language)
-string  =~ s/^\s+//r =~ s/\s+$//r,Perl 5
 string .trim,Raku (programming language)
 trim( string )," PHP, PHP "
 [ string  stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]],Objective-C using Objective-C

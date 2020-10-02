@@ -33,5 +33,7 @@ string copyFrom: startpos to: endpos,Smalltalk
 string(startpos:endpos),Fortran
 SUBSTRING(string FROM startpos «FOR numChars»),SQL
 " StringTake[string, {startpos, endpos}]",Mathematica
-string[startpos .. endpos],Ya,string (startpos:numChars)
-string range string startpos endpos,Tcl,
+string[startpos .. endpos],Ya
+string (startpos:numChars),COBOL
+string range string startpos endpos,Tcl
+string[startpos..endpos]string.get(startpos..endpos),Rust

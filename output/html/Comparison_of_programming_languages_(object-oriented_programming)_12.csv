@@ -1,5 +1,6 @@
 ,Has member?,,Handler for missing member,
 ,Method,Field,Method,Field
+APL (Dyalog),3=x.⎕NC'method',2=x.⎕NC'method',N/A,
 ABAP Objects,N/A,,,
 C++ (STL)
 Objective-C (Cocoa),[x respondsToSelector:@selector(method)],N/A,forwardInvocation:,,N/A
@@ -19,5 +20,5 @@ PHP," method_exists(x, ""method"") "," property_exists(x, ""field"") ",__call(),
 Perl," x->can(""method"") ",exists x->{field},AUTOLOAD,
 Raku," x.can(""method"") ",x.field.defined,AUTOLOAD,
 OCaml,N/A,,,
-JavaScript," typeof x.method === ""function"" ",field in x,,
+JavaScript," Typeof x.method === ""function"" ",field in x,,
 COBOL,N/A,,,

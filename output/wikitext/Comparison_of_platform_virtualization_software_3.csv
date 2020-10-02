@@ -1,7 +1,7 @@
 Name
 floppy,ISO,folders on host,physical disk / device,raw / flat (whole disk),raw / flat (partition)
 ,hdd (Parallels),QCOW (QEMU),QCOW2 (QEMU),QED (QEMU),VDI (VirtualBox),VHD (Connectix Virtual PC),VHDX (Hyper-V),VMware)
-Bochs,yes,yes,yes,yes,yes,yes,no,no,no,no,no,yes,no," v3, v4"
+Bochs,yes,yes,yes,yes,yes,yes,no,no,no,no,yes,yes,no," v3, v4"
 " Containers, or Zones",dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Cooperative Linux (coLinux),dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 CHARON,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
@@ -11,13 +11,12 @@ DOSEMU,dunno,dunno,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dun
 FreeBSD Jail,no,no,yes,no,no,no,no,no,no,no,no,no,no,no
 GXemul,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Hercules,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
-Hyper-V (2008 R2),dunno,yes,dunno,yes,dunno,dunno,dunno,dunno,dunno,dunno,no,yes,no,no
-Hyper-V (2012),dunno,yes,dunno,yes,dunno,dunno,dunno,dunno,dunno,dunno,no,yes,yes,no
-Hyper-V (2012 R2),yes,yes,dunno,yes,dunno,dunno,dunno,dunno,dunno,dunno,no,yes,yes,no
+Hyper-V (2008 R2),yes,yes,no,yes,no,no,no,no,no,no,no,yes,no,no
+Hyper-V (2012),yes,yes,no,yes,no,no,no,no,no,no,no,yes,yes,no
+Hyper-V (2012 R2),yes,yes,no,yes,no,no,no,no,no,no,no,yes,yes,no
 iCore Virtual Accounts,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Integrity Virtual Machines,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 JPC (Virtual Machine),yes,yes,yes,dunno,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
-KVM,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno,dunno,yes
 Linux-VServer,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 LynxSecure,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 LXC,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
@@ -30,7 +29,7 @@ Parallels Workstation,dunno,dunno,dunno,dunno,dunno,dunno,yes,dunno,dunno,dunno,
 PearPC,no,yes,no,yes,yes,no,no,no,no,no,no,no,no,no
 PikeOS,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 PowerVM,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
-QEMU,dunno,yes,dunno,dunno,yes,yes,dunno,yes,yes,dunno,yes,yes,dunno,yes
+QEMU,yes,yes,yes,yes,yes,yes,read-only,yes,yes,yes,yes,yes,yes,yes
 QEMU w/ kqemu module,dunno,dunno,dunno,dunno,dunno,dunno,dunno,yes,no,no,dunno,dunno,dunno,dunno
 QEMU w/ qvm86 module,dunno,dunno,dunno,yes,yes,dunno,dunno,yes,yes,dunno,dunno,dunno,dunno,yes
 QuickTransit,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno

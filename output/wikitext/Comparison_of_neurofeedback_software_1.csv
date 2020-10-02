@@ -4,7 +4,7 @@ Software,Type,Version,Operating systems,Developer,License,FDA cleared,Supported 
 [http://www.cyberevolution.com/ BioExplorer],Neurofeedback,1.5,Windows," Cyberevolution, Larry Janow",Proprietary," No ""Intended for personal use..."""," Brainmaster, BrainQuiry, NeuroAmp, Neurobit Optima, Neurobit Optima+,   J ;J, NeuroSky,   Pocket Neurobics, QDS, Telediagnostic Systems"
 [http://www.thoughttechnology.com/ BioGraph Infiniti],Neurofeedback/Biofeedback,6.1.0,Windows," Thought Technology Ltd, Dr. Hal Myers",Proprietary,Yes,Thought Technology
 [http://www.mindmedia.info/products/software/biotrace BioTrace+]," Neurofeedback, Biofeedback, QEEG",2015,Windows,Mind Media B.V.,Proprietary,Medical class II," NeXus by Mind Media 4, 10 (MKII), 32"
-[http://www.webkitchen.com/brainathlon/ Brainathalon],Game,dunno,Java,Amy Palke,Open source,No,
+[https://web.archive.org/web/20071220185153/http://www.webkitchen.com/brainathlon/ Brainathalon],Game,dunno,Java,Amy Palke,Open source,No,
 [http://www.shifz.org/brainbay/ BrainBay]," Neurofeedback: MIDI, particle display",dunno,Windows,Chris Veigl and Jeremy Wilkerson,GPL,No,"Neurobit Optima, Neurobit Optima+ and more"
 [http://www.deymed.com/ BrainFeedback Pro],Neurofeedback,v12,Windows,Deymed Diagnostic,Proprietary,Yes,Deymed
 [http://www.brainmaster.com/ BrainMaster]," Neurofeedback, Biofeedback, and QEEG; optional live z-scores (ANI or BrainDX), Live sLORETA Projector."," various including BrainAvatar.  Third-party SW includes: NeuroGuide, BioExplorer, BioERA, BrainPaint, SKIL, LENS, EEGer, BrainTrain, OpenVibe, EEGStudio",Windows," BrainMaster Technologies, Inc.      Thomas F. Collura",Proprietary; includes optional no-cost Application Programming Interfaces (API)," FDA 510(k) clearance, ISO 13485 certification, and CE marking in Europe"," Brainmaster 2E, 2EW, 2EB, Atlantis, Discovery, MINI-Q"
@@ -13,11 +13,20 @@ Software,Type,Version,Operating systems,Developer,License,FDA cleared,Supported 
 [http://www.beemedic.com/cygnet Cygnet]," Neurofeedback/Biofeedback  Neurofeedback: Frequency-band and SCP protocols according to Othmer, particularly: SMR-Beta, ILF 1+2 channel, Synchrony, Alpha Theta. with EEG NeuroAmp one or two channel protocols, with x23 or x39 optional 19 or 31 channels  Biofeedback: pIR HEG training with passive-infrared triple sensor pIRx3;  HRV, GSR, Temp with Combination Sensor.",2.0,Windows (any version)," Developer: BEE Systems GmbHManufacturer: Corscience GmbH ;CoKGDistribution: BEE Medic Europe, BEE Medic EMEA, BEE Medic USA",Proprietary," FDA class II, CE class IIa; including Cygnet Bio/Neurofeedback Software"," NeuroAmp Bio/Neurofeedback device plus add-ons:  * NeuroAmp x23 (23-channel digital EEG device) * NeuroAmp x39 (39-channel digital EEG device) * pIRx3 (3-channel passive infrared sensor) * tactile feedback * Combination Sensor (HRV, GSR, Temperature)"
 [http://www.somaticvision.com/dualdrivepro/ Dual Drive Pro],GSR  ; Temp,3.0,Windows,Somatic Vision Inc.,Proprietary,Unknown (not EEG),
 [http://www.soft-dynamics.com/ eBioo]," Neurofeedback  ; Analysis one-, two- and four channel training,  Amplitude-, relative Amplitude-, Coherence-, Band-Ratio-, Asymmetry-inhibit-Training  and more ..",1.5,Windows," Soft-dynamics, Geoffrey Arens",Proprietary,No – not stated or in FDA database," Pocket Neurobics, Neurobit Optima, Brainmaster"
-[http://www.eegsoftware.com/ EEGer4],Neurofeedback  ; Analysis,4.3.0,Windows,EEG Software LLC,Proprietary,FDA Class II," J ;J, Telediagnostic Systems, Phoenix Neuro Systems,  Thought Technology, Brainmaster, Brainquiry,  Pocket Neurobics, external analog amplifiers"
+[https://www.elmiko.pl/en/ EEGDigiTrack],Neurofeedback  ; Analysis,15.0.5.0,Windows,ELMIKO BioSignals Ltd. [https://www.elmiko.pl/en/ ELMIKO Biosignals Ltd.],Proprietary,"Safety class according to EN60601-1 - Class IIa, type BF","Manufactured by ELMIKO Biosignals Ltd.: EEG-2,"
+"EEG-3,"
+"EEG-4,"
+"EEG-5,"
+ExG-32
+Manufactured by Braintronics:
+"EEG-1166 Amplifier,"
+"EEG-1142 Amplifier,"
+"EEG-1042 Amplifier,"
+[http://www.eegstore.com/ EEGer4],Neurofeedback  ; Analysis,4.3.0,Windows,EEG Software LLC,Proprietary,FDA Class II," J ;J, Telediagnostic Systems, Phoenix Neuro Systems,  Thought Technology, Brainmaster, Brainquiry,  Pocket Neurobics, external analog amplifiers"
 [http://www.realization.org/page/topics/electric_guru.htm ElectricGuru],Neurofeedback,0.4,Windows,Rob Sacks,Open source,No,
 [http://www.okazolab.com/feature-list EventIDE],Visual environment for designing behavioral experiments and mental games with real-time neurofeedback control and signal processing.,1.0,Windows,Okazolab Ltd,Proprietary,No,The majority of popular bio-amplifiers
 LENSware,Neurofeedback  ;Analysis,3,Windows,OchsLabs,Proprietary,FDA Class II Exempt,Ochslabs A200 amplifier
-[http://www.transparentcorp.com/products/mindws/index.php Mind WorkStation]," Neurofeedback, Biofeedback, and EEG-Driven Entrainment",1.3,Windows,Transparent Corporation,Proprietary," No but can use Bioexplorer, Biograph, BioEra links"," See Bioexplorer, Biograph, BioEra"
+[https://web.archive.org/web/20120304101754/http://www.transparentcorp.com/products/mindws/index.php Mind WorkStation]," Neurofeedback, Biofeedback, and EEG-Driven Entrainment",1.3,Windows,Transparent Corporation,Proprietary," No but can use Bioexplorer, Biograph, BioEra links"," See Bioexplorer, Biograph, BioEra"
 [http://www.mindreflector.com/ MindReflector],Neurofeedback,1.1,Windows," MindReflector Technologies, LLC",Proprietary,No,NeuroSky
 [http://www.neurofield.org/ NeuroField],Neurofeedback  ; Analysis,8.7.5,Windows,"NeuroField, Inc.",Proprietary,FDA Class II,X3000 Plus and Q20 EEG
 [http://www.neuromore.com/ neuromore Studio]," Customizable Biofeedback, protocol designing and automated therapy solution",1.2.0," Windows, Android, iOS",neuromore Inc.,Proprietary,No

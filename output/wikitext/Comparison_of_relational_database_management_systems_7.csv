@@ -25,15 +25,15 @@ MaxDB,Yes,dunno,dunno,Yes,Yes,Yes,no,Yes,dunno,dunno,dunno,dunno
 ,Microsoft SQL Server,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
 ,Microsoft SQL Server Compact (Embedded Database),yes,no,no,yes,yes,dunno,no,yes,no,no,dunno,dunno
 ,Mimer SQL,yes,yes,yes,yes,yes,yes,dunno,yes,yes,no,no,dunno
-,MonetDB,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno
-,MySQL,yes,no,no,yes,yes,yes,no,yes,8+,no,no
+,MonetDB,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no
+,MySQL,yes,no,no,yes,yes,yes,no,yes,8+,no,no,no
 OpenBase SQL,no,no,no,yes,yes,yes,yes,yes,dunno,dunno,dunno,dunno
 ,OpenLink Virtuoso,yes,yes,yes,yes,yes,yes,dunno,yes,dunno,dunno,yes,dunno
 ,Oracle,yes,yes," Yes, via MINUS",yes,yes,yes,yes,yes,yes 1,yes,yes,no
 ,Oracle Rdb,yes,yes,yes,yes,yes,yes,yes,yes,dunno,dunno,dunno,dunno
 ,Pervasive PSQL,yes,no,no,yes,yes,dunno,dunno,yes,no,no,no,dunno
 ,Polyhedra DBMS,yes,yes,yes,yes,yes,no,no,yes,no,no,no,dunno
-,PostgreSQL,yes,yes,yes,yes,yes,yes,yes,yes,8.4+,yes,yes,no
+,PostgreSQL,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no
 ,Raima Database Manager,no,no,no,yes,yes,no,no,yes,no,no,no,dunno
 ,RDM Server,yes,no,no,yes,yes,yes,no,yes,no,no,no,dunno
 ,SAP HANA,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno

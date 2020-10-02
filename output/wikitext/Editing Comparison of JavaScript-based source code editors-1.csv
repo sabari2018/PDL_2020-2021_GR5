@@ -1,0 +1,31 @@
+[ Editor
+, Site
+, Latest version
+, Style, clone of
+, US$]])
+, [[Software license]]
+, Open source]]
+, Browser support
+, Activity
+],
+! {{rh}} | [[Ace (editor)|Ace]],| [http://ace.c9.io/ Home] [http://ace.c9.io/build/kitchen-sink.html demo],| [https://github.com/ajaxorg/ace/tags v1.4.12] 2020-7,| Sublime Text / Microsoft Visual Studio,| {{free}},| [[BSD licenses|New BSD License]],| !-- OSS --{{yes| [https://github.com/ajaxorg/ace Yes]}},| Firefox 3.5+ Safari 4+ Chrome IE 8+ Opera 11.5+,| {{yes}},
+! {{rh}} | [[Atom (text editor)|Atom]],| [http://atom.io/ Home],| [https://atom.io/releases v1.50.0-beta0] 2020-07-14,| Emacs Vim and others,| {{Free}},| Dual,| {{Yes}},| Chrome,| {{yes}},
+! {{rh}} | [[CodeMirror]],| [http://codemirror.net/ Home] [http://codemirror.net/mode/htmlmixed/ demo],| [https://github.com/codemirror/CodeMirror/tags 5.56.0] 2020-07-20,| plain textarea,| {{free}},| [[MIT License|MIT]]-like,| !-- OSS --{{yes| [https://github.com/marijnh/CodeMirror Yes]}},| Firefox 3+ Chrome Safari 3+ Internet Explorer 8+ Opera 9+,| {{yes}},
+! {{rh}} | [https://medv.io/codejar/ CodeJar],| [https://medv.io/codejar/ Home] [https://medv.io/codejar/ demo],| [https://github.com/antonmedv/codejar/tags 1.0.2] 2020-04-05,| plain textarea,| {{free}},| [[MIT License|MIT]],| !-- OSS --{{yes| [https://github.com/antonmedv/codejar Yes]}},| Firefox 3+ Chrome Safari 3+ Internet Explorer 8+ Opera 9+,| {{yes}},
+! {{rh}} | [[Codeanywhere]] ,| [http://www.codeanywhere.com Home],| 6.0,| SublimeText,| -,| Public Cloud,| !-- OSS --{{no}},| Firefox 3+ Chrome Safari 3+ Internet Explorer 8+ Opera 9+,| {{yes}},
+| [http://www.codenvy.com Home],| 2.10.17 2014-01-17,| Eclipse,| -,| Public Cloud,| !-- OSS --{{yes}},| Firefox 3+ Chrome Safari 3+ Internet Explorer 8+ Opera 9+,| {{yes}},
+| [https://orionhub.org/ Home],|[https://projects.eclipse.org/projects/ecd.orion 22.0] 2020-04-03.,| Eclipse SWT StyledText regular textarea,| {{free}},| dual-licensed: [[BSD licenses|BSD3-clause]] and [[Eclipse Public License|EPL]],| !-- OSS --{{yes| [https://github.com/eclipse/orion.client Yes]}},| Firefox 37+ Chrome 40+ Safari7+ Internet Explorer 11+,| {{yes}},
+! {{rh}} | [[Monaco Editor]],| [https://microsoft.github.io/monaco-editor/ Home] [https://microsoft.github.io/monaco-editor/playground.html demo],| [https://github.com/Microsoft/monaco-editor/blob/master/CHANGELOG.md 0.20.0] 2020-02-11,| [[Visual Studio Code]],| {{free}},| MIT,| {{yes| [https://github.com/Microsoft/monaco-editor/ Yes]}},| IE8+ Firefox 4+ Chrome,| {{yes}},
+! {{rh}} | [[Markitup]],| [http://markitup.jaysalvat.com/home/ Home] [http://markitup.jaysalvat.com/examples/ demo],| 1.1.14 2013-02-04,| [[markup language|Markup]] editor no syntax highlight,| {{free}},| MIT GPL,| {{yes}},| IE 6 ; 7 Firefox 2 ; 3 Safari 3.1 Opera 9+,| {{some}},
+! {{rh}} | [[LDT (software)|LDT]],| [https://github.com/kueblc/LDT/ Home],| 2012-02-19,| regular textarea,| {{free}},| MIT GPL,| {{yes| [https://github.com/kueblc/LDT/ Yes]}},| Firefox 3.6+ IE8 Chromium 16 Midori 4.1 Opera 11 Epiphany,| {{some}},
+! {{rh}} | [[Ymacs]],| [http://www.ymacs.org/ Home] [http://www.ymacs.org/demo/ demo],| 0.5 2012-03-28,| Emacs,| {{free}},| BSD,| !-- OSS --{{yes| [http://code.ymacs.org/hgwebdir.cgi/ymacs/ Yes]}},| [[Firefox]] Chrome Safari,| {{some}},
+! {{rh}} | [[CodePress]],| [http://codepress.sourceforge.net/ Home],| 0.9.6 2007-09-26,| [[Microsoft Visual Studio]],| {{free}},| LGPL,| {{yes}},| {{dunno}},| {{no}},
+! {{rh}} | [[CodeTextArea]],| [http://code.google.com/p/codetextarea/ Home] [https://web.archive.org/web/20081017002536/http://www.nicolarizzo.com/gamesroom/experimental/CodeEditor.html demo],| 2009-06,| Microsoft Visual Studio,| {{free}},| [[BSD licenses|BSD]],| {{yes}},| [[Dojo Toolkit|Dojo]] widget,| {{no}},
+! {{rh}} | [[EditArea]],| [http://www.cdolivet.com/index.php?page=editArea Home] [http://www.cdolivet.com/editarea/editarea/exemples/exemple_full.html demo],| 0.8.2 2010-01-14,| Microsoft Visual Studio,| {{free}},| LGPL,| {{yes}},| IE 6+ Firefox 1.5+ Safari 3+ Opera 9+ Chrome,| {{no}},
+! {{rh}} | [[Helene (software)|Helene]],| [https://web.archive.org/web/20071012025503/http://helene.muze.nl/ Home] [https://web.archive.org/web/20071012023712/http://helene.muze.nl/ariadne/loader.php/helene/demo/ demo],| 0.9 unknown release date,| Microsoft Visual Studio,| {{free}},| GPL,| {{yes}},|,| {{no}},
+! {{rh}} | [[9ne]],| [https://web.archive.org/web/20071011031810/http://robrohan.com/projects/9ne/ Home],| {{dunno}},| Emacs,| {{free}},| GPL,| {{yes}},|,| {{no}},
+! {{rh}} | [[jsvi]],| [http://gpl.internetconnection.net/vi/ Home],| {{dunno}},| [[vi]],| {{free}},| GPL,| {{yes}},|,| {{no}},
+! {{rh}} | [[MDK-Editor]],| [http://www.mdk-photo.com/editor/ Home],| 2.10 2008,| Microsoft Visual Studio,| {{depends| Depends on use}},| Dual,| {{no| Code is readable}},| tested to work on: IE 6 7 - Firefox 2 3 - Chrome,| {{Yes}},
+! {{rh}} | [[Micro (editor)|Micro]],| [http://micro.jcubic.pl Home],| 2013,| nano,| {{free}},| GPL,| {{yes}},|,| {{some}},
+
+,

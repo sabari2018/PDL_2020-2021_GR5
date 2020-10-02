@@ -1,0 +1,25 @@
+[
+, [[MPU-401, [[Roland MT-32, GM]]
+, GS]]
+, [[Yamaha XG, XG level 2
+, XG level 3
+, GM level 2]]
+, [[Yamaha XGlite],
+| 1984ref name="emusician-mpu"[http://www.textfiles.com/music/midi-em.txt MIDI INTERFACES FOR THE IBM PC] ''[[Electronic Musician]]'' September 1990/,| 1987,| 1991,| 1991,| 1994,| 1997,| 1998,| 1999,|2002,
+| colspan=2 | [[Roland Corporation|Roland]],| [[Japan MIDI Standards Committee|JMSC]] ([[Association of Musical Electronics Industry|AMEI]])br[[MIDI Manufacturers Association|MMA]],| [[Roland Corporation|Roland]],| colspan=3 | [[Yamaha Corporation|Yamaha]],| [[MIDI Manufacturers Association|MMA]],|Yamaha,
+
+|,| rowspan="2" | 8+ combinedbr(up to 32 partials),| 16,| 16,| rowspan="2" | 32 combined,| rowspan="2" | 64 combined,| rowspan="2" | 128 combined,| 16,| rowspan="2" |32 combined,
+|,| 8,| 8,| 16,
+|,| 8,| 15,| 15,| rowspan="2" | 16 combined,| rowspan="2" | 32 combinedbr(on 2 ports),| rowspan="2" | 64 combinedbr(on 4 ports),| 14,| rowspan="2" |16 combined,
+|,| 1,| 1 (#10),| 1,| 2 (#10 ; #11),
+|,|,|#10:drums,|,| colspan=3 | #1:melody; #2:melody(duet);brnowiki#/nowiki3:bass; #4:pad; #5:riff; #10:drums,|,|,
+
+|,| 128,| 128,| 226,| 480,| 1074,| 1149,| 256,|360,
+|,| 1,| 1,| 8 + 1brSFXkit,| 9 + 2 SFXkits,| 34 + 2 SFXkits,| 35 + 2 SFXkits,| 9,|12 kits,
+|,| 30,| 47,| 61,| colspan=3 | 72 ,| 61,|53,
+
+|,| 2!-- MT-32 --,| 6 (MT32+4)!-- GM --,| !-- GS --,| !-- XG1 --,| !-- XG2 --,| !-- XG3 --,| 6 (GM)!-- GM2 --,|,
+|,| 4ref name="youngmonkey"/!-- MT-32 --,| 5 !-- GM --,| 16 (GM+11) !-- GS --,| colspan=3 | 51 (GM+46) !-- XG --,| 12 (GM+7) !-- GM2 --,|,
+|,| 0ref name="youngmonkey"/!-- MT-32 --,| 5,| !-- GS --,| !-- XG1 --,| !-- XG2 --,| !-- XG3 --,| 6 (GM+1) ref name="midi-rpn"/!-- GM2 --,|,
+|,|,| 2,|,|,|,|,| 14,|,
+,

@@ -1,20 +1,23 @@
-,Amazon Music Storage (discontinued),iTunes Match,Google Play Music,VOX Music Cloud,Groove Music + OneDrive (discontinued),Style Jukebox (discontinued),iBroadcast
-Owner:," Amazon.com, Inc.",Apple Inc.,Google Inc.,Coppertino Inc.,Microsoft Corp.,Digital Geek Ltd.," iBroadcast Media, LLC"
-Launch date:,2011-03-29,2011-10-12,2011-05-10 (beta),2015-04-15,2015-03-18,2012-09-05,2012-06-15
-Web player:,Yes,no,Yes,no,Yes,Yes,yes
-Windows player:,Yes,Yes,Chrome,no,Yes,Yes,no
-Android player:,yes,yes,yes,no,yes,yes,yes
-iOS player:,yes,yes,yes,yes,yes,yes,yes
-Windows Phone player:,no,no,no,no,yes,yes,no
-Other listening platforms:," Fire TV, Sonos, Roku, Samsung TVs, Amazon Echo and Dot"," Apple TV, other AirPlay"," Android TV, Apple TV, other AirPlay, Chromecast, Sonos"," macOS, Apple TV via AirPlay, Chromecast, Sonos"," Xbox One, Xbox 360"," Via AirPlay, Qualcomm AllPlay, Chromecast",
-Free space:Purchased music files from associated music store do not count toward space limits.,250 files,None," 50,000 files",Unlimited Uploads  ; Playback (2 weeks trial period),5 GB,10 GB 30 days trial,Unlimited
-Upload software:," Windows, macOS Web Upload","  Web Upload, VOX Player for Mac"," Windows, macOS, Web Upload, Windows Phone, iOS, Android","  Windows, macOS, Web Upload and Automatic Import from Dropbox, OneDrive and Google Drive","Any Browser, Windows"
-Filetypes uploaded:,AAC,MP3 and AAC,MP3," FLAC, MP3, AAC, M4A, WAV, OGG, AIFF, WMA, APE, ALAC "," MP3, AAC, WMA"," MP3, AAC, OGG, WMA, M4A, WAV, APE, AIFF, FLAC, ALAC","MP3, AAC, OGG, FLAC, PCM, MKA"
-Filetypes transcoded:,None," Transcoded to 256 kbit/s AAC:ALAC, WAV, AIFF"," Transcoded to 320 kbit/s MP3:AAC, ALAC, Google Play Music transcoding of FLAC to MP3 only supported with 16 and 24-bit stereo or mono FLAC. WMA,Google Play Music only supports WMA transcoding on Windows with Music Manager. Ogg",None,None,None on upload,
-Maximum file size:,100 MB,200 MB or 2 hours,300 MB,No limit,10 GB,1 GB,
-Premium service name:,Cloud Player Premium,iTunes Match,None storage related,Loop Music Cloud Storage,Additional OneDrive storage,Style Jukebox Pro,Entirely Free (Premium Features TBA)
-Premium service features:," Match/import up to 250,000 files"," Match/import up to 100,000 filesIn the United States and Australia, iTunes Match also gets you ad-free iTunes Radio listening.",Matching included in basic features,Unlimited Storage and Playback,N/A,Upload 2 TB of music  24bit/192kHz High-Resolution Audio Playback,TBA
-Premium annual cost:," $24.99 (US), £21.99 (UK)"," $24.99 (US), £21.99 (UK), €24.99 (FR), $39.99 (AU)",None," $15.99 (per month), $131.88 (per year)",N/A," $4.99 for 10 GB, $29.99 for 100 GB, $99.99 for 1 TB",TBA
-Matchable file types:," MP3, AAC, AIFF, ALAC, WAV, FLAC, Ogg, WMA"," MP3, AAC, AIFF, ALAC, WAV"," MP3, AAC, ALAC, FLAC, Ogg, WMA",No matching feature,No matching feature,No matching feature,No matching feature
-Result for matched song:,256 kbit/s VBR MP3,256 kbit/s AAC,No matching feature,No matching feature,No matching feature,No matching feature
-Premium service countries:," US, UK, DE, FR",117,63,Worldwide,22,Worldwide,TBA
+,Google Play Music,YouTube Music,iBroadcast,iTunes Match,VOX Music Cloud
+Owner:,Google LLC,YouTube LLC (Google LLC)," iBroadcast Media, LLC",Apple Inc.,Coppertino Inc.
+Launch date:,2011-05-10 (beta),2015-11-12,2012-06-15,2011-10-12,2015-04-15
+Web player:,yes,yes,yes,no,no
+Windows player:,Chrome,Chrome,no,yes,no
+Android player:,yes,yes,yes,yes,no
+iOS player:,yes,yes,yes,yes,yes
+Windows Phone player:,no,no,no,no,no
+Other listening platforms:," Android TV, Apple TV, other AirPlay, Chromecast, Sonos","Google Home, Sonos, Chromecast, Android TV, Android Auto",," Apple TV, other AirPlay"," macOS, Apple TV via AirPlay, Chromecast, Sonos"
+Free space:Purchased music files from associated music store do not count toward space limits.," 50,000 files"," 100,000 files",no limit,None
+Upload software:," Windows, macOS, Linux, any web browser",Any web browser," Windows, any web browser"," Windows, macOS"," VOX Player for Mac, any web browser"
+Filetypes uploaded:,MP3,AAC," MP3, AAC, OGG, FLAC, PCM, MKA",MP3 and AAC," FLAC, MP3, AAC, M4A, WAV, OGG, AIFF, WMA, APE, ALAC "
+Filetypes transcoded:," Transcoded to 320 kbit/s MP3:AAC, ALAC, FLAC,Google Play Music transcoding of FLAC to MP3 only supported with 16 and 24-bit stereo or mono FLAC. WMA,Google Play Music only supports WMA transcoding on Windows with Music Manager. OGG",Transcoded to  256 kbit/s AAC:
+"FLAC, M4A, MP3, OGG, WMA",," Transcoded to 256 kbit/s AAC:ALAC, WAV, AIFF",None
+Maximum file size:,300 MB,,,200 MB or 2 hours,No limit
+Premium service name:,None,YouTube Music Premium YouTube Premium,None,iTunes Match,Loop Music Cloud Storage
+Premium service features:,Matching included in basic features,"Ads-free, background play, download music offline, use audio-only mode, travel with YouTube Music, shuffle downloads, Apple Carplay  ; Android Auto compatibility",N/A," Match/import up to 100,000 filesIn the United States and Australia, iTunes Match also gets you ad-free iTunes Radio listening.",Unlimited storage and playback
+Premium annual cost:,,$119.88 (YouTube Music Premium)
+$143.88 (YouTube Premium),N/A," $24.99 (US), £21.99 (UK), €24.99 (FR), $39.99 (AU)",$131.88
+Matchable file types:," MP3, AAC, ALAC, FLAC, Ogg, WMA",," MP3, AAC, AIFF, ALAC, WAV",No matching feature
+Result for matched song:,320 kbit/s CBR MP3,,256 kbit/s AAC,No matching feature
+Premium service countries:,63,94 (YouTube Music Premium)
+95 (YouTube Premium),Worldwide

@@ -1,0 +1,39 @@
+[ Store
+, Tracks&lt;br&gt;(million)
+, Geographic&lt;br&gt;restrictions
+, Purchase platform
+, FLAC]]
+, ALAC]]
+, [[WAV]]
+, AIFF]]
+, AAC]]
+, [[MP3]]
+, WMA]]
+, [[Vorbis]]
+, DRM]]
+, Preview (seconds)
+, Stream&lt;br&gt; purchases
+],
+| {{nts|27}},| {{bad|Yes}}br,| Web Android,| {{yes|24-bit}} !--FLAC--,| {{no}} !--ALAC--,| {{no}} !--WAV--,| {{no}} !--AIFF--,| {{yes|{{nts|320}}kbps}} !--AAC--,| {{yes|{{nts|320}}kbps}} !--MP3--,| {{no}} !--WMA--,| {{no}} !--Vorbis--,| {{good|No}} !--DRM--,| {{partial|{{ntsh|30}}30-60}},| {{yes}},
+| {{dunno}},| {{no|Yes}},| Web,| {{yes|24-bit}} !--FLAC--,| {{no}} !--ALAC--,| {{no}} !--WAV--,| {{no}} !--AIFF--,| {{no}} !--AAC--,| {{no}} !--MP3--,| {{no|{{ntsh|0}}No}} !--WMA--,| {{no}} !--Vorbis--,| {{good|No}},| {{partial|{{nts|30}}}},| {{no}},
+| {{nts|20}},| {{bad|Yes}},| Web Android,| {{no}} !--FLAC--,| {{no}} !--ALAC--,| {{no}} !--WAV--,| {{no}} !--AIFF--,| {{no|{{ntsh|0}}No}} !--AAC--,| {{yes|{{nts|256}}kbps}} !--MP3--,| {{no|{{ntsh|0}}No}} !--WMA--,| {{no}} !--Vorbis--,| {{good|No}},| {{no}},| {{yes}},
+| {{nts|18.1}},| {{good|No}},| Web,| {{yes|24-bit}} !--FLAC--,| {{yes|24-bit}} !--ALAC--,| {{yes|24-bit}} !--WAV--,| {{yes|24-bit}} !--AIFF--,| {{yes|{{ntsh|127}}Yes}} !--AAC--,| {{yes|{{ntsh|127}}Yes}} !--MP3--,| {{no|{{ntsh|0}}No}} !--WMA--,| {{yes}} !--Vorbis--,| {{good|No}},| {{good|{{ntsh|999}}Full}},| {{yes}},
+| {{nts|7.8}},| {{bad|Yes}}br,| Web,| {{no}} !--FLAC--,| {{no}} !--ALAC--,| {{yes|16-bit}} !--WAV--,| {{yes|16-bit}} !--AIFF--,| {{no}} !--AAC--,| {{yes|{{nts|320}}kbps}} !--MP3--,| {{no|{{ntsh|0}}No}} !--WMA--,| {{no}} !--Vorbis--,| {{good|No}},| {{partial|{{nts|120}}}},| {{yes|Paid service}},
+| {{dunno|{{ntsh|0}}?}},| {{good|No}},| Web,| {{yes|16-bit}} !--FLAC--,| {{no}} !--ALAC--,| {{yes|24-bit}} !--WAV--,| {{no}} !--AIFF--,| {{no|{{ntsh|0}}No}} !--AAC--,| {{yes|{{nts|320}}kbps}} !--MP3--,| {{no|{{ntsh|0}}No}} !--WMA--,| {{no}} !--Vorbis--,| {{good|No}},| {{good|{{ntsh|999}}Full}},| {{yes}},
+| {{nts|0.62}},| {{bad|Yes}},| Web,| {{no}} !--FLAC--,| {{no}} !--ALAC--,| {{no}} !--WAV--,| {{no}} !--AIFF--,| {{no|{{ntsh|0}}No}} !--AAC--,| {{yes|{{nts|320}}kbps}} !--MP3--,| {{no|{{ntsh|0}}No}} !--WMA--,| {{no}} !--Vorbis--,| {{good|No}},| {{partial|{{nts|60}}}},| {{no}},
+| {{nts|17}},| {{bad|Yes}}br,| Web,| {{no}} !--FLAC--,| {{no}} !--ALAC--,| {{no}} !--WAV--,| {{no}} !--AIFF--,| {{no|{{ntsh|0}}No}} !--AAC--,| {{yes|{{nts|320}}kbps}}!--MP3--,| {{no|{{ntsh|0}}No}} !--WMA--,| {{no}} !--Vorbis--,| {{good|No}},| {{partial|{{nts|30}}brref name="Emusic Help" /}},| {{dunno}},
+| {{nts|40}},| {{no|Yes}}br,| Web Android iOS,| {{no}} !--FLAC--,| {{no}} !--ALAC--,| {{no}} !--WAV--,| {{no}} !--AIFF--,| {{no|{{ntsh|0}}No}} !--AAC--,| {{yes|{{nts|320}}kbps}} !--MP3--,| {{no|{{ntsh|0}}No}} !--WMA--,| {{no}} !--Vorbis--,| {{good|No}},| {{partial|{{nts|90}}br}},| {{yes}},
+| {{dunno|{{ntsh|0}}?}},| {{bad|YesbrUS}}br,| Web,| {{yes|24-bit}} !--FLAC--,| {{yes|24-bit}} !--ALAC--,| {{yes|24-bit}} !--WAV--,| {{yes|24-bit}} !--AIFF--,| {{no|{{ntsh|0}}No}} !--AAC--,| {{no|{{ntsh|0}}No}} !--MP3--,| {{no|{{ntsh|0}}No}} !--WMA--,| {{no}} !--Vorbis--,| {{good|No}},| {{partial|{{nts|30}}}},| {{dunno}},
+| {{nts|43}}ref name="appl_Appl"{{Cite web,| title = Apple - iTunes - iTunes Match,| work = Apple,| date = ,| accessdate = 2015-07-18,| url = https://www.apple.com/itunes/itunes-match/,| quote = ...there are more than 43 million songs in the iTunes Store...,}}/ref,| {{bad|Yes}}br,| Windows [[macOS]]br[[iOS]] [[tvOS]],| {{no}} !--FLAC--,| {{no}} !--ALAC--,| {{no}} !--WAV--,| {{no}} !--AIFF--,| {{yes|{{nts|256}}kbps}} !--AAC--,| {{no|{{ntsh|0}}No}} !--MP3--,| {{no|{{ntsh|0}}No}} !--WMA--,| {{no}} !--Vorbis--,| {{good|Nobrsmall(previously [[FairPlay]])/small}},| {{partial|{{nts|90}}br}},| {{yes|iTunes in the Cloud}},
+| {{nts|0.21}},| {{good|No}},| Web,| {{no}} !--FLAC--,| {{no}} !--ALAC--,| {{no}} !--WAV--,| {{no}} !--AIFF--,| {{no|{{ntsh|0}}No}} !--AAC--,| {{yes|{{ntsh|127}}Yes}} !--MP3--,| {{no|{{ntsh|0}}No}} !--WMA--,| {{yes}} !--Vorbis--,| {{good|No}},| {{good|{{ntsh|999}}Full}},| {{dunno}},
+| {{dunno|{{ntsh|0}}?}},| {{no|Yes}}br,| Web,| {{yes|16-bit}} !--FLAC--,| {{yes|16-bit}} !--ALAC--,| {{yes|16-bit}} !--WAV--,| {{yes|16-bit}} !--AIFF--,| {{no|{{ntsh|0}}No}} !--AAC--,| {{yes|{{nts|320}}kbps}} !--MP3--,| {{no|{{ntsh|0}}No}} !--WMA--,| {{no}} !--Vorbis--,| {{good|No}},| {{partial|{{nts|60}}}},| {{no}},
+| {{nts|0.01}},| {{good|No}},| Web,| {{yes}} !--FLAC--,| {{yes}} !--ALAC--,| {{yes}} !--WAV--,| {{no}} !--AIFF--,| {{yes}} !--AAC--,| {{yes}} !--MP3--,| {{no|{{ntsh|0}}No}} !--WMA--,| {{yes}} !--Vorbis--,| {{good|No}},| {{good|{{ntsh|999}}Full}},| {{dunno}},
+| {{nts|0.01}},| {{good|No}},| Web,| {{no}} !--FLAC--,| {{no}} !--ALAC--,| {{no}} !--WAV--,| {{no}} !--AIFF--,| {{no|{{ntsh|0}}No}} !--AAC--,| {{yes|{{nts|320}}kbps}} !--MP3--,| {{no|{{ntsh|0}}No}} !--WMA--,| {{no}} !--Vorbis--,| {{good|No}},| {{partial|{{nts|45}}}},| {{dunno}},
+| {{nts|4.4}},| {{no|YesbrJapan}},| Web,| {{yes|24-bit}} !--FLAC--,| {{no}} !--ALAC--,| {{no}} !--WAV--,| {{no}} !--AIFF--,| {{yes|{{nts|320}}kbps}} !--AAC--,| {{no|{{ntsh|0}}No}} !--MP3--,| {{no|{{ntsh|0}}No}} !--WMA--,| {{no}} !--Vorbis--,| {{good|No}},| {{partial|{{nts|30}}}},| {{dunno}},
+| {{dunno|{{ntsh|0}}?}},| {{good|No}},| Web,| {{no}} !--FLAC--,| {{no}} !--ALAC--,| {{no}} !--WAV--,| {{no}} !--AIFF--,| {{no|{{ntsh|0}}No}} !--AAC--,| {{yes|{{nts|320}}kbps}} !--MP3--,| {{no|{{ntsh|0}}No}} !--WMA--,| {{no}} !--Vorbis--,| {{good|No}},| {{good|{{ntsh|999}}Full}},| {{dunno}},
+| {{dunno}},| {{no|Yes}},| Web,| {{yes|24-bit}} !--FLAC--,| {{no}} !--ALAC--,| {{no}} !--WAV--,| {{yes|24-bit}} !--AIFF--,| {{no}} !--AAC--,| {{no}} !--MP3--,| {{no|{{ntsh|0}}No}} !--WMA--,| {{no}} !--Vorbis--,| {{good|No}},| {{partial|{{nts|30}}}},| {{no}},
+| {{nts|28}},| {{bad|Yes}},| Web Android iOSbrKindle Windows 8,| {{yes|24-bit}} !--FLAC--,| {{yes|24-bit}} !--ALAC--,| {{yes|24-bit}} !--WAV--,| {{yes|24-bit}} !--AIFF--,| {{yes|{{nts|320}}kbps}} !--AAC--,| {{yes|{{nts|320}}kbps}} !--MP3--,| {{yes|{{nts|320}}kbps}} !--WMA--,| {{no}} !--Vorbis--,| {{good|No}} !--DRM--,| {{partial|{{ntsh|30}}30-60}},| {{yes}},
+| {{nts|4.3}},| {{good|No}},| Web,| {{yes|16+24-bit}} !--FLAC--,| {{no}} !--ALAC--,| {{no}} !--WAV--,| {{no}} !--AIFF--,| {{no|{{ntsh|0}}No}} !--AAC--,| {{yes|{{nts|320}}kbps}} !--MP3--,| {{no|{{ntsh|0}}No}} !--WMA--,| {{no}} !--Vorbis--,| {{good|No}},| {{partial|{{ntsh|30}}30+30}},| {{dunno}},
+| {{nts|40}},| {{bad|Yes}},| Web,| {{yes|16-bit}} !--FLAC--,| {{no}} !--ALAC--,| {{no}} !--WAV--,| {{no}} !--AIFF--,| {{no|{{ntsh|0}}No}} !--AAC--,| {{yes|{{nts|320}}kbps}} !--MP3--,| {{no|{{ntsh|0}}No}} !--WMA--,| {{no}} !--Vorbis--,| {{good|No}},| {{partial|{{nts|30}}}},| {{no}},
+! Tracksbr(million),! Geographicbrrestrictions,! Purchase platform,! [[Free Lossless Audio Codec|FLAC]],! [[Apple Lossless Audio Codec|ALAC]],! [[WAV]],! [[Audio Interchange File Format|AIFF]],! [[Advanced Audio Coding|AAC]],! [[MP3]],! [[Windows Media Audio|WMA]],! [[Vorbis]],! [[Digital Rights Management|DRM]],! Preview (seconds),! Streamingbravailable,
+,

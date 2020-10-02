@@ -5,21 +5,21 @@ Database Deployment Manager,The Unauthorized Frog project,2012-05-29,v0.1i,LGPL,
 DatabaseSpy,Altova,releasedate,DatabaseSpy version,Proprietary,yes,no,no,yes,yes,yes,yes,yes,yes,,"IBM DB2, Sybase, MS Access",C++
 Database Workbench,Upscene Productions,2017-06-29,5.3.2,Proprietary,yes,requires Wine,requires Wine,yes,yes,,yes,yes,,,"Firebird, SQL Anywhere, NexusDB and MariaDB",Delphi
 DataGrip,JetBrains,2017-09-06,2017.2.2,Proprietary,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,"DB2, H2, Hypersonic SQL, Amazon Redshift, Apache Derby",Java
-DBeaver,Serge Rider,2019-03-10,6.0,Apache License,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,"Oracle, SQL Server, Firebird all with JDBC driver",Java
+DBeaver,Serge Rider,2020-08-31,7.2.0,Apache License,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,"Oracle, SQL Server, Firebird all with JDBC driver",Java
 DBEdit,Jef Van Den Ouweland,2012-05-10,2.4.6,GPL,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,H2,Java
 Epictetus,Antilogic Software,dunno,dunno,Proprietary,yes,yes,yes,yes,,yes,yes,,,,"Firebird, H2, HSQLDB",Java
-HeidiSQL,Ansgar Becker,releasedate,HeidiSQL version,GPL,yes,requires Wine,requires Wine,,yes,yes,yes,,,,,Embarcadero Delphi
+HeidiSQL,Ansgar Becker,releasedate,HeidiSQL version,GPL,yes,requires Wine,requires Wine,,yes,yes,yes,,,yes,,Embarcadero Delphi
 Maatkit,Baron Schwartz,2010-06-01,5247,GPL,yes,yes,yes,,yes,,,,,,,Perl
-Microsoft SQL Server Management Studio,Microsoft,2019-07-28,18.2,Proprietary,yes,no,no,,,,yes,,,," including SSAS management, and MDX, DMX, and XMLA languages",.Net
+Microsoft SQL Server Management Studio,Microsoft,2020-07-22,18.6,Proprietary,yes,no,no,,,,yes,,,," including SSAS management, and MDX, DMX, and XMLA languages",.Net
 ModelRight,ModelRight,2016-12-??,4.1,Proprietary,yes,no,no,yes,yes,,yes,yes,,,"SQL Server, Oracle, DB2, DB2/zOS, MS Access",C++
 MySQL Workbench,Oracle Corporation,releasedate,MySQL Workbench version,Community Ed: GPL Standard Ed: Commercial Proprietary
 yes,yes,yes,,yes,,,,,,,C# Objective-C Python (programming language)
-Navicat,PremiumSoft CyberTech Ltd.,2018-07-26,12.1,Proprietary,yes,yes,requires Wine,yes,yes,yes,yes,yes,,yes,,Borland Delphi Objective-C
+Navicat,PremiumSoft CyberTech Ltd.,2020-04-15,15.0.13,Proprietary,yes,yes,requires Wine,yes,yes,yes,yes,yes,,yes,,Borland Delphi Objective-C
 Navicat Data Modeler,PremiumSoft CyberTech Ltd.,2015-12-10,2.1,Proprietary,yes,yes,yes,yes,yes,yes,yes,yes,,yes,,Borland Delphi Objective-C
 Oracle Enterprise Manager,Oracle Corp.,2015-06-16,12.1.0.5,Proprietary,yes,No,yes,yes,yes,,yes,,,,"DB2, Sybase, TimesTen",Java
 Oracle SQL Developer,Oracle Corp.,2018-04-05,18.1.0.095.1630,Proprietary,yes,yes,yes,yes,yes,no,yes,yes,yes,,"DB2, Teradata",Java
 Orbada,Andrzej Kaluza,releasedate,Orbada version,GPL,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,"Firebird, HSQL, InterBase, Derby all with JDBC driver",Java
-pgAdmin III,pgAdmin Development Team,2012-09-11,1.22.2,PostgreSQL License,yes,yes,yes,,,yes,,,,,,C++
+pgAdmin,pgAdmin Development Team,2020-03-05,4.19,PostgreSQL License,yes,yes,yes,,,yes,,,,,,C++
 phpLiteAdmin," Dane Iracleous, Christopher Kramer and others",2019-09-05,1.9.8.2,GPL,yes,yes,yes,no,no,no,no,no,no,yes,,PHP
 phpMyAdmin,phpMyAdmin Development Team,releasedate,phpMyAdmin version,GPL,yes,yes,yes,,yes,,,,,,"Drizzle, MariaDB",php
 SQL Database Studio,Jan Prochazka,2016-05-27,3.4.1,Proprietary,yes,no,no,no,no,no,yes,,,,,".NET, WPF, C#"

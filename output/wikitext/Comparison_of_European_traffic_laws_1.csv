@@ -11,10 +11,10 @@ CY,CYP,100,n/a,80,50,0.05,,All,12," Yes, 2x ",Recommended,Recommended,No,18,Yes
 CZ,CZE,130 (urban 80),110 (urban 80),90,50,0 (tolerated 0.02),Yes,All,,Yes,Yes,Recommended,Yes,18 (17 for B1 cars),Yes
 D,DEU,no (130 recommended),no (130 recommended),100 (no / 130 recommended with two or more lanes per direction),50,0.05,No,All,n/a,Yes,Yes,Recommended,No,18 (17 with supervision of >30 years old driver),No
 DK,DNK,130,n/a,80,50,0.05,Yes,All,n/a,Yes,Recommended,Recommended,No,18,Yes
-E,ESP,doesnt use,120,90,50,0.05,Yes,All,n/a," Yes, 2x ",Recommended,Recommended,No,18,Yes
-EST,EST,120,110,90,50,0,,All,n/a,Yes,Yes,Yes,No,18 (16 with supervision of a person with 2+ years of driving experience),Yes
-F,FRA,130 (rain/wet 110),110 (rain/wet 100),90 (rain/wet 80),50,0.05,Yes,All,10,Yes,Recommended,Recommended,No,18 (15 with supervision of a person with 5+ years of driving experience),Yes
-FIN,FIN,120,n/a,80,50,0.05,No,All,3,Yes,Recommended,Recommended,No,18,Yes
+E,ESP,120,120,90,50,0.05,Yes,All,n/a," Yes, 2x ",Recommended,Recommended,No,18,Yes
+EST,EST,110,110,90,50,0,,All,n/a,Yes,Yes,Yes,No,18 (16 with supervision of a person with 2+ years of driving experience),Yes
+F,FRA,130 (rain/wet 110),110 (rain/wet 100),80,50,0.05,Yes,All,10,Yes,Recommended,Recommended,No,18 (15 with supervision of a person with 5+ years of driving experience),Yes
+FIN,FIN,120,n/a,80,50,0.05,No,All,3,Yes,Recommended,Recommended,No,17,Yes
 FL,LIE,n/a,n/a,80,50,0.08,,All,n/a,Yes,Yes,Recommended,No,18,Yes
 GB,UK,112,112,97,48,0.08  (0.05 Scotland),,All,n/a,Recommended,Recommended,Recommended,No,17,Yes
 GR,GRC,130,n/a,90,50,0.05,,All,12,Yes,Yes,Yes,No,18,Yes
@@ -28,7 +28,7 @@ LT,LTU,130,110,90,50,0.04,,All,12,Yes,Yes,Yes,No,18,No
 LV,LVA,n/a,90,90,50,0.05,,All,,Yes,Yes,Yes,No,18,Yes
 M,MLT,n/a,n/a,80,50,0.08,,Yes,11,Recommended,Recommended,Recommended,No,18,Yes
 MC,MCO,n/a,n/a,,50,0.05,,n/a,10,Recommended,Recommended,Recommended,No,18,Yes
-MD,MDA,n/a,n/a,90,60,0,,All,12,Yes,Yes,Yes,No,18,Yes
+MD,MDA,n/a,n/a,90,50,0,,All,12,Yes,Yes,Yes,No,18,Yes
 MK,MKD,130,n/a,80,60,0.05,Yes,All,12,Yes,Yes,Recommended,Yes,18,Yes
 MNE,MNE,120,n/a,80,50,0.05,Yes,All,12,Yes,Recommended,Recommended,No,,Yes
 N,NOR,110,n/a,80,50,0.02,Yes,All,n/a,Yes,Recommended,Recommended,No,18,Yes

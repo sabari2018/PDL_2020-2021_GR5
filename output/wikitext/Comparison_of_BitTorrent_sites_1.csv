@@ -1,28 +1,28 @@
-Site,Specialization,Is a tracker,Directory,Public,RSS,One-click download,Sortable,Comments,Multi-tracker index,Ignores DMCA,Tor friendly,Alexa Traffic Rank
-,The Pirate Bay,None,no,yes,yes,yes,yes,yes,yes,no,yes,yes,000228228
-,Rarbg,None,yes,yes,yes,yes,no,yes,yes,yes,no,no,000330330
-,YTS.AM,Movies,no,yes,yes,yes,yes,yes,yes,no,yes,no,000175175
-,1337x,None,no,yes,yes,no,no,yes,yes,yes,no,no,000253253
-,RutrackerruRuTracker.org,None,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,000262262
-,Limetorrents,None,yes,yes,yes,yes,yes,yes,yes,yes,no,no," 0012661,266"
-,Torrents.me,Search,no,yes,yes,no,no,yes,yes,no,no,no," 0022642,264"
-,Zooqle,Search,no,yes,yes,yes,yes,yes,yes,yes,no,no," 0023302,330"
-,Torrent downloads,None,no,yes,yes,no,no,no,yes,no,no,no," 0024212,421"
-,IPTorrents,None,yes,yes,no,yes,yes,yes,yes,no,yes,no," 0024602,460"
-Demonoid,None,yes,yes,yes,no,yes,yes,yes,?,?,yes," 0039703,970"
-,YourBittorrent,None,yes,yes,yes,yes,yes,yes,yes,yes,no,no," 0041314,131"
-,Torlock,None,no,yes,yes,yes,yes,yes,yes,yes,no,?," 0049454,945"
-,torrentleech.org,None,yes,yes,no,yes,yes,yes,yes,no,yes,no," 0078037,803"
-redacted.ch,Music,yes,yes,no,yes,yes,yes,yes,no,yes,no," 02112921,129"
-,HDBits,Movies,yes,yes,no,yes,yes,yes,yes,no,yes,no," 025941 25,941"
-,Worldwidetorrents.me,None,yes,yes,no,yes,yes,yes,yes,no,yes,no," 02668826,688"
-,ETTV,None,yes,yes,no,yes,yes,yes,yes,no,yes,no," 03190231,902"
-RevolutionTT,None,yes,yes,no,yes,yes,yes,yes,no,yes,no," 03286032,860"
-,apollo.rip,Music,yes,yes,no,yes,yes,yes,yes,no,yes,no," 04673846,738"
-,Waffles,Music,yes,yes,no,yes,yes,yes,yes,no,yes,no," 07455874,558 "
-,AnimeSuki,Anime  ; otaku subculture,no,yes,yes,yes,yes,no,no,no,?,?," 09384393,843"
-,etree,Live concerts,yes,yes,yes,yes,yes,yes,yes,no,?,?," 097818 97,818"
-,MovieMagnet,Movies,no,yes,yes,no,yes,yes,yes,no,no,?," 349627349,627"
-,NyaaV2," CJK content, especially otaku and anime",yes,yes,yes,yes,yes,yes,yes,no,yes,no,000785785
-,Kickass Torrent,None,no,yes,yes,no,yes,no,no,no,no,no," 37383,738"
-Site,Specialization,Is a tracker,Directory,Public,RSS,One-click download,Sortable,Comments,Multi-tracker index,Ignores DMCA,Tor friendly,Alexa Traffic Rank
+Site,Specialization,Is a tracker,Directory,Public,RSS,One-click download,Sortable,Comments,Multi-tracker index,Ignores DMCA,Tor friendly
+,1337x,None,no,yes,yes,no,no,yes,yes,yes,no,no
+,apollo.rip,Music,yes,yes,no,yes,yes,yes,yes,no,yes,no
+Demonoid,None,yes,yes,yes,no,yes,yes,yes,?,?,yes
+,etree,Live concerts,yes,yes,yes,yes,yes,yes,yes,no,?,?
+,ETTV,None,yes,yes,no,yes,yes,yes,yes,no,yes,no
+EZTV,TV Series,no,yes,yes,yes,yes,yes,yes,no,no,yes
+,HDBits,Movies,yes,yes,no,yes,yes,yes,yes,no,yes,no
+,IPTorrents,None,yes,yes,no,yes,yes,yes,yes,no,yes,no
+Kickass Torrent,None,no,yes,yes,no,yes,no,no,no,no,no
+,Limetorrents,None,yes,yes,yes,yes,yes,yes,yes,yes,no,no
+,MkvCage,Movies,no,yes,yes,yes,no,yes,yes,no,yes,no
+,NyaaV2,"CJK content, especially otaku and anime",yes,yes,yes,yes,yes,yes,yes,no,yes,no
+,The Pirate Bay,None,no,yes,yes,yes,yes,yes,yes,no,yes,no
+Rarbg,None,yes,yes,yes,yes,no,yes,yes,yes,no,no
+redacted.ch,Music,yes,yes,no,yes,yes,yes,yes,no,yes,no
+RevolutionTT,None,yes,yes,no,yes,yes,yes,yes,no,yes,no
+,RutrackerruRuTracker.org,None,yes,yes,yes,yes,yes,yes,yes,no,yes,yes
+Torlock,None,no,yes,yes,yes,yes,yes,yes,yes,no,?
+,Torrent downloads,None,no,yes,yes,no,no,no,yes,no,no,no
+,torrentleech.org,None,yes,yes,no,yes,yes,yes,yes,no,yes,no
+Torrentseeker,Search,no,no,yes,no,no,yes,no,no,no,no
+,Torrents.me,Search,no,yes,yes,no,no,yes,yes,no,no,no
+,Worldwidetorrents.me,None,yes,yes,no,yes,yes,yes,yes,no,yes,no
+,YourBittorrent,None,yes,yes,yes,yes,yes,yes,yes,yes,no,no
+,YTS,Movies,no,yes,yes,yes,yes,yes,yes,no,yes,yes
+,Zooqle,Search,no,yes,yes,yes,yes,yes,yes,yes,no,no
+" class=""sortbottom""",Site,Specialization,Is a tracker,Directory,Public,RSS,One-click download,Sortable,Comments,Multi-tracker index,Ignores DMCA,Tor friendly

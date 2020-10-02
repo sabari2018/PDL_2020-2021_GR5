@@ -10,7 +10,6 @@ Elm,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 eM Client,no,no,yes,yes,yes,no,yes,no,yes,yes
 EmailTray,no,no,no,no,no,no,no,no,dunno,dunno
 Eudora,no,yes,no,no,no,no,no,dunno,dunno,dunno
-Eureka Email,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Evolution,no,no,group=NoteEvolution-rss,group=NoteEvolution-rss,group=NoteEvolution-rss,no,yes,yes,yes,yes
 Gnus,dunno,dunno,yes,yes,yes,no,dunno,dunno,dunno,dunno
 GroupWise,dunno,no,dunno,dunno,dunno,dunno,yes,dunno,dunno,dunno
@@ -22,7 +21,7 @@ Mailpile,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Microsoft Entourage,dunno,dunno,dunno,dunno,dunno,dunno,yes,dunno,dunno,dunno
 Microsoft Office Outlook,dunno,dunno,group=NoteOutlookFeeds,group=NoteOutlookFeeds,group=NoteOutlookFeeds,group=NoteOutlookFeeds,Yes group=NoteOutlookiCal,yes,no,no
 Mozilla Mail  ; Newsgroups,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
-Mozilla Thunderbird,no,no,yes,yes,yes,yes,group=NoteMTB,group=NoteSimpleMAPI,yes,yes
+Mozilla Thunderbird,no,no,yes,yes,yes,yes,group=NoteMTB,group=NoteSimpleMAPI,yes,no
 Mulberry,yes,yes,no,no,no,no,yes,dunno,yes,dunno
 Mutt,dunno,dunno,no,no,no,no,no,dunno,dunno,dunno
 Netscape Messenger,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno

@@ -1,18 +1,19 @@
 Name,macOS,Windows,Cygwin,BSD,Linux,Solaris,Java,OpenVMS,z/OS,AIX,HP-UX,iOS,Android,Maemo,Windows Phone
 AbsoluteTelnet,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,dunno
+Bitvise SSH Client,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no
 ConnectBot,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,no
 CRAX Commander,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no
-Dropbear,yes,no,yes,yes,yes,yes,?,?,?,yes,yes,group=Noteiosjailbreak,no,yes,dunno
-eSSH Client,yes,yes,?,yes,yes,yes,?,?,?,no,no,no,no,no,dunno
-lsh,yes,no,no,group=Notefreebsdonly,yes,yes,?,?,?,no,no,no,no,no,dunno
-OpenSSH (OpenBSD Secure Shell),included,group=Notewin32openssh,included,included,group=Noteopensshlinux,yes,?,yes,yes,yes,yes,group=Noteiosjailbreak,yes,yes,dunno
-PuTTY,partial,yes,?,yes,yes,yes,no,?,?,no,no,no,no,no,beta
+Dropbear,yes,no,yes,yes,yes,yes,dunno,dunno,dunno,yes,yes,group=Noteiosjailbreak,no,yes,dunno
+eSSH Client,yes,yes,dunno,yes,yes,yes,dunno,dunno,dunno,no,no,no,no,no,dunno
+lsh,yes,no,no,group=Notefreebsdonly,yes,yes,dunno,dunno,dunno,no,no,no,no,no,dunno
+OpenSSH (OpenBSD Secure Shell),included,group=Notewin32openssh,included,included,group=Noteopensshlinux,yes,dunno,yes,yes,yes,yes,group=Noteiosjailbreak,yes,yes,dunno
+PuTTY,partial,yes,dunno,yes,yes,yes,no,dunno,dunno,no,no,no,no,no,beta
 SecureCRT,yes,yes,no,no,yes,no,no,no,no,no,no,yes,no,no,dunno
 SmartFTP,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,dunno
-SSH Tectia Client/ConnectSecure,no,yes,no,no,yes,yes,group=Notesft_api,no,yes,yes,yes,no,no,no,dunno
 Tera Term,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,dunno
 TN3270 Plus,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,dunno
 TtyEmulator,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,dunno
 WinSCP,no,yes,no,no,no,no,no,no,no,no,no,group=Noteiosjailbreak,no,no,dunno
+wolfSSH,yes,yes,yes,yes,yes,yes,no,no,dunno,dunno,no,no,no,no,no
 ZOC,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no,dunno
 Name,OS X,Windows,Cygwin,BSD,Linux,Solaris,Java,OpenVMS,z/OS,AIX,HP-UX,iOS,Android,Maemo,Windows Phone

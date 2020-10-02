@@ -10,4 +10,4 @@ Unboxing,yes; implicit,yes; explicit
 Lifted operators," no, but see java.util.Optional ",yes
 Overflow control,no,yes
 Strict floating point evaluation,yes; opt-in/out,yes; opt-in
-Verbatim (here-)strings,no,yes
+Verbatim (here-)strings,Yes; coming in version 15style=background: #8CF;,yes

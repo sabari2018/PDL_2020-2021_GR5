@@ -1,21 +1,21 @@
-,Primary developers,First public release,Based on,Latest stable version,,Cost (United States dollar),Preferred Software license,Purpose,Short description
+Name,Primary developers,First public release,Based on,Latest stable version,,Cost (United States dollar),Preferred Software license,Purpose,Short description
 ,,,,Version,Release Date,,,,
-FreeBSD,The FreeBSD Project,1993-12-01," 386BSD, 386BSD-Lite ",12.0,2018-12-07[37],Free,BSD licenses," Server (computing), Server (computing), Server (computing), Server (computing) ",Aims to be usable for any purpose.
-OpenBSD,The OpenBSD Project,1996-09-01,NetBSD,6.6,2019-10-17,Free,ISC license," Server (computing), Server (computing), Server (computing), Server (computing) "," Aims for maximum correctness in code, bringing simplicity and security. "
-NetBSD,The NetBSD Project,1993-05-01," 386BSD, 386BSD-Lite ",8.1,2019-05-31,Free,BSD licenses," Server (computing), Server (computing), Server (computing), Server (computing) ",Aims for maximum portability.
-DragonFly BSD,Matt Dillon (computer scientist),2004-07-12,FreeBSD 4.8,5.6.1,2019-06-19,Free,BSD licenses," Server (computing), Server (computing), Server (computing), Server (computing) ",Aims for maximum scalability.
+FreeBSD,The FreeBSD Project,1993-12-01," 386BSD, 386BSD-Lite ",12.1,2019-11-04[36],Free,BSD licenses," Server (computing), Server (computing), Server (computing), Server (computing) ",Aims to be usable for any purpose.
+OpenBSD,The OpenBSD Project,1996-09-01,NetBSD,6.7,2020-05-19,Free,ISC license," Server (computing), Server (computing), Server (computing), Server (computing) "," Aims for maximum correctness in code, bringing simplicity and security. "
+NetBSD,The NetBSD Project,1993-05-01," 386BSD, 386BSD-Lite ",9.0,2020-02-14,Free,BSD licenses," Server (computing), Server (computing), Server (computing), Server (computing) ",Aims for maximum portability.
+DragonFly BSD,Matt Dillon (computer scientist),2004-07-12,FreeBSD 4.8,5.8.1,2020-05-06[37],Free,BSD licenses," Server (computing), Server (computing), Server (computing), Server (computing) ",Aims for maximum scalability.
 386BSD386BSD,William Jolitz and William Jolitz,1992-03-01,4.3BSD Net/2,1.0,1994-11-01,Free,BSD License,Open source general purpose,Historical
 BSD/OS (BSD/386)BSD/OS," BSDi, BSDi ",1993-03-01," 4.3BSD Net/2, 4.3BSD ",5.1,2003-10-01,?,Proprietary software,General purpose,Historical
 SunOSSunOSSunOS,Sun Microsystems,1982," 4.xBSD, UNIX System VUNIX System V ",4.1.4,1994-11-01,Included in hardware and support charges,Proprietary software," Server (computing), Server (computing) ",Historical (Solaris (operating system) is a different code base)
 UltrixUltrix,Digital Equipment Corporation,1984," 4.2BSD, UNIX System V ",4.5,1995,?,Proprietary software,General Purpose,Historical (ran on Digital Equipment Corporation Digital Equipment Corporation &amp; Digital Equipment Corporation systems or Digital Equipment Corporation).
-RISC iX,Acorn Computers,1988," 4.3 BSD, UNIX System V ",1.31c,1993-09-07,Non-free £1000 GBP (Approx $1400),Proprietary software,Workstation,Historical (ran on Acorn Archimedes and R series Workstations)
-" Tru64 UNIX (DEC OSF/1, Digital UNIX) "," Digital Equipment Corporation, Digital Equipment Corporation, Digital Equipment Corporation ",1993," 4.3BSD, 4.4BSD, Mach kernel 2.5, Mach kernel ",5.1B-6,2010-10-01,Non-free $99 (non-commercial),Proprietary software,General Purpose,Only runs on DEC Alpha systems or DEC Alpha.
-MacOS,Apple Inc.,2001-03-24,Darwin (operating system),MacOS Catalina,2019-10-29,Client: Free  Server (add-on application): $19.99,Open-source software core system (see Darwin) with Open-source software higher level API layers locking to Apple hardware," Computer workstation, Home Desktop, Computer workstation ",Locked to Apple hardware use only
-IOS,Apple Inc.,2007-06-01,Darwin (operating system),13.2.3,2019-11-18,Free,Open-source software core system (see Darwin) with Open-source software higher level API layers locking to Apple hardware,Embedded system Embedded system," Ships with Apple iPhone, iPad, iPod Touch, Apple TV, Apple Watch "
-Darwin (operating system),Apple Inc.,2001-03-01," NeXTSTEP, NeXTSTEP, NeXTSTEP ",18.0.0,2018-09-24,Free," Apple Public Source License, Apple Public Source License and others "," Computer workstation, Home Desktop, Computer workstation ",The kernel and certain userland components of macOS and iOS
-TrueOS,Berkeley Software Design,2006-04-29,FreeBSD,18.3,2018-03-30,Free,BSD License,Server (computing),Easy to use while maintaining full use of FreeBSD base
-GhostBSD,Eric Turgeon,2009-11-01,FreeBSD,11.1,2017-11-16,Free,BSD License," Desktop, Computer workstation "," Easy to use, full FreeBSD w/ GNOME, GNOME, GNOME, GNOME or GNOME. "
-FuryBSD (page does not exist),Joe Maloney,2019-10-24,FreeBSD,12.0-XFCE-12-02-2019-01,2019-12-02,Free,BSD License," Desktop, Computer workstation "," Easy to use, full FreeBSD w/ Xfce or Xfce. "
+RISC iX,Acorn Computers,1988," 4.3 BSD, UNIX System V ",1.31c,1993-09-07,Cost £1000 GBP (Approx $1400),Proprietary software,Workstation,Historical (ran on Acorn Archimedes and R series Workstations)
+" Tru64 UNIX (DEC OSF/1, Digital UNIX) "," Digital Equipment Corporation, Digital Equipment Corporation, Digital Equipment Corporation ",1993," 4.3BSD, 4.4BSD, Mach kernel 2.5, Mach kernel ",5.1B-6,2010-10-01,Cost $99 (non-commercial),Proprietary software,General Purpose,Only runs on DEC Alpha systems or DEC Alpha.
+MacOS,Apple Inc.,2001-03-24,Darwin (operating system),MacOS Catalina,2020-07-15,Client: Free  Server (add-on application): $19.99,Open-source software core system (see Darwin) with Open-source software higher level API layers locking to Apple hardware," Computer workstation, Home Desktop, Computer workstation ",Locked to Apple hardware use only
+IOS,Apple Inc.,2007-06-01,Darwin (operating system),13.6,2020-07-15,Free,Open-source software core system (see Darwin) with Open-source software higher level API layers locking to Apple hardware,Embedded system Embedded system," Ships with Apple iPhone, iPad, iPod Touch, Apple TV, Apple Watch "
+Darwin (operating system),Apple Inc.,2001-03-01," NeXTSTEP, NeXTSTEP, NeXTSTEP ",19.3.0,2020-01-28,Free," Apple Public Source License, Apple Public Source License and others "," Computer workstation, Home Desktop, Computer workstation ",The kernel and certain userland components of macOS and iOS
+TrueOS,Berkeley Software Design,2006-04-29,FreeBSD,18.12,2018-12-15,Free,BSD License,Server (computing),Easy to use while maintaining full use of FreeBSD base
+GhostBSD,Eric Turgeon,2009-11-01,FreeBSD,20.01,2020-01-22,Free,BSD License," Desktop, Computer workstation "," Easy to use, full FreeBSD w/ GNOME, GNOME, GNOME, GNOME or GNOME. "
+FuryBSD,Joe Maloney,2019-10-24,FreeBSD,12.1-2020090701 (2020Q3),2019-12-02,Free,BSD License," Desktop, Computer workstation "," Easy to use, full FreeBSD w/ Xfce or Xfce. "
 DesktopBSD," Peter Hofer, Daniel Seuffert ",2005-07-25,FreeBSD,1.7,2009-09-07,Free,BSD License,Desktop,Easy to use
 ClosedBSD,Joshua Bergeron and various contributors,?,FreeBSD," 1.0B (floppy), 1.0-RC1 (CD) ",?,Free,Proprietary software,?," firewall/Network address translation, boot floppy, Network address translation "
 FreeSBIE,?,?,FreeBSD,2.0.3,2007-02-01,Free,?,?,Live CD of FreeBSD. DistroWatch lists as discontinued.,
@@ -31,11 +31,12 @@ Gentoo/Alt,Gentoo Linux developers,?,NetBSD,?,?,Free," GPL, BSD "," Server, Work
 Gentoo/DragonflyBSD,Robert Sebastian Gerus (project not yet officially supported by Gentoo),?,DragonFly BSD,?,?,Free,?," Server, Workstation, Network Appliance ",uses Gentoo framework
 Debian GNU/FreeBSD,The Debian GNU/kFreeBSD team,2011-02-06," GNU, GNU ",7.5,2014-04-26,Free,DFSG,General purpose,GNU userspace on FreeBSD kernel
 Debian GNU/NetBSD,The Debian GNU/kNetBSD team,Abandoned," GNU, GNU ",Abandoned,Abandoned,Free,DFSG,General purpose,GNU userspace on NetBSD kernel
-MidnightBSDMidnightBSD,Lucas Holt,2007-08-04,FreeBSD 6.1 betaFreeBSD,0.8.6,2017-08-28,Free,BSD License,Desktop,GNUstep based Desktop Environment
-PfSense,various contributors,2006-10-04,FreeBSD,2.4.3,2018-03-29,Free,BSD License,Security appliance," firewall/Network address translation, Network address translation "
+MidnightBSDMidnightBSD,Lucas Holt,2007-08-04,FreeBSD 6.1 betaFreeBSD,1.2,2019-10-31,Free,BSD License,Desktop,GNUstep based Desktop Environment
+PfSense,various contributors,2006-10-04,FreeBSD,2.4.4-p3,2019-05-11,Free,BSD License,Security appliance," firewall/Network address translation, Network address translation "
 Paxym FreeBSD for Octeon,Paxym Inc.,2007-12-11,FreeBSD 7.0,4.7,2008-08-13,?,Proprietary software," Network, Storage, Security Applications: Routers/UTM/Firewall/NAS ",For Cavium Networks Octeon Cavium Networks multicore processorsCavium Networks
 MaheshaBSD (page does not exist),,?,FreeBSD 8,?,?,Free,BSD License,FreeBSD multipurpose,
 KarmaBSD[42],,?,FreeBSD 8 FreeBSD,?,?,Free,Free software," FreeBSD, FreeBSD Firewall, MP3 player, backup, others ",
 Jibbed[43],,," OpenBSD, OpenBSD ",6.0,,Free,BSD License,,Live CD of NetBSD,
 Bitrig,The Bitrig Developers,2014-11-25,OpenBSD,1.0,2014-11-25,Free,ISC License,General Purpose,Focus on modern platforms and tools
+StarBSD,digital IXI Corp,2009-12-01,FreeBSD,2020.3,2020-03-25,Free,BSD licenses," Server (computing), Server (computing), Server (computing), Server (computing) ",Aims for maximum scalability.
 ,Developer,First public release,Based on,Version,Release Date,Cost (United States dollar),Preferred Software license,Purpose,Short description

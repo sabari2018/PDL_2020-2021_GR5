@@ -5,7 +5,6 @@ Download Accelerator Plus,yes,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,
 DownloadStudio,yes,yes,yes,1,no,yes,yes,yes,yes,yes,yes,yes,dunno,no,dunno,dunno
 DownThemAll!,Requires Firefox,yes,yes,10,beta,no,yes,no,beta,no,no,no,no,yes,no,yes
 FlashGet,yes,yes,yes,unknown limit,yes,yes,yes,yes,All downloads,yes,no,yes,N/A,no,no,dunno
-Folx,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Free Download Manager,yes,yes,yes,10,yes,yes,yes,no,yes,yes,yes,yes,yes,yes,yes,yes
 Free Studio,yes,yes,yes,unlimited,no,no,no,no,no,no,no,no,no,no,no,dunno
 Freemake Video Downloader,no,yes,yes,unlimited,no,no,no,no,yes,yes,no,no,no,no,no,dunno
@@ -16,6 +15,7 @@ Internet Download Manager,yes,yes,yes,1 refreshable,no,yes,yes,yes,yes,yes,no,no
 JDownloader,yes,yes,yes,1,no,yes,no,no,yes,no,no,yes,Yes,yes,yes,dunno
 Jigdo,no,yes,dunno,unlimited,dunno,no,no,no,no,no,no,dunno,no,yes,no,no
 KGet,Fx (via Flashgot plugin),yes,yes,unlimited,yes,yes,yes,yes,BitTorrent Only,yes,no,yes,dunno,yes,yes,dunno
+Microsoft Download Manager,yes,yes,yes,dunno,no,no,no,no,no,no,no,no,no,no,no,dunno
 MiniDM,yes,yes,yes,unlimited,no,no,no,no,no,yes,no,yes,dunno,yes,yes,dunno
 MLDonkey,partial,yes,no,unlimited,no,no,yes,no,yes,no,no,yes,dunno,yes,yes,dunno
 Shareaza,IE; Fx and similar: ext. plugin,yes,yes,unlimited,yes,via Scheduler,yes,no,yes,yes,yes,yes,dunno,yes,yes,dunno

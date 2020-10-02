@@ -2,6 +2,6 @@ Reference types,Java,C#
 Garbage collection,yes,yes
 Weak references,yes,yes
 Reference queue (interaction with garbage collection),yes,yes
-Soft references,yes,Yes
+Soft references,yes,date=February 2020
 Phantom references,yes,no
 Proxy support,yes; proxy generation,yes; object contexts

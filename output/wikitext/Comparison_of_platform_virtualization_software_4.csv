@@ -4,7 +4,7 @@ User Mode Linux,yes,no,no,no,no,,,no,yes,N/A,
 " Containers, or Zones",yes,yes,yes,yes,Not needed,yes,yes,no,yes,Not needed,Not needed
 DosBox,no,no,SVN builds only,no,Glide (SVN builds only),no,yes,no,no,no,no
 " Oracle VirtualBox (formerly OSE, GPLv2), with Guest Additions (GPLv2)",yes,USB 1.1 only,yes,yes,no,yes branched,yes,yes,with Guest Additions,with Guest Additions,no
-Oracle VirtualBox with Extension Pack (PUEL) and Guest Additions (GPLv2),yes,yes,yes,yes,OpenGL 2.0 and Direct3D 8/9,yes branched,yes,yes,yes,yes,Linux only
+Oracle VirtualBox with Extension Pack (PUEL) and Guest Additions (GPLv2); Linux only)
 Oracle VM Server for SPARC (LDoms),yes,USB 2.0,yes,yes,no,yes,no,yes,yes,no,yes
 OKL4 Microvisor,yes,yes,VMs only,yes,yes,,,no,,,Static assignment
 Virtual Iron 4.2,,,,,,,,yes,,,
@@ -17,7 +17,7 @@ Microsoft Hyper-V Server 2012 R2,yes,yes,yes,yes,DirectX 9.0c Hyper-V-3DAccelera
 Virtuozzo,yes,yes,yes,yes,no,,,yes,,,
 VMware ESX Server 3.0 atp,,,yes,,no,?,yes,yes,,,no
 VMware ESX Server 2.5.3,,,yes,,no,,,,,,no
-VMware ESX Server 4.0 (vSphere),yes,yes,yes,yes,yes,?,yes,yes,,,yes
+VMware ESX Server 4.0 - 6.x (vSphere),yes,yes,yes,yes,yes,yes,yes,yes,no,no,yes
 VMware Fusion 2.0,yes,yes,yes,no,DirectX 9 Shader model 2,,,no,,,no
 VMware Server,yes,yes,yes,yes,no,1,yes,no,yes,yes,
 VMware Workstation 5.5,yes,yes,yes,yes,Experimental support for DirectX 8; also supported with VMGL,yes branched,yes,no,yes,yes,no

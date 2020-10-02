@@ -9,13 +9,12 @@ Courier (email client),Yes,Yes,Yes,No,Yes,Yes,?,No,No,No,No,No,No,No
 Elm (email client),?,?,?,?,?,?,?,?,?,?,?,?,?,?
 EM Client,Yes,Yes,Yes,Yes,Yes,Yes,account,No,No,No,No,No,No,No
 Eudora (email client),Yes,Yes,Yes,Yes,Yes,Yes,any,No,No,No,No,Yes,No,No
-Eureka Email,?,?,?,?,?,?,?,?,?,?,?,?,?,?
 Evolution (software),Yes,Yes,Yes,Yes,Yes,Yes,?,?,?,?,?,?,?,?
 Gnus,Yes,Yes,Yes,Yes,Yes,Yes,?,No,No,No,No,Yes,No,Elisp
 GroupWise,Yes,No,No,Yes,Yes,?,?,?,?,?,?,?,?,?
 Hiri (email client),Yes,Yes,Yes,No,Yes,Yes,any,No,No,No,No,No,No,No
 Scribe Mail,Yes,Yes,Yes,No,No,No,any,No,No,No,No,No,No,Internal macros (similar to JavaScript)
-IBM Lotus Notes,Yes,Yes,Yes,Yes,?,?,?,Yes,No,No,No,Yes[108],Yes," LotusScript, LotusScript "
+IBM Lotus Notes,Yes,Yes,Yes,Yes,?,?,?,Yes,No,No,No,Yes[40],Yes," LotusScript, LotusScript "
 KMail,Yes,Yes,Yes,No,No,No,none,?,No,No,No,?,?,?
 Mailpile,?,?,?,?,?,?,?,?,?,?,?,?,?,?
 Microsoft Entourage,Yes,Yes,Yes,Yes,?,?,?,?,?,?,?,?,?," AppleScript, AppleScript "

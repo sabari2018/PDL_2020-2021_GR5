@@ -5,7 +5,6 @@ OpenBSD,yes,yes,yes,yes 5.7+,yes,yes,no,yes,yes,no,no,no,no,no,yes,2d only,yes,y
 NetBSD,yes,yes,yes,no 7.1,yes,yes,yes,yes,yes,no,no,no,no,no,,,,yes,yes
 DragonFly BSD,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,no,no,no,no,,,,yes,
 " OpenSolaris, illumos",yes,yes,yes,,yes,yes,yes,yes,yes,yes,no,yes,no,no,,,,yes,V4L2
-AuroraUX,yes,yes,yes,,yes,yes,yes,yes,yes,yes,no,yes,no,no,,,,yes,
 " Darwin, OpenDarwin",yes,yes,yes,yes,,yes,,,,no,no,no,no,no,,,,,
 MINIX,,,,,,,,,,no,no,no,no,no,,,,,
 FreeDOS,yes,yes,yes,no,no,no,no,,yes,no,no,no,no,no,no,no,no,yes,no

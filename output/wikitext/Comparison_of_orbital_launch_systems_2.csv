@@ -27,7 +27,7 @@ Atlas IIAS,USA,Lockheed Martin,8618,3833," 2,680 to HCO",30,1993,2004
 ,Atlas IIIA,USA,Lockheed Martin,8686,4060," 2,970 to HCO",2,2000,2004
 DEC,USA,Lockheed Martin,10759,4609,,1,2002,2002
 SEC,USA,Lockheed Martin,10218,4193,,3,2003,2005
-,Black Arrow,UK,RAE,73,,,2 (+2),1969,1971
+,Black Arrow,UK,RAE,73,,,2 (+2)," 1969First suborbital test in 1969, first orbital launch attempt in 1970",1971
 ,Titan IIICommercial Titan III,USA,Martin Marietta,13100,,,4,1990,1992
 ,Delta 0300,USA,McDonnell Douglas,,340,747 to SSO,3,1972,1973
 Delta 0900,USA,McDonnell Douglas,1300,,818 to SSO,2,1972,1972
@@ -67,11 +67,11 @@ Delta II-H 7925H,USA,ULA,,2171," 1,508 to HCO",3,2003,2007
 " Delta IV M+(5,4)",USA,ULA,14140,7300,11600 to polar,8,2009,2019
 ,Diamant,FRA,SEREB,107,,,12,1965,1975
 ,Dnepr,UKR,Yuzhmash,3700,,,22
-,Energia,USSR,NPO Energia,100000,," 20000 to GEO32,000 to TLI",1 (failed to orbit),1987,1987
-Buran,USSR,Launcher)Orbiter),30000,,,1,1988,1988
+," Without Buran, and assuming payload providing orbital insertion",USSR,NPO Energia,100000,," 20000 to GEO32,000 to TLI",1 (failed to orbit),1987,1987
+Buran,USSR,Launcher)Orbiter)," 30000name=spaceplaneThe U.S. Space Shuttle Transportation System and the Soviet Buran system consist of launch vehicle rockets and returnable spaceplane orbiter. Payload values listed here are for the mass of the payload in cargo bay of the spaceplanes, excluding the mass of the spaceplanes themselves.",,,1,1988,1988
 ,Falcon 1,USA,SpaceX,470,,,5,2006,2009
 ,Falcon 9 v1.0,USA,SpaceX," 10,450"," 4,540",2010,2013
-Falcon 9 v1.1,USA,SpaceX," 13,150"," 4,850",,15,2013,2016
+Falcon 9 v1.1,USA,SpaceX," 13,150The SpaceX website lists the F9 payload to LEO as 13,150kg. The payload to GTO is listed as 4,850kg. However, SpaceX has stated that these numbers include a 30% margin to accommodate re-usability."," 4,850",,15,2013,2016
 ,Feng Bao 1,CHN,Shanghai Bureau No.2," 2,500",,,8 (+3),1972,1981
 ,GSLV Mk.I(a),IND,ISRO,5000,1540,2001,2001
 GSLV Mk.I(b),IND,ISRO,5000,2150,,4,2003,2007
@@ -80,12 +80,13 @@ GSLV Mk.I(c),IND,ISRO,5000,,,1,2010,2010
 ,H-II / IIS,JPN,Mitsubishi,10060,4000,1994,1999
 H-IIA 2022,JPN,Mitsubishi,,4500,,3,2005,2007
 H-IIA 2024,JPN,Mitsubishi,11000,5000,,7,2002,2008
+H-IIB,JPN,Mitsubishi," 16,500 (ISS)"," 8,000",,8,2009,2020
 ,J-I,JPN,Nissan Motors,,,0 (+1),1996,1996
 ,Kaituozhe-1,CHN,CALT,100,,,2,2002,2003
 ,Kosmos-3M,USSRRUS,NPO Polyot,1500,,,442,1967,2010
 ,Lambda 4S,JPN,Nissan Motors,26,,,5,1966,1970
 ,Long March 1,CHN,CALT,300,,,2,1970,1971
-Long March 1D,CHN,CALT,740,,,0 (+3),2002
+Long March 1D,CHN,CALT,740,,,0 (+3)," 1995Suborbital test flights in 1995, 1997 and 2002, no orbital launches attempted",2002
 ,Long March 2A,CHN,CALT,2000,,,4,1974,1978
 Long March 2E,CHN,CALT,9200,,,7,1990,1995
 ,Long March 3,CHN,CALT,5000,,,13,1984,2000
@@ -99,17 +100,19 @@ Mu-3H,JPN,Nissan Motors,300,,,3,1977,1978
 Mu-3S,JPN,Nissan Motors,300,,,4,1980,1984
 Mu-3SII,JPN,Nissan Motors,770,,,8,1985,1995
 Mu-4S,JPN,Nissan Motors,,,4,1971,1972
-,N1,USSR,NPO Energia,95000,,,4 (never reached orbit),1969,1972
+,N1,USSR,NPO Energia," 95000The N1 rocket was initially designed for 75mt LEO capacity and launch attempts were made with this version, but there were studies to increase the payload capacity to 90–95 mt, if a liquid-hydrogen upper stage engine could be developed.",,,4 (never reached orbit),1969,1972
 ,N-I,JPNUSA,Mitsubishi,1200,,,7,1975,1982
 N-II,JPNUSA,Mitsubishi,2000,,,8,1981,1987
 ,Naro-1,KORRUS,Khrunichev,100,,,3,2009,2013
+,NOTS-EV-1 Pilot,USA,United States Navy,1.05,,,10,1958,1958
 ,Paektusan,North Korea,KCST,700,,,0 (+1),1998,1998
 ,Polyot,USSR,RSC Energia,1400,,,2,1963,1964
 ,Proton-K,USSRRUS,Khrunichev,19760,4930,,311,1965,2012
 ,PSLV-G,IND,ISRO,3200
-,Saturn I,USA,Douglas (S-IV),9000,,,10,1961,1965
+Rokot,RUS,Khrunichev,1950,,1200 to SSO,34,1990,2019
+Saturn I,USA,Douglas (S-IV),9000,,,10,1961,1965
 Saturn IB,USA,Douglas (S-IVB),18600,,,9,1966,1975
-,Saturn V,USA,North American (Douglas (S-IVB),140000,,47000 to TLI,13,1967,1973
+,Saturn V,USA,North American (Douglas (S-IVB),140000,,47000 to TLI," 13The Saturn V made 13 launches, 12 of which reached the correct orbits, and the other (url=https://web.archive.org/web/20110517075159/http://history.msfc.nasa.gov/saturn_apollo/documents/Flight_History.pdf date=2011-05-17 . For more information, see the Saturn V article.  The Saturn V launch record is usually quoted as having never failed, e.g. ""The rocket was masterminded by Wernher Von Braun and did not fail in any of its flights"", Alan Lawrie and Robert Godwin; [http://www.apogeespacebooks.com/Books/Saturn.html Saturn], but the Apollo 6 launch should be considered a partial mission failure. The 13th launch of Saturn V was in special configuration (SA-513) with the Skylab.",1967,1973
 ,Scout,USA,US Air Force/NASA,174,,,125,1961,1994
 ,Shtil,RUS,Makeyev,420 280–420,,,2,1998,2006
 ,SLV,IND,ISRO,40,,,4,1979,1983
@@ -119,7 +122,7 @@ Soyuz-L,USSR,RSC Energia,5500,,,3,1970,1971
 Soyuz-M,USSR,RSC Energia,6600,,,8,1971,1976
 ,Soyuz-U,USSRRUS,TsSKB-Progress,6650 from Baikonour  6150 from Plesetsk,1973,2017
 Soyuz-U2,USSRRUS,TsSKB-Progress,7050,,,72,1982,1995
-,Space Shuttle,USA,ATK (SRBs)External tank)Rockwell (Orbiter),24400 * 1200 with PAM-D,3550 to escape with IUS,1981,2011
+,Space Shuttle,USA,ATK (SRBs)External tank)Rockwell (Orbiter),24400name=spaceplane,* 4944 with IUS * 1200 with PAM-D,3550 to escape with IUS,1981,2011
 ,Sputnik 8K71PS,USSR,RSC Energia,500,,,2,1957,1957
 Sputnik 8A91,USSR,RSC Energia,1327,,,2,1958,1958
 ,Start-1,RUS,MITT,532,,350 to SSO,5,1993,2006
@@ -138,10 +141,9 @@ Titan IIIE,USA,Martin Marietta,15400,,,7,1974,1977
 Tsyklon-2,USSRUKR,Yuzhmash,2820,,,106,1969,2006
 ,Tsyklon-3,USSRUKR,Yuzhmash,1920,,,122,1977,2009
 ,Vanguard,USA,Martin,9,,,11 (+1),1957,1959
-group=noteTwo suborbital test flights were performed in 2017.,,,0,Canceled,
-Vector-H,USA,Vector Space Systems,160,,,0,Canceled,
-VLS-1,BRA," AEB, IAE",380,,,2 (never reached orbit),1997,2003
-,Volna,RUS,Makeyev,100,,,1 (+5),2005
+Vector-R,USA,Vector Space Systems,64,,,0 (+2),2017,2017
+VLS-1,BRA," AEB, IAE",380,,,2A third rocket exploded before launch. (never reached orbit),1997,2003
+,Volna,RUS,Makeyev,100,,,1 (+5),1995First orbital launch attempt in 2005,2005
 ,Voskhod,USSR,RSC Energia,6000,,,306,1963,1976
 ,Vostok-L,USSR,RSC Energia,,,390 to TLI,4,1960,1960
 Vostok-K,USSR,RSC Energia,2460,,,16,1960,1964
@@ -150,3 +152,6 @@ Vostok-2M,USSR,RSC Energia,1300,,,93,1964,1991
 ,Soyuz/Vostok,USSR,RSC Energia,6000,,,2,1965,1966
 ,Zenit-2,USSRUKR,Yuzhnoye,13740,,,36,1985,2004
 Zenit-2M / 2SLB,UKR,Yuzhnoye,13920,,,2,2007,2011
+Zenit-3F,UKR,Yuzhnoye,,,1740 to GEO,4,2011,2017
+Zenit-3SL,UKR,Yuzhmash  RSC Energia,7000,6160,,36,1999,2014
+Zenit-3SLB / 3M,UKR,Yuzhmash  RSC Energia,,3750,,6,2008,2013

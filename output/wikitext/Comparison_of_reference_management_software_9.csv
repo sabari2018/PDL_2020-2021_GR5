@@ -11,19 +11,20 @@ Citavi,yes,yes,yes
 CiteULike,yes,no,yes
 colwiz,yes,yes,yes
 EndNote,yes,no,no
-F1000Workspace,yes,yes,yes
 JabRef,no,no,partial
 KBibTeX,no,n/a,n/a
 Mendeley,yes,yes,yes
 Paperpile,yes,yes,yes
 Pybliographer,dunno,dunno,dunno
 Qiqqa,yes,yes,yes
-ReadCube (now Papers),yes,yes,no
+ReadCube (now Papers),yes,yes,yes
 refbase,yes,yes,yes
 RefDB,yes,yes,yes
 Reference Manager,yes,no,yes
 Referencer,dunno,dunno,dunno
+RefME,dunno,dunno,dunno
 RefWorks,yes,dunno,yes
+SciRef,dunno,dunno,dunno
 Sente,yes,yes,yes
 Wikindx,yes,yes,yes
 WizFolio,yes,yes,yes

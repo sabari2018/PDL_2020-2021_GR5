@@ -1,0 +1,25 @@
+[Client]]
+, Primary developers]]
+, [[Cost]]
+, [[Software license]]
+, [[User interface]]
+, [[Programming language]]
+, [[Computing platform]]
+, [[Website]]
+],
+| Kiji Roshi,| {{nonfree|[[US$]]1.99}},| [[BSD License]],| [[graphical user interface|GUI]],| [[Objective-C]],| [[iOS (Apple)|iOS]],| [https://web.archive.org/web/20110216235418/http://colloquy.mobi/],
+| Laurence Muller,| {{free|Free}},| [[GNU GPL]],| [[graphical user interface|GUI]],| [[Java (programming language)|Java]],| [[Android (operating system)|Android]],| [https://code.google.com/p/firc-chat/],
+| [https://jordanko.ch Jordan Koch],| {{nonfree|[[US$]]5.99}},| {{Proprietary}},| [[graphical user interface|GUI]],| [[Swift_(programming_language)|Swift]],| [[iOS]],| [https://iglooirc.com/],
+| IRCCloud Ltd.,| {{free|[[Freemium]]}},| [[Apache 2.0]],| [[graphical user interface|GUI]],| [[Objective-C]] [[Java (programming language)|Java]],| [[iOS]] [[Android (operating system)|Android]],| [https://www.irccloud.com/],
+| Juho Vähä-Herttua,| {{free|Free}},| [[GNU GPL]],| [[graphical user interface|GUI]],| [[Java (programming language)|Java]],| [[Java ME]],| [http://jmirc.sourceforge.net/],
+| Armond Avanes,| {{free|Free}},| [[GNU GPL]],| [[graphical user interface|GUI]],| [[Java (programming language)|Java]],| [[Java ME]],| [https://web.archive.org/web/20090331201338/http://sourceforge.net/projects/kirc/],
+| ,| {{free|Free}},| [[GNU GPL]],| [[graphical user interface|GUI]],| [[C (programming language)|C]] ?,| Windows Mobile 5 (and above),| [https://code.google.com/p/microirc/],
+| MCMrARM ,| {{free|Free}},| [[GNU GPL]],| [[graphical user interface|GUI]],| [[Java (programming language)|Java]],| [[Android (operating system)|Android]],| [https://github.com/MCMrARM/revolution-irc],
+| ,| {{free|Free}},| [[GNU GPL]],| [[text user interface|TUI]],| [[Java (programming language)|Java]],| [[Java ME]],| [http://www.vidarholen.net/contents/virca/],
+| ,| {{free|Free}},| [[GNU GPL]],| [[graphical user interface|GUI]],| [[C (programming language)|C]] ; [[JavaScript]],| [[WebOS]],| [http://www.webos-internals.org/wiki/Application:WIRC],
+| Sverre Kristian Valskrå,| {{free|Free}},| [[GNU LGPL]],| [[graphical user interface|GUI]],| [[Java (programming language)|Java]],| [[Java ME]],| [http://wirelessirc.sourceforge.net/],
+| Sebastian Kaspari,| {{free|Free}},| [[GNU GPL]],| [[graphical user interface|GUI]],| [[Java (programming language)|Java]],| [[Android (operating system)|Android]],| [http://www.yaaic.org/],
+| The Linux Geek,| {{free|Free}},| [[GNU GPL]],| [[graphical user interface|GUI]],| [[Java (programming language)|Java]],| [[Android (operating system)|Android]],| [http://github.com/jcjordyn130/simpleirc],
+| Gargaj,| {{free|Free}},| [[3-clause BSD]],| [[graphical user interface|GUI]],| [[C++]],| [[Windows Mobile]],| [http://www.zsIRC.com],
+! [[Software developer|Primary developers]],! [[Cost]],! [[Software license]],! [[User interface]],! [[Programming language]],! [[Computing platform]],! [[Website]],
+,

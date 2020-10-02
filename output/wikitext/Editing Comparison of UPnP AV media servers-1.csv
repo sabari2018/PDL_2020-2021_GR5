@@ -1,0 +1,68 @@
+[Name
+, License
+, Cost
+, [[OS X]]
+, [[Unix-like]]
+, [[Windows]]
+, Audio
+, Images
+, Video
+, [[Transcoding]]
+, Web Interface
+, [[DLNA]] support
+, [[Multilingual]]&lt;ref name="Multilingual"&gt;For example, multilingual isn't supported if char 'Й' isn't displayed correctly on movie filename on the client device.&lt;/ref&gt;
+, Implementation
+, Subtitles&lt;ref name="Subtitles"&gt;For example, subtitles are not supported if they only work with few renderers.&lt;/ref&gt;
+, Still Supported
+, Misc.
+],
+|{{Free|GPL}},|[[Trialware]],|{{No}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{No}},|{{Yes}},|{{Yes}},|Delphi/Python,|{{Yes}},|{{Yes}},|,
+|{{Nonfree|Prop.}},|{{nonfree}},|{{Yes}},|{{No}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{No}},|{{Yes}},|{{Yes}},|{{unknown}},|C++,|{{Yes}},|{{Yes}},|,
+|{{Nonfree|Prop.}},|{{Free}},|{{No}},|{{No}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{No}},|{{Yes}},|{{unknown}},|Java,|{{unknown}},|{{Yes}},|,
+|{{Free|MIT}},|{{Free}},|{{Partial}},|{{Partial}}ref name="Python" /,|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{unknown}},|{{unknown}},|Python,|{{unknown}},|{{unknown}},|,
+|{{Free|MIT}},|{{Free}},|{{Partial}}ref name="Python" /,|{{Partial}}ref name="Python" /,|{{Partial}}ref name="Python" /,|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{unknown}},|Python,|{{unknown}},|{{No}},|,
+|{{Nonfree|Prop.}},|{{Free}},|{{Yes}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{No}},|{{Yes}},|{{Yes}},|C++,|{{unknown}},|{{Yes}},|,
+|{{Nonfree|Prop.}},|{{nonfree}},|{{Yes}},|{{No}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{No}},|{{No}},|{{unknown}},|{{Yes}},|{{unknown}},|{{unknown}},|{{No}},|,
+|{{Nonfree|Prop.}},|{{Free}},|{{No}},|{{No}},|{{Yes}},|{{Yes}},|{{No}},|{{No}},|{{Yes}},|{{No}},|{{unknown}},|{{unknown}},|C++,|{{unknown}},|{{Yes}},|,
+|{{Free|GPL}},|{{Free}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Partial}},|{{unknown}},|C++,|{{unknown}},|{{No}},|,
+|{{Free|GPL}},|{{Free}},|{{No}},|{{Yes}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{No}},|{{Yes}},|{{Yes}},|{{unknown}},|C,|{{unknown}},|{{No}},|,
+|{{Free|GPL}},|{{Free}},|{{No}},|{{Yes}},|{{No}},|{{Yes}},|{{No}},|{{Yes}},|{{No}},|{{No}},|{{unknown}},|{{unknown}},|C,|{{unknown}},|{{No}},|,
+|{{Free|GPLv2}},|{{Free}},|{{No}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|.NET 4,|{{Yes}},|{{Yes}},|,
+|{{Nonfree|Prop.}},|{{nonfree}},|{{Yes}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{unknown}},|Objective C / C++ / JavaScript,|{{unknown}},|{{Yes}},|,
+|{{Nonfree|Prop.}},|{{free}},|{{No}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{No}},|{{Yes}},|{{No}},|{{Yes}},|{{unknown}},|C++ / C# / Java,|{{unknown}},|{{Yes}},|,
+|{{Nonfree|Prop.}},|{{nonfree}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|C++,|{{Yes}},|{{Yes}},|,
+|{{Free|GPL}},|{{Free}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}} ,|{{Yes}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|C++,|{{Yes}},|{{Yes}},|,
+|{{Nonfree|Prop.}},|{{nonfree}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|C++,|{{Yes}},|{{Yes}},|,
+|{{Nonfree|Prop.}},|{{Free}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|Java,|{{Yes}},|{{Yes}},|,
+|{{Free|GPL}},|{{Free}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}} mandatory,|{{Yes}},|{{Yes}},|{{unknown}},|C++,|{{Yes}},|{{No}},|,
+|{{Nonfree|Prop.}},|{{nonfree}},|{{Yes}},|{{No}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{No}},|{{unknown}},|{{unknown}},|{{unknown}},|{{unknown}},|{{unknown}},|,
+|{{Nonfree|Prop.}},|{{nonfree}},|{{No}},|{{No}},|{{Yes}},|{{Yes}},|{{No}},|{{Yes}},|{{Yes}},|{{No}},|{{Yes}},|{{Yes}},|Delphi,|{{Yes}},|{{Yes}},|,
+|{{Free|GPL}},|{{Free}},|{{Partial}},|{{Yes}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{unknown}},|C++,|{{unknown}},|{{No}},|,
+|{{Free|GPL}},|{{Free}},|{{Yes}},|{{Yes}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{unknown}},|C++,|{{unknown}},|{{Yes}},|Based on MediaTomb,
+|{{Free|GPL/BSD}},|{{Free}},|{{Partial}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Partial}},|{{Partial}},|{{Yes}},|{{unknown}},|C,|{{Yes}},|{{Yes}},|,
+|{{Nonfree|Prop.}},|{{Free}},|{{No}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|C++,|{{Yes}},|{{Yes}},|,
+|{{Nonfree|Prop.}},|{{Free}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{No}},|{{No}},|{{unknown}},|{{unknown}},|Java,|{{unknown}},|{{unknown}},|,
+|{{Free|GPL}},|{{Free}},|{{Yes}},|{{Yes}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{unknown}},|{{unknown}},|C++,|{{unknown}},|{{unknown}},|,
+|{{Nonfree|Prop.}},|{{nonfree}},|{{Yes}},|{{No}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{No}},|{{Yes}},|{{unknown}},|{{unknown}},|{{Yes}},|{{unknown}},|,
+|{{Nonfree|Prop.}},|{{nonfree}},|{{No}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|C#,|{{Partial}},|{{unknown}},|,
+|{{Nonfree|Prop.}},|{{nonfree}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|C++ / Python,|{{Yes}},|{{Yes}},|,
+|{{Free|GPL}},|{{Free}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|Java,|{{Yes}},|{{No}},|,
+|{{Free|MIT}},|{{Free}},|{{Partial}}ref name="Python" /,|{{Partial}}ref name="Python" /,|{{No}},|{{unknown}},|{{unknown}},|{{unknown}},|{{Yes}},|{{No}},|{{unknown}},|{{unknown}},|Python,|{{unknown}},|{{No}},|,
+|{{Free|LGPLv2}},|{{Free}},|{{No}},|{{Yes}},|{{No}} ,|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{No}},|{{Yes}},|{{Yes}},|Vala,|{{unknown}},|{{Yes}},|,
+|{{Nonfree|Prop.}},|{{Free}},|{{Yes}},|{{No}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{No}},|{{No}},|{{unknown}},|{{unknown}},|{{unknown}},|{{unknown}},|{{No}}ref name="Rivet"/,|,
+|{{Nonfree|Prop.}},|{{nonfree}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|Java,|{{Partial}},|{{unknown}},|,
+|{{Nonfree|Prop.}},|{{nonfree}},|{{No}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{unknown}},|{{unknown}},|{{unknown}},|{{unknown}},|{{unknown}},|,
+|{{Nonfree|Prop.}},|{{Free}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{No}},|{{No}},|{{Yes}},|{{unknown}},|Java,|{{unknown}},|{{unknown}},|,
+|{{Free|GPLv2}},|{{Free}},|{{Yes}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{No}},|{{No}},|{{Yes}},|{{Yes}},|C++,|{{No}},|{{No}},|,
+|{{Nonfree|Prop.}},|{{Free}},|{{No}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{No}},|{{Yes}},|{{Yes}},|{{No}},|C#/C++,|{{unknown}},|{{Yes}},|,
+|{{Nonfree|Prop.}},|{{nonfree}},|{{No}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{unknown}},|{{unknown}},|{{Yes}},|{{Yes}},|,
+|{{Nonfree|Prop.}},|{{nonfree|}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Partial}},|C++,|{{Yes}},|{{No}},|,
+|{{Nonfree|Prop.}},|{{nonfree}},|{{No}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{No}},|{{unknown}},|{{unknown}},|Java,|{{unknown}},|{{unknown}},|,
+|{{Nonfree|Prop.}},|{{nonfree}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Partial}},|{{Yes}},|{{Yes}},|{{Yes}},|{{unknown}},|{{unknown}},|{{Yes}},|,
+|{{Free|GPL}},|{{Free}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|Java,|{{Yes}},|{{Yes}},|Based on [[PS3 Media Server]],
+|{{Nonfree|Prop.}},|{{Free}} ,|{{No}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}} ,|{{No}},|{{Yes}},|{{Yes}},|{{unknown}},|{{unknown}},|{{Yes}},|,
+|{{Nonfree|Prop.}},|[[Trialware]],|{{Yes}},|{{Yes}},|{{Yes}} ,|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|{{Yes}},|[[Delphi_(programming_language)|Delphi]],|{{Yes}},|{{Yes}},|,
+|{{Free|GPLv2}},|{{Free}},|{{No}},|{{Yes}},|{{No}},|{{Yes}},|{{unknown}},|{{Yes}},|{{No}},|{{Yes}},|{{Yes}},|{{unknown}},|C++,|{{unknown}},|{{unknown}},|,
+|{{Nonfree|Prop.}},|{{nonfree}},|{{Yes}},|{{No}},|{{No}},|{{Yes}},|{{Yes}},|{{Yes}},|{{No}},|{{No}},|{{unknown}},|{{unknown}},|{{unknown}},|{{unknown}},|{{No}},|,
+!License,!Cost,!OS X,!Unix-like,!Windows,!Audio,!Images,!Video,![[Transcoding]],!Web Interface,![[DLNA]] support,![[Multilingual]]ref name="Multilingual" /,!Implementation,!Subtitlesref name="Subtitles" /,!Still Supported,!,
+,

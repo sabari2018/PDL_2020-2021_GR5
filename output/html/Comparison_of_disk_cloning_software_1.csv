@@ -6,8 +6,10 @@ CloneDisk (page does not exist)CloneDisk (page does not exist),Windows 7,Graphic
 ClonezillaClonezilla,Linux,Text-based user interface,Yes," FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12",No,Through a Hack (computer science)Hack (computer science),Yes,Yes (Clonezilla server edition),Yes (210 MB),GNU General Public License
 Dcfldd,Linux,Command-line,Yes,No,No,Yes,Yes,No,?,GPL
 Dd (Unix),Unix,Command-line,Yes,No,No,Yes[h],Yes,No,Yes[i],GPLv3
+GNOME Disks,Linux,Graphical user interface,?,?,?,?,?,?,?,Part of Linux
 Disk Utility,MacOS,Graphical user interface,Yes,HFS+,Yes,Yes,Yes,No,Yes,Part of MacOS
 Drive SnapShot (page does not exist)Drive SnapShot (page does not exist),Windows," Graphical user interface, Graphical user interface",Yes[6],No,Yes,Yes,Yes,No,No,Trialware
+Foxclone (page does not exist)Foxclone (page does not exist)Foxclone (page does not exist),Linux,Graphical user interface,Yes," Ntfs, Ntfs, Ntfs, Ntfs",No,No,Yes,No,Yes,GNU General Public License
 FSArchiver,Linux,Text-based user interface,No," FAT32, FAT32, FAT32, FAT32, FAT32, FAT32-4, FAT32, FAT32, FAT32",?,?,Yes,No,?,GPL
 Ghost (software)Ghost (software),Windows," Graphical user interface, Graphical user interface",Yes," FAT32, FAT32, FAT32, FAT32, FAT32 FAT32",Yes,Yes,Yes,Yes,Yes,Trialware
 GPartedGParted,Linux,Graphical user interface,No," Ext2, Ext2",No,No,Yes,No,Yes,GPL

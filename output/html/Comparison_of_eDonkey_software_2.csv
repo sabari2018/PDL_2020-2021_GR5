@@ -1,4 +1,4 @@
-Client,,Play While Downloading,PowerShare[2],Dynamic Upload,SUQWT[3],SubChunk Transfer,Drop Sources,Push small files,ZZ ratio[4],AntiLeech (computing),IPFilter,Slot Control
+Client,,Play While Downloading,PowerShare[2],Dynamic Upload,SUQWT[3],SubChunk Transfer,Drop Sources,Push small files,ZZ ratio[4],AntiLeecher (computing),IPFilter,Slot Control
 AMule,,Yes,Yes[5],UBT,No,No,Yes,No,No,No[N 5],Yes,Yes
 EMule,Official,No,No,USS,No,No,No,No,No,No,Yes,No
 ,Osp,Yes,No,USS,No,No,No,No,No,No,Yes,No
@@ -22,4 +22,4 @@ Lphant,,No,?,No,?,Basic Support for Crumbs,?,?,No,No,Yes,?
 MLDonkey,,No,Folder reserved slot + release file slot,Yes,No (No queue),No,Uses a very low priority list instead,Similar Feature,About 1:4 below 10KB/s,No,Yes,Yes (user selects number of slots)
 Shareaza,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Reward uploaders,Yes,Yes
 XMule,,No,No,No,No,No,No,No,No,No,Yes,No
-Client,,Play While Downloading,PowerShare,Dynamic Upload,SUQWT,SubChunk Transfer,Drop Sources,Push Small files,ZZ Ratio,AntiLeech (computing),IPFilter,Slot Control
+Client,,Play While Downloading,PowerShare (eMule) (page does not exist),Dynamic Upload,SUQWT,SubChunk Transfer,Drop Sources,Push Small files,ZZ Ratio,AntiLeech (computing),IPFilter,Slot Control

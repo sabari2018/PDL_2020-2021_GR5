@@ -1,21 +1,18 @@
 ,Flat file database,MySQL,MySQLi,PostgreSQL,Microsoft SQL Server,Oracle database,SQLite,Firebird (database server),Apache Derby,MongoDB
-Apache OFBiz,No,Yes,No,Yes,Yes,Yes,No[22],Yes,Yes,?
-Batavi (software),No,Yes,No,No,No,No,No,No,?,No
-Bigcommerce,No,Yes,No,Yes,No,No,No,No,?,No
-Drupal Commerce,No,Yes,Yes,Yes,No,No,Yes,No,No,?
-KonaKart,No,Yes,No,Yes,Yes,Yes,No,No,?,No
-LemonStand,Yes,Yes,No,No,No,No,No,No,?,No
+Apache OFBiz,No,Yes,No,Yes,Yes,Yes,No[20],Yes,Yes,No
+Batavi (software),No,Yes,No,No,No,No,No,No,No,No
+Bigcommerce,No,Yes,No,Yes,No,No,No,No,No,No
+Drupal Commerce,No,Yes,Yes,Yes,No,No,Yes,No,No,discontinued[21]
+KonaKart,No,Yes,No,Yes,Yes,Yes,No,No,No,No
 Magento,No,Yes,Yes,No,No,No,No,No,No,No
 NopCommerce,No,No,No,No,Yes,No,No,No,No,No
-OpenCart,No,Yes,Yes,?,?,?,?,?,?,No
+OpenCart,No,Yes,Yes,No,No,No,No,No,No,No
 OsCommerce,No,Yes,No,No,No,No,No,No,No,No
 Pimcore,No,Yes,No,No,No,No,No,No,No,No
 PrestaShop,No,Yes,Yes,No,No,No,No,No,No,No
-Sana Commerce,No,No,No,No,Yes,No,No,No,?,No
-Shopify,No,Yes,Yes,No,No,No,No,No,?,No
-Spree Commerce,?,Yes,?,Yes,?,?,Yes,?,No,No
-Storehippo,No,No,No,No,No,No,No,No,No,Yes
-SupaDupa,No,Yes,Yes,No,No,No,No,No,?,No
-WooCommerce,No,Yes,Yes,No[23],No,No,No,No,No,No
+Shopify,No,Yes,Yes,No,No,No,No,No,No,No
+Spree Commerce,No,Yes,Yes,Yes,No,No,Yes,No,No,No
+SupaDupa,No,Yes,Yes,No,No,No,No,No,No,No
+WooCommerce,No,Yes,Yes,No[22],No,No,No,No,No,No
 X-Cart,No,Yes,Yes,Yes,No,No,No,No,No,No
 Zen Cart,No,Yes,Yes,No,No,No,No,No,No,No

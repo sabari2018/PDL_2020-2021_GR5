@@ -1,5 +1,4 @@
 JVM,x86,x86-64,SPARC,MIPS,Itanium,Power ISA,ARM,Alpha,S/390,z/Architecture,m68k
-CACAO,Yes,Yes,Not any more,Yes,No,Yes,Yes,Yes,Yes,No,Not any more
 GCJ,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
 "HotSpot, OpenJDK edition",Yes,Yes,No,Yes,No,No,No,No
 "HotSpot, Oracle JDK edition",Yes,No,Yes,No,No,No,No

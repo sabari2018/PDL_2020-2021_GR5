@@ -3,6 +3,6 @@ Application,Polygon,,,,Curves,,,,,,,,,,| Spline/Bézier Surface,,,| Metaball,| P
 Blender,yes,yes,yes,no,Bézier curve without subdivision,no,yes,no,no,no,no,no,no,yes,yes,no,no,yes,no,yes,3D Texture,yes,yes,yes,yes,yes
 Maya,yes,yes,yes,yes,yes,?,?,?,?,?,no,no,no,yes,yes,yes,no,yes,no,yes,3D Texture,yes,yes,yes,yes,no
 3ds Max,yes,yes,yes,?,yes,?,yes,yes,no,no,no,no,no,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,no
-Cinema 4D,yes,yes,yes,?,yes,no,yes,yes,no,?,no,no,yes,?,?,?,?,yes,?,yes,?,yes,yes,yes,yes,Null object with Sound Track
+Cinema 4D,yes,yes,yes,?,yes,no,yes,yes,no,?,no,no,yes,?,?,?,?,yes,?,yes,?,yes,yes,yes,yes,dropped in R23
 LightWave,yes,yes,yes,yes,?,?,?,yes,?,only in Graph Editor,only in Graph Editor,?,no,?,(LWCAD plugin),?,no,yes,no,yes,?,yes,yes,yes,yes,?
 Shade 3D,yes,yes,yes,?,?,?,yes,?,no,no,no,no,no,yes,?,?,yes,yes,no,yes,?,yes,yes,yes,yes,Sound Object

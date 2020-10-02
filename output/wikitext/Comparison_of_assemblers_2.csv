@@ -1,3 +1,4 @@
-Assembler,Open source,License,Instruction set,Host platform,Development active
-ASM-One Macro Assembler,no,free,Motorola 680x0,Commodore Amiga,no
-vasm,no,Proprietary,Motorola 680x0,various,yes
+Assembler,Developer,FOSS,License,Instruction set,Host platform,Development active
+ASM-One Macro Assembler,Rune Gram-Madsen,No,Free,Motorola 680x0,Commodore Amiga,no
+vasm,,No,Proprietary,Motorola 680x0,various,yes
+[http://rmac.is-slick.com rmac]," James Hammons, George Nakos, Landon Dyer",Yes,Free,MOS Technology 6502," Linux, Windows, macOS",yes

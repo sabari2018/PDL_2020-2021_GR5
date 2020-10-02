@@ -3,15 +3,15 @@ Botan (programming library),Yes
 Bouncy Castle (cryptography),Yes
 Cryptlib,Yes
 GnuTLS,Yes
-Java Secure Socket Extension,Yes[67]
+Java Secure Socket Extension,Yes[65]
 LibreSSL,Yes
 MatrixSSL,Yes
 Mbed TLS,Yes
-Network Security Services,No[68]
-OpenSSL,Yes[54]
-RSA BSAFE,Yes[55]
+Network Security Services,No[66]
+OpenSSL,Yes[52]
+RSA BSAFE,Yes[53]
 S2n,
-SChannel,Yes[69]
-Secure Transport,No
+SChannel,Yes[67]
+MacOS,No
 WolfSSL,Yes
 Implementation,TLS 1.2 Suite B

@@ -1,0 +1,25 @@
+[ Name
+, Creator
+, First public release
+, Latest stable version
+, Latest release date
+, Cost, availability
+, License
+],
+| [[IBM]],| {{dunno}}!--data-sort-value="2001-10-14?"| 14 October 2001  Unrelated to [IBM's] [[Jikes RVM]]? If not completely may share same start date. --,| 0.8.0,|data-sort-value="2018-03-15"| 15 March 2018,| {{Free}},| [[Apache License]] 2.0br /[[Eclipse Public License]] 2.0,
+| [[GNU]],| data-sort-value="1998-09-06"| 6 September 1998,| 6.4 (Terminal),| data-sort-value="2017-07-04"| 4 July 2017,| {{Free}},| [[GPL]] version 2 or later with the "libgcc exception",
+| [[Sun Microsystems]] [[Oracle Corporation|Oracle]],|data-sort-value="1999-04-27"| 27 April 1999,| {{dunno}},|data-sort-value="2017-09-21"| 21 September 2017,| {{Free}},| [[GPL]] version 2 only,
+| [[Sun Microsystems]] [[Oracle Corporation|Oracle]],|data-sort-value="1999-04-27"| 27 April 1999,| {{dunno}},|data-sort-value="2017-09-30"| September 2017,| {{Free}},| {{Proprietary}},
+| [[Sun Microsystems]] [[Oracle Corporation|Oracle]],|data-sort-value="1999-04-27"| 27 April 1999,| {{dunno}},| {{dunno}},| {{Nonfree|Commercial}},| {{Proprietary}}ref name="se-embeddocs"/,
+| Gary Benson,| {{dunno}},| {{dunno}},| {{dunno}},| {{Free}},| [[GPL]] version 2 only,
+| Jeroen Frijters,|data-sort-value="2004-06-28"| 28 June 2004,| 7.0.4335.0 !-- there is "IKVM.NET 8.1 Release Candidate 0" from 2015; but not released(?) and project ended in 2017--,|data-sort-value="2011-12-05"| 5 December 2011,| {{Free}},| [[zlib License]],
+| Peter Werno Joakim Nordström,|data-sort-value="2005-05-19"| 19 May 2005,| 1.2,|data-sort-value="2014-01-06"| 6 January 2014,| {{Free}},| [[GPL]] version 2 or later,
+| Robert Lougher,|data-sort-value="2003-03-13"| 13 March 2003,| 2.0.0,|data-sort-value="2014-06-30"| 30 July 2014,| {{Free}},| [[GPL]] version 2 or later,
+| Pekka Enberg and contributors,| {{dunno}},| 0.3,|data-sort-value="2012-01-04"| 4 January 2012ref name="jatovm-home"/,| {{Free}},| [[GPL]] version 2 onlyref name="jatovm-readme"/,
+| Archie L. Cobbs,| {{dunno}},| 1.4.7,|data-sort-value="2005-11-13"| 13 November 2005,| {{Free}},| [[LGPL]] version 2.1 or later,
+| [[IBM]],|data-sort-value="2001-10-14"| 14 October 2001,| 3.1.4,|data-sort-value="2016-02-18"| 18 February 2016ref name=jikesrvm-files/,| {{Free}},| [[Eclipse Public License]] version 1.0,
+| Transvirtual Technologies,|data-sort-value="1996-01-01| 1996,| 1.1.9,|data-sort-value="2008-02-22| 22 February 2008,| {{Free}},|!--Licence--[[GPL]] version 2 or laterref name="kaffe-readme"/,
+| {{dunno}},|data-sort-value="2005-04-16"| 16 April 2005,| 0.4.8ref name="mysaifu-home"/,|data-sort-value="2010-03-05"| 5 March 2010ref name="mysaifu-home"/,| {{Free}},|!--Licence--[[GPL]] version 2 onlyref name="mysaifu-home"/,
+| [[Sable Research Group]],| {{dunno}},| 1.13,|data-sort-value="2007-03-30| 30 March 2007,| {{Free}},|!--Licence--[[LGPL]] version 2.1 or later,
+
+,

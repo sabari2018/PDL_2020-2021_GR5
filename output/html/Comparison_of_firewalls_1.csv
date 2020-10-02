@@ -2,21 +2,21 @@ Firewall,Software license,Cost and usage limits,Operating system
 Avast Antivirus,Proprietary software,Paid,Microsoft Windows
 Comodo Internet Security,Proprietary software,Free,Microsoft Windows
 Intego,Proprietary software,Paid,Mac OS X Mac OS X or later; on an Mac OS X
-Kaspersky Internet Security,Proprietary software,Paid / 30 day trial,Microsoft Windows x32/x64
-Lavasoft Personal Firewall,Proprietary software,Paid,Microsoft Windows x32/x64
+Kaspersky Internet Security,Proprietary software,Paid / 30 day trial,Microsoft Windows x86/x64
+Lavasoft Personal Firewall,Proprietary software,Paid,Microsoft Windows x86/x64
 Microsoft Forefront Threat Management Gateway,Proprietary software,Discontinued,Microsoft Windows x64
 NetLimiter,Proprietary software,Paid,Microsoft Windows x64
-Norton 360,Proprietary software,Paid,Microsoft Windows x32/x64
-Online Armor Personal Firewall,Proprietary software,Discontinued,Microsoft Windows x32/x64
-Outpost Firewall Pro,Proprietary software,Discontinued,Microsoft Windows x32/x64
-PC Tools Firewall Plus,Proprietary software,Discontinued,Microsoft Windows x32/x64
-Sygate Personal Firewall,Proprietary software,Discontinued,Microsoft Windows x32
-Windows Firewall,Proprietary software,Included with Windows XP SP2 and later,Microsoft Windows x32/x64
+Norton 360,Proprietary software,Paid,Microsoft Windows x86/x64
+Online Armor Personal Firewall,Proprietary software,Discontinued,Microsoft Windows x86/x64
+Outpost Firewall Pro,Proprietary software,Discontinued,Microsoft Windows x86/x64
+PC Tools Firewall Plus,Proprietary software,Discontinued,Microsoft Windows x86/x64
+Sygate Personal Firewall,Proprietary software,Discontinued,Microsoft Windows x86
+Windows Firewall,Proprietary software,Included with Windows XP SP2 and later,Microsoft Windows x86/x64
 ZoneAlarm,Proprietary software,Free / Paid,Microsoft Windows
 Netfilter/iptables,GPL,Free,Linux kernel module
 Nftables,GPL,Free,Linux kernel (>=3.13) module
 Shorewall,GPL,Free,Linux-based appliance
-PeerBlock,GPL,Free,Microsoft Windows x32/x64
+PeerBlock,GPL,Free,Microsoft Windows x86/x64
 NPF (firewall),BSD,Free,NetBSD kernel module
 PF (firewall),BSD,Free,Berkeley Software Distribution kernel module
 Ipfirewall,BSD,Free,Berkeley Software Distribution package

@@ -5,7 +5,8 @@ C++ (STL),x.method(parameters) orptr->method(parameters),x.field orptr->field,,c
 Objective-C,[x method«:parameter «bar:parameter ...»»],x->field,x.property (2.0 only) or[x property],[cls method«:parameter «bar:parameter ...»»],
 Smalltalk,x method«:parameter «bar:parameter ...»»,n/a,,cls method«:parameter «bar:parameter ...»»,
 Swift,x.method(parameters),,x.property,cls.member,
-C#,x.method(parameters),x.field,x.property,cls.member,ns.member
+APL (Dyalog),left argument» x.method «right argument(s)»,x.field,x.property,cls.member,ns.member
+C#,x.method(parameters),,,
 Java,,,{{n/a}},,
 D,,,| <code>x.property</code>,,
 Python,,,,,
@@ -21,5 +22,5 @@ Perl,x->method«(parameters)»,x->{field},,cls->method«(parameters)»,ns::membe
 Raku,x.method«(parameters)» or x!method«(parameters)»,x.field or x!field,,cls.method«(parameters)» or cls!method«(parameters)»,ns::member
 OCaml,x#method «parameters»,n/a,,,
 JavaScript," x.method(parameters)x[""method""](parameters)"," x.fieldx[""field""]"," x.propertyx[""property""]"," cls.membercls[""member""]",n/a
-COBOL," INVOKE x ""method"" «USING parameters» «RETURNING result» or x::""method""«(«parameters»)»",n/a,property OF x," INVOKE cls ""method"" «USING parameters» «RETURNING result» or cls::""method""«(«parameters»)» or property OF cls",n/a
+COBOL," INVOKE x ""method"" «USING parameters» «RETURNING result» orx::""method""«(«parameters»)»",n/a,property OF x," INVOKE cls ""method"" «USING parameters» «RETURNING result» orcls::""method""«(«parameters»)» orproperty OF cls",n/a
 Cobra,x.method«(parameters)»,x.field,x.property,cls.member,ns.member

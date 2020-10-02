@@ -1,0 +1,43 @@
+[ Name
+, License]]
+, Kernel]] type
+, Kernel [[programming language]]
+, thread]] support
+, OS family
+, EOL]] version{{r, Forks]]
+],
+| {{free|[[GNU General Public License|GPL]]/[[GNU Lesser General Public License|LGPL]]}},| [[monolithic kernel|Monolithic]] with modules,| [[C (programming language)|C]],| 1:1,| [[Unix-like]],| 3.16 !--3.16.71 projected EOL for 3.16 Apr 2020 then 4.4 for Feb 2022 according to https://www.kernel.org/releases.html --,| [[Embeddable Linux Kernel Subset|elks]],
+| {{free|[[BSD licenses|BSD]]; GPL LGPL software usually included}},| Monolithic with modules,| C,| 1:1,| [[Berkeley Software Distribution|BSD]] Unix-like,| 11 !-- say 11.2 that will get EOLed in September then 11.3 still available.--,| DragonFly BSD,
+| {{free|BSD}},| Monolithic,| C,| 1:1,| BSD Unix-like,| 6.4,| [[MirOS]],
+| {{free|BSD}},| Monolithic with modules,| C,| 1:1,| BSD Unix-like,| 7.0,| OpenBSD,
+| {{free|BSD}},| [[Hybrid kernel|Hybrid]],| C,| 1:1,| BSD Unix-like,| {{no}},| !-- forks --,
+| {{free|[[Common Development and Distribution License|CDDL]]}},| Monolithic with modules,| C,| 1:1 M:N,| [[Unix]],| {{no}},| !-- forks --,
+| {{free|[[Apple Public Source License|APSL]]}},| Hybrid,| C [[C++]]{{r|group=Note|a3}},| 1:1,| BSD Unix Unix-like [[OS X]],| {{no}},| !-- forks --,
+| {{free|BSD}},| [[Microkernel]],| C,| !-- thread support --,| Unix-like,| {{no}},| !-- forks --,
+| {{free|MIT}},| [[Microkernel]],| Rust,| !-- thread support --,| Unix-like,| {{no}},| !-- forks --,
+| {{free|[http://www.freertos.org/a00114.html modified GPL]}},| [[real-time operating system|RTOS]],| C,| !-- thread support --,| RTOS,| {{no}},| !-- forks --,
+| {{free|GPL}},| Monolithic,| C,| !-- thread support --,| [[DOS]],| 1.1,| !-- forks --,
+| {{free|AGPL}},| Microkernel,| C++,| 1:1,| Genode,| !-- Version --,| !-- Forks --,
+| {{free|[[MIT License|MIT]]}},| Hybrid,| | C C++,| !-- thread support --,| [[BeOS]],| {{no}},| [https://web.archive.org/web/20070114203948/http://kamidake.other-space.com/ TiltOS],
+| {{free|BSD}},| !-- Kernel type --,| | [[Haskell (programming language)|Haskell]],| !-- thread support --,| own/original,| {{no}},| !-- forks --,
+| {{free|GPL}},| Monolithic,| [[assembly language|ASM]],| !-- thread support --,| [[MenuetOS]],| {{no}},| !-- forks --,
+| {{partial|[http://www.menuetos.net/m64l.txt Menuet 64] commerce excluded}},| Monolithic,| ASM,| !-- thread support --,| own/original,| {{no}},| KolibriOS,
+| {{free|GPL}},| {{URL|https://www.gnu.org/software/hurd/faq/multiserver_microkernel.html|Multiserver Microkernel}} ([[Hurd]] kernel) or Monolithic ([[Linux-libre]] kernel fork of [[Linux kernel]] and other kernels which are not part of the [[GNU Project]]),| [[C (programming language)|C]],| 1:1,| [[Unix-like]],| 2.4 on [[Linux-libre]] kernel (not on [[Hurd]] kernel),| [[Linux]],
+| {{free|GPL LGPL}},| Hybrid,| C C++,| !-- thread support --,| [[Microsoft Windows|Windows-like]],| {{no}},| !-- forks --,
+| {{free|Apache 2.0}},| Monolithic (with [[co-operative multitaslking]]),| ARM [[assembly language|assembly]],| {{na}},| RISC OS,| {{no}},| RISC OS 6,
+| {{free|Some GPL some BSD}},| Microkernel,| C++,| !-- thread support --,| L4,| {{no}},| !-- forks --,
+| {{free|[[Lucent Public License|LPL]]}},| Hybrid,| C!--{{Ref|10}}--,| 1:1 1:M [[Cothread]] style.,| own Unix informed,| {{no}},| Inferno Plan B,
+| {{free|[http://www.aros.org/license.html APL]}},| [[Exokernel]],| C,| !-- thread support --,| [[AmigaOS]],| {{no}},| !-- forks --,
+| {{free|GPL}},| Monolithic with modules,| C C++,| 1:1,| Unix-like BeOS AmigaOS [[POSIX]],| {{no}},| !-- forks --,
+| {{free|GPL LGPL; MIT}},| !-- kernel --,| C,| !-- thread support --,| [[Plan 9 from Bell Labs|Plan 9]],| {{no}},| [[OzInferno]],
+| {{free|BSD}},| [[real-time operating system|RTOS]],| C,| !-- thread support --,| RTOS,| {{no}},| !-- forks --,
+| {{free|[http://ecos.sourceware.org/license-overview.html modified GPL eCos]}},| RTOS,| C C++,| !-- thread support --,| RTOS,| {{no}},| !-- forks --,
+| {{free|[http://www.rtems.org/license modified GPL] BSD Stanford}},| RTOS,| C and ASM with native support for other languages including C++ and Ada,| POSIX RTEID/ORKID uITRON,| RTOS,| 4.7.1,| !-- forks --,
+| {{free|BSD}},| Microkernel,| C,| M:N,| own/original,| {{no}},| !-- forks --,
+| {{free|[[GPLv2]]}},| Monolithic,| ASM C,| 1:1,| BeOS Unix-like,| {{no}},| !-- forks --,
+| {{free|public domain}},| Monolithic ,| HolyC C C++,| ,| [[Commodore 64]]-like,| {{no}},| ,!-- ,
+|,|,|,|,|,|,|,
+|,|,|,|,|,|,|,
+|,|,|,|,|,|,| --,
+! License,! Kernel type,! Kernel programming language,! Kernel thread support,! OS family,! Oldest non-EOL version,! Forks,
+,

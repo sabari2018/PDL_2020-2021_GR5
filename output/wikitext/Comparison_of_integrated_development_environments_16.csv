@@ -1,18 +1,18 @@
 IDE,Developer,Latest stable release,Platform,License,Written in
 Anjuta,Anjuta Team,June 2013,Unix-like,GPL,C
-Atom,GitHub," 2018-12-19 1.33.1 / December 19, 2018",Cross-platform,MIT License,JavaScript
+Atom,GitHub (subsidiary of Microsoft)," 2018-12-19 1.33.1 / December 19, 2018",Cross-platform,MIT License,JavaScript
 Brackets,Adobe,September 2017,Cross-platform,MIT License,CSS
 Aptana Studio," Aptana, Inc.",December 2013,Cross-platform," GPL, proprietary"," Java, JavaScript"
 Codeanywhere," Codeanywhere, Inc.",August 2015,Cloud IDE,proprietary,JavaScript
 CodeLite,CodeLite,October 2015,Cross-platform,GPL,C++
 Eclipse Web Tools,IBM,," Windows, JVM, Solaris",EPL," C, Java"
 Komodo IDE / Edit,ActiveState," November 19, 2013",Cross-platform," IDE:Proprietary, Edit:MPL 1.1"," C, Python, Tcl, XUL"
-NetBeans,Oracle,9.0 / 20180729,Cross-platform," CDDL, GPL2",Java
+NetBeans,Oracle,Latest stable software release/NetBeans,Cross-platform," CDDL, GPL2",Java
 Nodeclipse NTS,Nodeclipse," March 31, 2014"," Windows, JVM, Solaris",EPL,Java
 NuSphere PhpED,NuSphere,June 2011,Windows,proprietary,N/A
 Oracle JDeveloper,Oracle Corporation,July 2013," Windows, Linux, macOS",proprietary – free,Java
 Servoy,Servoy Developer Team,June 2011,Cross-platform,Servoy License,Java
 SlickEdit,SlickEdit,October 2016," Solaris, AIX, HP-UX",Proprietary,C++
 Visual Studio,Microsoft," March 31, 2016",Windows,proprietary,C#
-Visual Studio Code,Microsoft," 2019-01-08 1.30.2 / January 8, 2019",Cross-platform,MIT License,JavaScript
+Visual Studio Code,Microsoft," 2020-09-10 1.49.0 / September 10, 2020",Cross-platform,MIT License,JavaScript
 WebStorm,JetBrains,2019.1/ 25 March 2019,Cross-platform,proprietary,Java

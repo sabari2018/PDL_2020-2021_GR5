@@ -33,6 +33,7 @@ ECryptfs,No,No,No,Yes,No,No,No,No,?,?
 EgoSecure HDD Encryption,Yes,No,No,No,No,No,No,No,?,?
 EncFS,Yes[50],Yes[51],Yes (Filesystem in Userspace),Yes (FUSE),Yes[50],Yes (FUSE),Yes (FUSE),Yes (FUSE),Yes[51],?
 EncryptStick,Yes,No,No,Yes,Yes,No,No,No,?,?
+EncryptUSB,Yes,No,No,No,Yes,No,No,No,?,?
 FileVault,No,No,No,No,Yes,No,No,No,?,?
 FileVault,No,No,No,Partial[52],Yes,No,No,No,?,?
 FREE CompuSec,Yes,No,No,No,No,No,No,No,?,?

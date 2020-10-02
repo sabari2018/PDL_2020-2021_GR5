@@ -1,0 +1,35 @@
+[ Name
+, Founded year
+, Latest stable version
+, Release year
+, License
+, Online
+, [[Microsoft Windows, [[Mac OS X]]
+, [[Linux]]
+, [[Berkeley Software Distribution, Programming language
+, [[Software development kit, Languages
+, Fonts
+, Output Formats
+, Notes
+],
+ , ,2015, {{Proprietary}},Yes, Browser,Browser,Browser,Unknown,Unknown,Yes,200+,All fonts,text, Google blog post ,
+ 1985 , 4.1.1 , 2019 , {{free|[[Apache License|Apache]]}} , {{No}} , {{yes}} , {{yes}} , {{yes}} , {{yes}} , C++ C , {{yes}} , 100+ , Any printed font , Text [[ALTO (XML)|ALTO]] [[hOCR]] or the API , Created by [[Hewlett-Packard]]; under further development by Google,
+ 1989 , 15 , 2019 , {{proprietary}} , {{yes}} , {{yes}} , {{yes}} , {{yes}} , {{yes}} , C/C++ , {{yes}} , 192 , All fonts ,DOC DOCX XLS XLSX PPTX RTF PDF HTML CSV TXT ODT DjVu EPUB FB2, ABBYY also supplies SDKs for embedded and mobile devices. Professional Corporate and Site License Editions for Windows Express Edition for Mac.,
+|2010,|,|,|,|,|{{Yes}},|{{No}},|{{Yes}},|{{No}},|,|,|14,|,|RTF TXT BRL,|,
+ 1998 , 15 , 2015 , {{proprietary}} , {{yes}} , {{yes}} , {{yes}} , {{yes}} , {{yes}} , Java C#VB.NET C/C++/Delphi , {{yes}} , 20+ , {{dunno}} , Plain text searchable PDF XML, Java C# VB.NET C/C++/Delphi SDKs for OCR and Barcode recognition on Windows Linux Mac OS X and Unix.,
+ 1989 , {{dunno}} , {{dunno}} , {{proprietary}} , {{no}} , {{yes}} , {{no}} , {{no}} , {{no}} , VBScript , {{dunno}} , {{dunno}} , {{dunno}} ,, Works with structured semi-structured and unstructured documents.,
+ 1996 , 1.1 , 2011-04-19 , {{free|[[BSD licenses|BSD]] variant}} , {{no}} , {{yes}} , {{yes}} , {{yes}} , {{yes}} , C/C++ , {{yes}} , 28 , Any printed font , HTML hOCR native RTF [[TeX]] TXT , Enterprise-class system can save text formatting and recognizes complicated tables of any structure,
+ 2003 , 8.2 , 2012 , {{proprietary}} , {{yes}} , {{yes}} , {{No}} , {{No}} , {{No}} , C/C++ , {{yes}} , 40+ , {{dunno}} , PDF TXT , ,
+ 1970s , 19.2, 2015 , {{proprietary}} , {{yes}} , {{yes}} , {{yes}} , {{yes}} , {{no}} , C/C++ C# , {{yes}} , 125 , Machine and handprinted fonts , DOC/DOCX XLS/XLSX PPTX RTF PDF PDF/A Searchable PDF HTML Text XML ePUB MP3 , Product of [[Nuance Communications]],
+ 2011 , {{dunno}} , 2007 , {{proprietary}} , {{no}} , {{yes}} , {{no}} , {{no}} , {{no}} , {{dunno}} , {{dunno}} , {{dunno}} , {{dunno}} ,
+ 2000 , 0.52 , 2018-10-15 , {{free|[[GNU General Public License|GPL]]}} , {{yes}} , {{yes}} , {{yes}} , {{yes}} , {{yes}} , C , {{dunno}} , 20+ , {{dunno}} ,, ,
+ {{dunno}} , 0.26 , 2017-03-31 , {{free|[[GNU General Public License|GPL]]}} , {{yes}} , {{no}} , {{yes}} , {{yes}} , {{yes}} , C++ , {{yes}} , Latin alphabet , {{dunno}} ,, Command line,
+ 1991 , 10.5.8 , 2015-07 , {{proprietary}} , {{no}} , {{yes}} , {{yes}} , {{no}} , {{no}} , {{dunno}} , {{dunno}} , {{dunno}} , {{dunno}} ,, For musical scores,
+ {{dunno}} , Office 2007 , 2007 , {{proprietary}} , {{no}} , {{yes}} , {{no}} , {{no}} , {{no}} , {{dunno}} , {{dunno}} , {{dunno}} , {{dunno}} ,, Uses OmniPage{{citation needed|date=March 2011}},
+ {{dunno}} , {{dunno}} , 2009-10-29 , {{free|[[BSD licenses|BSD]]}} , {{no}} , {{yes}} , {{no}} , {{no}} , {{no}} , C# , {{yes}} , 28 , Any printed font ,, [[.NET Framework|.NET]] OCR [[Software development kit|SDK]] based on Cognitive Technologies' CuneiForm recognition engine. Wraps Puma COM server and provides simplified [[Application programming interface|API]] for .NET applications,
+ {{dunno}} , {{dunno}} , 14{{dunno}} , {{proprietary}} , {{no}} , {{yes}} , {{no}} , {{no}} , {{no}} , {{dunno}} , {{dunno}} , {{dunno}} , {{dunno}} ,, Scan capture and classify business documents such as invoices forms and purchase orders integrated with business processes.,
+ {{dunno}} , {{dunno}} , {{dunno}} , {{proprietary}} , {{no}} , {{yes}} , {{no}} , {{no}} , {{no}} , {{dunno}} , {{dunno}} , {{dunno}} , {{dunno}} ,, For working with localized interfaces corresponding language support is required.,
+ 2009-03 , 0.8.1 , 2014-12-22 , {{free|[[GNU General Public License|GPL]]}} , {{no}} , {{no}} , {{no}} , {{yes}} , {{no}} , Python , {{dunno}} , {{dunno}} , {{dunno}} ,, Features a full user interface and has a command-line tool for automatic operations. Has its own segmentation algorithm but uses system-wide OCR engines like [[Tesseract (software)|Tesseract]] or [[Ocrad]],
+ 2007 , 1.3.3 , 2017-12-16 , {{free|[[Apache License|Apache]]}} , {{no}} , {{no}} , {{yes}} , {{yes}} , {{yes}} , Python , {{dunno}} , All languages using [[Latin script]] (other languages can be trained) , Normal Latin script and [[Fraktur]] (other scripts can be trained) , TXT hOCR , Pluggable framework under active development used for [[Google Books]] ,
+! Founded year,! Latest stable version,! Release year,! License,! Online,! [[Microsoft Windows|Windows]],! [[Mac OS X]],! [[Linux]],! [[Berkeley Software Distribution|BSD]],! Programming language,! SDK?,! Languages,! Fonts,! Output Formats,! Notes,
+,

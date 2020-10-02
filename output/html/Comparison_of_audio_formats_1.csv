@@ -1,9 +1,9 @@
-Audio compression format,Creator,First public release date,Latest stable version,cost,,Proprietary software implementations (codecs),Open-source license implementations (codecs),Uses (other than consumer audio),Music reproduction (consumer audio),Telephony app,Audio compression (data),Patented,Digital rights management
-,,,,Encoder,Player,,,,,,,,
+Audio compression format,Creator,First public release date,Latest stable version,Cost,,Proprietary software implementations (codecs),Open-source license implementations (codecs),Uses (other than consumer audio),Music reproduction (consumer audio),Telephony app,Audio compression (data),Patented,Digital rights management
+,,,,Data compression,Player,,,,,,,,
 Advanced Audio Coding,International Organization for Standardization/International Organization for Standardization International Organization for Standardization,1997,ISO/IEC 14496-3,Non-free[1],," FAAC (encoding only), FAAC, FAAC (via FAAC, FAAC or afconvertFAAC) "," FAAD2 (decoding only), FAAD2, AudiocogsFAAD2 (decoding only), FAAD2 "," Digital TV service, Digital Radio, Internet streaming ",Yes,AAC-LD/AAC-ELD,MPEG-4 SLS,Yes," FairPlay (.m4p only, discontinued) "
 Dolby Digital,Dolby Laboratories,1992,Advanced Television Systems Committee standards A52:2012,Free,," DVD players, DVD players "," FFmpeg, liba52 (decoding only), Aften (encoding only), libavc (2.0 channels max) "," Theatrical movie presentation, Digital TV service &amp; home-video (personal recorders, DVD, etc.) ",No,No,No,No,?
 Apple Lossless,Apple Inc.,2004-04-28,QuickTime 7.6,Free,," QuickTime, QuickTime, QuickTime "," MacOSforge, FFmpeg, AudiocogsFFmpeg (decoding only) ",Music archival,Yes,No,Yes,Free," Possible, but never implemented "
-Audio Lossless Coding,International Organization for Standardization/International Organization for Standardization MPEG Audio Committee,2005,ISO/IEC 14496-3,Free,,Mp4als (page does not exist),FFmpeg (decoding only),-,Yes,No,Yes,Yes,?
+Audio Lossless Coding,International Organization for Standardization/International Organization for Standardization MPEG Audio Committee,2005,ISO/IEC 14496-3,Free,,MPEG-4 ALS,FFmpeg (decoding only),-,Yes,No,Yes,Yes,?
 Multi-Band Excitation,Digital Voice Systems,?,?,Non-free,,?,mbelib," Low bandwidth HF/VHF digital radio, VoIP trunking ",No,No,No,Yes,?
 Adaptive multi-rate compression,3GPP,1999-06-22,ETSI TS 126 071 V9.0.0 (2009),Non-free[5][6],," QuickTime, QuickTime "," FFmpeg (decoding only), FFmpeg with OpenCORE libraries,Android (operating system) Android (operating system)Android (operating system) ",Voice recording,No,Yes,No,Yes,No
 AMR-WB (G.722.2),3GPP,2001-04-10,ETSI TS 126 190 V8.0.0 (2009-01),Non-free,Non-free," QuickTime, QuickTime "," FFmpeg (decoding only),VisualOn FFmpeg with VisualOn libraries, VisualOn (decoding only),VisualOn opencore-amr for both encoding and decoding ",Voice recording,No,Yes,No,Yes,No
@@ -15,7 +15,7 @@ CELT," Xiph.Org Foundation, Jean-Marc Valin ",2007-12-08,0.11.1 (merged into Opu
 Codec2,David Rowe,2010,Developmental,Free,Free,?," c2enc, c2dec "," Low bandwidth HF/VHF digital radio, VoIP trunking ",No,Yes,No,No,No
 Dolby Digital Plus,Dolby Laboratories,?,Advanced Television Systems Committee standards A52:2012,Non-free,Non-free,Digital television,FFmpeg," Theatrical movie presentation, digital TV service &amp; home-video (personal recorders, DVD, etc.) ",No,No,No,Yes,?
 Enhanced Voice Services," Fraunhofer IIS, Fraunhofer IIS , Fraunhofer IIS, Fraunhofer IIS, Fraunhofer IIS, Fraunhofer IIS ",2014,?,Non-free,?,?,?,?,?,?,?,Yes,?
-Free Lossless Audio Codec," Xiph.Org Foundation, Josh Coalson ",2001-07-20,1.3.2,Free,Free,," FLAC,FLAC FlakeFLAC (encoding only), FLAC, FLACCLFLAC (encoding only), AudiocogsFLAC (decoding only) ",Music archival[15],Yes,No,Yes,No,No
+Free Lossless Audio Codec," Xiph.Org Foundation, Josh Coalson ",2001-07-20,1.3.3 (2019-08-04),Free,Free,," FLAC,FLAC FlakeFLAC (encoding only), FLAC, FLACCLFLAC (encoding only), AudiocogsFLAC (decoding only) ",Music archival[15],Yes,No,Yes,No,No
 G.711,ITU-T,1972 (ITU-T standard from 1988),G.711 Appendix II (02/00),Free,Free,Various proprietary VoIP software," FFmpeg, FFmpeg, FFmpeg and almost any FFmpeg software ",Voice recording,No,Yes,No,No,No
 G.722,ITU-T,1988-11,,Free,Free,Various proprietary VoIP software," Asterisk (PBX), Asterisk (PBX), FFmpeg ",Voice recording,No,Yes,No,No,No
 G.722.1,ITU-T,1999-09,G.722.1 (05/05),Free[16][17],Free[16][17],Various proprietary VoIP software," FreeSWITCH,FreeSWITCH FreeSWITCH, etc ",Voice recording,No,Yes,No,Yes,No
@@ -29,7 +29,7 @@ GSM-FR,ETSI Special Mobile Group,1990-1994 (ETS 300 580-2),ETSI EN 300 961 V8.1.
 HE-AAC,International Organization for Standardization/International Organization for Standardization MPEG Audio Committee,2003,ISO/IEC 14496-3,?,?,?,?,?,Yes,No,No,?,?
 ILBC,Global IP Solutions,2002,RFC 3951,Free,Free," Cisco IP Communicator,Cisco IP Communicator old versions of Cisco IP CommunicatorCisco IP Communicator "," Ekiga, Ekiga and other Ekiga software, FFmpeg with libilbc library ",Voice recording,No,Yes,No,Free[22],No
 Internet Speech Audio Codec,Global IP Solutions,?,,Free,Free,Yahoo! Messenger,WebRTC,Voice recording,No,Yes,No,Yes[23],?
-Monkey's Audio,Matthew T. Ashland,2000,4.35,Free,Free,Monkey's Audio,FFmpeg (decoding only),Music Archival,Yes,No,Yes,No,No
+Monkey's Audio,Matthew T. Ashland,2000,5.47 (2020.06.30),Free,Free,Monkey's Audio,FFmpeg (decoding only),Music Archival,Yes,No,Yes,No,No
 " MPEG-1 Audio Layer II (MPEG-1, 2 Audio Layer II) ",International Organization for Standardization/International Organization for Standardization MPEG Audio Committee,1993," ISO/IEC 11172-3, ISO/IEC 13818-3 ",Free[24],Free[24]," various DVD software, video software, audio software "," TooLAME (encoding only), TwoLAME (encoding only), TooLAME "," Digital Audio Broadcasting, Digital Audio Broadcasting, Digital Audio Broadcasting ",Yes,No,No,Free[25],?
 MPEG-1 Audio Layer 3,International Organization for Standardization/International Organization for Standardization MPEG Audio Committee,1993," ISO/IEC 11172-3, ISO/IEC 13818-3 ",Free,Free," FhG, FhG, MP3enc, (old implementations: FhG TOMPG, SCMPX) "," LAME (encoding only), LAME (decoding only), LAME (decoding only), AudiocogsLAME (decoding only), (old implementations: BladeEnc) ",-,Yes,No,No,No[27]," Yes (optional, rarely used) "
 Musepack,Frank Klemm/MDT,1997,1.30 (2009-04-02),Free,Free,," Musepack,Musepack Musepack (decoding only) ",-,Yes,No,No,No,No
@@ -41,10 +41,10 @@ SILK,Skype Limited,2009-01-07,Merged into Opus (audio format),Free,Free,Skype,SI
 Siren Codec 7,PictureTel Corp. (now Polycom Inc.),1999,,?[16][17],?[16][17],Microsoft Office Communicator," FreeSWITCH (libg722_1,FreeSWITCH FreeSWITCH (libsiren - part of libmsn)FreeSWITCHFreeSWITCH ",Voice recording,No,Yes,No,Yes,?
 Speex," Xiph.Org Foundation, Jean-Marc Valin ",2003-03-24,1.2.0 (obsoleted by Opus (audio format),Free,Free,Adobe Flash Player 10," Speex,Speex FFmpeg with libspeex library ",Voice recording,No,Yes,No,No,No
 SVOPC,Skype Limited,2007,,?,?,Skype,,Voice recording,No,Yes,No,Yes,?
-TTA (codec),TAU Software,1999,2.2,Free,Free,," TTA (codec),TTA (codec) TTA (codec) ",-,Yes,No,Yes,No,No
+TTA (codec),TAU Software,1999,2.3 (2015-02-24),Free,Free,," TTA (codec),TTA (codec) TTA (codec) ",-,Yes,No,Yes,No,No
 TwinVQ,Nippon Telegraph and Telephone,1996 (?),,Non-free,Non-free," Winamp with VQF plugin, NTT TwinVQ player/encoder, Yamaha SoundVQ player, Nero Media Player ",FFmpeg (decoding only)FFmpeg,speech,Yes,No,No,Yes,?
 Vorbis (Vorbis),Xiph.Org Foundation,2000-05-11,1.3.6,Free,Free,," Libvorbis,Libvorbis Libvorbis,Libvorbis Libvorbis ",-,Yes,No,No,No,No
-WavPack,Conifer Software,1998,5.1.0,Free,Free,," WavPack,WavPack WavPack ",-,Yes,No,Yes,No,No
+WavPack,Conifer Software,1998,5.3.0 (2020-04-14),Free,Free,," WavPack,WavPack WavPack ",Music archival,Yes,No,Yes,No,No
 Windows Media Audio,Microsoft,1999,11.0,Free for  consumer licensees of the Windows operating system [ Wikipedia:Citation needed ],Free for licensees of the Windows operating system[41]," Windows Media Player, Windows Media Player "," FFmpeg (decoding only for  Pro ,  Lossless  and  Voice ) ",internet streaming,Yes,No,Yes,Yes,Optional[42]
-Audio compression format,Creator,First public release date,Latest stable version,Encoder,Player,Proprietary software implementations (codecs),Open-source license implementations (codecs),Uses (other than consumer audio),Music reproduction (consumer audio),Telephony app,Audio compression (data),Patented,Digital rights management
+Audio compression format,Creator,First public release date,Latest stable version,Data compression,Player,Proprietary software implementations (codecs),Open-source license implementations (codecs),Uses (other than consumer audio),Music reproduction (consumer audio),Telephony app,Audio compression (data),Patented,Digital rights management
 cost,,,,,,,,,,,,

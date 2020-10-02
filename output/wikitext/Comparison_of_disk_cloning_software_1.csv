@@ -1,13 +1,15 @@
-Name,Operating system,User interface," Sector by sectorname=""Raw"""," File by filename=""File"""," Hot transfername=""LiveCopy"""," Mount or extractExtracting is the process of browsing a disk image and retrieving some of the files that it contains, one users choice. Mounting a disk image is the process of make the disk image content available to the user as if he or she is accessing a physical read-only disk.",Operation model,,,| [[software license|License]],
-,,,,,,,! scope="col" | Standalone,scope="col" | [[Client–server]],scope="col" | From a [[Live OS]],,
+Name,Operating system,User interface," Sector by sectorname=""Raw"""," File by filename=""File"""," Hot transfername=""LiveCopy"""," Mount or extractExtracting is the process of browsing a disk image and retrieving some of the files that it contains, at the users discretion. Mounting a disk image is the process of making the disk image content available to the user as if he or she is accessing a physical read-only disk.",Operation model,,,| [[software license|License]],
+,,,,,,,! scope="col" | Standalone,scope="col" | [[Client–server]],scope="col" | From a [[Live OS]],
 " scope=""row""  Acronis True Image",Windows,Graphical," name=""ATIht"" "," name=""ATIH-Linux"" ",yes,yes,yes,yes,yes (64 MB)," name=""ATItryv"" "
 " scope=""row""  Apple Software Restore",macOS,Command-line,yes,HFS+,no,via hdiutil,yes,yes,No,Part of macOS
 " scope=""row""  CloneDisk",Windows 7,Graphical,yes," FAT, UDF ",no,yes,yes,yes,yes,Freeware
 " scope=""row""  Clonezilla ",yes,yes (Clonezilla server edition),yes (210 MB),GPL
 " scope=""row""  dcfldd",Linux,Command-line,yes,no,no,yes,yes,no,dunno,GPL
 " scope=""row""  dd (Unix)",Unix,Command-line,yes,no,no," name=""Loop device"" ",yes,no," name=""dd"" ",GPLv3
+" scope=""row""  Disks (gnome-disk-utility)",Linux,Graphical,dunno,dunno,dunno,dunno,dunno,dunno,dunno,Part of Linux
 " scope=""row""  Disk Utility",macOS,Graphical,yes,HFS+,yes,yes,yes,no,yes,Part of macOS
 " scope=""row""  Drive SnapShot ",no,yes,yes,yes,no,no,Trialware
+" scope=""row""  Foxclone",Linux,Graphical,yes,"  ntfs, fat32, ext4, GPT  ; MSDOS partition tables ",no,no,yes,no,yes,GPL
 " scope=""row""  FSArchiver",Linux,Text-based,no," HPFS, JFS, XFS ",dunno,dunno,yes,no,dunno,GPL
 " scope=""row"" Ghost ",yes,yes,yes,yes,yes,Trialware
 " scope=""row"" GParted Live CD",Linux,Graphical,no," ext2, ext3 ",no,no,yes,no,yes,GPL

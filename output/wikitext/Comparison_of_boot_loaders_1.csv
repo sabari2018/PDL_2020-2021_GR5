@@ -3,9 +3,11 @@ Name,License,Can reside in,,,,| Can boot from,,,,,,,,| Can boot,,,,,,,,
 Hard disk,Second Hard disk,Logical partitions,CD-ROM,Floppy,USB,Zip,LAN
 MS-DOS,Me,Windows NT series,7/8/10,Linux,ReactOS,MenuetOS,*BSD,Mac OS X
 Acronis OS Selector,proprietary,Dunno,Dunno,Dunno,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Dunno,Yes,Yes,Yes,Yes,Yes,Dunno,Dunno,Yes,Yes
-AiR-Boot,GPLv3,Dunno,Yes,No,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Yes,Yes,Yes,Dunno,Dunno,Dunno,Dunno
+AiR-BOOT,GPLv3,Dunno,Yes,No,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Yes,Yes,Yes,Yes,Yes,Dunno,Dunno,Dunno,Dunno
 AKernelLoader,GPLv2,Dunno,Yes,No,Yes,Yes,Yes,Yes,Dunno,Yes,Yes,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Yes,Dunno,Dunno,Dunno,Dunno
 Barebox,GPLv2,Yes,Yes,No,Dunno,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Dunno,Dunno,Dunno,Dunno,Yes,Dunno,Dunno,Dunno,Dunno
+[https://gitlab.com/bztsrc/bootboot BOOTBOOT],MIT,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Dunno,Dunno,Dunno,Dunno
+Boot Manager,proprietary,No,No,No,No,Yes,Yes,Yes,No,No,Dunno,Dunno,No,Yes,Yes,Yes,Yes,Yes,Dunno,Dunno,Dunno,Dunno
 BootIt Bare Metal (formerly BootIt Next Generation),proprietary,Dunno,Dunno,Dunno,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Dunno,Yes,Yes,Yes,Yes,Yes,Dunno,Dunno,Dunno,Dunno
 BootKey,proprietary,Dunno,No,No,Yes,No,No,No,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Dunno,Dunno,Dunno,Dunno
 BootManager,MIT,Dunno,Yes,No,No,Yes,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,No,Yes,Yes,Calls NTLDR,Calls Windows Boot Manager,Calls LILO,Dunno,Dunno,Dunno,Dunno
@@ -15,11 +17,12 @@ Clover (fork of rEFIt),GPLv2/BSD license,yes,yes,yes,yes,yes,yes,Dunno,no,Dunno,
 Darwin Boot Loader,APSL 2.0,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,Dunno,yes,Yes
 Das U-Boot,GPLv2,Dunno,Dunno,Dunno,Dunno,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Dunno,Dunno,Dunno,Dunno,Yes,Dunno,Dunno,Yes (FreeBSD),Dunno
 GAG,GPLv2+,Dunno,Yes (SafeBoot),No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Calls NTLDR,Calls Windows Boot Manager,Calls GRUB or LILO,Calls bootloader,Calls bootloader,Calls bootloader,No
-GRUB Legacy,GPLv2+,Dunno,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,Calls NTLDR,Calls Windows Boot Manager,yes,Calls FreeLoader,yes,yes,yes
+GRUB Legacy,GPLv2+,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,Calls NTLDR,Calls Windows Boot Manager,yes,Calls FreeLoader,yes,yes,yes
 GNU GRUB,GPLv3,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,Calls NTLDR,Calls Windows Boot Manager,yes,Calls FreeLoader,yes,yes,yes
+Grub2Win,GPLv3,yes,no,no,no,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,Calls NTLDR,Calls Windows Boot Manager,yes,dunno,dunno,Yes (FreeBSD),Calls Clover
 GRUB4DOS,GPLv2+,Dunno,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,Calls NTLDR,Calls Windows Boot Manager,yes,dunno,dunno,dunno,dunno
 Gujin [http://gujin.sourceforge.net/],GPLv2,Dunno,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,Calls NTLDR,yes,yes,dunno,dunno,dunno,dunno
-systemd-boot / Gummiboot,LGPL 2.1,yes,no,no,dunno,yes,yes,yes,dunno,dunno,yes,dunno,dunno,no,no,Windows Server 2013 64bits with UEFI only,Calls Windows Boot Manager,yes,dunno,dunno,UEFI only,yes
+systemd-boot / Gummiboot,LGPL 2.1,yes,no,no,no,yes,yes,yes,dunno,dunno,yes,dunno,dunno,no,no,Windows Server 2013 64bits with UEFI only,Calls Windows Boot Manager,yes,dunno,dunno,UEFI only,yes
 iBoot,proprietary,yes,dunno,dunno,dunno,yes,dunno,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,yes
 LILO,BSD license,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno,dunno,yes,Calls NTLDR,yes,yes,dunno,dunno," Calls biosboot (FreeBSD, PC-BSD, ...)",dunno
 loader(8),BSD license,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno," yes (FreeBSD, TrueOS)",dunno
@@ -27,13 +30,14 @@ loadlin,GPLv2+,Dunno,no,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,no,no,no,yes,n
 MasterBooter,proprietary,dunno,yes,Dunno,dunno,yes,yes,yes,dunno,yes,dunno,dunno,dunno,yes,yes,yes,yes,yes,dunno,dunno,yes,dunno
 NTLDR,proprietary,Dunno,no,yes,yes,yes,dunno,no,no,yes,yes,dunno,dunno,yes,yes,yes,no,Calls GRUB4DOS,dunno,dunno,dunno,Calls Darwin bootloader
 OSL2000 Boot Manager,proprietary,Dunno,yes,yes,no,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,Calls GRUB or LILO,dunno,dunno,dunno,dunno
-PLoP Bootmanager,proprietary,Dunno,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,Calls GRUB or LILO,dunno,dunno,dunno,dunno
+"  PLoP Bootmanager, Plop Boot Manager Six (PBM6)",proprietary,Dunno,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,Calls GRUB or LILO,dunno,dunno,dunno,dunno
 RedBoot,mod GPLv2+,Dunno,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,Calls NTLDR,Calls Windows Boot Manager,yes,Calls FreeLoader,yes,yes,yes
-rEFInd (fork of rEFIt),GPLv3/BSD license,yes,yes,yes,yes,yes,yes,Dunno,yes,Dunno,yes,Dunno,yes,Dunno,Dunno,yes,yes,yes,Dunno,Dunno,yes,yes
-rEFIt (not maintained),GPLv2/BSD license,yes,yes,yes,yes,yes,yes,Dunno,no,Dunno,yes,Dunno,no,Dunno,Dunno,yes,yes,yes,Dunno,Dunno,yes,yes
+rEFInd (fork of rEFIt),GPLv3/BSD license,yes,no,no,no,yes,yes,Dunno,yes,Dunno,yes,Dunno,yes,Dunno,Dunno,yes,yes,yes,Dunno,Dunno,yes,yes
+rEFIt (not maintained),GPLv2/BSD license,yes,no,no,no,yes,yes,Dunno,no,Dunno,yes,Dunno,no,Dunno,Dunno,yes,yes,yes,Dunno,Dunno,yes,yes
 Smart Boot Manager,GPLv2+,Dunno,yes,no,yes,yes,yes,yes,yes,yes,dunno,dunno,dunno,yes,yes,yes,dunno,yes,dunno,dunno,yes,dunno
 SPFdisk,GPLv2+,Dunno,yes,yes,yes,yes,yes,dunno,dunno,yes,dunno,dunno,dunno,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno
-SYSLINUX,GPLv2+,yes,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,Calls NTLDR,Calls Windows Boot Manager,yes,dunno,yes,via mboot.c32 module [http://www.syslinux.org/wiki/index.php/Mboot.c32],dunno
+SYSLINUX,GPLv2+,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,Calls NTLDR,Calls Windows Boot Manager,yes,dunno,yes,via mboot.c32 module [http://www.syslinux.org/wiki/index.php/Mboot.c32],dunno
+Tianocore EDK II,BSD-2-Clause,Dunno,No,No,No,Yes,Yes,Dunno,Yes,Dunno,Yes,No,Yes,No,No,No,Yes,Yes,No,Dunno," Yes (FreeBSD,OpenBSD)",Yes
 XOSL,GPLv2,Dunno,no,no,yes,yes,yes,yes,yes,dunno,no,dunno,no,yes,yes,yes,yes,yes,dunno,dunno,dunno,dunno
 Windows Boot Manager,proprietary,yes,no,yes,no,yes,yes,dunno,yes,yes,yes,yes,dunno,dunno,yes,Calls NTLDR,yes,Calls GRUB or LILO,dunno,dunno,dunno,dunno
 FreeLoader (ReactOS Boot Loader),GPLv2+,Dunno,no,yes,yes,yes,yes,dunno,yes,yes,yes,yes,dunno,yes,yes,partial,Calls Windows Boot Manager,yes,yes,dunno,dunno,dunno

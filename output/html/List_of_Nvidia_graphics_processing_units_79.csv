@@ -1,12 +1,11 @@
-Model,Code name,Fab (Nanometer),Computer bus Computer bus,Core clock (Hertz),Shader clock (Hertz),Memory clock (Hertz),Core config12,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported Application programming interface version,,Thermal design power (Watts),Notes
-,,,,,,,,Pixel (Pixel/s),Texture (Texel (graphics)/s),Size (Megabyte),Bandwidth (Gigabyte/s),Bus type,Bus width (Bit),Single precision floating-point format,Direct3D,OpenGL,,
-Quadro NVS 110M,G72M,90,PCIe 1.0 ×16,300,300,600,3:4:4:2,0.6,1.2,Up to 512,4.8,DDR,64,,9.0c,2.1,10,
-Quadro NVS 120M,G72GLM,,,450,450,700,,0.9,1.8,,5.6,DDR2,,,9.0c,2.1,,
-Quadro NVS 130M,G86M,80,PCIe 2.0 ×16,400?,800?,,8:4:4,1.6?,1.6?,Up to 256,6.4?,,,19.2,10.0,3.3,,
-Quadro NVS 135M,,,,400,800,1188,16:8:4,1.6,3.2,,9.504,GDDR3,,38.4,,,,
-Quadro NVS 140M,,,,,,1200,16:8:4,,,Up to 512,9.6,,,38.4,,,,
-Quadro NVS 150M,G98M,65,530,1300,1400,8:4:4,2.12,2.12,Up to 256,11.2,31.2,,,,,
-Quadro NVS 160M,,,580,1450,,8:8:4,,4.24,256,,34.8,,,12,,
-Quadro NVS 300M,G72GLM,90,PCIe 1.0 ×16,450,450,1000,3:4:4:2,0.9,1.8,Up to 512,8,DDR2,,,9.0c,2.1,16,
-Quadro NVS 320M,G84M,65,PCIe 2.0 ×16,575,1150,1400,32:16:8,4.6,9.2,,22.4,GDDR3,128,110.4,10.0,3.3,20,
-Quadro NVS 510M,G72GLM,90,PCIe 1.0 ×16,500,500,1200,8:24:24:16,8,12,Up to 1024,38.4,,256,,9.0c,2.1,45?,,based on Go 7900 GTX
+Model,Code nameCode name,Fab (Nanometer),Computer bus Computer bus,Core clock (Hertz),Boost clock (Hertz),GPU cache GPU cache (GPU cache),Core config1,Fillrate,,Memory,,,,,Processing power (GFLOPS),,,Supported Application programming interface version,,,,,Thermal design power (Watts),Notes
+,,,,,,,,Pixel (Pixel/s),Texture (Texel (graphics)/s),Size (Gigabyte),Bandwidth (Gigabyte/s),Memory clock (Hertz),Bus type,Bus width (Bit),Single precision floating-point format,Half-precision floating-point format Half-precision floating-point format,Double precision floating-point format,Direct3D,OpenGL,Vulkan (API),OpenCL,CUDA,,
+Quadro T1000[222],TU117(N19P-Q1-A1),12,PCIe 3.0,1395,1455,1,768:48:32:12:1536,46.56,69.84,4,128,2000,GDDR5,128,2235,,69.84,12.1,4.6,1.2,1.2,7.5,40-50,
+Quadro T2000[222],TU117(N19P-Q3-A1),,,1575,1785,,1024:64:32:16:2048,57.1,114.2,,,,,,3500,,,,,,,,60,
+Quadro T2000 Max-Q,TU117,,,,,,,,,,,,,,,,,,,,,,40,
+Quadro RTX 3000[222],TU106(N19E-Q1-KA-K1),,,945,1380,4,2304:144:48:36:288,88.32,198.7,6,448,1750,GDDR6,256,6359,12720,198.7,,,,,,60-80,
+RTX 3000 Max-Q[223],TU106,,,600,1215,,,77.76,175.0,,416,1625,,,5599,11200,175.0,,,,,,60,
+Quadro RTX 4000[222],TU104(N19E-Q3-A1),,,1110,1560,,2560:160:64:40:320,99.84,249.6,8,448,1750,,,7987,15970,249.6,,,,,,110,
+RTX 4000 Max-Q[224],TU104,,,780,1380,,,88.32,220.8,,416,1625,,,7066,14130,220.8,,,,,,80,
+Quadro RTX 5000[222],TU104(N19E-Q5-A1),,,,,3072:192:64:48:384,98.88,296.6,16,448,1750,9492,,,18980,296.6,110,,,,,
+Quadro RTX 5000 Max-Q[225],TU04,,,600,1350,,86.40,259.2,,,,8294,,,15970,259.2,80,,,,,,,

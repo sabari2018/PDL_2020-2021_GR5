@@ -28,3 +28,4 @@ put string(string) edit(items)(format),PL/I,PL/I (similar to Fortran)
 " String.format(formatstring, items)",Cobra,.NET
 format formatstring items,Tcl,C
 formatnumbers ⍕ items or formatstring ⎕FMT items,APL,APL
+" format!(formatstring, items)",Rust,Python

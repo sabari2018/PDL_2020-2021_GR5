@@ -1,0 +1,10 @@
+['''Name'''
+, '''License'''
+, '''Deployment'''
+, '''Platforms'''
+],
+GPL,Desktop,Windows/Linux/macOS,
+AGPLv3,Desktop,Linux macOS others,
+Proprietary,Desktop,Windows,
+Proprietary,Desktop,Windows,
+,

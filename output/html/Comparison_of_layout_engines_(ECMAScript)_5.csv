@@ -1,4 +1,4 @@
-,Trident (layout engine),Gecko (layout engine),WebKit,Presto (layout engine),Blink (layout engine)
+Function object,Trident (layout engine),Gecko (layout engine),WebKit,Presto (layout engine),Blink (layout engine)
 Called as function,,,,,
 " Function([[p1 [, p2 [, ...]],] body]) ",?,Yes,Yes,?,Yes
 Called as constructor,,,,,

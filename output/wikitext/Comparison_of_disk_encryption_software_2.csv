@@ -33,6 +33,7 @@ eCryptfs,no,no,no,yes,no,no,no,no,dunno,dunno
 EgoSecure HDD Encryption,yes,no,no,no,no,no,no,no,dunno,dunno
 EncFS,yes,yes,yes (FUSE),yes (FUSE),yes,yes (FUSE),yes (FUSE),yes (FUSE),yes,dunno
 EncryptStick,Yes,no,no,yes,Yes,no,no,no,dunno,dunno
+EncryptUSB,Yes,no,no,no,Yes,no,no,no,dunno,dunno
 FileVault,no,no,no,no,yes,no,no,no,dunno,dunno
 FileVault 2,no,no,no,partial,yes,no,no,no,dunno,dunno
 FREE CompuSec,yes,no,no,no,no,no,no,no,dunno,dunno

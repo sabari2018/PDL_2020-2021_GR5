@@ -1,4 +1,4 @@
-Client,Windows,Mac OS X,Linux,BSD,Solaris,Android,iOS,Other
+Client,Windows,macOS,Linux,BSD,Solaris,Android,iOS,Other
 Akregator,no,yes,yes,yes,yes,no,no,no
 Amarok,yes,yes,yes,yes,yes,no,no,no
 AOL Explorer,yes,no,no,no,no,no,no,no
@@ -17,22 +17,23 @@ Gnus,yes,yes,yes,yes,yes,yes,no,DOS
 IBM Lotus Notes,yes,yes,yes,no,no,no,no,no
 Inoreader,yes,yes,yes,no,no,yes,yes,no
 Internet Explorer,included,no,no,no,no,no,no,no
-iTunes,yes,included,no,no,no,no,no,no
+iTunes,yes,as Podcasts app,no,no,no,no,no,no
 Juice,yes,yes,no,no,no,no,no,no
 K-Meleon,yes,no,no,no,no,no,no,no
 Kazehakase,no,no,yes,yes,no,no,no,no
 Liferea,no,no,yes,yes,no,no,no,no
-Mail (OS X),no,included,no,no,no,no,no,no
+Apple Mail,no,included,no,no,no,no,no,no
 Maxthon,yes,no,no,no,no,no,no,no
 MediaMonkey,yes,no,no,no,no,no,no,no
 Microsoft Office Outlook,yes,yes,no,no,no,no,no,Windows Mobile
 Mozilla Firefox,Add-on,Add-on,Add-on,Add-on,no,no,no,no
 Mozilla Thunderbird,yes,yes,yes,yes,no,no,no,no
-NetNewsWire,no,yes,no,no,no,no,no,no
+NetNewsWire,no,yes,no,no,no,no,yes,no
 Netscape Browser,yes,no,no,no,no,no,no,no
 Netscape Navigator 9,yes,yes,yes,no,no,no,no,no
 NewsAccess,no,yes,no,no,no,no,no,no
 NewsBlur,Web based,Web based,Web based,Web based,Web based,yes,yes,every platform with a web browser
+Newsbeuter,no,yes,yes,yes,no,no,no,Source code available
 NewsFire,no,yes,no,no,no,no,no,no
 OmniWeb,no,yes,no,no,no,no,no,no
 Opera Mail,yes,yes,yes,yes,dropped,no,no," BeOS, QNX, OS/2"

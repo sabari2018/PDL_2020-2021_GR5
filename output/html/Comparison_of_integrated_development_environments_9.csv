@@ -1,9 +1,11 @@
 Integrated development environment,Widget toolkit,Platform (computing),Compiler,Open Source,Made in D,Notes
-Microsoft Visual Studio
-Template:Microsoft Template:Microsoft Template:Microsoft    Template:Microsoft,,
-History of Microsoft History of Microsoft,,
-People
-Founders,Bill Gates Bill Gates
-Board of directors,John W. Thompson (Chairman) John W. Thompson (CEO) John W. Thompson John W. Thompson John W. Thompson John W. Thompson John W. Thompson John W. Thompson John W. Thompson John W. Thompson John W. Thompson John W. Thompson
-Senior leadership team,Satya Nadella (CEO) Satya Nadella Satya Nadella (CFO) Satya Nadella Satya Nadella
-Corporate VPs,Joe Belfiore Joe Belfiore (SVP) Joe Belfiore (SVP) Joe Belfiore
+Microsoft Visual Studio,Microsoft,Windows," D (programming language), D (programming language) (D (programming language)), D (programming language) (D (programming language)) ",No,No," Microsoft Visual Studio extension. Microsoft Visual Studio, wrote in D. "
+NetBeans,Swing (Java)," Windows, Windows, Windows, Windows, Windows, Windows, Windows "," D (programming language), D (programming language) (D (programming language)), D (programming language) (D (programming language)) ",Yes,No," NetBeans module. NetBeans, under NetBeans. "
+SlickEdit,Qt (software)," Windows, Windows, Windows, Windows, Windows, Windows, Windows ",D (programming language),No,No,
+CodeLite,WxWidget," Windows, Windows, Windows, Windows, Windows, Windows "," D (programming language), D (programming language) (D (programming language)), D (programming language) (D (programming language)) ",Yes,No,
+Xcode,Cocoa (API),MacOS," D (programming language), D (programming language) (D (programming language)) ",No,No," Xcode plugin. Xcode, under Xcode v2. "
+MonoDevelop,GTK," Windows, Windows, Windows, Windows, Windows, Windows "," D (programming language), D (programming language) (D (programming language)), D (programming language) (D (programming language)) ",Yes,No," MonoDevelop extension. MonoDevelop, support MonoDevelop projects and DUB, Can be installed on MonoDevelop too, under MonoDevelop. "
+KDevelop,Qt (software)," Windows, Windows, Windows, Windows, Windows, Windows "," D (programming language), D (programming language) (D (programming language)), D (programming language) (D (programming language)) ",Yes,No,
+Geany,GTK+," Windows, Windows, Windows, Windows, Windows, Windows "," D (programming language), D (programming language) (D (programming language)), D (programming language) (D (programming language)) ",Yes,No,Native support.
+Code::Blocks,WxWidget," Windows, Windows, Windows, Windows, Windows, Windows "," D (programming language), D (programming language) (D (programming language)), D (programming language) (D (programming language)) ",Yes,No,Includes partial support.
+Eclipse (software),Standard Widget Toolkit," Windows, Windows, Windows, Windows, Windows, Windows, Windows ",D (programming language),Yes,No,Eclipse (software) Plugin. Eclipse (software).  Dropped .

@@ -14,6 +14,7 @@ ArtRage,yes,yes,yes,no,yes,no,yes,yes,yes,no,yes,no,no,dunno,dunno,dunno
 Artweaver,yes,yes,dunno,no,Via plug-in,no,yes,yes,yes,dunno,dunno,yes,yes,no,yes,dunno
 Bibble*,partial,partial,dunno,yes,no,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno
 Bloom Image Editor,yes,yes,dunno,yes,no,yes,yes,yes,no,yes,no,yes,yes,no,no,yes
+Black Ink,yes,yes,yes,no,yes,no,yes,yes,no,no,yes,no,yes,no,no,yes
 Brush Strokes Image Editor,yes,no,dunno,no,no,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno
 Capture One,yes,yes,dunno,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
 Chasys Draw IES,yes,yes,dunno,yes,yes,partial,yes,yes,yes,yes,yes,yes,yes,no,yes,yes
@@ -37,7 +38,7 @@ iPhoto*,no,no,dunno,yes,partial,no,yes,partial,yes,partial,yes,yes,yes,yes,yes,y
 IrfanView,yes,no,dunno,yes,no,no,Via plug-in,yes,no,no,dunno,yes,yes,dunno,yes,dunno
 Iridient Developer,dunno,yes,dunno,yes,dunno,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
 Kolourpaint,yes,no,dunno,no,no,no,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
-Krita,yes,yes,dunno,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,no,yes,yes
+Krita,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,no,yes,yes
 LiveQuartz,yes,yes,dunno,no,no,no,yes,yes,yes,no,dunno,yes,yes,no,no,partial
 MacPaint*,yes,no,dunno,no,no,no,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Microsoft Office Picture Manager*,partial,no,dunno,no,no,no,no,yes,no,no,yes,no,dunno,no,no,dunno

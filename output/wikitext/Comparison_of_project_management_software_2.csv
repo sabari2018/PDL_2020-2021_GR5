@@ -1,4 +1,4 @@
-Software,Collaborative software,Issue tracking system,Scheduling,Project Portfolio Management,Resource Management,Document Management,Workflow system,Reporting and Analyses
+Software,Collaborative software,Issue tracking system,Scheduling,Project portfolio management,Resource management,Document management,Workflow system,Reporting and analyses
 2-plan,yes,No,yes,yes,yes,yes,Yes,yes
 24SevenOffice,yes,yes,yes,yes,yes,yes,yes,yes
 Actionspace,yes,yes,yes,no,no,no (Integrates with SharePoint),yes,yes
@@ -9,13 +9,14 @@ Asana,yes,no,yes,yes,yes,no,yes,yes
 Assembla,yes,yes,yes,yes,yes,yes,yes,yes
 Axosoft,yes,yes,yes,yes,yes,yes,yes,yes
 Basecamp,yes,no,no,no,yes,yes,no,no
+BigGantt,yes,yes,yes,yes,yes,no,yes,yes
+BigPicture,yes,yes,yes,yes,yes,no,yes,yes
 Calligra Plan,no,no,yes,no,yes,no,no,no
 CEITON,yes,yes,yes,yes,yes,yes,yes,yes
 Clarizen,yes,yes,yes,yes,yes,yes,yes,yes
 Collabtive,yes,no,no,no,no,yes,no,yes
 Compuware Changepoint,yes,yes,yes,yes,yes,yes,yes,yes
 ConceptDraw Project,yes,yes,yes,yes,yes,yes,yes,yes
-Concerto Project Management,yes,yes,yes,yes,yes,yes,yes,yes
 Copper Project,yes,yes,yes,yes,yes,yes,no,yes
 dotProject,yes,yes,no,yes,yes,yes,no,yes
 DynaRoad,no,no,yes,no,yes,no,yes,yes
@@ -51,7 +52,6 @@ LiquidPlanner,yes,yes,yes,yes,yes,yes,yes,yes
 LisaProject,no,no,yes,no,yes,no,no,no
 MacProject,no,no,yes,no,yes,no,no,no
 MantisBT,no,yes,no,no,no,no,no,no
-MeisterTask,yes,yes,yes,unk,unk,no,yes,yes
 Métier,yes,yes,yes,yes,yes,yes,yes,yes
 Microsoft Dynamics AX,yes,no,yes,no,yes,yes,yes,yes
 Microsoft Office Project Server,yes,yes,yes,yes,yes,yes,yes,yes
@@ -67,7 +67,7 @@ OnePager Pro,yes,no,yes,yes,yes,yes,no,yes
 OmniPlan,yes,no,yes,no,yes,no,no,yes
 Open Workbench,no,no,yes,no,yes,no,no,no
 OpenProj,no,no,yes,no,yes,no,no,no
-OpenProject,yes,yes,yes,yes,no,yes,yes,yes (Via OpenProject plug-ins)
+OpenProject,yes,yes,yes,yes,no,yes,yes,yes (via OpenProject plug-ins)
 Oracle Primavera EPPM (Primavera P6),yes,yes,yes,yes,yes,yes,yes,yes
 phpGroupWare,yes,yes,no,unk,yes,yes,no,no
 PHProjekt,yes,yes,yes,no,no,no,no,no
@@ -121,6 +121,6 @@ web2project,yes,yes,no,yes,yes,yes,no,yes
 Workamajig,yes,yes,yes,yes,yes,yes,yes,yes
 Workfront,yes,yes,yes,yes,yes,yes,yes,yes
 WorkPLAN Enterprise,yes,yes,yes,yes,yes,yes,yes,yes
-workspace.com,yes,yes,yes,yes,yes,yes,unk,unk
+Workspace.com,yes,yes,yes,yes,yes,yes,unk,unk
 Wrike,yes,yes,yes,yes,yes,yes,yes,yes
 Zoho Projects,yes,yes,yes,no,yes,yes,yes,yes

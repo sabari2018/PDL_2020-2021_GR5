@@ -1,4 +1,4 @@
-Scalable Vector Graphics,XML,Trident (layout engine),Gecko (layout engine),WebKitWebKit,Blink (layout engine),Presto (layout engine),KHTML,Prince XML,Amaya (web browser),Adobe SVG Viewer,Batik (software),Renesis Player,LeonLabs
+Scalable Vector Graphics,XML,Trident (software),Gecko (software),WebKitWebKit,Blink (browser engine),Presto (browser engine),KHTML,Prince (software),Amaya (web editor),Adobe SVG Viewer,Apache Batik,Renesis Player,LeonLabs
 Structure Module,,,,,,,,,,,
 Tiny,svg,5.0[t 2],1.8,522,?,1.0,Yes,Yes,Yes,1.0,Yes,Yes,1.0
 ,g,,,,,2.0,,,,,,1.0,

@@ -17,6 +17,7 @@ float = Number (string);
 float = +string;,"   string = number.toString (); string = String (number); string = number+""""; string = `${number}`",
 Go,"  integer, error = strconv.Atoi(string) integer, error = strconv.ParseInt(string, 10, 0)","  long, error = strconv.ParseInt(string, 10, 64)","  float, error = strconv.ParseFloat(string, 64)","  string = strconv.Itoa(integer) string = strconv.FormatInt(integer, 10)"
 string = fmt.Sprint(integer),string = strconv.FormatFloat(float) string = fmt.Sprint(float)
+RustRust type conversion[d],string.parse::()i32::from_str(string),string.parse::()i64::from_str(string),string.parse::()f64::from_str(string),integer.to_string(),float.to_string()
 Common Lisp,(setf integer (parse-integer string)),,(setf float (read-from-string string)),| <code>(setf string (princ-to-string number))</code>,
 Scheme,(define number (string->number string)),,,| <code>(define string (number->string number))</code>,
 ISLISP,(setf integer (convert string  ;lt;integer ;gt;)),,(setf float (convert string  ;lt;float ;gt;)),| <code>(setf string (convert number  ;lt;string ;gt;))</code>,

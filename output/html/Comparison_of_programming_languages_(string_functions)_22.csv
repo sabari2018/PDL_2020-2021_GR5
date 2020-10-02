@@ -31,3 +31,4 @@ string (: n ),Fortran
 string  («FUNCTION» LENGTH( string ) -  n : n ),COBOL
 "  string .substring(0,  n ) ",Cobra (programming language)
 n ↑ string .,APL (programming language)
+string [0..n]  string [..n]  string .get(0..n)  string .get(..n),Rust (programming language)Rust (programming language)

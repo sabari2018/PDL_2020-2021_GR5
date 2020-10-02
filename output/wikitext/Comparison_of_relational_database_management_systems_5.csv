@@ -25,9 +25,8 @@ Microsoft Visual Foxpro,yes,yes
 Microsoft SQL Server,yes,yes
 Microsoft SQL Server Compact (Embedded Database),yes,no
 Mimer SQL,no,no
-MonetDB,yes,no
+MonetDB,yes,no (only common views)
 MySQL,yes,no4
-OpenBase SQL,yes,yes
 Oracle,yes,yes
 Oracle Rdb,yes,yes
 OpenLink Virtuoso,yes,yes

@@ -31,3 +31,5 @@ string(:n),Fortran
 string («FUNCTION» LENGTH(string) - n:n),COBOL
 "string.substring(0, n)",Cobra
 n↑string.,APL
+string[0..n]string[..n]string.get(0..n)string.get(..n)," RustIn Rust, strings are indexed in terms of byte offsets and there is a runtime panic if the index is out of bounds or if it would result in invalid UTF-8. A  ;str (string reference) can be [https://doc.rust-lang.org/stable/std/primitive.str.html#impl-Index%3CI%3E indexed] by various types of ranges, including [https://doc.rust-lang.org/stable/std/slice/trait.SliceIndex.html#impl-SliceIndex%3Cstr%3E Range] (0..n), [https://doc.rust-lang.org/stable/std/slice/trait.SliceIndex.html#impl-SliceIndex%3Cstr%3E-1 RangeFrom] (n..), and [https://doc.rust-lang.org/stable/std/slice/trait.SliceIndex.html#impl-SliceIndex%3Cstr%3E-4 RangeTo] (..n) because they all implement the [https://doc.rust-lang.org/stable/std/slice/trait.SliceIndex.html SliceIndex] trait with str being the type being indexed."
+The [https://doc.rust-lang.org/stable/std/primitive.str.html#method.get str::get] method is the non-panicking way to index. It returns None in the cases in which indexing would panic.

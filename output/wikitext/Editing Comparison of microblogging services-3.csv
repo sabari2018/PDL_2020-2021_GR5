@@ -1,0 +1,26 @@
+[ Service
+, Owner
+, Launched
+, Primary service
+, Software license
+, Content license
+, Multilingual
+, Ad-free
+],
+| Open source,| 2010,| [[Microblogging]],| [[GNU Affero General Public License|AGPLv3]],| [[CC-BY]] 3.0,| {{yes}},| {{yes}},
+| Open source,| 2010-11,| [[Social network service|social network]],| [[AGPLv3]],| [[AGPLv3]],| {{yes}},| {{yes}},
+| [[Facebook Inc.]],| 2004-02,| [[Social network service|social network]],| [[Proprietary software|proprietary]],| own TOS,| {{yes}},| {{no}},
+| Gab AI Inc.,| 2016-08,| [[microblogging]],| [[Proprietary software|proprietary]],| own TOS,| {{yes}},| {{yes}},
+| DevZero LLC,| 2020-06,| [[microblogging]],| [[Proprietary software|proprietary]],| own TOS,| {{yes}},| {{yes}},
+| Riverfold Software,| 2017-04,| [[microblogging]],| ???,| ???,| {{Yes}},| {{Yes}},
+| Status Net Inc.,| 2008-07 ref{{cite web|title=Control Yourself Inc. launches Identi.ca the Open Microblogging Service , |url=http://controlyourself.ca/2008/07/02/control-yourself-inc-launches-identica-the-open-microblogging-service/ |date=2008-07-02 |work=Control Yourself Inc. |accessdate=2009-07-02 |url-status=dead |archiveurl=https://web.archive.org/web/20090410073214/http://controlyourself.ca/2008/07/02/control-yourself-inc-launches-identica-the-open-microblogging-service/ |archivedate=April 10 2009 }}/ref,| [[microblogging]],| [[Apache License|Apache]] v2 ([[pump.io]]),| [[CC-BY]] 3.0,| {{yes}},| {{yes}},
+| [[Tout (company)|Tout]],| 2010-04 ,| [[microblogging]],| [[Proprietary software|proprietary]],| own TOS,| {{Yes}},| {{yes}},
+| [[Twitter Inc.]],| 2006-08 ,| [[microblogging]],| [[Proprietary software|proprietary]],| own TOS,| {{Yes}},| {{no}},
+| Yammer Inc.,| 2008-09 ,| [[microblogging]],| [[Proprietary software|proprietary]],| own TOS,| {{Yes}},| {{yes}},
+| Open source,| 2016-10,| [[microblogging]],| [[AGPLv3]],| own TOS,| {{Yes}},| {{Yes}},
+| Open source,| 2014,| [[microblogging]],| [[AGPLv3]],| own TOS,| {{Yes}},| {{Yes}},
+| Open source,| 2017,| [[microblogging]],| [[AGPLv3]],| own TOS,| {{Yes}},| {{Yes}},
+| Open source,| 2013,| [[microblogging]],| MIT and BSD licenses,| own TOS,| {{Yes}},| {{Yes}},
+| Open source,| 2016,| [[microblogging]],| MIT,| own TOS,| {{Yes}},| {{Yes}},
+| [[Automattic]],| 2007,| [[microblogging]],| [[Proprietary software|proprietary]],| own TOS,| {{Yes}},| {{No}},
+,

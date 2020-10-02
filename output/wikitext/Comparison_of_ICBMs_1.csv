@@ -1,5 +1,5 @@
-width=20S No.,Name,width=60Operator,width=180Manufacturer,Max range,Missile mass,Warhead/payload,width=80Status,width=40First flight,MIRV,width=150Mobility,width=50Accuracy (CEP)
-1,RS-28 Sarmat,Russia,State Rocket Center Makeyev,"10,000 km",220 tonnes,"10,000 kg ",Under development,2018,Yes,Silo,16
+width=20S No.,Name,width=60Operator,width=180Manufacturer,Max range,Missile mass,Warhead/payloaddate=February 2020reason=Payload weight and yield are mixed together.,width=80Status,width=40First flight,MIRV,width=150Mobility,width=50Accuracy (CEP)
+1,RS-28 Sarmat,Russia,State Rocket Center Makeyev,"10,000 km",220 tonnes,"10,000 kg date=May 2020",Under development,2018,Yes,Silo,16date=February 2020reason=Missing unit.
 2,BZhRK Barguzin,Russia,Votkinsk,"12,600 km",45-50 tonnes,N/A,Under development,N/A,Yes,Railroad,N/A
 3,R-36M2 Voevoda,USSR,YuzhmashYuzhny Machine-Building Plant,"11,000 km (or 16,000 km with a single warhead)","211,400 kg",10 x 800 kt / 8730 kg,Active,1986,Yes,Silo,220 m
 4,UR-100N UTTKh,USSR,Khrunichev Machine-Building Plant,"10,000 km","105,600 kg",6 x 550 kt / 4350 kg,Active,1977,Yes,Silo,N/A
@@ -43,8 +43,8 @@ Active,1987,Yes,Ohio-class andVanguardsubmarines,90–120 m
 40,DF-5B,China,China Academy of Launch Vehicle Technology,"15,000 km","183,000 kg",3 to 8,Active,2015,Yes,Silo,
 41,DF-4,China,Factory 211 (Capital Astronautics Co.),"7,000 km ","82,000 kg",3.3 Mt,Active,1975,Yes(Speculated),Silo,"1,500 m"
 42,DF-31,China,Academy of Rocket Motors Technology (ARMT),"8,000 km","42,000 kg",1 Mt,Active,1999(Reported),No,Road-mobile TEL,
-43,DF-31A,China,Academy of Rocket Motors Technology (ARMT),"12,000 km","42,000 kg",3,Active,,Yes,Road-mobile TEL,
-44,DF-41,China,China Academy of Launch Vehicle Technology,"12,000-15,000 km",,10,Active,2012,Yes,Road-mobile TEL,
+43,DF-31A,China,Academy of Rocket Motors Technology (ARMT),"12,000 km","42,000 kg",3date=February 2020reason=Missing unit.,Active,,Yes,Road-mobile TEL,
+44,DF-41,China,China Academy of Launch Vehicle Technology,"12,000-15,000 km",,10date=February 2020reason=Missing unit.,Active,2012,Yes,Road-mobile TEL,
 45,JL-2,China,Factory 307 (Nanjing Dawn Group),"12,000 km","42,000 kg",3-6,Active,2001(Believed),Yes,Type 094 Jin class submarine,
 46,Agni-V,India,Defence Research and Development Organization,"5,500  – 8,000 km","50,000 kg",3-6,Active,2012,Yes,"Road mobile TEL, Rail Mobile",
 47,Agni-VI,India,Defence Research and Development Organization,"10,000  – 12,000 km","55,000  - 70,000 kg",10,Under development,Unknown,Yes,"Road mobile TEL, Rail Mobile",

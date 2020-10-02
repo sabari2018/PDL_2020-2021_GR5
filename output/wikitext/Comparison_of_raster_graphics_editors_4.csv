@@ -1,6 +1,6 @@
 ,Windows,macOS,Linux,iOS,BSD,Unix,AmigaOS,Other
 Ability Photopaint,yes,no,no,,no,no,no,no
-ACD Canvas,yes,Dropped,no,,no,no,no,no
+ACD Canvas,yes,yes,no,,no,no,no,no
 ACDSee,yes,yes,no,,no,no,no,no
 Acorn Image Editor,no,yes,no,,no,no,no,no
 Adobe Fireworks*,yes,yes,no,,no,no,no,no
@@ -13,6 +13,7 @@ Artipic,yes,yes,no,,no,no,no,no
 ArtRage,yes,yes,no,yes,no,no,no,Android
 Artweaver,yes,no,no,,no,no,no,no
 Bibble*,yes,yes,yes,,no,no,no,no
+Black Ink,yes,no,no,,no,no,no,no
 Bloom Image Editor,yes,yes,yes,,no,no,no,no
 Brush Strokes Image Editor,yes,no,no,,no,no,no,no
 Capture One,yes,yes,no,,no,no,no,no

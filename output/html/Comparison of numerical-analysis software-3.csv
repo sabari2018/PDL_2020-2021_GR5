@@ -1,0 +1,8 @@
+, Standalone executables creation support, Symbolic computation support, OOP support, GUI creation support, Multi-dimensional arrays as primitive data type, Centralized extension library website, Can call code in other languages, Can be called from other languages
+Analytica, No, No, Yes, Yes, Yes, Yes, COM Excel, Excel COM .NET
+Dyalog APL, Yes[12], Yes, Yes[13], Win32 .NET WPF HTML/JS, Yes, Yes, COM .NET WebServices Shared Libraries DLLs NAG R JavaScript[14], COM .NET WebServices[14]
+GNU Data Language, No, No, Yes, GUI Widgets since v.0.9 but still incomplete, Yes, No, C Python, Python
+GNU MCSim, Yes, No, No, XMCSim with TCL/TK and wish, No, No, C, R
+GNU Octave, Yes with mkoctfile, GiNaC extension wrappers to SymPy, Yes[15], Yes, Yes, Yes[16], C++ Fortran[17] Perl[18] Tcl[19], Java[20] Perl[18] C++[21]
+J, No, Yes, Yes, Yes, Yes, Yes, JavaScript, JavaScript
+Julia, Yes, Wrappers to SymPy SymEngine and others, Yes, Yes, Yes, Yes, 

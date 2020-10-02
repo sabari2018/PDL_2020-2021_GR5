@@ -3,7 +3,7 @@ Format,Languages
 " ContainsStr(string, substring)",Delphi)
 " strstr(string, substring) != NULL"," C, C++ (char * only)"
 string.Contains(substring)," C#, VB .NET, F#"
-string.contains(substring)," Cobra, Java (1.5+), Raku"
+string.contains(substring)," Cobra, Java (1.5+), Raku, Rust"
 string.indexOf(substring)  ;gt;= 0,JavaScript
 " strpos(string, substring) !== false",PHP
 " pos(string, substring)  ;lt; ;gt; 0",Seed7

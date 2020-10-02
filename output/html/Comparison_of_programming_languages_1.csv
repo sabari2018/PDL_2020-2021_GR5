@@ -4,8 +4,8 @@ ActionScript 3.0," Application, Client-side, web ",Yes,Yes,Yes,,,,Yes,," 1996, E
 Ada (programming language)," Application, Embedded system, Embedded system, Embedded system ",Yes,Yes[2],,Yes[3],Yes[4],,," Concurrent programming language,Concurrent programming language Concurrent programming language,Concurrent programming language "," 1983, 2005, 2012, ANSI, ISO, GOST 27831-88GOST "
 Aldor," Highly Domain-specific language, Domain-specific language ",Yes,Yes,Yes,,,,,,No
 ALGOL 58,Application,Yes,,,,,,,,No
-ALGOL 60,Application,Yes,,,,,,,," 1960, IFIP WG 2.1, ISOIFIP WG 2.1 "
-ALGOL 68,Application,Yes,,,,,,,concurrent," 1968, IFIP WG 2.1, IFIP WG 2.1,IFIP WG 2.1 "
+ALGOL 60,Application,Yes,,,Yes,Yes,,,," 1960, IFIP WG 2.1, ISOIFIP WG 2.1 "
+ALGOL 68,Application,Yes,,Yes,Yes,Yes,,,concurrent," 1968, IFIP WG 2.1, IFIP WG 2.1,IFIP WG 2.1 "
 Ateji PX,Parallel application,,Yes,,,,,,Pi calculus,No
 APL (programming language)," Application, Data processing ",Yes,Yes,Yes,Yes,Yes,Yes,Yes," Array programming, Array programming "," 1989, ISO "
 Assembly language,General purpose programming language,Yes,,,,,,," any, syntax is usually highly specific, related to the target processor ",IEEE 694-1985[10]
@@ -32,6 +32,7 @@ ColdFusion Markup Language (CFML),Web,,Yes,,Yes,,,,,No
 Common Lisp,General,Yes,Yes,Yes,Yes,Yes,Yes,Yes," extensible syntax, Macro (computer science), Macro (computer science), Macro (computer science), concurrent "," 1994, ANSI "
 COMAL 80,Education,Yes,,,Yes,,,,,No
 Crystal (programming language),General purpose,Yes,Yes[21],Yes,Yes,,,,alpha stage[22],No
+Curry (programming language),Application,,,Yes,,Yes,,," Lazy evaluation, non-determinism ",De facto  standard via Curry Language Report
 Cython," Application, general, Numerical computing ",Yes,Yes,Yes,,,Yes,,Aspect-oriented programming,No
 D (programming language)," Application, system ",Yes,Yes,Yes,Yes,Yes,Yes,," generative, concurrent ",No
 Dart (programming language)," Application, web, server-side, mobile, Internet of things ",Yes,Yes,Yes,,,,,structured,Ecma-408 standard
@@ -77,7 +78,7 @@ Logtalk," Artificial intelligence, application ",,Yes,,,,Yes,Yes,logic,No
 Linden Scripting Language,Virtual worlds content scripting and animation,Yes,,,Yes,,,Yes,Scripts exist in in-world objects,Yes[31]
 Lua (programming language)," Application, embedded scripting ",Yes,Yes[32],Yes,Yes,,Yes,,aspect-oriented,No[33]
 Maple (software)," Symbolic computation, numerical computing ",Yes,Yes,Yes,Yes,,,,Distributed programming,No
-Mathematica,Symbolic language (programming),Yes,Yes,Yes,Yes,,,," logic, distributed ",No
+Mathematica,Symbolic language (programming),Yes,Yes,Yes,Yes,Yes,Yes,Yes," logic, distributed ",No
 MATLAB," Highly domain-specific, numerical computing ",Yes,Yes,,Yes,,,,,No
 Modula-2," Application, system ",Yes,,,,Yes,,,," 1996, ISO[34] "
 Modula-3,Application,Yes,Yes,,,Yes,,,,No
@@ -97,7 +98,7 @@ Perl," Application, scripting, text processing, Web ",Yes,Yes,Yes,Yes,Yes,Yes,,,
 PHP," Server-side, web application, web ",Yes,Yes[36],Yes[37],Yes,,Yes,,," ""De facto"" standard via language specification and Requests for Comments (RFCs) "
 PL/I,Application,Yes,Yes,,Yes,,,,," 1969, ECMA-50 (1976) "
 Plus (programming language)," Application, system development ",Yes,,,Yes,,,,,No
-PostScript," Graphics, page description ",Yes,,,Yes,,,,Stack-oriented programming,Yes (as the PostScript Reference Manual)
+PostScript," Graphics, page description ",Yes,,,Yes,,,,"  Concatenative programming language, Concatenative programming language  "," Yes, as the PostScript Reference Manual[38] "
 Windows PowerShell," Administration, application, general, scripting ",Yes,Yes,Yes,Yes,,Yes,,Pipeline programming,No
 Prolog," Application, artificial intelligence ",,,Yes,Yes,,Yes,," logic, declarative "," 1995, ISO/IEC 13211-1:1995, TC1 2007, TC2 2012, TC3 2017 "
 PureBasic,Application,,,,Yes,,,,,No
@@ -107,9 +108,10 @@ Racket (programming language)," Education, general, scripting ",,Yes,Yes,Yes,,Ye
 Raku (programming language)," Scripting, text processing, glue ",Yes,Yes,Yes,Yes,Yes,Yes,," aspect-oriented, array, lazy evaluation, multiple dispatch, metaprogramming ",Yes
 REALbasic,Application,,,,Yes,,,,,Unknown
 Rebol,Distributed,Yes,Yes,Yes,Yes,,Yes,Yes,Dialecting,No
+REXX,Scripting,Yes,Yes (NetRexx and NetRexx dialects),No,Yes,,No,No,,1996 (ANSI X3.274-1996)
 IBM RPG," Application, system ",Yes,,,Yes,,,,,No
 Ruby (programming language)," Application, scripting, web ",Yes,Yes,Yes,,,Yes,,aspect-oriented," 2011(JIS X 3017), 2012(ISO/IEC 30170) "
-Rust (programming language)," Application, system ",Yes,Yes[38],Yes,Yes,Yes,,Yes,concurrent,No
+Rust (programming language)," Application, system ",Yes,Yes[39],Yes,Yes,Yes,,Yes,concurrent,No
 S (programming language)," Application, statistics ",Yes,Yes,Yes,Yes,,,,,No
 S-Lang (programming library)," Application, numerical, scripting ",Yes,,,Yes,,,,,No
 Scala (programming language)," Application, distributed, web ",Yes,Yes,Yes,,Yes,Yes,Yes,,De facto  standard via Scala Language Specification (SLS)
@@ -119,14 +121,14 @@ Simula," Education, general ",Yes,Yes,,,,,Yes," Discrete event simulation, Discr
 Microsoft Small Basic," Application, education, games ",Yes,,,,,,Yes,Component-oriented programming,No
 Smalltalk," Application, general, business, artificial intelligence, education, web ",Yes,Yes,Yes,Yes,,Yes,Yes," concurrent, declarative "," 1998, [ANSI "
 SNOBOL,Text processing,,,,,,,,,Unknown
-Standard ML,Application,Yes,,Yes,,Yes,,,," 1997, SML '97[39] "
-Swift (programming language)," Application, general ",Yes,Yes,Yes,Yes,Yes,Yes,Yes," concurrent, Multi-paradigm ",No
+Standard ML,Application,Yes,,Yes,,Yes,,,," 1997, SML '97[40] "
+Swift (programming language)," Application, general ",Yes,Yes,Yes,Yes,Yes,Yes,Yes," concurrent, declarative, Protocol (object-oriented programming) ",No
 Tcl," Application, scripting, web ",Yes,Yes,Yes,Yes,,Yes,Yes,,No
 Visual Basic," Application, RAD, education, business, general, (Includes VBA), office automation ",Yes,Yes,,,Yes,,Yes,Component-oriented programming,No
 Visual Basic .NET," Application, RAD, education, web, business, general ",Yes,Yes,Yes,Yes,Yes,Yes,Yes," structured, concurrent ",No
 Visual FoxPro,Application,,Yes,,,,,," data-centric, logic ",No
 Visual Prolog,Application,Yes,Yes,Yes,,,,Yes," declarative, logic ",No
-Wolfram Language,Symbolic language (programming),Yes,Yes,Yes,Yes,,,," logic, distributed ",No
+Wolfram Language,Symbolic language (programming),Yes,Yes,Yes,Yes,Yes,Yes,Yes," logic, distributed ",No
 XL (programming language),,Yes,Yes,,,,,,Concept programming,No
 Xojo," Application, RAD, general, web ",Yes,Yes,,Yes,,Yes,Yes,,No
 XPath/XPath," Databases, data processing, scripting ",,,Yes,,,,,Tree (data structure)," W3C 1999 XPath 1, 2010 XQuery 1, 2014 XPath/XQuery 3.0 "

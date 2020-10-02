@@ -1,5 +1,5 @@
 Markup language,Creator,First public release date,Editor,File viewer
-AsciiDoc,Stuart Rackham (page does not exist),2002,Text editor," Output to XHTML, XHTML, XHTML (which can convert to XHTML, XHTML, XHTML, XHTML, XHTML, and XHTML) "
+AsciiDoc,Stuart Rackham,2002,Text editor," Output to XHTML, XHTML, XHTML (which can convert to XHTML, XHTML, XHTML, XHTML, XHTML, and XHTML) "
 Computable Document Format,Wolfram Research,2010,Wolfram Language &amp; Wolfram Language,CDF Player; CDF format can also be embedded in web pages viewable with conventional browsers.
 Creole (markup),,2007,Text editor," Output to HTML, HTML, HTML, others; renderers for HTML, others. "
 Darwin Information Typing Architecture," IBM, OASIS (organization) ",2005,Text editor/Text editor," Output to HTML, HTML, HTML, HTML, others. "
@@ -19,13 +19,13 @@ Office Open XML," Ecma International, Ecma International/Ecma International ",20
 OpenDocument," OASIS (organization), OASIS (organization)/OASIS (organization) ",2005,Office suite,Office suite
 OMDoc,Michael Kohlhase,2000,Text editor/Text editorText editor," Output to XHTML+XHTML, XHTML, others. "
 Org-mode,Org-mode project,2003," Emacs, text editor "," Emacs. Output to Emacs, Emacs, Emacs, Emacs, Emacs, others. "
-ReStructuredText,David Goodger (page does not exist),2001[3],Text editor," Output to HTML, HTML, HTML, HTML, HTML, HTML, HTML, others. "
+ReStructuredText,David Goodger,2001[3],Text editor," Output to HTML, HTML, HTML, HTML, HTML, HTML, HTML, others. "
 Rich Text Format,Microsoft,1987," Text editor, Text editor ",Word processor
 Scalable Vector Graphics,W3C,2004,List of vector graphics editors," Web browser, etc. "
-SCRIPT (markup),IBM,1968,Text editor," GDDM, IBM Advanced Function Printing (AFP) viewer "
-TeX,Donald Knuth,1978,Text editor,DVI file format or DVI file format converter
+SCRIPT (markup) SCRIPT (markup),IBM,1968 1971,Text editor," GDDM, IBM Advanced Function Printing (AFP) viewer "
+TeX TeX,Donald Knuth Donald Knuth,1978 1984,Text editor,DVI file format or DVI file format converter
 Texinfo,Richard Stallman,1986,Text editor," output to DVI file format, DVI file format, DVI file format, DVI file format, others. "
-TeXmacs,Joris van der Hoeven,,Text editor/Text editor,Portable Document Format or Portable Document Format files. Converters exist for Portable Document Format/Portable Document Format and Portable Document Format+Portable Document Format
+TeXmacs,Joris van der Hoeven,1998,Text editor/Text editor,Portable Document Format or Portable Document Format files. Converters exist for Portable Document Format/Portable Document Format and Portable Document Format+Portable Document Format
 Text Encoding Initiative,Text Encoding Initiative Consortium,1990,Text editor/Text editor," Web Browser (using Web Browser), Web Browser, Web Browser (using Web Browser) or Web Browser "
 " Troff, Troff ",Joe Ossanna,1973,Text editor," groffer, or output to PostScript "
 Wireless Markup Language,WAP Forum,1999,Text editor/Text editor,Microbrowser

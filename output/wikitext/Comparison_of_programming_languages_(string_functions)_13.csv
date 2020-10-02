@@ -37,3 +37,4 @@ POSITION(substring IN string),SQL,returns 0 (positions start at 1)
 " string.indexOf(substring«,startpos«, charcount»»)",Cobra,returns −1
 string first substring string startpos,Tcl,returns −1
 (substring⍷string)⍳1,APL,returns 1 + the last position in string
+string.find(substring),Rust,returns None

@@ -12,6 +12,6 @@ OpenSSL,Yes[216],Yes,Yes,Yes[217],,No,Yes
 RSA BSAFE Micro Edition Suite,Yes,Yes,No,Yes,No,No,Yes
 RSA BSAFE SSL-J RSA BSAFERSA BSAFE,Yes,Yes,No,Yes,No,No,Yes
 SChannel,No,Yes,No,No,,No,
-Secure Transport,No,Yes[220][221],No,Yes,,No,
-WolfSSL,No,Yes,No,Yes,Yes,Yes[222],
+MacOS,No,Yes[220][221],No,Yes,,No,
+WolfSSL,Yes,Yes,No,Yes,Yes,Yes[222],
 Implementation,PKCS #11 device,Intel AES-NI,VIA PadLock,ARMv8-A,Intel SGX,Intel QAT,Intel SHA

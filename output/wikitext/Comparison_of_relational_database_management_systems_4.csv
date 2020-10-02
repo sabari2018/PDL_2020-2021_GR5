@@ -4,7 +4,7 @@ Advantage Database Server,Unlimited,16 EiB," 65,530 B"," 65,135 / (10+ AvgFieldN
 Apache Derby,Unlimited,Unlimited,Unlimited," 1,012 (5,000 in views)"," 2,147,483,647 chars"," 254 (VARCHAR: 32,672)",64 bits,0001-01-01,9999-12-31,128
 ClustrixDB,Unlimited,Unlimited," 64 MB on Appliance, 4 MB on AWS",dunno,64 MB,64 MB,64 MB,0001-01-01,9999-12-31,254
 CUBRID,2 EB,2 EB,Unlimited,Unlimited,Unlimited,1 GB,64 bits,0001-01-01,9999-12-31,254
-DB2,Unlimited,2 ZB," 1,048,319 B"," 1,012",2 GB,32 KiB),64 bits,0001-01-01,9999-12-31,128
+DB2,Unlimited,2 ZB," 1,048,319 B"," 1,012",2 GB,32 KiB,64 bits,0001-01-01,9999-12-31,128
 Empress Embedded Database,Unlimited,263-1 bytes,2 GB," 32,767",2 GB,2 GB,64 bits,0000-01-01,9999-12-31,32
 EXASolution,Unlimited,Unlimited,Unlimited," 10,000",N/A,2 MB,128 bits,0001-01-01,9999-12-31,256
 FileMaker,8 TB,8 TB,8 TB," 256,000,000",4 GB," 10,000,000"," 1 billion characters, 10^-400 to 10^400, +-",0001-01-01,4000-12-31,100
@@ -22,7 +22,7 @@ Microsoft Visual Foxpro,Unlimited,2 GB," 65,500 B",255,2 GB,16 MB,32 bits,0001,9
 Microsoft SQL Server," 524,272 TB (32 767 files * 16 TB max file size) 16ZB per instance"," 524,272 TB"," 8,060 bytes/2TB6"," 1,024/30,000(with sparse columns)",2 GB/Unlimited (using RBS/FILESTREAM object),2 GB6,126 bits2,0001,9999,128
 Microsoft SQL Server Compact (Embedded Database),4 GB,4 GB," 8,060 bytes",1024,2 GB,4000,154 bits,0001,9999,128
 Mimer SQL,Unlimited,Unlimited,16000,252,Unlimited,15000,45 digits,0001-01-01,9999-12-31,128
-MonetDB,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited,64 bits,0,9999-12-31,dunno
+MonetDB,Unlimited,Unlimited,Unlimited,Unlimited,2 GB,2 GB,128 bits,-9999-01-01,9999-12-31,1024
 MySQL,Unlimited,MyISAM storage limits: 256 TB; Innodb storage limits: 64 TB,64 KB3," 4,0964"," 4 GB (longtext, longblob)",64 KB (text),64 bits,1000,9999,64
 OpenLink Virtuoso,32 TB per instance (Unlimited via elastic cluster),DB size (or 32 TB),4 KB,200,2 GB,2 GB,231,0,9999,100
 Oracle,2PB (with standard 8k block) 8PB (with max 32k block) 8EB (with max 32k block and BIGFILE option),4 GB * block size (with BIGFILE tablespace),8 KB," 1,000",128 TB," 32,767 B11",126 bits,−4712,9999,128

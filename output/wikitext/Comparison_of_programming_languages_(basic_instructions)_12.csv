@@ -13,7 +13,7 @@ May instead return int.,
 JavaScript,," function foo(«parameters») { instructions } or var foo = function («parameters») {instructions } or var foo = new Function («""parameter"", ... ,""last parameter""» ""instructions"");",function foo(«parameters») { instructions ... return value; },{{n/a}}
 Go,func foo(«parameters») { instructions },func foo(«parameters») type { instructions ... return value },func main() { instructions }
 Swift,func foo(«parameters») { instructions },func foo(«parameters») -> type { instructions ... return value },n/a
-Common Lisp,(foo «parameters»),(defun foo («parameters»)instructions) or (setf (symbol-function symbol)lambda),(defun foo («parameters»)...value),n/a
+Common Lisp,(foo «parameters»),(defun foo («parameters»)instructions) or (setf (symbol-function symbol)function),(defun foo («parameters»)...value),n/a
 Scheme,,(define (foo parameters) instructions) or  (define foo (lambda (parameters) instructions)),<code>(define (foo parameters) instructions... return_value) or <br/> (define foo ([[anonymous function|lambda]] (parameters) instructions... return_value))</code>,
 ISLISP,,(defun foo («parameters»)instructions),<code>([[defun]] foo («parameters»)<dl><dd>...</dd><dd>value)</dd></dl></code>,
 Pascal,foo«(parameters)»,procedure foo«(parameters)»; «forward;»forward declaration[a] «labellabel declarations» «constconstant declarations» «typetype declarations» «varvariable declarations» «local function declarations»begininstructionsend;,function foo«(parameters)»: type; «forward;»forward declaration[a] «labellabel declarations» «constconstant declarations» «typetype declarations» «varvariable declarations» «local function declarations»begin instructions;  foo := valueend;,program name; «labellabel declarations» «constconstant declarations» «typetype declarations» «varvariable declarations» «function declarations»begininstructions end.
@@ -32,7 +32,7 @@ PHP,foo(«parameters»),function foo(«parameters») { instructions },function f
 Perl,foo(«parameters») or   ;foo«(parameters)»,sub foo { «my (parameters) = @_;» instructions },sub foo { «my (parameters) = @_;» instructions... «return» value; },
 Raku,foo(«parameters») or   ;foo«(parameters)»,«multi »sub foo(parameters) { instructions },«our «type» »«multi »sub foo(parameters) { instructions... «return» value; },
 Ruby,foo«(parameters)»,def foo«(parameters)» instructions  end,def foo«(parameters)» instructions  «return» value  end,
-Rust,foo(«paramaters»),fn foo(«paramaters») { instructions },fn foo(«paramaters») -> type { instructions },fn main() { instructions }
+Rust,foo(«parameters»),fn foo(«parameters») { instructions },fn foo(«parameters») -> type { instructions },fn main() { instructions }
 Scala,foo«(parameters)»,def foo«(parameters)»«: Unit =» { instructions },def foo«(parameters)»«: type» = { instructions ... «return» value },def main(args: Array[String]) { instructions }
 Windows PowerShell,foo «parameters»,function foo  { instructions };orfunction foo { «param(parameters)» instructions },function foo «(parameters)»  { instructions  … return value }; orfunction foo { «param(parameters)» instructions … return value },n/a
 Bash shell,foo «parameters»,function foo { 4instructions } or foo () { 4instructions  },function foo { 4instructions 4return «exit_code» } or foo () { 4instructions 4return «exit_code»  },

@@ -22,4 +22,4 @@ Lphant,,no,dunno,no,dunno,Basic Support for Crumbs,dunno,dunno,no,no,yes,{{dunno
 MLDonkey,,no,Folder reserved slot + release file slot,yes,no (No queue),no,Uses a very low priority list instead,Similar Feature,About 1:4 below 10KB/s,no,yes,{{yes}} (user selects number of slots)
 Shareaza,,yes,yes,yes,yes,yes,yes,yes,no,Reward uploaders,yes,{{yes}}
 xMule,,no,no,no,no,no,no,no,no,no,yes,{{no}}
-Client,,Play While Downloading,PowerShare,Dynamic Upload,[http://wiki.emule-web.de/index.php/English:SUQWT SUQWT],SubChunk Transfer,Drop Sources,Push Small files,[http://wiki.emule-web.de/index.php/English:ZZratio ZZ Ratio],AntiLeech,IPFilter,| Slot Control
+Client,,Play While Downloading,PowerShare (eMule),Dynamic Upload,[http://wiki.emule-web.de/index.php/English:SUQWT SUQWT],SubChunk Transfer,Drop Sources,Push Small files,[http://wiki.emule-web.de/index.php/English:ZZratio ZZ Ratio],AntiLeech,IPFilter,| Slot Control

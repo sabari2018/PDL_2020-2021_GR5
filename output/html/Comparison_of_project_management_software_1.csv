@@ -9,14 +9,16 @@ Asana (software),Yes,No,Yes,Proprietary software,
 Assembla,Yes,Yes,Yes,Proprietary software,
 Axosoft,Yes,Yes,Yes,Proprietary software,
 Basecamp Classic,Yes[3],No[4],Yes,Proprietary software,Ruby (programming language)
+BigGantt,Yes,Yes,Yes,Proprietary software," Java, Angular "
+BigPicture,Yes,Yes,Yes,Proprietary software," Java, Angular "
 Calligra Plan,No,File-based,No,GPL,C++ and C++
 CEITON,Yes,Yes,Yes,Proprietary software," ASP.NET, ASP.NET "
 Clarizen,Yes[5],No,Yes[5],Proprietary software,
+Clubhouse Software,Yes,,Yes,," Clojure, Clojure "
 Collabtive,Yes,Yes,Yes,Open source software (core only),PHP
 Compuware Changepoint,Yes,Yes,Yes,Proprietary software,
 ConceptDraw Project,No,Yes,No,Proprietary software,
 ConceptDraw Project,Yes,No,Yes,Proprietary software,PHP and PHP
-Concerto Project Management,Yes,Yes,Yes,Proprietary software,
 Copper Project,Yes,Yes,Yes,Proprietary software,
 DotProject,Yes,Yes,Yes,GPL,PHP
 DynaRoad,No,Unknown,Unknown,Proprietary software,
@@ -39,7 +41,7 @@ GroveSite,Yes,Unknown,Yes,Unknown,
 Hall.com (software),Yes,Unknown,Yes,Unknown,
 Helix ALM,Yes,Yes,Yes,Proprietary software,C++
 HeySpace,Yes,No,Yes,Proprietary software,JavaScript
-HP Software &amp; Solutions,Yes,Yes,Proprietary software,
+HP Software &amp; Solutions,Yes,Yes,Unknown,Proprietary software,
 Huddle (software),Yes,Unknown,Unknown,Proprietary software,
 Hyperoffice,Yes,Unknown,Unknown,Proprietary software,
 Imanageproject,Yes,Unknown,Yes,Unknown,
@@ -53,7 +55,6 @@ LiquidPlanner,Yes,No,Yes,Proprietary software,Ruby (programming language)
 LisaProject,No,Unknown,Unknown,Proprietary software,
 MacProject,No,Unknown,Unknown,Proprietary software,
 Mantis Bug Tracker,Yes,Yes,No,GPL,PHP
-MeisterTask,Yes,No,Yes,Proprietary software," Ruby on Rails, Ruby on Rails, Ruby on Rails "
 Métier,Yes,Yes,Yes,Proprietary software,
 Microsoft Dynamics AX,No,Yes,No,Proprietary software,Microsoft Dynamics AX
 Microsoft Office Project Server,Yes,Yes,Yes,Proprietary software,
@@ -92,7 +93,7 @@ ProjeQtOr,Yes,Yes,Yes,Affero General Public License,PHP
 Meridian Systems,Yes,Yes,Yes,Proprietary software,
 Windchill (software),Yes,Yes,Yes,Proprietary software,
 Meridian Systems,Yes,Yes,Yes,Proprietary software,
-Priority Matrix,Yes,No,Yes,Proprietary software
+Priority Matrix,Yes,No,Yes,Proprietary software,
 Pyrus (software),Yes,Yes,Yes,Proprietary software,
 RationalPlan,Yes,Yes,Yes,Proprietary software,
 Realisor,No,Yes,No,Proprietary software,
@@ -106,9 +107,10 @@ Scoro,Yes,No,Yes,Proprietary software,PHPPHP
 Seavus Project Viewer (software),Yes,Yes,Yes,Proprietary software,C++
 Severa,Yes,Unknown,Yes,Unknown,
 Smartsheet,Yes,Unknown,Yes,Proprietary software,PHP
-Spider Project,No,No,No,Proprietary software
+Spider Project,No,No,No,Proprietary software,
 Streamtime Software,Yes,No,Yes,Proprietary software,PHP
 TACTIC (web framework),Yes,Yes,Yes,Eclipse Public License,Python (programming language)
+Taiga (project management),Yes,Yes,Yes,GNU Affero General Public License,Python (programming language)
 Talygen Business Intelligence,Yes,No,Yes,Proprietary software,ASP.NET
 TaskJuggler,No,Yes,No,GPL,Ruby (programming language)
 Teamcenter,Yes,Yes,Yes,Proprietary software,
@@ -129,5 +131,5 @@ Workamajig,Yes,Yes,Yes,Proprietary software,
 Workfront,Yes[19],No,Yes,Proprietary software,
 WorkPLAN Enterprise,No,Unknown,Unknown,Proprietary software,
 Workspace.com,Yes,Unknown,Yes,Proprietary software,
-Wrike (software),Yes,Unknown,Yes,Proprietary software
+Wrike (software),Yes,Unknown,Yes,Proprietary software,
 Zoho Office Suite,Yes,No,Yes,Proprietary software,PHP

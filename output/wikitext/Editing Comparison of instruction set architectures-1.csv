@@ -1,0 +1,56 @@
+[ Archi-&lt;br&gt;tecture
+, Bits
+, Version
+, Intro-&lt;br&gt;duced
+, Max #&lt;br&gt;[[operand]]s
+, Type
+, Design &lt;, -- Design Strategy/Philosophy --&gt;
+, Registers]]&lt;br&gt;(excluding FP/vector)
+, Instruction encoding
+, Branch]] evaluation
+, Endian-&lt;br&gt;ness]]
+, Extensions
+, Open
+, Royalty&lt;br&gt;free
+],
+| 8,|,| 1975,| 1,| Register Memory,| CISC,| 3,| Variable small(8- to 32-bit)/small,| Condition register,| Little,|,|,|,
+| 8,|,| 1978,| 1,| Register Memory,| CISC,| 9,| Variable small(8- to 32-bit)/small,| Condition register,| Big,|,|,|,
+| 32,|,| 1979,| 2,| Register Memory,| [[Complex instruction set computer|CISC]],| 8 data and 8 address,| Variable,| Condition register,| Big,|,|,|,
+| 8,|,| 1974,| 2,| Register Memory,| CISC,| 8,| Variable small(8 to 24bits)/small,| Condition register,| Little,|,|,|,
+| 32small(8→32)/small,|,| 1977?,| 1,| RegisterRegister,| CISC,| {{ubl|32 in 4-bit|16 in 8-bit|8 in 16-bit|4 in 32-bit}},| Variable small(8-bit to 128bytes)/small,| Compare and branch,| Little,|,|,|,
+| 16 32 64br(16→32→64),|,| 1978,| 2 (integer)br3 ([[Advanced Vector Extensions|AVX]])br,| Register Memory,| CISC,| {{ubl|8 (+ 4 or 6 segment reg.) small(16/32-bit)/small| 16 (+ 2 segment reg. gs/cs) small(64-bit)/small}}!-- general-purpose registers; floating-point stack and SSE registers not counted --,| Variable!-- 1 to 5 bytes -- small(8086 ~ 80386: variable between 1 and 6 bytes /w MMU + intel SDK 80486: 2 to 5 bytes with prefix pentium and onward: 2 to 4 bytes with prefix x64: 4 bytes prefix third party x86 emulation: 1 to 15 bytes w/o prefix ; MMU . SSE/MMX: 4 bytes /w prefix AVX: 8 Bytes /w prefix)/small,| Condition code,| Little,| [[x87]] [[IA-32]] [[MMX (instruction set)|MMX]] [[3DNow!]] [[Streaming SIMD Extensions|SSE]]br[[SSE2]] [[Physical Address Extension|PAE]] [[x86-64]] [[SSE3]] [[SSSE3]] [[SSE4]]br[[Bit Manipulation Instruction Sets|BMI]] [[Advanced Vector Extensions|AVX]] [[AES instruction set|AES]] [[FMA instruction set|FMA]] [[XOP instruction set|XOP]] [[F16C]],| {{No}},| {{No}},
+| 64,|,| 1992,| 3,| Register Register,| [[Reduced instruction set computer|RISC]],| 32 (including "zero")!-- 31 64-bit GPRs 31 64-bit FPRs one of both is hardwired zero --,| Fixed small(32-bit)/small,| Condition register,| Bi,| {{H:title|Motion Video Instructions|MVI}} {{H:title|Byte-Word Extensions|BWX}} {{H:title|Floating-point Extensions|FIX}} {{H:title|Count Extensions|CIX}},| {{No}},|,
+| 16/32,| ARCv2,| 1996,| 3,| Register Register,| RISC,| 16 or 32 including SP br user can increase to 60,| Variable small(16- and 32-bit)/small,| Compare and branch,| Bi,| APEX User-defined instructions,|,| ,
+| 32,| ARMv1-v8,| 1983,| 3,| Register Register,| RISC,| {{ubl|15}},| Fixed small(32-bit)/small,| Condition code,| Bi,| NEON [[Jazelle]] {{H:title|Vector Floating Point|VFP}}br[[ARM architecture#Security Extensions (TrustZone)|TrustZone]] {{Abbr|LPAE|Large Physical Address Extension}},|,| {{No}},
+| 32,| ARMv4T-ARMv8,| 1994,| 3,| Register Register,| RISC,| {{ubl|7 with 16-bit Thumb instructions|15 with 32-bit Thumb-2 instructions}},| Thumb: Fixed small(16-bit)/small Thumb-2:brVariable small(16- and 32-bit)/small,| Condition code,| Bi,| NEON [[Jazelle]] {{H:title|Vector Floating Point|VFP}}br[[ARM architecture#Security Extensions (TrustZone)|TrustZone]] {{Abbr|LPAE|Large Physical Address Extension}},|,| {{No}},
+| 64,| ARMv8-A,| 2011,| 3,| Register Register,| RISC,| 32 (including the stack pointer/"zero" register) ,| Fixed small(32-bit)/small,| Condition code,| Bi,| none: all ARMv7brextensions are non-optional,|,| {{No}},
+| 8,|,| 1997,| 2,| Register Register,| RISC,| 32br16 on "reduced architecture",| Variable small(mostly 16-bit four instructions are 32-bit)/small,| Condition registerbrskip conditionedbron an I/O orbrgeneral purposebrregister bitbrcompare and skip,| Little,|,|,|,
+| 32,| Rev 2,| 2006 !-- AVR family 1996 first AVR32 chip in 2006 --,| 2–3,|,| RISC,| 15 !-- Up to 15× general-purpose 32-bit registers --,| Variable,|,| Big !-- have special endian-translating load and store instructions --,| [[Java Virtual Machine]],|,|,
+| 32,|,| 2000,|3,|Register Register,| RISC,| 2 accumulators,8 data registers,,8 pointer registers,,4 index registers,,4 buffer registers,|Variable(small16- or 32-bit/small),|Condition code,| Little,|,|,|,
+| 60,|,| 1964,| 3,| Register Memory,| [[Reduced instruction set computer|RISC]]!-- Strongly doubted --,| 24 (8 18-bit address reg.br8 18-bit index reg.br8 60-bit operand reg.),| Variable small(15 30 and 60-bit)/small,| Compare and branch,| n/a,| Compare/Move Unit additionalbrPeripheral Processing Units,| {{No}},| {{No}},
+| 32,|,| 2000,| 1,| Register Registerref name="crusoe-arch"/,| VLIW,| {{ubl|1 in native push stack mode|6 in x86 emulation +br8 in x87/MMX mode +br50 in rename status|12 integer + 48 shadow +br4 debug in native VLIW|moderef name="crusoe-arch" /ref name="technology-behind-crusoe" /}},| Variable small(64- or 128-bit in native mode 15 bytes in x86 emulation)/smallref name="technology-behind-crusoe" /,| Condition coderef name="crusoe-arch" /,| Little,|,|,|,
+| 64,| Elbrus-4S,| 2014,| 1,| Register Registerref name="crusoe-arch"/,| VLIW,| 8–64,| 64,| Condition code,| Little,| Just-in-time dynamic trans-brlation: [[x87]] [[IA-32]] [[MMX (instruction set)|MMX]] [[Streaming SIMD Extensions|SSE]]br[[SSE2]] [[x86-64]] [[SSE3]] [[Advanced Vector Extensions|AVX]],| {{No}},| {{No}},
+| 32,|,| 1990,| 3,|,| RISC,| 32,| Fixed small(32-bit)/small,|,| Big,|,|,|,
+| 16/32,|,| 2009,| 3,| Register Register,| RISC,| 8–72,| Variablesmall (16- or 32-bit)/small,| Compare and branchbrand condition register,| Bi,| User-defined instructions,| {{No}},| {{No}},
+| 64,|,| 2001,|,| Register Register,| [[Explicitly parallel instruction computing|EPIC]],| 128 !-- 128× 64-bit general purpose registers 128× 80-bit floating-point registers 64× 1-bit predicate registers --,| Fixed (128 bit bundles with 5 bit template tagbrand 3 instructions each 41 bit long),| Condition register,| Bibrsmall(selectable)/small,| Intel Virtualization Technology,| {{No}},| {{No}},
+| 32,|,| 1997,|3,|Register Register,| RISC,| 16 !-- 16× 32-bit registers --,| Variable small(16- or 32-bit)/small,|Condition register,| Bi,|,|,|,
+| 32,| {{dunno}},| 2006,| 3,| Register Register,| RISC,| 32,| Fixed small(32-bit)/small,| Compare and branch,| Big,| User-defined instructions,| {{Yes}},| {{Yes}},
+| 64 small(32→64)/small,| 6,| 1981,| 1–3,| Register Register,| RISC,| 4–32 (including "zero")!-- 15× 32-bit GPRs (R0=0) 16× 32-bit FP regs (paired DP). MIPS64 has 31× 64-bit GPRs. R0=0 sometimes counted as 32nd GPR but isn't. Some customized chip may have much fewer register in order to fixed the custom instruction set for specific use ex: Emotion engine --,| Fixed small(32-bit)/small,| Condition register,| Bi,| [[MDMX]] [[MIPS-3D]],| {{No}},| {{No}},
+| 64,| {{dunno}},| 1999,| 3,| Register Register,| RISC,| 256 !-- 256× 64-bit general-purpose registers and 32× 64-bit special-purpose registers --,| Fixed small(32-bit)/small,| {{dunno}},| Big,| {{dunno}},| {{Yes}},| {{Yes}},
+| 32,|,| 1982,| 5,| Memory Memory,| CISC,| 8 !-- Up to 8× general-purpose 32-bit registers --,| Variable Huffman coded up to 23bytes long,| Condition code,| Little,| BitBlt instructions,|,|,
+| 32 64,| 1.3,| 2010,| 3,| Register Register,| RISC,| 16 or 32 !-- 32-bit registers --,| Fixed,| {{dunno}},| {{dunno}},| {{dunno}},| {{Yes}},| {{Yes}},
+| 64 small(32→64)/small,| 2.0 !-- 1996 --,| 1986,| 3,| Register Register,| RISC,| 32,| Fixed small(32-bit)/small,| Compare and branch,| Big → Bi !-- 1.0 is big-endian 1.1 and 2.0 are bi-endian --,| [[Multimedia Acceleration eXtensions|MAX]],| {{No}},|,
+|12,|,|1966,|,|Register Memory,|CISC,|1 accumulator,1 multiplier quotient register ,|Fixed small(12-bit)/small,|Condition register,Test and branch,|,|EAE(Extended Arithmetic Element),|,|,
+| 16,|,| 1970,| 3,| Memory Memory,|[[Complex instruction set computing|CISC]],| 8 (includes stack pointerbrthough any register canbract as stack pointer),| Fixed small(16-bit)/small,| Condition code,| Little,| Floating PointbrCommercial Instruction Set,| {{No}},| {{No}},
+| 32/64small(32→64)/small,| 3.0B,| 1990,| 3,| Register Register,| RISC,| 32,| Fixed small(32-bit)/small Variable,| Condition code,| Big/Bi,| [[AltiVec]] APU [[AltiVec#VSX|VSX]] [[Cell (microprocessor)|Cell]],| {{Yes}},| {{Yes}},
+| 32 64 128,| 2.2 !-- Published: June 8 2019 --,| 2010,| 3,| Register Register,| RISC,| 32 (including "zero") !-- 31 integer registers one zero register and 32 floating-point registers. --,| Variable,|Compare and branch,| Little,| {{dunno}},| {{Yes}} !-- BSD License --,| {{Yes}} !-- BSD License --,
+| 64/32/16,| ,| 2000,| 3,| Memory Memory,| CISC,| 4 integer + 4 address,| Variable !-- 1 to 128 bytes --,| Compare and branch,| Little,|,|,| {{No}},
+| 16/32,|,| 2005,|,|,| RISC,|,|,|,| Little,|,|,|,
+| 64 small(32→64)/small,| OSA2017,| 1985,| 3,| Register Register,| RISC,| 32 (including "zero")!-- 8 globals but %g0 always zero; at least 3 register windows of 16 not counting overlap --,| Fixed small(32-bit)/small,| Condition code,| Big → Bi !-- Historically big-endian V9 is bi-endian --,| [[Visual Instruction Set|VIS]],| {{Yes}},| {{Yes}},
+| 32,|,| 1994,| 2,| Register RegisterbrRegister Memory,| RISC,| 16,| Fixed small(16- or 32-bit)/small Variable,| Condition codebr(single bit),| Bi,|,|,|,
+| 64 small(32→64)/small,| ,| 1964,| 2 small(most)/smallbr3 small(FMA distinctbroperand facility)/smallbr4 small(some vector inst.)/small,| Register MemorybrMemory MemorybrRegister Register,| CISC,| 16 !-- 16× 64/32-bit general purpose registers 16× 64-bit floating point registers 16× 32-bit access registers 16× 64/32-bit control registers --,| Variable small(16- 32- or 48-bit)/small,| Condition code compare and branch,| Big,|,|{{No}},|{{No}},
+| 32 small(4→64)/small,|,| 1987,| 1,| [[Stack machine]],|[[Minimal instruction set computer|MISC]],| 3 (as stack),| Variable small(8 ~ 120 bytes)/small,| Compare and branch,| Little,|,|,|,
+| 32,|,| 1977,| 6,| Memory Memory,| CISC,| 16,| Variable !-- 1 to 321 bytes --,| Compare and branch,| Little,|,|,|,
+| 8,|,| 1976,| 2,| Register Memory,| CISC,| 17,| Variable small(8 to 32bits)/small,| Condition register,| Little,|,|,|,
+! Bits,! Version,! Intro-brduced,! Max #br[[operand]]s,! Type,! Design !-- Design Strategy/Philosophy --,! [[Processor register|Registers]]br(excluding FP/vector),! Instruction encoding,! [[Branch (computer science)|Branch]] evaluation,! [[Endianness|Endian-brness]],! Extensions,! Open,! Royaltybrfree,
+,

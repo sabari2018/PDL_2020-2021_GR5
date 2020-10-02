@@ -17,6 +17,6 @@ eReader,.pdb,yes,yes,?,no,no,yes,no,yes,yes,?
 Plain text,.txt,no,no,no,no,no,yes,yes,no,no,no
 Plucker,.pdb,yes,yes,yes,no,yes,yes,yes,no,yes,?
 Portable Document Format,.pdf,yes,yes,yes,yes,yes,yes-no,yes,yes,yes,yes
-PostScript,.ps,no,yes,?,no,no,no,yes,?,?,?
+PostScript,.ps,no,yes,?,no,no,yes-no,yes,?,?,no
 Tome Raider," .tr2, .tr3",yes,yes,?,no,no,yes,no,?,?,?
 OpenXPS," .oxps, .xps",?,yes,yes,?,no,no,yes,?,?,?

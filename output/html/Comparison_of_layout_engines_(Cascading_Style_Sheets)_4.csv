@@ -93,7 +93,7 @@ selectors-3,E::before,Double colon notation,9.0,12,1.9.1,Partial,3.4,1.0
 ,E::first-line,Double colon notation,,,,Partial,,
 css-pseudo-4,E::marker[spec 5],list marker,No,No,No,No,No,No
 ,E::selection,Selection,9.0,12,Experimental[g 12],412,3.4,2.1
-CSS UI pseudo elements [1],E::value,user interface element fragments[spec 6],No,No,No,No,No,No
+CSS UI pseudo elements,E::value,user interface element fragments[spec 6],No,No,No,No,No,No
 ,E::choices,,,,,,,
 ,E::repeat-item,,,,,,,
 ,E::repeat-index,,,,,,,

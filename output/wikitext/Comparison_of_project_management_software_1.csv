@@ -1,4 +1,4 @@
-Software,Web-based,Hosted On-Premises,SaaS,License,Programming language
+Software,Web-based,Hosted on-premises,SaaS,License,Programming language
 2-plan,Yes,Yes,Yes," Proprietary, Open source",Java and PHP
 24SevenOffice,yes,no,yes,Proprietary,
 Actionspace,yes,no,yes,Proprietary,
@@ -9,14 +9,16 @@ Asana,yes,no,yes,Proprietary,
 Assembla,yes,yes,yes,Proprietary,
 Axosoft,yes,yes,yes,Proprietary,
 Basecamp,yes,yes,Proprietary,Ruby
+BigGantt,yes,yes,yes,Proprietary,"Java, Angular"
+BigPicture,yes,yes,yes,Proprietary,"Java, Angular"
 Calligra Plan,no,text=File-based,no,GPL,Java
 CEITON,yes,yes,yes,Proprietary," ASP.NET, JavaScript"
 Clarizen,yes,no,yes,Proprietary,
+Clubhouse Software,yes,,yes,," Clojure, JavaScript"
 Collabtive,yes,yes,yes,Open source (core only),PHP
 Compuware Changepoint,yes,yes,yes,Proprietary,
 ConceptDraw Project,no,yes,no,Proprietary,
 ConceptDraw PLAN,yes,no,yes,Proprietary,Java
-Concerto Project Management,yes,yes,yes,Proprietary,
 Copper Project,yes,yes,yes,Proprietary,
 dotProject,yes,yes,yes,GPL,PHP
 DynaRoad,no,unk,unk,Proprietary,
@@ -39,7 +41,7 @@ GroveSite,yes,unk,yes,unk,
 Hall.com,yes,unk,yes,unk,
 Helix ALM,yes,yes,yes,Proprietary,C++
 HeySpace,yes,no,yes,Proprietary,JavaScript
-HP Project  ; Portfolio Software,yes,yes,Proprietary,
+HP Project  ; Portfolio Software,yes,yes,unk,Proprietary,
 Huddle,yes,unk,unk,Proprietary,
 Hyperoffice,yes,unk,unk,Proprietary,
 iManageProject,yes,unk,yes,unk,
@@ -53,7 +55,6 @@ LiquidPlanner,yes,no,yes,Proprietary,Ruby
 LisaProject,no,unk,unk,Proprietary,
 MacProject,no,unk,unk,Proprietary,
 MantisBT,yes,yes,no,GPL,PHP
-MeisterTask,yes,no,yes,Proprietary," React, Redux"
 Métier,yes,yes,yes,Proprietary,
 Microsoft Dynamics AX,no,yes,no,Proprietary,X++
 Microsoft Office Project Server,yes,yes,yes,Proprietary,
@@ -92,7 +93,7 @@ ProjeQtOr,yes,yes,yes,AGPL,PHP
 Proliance,yes,yes,yes,Proprietary,
 ProjectLink,yes,yes,yes,Proprietary,
 Prolog,yes,yes,yes,Proprietary,
-Priority Matrix,yes,no,yes,Proprietary
+Priority Matrix,yes,no,yes,Proprietary,
 Pyrus,yes,yes,yes,Proprietary,
 RationalPlan,yes,yes,yes,Proprietary,
 Realisor,no,yes,no,Proprietary,
@@ -106,9 +107,10 @@ Scoro,yes,no,yes,Proprietary,PHP
 Seavus Project Viewer (software),Yes,Yes,Yes,Proprietary,C++
 Severa,yes,unk,yes,unk,
 Smartsheet,yes,unk,yes,Proprietary,PHP
-Spider Project,no,no,no,Proprietary
+Spider Project,no,no,no,Proprietary,
 Streamtime Software,yes,no,yes,Proprietary,PHP
 TACTIC,yes,yes,yes,Eclipse Public License,Python
+Taiga,yes,yes,yes,AGPL,Python
 Talygen,yes,no,yes,Proprietary,ASP.NET
 TaskJuggler,no,yes,no,GPL,Ruby
 Teamcenter,yes,yes,yes,Proprietary,
@@ -128,6 +130,6 @@ web2project,yes,unk,unk,GPL,PHP
 Workamajig,yes,yes,yes,Proprietary,
 Workfront,yes,no,yes,Proprietary,
 WorkPLAN Enterprise,no,unk,unk,Proprietary,
-workspace.com,yes,unk,yes,Proprietary,
-Wrike,yes,unk,yes,Proprietary
+Workspace.com,yes,unk,yes,Proprietary,
+Wrike,yes,unk,yes,Proprietary,
 Zoho Projects,yes,no,yes,Proprietary,PHP

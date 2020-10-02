@@ -1,10 +1,10 @@
 IDE,License,Developer,Latest stable release,Windows,Linux,macOS,Other platforms
-Microsoft Visual Studio,proprietary Community Edition: Freeware,Microsoft," 2019-04-1216.0.2  / April 18, 2019",Yes,No,No,
+Microsoft Visual Studio,proprietary Community Edition: Freeware,Microsoft," 2019-04-1216.0.2  / April 18, 2019",Yes,No,Yes,
 MonoDevelop,LGPL,Mono community," 2016-11-11 6.1.2.44 / November 11, 2016",Yes,Yes,Yes,Solaris
 SharpDevelop,LGPL,IC#Code Team," 2016-04-14 5.1 / April 14, 2016",yes,No,no,
 SlickEdit,Proprietary,SlickEdit,October 2016,Yes,Yes,Yes," Solaris, Solaris SPARC, AIX, HP-UX"
 Understand,Proprietary,SciTools," 2015-12-04 814 / December 4, 2015",yes,yes,yes,Solaris
-Visual Studio Code,source code(Proprietary),Microsoft," 2019-11-13 1.40.1 / November 13, 2019 ",yes,yes,yes,
+Visual Studio Code,source code(Proprietary),Microsoft," 2020-09-10 1.49.0 / September 10, 2020 ",yes,yes,yes,
 Xamarin Studio,source code(Proprietary),Microsoft,December 2016,yes,yes,yes,
 Eclipse,EPL,Eclipse Foundation," 2017-06-284.7  / June 28, 2017",Yes,Yes,Yes,
-Rider,proprietary,JetBrains," 2017-10-122017.2  / October 12, 2017",Yes,Yes,Yes,
+Rider,proprietary,JetBrains," 2019-12-112019.3  / December 11, 2019",Yes,Yes,Yes,

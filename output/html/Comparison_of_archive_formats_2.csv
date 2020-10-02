@@ -1,9 +1,18 @@
-Format,Filename  extension,Created  by,Introduced in,Based on,Integrity check,Recovery record,Encryption supported,Unicode filenames,Modification date resolution
-Deb (file format) (deb),.deb,Debian,1994 Debian 0.91," Ar (Unix), Ar (Unix), and Ar (Unix) ",Yes,No,No,Yes,1 s
-Installer (macOS)," .pkg, .mpkg (metapackage) ",NeXT,1989 NeXTSTEP 1.0,Pax (Unix) and Pax (Unix),Yes,?,?,Yes,?
-RPM Package Manager (RPM),.rpm,Red Hat,1995 Red Hat Linux 1.0,Cpio and Cpio,Yes,?,?,?,1 s
-Slackware Package,.tgz,Patrick Volkerding,1993 Slackware 1.0,Tar (file format) and Tar (file format),Yes,No,No,?,?
-Windows Installer (also MSI),.msi,Microsoft,2000 Windows 2000," OLE Structured Storage, Cabinet (file format) and Cabinet (file format) ",Optional PKCS7 Authenticode Signature,No,No,No,2 s
-JAR (file format) (JARJAR (file format)),.jar,Sun Microsystems,1997 JDK 1.1,PKZIP,Yes,No,?,Yes,?
-Google Chrome Google Chrome package,.crx,Google,2009 (Chrome 4.0),.zip,?,?,YesWikipedia:Verifiability[ Wikipedia:Verifiability ],?,?
-Arch Linux," .pkg.tar.xz, .pkg.tar (no compression) ",Judd Vinet,2001 (before ArchLinux 0.1),Tar (file format) and Tar (file format) (formerly Tar (file format)),Yes,No,No,Yes,1 s
+File extension(s)File extension,MIME typeMIME,Official name[3],Platform[4],Description
+.bz2,application/x-bzip2,Bzip2,Unix-like," An Open-source license, Open-source license- and Open-source license-free compression format. The compression algorithm is a Open-source license followed by a Open-source license and finally Open-source license. "
+" .F, .?XF[5] ",,Freeze/melt [1]," QNX4, QNX and QNX "," Old compressor for QNX4 OS. The compression algorithm is a modified LZSS, with an adaptive LZSS. "
+.gz,application/gzip[6],Gzip,Unix-like," GNU Zip, the primary compression format used by GNU systems. The compression algorithm is GNU, which combines GNU with GNU. "
+.lz,application/x-lzip,Lzip,Unix-like," An alternate LZMA algorithm implementation, with support for checksums and ident bytes. "
+.lz4,,LZ4 (compression algorithm),Unix-like," Algorithm developed by Yann Collet, designed for very high (de)compression speeds. It is an LZ77 derivative, without LZ77. "
+.lzma,application/x-lzma,LZMA,Unix-like,The LZMA compression algorithm as used by LZMA.
+.lzo,application/x-lzop,Lzop,Unix-like,An implementation of the Lempel–Ziv–Oberhumer data compression algorithm.
+.rz,,Rzip,Unix-like,A compression program designed to do particularly well on very large files containing long distance redundancy.
+.sfark,,SfArk (page does not exist),Microsoft Windows compress/decompress- Microsoft Windows and Microsoft Windows decompress only,A compression program designed to do high compression on SF2 files (SoundFont).
+.sz,application/x-snappy-framed,Snappy (compression),Unix-like," A compression format developed by Google, and open-sourced in 2011. Google aims for very high speeds, reasonable compression, and maximum stability rather than maximum compression or compatibility with any other compression library. It is an Google derivative, without Google. "
+.?Q?,,SQ (program),CP/M and CP/M," Squeeze: A program which compressed files. A file which was ""squeezed"" had the middle initial of the name changed to ""Q"", so that a squeezed text file would end with .TQT, a squeezed executable would end with .CQM or .EQE. Typically used with .LBR archives, either by storing the squeezed files in the archive, or by storing the files decompressed and then compressing the archive, which would have a name ending in "".LQR"". "
+.?Z?,,CRUNCH (program) (page does not exist),CP/M and CP/M," A compression program written by Steven Greenberg implementing the LZW algorithm. For several years in the CP/M world when no implementation was available of ARC, CRUNCHed files stored in .LBR archives were very popular. CRUNCH's implementation of LZW had a somewhat unusual feature of modifying and occasionally clearing the code table in memory when it became full, resulting in a few percent better compression on many files. "
+.xz,application/x-xz,XZ Utils,Unix-like," A compression format using LZMA2 to yield high compression ratios. The LZMA algorithm is an LZMA2 derivative, with LZMA2 in the form of LZMA2. "
+.z,application/x-compress,Deflate (pack),Unix-like,The traditional Huffman coding compression format.
+.Z,application/x-compress,Compress,Unix-like,The traditional LZW compression format.
+.zst,application/zstd,Zstandard,Cross-platform," Algorithm developed by Yann Collet at Facebook, combining high speed and high compression. It is an Facebook derivative, with Facebook in the form of Facebook and Facebook. "
+.??_,,,MS-DOS/Windows,Compression format(s) used by some DOS and Windows install programs. MS-DOS includes expand.exe to decompress its install files. The compressed files are created with a matching compress.exe command. The compression algorithm is LZSS.

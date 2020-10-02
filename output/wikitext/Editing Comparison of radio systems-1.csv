@@ -1,0 +1,19 @@
+[ System
+, Type
+, Modulation
+, Data rate
+, Sidebands?
+, Ch.]] [[Bandwidth (signal processing), Radio spectrum
+, Sound Codec
+, [[Digital subchannel]]s
+, SFN]]
+, RDS/RBDS]]
+],
+ Analog radio ([[AM stereo]]) , [[QAM]] , N/A , ? , 18–20kHz , 510–1610kHz (Europe br510–1710kHz (USA and Canada) , N/A , N/A , No , None,
+ [[Digital radio]] , [[OFDM]] ([[DQPSK]]) , around 1000 kbit/s (4 channels up to 256 kbit/s) , ? , 1500kHz , [[Band III|VHF-High]]/174-240MHzbr[[L-band]]/1452-1492MHz , [[MPEG-1 Audio Layer II|MPEG-Layer 2]] , Yes typically 4-6 "stations" per channel , Yes , Yes,
+ [[Digital radio]] , [[OFDM]] ([[DQPSK]]) , up to 256 kbit/s , ? , 1500kHz , [[Band III|VHF-High]]/174-240MHzbr[[L-band]]/1452-1492MHz , [[HE-AAC]] , No , Yes , Yes,
+ [[Digital radio]] , [[COFDM]] ([[QAM]]) , up to 72 kbit/s , ? , 4.5–5kHz (hybrid mode)br9–10kHzbr[[Single Channel Simulcast|18-20 kHz]] , [[Mediumwave|510-1610 kHz]] (Europe)br510–1710kHz (USA and Canada)br[[Shortwave|SW]] [[Longwave|LW]] , [[MPEG-4]] [[HE-AAC]]/[[CELP]]/[[HVXC]] , Yes via [[In-band on-channel|IBOC]] , No? , Yes,
+ Analog radio , [[Frequency Modulation]] , N/A , ? , 200kHz ,87.5-108MHzbr76-90MHz (Japan)br65.8-74MHz (USSR), N/A , N/A , None , Yes (depending on station),
+ Hybrid/[[Digital radio]] , [[COFDM]]-HDC ([[Spectral band replication|SBR]]) , up to 60 kbit/s on AMbrup to 300 kbit/s on FM , ? , 20–30kHz on AM band ±5kHz (on adjacent channel)brup to 400kHz on FM band (2 full FM channels) , 510–1710kHz br87.5-108MHz , HDC , up to 7 (3 full-power 4 low-power) subchannels (FM) , No? , Yes,
+
+,

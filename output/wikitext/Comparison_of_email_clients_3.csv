@@ -8,10 +8,9 @@ Claws Mail,yes,yes,yes,yes,yes,no,no
 Cone,no,yes,yes,yes,yes,no,no
 Courier,yes,no,no,no,no,no,no
 Elm,no,yes,yes,yes,yes,no,no
-eM Client,yes,no,no,no,no,no,no
+eM Client,yes,yes,no,no,no,no,no
 EmailTray,yes,no,no,no,no,no,no
 Eudora,yes,yes,no,no,no,no,no
-Eureka Email,yes,no,no,no,no,no,no
 Evolution,group=NoteEvolution_nowin,no,yes,yes,yes,no,no
 Forté Agent,yes,no,no,no,no,no,no
 Geary,no,no,yes,yes,yes,no,no

@@ -1,7 +1,7 @@
 Name,Hidden containers,Pre-boot authentication,Single sign-on,Custom authentication,Multiple keys,Passphrase strengthening,Hardware acceleration,TPM,Filesystems,Two-factor authentication
 Aloaha Secure Stick,yes,no,n/a,yes,yes,no,no,no," NTFS, FAT32",yes
 ArchiCrypt Live,yes,no,n/a,no,yes,no,no,no,dunno,yes
-BestCrypt,yes,yes,dunno,no,yes,yes,yes,yes,Any supported by OS,yes
+BestCrypt,yes,yes,dunno,yes,yes,yes,yes,yes,Any supported by OS,yes
 BitArmor DataControl,no,yes,dunno,no,yes,yes,no,no," NTFS, FAT32 on non-system volumes",no
 BitLocker,no,yes,no,yes,yes,yes,yes,Chiefly NTFS group=NoteBitLockerFS,group=NoteBitLocker2F
 Bloombase Keyparc,no,no,n/a,yes,yes,yes,yes,no,dunno,dunno
@@ -19,7 +19,7 @@ Cryptomator,no,no,n/a,no,no,yes,yes,no,Any supported by OS,no
 CryptoPro Secure Disk Enterprise,Yes with add-on Secure Device,yes,yes,yes,yes,yes,yes,yes,Any supported by OS,yes
 CryptoPro Secure Disk for BitLocker,Yes with add-on Secure Device,yes,yes,yes,yes,yes,yes,yes,Any supported by OS,yes
 Cryptsetup / Dmsetup,no,yes,dunno,yes,no,no,yes,no,Any supported by OS,yes
-DiskCryptor,no,yes,dunno,no,no,no,yes,no,Only Windows MBR volumes; no UEFI GPT drives,yes
+DiskCryptor,no,yes,dunno,no,no,no,yes,no," Only Windows MBR volumes; no UEFI GPT drives, ReFs",yes
 DISK Protect,no,yes,yes,no,yes,no,yes,yes," NTFS,FAT32",yes
 Dm-crypt / LUKS,no,group=Notedm-cryptTPM,Any supported by OS,yes
 [http://www.securstar.biz DriveCrypt],yes,yes,yes,yes,yes,yes,yes,no,Any supported by OS,yes
@@ -28,6 +28,7 @@ E4M,No,No,n/a,No,No,dunno,No,no,dunno,no
 e-Capsule Private Safe,yes,no,n/a,no,yes,no,yes,no,dunno,dunno
 eCryptfs,no,no,n/a,yes,yes,yes,yes,yes,yes,yes
 EgoSecure HDD Encryption,no,yes,yes,yes,yes,yes,yes,yes," NTFS, FAT32",yes
+EncryptUSB,no,no,no,no,no,yes,no,no," NTFS, FAT32, exFAT",no
 FileVault,no,no,n/a,no,Two passwords,?,no," HFS+, possibly others",no
 FileVault 2,no,yes,yes,no,yes,yes,yes,no," HFS+, possibly others",no
 FREE CompuSec,no,yes,dunno,no,no,no,no,no,Any supported by OS,no
@@ -56,6 +57,6 @@ Svnd / Vnconfig,no,no,n/a,no,no,yes,yes,dunno,Any supported by OS,dunno
 Symantec Endpoint Encryption,no,yes,yes,yes,yes,yes,no,no," NTFS, FAT32",yes
 Trend Micro Endpoint Encryption,no,yes,yes,yes,yes,yes,yes,no,Any supported by OS,yes
 group=NoteTrueCryptMystery," yes(limited to one per""outer"" container)",only on Windows,dunno,no,yes with multiple keyfiles,yes,yes,no,yes
-VeraCrypt," yes(limited to one per""outer"" container)",only on Windows,no,no,yes with multiple keyfiles,yes,yes,no," Only Windows MBR volumes; no UEFI GPT drives, and dynamic drives discouraged",yes
+VeraCrypt," yes(limited to one per""outer"" container)",only on Windows,no,no,yes with multiple keyfiles,yes,yes,no,Windows on both MBR and UEFI GPT drives; dynamic drives discouraged,yes
 CyberSafe Top Secret,yes,no,no,no,yes,yes,yes,no," Only Windows MBR volumes; no UEFI GPT drives, and dynamic drives discouraged",yes
 Name,Hidden containers,Pre-boot authentication,Single sign-on,Custom authentication,Multiple keys,Passphrase strengthening,Hardware acceleration,TPM,Filesystems,Two-factor authentication

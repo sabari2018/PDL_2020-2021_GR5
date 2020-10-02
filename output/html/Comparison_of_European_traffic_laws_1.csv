@@ -11,10 +11,10 @@ CY,//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/23px-F
 CZ,//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/23px-Flag_of_the_Czech_Republic.svg.png Czech Republic,130 (urban 80),110 (urban 80),90,50,0 (tolerated 0.02),Yes,All,,Yes,Yes,Recommended,Yes,18 (17 for B1 cars),Yes
 D,//upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/23px-Flag_of_Germany.svg.png GermanyGermany,no (130 recommended),no (130 recommended),100 (no / 130 recommended with two or more lanes per direction),50,0.05,No[6],All,N/A,Yes,Yes,Recommended,No,18 (17 with supervision of >30 years old driver),No
 DK,//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/20px-Flag_of_Denmark.svg.png Denmark,130,N/A,80,50,0.05,Yes,All,N/A,Yes,Recommended,Recommended,No,18,Yes
-E,//upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/23px-Flag_of_Spain.svg.png Spain,doesn't use,120,90,50,0.05,Yes,All,N/A," Yes, 2x",Recommended,Recommended,No,18,Yes
-EST,//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/23px-Flag_of_Estonia.svg.png Estonia,120,110,90,50,0,,All,N/A,Yes,Yes,Yes,No,18 (16 with supervision of a person with 2+ years of driving experience),Yes
-F,//upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/23px-Flag_of_France.svg.png France,130 (rain/wet 110),110 (rain/wet 100),90 (rain/wet 80),50,0.05,Yes,All,10,Yes,Recommended,Recommended,No,18 (15 with supervision of a person with 5+ years of driving experience),Yes
-FIN,//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/23px-Flag_of_Finland.svg.png Finland,120[7],N/A,80,50,0.05,No,All,3,Yes,Recommended,Recommended,No,18,Yes
+E,//upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/23px-Flag_of_Spain.svg.png Spain,120,120,90,50,0.05,Yes,All,N/A," Yes, 2x",Recommended,Recommended,No,18,Yes
+EST,//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/23px-Flag_of_Estonia.svg.png Estonia,110,110,90,50,0,,All,N/A,Yes,Yes,Yes,No,18 (16 with supervision of a person with 2+ years of driving experience),Yes
+F,//upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/23px-Flag_of_France.svg.png France,130 (rain/wet 110),110 (rain/wet 100),80,50,0.05,Yes,All,10,Yes,Recommended,Recommended,No,18 (15 with supervision of a person with 5+ years of driving experience),Yes
+FIN,//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/23px-Flag_of_Finland.svg.png Finland,120[7],N/A,80,50,0.05,No,All,3,Yes,Recommended,Recommended,No,17,Yes
 FL,//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Liechtenstein.svg/23px-Flag_of_Liechtenstein.svg.png Liechtenstein,N/A,N/A,80,50,0.08,,All,N/A,Yes,Yes,Recommended,No,18,Yes
 GB,//upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/23px-Flag_of_the_United_Kingdom.svg.png United Kingdom,112,112,97,48,0.08 (0.05 Scotland),,All,N/A,Recommended,Recommended,Recommended,No,17,Yes
 GR,//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/23px-Flag_of_Greece.svg.png Greece,130,N/A,90,50,0.05,,All,12,Yes,Yes,Yes,No,18,Yes
@@ -28,7 +28,7 @@ LT,//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Lithuania.svg/23p
 LV,//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/23px-Flag_of_Latvia.svg.png Latvia,N/A,90,90,50,0.05,,All,,Yes,Yes,Yes,No,18,Yes
 M,//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Malta.svg/23px-Flag_of_Malta.svg.png Malta,N/A,N/A,80,50,0.08,,Yes[9],11,Recommended,Recommended,Recommended,No,18,Yes
 MC,//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Monaco.svg/19px-Flag_of_Monaco.svg.png Monaco,N/A,N/A,,50,0.05,,N/A,10,Recommended,Recommended,Recommended,No,18,Yes
-MD,//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/23px-Flag_of_Moldova.svg.png Moldova,N/A,N/A,90,60,0,,All,12,Yes,Yes,Yes,No,18,Yes
+MD,//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/23px-Flag_of_Moldova.svg.png Moldova,N/A,N/A,90,50,0,,All,12,Yes,Yes,Yes,No,18,Yes
 MK,//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/23px-Flag_of_North_Macedonia.svg.png North Macedonia,130,N/A,80,60,0.05,Yes,All,12,Yes,Yes,Recommended,Yes,18,Yes
 MNE,//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/23px-Flag_of_Montenegro.svg.png Montenegro,120,N/A,80,50,0.05,Yes,All,12,Yes,Recommended,Recommended,No,,Yes
 N,//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/21px-Flag_of_Norway.svg.png Norway,110,N/A,80,50,0.02,Yes,All,N/A,Yes,Recommended,Recommended,No,18,Yes

@@ -1,0 +1,22 @@
+[ Client
+, Creator
+, First public release date
+, Latest stable version
+, [[Software license]]
+, Copy files over [[2 GB limit]]&lt;ref name="ubuntuforums"&gt;[https://web.archive.org/web/20100527230949/http://ubuntuforums.org/archive/index.php/t-563507.html ubuntuforums.org: 2007, 2GB data transfer limitation?] Quote: "...The common [[2 GB limit]] is actually a bug in many FTP clients. If he is using Windows, try the latest [[FileZilla]]...", [https://web.archive.org/web/20130113073814/http://kernel.org/faq/#largefiles kernel.org: FAQ: I can't download a file with size greater than 2GB, is your website broken?], [[Comparison of file systems#Limits]]&lt;/ref&gt;
+, Interface
+],
+| Daniel Stenberg,| 1998,| {{Latest stable software release/cURL}},| [[MIT License|MIT]],| {{yes}},| [[Command line interface|CLI]],
+| David V. Kocher,| 2001,| 7.2.5 {{Start date and age|2020|01|01}},| [[GNU General Public License|GPL]],| {{yes}},| [[Graphical user interface|GUI]] and [[Command line interface|CLI]],
+| [[Eugene Roshal]] / FAR Group,| 1996,| {{Latest stable software release/FAR Manager|mf=y}},| [[BSD licenses|BSD]],| {{yes}},| [[Text-based_user_interface|TUI]],
+| Community,| 2001 (January),| {{Latest stable software release/FileZilla}},| [[GNU General Public License|GPL]],| {{yes}},| [[Graphical user interface|GUI]],
+| Mime Čuvalo,| 2004 (September),| {{Latest stable software release/FireFTP}},| [[Mozilla Public License|MPL]]1.1 [[Charityware]],| {{Yes}} (since version 2.0.5),| [[Waterfox]] [[Mozilla Firefox|Firefox]] pre-version 57 [[Add-on (Mozilla)|addon]],
+| University of Michigan Research Systems Unix Group,| 2003,| 1.2.0 {{Start date and age|2005|05|02}},| [[BSD licenses|BSD]],| {{dunno}},| [[Graphical user interface|GUI]],
+| Brian Masney,| 1998,| 2.0.19 {{Start date and age|2008|11|30}},| [[GNU General Public License|GPL]],| {{Yes}},| [[GTK+]],
+| Alexander V. Lukyanov,| 1996 (August),| {{Latest stable software release/lftp}},| [[GNU General Public License|GPL]],| {{yes}},| [[Command line interface|CLI]],
+| Michael Gorbach,| span style="display: none;"0/span ?,| 2.0.4,| [[BSD licenses|BSD]],| {{dunno}},| [[Graphical user interface|GUI]],
+| NcFTP Software Inc.,| 1991,| 3.2.6 {{Start date and age|2016|11|27}},| Clarified [[Artistic License]],| {{yes}},| [[Command line interface|CLI]],
+| David C. Gartner,| 2003 (January),| 0.98 {{Start date and age|2013|03|01}},| [[GNU General Public License|GPL]],| {{dunno}},| [[Web application]],
+| Luke Mewburn,| 1999,| 20151004 {{Start date and age|2015|10|04}},| [[BSD Licenses|BSD]],| {{yes}},| [[Command line interface|CLI]],
+| Martin Přikryl,| 2000,| {{Latest stable software release/WinSCP}},| [[GNU General Public License|GPL]],| {{yes}},| [[Graphical user interface|GUI]] and [[Command line interface|CLI]],
+,

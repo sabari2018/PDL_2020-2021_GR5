@@ -12,7 +12,7 @@ Lotus SmartSuite,Yes,No,Some (with Wine software),No,No
 Mariner Software,No,Yes,No,No,No,No,Calc only
 Microsoft Office,Yes," Partial (not all features available, e.g. Project, Visio, Access) ",Some (with Wine software),No,No,Yes,Yes
 Microsoft Works,Yes,Dropped (4.0; Classic Mac OS only),Some (with Wine software),No,No,No,No
-OfficeSuite OfficeSuite,Yes,No,No,No,No
+OfficeSuite,Yes,No,No,No,No
 NeoOffice,No,Mac OS X v10.3 or above,No,No,No,No,No
 OnlyOffice,Yes,Yes,Yes,Online version,Online version,Yes,Yes
 SoftMaker Office,Yes,Yes,Yes,Dropped (2006),No,Yes,No

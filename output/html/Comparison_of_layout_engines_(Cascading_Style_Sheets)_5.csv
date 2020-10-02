@@ -33,7 +33,7 @@ CSS2,border,4.0,12,1.0,85,Yes,1.0
 ,border-right,,,,,,
 ,border-bottom,,,,,,
 ,border-left,,,,,,
-css- background-3,border-radius,9.0[t 1],12,2.0[g 15],533[w 12],Experimental,2.5
+css- backgrounds-3,border-radius,9.0[t 1],12,2.0[g 15],533[w 12],Experimental,2.5
 ,border-image,11.0,,15.0[g 16],Experimental,No,2.5
 ,border-image-source,,,15.0[g 17],No,,No
 ,border-image-slice,,,,,,
@@ -80,11 +80,11 @@ CSS2,background,4.0,12,1.0,85,Yes,1.0
 ,background-image,8.0,,,,,
 ,background-position,8.0,,,,,
 ,background-repeat,4.0,,,,,
-css- background-3,background (multiple),9.0[t 1],12,1.9.2,312,3.5,2.5
+css- backgrounds-3,background (multiple),9.0[t 1],12,1.9.2,312,3.5,2.5
 ,background-clip,,,2.0[g 21],Yes[w 16],Experimental,
 ,background-origin,,,,,,
 ,background-size,,,,Yes[w 17],,
-Early draft for css- backgrounds- 4,background-position-x,8.0[t 15],12,No,Experimental,No,No
+Early ideas for css- backgrounds-4,background-position-x,8.0[t 15],12,No,Experimental,No,No
 ,background-position-y,,,,,,
 Fonts,,,,,,,
 CSS2,font,4.0,12,1.0,85,Yes,Incorrect
@@ -95,7 +95,7 @@ CSS2,font,4.0,12,1.0,85,Yes,Incorrect
 ,font-weight,8.0,,Partial,Partial,Yes,Incorrect
 css-fonts-3,font-size-adjust,10.0[t 16],12,1.9,No[w 18],No,No
 ,font-stretch,9.0[t 1],,9.0[g 22],No[w 19],No,No
-,font-feature-settings,10.0[t 17],,34.0[1][g 23],No[w 20],No,No
+,font-feature-settings,10.0[t 17],,34.0[2][g 23],No[w 20],No,No
 ,font-kerning,No,,,No,No,No,No
 ,font-language-override,No,,,,No,No,No
 ,font-synthesis,No,,,,No,No,No
@@ -184,7 +184,7 @@ css-page-3,page,No,No,No,No,No,,No
 ,object-fit,No,,36.0[g 40],No,No,2.7[p 4]
 ,object-position,No,,,No,No,
 Speech,,,,,,,
-css3- speech (retired),cue,No,No,No[g 41],No,No,1.0
+css-speech-1,cue,No,No,No[g 41],No,No,1.0
 ,cue-after,,,,,,
 ,cue-before,,,,,,
 ,pause,,,,,,
@@ -346,7 +346,7 @@ css-line- grid-1
 ,line-slack,,,,,,
 ,line-snap,,,,,,
 Logical Properties,,,,,,,
-Early ideas for css- logical- props
+Early ideas for css- logical-1
 ,block-size,No,No,41.0[g 56],No,No,No
 ,inline-size,,,,,,
 ,min-block-size,,,,,,
@@ -386,7 +386,7 @@ Early ideas for css- logical- props
 Will Change,,,,,,,
 css-will- change-1,will-change,No,No,36.0,No,No,No
 CSSOM View,,,,,,,
-cssom- view,scroll-behavior (optional[2]),No,No,36.0,No,No,No
+cssom- view,scroll-behavior (optional[3]),No,No,36.0,No,No,No
 Scroll Snap Points,,,,,,,
 Early ideas for css- snappoints,scroll-snap-type,10.0,12,39.0[g 57],No,No,No
 ,scroll-snap-points-x,,,,,,

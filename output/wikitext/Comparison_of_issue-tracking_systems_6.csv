@@ -31,7 +31,6 @@ Trac,Yes,Optional,No,Optional,No,Yes,unk,No
 TrackerSuite.Net,Yes,No,No,No,No,Yes,No,No
 ,Tuleap,Yes,No,No,Yes,Yes,Yes,No,No
 Twproject,Yes,unk,unk,unk,unk,Yes,unk," Yes, Simple container auth."
-Usersnap,Yes,No,No,No,No,No,No,No
 Wrike,unk,unk,unk,unk,unk,Yes,unk,unk
 YouTrack,Yes,No,Yes,Yes,Yes,Yes,unk,Yes: JIRA account
 System,Form based,Public key cryptography,Two-factor,OpenID,OAuth,LDAP,Shibboleth,Others

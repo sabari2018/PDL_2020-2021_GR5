@@ -24,7 +24,7 @@ jenni,Michael Yanovich,Eiffel Forum License,Unix-like,Python (2),?,?," Threaded,
 irccd,David Demelier,ISC license,Cross-platform,C++17 and JavaScript,2013-09-13 (1.0.0),2019-08-15 (3.0.0)," Multiple servers, rules filtering, templates system, cross-platform, extensible with Javascript and C++ plugins ",bot framework,[24]
 Jerkbot,Jason Stephenson,Artistic License 2.0,Cross-platform,Sleep,2014-02-10 (1.0),2017-08-29 (1.7.65)," Configurable chatter bot, written as jIRCii script ",responsive chatter + learns + modules,[25]
 JSONBOT,Bart Thate,MIT,Unix-like,Python,2010-04,2012-03-23 (0.84.4),Beta,,[26]
-JZBot," Alexander Boyd, Maximilian Dirkmann, James Stoker ",GNU Lesser General Public License,Cross-platform,Java (programming language),?,?,?," feeds, werewolf / maffia, karma system, reminders ",Wikipedia:Link rot[ Wikipedia:Link rot ]
+JZBot," Alexander Boyd, Maximilian Dirkmann, James Stoker ",GNU Lesser General Public License,Cross-platform,Java (programming language),?,?,?," feeds, werewolf / maffia, karma system, reminders ",[27]
 KGB,Martín Ferrari and Damyan Ivanov,GNU General Public License,Cross-platform,Perl,2008-07-14 (Git),2014-09-17 (1.3.3 see commits)," KGB is a system that provides notifications on IRC for commits made to Git, Subversion and CVS repositories. ",notifications on code commits,[28]
 Lambdabot,Andrew J. Bromage  et al.,MIT,Unix-like,Haskell (programming language),? (1.0),2011-01-20 (4.2.3.2),Many plugins; usable offline as a Haskell development tool; embeddable in GHCi,haskell development tool,[29]
 Limnoria,,BSD licenses,Cross-platform,Python,?,2017-03-30 (2017.03.30),See Supybot,A maintained fork of Supybot,[30]

@@ -1,7 +1,7 @@
 ,Get object type,Is instance of (includes subtypes),Upcasting,Downcasting,
 ,,,,! Runtime check,No check
 ABAP Objects,n/a,,=,?=
-C++ (STL),typeid(x),NULL,n/a,dynamic_cast(ptr),(type*) ptr or  static_cast(ptr)
+C++ (STL),typeid(x),nullptr,n/a,dynamic_cast(ptr),(type*) ptr or  static_cast(ptr)
 C#,x.GetType(),x is type,,(type) x or x as type,
 D,typeid(x),,,cast(type) x,
 Delphi,,x is type,,x as type,

@@ -1,4 +1,4 @@
-,Trident (layout engine),Gecko (layout engine),WebKit,Presto (layout engine)
+Date object,Trident (layout engine),Gecko (layout engine),WebKit,Presto (layout engine)
 Called as function,,,,
 " Date ([year [, month [, date [, hours [, minutes [, seconds [, ms ]]]]]]]) ",?,?,?,?
 Called as constructor,,,,

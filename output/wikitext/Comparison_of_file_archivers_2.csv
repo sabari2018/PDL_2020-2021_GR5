@@ -1,5 +1,5 @@
-,Windows,DOS,Mac OS X,Linux,BSD,Other Unix,AmigaOS,Android,Windows Mobile,Windows Phone
-7-Zip,os-7zip-11,Command-line interfaceos-7zip-22,os-7zip-22,os-7zip-22,Command-line interfaceos-7zip-22,Command-line interfaceos-7zip-22,Command-line interface,no,yes,no
+File archivers,Windows,DOS,Mac OS X,Linux,BSD,Other Unix,AmigaOS,Android,Windows Mobile,Windows Phone
+7-Zip,os-7zip-11,Command-line interfaceos-7zip-22,os-7zip-22,Command-line interfaceos-7zip-22,Command-line interfaceos-7zip-22,Command-line interfaceos-7zip-22,Command-line interface,no,yes,no
 ALZip,yes,Command-line interface,no,no,no,no,no,no,no,no
 ALZip for Mac,no,no,yes,no,no,no,no,no,no,no
 Archive Manager,no,no,no,yes,yes,yes,no,no,no,no
@@ -7,7 +7,7 @@ Archive Utility,no,no,yes,no,no,no,no,no,no,no
 Ark,no,no,no,yes,yes,yes,no,no,no,no
 B1 Free Archiver,yes,no,yes,yes,yes,yes,no,yes,no,no
 BetterZip,no,no,yes,no,no,no,no,no,no,no
-bsdtar/libarchive,yes,no,yes,yes,yes,yes,partial,unk,unk,no
+bsdtar/libarchive,os-bsdtar-libarchive9,no," yes, bundled",yes," yes, bundled",yes,partial,unk,unk,no
 Commander One,no,no,yes,no,no,no,no,no,no,no
 CRAX Commander,no,no,yes,no,no,no,no,no,no,no
 Disk ARchiver,yes,no,yes,yes,yes,yes,no,no,no,no

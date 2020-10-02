@@ -1,6 +1,6 @@
 OMF,AAF,MIDI,WAV,MP3,AAC,Ogg,REX2,AIFF,FLAC,width=22%Others
 Acoustica,No,No,No,Yes,Yes,Yes,Yes,No,Yes,Yes,W64
-Ardour,No,No,Unk,Yes,Unk,Unk,Yes,Unk,No,Yes,W64
+Ardour,No,No,Yes,Yes,Yes,No,Yes,Unk,No,Yes," W64, libsndfile library formats"
 Audacity,No,No,No,Yes,Yes,Yes,Yes,No,Yes,Yes,AMR
 AudioDesk,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,SDII (native)
 Audiotool,No,No,No,Import,Export,No,Export,No,No,No,
@@ -19,7 +19,7 @@ Harrison Mixbus,No,No,Yes,Yes,Unk,Unk,Yes,Unk,No,Yes," AIFC, NeXT AU/SND, Header
 ,OMF,AAF,MIDI,WAV,MP3,AAC,Ogg,REX2,AIFF,FLAC,width=22%Others
 Jokosher,No,No,No,Yes,Yes,Unk,Yes,Unk,Unk,Unk,
 Kristal,Unk,Unk,Unk,Unk,Unk,Unk,Unk,Unk,Unk,Unk,Unk
-Live,No,No,Yes,Yes,Import,Yes,Yes,Yes,Yes,Yes,SDII (Mac OS X Only)
+Live,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,SDII (Mac OS X Only)
 LMMS,Unk,Unk,Yes,Yes,Yes,Unk,Yes,Unk,Yes,Yes," AU, DS, RAW, SPX, VOC. Can also open .flp files"
 Studio,partial,Yes,Yes,Yes,Yes,Yes,Unk,Yes,Yes,Yes,
 Mixcraft,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,

@@ -34,6 +34,7 @@ eCryptfs," Dustin Kirkland, Tyler Hicks, (formerly Mike Halcrow)",2005,GPL,yes
 EgoSecure HDD Encryption,EgoSecure GmbH,2006,Proprietary,yes
 EncFS,Valient Gough,2003,LGPLv3,yes
 EncryptStick,ENC Security Systems,2009,Proprietary,yes
+EncryptUSB,ClevX,2016,Proprietary,yes
 FileVault,Apple Inc.,2003-10-24,Proprietary,yes
 FileVault 2,Apple Inc.,2011-07-20,Proprietary,yes
 FREE CompuSec,CE-Infosys,2002,Proprietary,yes
@@ -62,7 +63,7 @@ Scramdisk,Shaun Hollingworth,1997-07-01,Open source,no
 Scramdisk 4 Linux,Hans-Ulrich Juettner,2005-08-06,GPL,no
 SecuBox,Aiko Solutions,2007-02-19,Proprietary,yes
 SECUDE Secure Notebook,SECUDE,2003,Proprietary,yes
-SecureDoc,WinMagic Inc.,1997,Proprietary,yes
+SecureDoc,[https://www.winmagic.com WinMagic Inc.],1997,Proprietary,yes
 Seqrite Encryption Manager,Quick Heal Technologies Ltd.,2017,Proprietary,yes
 Sentry 2020,SoftWinter,1998,Proprietary,no
 Softraid / RAID C,OpenBSD,2007-11-01,BSD,yes

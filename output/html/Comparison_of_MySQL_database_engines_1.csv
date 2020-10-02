@@ -2,23 +2,13 @@ Name,Vendor,License,Database transaction,Under active development
 MySQL Archive,Oracle,GPL,No,Yes
 Aria (storage engine),MariaDB,GPL,No,Yes
 Berkeley DB,Oracle,Affero General Public License,?,No
-BlitzDB,?,GPL,No,Yes
-CONNECT,MariaDB,GPL,?,Yes
 Comma-separated values,Oracle,GPL,No,Yes
-DeepSQL,Deep Information Sciences,Custom Proprietary,Yes,Yes
 Falcon (storage engine),Oracle,GPL,Yes,No
+MySQL Federated,Oracle,GPL,?,No
 InfiniDB,Calpont,GPL,Yes,Yes
 InnoDB,Oracle,GPL,Yes,Yes
 MyISAM,Oracle,GPL,No,No
+MyRocks,Facebook,GPLv2,Yes,Yes
 MySQL Cluster,Oracle,GPLv2,Yes,Yes
 TokuDB,TokuTek,Modified GPL,Yes,Yes
-WiredTiger,WiredTiger,GPL,Yes,Yes
 XtraDB,Percona,GPL,Yes,Yes
-MySQL Federated,Oracle,GPL,?,No
-FederatedX,MariaDB,GPL,?,Yes
-CassandraSE,MariaDB,GPL,No,No
-sequence,MariaDB,GPL,Yes,Yes
-mroonga,MariaDB,GPL,?,Yes
-SphinxSE,Sphinx Technologies,GPL,No,Yes
-MyRocks,Facebook,GPLv2,Yes,Yes
-MyMax (page does not exist),CEICOM Solutions,Custom Proprietary,Yes,Yes

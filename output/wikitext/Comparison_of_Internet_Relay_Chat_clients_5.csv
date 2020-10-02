@@ -8,12 +8,12 @@ DMDirc,yes,yes,yes,yes,dunno,dunno,dunno,dunno,dunno,no
 ERC,yes,yes,yes,yes,yes,dunno,dunno,dunno,group=Notepatch,no
 HexChat,yes,yes,yes,yes,yes,no,no,no,yes,group=Noteplugin
 HydraIRC,yes,yes,dunno,no,no,dunno,no,no,dunno,no
-IceChat,yes,yes,yes,yes,dunno,dunno,dunno,dunno,yes,no
+IceChat,yes,yes,yes,yes,yes,dunno,dunno,dunno,yes,no
 IRCCloud,yes,no,yes,yes,yes,no,no,no,yes,no
 ircII,yes,yes,yes,yes,dunno,dunno,dunno,dunno,dunno,no
 IRCjr,yes,no,no,no,no,dunno,no,no,no,no
 Ircle,yes,yes,dunno,yes,dunno,dunno,dunno,dunno,dunno,no
-Irssi,yes,yes,yes,yes,yes,yes,no,dunno,yes,group=Noteplugin
+Irssi,yes,yes,yes,yes,yes,yes,no,dunno,yes,yes
 jIRCii,yes,yes,yes,yes,dunno,dunno,dunno,dunno,dunno,no
 KiwiIRC,yes,no,yes,yes,yes,dunno,no,no,yes,no
 Konversation,yes,yes,yes,yes,yes,dunno,dunno,dunno,yes,no
@@ -34,5 +34,4 @@ Smuxi,yes,no,yes,yes,dunno,dunno,dunno,dunno,no,no
 Snak,yes,yes,yes,yes,dunno,dunno,dunno,dunno,dunno,no
 Visual IRC,yes,yes,no,no,dunno,dunno,dunno,dunno,dunno,no
 WeeChat,yes,yes,yes,yes,yes,dunno,dunno,dunno,yes,group=Noteplugin
-XChat,yes,yes,group=Notensuccess,yes,dunno,no,dunno,dunno,script,group=Noteplugin
 Client,CTCP,DCC,IPv6,SSL,TLS,DANE,OCSP,CRL,SASL,OTR

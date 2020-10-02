@@ -1,7 +1,7 @@
 Microarchitecture,Semiconductor device fabrication,Family,Production Date,Code name,Model Group,Cores,Clock rate (Clock rate),Bus (computing) Speed &amp; TypeBus (computing),Cache,,,CPU socket,Memory Controller,Features,,
 ,,,,,,,,,CPU cache,CPU cache,CPU cache,,,SIMD,Speed/Power,Other
 Am386,,Am386,,Sx/SxL/SxLV[1],,1,25-40[1],,,,,100 PQFP[1],,,,
-Am486[2]," 500, 350 ",Am486,,25-120,168 pin Field-programmable gate array 208 SQFP,,,,8,,,,,,,
+Am486[2]," 500, 350 ",Am486,,25-120,168 pin Pin grid array 208 SQFP,,,,8,,,,,,,
 ," 500, 350 ",Enhanced Am486,,,,,66-120,," 8, 8/16 ",,,168 pin Pin Grid Array 208 SQFP Pin Grid Array,,,,
 Am5x86,350,Am5x86,,X5-133,,,133,33,16,,,Socket 3 Socket 3 Socket 3 168 pin,,,,
 K5," 500, 350 ",AMD K5,," SSA/5, 5k86 ",,,75–133," 50, 60, 66 ",8+16,0,,Socket 5 Socket 5,,,,
@@ -26,7 +26,7 @@ K7,250,Athlon,,Argon,,,500-700,100,64+64,512,,Slot A,,,,
 130,Sempron,,Thoroughbred-B,,1500-2000,166,256,,
 ,,,Thorton,,1500-2000,,,,
 ,,,Barton,,2000–2200," 166, 200 ",512,,
-,K8,Opteron,,Sledgehammer,100,1400-2400,800,1024,,Socket 940,DDR SDRAM," MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set) ",,,,PowerNow!," AMD64,  AMD64 "
+,AMD K8,Opteron,,Sledgehammer,100,1400-2400,800,1024,,Socket 940,DDR SDRAM," MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set) ",,,,PowerNow!," AMD64,  AMD64 "
 ,,,,,200,,,,,,,,,,,,
 ,,,,,800,,,,,,,,,,,,
 ,,,90,,Venus,100,,,1600-3000,,,,,,,,,Socket 939
@@ -102,7 +102,7 @@ Turion 64 X2,,List of AMD Turion microprocessors,TL-50,2,1600,256,,,,Socket S1,,
 ,,List of AMD Turion microprocessors," TL-52, TL-56, TL-60, TL-64 ",," 1600, 1800, 2000, 2200 ",512,,,,,,,,
 ,65,,List of AMD Turion microprocessors,," TK-53, TK-55, TK-57 "," 1700, 1800, 1900 ",,,256,,,,,,
 ,,,,," TL-56, TL-58, TL-60, TL-62, TL-64, TL-66, TL-68 "," 1800, 1900, 2000, 2100, 2200, 2300, 2400 ",,,512,,,,,,
-K10,65,Opteron,,Barcelona,,4,1700-2500,1000,64+64," 256, 512 ",2048,Socket F,," MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set) ",PowerNow!," AMD64,  AMD64,  AMD64,  AMD64 "
+AMD 10h,65,Opteron,,Barcelona,,4,1700-2500,1000,64+64," 256, 512 ",2048,Socket F,," MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set) ",PowerNow!," AMD64,  AMD64,  AMD64,  AMD64 "
 ,,,,Budapest,,4,1700-2500,1000,," 256, 512 ",2048,Socket AM2,,,," AMD64,  AMD64,  AMD64 "
 ,,Phenom (processor),,Agena," 9100e,9150e, 9350e, 9450e, 9500, 9550, 9600, 9600B, 9600BE, 9650, 9670, 9750, 9750B, 9850, 9850B 9850BE, 9950BE ",4,1800-2600," 1600, 1800, 2000 ",,512,2048,Socket AM2+,," MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set) ",Cool'n'Quiet," AMD64,  AMD64,  AMD64 "
 ,,,,Toliman," 8250e, 8400, 8450, 8450e, 8550, 8600, 8600B, 8650, 8750, 8750B, 8750BE, 8850 ",3,1900-2500," 1600, 1800 ",,512,2048,,,,,
@@ -149,12 +149,14 @@ Zen (microarchitecture),14 nanometer,Zen (microarchitecture),August 2017 - prese
 ,,,,," Ryzen 5 (1400, Pro 1500, 1500X, Pro 1600, 1600, 1600X) ",4/6 (8/12 threads),3200-3600 (3400-4000 boost),,,,8-16 MB,,,,,
 ,,,,," Ryzen 3 (Pro 1200, 1200, Pro 1300, 1300X) ",4 (4 threads),3100-3500 (3400-3700 boost),,,,8 MB,,,,,
 ,,,,Raven Ridge," Mobile APUs: Athlon (Pro 200U), Ryzen 3 (2200U, 2300U, Pro 2300U), Ryzen 5 (2500U, Pro 2500U, 2600H), Ryzen 7 (2700U, Pro 2700U, 2800H) ",2-4 (4-8 threads),2000-3300 (3200-3800 boost),,,,4 MB,,,,,
-,,,,," Desktop APUs: Athlon (200GE, Pro 200GE, 220GE, 240GE), Ryzen 3 (2200GE, Pro 2200GE, 2200G, Pro 2200G), Ryzen 5 (2400GE, Pro 2500GE, 2500G, Pro 2500G) ",2-4 (4-8 threads),3200-3600 (3600-3900 boost),,,,,,,,,
+,,,,," Desktop APUs: Athlon (200GE, Pro 200GE, 220GE, 240GE), Ryzen 3 (2200GE, Pro 2200GE, 2200G, Pro 2200G), Ryzen 5 (2400GE, Pro 2400GE, 2400G, Pro 2400G) ",2-4 (4-8 threads),3200-3600 (3600-3900 boost),,,,,,,,,
 ,,,June 2017 - present,Naples,Epyc 7000 series,8/16/24/32,2550-2900,,,,32-64 MB,Socket SP3,DDR4 (8 channels),,,
-,12,Zen+,August 2018 - present,Colfax," Ryzen Threadripper 2920X, 2950X, 2970WX, 2990WX ",12/16/24/32 (24/32/48/64 threads),3000-3500 (4200-4400 boost),,96 kb per core,512 kb per core,32-64 MB,Socket TR4,Quad-channel DDR4," MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set) ",," AMD64, AMD64, AMD64, AMD64, AMD64/AMD64, AMD64, AMD64, AMD64, AMD64 "
-,,,April 2018 - present,Pinnacle Ridge," Ryzen 3 (2300X), Ryzen 5 (2500X, 2600, 2600E, 2600X), Ryzen 7 (2700, 2700E, 2700X, Pro 2700X) ",4/6/8 (4/8/12/16 threads),2800-3700 (3900-4300 boost),,,,8-16 MB,Socket AM4,Dual-channel DDR4,,,
-,,,January 2019 - present,Picasso," Mobile APUs: Athlon 300U, Ryzen 3 (3200U, 3300U), Ryzen 5 (3500U, 3550H), Ryzen 7 (3700U, 3750H) ",2/4 (4/8 threads),2100-2600 (3300-4000 boost),,,,4 MB,,,,,
-,,,July 2019 - present,," Desktop APUs: Ryzen 3 3200G, Ryzen 5 3400G ",4 (4/8 threads),3600-3700 (4000-4200 boost),,,,,,,,,
-7 nanometer,Zen 2,July 2019 - present,Matisse," Ryzen 5 (3600, 3600X), Ryzen 7 (3700X, 3800X), Ryzen 9 (3900X, 3950X) ",6/8/12/16 (12/16/24/32 threads),3600-3900 (4200-4600 boost),16-32 MB,Socket AM4
-Microarchitecture,Semiconductor device fabrication,Family,Production Date,Code Name,Model Group,Cores,Clock rate (Clock rate),Bus (computing) Speed &amp; TypeBus (computing),CPU cache,CPU cache,CPU cache,CPU socket,,,,,Memory Controller,SIMD,Speed/Power,Other
-Cache,,,,,,,,,,Features,,,,,,,,
+,12,Zen+,August 2018 - present,Colfax," Ryzen Threadripper (2920X, 2950X, 2970WX, 2990WX) ",12/16/24/32 (24/32/48/64 threads),3000-3500 (4200-4400 boost),,96 kb per core,512 kb per core,32-64 MB,Socket TR4,Quad-channel DDR4," MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set), MMX (instruction set) ",," AMD64, AMD64, AMD64, AMD64, AMD64/AMD64, AMD64, AMD64, AMD64, AMD64 "
+,,,April 2018 - present,Pinnacle Ridge," Ryzen 3 (1200 AF, 2300X), Ryzen 5 (1600 AF, 2500X, 2600, 2600E, 2600X), Ryzen 7 (2700, 2700E, 2700X, Pro 2700X) ",4/6/8 (4/8/12/16 threads),2800-3700 (3900-4300 boost),,,,8-16 MB,Socket AM4,Dual-channel DDR4,,,
+,,,January 2019 - present,Picasso," Mobile APUs: Athlon 300U, Ryzen 3 (3200U, 3300U, Pro 3300U), Ryzen 5 (3500U, Pro 3500U, 3550H), Ryzen 7 (3700U, Pro 3700U, 3750H) ",2/4 (4/8 threads),2100-2600 (3300-4000 boost),,,,4 MB,,,,,
+,,,July 2019 - present,," Desktop APUs: Ryzen 3 (3200GE, Pro 3200GE, 3200G, Pro 3200G), Ryzen 5 (3400GE, Pro 3400GE, 3400G, Pro 3400G) ",4 (4/8 threads),3600-3700 (4000-4200 boost),,,,,,,,,
+7 nanometer,Zen 2,November 2019 - present,Castle Peak," Ryzen Threadripper (3960X, 3970X, 3990X) "," 24/32/64 (48, 64, 128 threads) ",3700-3800 (4500 boost),128-256 MB,Socket sTRX4,Quad-channel DDR4
+,,July 2019 - present,Matisse," Ryzen 3 (3100, 3300X), Ryzen 5 (3500, 3500X, 3600, Pro 3600, 3600X), Ryzen 7 (Pro 3700, 3700X, 3800X), Ryzen 9 (3900, Pro 3900, 3900X, 3950X)  ",4/6/8/12/16 (8/12/16/24/32 threads),3600-3900 (4200-4600 boost),16-32 MB,Socket AM4,Dual-channel DDR4
+,,March 2020 - present,Renoir," Ryzen 3 (4300U, Pro 4450U),  Ryzen 5 (4500U, 4600U, Pro 4650U, 4600H, 4600HS), Ryzen 7 (4700U, Pro 4750U, 4800U, 4800H, 4800HS), Ryzen 9 (4900H, 4900HS) ",4/6/8 (4-16 threads),1800-3300 (3700-4400 boost),4-8 MB,,Dual-channel DDR4 or DDR4
+Microarchitecture,Semiconductor device fabrication,Family,Production Date,Code Name,Model Group,Cores,Clock rate (Clock rate),Bus (computing) Speed &amp; TypeBus (computing),CPU cache,CPU cache,CPU cache,CPU socket,Memory Controller,,,,SIMD,Speed/Power,Other
+Cache,,,,,,,,,,Features,,,,,,,

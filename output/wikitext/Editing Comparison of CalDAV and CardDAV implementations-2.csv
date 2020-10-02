@@ -1,0 +1,43 @@
+[ Client name
+, Platform]]
+, License]]
+, WebDAV ACL editor
+, [https://tools.ietf.org/html/rfc3744#section-9.4 Discovery of other user’s collections]
+, events]]
+, tasks]]
+, journals]]
+, [https://tools.ietf.org/html/rfc7953 ICalendar VAVAILABILITY (RFC 7953)]
+, [https://tools.ietf.org/html/6638 CalDAV Scheduling]
+, [[CardDAV]]
+, [https://tools.ietf.org/html/rfc6350#section-7 vCard Synchronization]
+, [[User interface]]
+, Online store]]
+, .well-known URLs
+, [http://www.calconnect.org/pubdocs/CD0903%20Freebusy%20Read%20URL.pdf &lt;span title="Free-Busy URL"&gt;FBURL&lt;/span&gt;]
+, &lt;span title='RFC 6764 “Locating Services for Calendaring Extensions to WebDAV (CalDAV) and vCard Extensions to WebDAV (CardDAV)”'&gt;DNS SRV&lt;/span&gt;]]
+, handles home-sets
+],
+| [[Cross-platform]] [[JavaScript]] [[Web browser]],| {{GPL-lic}},| {{yes}} limited,| {{no}},| {{yes}},| {{n/a}},| {{unk}},| {{no}},| {{no}} Does not arrange meetings with participants,| {{n/a}},| out of scope,| AgenDAV's fullcalendar.io,| {{no}},| {{no}} The used server is fixed in the configuration file,| {{no}} Does not arrange meetings with participants,| {{no}} the caldav-server settings need to be fixed in AgenDAV's configuration file,| {{yes}},
+| [[Command-line interface|Command-line]],| {{GPL-lic}},| {{unk}},| {{unk}},| {{yes}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{yes}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},
+| [[Android (operating system)|Android]],| {{GPL-lic}},| {{unk}},| {{unk}},| {{yes}},| {{yes}},| {{unk}},| {{unk}},| {{unk}},| {{n/a}},| {{unk}},| aCal,| {{yes|aCal}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},
+| [[Android (operating system)|Android]],| {{GPL-lic}},| {{unk}},| {{unk}},| {{yes}},| {{n/a}},| {{unk}},| {{unk}},| {{unk}},| {{n/a}},| out of scope,| Android,| {{yes|[[Google Play]]}},| {{unk}},| {{no}} Out of scope,| {{unk}},| {{unk}},
+| [[Cross-platform]] [[JavaScript]] [[Web browser]],| {{free|[[GNU Affero General Public License|AGPL]]}},| {{no}},| {{no}},| {{yes}},| {{yes}},| {{unk}},| {{no}},| {{no}} Does not arrange meetings with participants,| {{n/a}},| out of scope,| CalDavZAP,| {{no}},| {{no}} The used server is fixed in the configuration file,| {{no}} Does not arrange meetings with participants,| {{no}} The used server is fixed in the configuration file,| {{yes}},
+| [[Cross-platform]] [[JavaScript]] [[Web browser]],| {{free|[[GNU Affero General Public License|AGPL]]}},| {{no}},| {{no}},| out of scope,| out of scope,| out of scope,| out of scope,| out of scope,| {{yes}} vCard 3.0 only,| {{no}},| CardDavMATE,| {{no}},| {{no}} The used server is fixed in the configuration file,| {{no}} Out of scope,| {{no}} The used server is fixed in the configuration file,| {{yes}},
+| [[Cross-platform]] [[JavaScript]] [[Web browser]],| {{free|[[GNU Affero General Public License|AGPL]]}},| {{no}},| {{no}},| {{yes}},| {{yes}},| {{unk}},| {{no}},| {{no}} Does not arrange meetings with participants,| {{yes}} vCard 3.0 only,| {{no}},| InfCloud,| {{no}} ,| {{no}} The used server is fixed in the configuration file,| {{no}} Does not arrange meetings with participants,| {{no}} The used server is fixed in the configuration file,| {{yes}},
+| [[Cross-platform]] [[Python (programming language)|Python]],| {{free|[[Apache License|Apache]]}},| {{unk}},| {{unk}},| {{yes}},| {{yes}},| {{unk}},| {{unk}},| {{unk}},| {{no}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},
+| [[Android (operating system)|Android]],| {{GPL-lic}},| {{no}},| {{no}},| {{yes}},| {{yes}},| out of scope,| out of scope,| {{No}} (except attendees/invitations),| {{yes}},| {{no}} ([https://web.archive.org/web/20190110234927/https://www.davx5.com/manual/synchronization server always wins]),| Android OpenTasks,| {{yes|[[Google Play]] OpenTasks}},| {{yes}},| out of scope,| {{yes}},| {{yes}},
+| [[Android (operating system)|Android]],| {{GPL-lic}},| {{no}},| {{no}},| {{no}},| {{yes}},| {{no}},| {{no}},| {{no}},| {{no}},| {{no}},| Android,| {{yes|[[Google Play]]}},| {{yes}},| {{no}},| {{no}},| {{yes}},
+| [[Cross-platform]] [[JavaScript]] [[Web browser]],| {{free|[[MIT License|MIT]]}},| {{unk}},| {{unk}},| {{yes}},| {{yes}},| {{unk}},| {{unk}},| {{unk}},| {{n/a}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},
+| [[Cross-platform]] [[Kontakt (software)|Kontact]] add-on,| {{GPL-lic}},| {{unk}},| {{unk}},| {{n/a}},| {{n/a}},| {{n/a}},| {{unk}},| {{unk}},| {{yes}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},
+| [[Unix]]-[[KDE]],| {{GPL-lic}},| {{unk}},| {{unk}},| {{yes}},| {{yes}},| {{unk}},| {{unk}},| {{unk}},| {{yes}},| {{unk}},| KOrganizer,| {{yes|KOrganizer}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},
+| [[Cross-platform]] [[Mozilla thunderbird|Thunderbird]] [[Add-on (Mozilla)|Add-on]],| {{free|[[Mozilla Public License|MPL]] [[GNU General Public License|GPL]] [[GNU Lesser General Public License|LGPL]]}},| {{unk}},| {{unk}},| {{yes}},| {{yes}},| {{unk}},| {{unk}},| {{unk}},| {{n/a}},| Out of scope,| Lightning,| {{yes|Lightning}},| {{unk}},| {{unk}},| {{unk}},| {{unk}} probably not,
+| [[Cross-platform]] [[Mozilla thunderbird|Thunderbird]] [[Add-on (Mozilla)|Add-on]],| {{free|[[Mozilla Public License|MPL]]}},| {{no}},| {{no}},| Out of scope,| Out of scope,| Out of scope,| Out of scope,| Out of scope,| {{yes}} [[VCard#vCard 3.0|vCard 3.0]] and [[VCard#vCard 4.0|vCard 4.0]],| {{yes}},| CardBook,| [https://addons.thunderbird.net/thunderbird/addon/cardbook/ Mozilla Add-ons (ATN)],| {{yes}},| Out of scope,| {{no}},| partial,
+| [[Cross-platform]],| {{proprietary}},| {{no}},| {{no}},| {{yes}},| {{no}},| {{no}},| {{no}},| {{no}} ,| {{no}},| {{no}},| {{no}},| MineTime,| minetime.ai,| {{no}},| {{no}},| {{no}},
+| [[Cross-platform]],| {{free|[[Apache License|Apache]]}},| {{unk}},| {{unk}},| {{yes}},| {{yes}},| {{unk}},| {{unk}},| {{unk}},| {{yes}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},
+| [[Microsoft Windows|Windows]],| {{free|[[GNU Affero General Public License|AGPL]]}},| {{unk}},| {{unk}},| {{yes}},| {{yes}},| {{unk}},| {{unk}},| {{unk}},| {{yes}},| {{unk}},| Outlook,| {{unk}},| {{yes}},| {{unk}},| {{yes}},| {{yes}},
+| [[Cross-platform]] [[Python (programming language)|Python]],| {{free|[[MIT License|MIT]]}},| {{unk}},| {{unk}},| {{n/a}},| {{n/a}},| {{n/a}},| {{unk}},| {{unk}},| {{yes}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},
+| [[Microsoft Windows|Windows]],| {{proprietary}},| {{unk}},| {{unk}},| {{no}},| {{no}},| {{no}},| {{unk}},| {{unk}},| {{yes}},| {{unk}},| [[The Bat!]],| {{yes|The Bat!'s address book}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},
+| [[Cross-platform]] [[Mozilla thunderbird|Thunderbird]] [[Add-on (Mozilla)|Add-on]],| {{free|[[Mozilla Public License|MPL]] [[GNU General Public License|GPL]] [[GNU Lesser General Public License|LGPL]]}},| {{unk}},| {{unk}},| {{yes}},| {{yes}},| {{unk}},| {{unk}},| {{unk}},| {{yes}},| {{unk}},| Mozilla,| {{yes|[[Add-on (Mozilla)#Website|Mozilla Add-ons]]}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},
+| [[Cross-platform]],| {{GPL-lic}},| {{no}},| {{no}},| {{yes}},| {{yes}},| {{yes}},| {{no}},| {{no}},| {{yes}} vCard 3.0 only,| {{unk}},| Evolution,| {{yes|Evolution}},| {{yes}},| {{yes}} if the URL does not require authentication,| {{yes}},| {{yes}},
+| [[Cross-platform]] [[Firefox]],| {{free|[[Mozilla Public License|MPL]] 1.1}},| {{unk}},| {{unk}},| {{yes}},| {{yes}},| {{unk}},| {{unk}},| {{no}},| {{n/a}},| {{unk}},| ReminderFox,| {{yes}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},
+,

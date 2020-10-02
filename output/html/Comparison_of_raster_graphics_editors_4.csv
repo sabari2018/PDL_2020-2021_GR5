@@ -1,18 +1,19 @@
 ,Microsoft Windows,MacOS,Linux,IOS (Apple),BSD,Unix,AmigaOS,Other
 Ability Photopaint,Yes,No,No,,No,No,No,No
-ACD Canvas,Yes,Dropped[8],No,,No,No,No,No
+ACD Canvas,Yes,Yes[8],No,,No,No,No,No
 ACDSee,Yes,Yes,No,,No,No,No,No
 Acorn Image Editor,No,Yes,No,,No,No,No,No
 Adobe Fireworks*,Yes,Yes,No,,No,No,No,No
 Adobe Photoshop,Yes,Yes,No,Yes (iPad),No,No,No,No
 Adobe Photoshop Lightroom,Yes,Yes,No,,No,No,No,No
 Affinity Photo,Yes,Yes,No,Yes (iPad),No,No,No,No
-Aperture (photography software),No,Yes,No,,No,No,No,No
+Aperture (photography software),No,Yes[9],No,,No,No,No,No
 Autodesk SketchBook Pro,Yes,Yes,No,Yes,No,No,No,Android (operating system)
 Artipic,Yes,Yes,No,,No,No,No,No
 ArtRage,Yes,Yes,No,Yes,No,No,No,Android (operating system)
 Artweaver,Yes,No,No,,No,No,No,No
 Bibble (software)*,Yes,Yes,Yes,,No,No,No,No
+Black Ink Software (page does not exist),Yes,No,No,,No,No,No,No
 Bloom Image Editor,Yes,Yes,Yes,,No,No,No,No
 Brush Strokes Image Editor,Yes,No,No,,No,No,No,No
 Capture One,Yes,Yes,No,,No,No,No,No
@@ -30,7 +31,7 @@ Fatpaint,Yes,Yes,Yes,,No,No,No,No
 Fotografix,Yes,No,No,,No,No,No,No
 F-Spot,No,No,Yes,,Yes,No,No,No
 G'MIC,Yes,Yes,Yes,,Yes,Yes,No,No
-GIMP,Yes,Yes,Yes,No[10],Yes,Yes,Needs X11 Cygwin,SkyOS
+GIMP,Yes,Yes,Yes,No[11],Yes,Yes,Needs X11 Cygwin,SkyOS
 GimPhoto,Yes,Yes,Yes,,No,No,No,No
 GIMPshop,Yes,Yes,Yes,,Yes,Yes,No,No
 GNU Paint,No,No,Yes,,Yes,No,No,No
@@ -47,7 +48,7 @@ IrfanView,Yes,No,No,,No,No,No,No
 Iridient Developer,No,Yes,No,,No,No,No,No
 Kolourpaint,Yes,No,Yes,,Yes,Yes,No,No
 Krita,Yes,Yes,Yes,,Yes,Yes,No,No
-LazPaint,Yes,Partial[11],Yes,,No,No,No,No
+LazPaint,Yes,Partial[12],Yes,,No,No,No,No
 LiveQuartz,No,Yes,No,,No,No,No,No
 MacPaint*,No,No,No,,No,No,No,Mac OSMac OS
 Microsoft Office Picture Manager*,Yes,Yes,No,,No,No,No,No
@@ -56,7 +57,7 @@ Microsoft Photo Editor*,Yes,No,No,,No,No,No,No
 MtPaint,Yes,No,Yes,No,No,No,No,No
 MyPaint,Yes,Yes,Yes,,Yes,Yes,No,No
 OpenCanvas,Yes,No,No,,No,No,No,No
-Paint.NET,Yes,No,Partial[13],,No,No,No,No
+Paint.NET,Yes,No,Partial[14],,No,No,No,No
 Paint Tool SAI,Yes,No,No,No,No,No,No,No
 PC Paintbrush*,No,No,No,,No,No,No,DOSDOS
 Pencil2D,Yes,Yes,Yes,,Yes,No,No,No
@@ -69,7 +70,7 @@ Photo Raster,Yes,Yes,Yes,,Yes,Yes,No,No
 Picasa*,Yes,Yes,Up to version 3.0,,No,No,No,No
 PicMaster,Yes,No,No,,No,No,No,No
 Pinta (software),Yes,Yes,Yes,,Yes,Yes,No,No
-PixBuilder Photo Editor,Yes,No,No,,No,No,No,No
+PixBuilder Photo Editor (page does not exist),Yes,No,No,,No,No,No,No
 Pixelmator,No,Yes,No,,No,No,No,No
 Pixen (page does not exist),No,Yes,No,,No,No,No,No
 Pixia,Yes,No,No,,No,No,No,No
@@ -82,12 +83,12 @@ Seashore (software),No,Yes,No,,No,No,No,No
 Serif PhotoPlus,Yes,No,No,,No,No,No,No
 Shotwell (software),No,No,Yes,,Yes,No,No,No
 Tux Paint,Yes,Yes,Yes,,Yes,Yes,No,No
-TVPaint Animation,Yes,Yes,Yes,,No,No,Up to version 3.59[15],No
+TVPaint Animation,Yes,Yes,Yes,,No,No,Up to version 3.59[16],No
 UFRaw,Yes,Yes,Yes,,Yes,No,No,No
 Ulead PhotoImpact*,Yes,No,No,,No,No,No,No
-Ultimate Paint*,Yes,No,No,,No,No,No,No
+Ultimate Paint (page does not exist)*,Yes,No,No,,No,No,No,No
 WinImages,Yes,No,No,,No,No,No,No
 Xara Photo &amp; Graphic Designer,Yes,No,No,,No,No,No,No
-XnView,Yes,Yes,Yes,,No,No,No,varying[16]
+XnView,Yes,Yes,Yes,,No,No,No,varying[17]
 XPaint,No,Yes,Yes,,Yes,Yes,No,IBM AIX
 Zoner Photo Studio,Yes,No,No,,No,No,No,No

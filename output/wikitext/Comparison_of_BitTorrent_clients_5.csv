@@ -1,34 +1,23 @@
 BitTorrent client,Cache,Hash Web seeding,HTTP Web seeding,Broad-catching (RSS),Prioritization,Selective downloads,Sequential downloading,SOCKS,Tracker exchange,Remote control via web,Search engine,Auto updates,Reviews and Comments,Notes
-ABC,no,yes,no,no,yes,no,no,no,no,yes,yes2 Separate download,no,no,
-Acquisition,no,no,,no,no,no,no,no,no,no,no,no,no," 3 torrents max, infinite when registered"
 BitComet,yes,no,yes,beta,yes,yes,yes,yes,no,yes,Built-in Web browser,yes,no,Portable version available
-BitLet,no,no,no,no,no,no,no,no,no,no,no,yes,no,
 BitLord,yes,no,Partial,yes,yes,yes,no,yes,no,no,Built-in Web browser,yes,no,
-BitTornado,yes,yes,no,no,yes,yes,no,no,no,no,no,yes2 via PMS,no,
 " BitTorrent 5, Mainline",no,yes,Partial,no,yes,yes,no,no,no,no,yes,yes,no,
 BitTorrent 6,yes,yes,,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,
-BitTyrant,yes,yes,yes,yes2 Plugin,yes,yes,no,yes,no,yes2 Plugin,3rd party plugins,yes,no,Upload priority optimized according to a series of research papers
-Blog Torrent,no,no,no,no,no,no,no,no,no,no,no,no,no,
 Deluge,yes,yes,Partial,yes2 Plugin,yes,yes,yes,yes,no,yes,no,yes2 via PMS,no,
 FlashGet,no,no,,no,no,no,no,no,no,no,no,no,no,FlashGet (standalone application) is not FlashGot (Firefox Addon)
 Free Download Manager,no,yes,no,no,yes,yes,no,no,no,yes,no,Optional,no,
 KTorrent,yes,yes,,yes,yes,yes,yes,yes,no,yes,Built-in Web browser,yes2 via PMS,no,
 LimeWire,yes,yes,no,no,yes,yes,no,yes,no,no,no,yes,no,
-Meerkat Bittorrent Client,yes,no,,no,no,no,no,no,no,no,no,no,no,
 MLDonkey,yes,no,,3rd party bash script,yes,no,no,no,no,yes,Built-in Web browser,yes2 via PMS,no,
 μTorrent,yes,yes,Partial,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,
-OneSwarm,yes,yes,Partial,no,yes,yes,no,yes,no,no,no,yes,no,has all BitTyrant features
 Opera 12,no,no,,group=NoteOperaRSS,no,no,no,no,no,no,built-into Web browser,Windows and Mac OS X only; via PMS on Linux,no,Web browser
 qBittorrent,yes,yes,Partial,yes,yes,yes,yes,yes,hard-coded as disabled in newer versions,yes,yes,yes2 via PMS,no,
 rTorrent,partial,no,no,3rd party utility,yes,yes,no,no,no,yes,no,yes2 via PMS,no,No built-in disk cache but a delayed sync
 Shareaza,yes,yes,no,no,yes,yes,in mod client,no,yes,yes,yes,yes,no,
-SymTorrent,no,no,,no,no,no,no,no,no,no,no,no,no,BitTorrent client for cell phones
 Tixati,yes,yes,Partial,yes,yes,yes,yes,yes,yes,yes,no,yes,no," lightweight client, Portable version available, option to keep all peers unchoked available Integral encrypted chatrooms that allow streaming audio and video, link sharing and searching"
-Tomato Torrent,no,no,no,no,no,no,no,no,no,no,no,no,no,supports AppleScript
 Tonido,no,no,,no,yes,yes,no,no,no,yes,no,yes,no,
-TorrentFlux,yes,yes,no,yes,yes,yes,no,no,no,yes,yes,no,no,
-Transmission,yes,no,Partial,no,yes,yes,yes,no,no,yes,no,yes,no,
+Transmission,yes,no,Partial,no,yes,yes,no,no,no,yes,no,yes,no,
 Tribler,yes,no,no,yes,yes,yes,no,no,no,partial,yes (DHT),yes,no,Fully distributed keyword search; integrated anti-spam measures
-Vuze (formerly Azureus),yes,,yes,yes,no,yes2 Plugin,The only client to bridge between i2p and the clearnet.
+Vuze (formerly Azureus),yes,,yes,yes,yes,yes,yes2 in paid version,yes,no,yes2 Plugin,yes,yes,yes,The only client to bridge between i2p and the clearnet.
 Xunlei,yes,no,,yes,yes,yes,yes,,,yes,no,yes,no,
 BitTorrent client,Cache,Hash Web seeding,HTTP Web seeding,Broad-catching (RSS),Prioritization,Selective downloads,Sequential downloading,SOCKS,Tracker exchange,Remote control via web,Search engine,Auto updates,Reviews and Comments,Notes

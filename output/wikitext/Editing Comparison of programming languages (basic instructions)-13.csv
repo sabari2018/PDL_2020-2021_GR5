@@ -1,0 +1,50 @@
+[
+, 8 bit ([[byte]])
+, 16 bit ([[short integer]])
+, 32 bit
+, 64 bit ([[long integer]])
+, Word size
+, Arbitrarily precise ([[Arbitrary-precision arithmetic],
+| coderange -2**7 .. 2**7 - 1/code{{ref|Ada_range|[j]}},| coderange 0 .. 2**8 - 1/code{{ref|Ada_range|[j]}} or codemod 2**8/code{{ref|Ada_mod|[k]}},| coderange -2**15 .. 2**15 - 1/code{{ref|Ada_range|[j]}},| coderange 0 .. 2**16 - 1/code{{ref|Ada_range|[j]}} or codemod 2**16/code{{ref|Ada_mod|[k]}},| coderange -2**31 .. 2**31 - 1/code{{ref|Ada_range|[j]}},| coderange 0 .. 2**32 - 1/code{{ref|Ada_range|[j]}} or codemod 2**32/code{{ref|Ada_mod|[k]}},| coderange -2**63 .. 2**63 - 1/code{{ref|Ada_range|[j]}},| codemod 2**64/code{{ref|Ada_mod|[k]}},| codeInteger/code{{ref|Ada_range|[j]}},| coderange 0 .. 2**Integer'wbr/Size - 1/code{{ref|Ada_range|[j]}} or codemod Integer'wbr/Size/code{{ref|Ada_mod|[k]}},| {{n/a}},
+| rowspan=2| codeshort short int/code{{ref|CInt|[c]}},| rowspan=2 {{n/a}},| rowspan=2| codeshort int/code{{ref|CInt|[c]}},| rowspan=2 {{n/a}},| rowspan=2| codeint/code{{ref|CInt|[c]}},| rowspan=2 {{n/a}},| rowspan=2| codelong int/code{{ref|CInt|[c]}},| rowspan=2 {{n/a}},| codeint/code{{ref|CInt|[c]}},| {{n/a}},| rowspan=2| codelong long int/code {{ref|a68|[a]}}{{ref|a68g|[g]}},
+
+| rowspan=2| codeint8_t/code,| rowspan=2| codeuint8_t/code,| rowspan=2| codeint16_t/code,| rowspan=2| codeuint16_t/code,| rowspan=2| codeint32_t/code,| rowspan=2| codeuint32_t/code,| rowspan=2| codeint64_t/code,| rowspan=2| codeuint64_t/code,| rowspan=2| codeintptr_t/code{{ref|CInt|[c]}},| rowspan=2| codesize_t/code{{ref|CInt|[c]}},| rowspan=5 {{n/a}},
+
+| rowspan=2| codesigned char/code,| rowspan=2| codeunsigned char/code,| rowspan=2| codeshort/code{{ref|CInt|[c]}},| rowspan=2| codeunsigned short/code{{ref|CInt|[c]}},| rowspan=2| codelong/code{{ref|CInt|[c]}},| rowspan=2| codeunsigned long/code{{ref|CInt|[c]}},| rowspan=2| codelong long/code{{ref|CInt|[c]}},| rowspan=2| codeunsigned long long/code{{ref|CInt|[c]}},| rowspan=2| codeint/code{{ref|CInt|[c]}},| rowspan=2| codeunsigned int/code{{ref|CInt|[c]}},
+
+| codesigned char''' brorbr '''int8_t/code,| codeunsigned char''' brorbr '''uint8_t/code,| codeshort''' brorbr '''int16_t/code,| codeunsigned short''' brorbr '''uint16_t/code,| codeint''' brorbr '''int32_t/code,| codeunsigned int''' brorbr '''uint32_t/code,| codelong long''' brorbr '''int64_t/code,| codeunsigned long long''' brorbr '''uint64_t/code,| codeNSInteger''' brorbr '''long/code,| codeNSUInteger''' brorbr '''unsigned long/code,
+| codesbyte/code,| codebyte/code,| rowspan=2| codeshort/code,| codeushort/code,| rowspan=2| codeint/code,| codeuint/code,| rowspan=2| codelong/code,| codeulong/code,| codeIntPtr/code,| codeUIntPtr/code,| codeSystem.Numericswbr/.BigInteger/codebr /(.NET 4.0),
+| codebyte/code,| {{n/a}},| codechar/code{{ref|Java char|[b]}},| {{n/a}},| {{n/a}},| {{n/a}},| {{n/a}},| codejava.mathwbr/.BigInteger/code,
+| codeint8/code,| codeuint8/code or codebyte/code,| codeint16/code,| codeuint16/code,| codeint32/code,| codeuint32/code,| codeint64/code,| codeuint64/code,| codeint/code,| codeuint/code,| codebig.Int/code,
+| codei8/code,| codeu8/code,| codei16/code,| codeu16/code,| codei32/code,| codeu32/code,| codei64/code,| codeu64/code,| codeisize/code,| codeusize/code,| {{n/a}},
+| codeInt8/code,| codeUInt8/code,| codeInt16/code,| codeUInt16/code,| codeInt32/code,| codeUInt32/code,| codeInt64/code,| codeUInt64/code,| codeInt/code,| codeUInt/code,
+| codebyte/code,| codeubyte/code,| codeshort/code,| codeushort/code,| codeint/code,| codeuint/code,| codelong/code,| codeulong/code,|{{n/a}},|{{n/a}},| codeBigInt/code,
+| code(signed-byte 8)/code,| code(unsigned-byte 8)/code,| code(signed-byte 16)/code,| code(unsigned-byte 16)/code,| code(signed-byte 32)/code,| code(unsigned-byte 32)/code,| code(signed-byte 64)/code,| code(unsigned-byte 64)/code,| ,| ,| codebignum/code,
+| ,| ,| ,| ,| ,| ,| ,| ,| ,| ,| ,
+| ,| ,| ,| ,| ,| ,| ,| ,| ,| ,| codebignum/code,
+| codeshortint/code,| codebyte/code,| codesmallint/code,| codeword/code,| codelongint/code,| codelongword/code,| codeint64/code,| codeqword/code,| codeinteger/code,| codecardinal/code,| {{n/a}},
+| {{n/a}},| rowspan=2|codeByte/code,| codeInteger/code,| {{n/a}},| codeLong/code,| {{n/a}},| colspan=2 {{n/a}},| rowspan=2 colspan=2 {{n/a}},| rowspan=1 {{n/a}},
+| codeSByte/code,| codeShort/code,| codeUShort/code,| codeInteger/code,| codeUInteger/code,| codeLong/code,| codeULong/code,| codeSystem.Numericswbr/.BigInteger/codebr /(.NET 4.0),
+| codeByte/code or codeInteger8/code,| codeUByte/code or codeUInteger8/code,| codeShort/code or codeInteger16/code,| codeUShort/code or codeUInteger16/code,| codeLong/code or codeInteger32/code,| codeULong/code or codeUInteger32/code,| codeLongInt/code or codeInteger64/code,| codeULongInt/code or codeUInteger64/code,| codeInteger/code,| codeUInteger/code,| {{n/a}},
+| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| codeint/code,| {{n/a}},| codelong/code,
+| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| codeint/code,
+| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| {{n/a}},
+| codeINTEGERwbr/(KIND = n)/code{{ref|Kinds|[f]}},| {{n/a}},| codeINTEGERwbr/(KIND = n)/code{{ref|Kinds|[f]}},| {{n/a}},| codeINTEGERwbr/(KIND = n)/code{{ref|Kinds|[f]}},| {{n/a}},| codeINTEGERwbr/(KIND = n)/code{{ref|Kinds|[f]}},| {{n/a}},|,|,|,
+| colspan=2 {{n/a}},| colspan=2 {{n/a}},| codeint/code {{ref|PHP 32/64 bit long|[m]}},| {{n/a}},| codeint/code {{ref|PHP 32/64 bit long|[m]}},| {{n/a}},| colspan=2 {{n/a}},| {{ref|PHP bignum|[e]}},
+| colspan=2 {{n/a}}{{ref|scalars|[d]}},| colspan=2 {{n/a}}{{ref|scalars|[d]}},| colspan=2 {{n/a}}{{ref|scalars|[d]}},| colspan=2 {{n/a}}{{ref|scalars|[d]}},| colspan=2 {{n/a}}{{ref|scalars|[d]}},| codeMath::BigInt/code,
+| codeint8/code,| codeuint8/code,| codeint16/code,| codeuint16/code,| codeint32/code,| codeuint32/code,| codeint64/code,| codeuint64/code,| codeInt/code,| colspan=2 {{n/a}},
+| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| codeFixnum/code,| {{n/a}},| codeBignum/code,
+| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| integer(),| {{n/a}},| integer(){{ref|Erlang_arb|[o]}},
+| codeByte/code,| {{n/a}},| codeShort/code,| codeChar/code{{ref|Scala Char|[l]}},| codeInt/code,| {{n/a}},| codeLong/code,| {{n/a}},| {{n/a}},| {{n/a}},| codescala.math.BigInt/code,
+| {{n/a}},| {{n/a}},| {{n/a}},| {{n/a}},| {{n/a}},| {{n/a}},| codeinteger/code,| {{n/a}},| {{n/a}},| {{n/a}},| codebigInteger/code,
+| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| codeSmallInteger/code{{ref|Smalltalk|[i]}},| {{n/a}},| codeLargeInteger/code{{ref|Smalltalk|[i]}},
+| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| {{n/a}},
+| colspan=2 {{n/a}},| colspan=2 {{n/a}},| codeint32/code,| {{n/a}},| rowspan=2| codeint64/code,| {{n/a}},| codeint''' br/ or br/ '''nativeint/code,|,| codeopen Big_int;; br/ big_int/code,
+| codesbyte/code,| codebyte/code,| codeint16/code,| codeuint16/code,| codeint32/code or codeint/code,| codeuint32/code,| codeuint64/code,| codenativeint/code,| codeunativeint/code,| codebigint/code,
+| {{n/a}},| codeWord8.word/code,| colspan=2 {{n/a}},| codeInt32.int/code,| codeWord32.word/code,| codeInt64.int/code,| codeWord64.word/code,| codeint/code,| codeword/code,| codeLargeInt.int/code or br / codeIntInf.int/code,
+| «codeimport Int/code» br / codeInt8/code,| «codeimport Word/code» br / codeWord8/code,| «codeimport Int/code» br / codeInt16/code,| «codeimport Word/code» br / codeWord16/code,| «codeimport Int/code» br / codeInt32/code,| «codeimport Word/code» br / codeWord32/code,| «codeimport Int/code» br / codeInt64/code,| «codeimport Word/code» br / codeWord64/code,| codeInt/code,| «codeimport Word/code» br / codeWord/code,| codeInteger/code,
+| codeINTEGER_8/code,| codeNATURAL_8/code,| codeINTEGER_16/code,| codeNATURAL_16/code,| codeINTEGER_32/code,| codeNATURAL_32/code,| codeINTEGER_64/code,| codeNATURAL_64/code,| codeINTEGER/code,| codeNATURAL/code,| {{n/a}},
+| codeBINARY-CHAR «SIGNED»/code,| codeBINARY-CHAR UNSIGNED/code,| codeBINARY-SHORT «SIGNED»/code,| codeBINARY-SHORT UNSIGNED/code,| codeBINARY-LONG «SIGNED»/code,| codeBINARY-LONG UNSIGNED/code,| codeBINARY-DOUBLE «SIGNED»/code,| codeBINARY-DOUBLE UNSIGNED/code,| {{n/a}},| {{n/a}},| {{n/a}},
+| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| codeInteger/code,
+| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| colspan=2 {{n/a}},| codeInteger/code,
+,

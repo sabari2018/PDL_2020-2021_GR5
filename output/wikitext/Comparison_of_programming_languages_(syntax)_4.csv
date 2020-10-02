@@ -28,6 +28,7 @@ Lua,-- InlineComment,--[==[ BlockComment]==] (variable number of = signs)
 Maple,# InlineComment,(* BlockComment *)
 Mathematica,,(* BlockComment *)
 Matlab,% InlineComment,%{BlockComment (nestable)%}Note: Both percent–bracket symbols must be the only non-whitespace characters on their respective lines.
+Nim,# InlineComment,#[ BlockComment ]#
 Object Pascal (Delphi),// InlineComment,(* BlockComment *){ BlockComment }
 OCaml,,(* BlockComment (* nestable *) *)
 "Pascal, Oberon, and ML:",,(* BlockComment *)

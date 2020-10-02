@@ -1,5 +1,5 @@
 GIS software,Free software,Open-source software,Microsoft Windows,Mac OS X,Linux,Berkeley Software Distribution,Unix,Web,Other
-ArcGIS,Viewer(s),No,Yes,Yes,Yes,Yes,Yes,Yes," Google Earth, Google Earth, Google Earth "
+ArcGIS,Viewer(s),No,Yes,Yes,No,No,Yes,Yes," Google Earth, Google Earth, Google Earth "
 Autodesk,Viewer(s),No,Yes,No,Yes,No,No,Yes,No
 Cadcorp,Viewer(s),No,Yes,No,No,No,No,Yes,No
 Capaware,Yes,Yes,Yes,No,No,No,No,No,No
@@ -13,7 +13,6 @@ GeoTools,Yes,Yes,Java (Sun),Java (Sun),Java (Sun),Java (Sun),Java (Sun),No,No
 GRASS GIS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,via pyWPS[1],No
 GvSIG,Yes,Yes,Java (Sun),Java (Sun),Java (Sun),Java (Sun),Java (Sun),No,No
 IDRISI,No,No,Yes,No,No,No,No,No,No
-" JViews Maps (By Rogue Wave, formerly ILOG) ",Viewer(s),No,Java (Sun),Java (Sun),Java (Sun),Java (Sun),Java (Sun),Java (Sun) &amp; Java (Sun)/Java (Sun),Live/active symbol overlays
 ILWIS,Yes,Yes,Yes,No,No,No,No,No,No
 Hexagon Geospatial,Viewer(s),No,Yes,No,No,No,CLIX,Yes,Keyhole Markup Language
 JUMP GIS,Yes,Yes,Java (Sun),Java (Sun),Java (Sun),Java (Sun),Java (Sun),No,No

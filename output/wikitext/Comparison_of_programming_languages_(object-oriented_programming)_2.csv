@@ -1,5 +1,6 @@
 ,class,protocol,namespace
 ABAP Objects,class name definition «inheriting from parentclass». «interfaces: interfaces.» method_and_field_declarations endclass.class name implementation. method_implementations endclass.,interface name. members endinterface.,n/a
+APL (Dyalog)," :Class name «:parentclass» «,interfaces»members:EndClass",:Interface namemembers:EndInterface,:Namespace namemembers:EndNamespace
 C++ (STL),class name« : public parentclasses» { members };,,namespace name { members }
 C#," class name« : «parentclass»«, interfaces»» { members }",interface name« : parentinterfaces» { members },
 D,,,<code>module name; <br /> members</code>

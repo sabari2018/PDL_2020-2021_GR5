@@ -1,7 +1,8 @@
 Client,Internet Explorer,Microsoft Edge,Mozilla Firefox,Opera,Safari,Google Chrome,other
 BookmarkSync,yes,no,yes,yes,yes (Mac Only),no,SeaMonkey
 Opera Link,no,no,no,yes,no,no," Opera Mini, Opera Mobile"
-Firefox Sync,no,no,yes,no,no,no," Firefox for Mobile, SeaMonkey"
+Firefox Sync,no,no,yes,no,no,no," Firefox for Mobile, SeaMonkey, Gnome Web"
 ,,,,,,,
 Eversync,yes,no,yes,yes,no,yes,no
+floccus,no,no,yes,no,no,yes,no
 Client,Internet Explorer,Microsoft Edge,Mozilla Firefox,Opera,Safari,Google Chrome,other

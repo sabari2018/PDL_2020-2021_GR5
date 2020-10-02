@@ -9,4 +9,5 @@ Max/MSP,,,yes,yes,yes,yes,yes,yes,yes,,
 Pure Data,yes,yes,yes,yes,yes,yes,yes,yes,some,some,"  * bindings for Python, Lua, Java, GStreamer.  * the Camomile plugin may host PD as plugin within DAW. * PD-extended presently has multiple options to host LADSPA plugins within PD environment."
 Reaktor,,,yes,yes,yes,yes,,yes,no,yes,
 SuperCollider,yes,yes,yes,yes,yes,yes,yes,,no,yes," LADSPA Host, scsynth can be controlled by OSC messages (Haskell, Scala, Python, Ruby, Scheme etc.)"
+SynthEdit,,,yes,yes,no,no,,yes,no,yes,
 [https://vcvrack.com/ VCV Rack],,,yes,yes,yes,yes,,yes,,,

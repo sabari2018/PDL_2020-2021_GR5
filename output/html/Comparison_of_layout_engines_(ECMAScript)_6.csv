@@ -1,4 +1,4 @@
-,Trident (layout engine),Gecko (layout engine),WebKit,Presto (layout engine),Blink (layout engine)
+Array object,Trident (layout engine),Gecko (layout engine),WebKit,Presto (layout engine),Blink (layout engine)
 Called as function,,,,,
 " Array([item1 [, item2 [, ...]]]) ",Yes,Yes,Yes,Yes,Yes
 Called as constructor,,,,,

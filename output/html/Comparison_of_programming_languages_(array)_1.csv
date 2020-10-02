@@ -6,15 +6,13 @@ AWK,length,1,asorti
 " C Sharp (programming language), C Sharp (programming language), C Sharp (programming language), C Sharp (programming language) ",name .Length,name .GetLowerBound( dimension ),name .GetUpperBound( dimension )
 CFML,arrayLen( name )    name .len(),1,name .len()
 Ch (computer programming),max(shape( name )),0,max(shape( name ))-1
-Cobra (programming language),name .length,0,name .length-1
 Common Lisp,(length  name ),0,(1- (length  name ))
-D (programming language),name .length,0,name .length-1 $-1
+D (programming language),name .length,0,name .length-1   $-1
 Fortran,SIZE( name ),LBOUND( name ),UBOUND( name )
 Go (programming language),len( name ),0,len( name ) - 1
 Haskell (programming language),rangeSize (bounds  name ),fst (bounds  name ),snd (bounds  name )
-Haxe,name .length,0,name .length - 1
 ISLISP,(length  name ),0,(1- (length  name ))
-" Java (programming language), Java (programming language), Java (programming language), Java (programming language) ",name .length,0,name .length - 1
+" Cobra (programming language), Cobra (programming language), Cobra (programming language), Cobra (programming language), Cobra (programming language), Cobra (programming language) ",name .length,0,name .length - 1
 J (programming language),# name,0,<:@# name
 Julia (programming language),length( name ) size( name ),1 first.(axes( name )),end last.(axes( name ))
 Lingo (programming language),count( name ),1,getLast( name )

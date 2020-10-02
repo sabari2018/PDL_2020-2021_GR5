@@ -14,7 +14,7 @@ Firebird,yes,yes,yes,dunno,yes,yes,API  ; SQL,Yes
 HSQLDB,yes,yes,yes,dunno,yes,yes,SQL,Yes
 H2,yes,yes,yes,dunno,yes,yes,SQL,Yes
 Informix Dynamic Server,yes,yes,yes,yes (Row-level locking),yes,yes," SQL, REST, and JSON",Yes
-Ingres,yes,yes,yes,dunno,dunno,yes,QUEL,Yes
+Ingres,yes,yes,yes,yes (Row-level locking),yes,yes,QUEL,Yes
 InterBase,yes,yes,yes,dunno,dunno,yes,SQL,Yes
 Linter SQL RDBMS,yes,yes,yes (Except for DDL),yes (Row-level locking),dunno,yes,API  ; GUI  ; SQL,Yes
 LucidDB,yes,no,no,dunno,dunno,yes,SQL,Yes
@@ -25,9 +25,8 @@ Microsoft Visual FoxPro,Yes,Yes,Yes,Yes (Row-level locking SMB2),Yes,No,GUI  ; S
 Microsoft SQL Server,yes,yes,yes,yes (Row-level locking),yes,yes,GUI  ; SQL,Yes
 Microsoft SQL Server Compact (Embedded Database),yes,yes,yes,dunno,dunno,yes,GUI  ; SQL,Yes
 Mimer SQL,yes,yes,yes,yes (Optimistic locking),yes,yes,API  ; GUI  ; SQL,Yes
-MonetDB,yes,yes,yes,dunno,dunno,yes,SQL,Yes
+MonetDB,yes,yes,yes,dunno,dunno,yes,API  ; SQL  ; MAL,Yes
 MySQL,yes2,yes3,yes2 except for DDL,yes,yes,GUI 5  ; SQL,Yes
-OpenBase SQL,yes,yes,yes,dunno,dunno,yes,GUI  ; SQL,Yes
 OpenEdge,yes,yes7,yes,yes (Row-level locking),dunno,yes,GUI  ; SQL,Yes
 OpenLink Virtuoso,yes,yes,yes,dunno,dunno,yes,GUI  ; SQL,Yes
 Oracle,yes,yes,yes except for DDL,yes,yes,GUI  ; SQL,Yes

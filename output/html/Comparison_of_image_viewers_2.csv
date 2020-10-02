@@ -3,8 +3,8 @@ ACDSee,,,BMP,JPEG,PNG,TIFF,GIF,PSD," ACDSee reads 9 compression formats and writ
 Adobe Bridge,,,,,,,,,Displays all file types supported by Adobe Creative Suite
 Apple Aperture,,PDF,,JPEG,PNG,TIFF,GIF,PSD," Adobe Photoshop, OLY,[ Adobe Photoshop ] Various video formats including: Adobe Photoshop, Adobe Photoshop, Adobe Photoshop "
 CDisplay," CBZ, CBR, CBT, CBA",,BMP,JPEG,PNG,,GIF,,
-Comix (software)," CBZ, CBR, CBT",,,JPEG,PNG,,,,...
-DigiKam,,,BMP,JPEG,PNG,TIFF,GIF,," JPEG 2000, JPEG 2000, JPEG 2000, JPEG 2000, PPM, JPEG 2000, JPEG 2000, PGX, JPEG 2000, JPEG 2000, MPE, JPEG 2000, JPEG 2000, JPEG 2000 "
+Comix," CBZ, CBR, CBT",,,JPEG,PNG,,,,...
+DigiKam,,,BMP,JPEG,PNG,TIFF,GIF,," JPEG 2000, JPEG 2000, JPEG 2000, JPEG 2000, PPM, JPEG 2000, JPEG 2000, PGX, JPEG 2000, JPEG 2000, MPE, JPEG 2000, JPEG 2000, JPEG 2000, JPEG 2000 "
 Eye of GNOME,,,BMP,JPEG,PNG,TIFF,GIF,," Netpbm format, Netpbm format, Netpbm format, Netpbm format, Netpbm format "
 F-Spot,,,,JPEG,PNG,TIFF,GIF,," Portable pixmap, Portable pixmap "
 Fast Picture Viewer,,,BMP,JPEG,PNG,TIFF,,PSD," HD Photo, HD Photo, HD Photo, HD Photo (+ HD Photo, HD Photo, HD Photo, MTIFF in the registered edition, as well as HD Photo, HD Photo, PSD, HDR, DDS, EXR, J2K, PNM, PBM, PGM, PBM, LRPREV, JPS through additional HD Photo from the optional FastPictureViewer Codec Pack or from 3rd parties) "
@@ -22,7 +22,6 @@ Lphoto,,,,,,,,,iPhoto Clone
 Phase One Media Pro,,PDF,,JPEG,PNG,TIFF,GIF,PSD," Supports over 100 file formats for images, videos and documents, including: PSD, IIQ, CR, EIP, DOC "
 Picasa,,,BMP,JPEG,PNG,TIFF,GIF,," 8 types including Truevision TGA, Truevision TGA, and some movie formats "
 Preview (software),,PDF,BMP,JPEG,PNG,TIFF,GIF,,All QuickTime images:
-ResourceSpace,,,,,,,,,Hundreds; all types supported by ImageMagick and ImageMagick plus ImageMagick
 Shotwell (software),,,,JPEG,PNG,TIFF,GIF,,Raw image format and some video formats
 Simple Comic," CBZ, CBR, CB7",,,JPEG,PNG,,GIF,," JPEG2000, any other JPEG2000 supported format. Also opens JPEG2000, JPEG2000, JPEG2000, JPEG2000 "
 STDU Viewer,,PDF,BMP,JPEG,PNG,TIFF (multipage),GIF,PSD," TXT, EMF, WMF, DjVu, XPS "

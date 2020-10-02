@@ -1,0 +1,48 @@
+[ Product
+, Creator
+, Latest stable release date
+, Latest stable release
+, License]]
+, Windows]]
+, Runs on [[Mac OS X]]
+, Runs on [[Linux]]
+, Oracle]]
+, [[MySQL]]
+, [[PostgreSQL]]
+, MS SQL Server]]
+, ODBC
+, [[JDBC]]
+, [[SQLite]]
+, Other
+, Programming language
+],
+| Jakub Vrána,| {{Adminer version|releasedate}},| {{Adminer version}},|[[Apache License]] or [[GPL]],| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| ,| ,| {{yes}},| ,|[[PHP]],
+| Eugenio Tacchini,| {{DaDaBIK version|releasedate}},| {{DaDaBIK version}},|[[Proprietary software|Proprietary]],| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{no}},| {{no}},| {{yes}},| ,|[[PHP]],
+| The Unauthorized Frog project,| 2012-05-29,| v0.1i,|[[LGPL]],| {{yes}},| {{no}},| {{yes}},| ,| {{yes}},| ,| ,| ,| ,| ,| ,| Qt/C++,
+|[[Altova]],| {{DatabaseSpy version|releasedate}},| {{DatabaseSpy version}},|[[Proprietary software|Proprietary]],| {{yes}},| {{no}},| {{no}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| ,|[[IBM DB2]] [[Sybase]] [[MS Access]],|[[C++]],
+| Upscene Productions,| 2017-06-29,| 5.3.2,|[[Proprietary software|Proprietary]],| {{yes}},| {{Depends|requires [[Wine (software)|Wine]]}},| {{Depends|requires [[Wine (software)|Wine]]}},| {{yes}},| {{yes}},| ,| {{yes}},| {{yes}},| ,| ,|[[InterBase]] [[Firebird (database server)|Firebird]] [[SQL Anywhere]] [[NexusDB]] and [[MariaDB]],|[[Delphi (programming language)|Delphi]],
+| JetBrains,| 2017-09-06,| 2017.2.2,|[[Proprietary software|Proprietary]],| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{no}},| {{yes}},| {{yes}},|[[Sybase]] [[IBM DB2|DB2]] [[H2 (DBMS)|H2]] [[Hypersonic SQL]] [[Amazon Redshift]] [[Apache Derby]],|[[Java (programming language)|Java]],
+
+| Serge Rider,| 2020-08-31,| 7.2.0,|[[Apache License]],| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}} ,|[[MySQL]] [[PostgreSQL]] [[Oracle Database|Oracle]] [[EXASOL]] [[IBM DB2]] [[Microsoft SQL Server|SQL Server]] [[Apache Derby]] [[Firebird (database server)|Firebird]] all with [[JDBC]] driver,|[[Java (programming language)|Java]],
+| Jef Van Den Ouweland,| 2012-05-10,| 2.4.6,|[[GPL]],| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{no}},| {{yes}},| {{yes}} ,|[[IBM DB2]] [[HSQLDB]] [[Apache Derby]] [[H2 (DBMS)|H2]],|[[Java (programming language)|Java]],
+| Antilogic Software,| {{dunno}},| {{dunno}},|[[Proprietary software|Proprietary]],| {{yes}},| {{yes}},| {{yes}},| {{yes}},| ,| {{yes}},| {{yes}},| ,| ,| ,|[[Sybase]] [[InterBase]]/[[Firebird (database server)|Firebird]] [[H2 (DBMS)|H2]] [[HSQLDB]],|[[Java (programming language)|Java]],
+| Ansgar Becker,| {{HeidiSQL version|releasedate}},| {{HeidiSQL version}},|[[GPL]],| {{yes}},| {{Depends|requires [[Wine (software)|Wine]]}},| {{Depends|requires [[Wine (software)|Wine]]}},| ,| {{yes}},| {{yes}},| {{yes}},| ,| ,| {{yes}},| ,|[[Embarcadero Delphi]],
+|[[Baron Schwartz]],| 2010-06-01,| 5247,|[[GPL]],| {{yes}},| {{yes}},| {{yes}},| ,| {{yes}},| ,| ,| ,| ,| ,| ,|[[Perl]],
+|[[Microsoft]],| 2020-07-22,| 18.6,|[[Proprietary software|Proprietary]],| {{yes}},| {{no}},| {{no}},| ,| ,| ,| {{yes}},| ,| ,| ,| including SSAS management and MDX DMX and XMLA languages,|[[.NET Framework|.Net]],
+|[[ModelRight]],| 2016-12-??,| 4.1,|[[Proprietary software|Proprietary]],| {{yes}},| {{no}},| {{no}},| {{yes}},| {{yes}},| ,| {{yes}},| {{yes}},| ,| ,|[[Microsoft SQL Server|SQL Server]] [[Oracle Database|Oracle]] [[MySQL]] [[PostgreSQL]] [[IBM DB2|DB2]] DB2/zOS [[MS Access]],|[[C++]],
+|[[Oracle Corporation]],| {{MySQL Workbench version|releasedate}},| {{MySQL Workbench version}},| Community Ed: [[GPL]],Standard Ed: Commercial Proprietary,,| {{yes}},| {{yes}},| {{yes}},| ,| {{yes}},| ,| ,| ,| ,| ,| ,|[[C++]]/[[C Sharp (programming language)|C#]] [[Objective-C]] [[Python (programming language)]],
+| PremiumSoft CyberTech Ltd.,| 2020-04-15,| 15.0.13,|[[Proprietary software|Proprietary]],| {{yes}},| {{yes}},| {{Depends|requires [[Wine (software)|Wine]]}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| ,| {{yes}},| ,|[[Embarcadero Delphi|Borland Delphi]] [[Objective-C]],
+| PremiumSoft CyberTech Ltd.,| 2015-12-10,| 2.1,|[[Proprietary software|Proprietary]],| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| ,| {{yes}},| ,|[[Embarcadero Delphi|Borland Delphi]] [[Objective-C]],
+|[[Oracle Corporation|Oracle Corp.]],| 2015-06-16,| 12.1.0.5,|[[Proprietary software|Proprietary]],| {{yes}},| {{No}},| {{yes}},| {{yes}},| {{yes}},| ,| {{yes}},| ,| ,| ,|[[IBM DB2|DB2]] [[Sybase]] [[TimesTen]],|[[Java (programming language)|Java]],
+|[[Oracle Corporation|Oracle Corp.]],| 2018-04-05,| 18.1.0.095.1630,|[[Proprietary software|Proprietary]],| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{no}},| {{yes}},| {{yes}},| {{yes}},| ,|[[Microsoft Access]] [[Sybase]] [[IBM DB2|DB2]] [[Teradata]],|[[Java (programming language)|Java]],
+| Andrzej Kaluza,| {{Orbada version|releasedate}},| {{Orbada version}},|[[GPL]],| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},|[[FirebirdSQL|Firebird]] [[HSQL]] [[InterBase]] [[Derby]] all with [[JDBC]] driver,|[[Java (programming language)|Java]],
+| pgAdmin Development Team,| 2020-03-05,| 4.19,|[[PostgreSQL|PostgreSQL License]],| {{yes}},| {{yes}},| {{yes}},|,| | ,| {{yes}},| ,| ,| ,| ,| ,|[[C++]],
+| Dane Iracleous Christopher Kramer and others,| 2019-09-05,| 1.9.8.2,|[[GPL]],| {{yes}},| {{yes}},| {{yes}},| {{no}},| {{no}},| {{no}},| {{no}},| {{no}},| {{no}},| {{yes}},| ,|[[PHP]],
+| phpMyAdmin Development Team,|{{phpMyAdmin version|releasedate}},|{{phpMyAdmin version}},|[[GPL]],| {{yes}},| {{yes}},| {{yes}},| ,| {{yes}},| ,| ,| ,| ,| ,|[[Drizzle (database server)|Drizzle]] [[MariaDB]],|[[php]],
+ | Jan Prochazka, | 2016-05-27, | 3.4.1, |[[Proprietary software|Proprietary]], | {{yes}}, | {{no}}, | {{no}}, | {{no}}, | {{no}}, | {{no}}, | {{yes}}, | , | , | , | , |[[.NET Framework|.NET]] [[Wolf Preservation Foundation|WPF]] [[C Sharp (programming language)|C#]],
+| Webyog Softworks Pvt. Ltd.,| {{SQLyog version|releasedate}},| {{SQLyog version}},|[[Gpl v2#Version 2|GPLv2]],| {{yes}},| {{Depends|requires [[Wine (software)|Wine]]}},| {{Depends|requires [[Wine (software)|Wine]]}},| ,| {{yes}},| ,| ,| ,| ,| ,| ,|[[C++]],
+| Colin Bell Gerd Wagner Rob Manning and others,| {{SQuirreL SQL Client version|releasedate}},| {{SQuirreL SQL Client version}},|[[GPLv2]] ; [[LGPL]]v2,| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},|[[Microsoft Access|Access]]Axion Java RDBMS [[Apache Derby]] Daffodil DB FileMaker (JDBC) [[SESAM (database)|Fujitsu Siemens SESAM/SQL]] [[Firebird (database server)|Firebird]] [[FrontBase]] [[HSQLDB]] [[Hypersonic SQL]] [[H2 (DBMS)]] [[IBM DB2]] [[Informix]] [[Ingres (database)|Ingres]] [[OpenIngres]] InstantDB [[InterBase]] Mckoi SQL Database [[Microsoft SQL Server]] [[Mimer SQL]] [[Netezza]] Pointbase [[SAPDB]] [[Sybase]] Sunopsis XML Driver Teradata Warehouse ThinkSQL RDBMS Vertica Analytic Database and others with JDBC drivers.,|[[Java (programming language)|Java]],
+|[[Quest Software]],| Various,| Various,|[[Proprietary software|Proprietary]],| {{yes}},| {{no}},| {{no}},| {{yes}},| {{yes}},| ,| {{yes}},| {{yes}},| ,| ,|[[IBM DB2|DB2]] [[Sybase]],|[[Embarcadero Delphi]] [[C Sharp (programming language)|C#.NET]],
+|[[Quest Software]],| 2009-03-05,| 3.3.8,|[[Proprietary software|Proprietary]],| {{yes}},| {{no}},| {{no}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| ,| ,| ,|[[IBM DB2|DB2]] [[MS Access]] [[Sybase]],|[[Embarcadero Delphi]],
+| Community,| 2017-07-04,| 3.2,|[[GPL]],| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| ,| ,| ,| ,|[[Teradata]],|[[C++]]/[[Qt (software)|Qt]],
+,

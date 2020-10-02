@@ -10,7 +10,7 @@ Windows 98 SE,Windows shell,Windows XP visual styles,Internet Explorer 5,Microso
 Windows 2000,Windows shell,Windows XP visual styles,Internet Explorer 5.01,Internet Information Services 5.0,5.0 and 6.4 (side by side)," COMMAND.COM, COMMAND.COM "
 Windows Me,Windows shell,Windows XP visual styles,Internet Explorer 5.5,N/A,6.4 and 7.0 (side by side),COMMAND.COM
 Windows XP,Windows shell," Windows XP visual styles (default), Windows XP visual styles ",Internet Explorer 6,Internet Information Services 5.1," 5.1, 6.4 and 8 (in RTM) 5.1, 6.4 and 9 (in SP2) "," COMMAND.COM, COMMAND.COM, COMMAND.COM (optional) "
-Windows Server 2003,Windows shell," Windows XP visual styles (default), Windows XP visual styles ",6.0,Internet Information Services 6.0," 9 (in RTM), 10 (in SP1) "," COMMAND.COM, COMMAND.COM, COMMAND.COM (optional) "
+Windows Server 2003,Windows shell," Windows XP visual styles (default), Windows XP visual styles ",Internet Explorer 6,Internet Information Services 6.0," 9 (in RTM), 10 (in SP1) "," COMMAND.COM, COMMAND.COM, COMMAND.COM (optional) "
 Windows Vista,Windows shell," Aero Glass (default), Aero Glass ",Internet Explorer 7,Internet Information Services 7,11," COMMAND.COM, COMMAND.COM, COMMAND.COM (optional) "
 Windows Server 2008," Windows shell, Windows shell "," Windows XP visual styles (default), Windows XP visual styles (via ""Desktop Experience"") ",Internet Explorer 7,Internet Information Services 7," 11 (enabled by installing ""Desktop Experience"") "," COMMAND.COM, COMMAND.COM, COMMAND.COM (optional) "
 Windows 7,Windows shell," Aero Glass (default), Aero Glass ",Internet Explorer 8,Internet Information Services 7.5,12," COMMAND.COM, COMMAND.COM, COMMAND.COM v2.0 "

@@ -1,26 +1,25 @@
-,Windows,OS X,Linux,BSD,Unix
-Ddoc,Yes,name=fn1,Yes,name=fn1,No
-Document! X,Yes,No,No,No,No
-Doxygen,Yes,Yes,Yes,Yes,Yes
-Epydoc,Yes,Yes,Yes,Yes,Yes
-Haddock,Yes,Yes,Yes,Yes,Yes
-HeaderDoc,No,Yes,Yes,Yes,Yes
-Imagix 4D,Yes,No,Yes,No,Yes
-Javadoc,Yes,Yes,Yes,Yes,Yes
-JSDoc,Yes,Yes,Yes,Yes,Yes
-JsDoc Toolkit,Yes,Yes,Yes,Yes,Yes
-mkd,Yes,No?,Yes,Yes,Yes
-Natural Docs,Yes,Yes,Yes,Yes,Yes
-NDoc,Yes,No,No,No,No
-Pandoc,Yes,Yes,Yes,Yes,Yes
-pdoc,Yes,Yes,Yes,Yes,Yes
-perldoc,Yes,Yes,Yes,Yes,Yes
-phpDocumentor,Yes,Yes,Yes,Yes,Yes
-pydoc,Yes,Yes,Yes,Yes,Yes
-RDoc,Yes,Yes,Yes,Yes,Yes
-ROBODoc,Yes,Yes,Yes,Yes,Yes
-Sandcastle,Yes,No,No,No,No
-Sphinx,Yes,Yes,Yes,Yes,Yes
-Visual Expert,Yes,No,No,No,No
-VSdocman,Yes,No,No,No,No
-,Windows,OS X,Linux,BSD,Unix
+,HTML,CHM,RTF,PDF,LaTeX,PostScript,man pages,DocBook,XML,ePub
+COBOLDoc,Yes,No,No,No,No,No,No,No,No
+Ddoc,Yes,name=fn4,No,name=fn4,name=fn4,name=fn4,name=fn4,No,name=fn4
+Document! X,Yes,Yes,No,No,No,No,No,No,No
+Doxygen,Yes,Yes,Yes," bgcolor=""#ffffdd""  Indirectlyname=fn13Generated from the LaTeX output only.",Yes," bgcolor=""#ffffdd""  Indirectlyname=fn13",Yes,Yes,Yes,No
+Epydoc,Yes,No,No,Yes," bgcolor=""#ffffdd""  Indirectlyname=fn5"," bgcolor=""#ffffdd""  Indirectlyname=fn5",No,No,No
+Haddock,Yes,Yes,No,No,No,No,No," bgcolor=""#ffffdd""  Partial",No
+HeaderDoc,Yes,No,No,No,No,No,Yes,No,Yes
+Imagix 4D,Yes,No,Yes,No,No,No,No,No,No
+Javadoc,Yes," bgcolor=""#ffffdd""  Indirectlyname=fn6"," bgcolor=""#ffffdd""  Indirectlyname=fn6"," bgcolor=""#ffffdd""  Indirectlyname=fn6"," bgcolor=""#ffffdd""  Indirectlyname=fn6"," bgcolor=""#ffffdd""  Indirectlyname=fn6"," bgcolor=""#ffffdd""  Indirectlyname=fn6"," bgcolor=""#ffffdd""  Indirectlyname=fn6"," bgcolor=""#ffffdd""  Indirectlyname=fn6"
+JSDoc,Yes,No,No,No,No,No,No,No,No
+JsDoc Toolkit,Yes,No,No,No,No,No,No,No,Yes+JSON
+Natural Docs,Yes,No,No,No,No,No,No,No,No
+NDoc,Yes,Yes,No,No,No,No,No,No,No
+pdoc3,Yes,No,No," bgcolor=""#ffffdd""  Indirectlyname=pdoc3Generated from Markdown or HTML output only.",No,No,No,No,No,No
+phpDocumentor,Yes,Yes,No,Yes,No,No,No,Yes,Yes
+pydoc,Yes,No,No,No,No,No,No,No,No,No
+RDoc,Yes,name=fn9,No,No,No,No," bgcolor=""#ffffdd""  Indirectlyname=fn10",No,name=fn9
+ROBODoc,Yes," bgcolor=""#ffffdd""  Indirectly",Yes," bgcolor=""#ffffdd""  Indirectlyname=fn5",Yes," bgcolor=""#ffffdd""  Indirectlyname=fn5",Yes,Yes,No
+Sandcastle,Yes,Yes,No,No,No,No,No,No,No
+Sphinx,Yes,Yes,," bgcolor=""#ffffdd""  Indirectlyname=aGenerated from the LaTeX output only",Yes,,Yes,,,Yes
+Visual Expert,Yes,No,No,No,No,No,No,No,No
+VSdocman,Yes,Yes,No,Yes,No,No,No,No,Yes
+YARD,Yes,No,No,No,No,No,No,No,No
+,HTML,CHM,RTF,PDF,LaTeX,PostScript,man pages,DocBook,XML,ePub

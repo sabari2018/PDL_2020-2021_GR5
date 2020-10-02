@@ -1,0 +1,18 @@
+[ Manufacturer
+, Module
+, Transceiver Chip
+, Antenna
+, Sleep
+, TX
+, RX
+, TX Power
+, Sensitivity
+, PCB Size
+, Released
+, Interfacing
+, Protocol stacks
+],
+| EasyBee br [http://flexipanel.com/Docs/EasyBee%20DS480%20Cover%20Page.pdf summary] br [http://flexipanel.com/Docs/LinkMatik-232%20DS511.pdf datasheet],| Texas Instruments CC2420 br [http://www.ti.com/lit/gpn/cc2420 datasheet] br [http://www.ti.com/litv/pdf/swrz003 errata],| integral,|,| 18mA,| 20mA,| 0dBm,|,| 26mm × 20mm,| Mar 2008,| ?,| ZigBee stack,
+| EMB-TRX169PA 169MHz br [http://www.embit.eu/products/wireless-modules/emb-trx169pa/ webpage]{{Dead link|date=July 2020 |bot=InternetArchiveBot |fix-attempted=yes }},| CC1120 br [http://www.ti.com/product/cc1120 datasheet],| U.FL connector,| 1μA,| 400 mA @ +27 dBm,| 27mA (full sens.),| 27dBm,| -122dBm,| 16mm × 26mm,| 2013,| [[UART]] [[Serial Peripheral Interface Bus|SPI]] [[Joint Test Action Group|JTAG]],| [http://www.embit.eu/products/firmware-stacks/wmbus/ Wireless M-Bus stack],
+| MRF24J40MA br [http://ww1.microchip.com/downloads/en/DeviceDoc/70329b.pdf datasheet],| MRF24J40 br [http://ww1.microchip.com/downloads/en/DeviceDoc/39776a.pdf datasheet],| PCB trace,| 2μA,| 23mA,| 19mA,| 0dBm,| –94dBm,| 17.8mm × 27.9mm,| [http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE;nodeId=2018;mcparam=en535996 Jun 2008],| [[Serial Peripheral Interface Bus|SPI]],| [http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE;nodeId=1824;appnote=en537767 Microchip ZigBee] br [https://web.archive.org/web/20070603054355/http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE;nodeId=1824;appnote=en520606 MiWi] br [https://web.archive.org/web/20130215104338/http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE;nodeId=1824;appnote=en536181 MiWi P2P],
+,

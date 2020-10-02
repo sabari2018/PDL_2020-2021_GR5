@@ -1,0 +1,13 @@
+[ Parser
+, License]]
+, Implementation language(s)
+, Latest date*
+, url=https://web.archive.org/web/20130116033029/http://www.whatwg.org/specs/web-apps/current-work/multipage/parsing.html , HTML5-compliant parsing
+, Clean HTML**
+, Update HTML***
+],
+| [[W3C license]],| [[ANSI C]],| 2017-03-01,| {{Yes}},| {{Yes}},| {{Yes}}ref name="what_is_tidy"/,| {{Yes}},
+| [[Apache License]] 2.0,| [[Java (programming language)|Java]],| 2019-08-24,| {{Yes}},| {{dunno}},| {{No}},| {{No}},
+| [[MIT License]],| [[C (programming language)|C]],| 2017-11-02,| {{Yes}},| {{No}},| {{dunno}},| {{dunno}},
+! [[Software license|License]],! Implementation language(s),! Latest date*,! HTML Parsing,! HTML5-compliant Parsing,! Clean HTML**,! Update HTML***,
+,

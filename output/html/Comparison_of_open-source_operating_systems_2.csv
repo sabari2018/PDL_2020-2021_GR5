@@ -5,13 +5,12 @@ OpenBSDOpenBSD,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,No,SuperH
 NetBSDNetBSD,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes," SuperH, SuperH, SuperH, SuperH, SuperH, mipseb, SuperH, SuperH, SuperH, SuperH ",
 DragonFly BSDDragonFly BSD,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,,vkernel
 OpenSolarisOpenSolaris OpenSolaris,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,No,No,No,No,No,No,No,,
-AuroraUX (page does not exist)AuroraUX (page does not exist),Yes,Yes,Yes,No,Yes,Yes[Note 1],No,Yes,Yes,No,Yes[Note 1],Yes,No,No,No,No,
 " Darwin (operating system), Darwin (operating system)Darwin (operating system) ",Yes,Yes,No,No,Yes,Yes,Yes,No,No,No,No,Yes,No,Yes,No,No,,L4/Darwin
 MINIXMINIX,Yes,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,,
 FreeDOS,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,,
 Genode,Yes,Yes,Yes,No,No,No,No,No,No,No,No,Yes,No,No,No,No,RISC-V,Linux
 Haiku (operating system),Yes,Yes,No,No,Yes,No,No,No,No,No,No,No[Note 1][8],No,No,No,No,,
-KolibriOS,Yes,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,,
+KolibriOS,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,,
 MenuetOS,Yes,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,,
 GNU,Yes,Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2],Yes[Note 2]," FR-V, FR-V, FR-V, FR-V, FR-V, FR-V, FR-V, FR-VFR-V "," User-mode Linux, User-mode LinuxUser-mode Linux "
 ReactOS,Yes,Yes,No[Note 1],No,Yes,No[Note 1],No[Note 1],No,No,No,No,Yes,No,No,No,No,,

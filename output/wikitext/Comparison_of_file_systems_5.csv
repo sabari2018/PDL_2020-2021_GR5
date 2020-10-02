@@ -1,27 +1,58 @@
-"scope=""col""File system","scope=""col""Host OS","scope=""col""Offline grow","scope=""col""Online grow","scope=""col""Offline shrink","scope=""col""Online shrink"
-"scope=""row""FAT16 / FAT16B / FAT16X",misc.,yes,no,yes,no
-"scope=""row""FAT32 / FAT32X",misc.,yes,no,yes,no
-"scope=""row""exFAT",misc.,no,no,no,no
-"scope=""row""NTFS",Windows,yes,yes,yes,yes
-"scope=""row""ReFS",Windows,dunno,yes,dunno,no
-"scope=""row""HFS+",macOS,no,yes,no,yes
-"scope=""row""APFS",macOS,dunno,dunno,dunno,dunno
-"scope=""row""HFS+",Linux,no,no,no,no
-"scope=""row""SquashFS",Linux,no,no,no,no
-"scope=""row""NOVA",Linux,no,no,no,no
-"scope=""row""JFS",Linux,yes,no,no,no
-"scope=""row""XFS",Linux,no,yes,no,no
-"scope=""row""Lustre",Linux,dunno,yes,no,no
-"scope=""row""F2FS",Linux,yes,no,no,no
-"scope=""row""NTFS",Linux,yes,no,yes,no
-"scope=""row""ext2",Linux,yes,no,yes,no
-"scope=""row""ext3",Linux,yes,yes,yes,no
-"scope=""row""ReiserFS",Linux,yes,yes,yes,no
-"scope=""row""Reiser4",Linux,yes,yes,yes,no
-"scope=""row""ext4",Linux,yes,yes,yes,no
-"scope=""row""Btrfs",Linux,yes,yes,yes,yes
-"scope=""row""NILFS",Linux,no,yes,no,yes
-"scope=""row""ZFS",misc.,no,yes,no,partial
-"scope=""row""JFS2",AIX,dunno,yes,dunno,yes
-"scope=""row""UFS2",FreeBSD,yes,yes (FreeBSD 10.0-RELEASE or later),no,no
-"scope=""row""HAMMER",DragonflyBSD,dunno,dunno,dunno,dunno
+File system,Internal snapshotting / branching,encryption,deduplication,Checksum,Persistent Cache,Multiple Devices,compression
+DECtape,no,no,no,no,no,no,no
+BeeGFS,no,no,yes,no,no,no,yes
+Level-D,no,no,no,no,no,no,no
+RT-11,no,no,no,no,no,no,no
+APFS,yes,yes,no,no,no,no,yes
+Version 6 Unix file system (V6FS),no,no,no,no,no,no,no
+Version 7 Unix file system (V7FS),no,no,no,no,no,no,no
+exFAT,no,no,no,no,no,no,no
+FAT12,no,no,no,no,no,no,partial (only inside of 4 and DriveSpace 3 compressed volumes)
+FAT16 / FAT16B / FAT16X,no,no,no,no,no,no,partial (only inside of 4 and DriveSpace 3 compressed volumes)
+FAT32 / FAT32X,no,no,no,no,no,no,no
+GFS,no,no,dunno,no,no,no,no
+HPFS,dunno,no,dunno,no,no,no,no
+NTFS,no,yes," name=note-NTFS-Dedup Supported only on Windows Server SKUs. However, partitions deduplicated on Server can be used on Client.",no,no,no,yes
+HFS Plus,no," name=note-77 HFS+ does not actually encrypt files: to implement FileVault, OS X creates an HFS+ filesystem in a sparse, encrypted disk image that is automatically mounted over the home directory when the user logs in.",no,no,no,no,no
+FFS,no,no,no,no,no,no,no
+UFS1,no,no,no,no,no,no,no
+UFS2,yes,no,no,no,no,no,no
+HAMMER,yes,no,yes,yes,no,no,no
+LFS,yes,no,no,no,no,no,no
+ext,no,no,no,no,no,no,no
+Xiafs,no,no,no,no,no,no,no
+ext2,no,no,no,no,no,no,no
+ext3,no,no,no,no,no,no,no
+ext4,no," yes, experimental ",no,no,no,no,no
+NOVA,yes,no,no,yes,no,no,no
+F2FS,no," yes, experimental ",no,no,no,no,yes
+Lustre,no,no,no,no,yes,yes,no
+NILFS,name=note-38,no,no,yes,no,no,no
+ReiserFS,no,no,no,no,no,no,no
+Reiser4,dunno,name=note-50 Reiser4 supports transparent compression and encryption with the cryptcompress plugin which is the default file handler in version 4.1.,dunno,no,no,no,yes
+OCFS,no,no,no,no,no,no,no
+OCFS2,no,no,no,no,no,no,no
+XFS,no,no," yes, experimental ",no,no,no,no
+JFS,dunno,no,dunno,no,no,no,yes2 only in JFS1 on AIX
+QFS,no,no,no,no,no,no,no
+BFS,no,no,no,no,no,no,no
+NSS,yes,yes,dunno,no,no,no,yes
+NWFS,dunno,no,dunno,no,no,no,yes
+ODS-2,yes,no,no,no,no,no,no
+ODS-5,yes,no,no,no,no,no
+UDF,no,no,no,no,no,no,no
+VxFS," name=note-70 VxFS provides an optional feature called ""Storage Checkpoints"" which allows for advanced file system snapshots.",no,Yes,no,no,no,no
+Fossil,yes,no,yes,no,no,no,yes
+ZFS,yes,name=zfscrypt Applies to proprietary ZFS release 30 and ZFS On Linux. Encryption support is not yet available in all OpenZFS ports.,yes,yes,yes,yes,yes
+Btrfs,yes,no,yes,yes,no,yes,yes
+Minix V1,no,no,no,no,no,no,no
+Minix V2,no,no,no,no,no,no,no
+Minix V3,no,no,no,no,no,no,no
+VMFS2,no,no,no,no,no,no,no
+VMFS3,no,no,no,no,no,no,no
+ReFS,dunno,no,yes,yes,no,no,no
+ISO 9660,no,no," name=note-79Some file system creation implementations reuse block references and support deduplication this way.  This is not supported by the standard, but usually works well due to the file systems read-only nature.",no,no,no,no
+Rock Ridge,no,no,name=note-79,no,no,no,no
+" Joliet (""CDFS"")",no,no,name=note-79,no,no,no,no
+SquashFS,no,no,yes,yes,no,no,yes
+File system,Internal snapshotting / branching,Filesystem-level encryption,Data deduplication,Data checksums,Persistent Cache,Multiple Devices,compression

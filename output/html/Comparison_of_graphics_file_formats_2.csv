@@ -6,7 +6,7 @@ CorelDRAW,Lossy and lossless,Both," 1, 8, 24,and 32 (multiple palettes) ",Yes,Ye
 Cartesian Perceptual Compression,CPC,Raster,1,No,No,Yes,No,Yes,No,No,No," Yes, via embedded dictionary ",No
 Encapsulated PostScript," None, LZW, LZW, LZW, LZW ",Both,Device specific,No,Yes,Yes,N/A,Yes,No,Yes,Yes,Yes,Yes
 OpenEXR," None, Run-length encoding, Run-length encoding, Piz, PXR24, and B44, B44A, DWAA, DWAB ",Raster,16–128 (IEEE floating-point standard),No,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes
-Farbfeld (page does not exist),None,Raster,64 (16-bits-per-channel),No,Yes,No,No,No,No,No,No,No,No
+Farbfeld,None,Raster,64 (16-bits-per-channel),No,Yes,No,No,No,No,No,No,No,No
 Free Lossless Image Format," Lossless, MANIAC entropy coding ",Raster,1 to 16 bits per channel,Yes,Yes,Yes," Yes, Adam∞ ",No,Yes,No,Yes," Yes, via chunks "," Yes, with suitable ICC profile "
 GIF,LZW,Raster,Indexed (1bpc to 8bpc) and grayscale (8bpc),Yes,Yes; 1bpp plane-only mask using color index,Yes,Yes,Yes,Yes,Yes,No,Yes (GIF89a),No
 HD Photo / HD Photo,Lossy and lossless bi-orthogonal transform,Raster," 1, 2, 8, 16, 24, 32, 48, 64, and 128 (IEEE floating-point standard) ",No,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes
@@ -15,7 +15,7 @@ IMA,Lossy and lossless original mutiresolution analysis transformation,Raster," 
 JPEG," Lossy (and partly lossless), Discrete cosine transform, Discrete cosine transform, and Discrete cosine transform predictive nearest neighbor ",Raster," 8-bit (8-bit), 12-bit, and 8-bit ",No,No,Yes,Yes,No,No,No,Yes,No,No (see unofficial JPEG-HDR)
 JPEG 2000,Lossy and lossless (Discrete Wavelet Transform),Raster,8-bit and 8-bit (8-bit) with possibly color up to 8-bit,No,Yes,Yes,Yes,No,No,No,Yes,Unknown,No
 Krita,None,Both," Grayscale, Grayscale, Grayscale (8bpc, 16bpc, float16bpc, float32bpc), Grayscale, Grayscale and Grayscale (8bpc, 16bpc, float32bpc) ",No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes
-ORA,Lossless,Both," 1, 2, 4, 8, 16, 24, 32, 48, and 64 ",Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes
+OpenRaster,Lossless,Both," 1, 2, 4, 8, 16, 24, 32, 48, and 64 ",Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes
 PAM graphics format,None,Raster,Up to 16,No,Yes,Yes,No,Yes,No,No,No,Yes,No
 PCX," None, Run-length encoding ",Raster," 1, 2, 4, 8, 24 and 32 ",Yes,Yes,No,No,Yes,No,No,No,No,No
 Progressive Graphics File,Lossy and lossless (Discrete Wavelet Transform),Raster," Grayscale: 1, 8, 16, 31; Grayscale: 12, 16, 24, 32, and 48 ",Yes,Yes,Yes,Yes,No,No,No,No,Unknown,No

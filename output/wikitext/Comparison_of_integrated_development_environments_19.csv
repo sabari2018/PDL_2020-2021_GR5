@@ -1,5 +1,6 @@
 IDE,Developer,Latest stable release,Windows,Linux,macOS,Other platforms,Mobiles,Debugger,GUI builder,License,Autocomplete
-Delphi,Embarcadero Technologies,Delphi 10.3 (Rio) / November 21 2018,yes,no,no," cross-compile to Android, iOS (Linux server on the roadmap)",yes,yes,yes,proprietary,yes
+[https://www.pilotlogic.com/sitejoom/index.php/wiki/84-wiki/codetyphon-studio/72-codetyphon-about CodeTyphon],[https://www.pilotlogic.com PilotLogic],"7.00 / Jan 8, 2020 2020-01-08 Ver 7.00",yes,yes,yes,"Android, Haiku, AIX, DragonFly, Solaris, Windows CE, Java Virtual Machine, LLVM (experimental),  JavaScript transpiler, Embedded systems.",yes,yes,yes,GPL; LGPL with static linking exception,yes
+Delphi,Embarcadero Technologies,Delphi 10.3 (Rio) / November 21 2018,yes,no,no," cross-compile to Android, iOS Linux",yes,yes,yes,proprietary,yes
 Free Pascal IDE,Volunteers," 3.0.4 /  December 6, 2017",yes,yes,yes," Android, Haiku, AIX, Solaris, Windows CE, Java Virtual Machine, LLVM (experimental), JavaScript transpiler, Embedded systems.",yes,yes,no,GPL; LGPL with static linking exception,no
 KDevelop,KDevelop Team,Latest stable release/KDevelop (only 3.x supports Pascal),yes,yes,yes," Solaris, other Unix",no,no,no,GPL,
 Lazarus,Volunteers," 2.0.0 / February 6, 2019",yes,yes,yes,See Free Pascal,yes,yes,yes,GPL; LGPL with static linking exception,yes

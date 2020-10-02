@@ -3,7 +3,7 @@ AbsoluteTelnet,yes,no,no,no,no,no,no
 ALFTP,yes,no,no,no,no,no,no
 Beyond Compare,yes,yes,yes,no,no,no,no
 Classic FTP,yes,yes,no,no,no,no,no
-Codeanywhere (webbased),yes,yes,yes,yes,yes,yes,no
+Codeanywhere (webbased),yes,yes,yes,yes,yes,yes,yes
 Commander One,no,yes,no,no,no,no,no
 CoreFTP,yes,no,no,no,no,no,no
 CrossFTP,yes,yes,yes,yes,yes,yes,no
@@ -39,6 +39,7 @@ SmartFTP,yes,no,no,no,no,no,no
 Steed,yes,no,no,no,no,no,no
 Sysax FTP Automation,yes,no,no,no,no,no,no
 Total Commander,yes,no,no,no,no,no,no
+tnftp (CL),yes (cygwin),yes,yes,yes,yes,no,yes
 Transmit,no,yes,no,no,no,no,no
 WebDrive,yes,yes,no,no,no,no,no
 WinSCP,yes,no,no,no,no,no,no

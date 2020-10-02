@@ -1,0 +1,50 @@
+[ Name
+, Interface
+, Type of Client
+, Downloading headers [[XOVER]]
+, PAR]]
+, [[NZB]]
+, unZip or unRAR 
+, Integrated Search Service (retention / $$$/yr)
+, [[IPv6]]
+, SSL/TLS
+, Audio Video Streaming 
+, Price
+, Platform]]
+, License
+, Other
+],
+| [[GUI]],| Traditional Newsreader,| {{Yes}},| {{No}},| {{No}},|,|,|,|,|,| Free,| [[DOS]] [[Unix-like]],| {{free|[[GPL]]}},|,
+| [[GUI]],| Binary Grabber,| {{No}},| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}}br/(3200 Days / Free),| {{Yes}},| {{Yes}},| {{Yes}},| $59.95 / Free with subscription,| [[Microsoft Windows]],| {{proprietary}},| Streams media while downloading; Free with Usenet Service,
+| [[GUI]],|,|,|,|,|,|,|,|,|,| Free,| [[Cross-platform]],| {{Free|[[GPL]]}},|,
+| [[GUI]],| Combination,| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}},|,|,| {{Yes}},|,| $29,| [[Microsoft Windows]],| {{proprietary}},| Includes 3 month newsgroup service trial; Shareware,
+| [[Text-based]],| Traditional Newsreader,| {{Yes}},| {{No}},| {{No}},| {{No}},| {{No}},| {{Yes}},| {{Yes}},| {{No}},| Free,| [[Cross-platform]],| {{free|[[GPL]]}},| Runs in [[Emacs]]; also does [[Email]],
+| [[GUI]],| Binary Grabber,| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}} ,( 30 days / $24.99/yr ),| {{No}},| {{Yes}},|,| Free (searching extra),| [[Microsoft Windows]],| {{proprietary}},| Usenet Search Service,
+| [[GUI]],| Traditional Newsreader,| {{Yes}},| {{No}},| {{No}},|,|,| {{yes}},| {{yes}},|,| Free,| [[Unix-like]],| {{free|[[GPL]]}},| KDE,
+| [[GUI]],| Traditional Newsreader,| {{Yes}},| {{No}},| {{No}},|,|,|,|,|,| Varies,| [[Microsoft Windows]] [[Unix-like]] [[Mac OS X]],| {{proprietary}},| ,
+
+!Interface,!Type of Client,!Downloading headers [[XOVER]],![[Parchive|PAR]],![[NZB]],!unZip unRAR,!Integrated Search Service (retention / $$$/yr),![[IPv6]],!SSL/TLS,!Audio Video Streaming ,!Price,![[Platform (computing)|Platform]],!License,!Other,
+
+| Text-based,| Traditional Newsreader,| {{Yes}},| {{No}},| {{No}},|,|,| {{Yes}},| {{Yes}},|,| Free,| Cross-platform,| {{free|[[GPL]]}},| Limited USENET support,
+| [[GUI]],| Traditional Newsreader,| {{Yes}},| {{No}},| {{No}},| {{No}},| {{No}},|,|,|,| Free,| [[Cross-platform]],| {{free|[[Mozilla Public License|MPL]]/[[GPL]]/[[LGPL]] tri-license}},| Replaced by [[SeaMonkey|SeaMonkey Mail ; Newsgroups]],
+| [[GUI]],| Traditional Newsreader,| {{Yes}},| {{No}},| {{No}},| {{No}},| {{No}},| {{Yes}},| {{Yes}},|,| Free,| [[Cross-platform]],| {{free|[[Mozilla Public License|MPL]]}},| Plugin support,
+| [[GUI]],| Binary Grabber,| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}} ,( $10/yr ),| {{Yes}},| {{Yes}},|,| $20,| [[Microsoft Windows]],| {{proprietary}},| Shareware,
+| [[GUI]],| Combination,| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}},Optional extra ,Add $10 per year,| {{No}},| {{Yes}},|,| Varies,| [[Microsoft Windows]],| {{proprietary}},| Shareware,
+| [[GUI]],| Traditional Newsreader,| {{Yes}},| {{No}},| {{No}},|,|,|,|,|,| Varies,| [[Microsoft Windows]] [[Unix-like]],| {{proprietary}},| ,
+| [[GUI]],| Traditional Newsreader,| {{Yes}},| {{No}},| {{No}},|,| {{No}},| {{Yes}},| {{Yes}},|,| Free,| [[Cross-platform]],| {{proprietary}},| Part of [[Opera (web browser)|Opera]] up to version 12.17,
+| [[GUI]],| Traditional Newsreader,| {{Yes}},| {{No}},| {{No}},| {{No}},| {{No}},| {{Yes}},| {{Yes}},|,|,| [[Microsoft Windows]],| {{proprietary}},| Part of [[Microsoft Windows]] (up to [[Windows Server 2003]]),
+| [[GUI]],| Combination,| {{Yes}},| {{No}},| {{Yes}},| {{No}},|,| {{Yes}},| {{Yes}},|,| Free,| [[Unix-like]] [[Microsoft Windows]],| {{free|[[GPL]]}},| Gtk+,
+!Interface,!Type of Client,!Downloading headers [[XOVER]],![[Parchive|PAR]],![[NZB]],!unZip ; unRAR,!Integrated Search Service (retention / $$$/yr),![[IPv6]],!SSL/TLS ,!Audio Video Streaming,!Price,![[Platform (computing)|Platform]],!License,!Other,
+| [[GUI]],| Traditional Newsreader,| {{Yes}},| {{No}},| {{No}},| {{No}},| {{No}},|,|,|,| Free,| [[Cross-platform]],| {{free|[[Mozilla Public License|MPL]]}},| Replaced [[Mozilla Mail ; Newsgroups]],
+| [[Text-based (computing)|text-based]],| Traditional Newsreader,| {{Yes}},| {{Yes}},(using macros),| {{Yes}},(using macros),| {{Yes}},(using macros),| {{No}},| {{Yes}},| {{Yes}},| {{No}},| Free,| [[Cross-platform]],| {{free|[[GPL|GPLv2+]]}},| Highly extensible using [[S-Lang (programming language)|S-Lang]] scripts (macros),
+| [[GUI]],| Traditional Newsreader,| {{Yes}},| {{No}},| {{No}},|,|,|,| {{Yes}},|,| Free,| [[Cross-platform]],| {{free|[[GPL]]/[[LGPL]]}},| Gtk+,
+| [[Text-based (computing)|text-based]],| Traditional Newsreader,| {{Yes}},| {{No}},| {{No}},| {{No}},|,| {{Yes}},| {{No}},|,| Free,| [[Unix-like]],| {{free|[[BSD licenses|BSD]]}},| [[Free Software]],
+| [[GUI]],| Combination,| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}},|,| {{Yes}},| {{Yes}},| {{Yes}},(audio only),| Free,| [[Mac OS X]],| {{proprietary}},| Development has ceased. Free but unsupported.,
+| [[GUI]],| Combination,| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}} ,( 1500 days / $23.34/yr ),| {{Yes}},| {{Yes}},|,| $35,| [[Microsoft Windows]],| {{proprietary}},| Shareware,
+| [[GUI]],| Traditional Newsreader,| {{Yes}},|,|,|,|,| {{Yes}},|,|,| Free,| [[Microsoft Windows]],| {{proprietary}},|,
+| [[GUI]],| Traditional Newsreader,| {{Yes}},|,|,|,|,| {{Yes}},|,|,|,| [[Microsoft Windows]],| {{proprietary}},| Part of [[Windows Vista]] and [[Windows Server 2008]]. No Newsgroup or Usenet support in [[Windows 10]].{{better source|date=May 2020}},
+| [[GUI]],| Combination,| {{Yes}},| {{No}},| {{No}}br/(Can create NBZs),|,|,| {{No}},|,|,| Free,| [[Microsoft Windows]],| {{proprietary}},| ,
+| [[GUI]],| Traditional Newsreader,| {{Yes}},| {{No}},| {{No}},|,|,|,| {{Yes}},|,| Free,| [[Cross-platform]],| {{free|[[GPL]]}},| ,
+!Interface,!Type of Client,!Downloading headers [[XOVER]],![[Parchive|PAR]],![[NZB]],!unZip unRAR,!Integrated Search Service (retention / $$$/yr),![[IPv6]],!SSL/TLS,!Audio Video Streaming,!Price,![[Platform (computing)|Platform]],!License,!Other,
+
+,

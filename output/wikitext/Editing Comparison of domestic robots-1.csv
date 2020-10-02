@@ -1,0 +1,34 @@
+[ Model
+, Release date
+, [[Coverage per room]] (CPR)
+, Self-charging
+, Self-cleaning
+, Sensors
+, Cleaning algorithm
+, Surfaces/areas treated
+, Expansion interfaces
+, Filter quality&lt;ref&gt;[[HEPA]] is 0.3µm&lt;/ref&gt;
+],
+
+| 2016,| high,| {{Yes}},| {{no}},| lasers cliff IR object IR dirt motion,| Laser mapping,| low-mid carpet floors,| No,| 0.3µm not HEPA,
+| 2015-16,| high,| {{yes}},| {{no}},| bump cliff IR object IR motion dirt,| Mapping,| low-mid carpet floors,| {{yes}},| 10µm,
+| 2010,| high,| {{Yes}},| {{no}},| bump cliff IR object IR dirt motion,| {{unk}},| low-mid carpet floors,| {{unk}},| {{unk}},
+| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},
+| 2011,| High,| {{yes}},| {{yes}},| Cliff IR Optical Floor Sensor Obstacle IR Sensors UV Bulb Dirt Detection Sensors Battery Status Sensors RF Remote Gyro and Accelerometer,| Zig Zag Spiral Wall-to-wall and Auto Random,| Tile Marble Wood Low-mid carpets Linoleum Glass,| {{Yes}},| {{unk}},
+| 2011,| Very High,| {{yes}},| {{yes}},| Cliff IR Optical Floor Sensor Obstacle IR Sensors UV Bulb Dirt Detection Sensors Battery Status Sensors Gyro and Accelerometer,| Zig Zag Spiral Wall-to-wall and Auto Random,| Tile Marble Wood Low-mid carpets Linoleum Glass,| {{Yes}},| {{unk}},
+| 2011,| High,| {{yes}},| {{yes}},| Cliff IR Optical Floor Sensor Obstacle IR Sensors Dirt Detection Sensors Battery Status Sensors Gyro and Accelerometer,| Zig Zag Spiral Wall-to-wall and Auto Random,| Tile Marble Wood Low-mid carpets Linoleum Glass,| {{Yes}},| {{unk}},
+| 2011,| High,| {{yes}},| {{yes}},| Cliff IR Optical Floor Sensor Obstacle IR Sensors Dirt Detection Sensors Battery Status Sensors Gyro and Accelerometer,| Zig Zag Spiral Wall-to-wall and Auto Random,| Tile Marble Wood Low-mid carpets Linoleum Glass,| {{Yes}},| {{unk}},
+| Dec 2009,| Very High,| {{yes}},| {{unk}},| Vision Camera Ultrasonic Cliff IR PSD IR Optical Floor Sensor Gyro and Accelerometer,| Cell by Cell Zig Zag Spiral and Reservation,| low-mid carpet floors,| {{unk}},| {{unk}},
+| {{unk}},| {{unk}},| {{no}},| {{unk}},| {{unk}},| {{unk}},| low-mid carpet floors,| {{unk}},| {{unk}},
+| September 2002,| Very high,| {{yes}},| Automatic dustbin emptying,| cliff bump IR dirt motion dustbin,| simple repertoire,| low-mid carpet floors,| {{unk}},| {{unk}},
+| Dec 2009,| Very High,| {{yes}},| {{unk}},| Vision Camera Ultrasonic Cliff IR PSD IR Optical Floor Sensor Gyro and Accelerometer,| Cell by Cell Zig Zag Spiral and Reservation,| low-mid carpet floors,| {{unk}},| {{unk}},
+| October 2002,| high,| {{no}},| {{no}},| bump cliff IR motion,| simple repertoire,| low-mid carpet floors,| {{yes}},| {{unk}},
+| July 2004,| high,| {{yes}},| {{no}},| bump cliff IR motion dirt,| simple repertoire,| low-mid carpet floors,| {{yes}},| {{unk}},
+| 2007,| high,| {{yes}},| {{no}},| bump cliff IR object IR motion dirt,| simple repertoire,| low-mid carpet floors,| {{yes}},| {{unk}},
+| 2001,| high,| {{yes}},| {{no}},| ultrasonic IR bump others?,| mapping,| low to deep pile,| {{unk}},| {{unk}},
+| February 2010,| high,| {{yes}},| {{no}},| laser cliff bump,| mapping,| low-mid carpet floors,| {{unk}},| {{unk}},
+
+| 2006,| Medium,| {{no}},| {{no}},| cliff soft-touch IR,| simple repertoire,| hard floors,| {{yes}},| {{unk}},
+| 2014,| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},
+
+,

@@ -1,0 +1,6 @@
+[ Red , , Green , , Result
+],
+ 0 ,span style="background: #ff0000;"red (255 0 0)/span,
+ 128 ,span style="background: #ff8000;"orange (255 128 0)/span,
+ 255 ,span style="background: #ffff00;"yellow (255 255 0)/span,
+,

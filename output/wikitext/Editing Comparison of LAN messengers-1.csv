@@ -1,0 +1,18 @@
+[
+, Protocol
+, Author, creator
+, First public release date
+, Latest stable version
+, USD]])
+, [[Software license]]
+, [[Programming language]]
+],
+| {{dunno}},| Ionut Cioflan,| 2002,| {{Latest stable release/BORGChat}},| {{free}},| {{free|[[Freeware]]}},| {{dunno}},
+|Bramble Protocol,|Briarproject.org,|2018,|1.1.5 ({{start date and age|2018|11|13}}),| {{free}},| {{free|[[GNU GPLv3]]}},|Java,
+| [[Bonjour (software)|Bonjour IM Protocol]],| [[Apple Inc.]],| 2003,| 5.0.3 (745) ({{start date and age|2010|04|26}}),| {{nonfree}} bundled with OS,| {{proprietary}},| Likely [[Objective-C]],
+| [[Windows Messenger service]],| Jally ManPT others,| 2008,| 0.51 ({{start date and age|2009|11|20}}),| {{free}},| {{free|GNU GPL}},| {{dunno}},
+| Windows Messenger service,| Roland Rabien,| 2000,| 0.10.56 ({{start date and age|2016|08|12}}),| {{free}},| {{free|GNU GPL}},| [[C (programming language)|C]]/C++,
+|MyChat protocol,|Alexey Pikurov,|2004,|7.7.0 (August 21 2019),|Paid/Free,|Proprietary software,|Python,
+| [[Bonjour (software)|Bonjour IM Protocol]],| Mark Spencer others,| 1998,| 2.11.0 ({{start date and age|2016|06|20}}),| {{free}},| {{free|GNU GPL}},| C,
+|[[Tox (protocol)|Tox Protocol]],|Tux3,|?,|1.16.1 ({{start date and age|2018|7|7}}),| {{free}},| {{free|[[GNU GPLv3]]}},|C++ and Qt,
+,

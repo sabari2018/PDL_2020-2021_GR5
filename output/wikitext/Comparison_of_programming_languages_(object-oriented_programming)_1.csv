@@ -1,5 +1,6 @@
 ,construction,destruction
 ABAP Objects,data variable type ref to class .create object variable «exporting parameter = argument».,
+APL (Dyalog),variable←⎕NEW class «parameters»,⎕EX variable
 STL),class variable«(parameters)»; orclass *variable = new class«(parameters)»;,delete pointer;
 C#,class variable = new class(parameters);,variable.Dispose();
 Java,,<ref name="gc" />

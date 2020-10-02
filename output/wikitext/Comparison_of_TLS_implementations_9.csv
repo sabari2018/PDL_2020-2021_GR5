@@ -7,7 +7,7 @@ GnuTLS,No,No,No,No,Disabled by default,No
 JSSE,No,Disabled by default,Disabled by default,No,Disabled by default,Disabled by default
 LibreSSL,Yes,Yes,No,No,Yes,No
 MatrixSSL,Yes,No,No,No,Disabled by default,No
-mbed TLS,No,Disabled by default at compile time,No,No,Disabled by default at compile time,No
+Mbed TLS,No,Disabled by default at compile time,No,No,Disabled by default at compile time,No
 NSS,Yes,Disabled by default,Disabled by default,Disabled by default,Lowest priority,Disabled by default
 OpenSSL,Disabled by default,Disabled by default,No,No,Disabled by default,No
 RSA BSAFE Micro-Edition Suite,No,No,No,No,Disabled by default,No
@@ -18,11 +18,11 @@ SChannel 7/2008R2,No,Disabled by default,Disabled by default,Disabled by default
 SChannel 8/2012,No,Disabled by default,Disabled by default,Disabled by default,Only as fallback,Disabled by default
 SChannel 8.1/2012R2,No,Disabled by default,Disabled by default,Disabled by default,Disabled by default,Disabled by default
 Schannel 10,No,Disabled by default,Disabled by default,Disabled by default,Disabled by default,Disabled by default
-[https://developer.apple.com/library/mac/documentation/Security/Reference/secureTransportRef/index.html Secure Transport] OS X 10.6,Yes,Yes,Yes,Yes,Yes,Yes
-[https://developer.apple.com/library/mac/documentation/Security/Reference/secureTransportRef/index.html Secure Transport] OS X 10.7,Yes,unknown,unknown,unknown,Yes,unknown
-[https://developer.apple.com/library/mac/documentation/Security/Reference/secureTransportRef/index.html Secure Transport] OS X 10.8-10.9,Yes,Disabled by default,Disabled by default,Disabled by default,Yes,Disabled by default
-[https://developer.apple.com/library/mac/documentation/Security/Reference/secureTransportRef/index.html Secure Transport] OS X 10.10-10.11,Yes,Disabled by default,Disabled by default,Disabled by default,Lowest priority,Disabled by default
-[https://developer.apple.com/library/mac/documentation/Security/Reference/secureTransportRef/index.html Secure Transport] macOS 10.12,Yes,Disabled by default,Disabled by default,Disabled by default,Disabled by default,Disabled by default
+Secure Transport OS X 10.6,Yes,Yes,Yes,Yes,Yes,Yes
+Secure Transport OS X 10.7,Yes,unknown,unknown,unknown,Yes,unknown
+Secure Transport OS X 10.8-10.9,Yes,Disabled by default,Disabled by default,Disabled by default,Yes,Disabled by default
+Secure Transport OS X 10.10-10.11,Yes,Disabled by default,Disabled by default,Disabled by default,Lowest priority,Disabled by default
+Secure Transport macOS 10.12,Yes,Disabled by default,Disabled by default,Disabled by default,Disabled by default,Disabled by default
 wolfSSL,Disabled by default,No,No,No,Disabled by default,No
 Erlang/OTP SSL application,no,Disabled by default,no,no,Disabled by default,no
 Implementation,mode of operation,,,,|[[Stream cipher]],

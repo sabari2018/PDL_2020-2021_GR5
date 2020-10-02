@@ -29,7 +29,6 @@ Mimer SQL,yes,yes,yes,no,yes,no,no,no,yes,yes
 MonetDB,yes,yes,yes,yes,yes,no,no,no,no,no
 MySQL,yes,yes,yes,yes,yes,yes,yes,dunno,yes,no
 Omnis Studio,yes,yes,yes,no,no,no,no,no,no,no
-OpenBase SQL,yes,yes,yes,yes,yes,no,no,no,no,no
 OpenEdge,yes,no,yes,no,yes,no,no,no,no,no
 OpenLink Virtuoso,yes,yes,yes,yes,yes,no,no,no,no,no
 Oracle,yes,yes,yes,no,yes,no,yes,no,no,yes
@@ -51,4 +50,5 @@ Teradata,yes,no,yes,no,yes,no,no,no,no,no
 Tibero,yes,no,yes,no,yes,no,no,no,no,no
 UniData,yes,no,yes,no,yes,no,no,no,no,no
 UniVerse,yes,no,yes,no,yes,no,no,no,no,no
+YugabyteDB,yes,yes,yes,no,no,no,no,no,no,no
 ,Windows,macOS,Linux,BSD,UNIX,AmigaOS,z/OS,iOS,Android,OpenVMS

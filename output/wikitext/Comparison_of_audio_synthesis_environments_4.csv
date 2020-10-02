@@ -9,4 +9,5 @@ Pure Data," Windows, Android",C," C, FAUST, Haskell, Java, Lua, Python, Q, Ruby,
 Reaktor,Windows,,,
 SuperCollider," Windows, FreeBSD"," C, C++, Objective-C",C++," Client-server architecture; client and server can be used independently, command-line access"
 Sporth," Linux, Mac OS X",C," C, Scheme"," Many frontends built using the API exist, including Chuck, PD, and LADSPA"
+SynthEdit," Windows, MacOS",C++,C++,
 [https://vcvrack.com/ VCV Rack],Windows,C++,C++,

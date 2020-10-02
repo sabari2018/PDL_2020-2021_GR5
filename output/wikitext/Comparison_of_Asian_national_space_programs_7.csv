@@ -2,7 +2,7 @@
 Mission name,Type,Year,Vehicle,Outcome
 JPN Hiten(MUSES-A),Flyby/Orbiter," rowspan = ""2""  1990"," rowspan = ""2""  JPN Mu-3S-II",Success
 JPN Hagoromo,Orbiter,Failure
-JPN Lunar-A,Orbiter,2004 (intended) Never launched,JPN M5," style=""background:#fa8072 Cancelled and integrated into Russias Luna-Glob."
+JPN Lunar-A,Orbiter,2004 (intended) Never launched,JPN M5,Cancelled and integrated into Russias Luna-Glob.
 JPN SELENE(VRAD),Orbiter,2007,JPN H-IIA 202,Success
 PRC Change 1,Orbiter,2007,PRC Long March 3A,Success
 IND Chandrayaan-1,Orbiter,2008,IND PSLV-XL,Success
@@ -11,14 +11,14 @@ PRC Change 3,OrbiterLanderRover,2013,PRC Long March 3B,Success
 PRC Change 5-T1,Flyby,2014,PRC Long March 3C,Success
 PRC Change 4,OrbitersLanderRover,2018-19,PRC Long March 4C and Long March 3B,Success
 IND Chandrayaan-2,OrbiterLanderRover,2019,IND GSLV MkIII,Partial success
-IND Chandrayaan-3,LanderRover,November 2020,IND GSLV Mark II or GSLV MkIII,Planned
-PRCChange 5,Sample return,Q4 2020,PRC Long March 5,Planned
+IND Chandrayaan-3,LanderRover,Q2 2021,IND GSLV MkIII,Planned
+PRC Change 5,Sample return,Q4 2020,PRC Long March 5,Planned
 ROK Korea Pathfinder Lunar Orbiter,Orbiter,December 2020,US Falcon 9,Planned
-JPN SELENE-2,OrbiterLanderRover,2020s (intended),JPN H-IIA (intended)," style=""background:#fa8072 Cancelled"
+JPN SELENE-2,OrbiterLanderRover,2020s (intended),JPN H-IIA (intended),Cancelled
 JPN SLIM,Lander,January 2022,JPN H-IIA 202,Planned
 JPN DESTINY+,Flyby,2022,JPN Epsilon,Planned
 PRC Change 6,Sample return,2023-24,PRC Long March 5,Planned
 PRC Change 7,Lander,2023,TBD,Planned
-JPNIND Lunar Polar Exploration Mission,OrbiterLanderRover,2024,JPN H-III," style=""background:#d3fcffProposed"
-PRC Change 8,Lander,2026,TBD," style=""background:#d3fcffProposed"
-PRK North Korean mission to Moon,TBD,2026,PRK Unha-20," style=""background:#d3fcffProposed "
+JPNIND Lunar Polar Exploration Mission,OrbiterLanderRover,2024,JPN H3,Proposed
+PRC Change 8,Lander,2026,TBD,Proposed
+PRK North Korean mission to Moon,TBD,2026,PRK Unha-20,Proposed

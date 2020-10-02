@@ -6,7 +6,8 @@ DBIx::Class,Perl,Open-source software,Artistic License 1.0 &amp; Artistic Licens
 Django (web framework),Python (programming language),Open-source software,BSD licenses,2.1 (1 August 2018),
 Doctrine (PHP),PHP,Open-source software,MIT," 2.4/April 8, 2014 ",
 EclipseLink,Java Virtual Machine,Open-source software,Eclipse Public License Version 1.0 (EPL) and Eclipse Public License Version 1.0 (EDL)," 2.4.2 / July 4, 2013 ",Java Persistence API
-Entity Framework,.net core,Open-source software,Apache License 2.0,2.0,
+Entity Framework,.net core,Open-source software,Apache License 2.0,2.0
+LLBLGen Pro,.net,Source available for customers,Proprietary License,5.7 / 25 May 2020," Designer supports LLBLGen Engine, Entity Framework Core (page does not exist), Entity Framework Core (page does not exist) "
 Hibernate (Java),Java Virtual Machine,Open-source software,GNU Lesser General Public License," 4.2.5 / August 28, 2013 ",Java Persistence API
 MyBatis/MyBatis,Cross-platform,Open-source software,Apache License 2.0,,
 Java Object Oriented Querying,Java Virtual Machine,Open-source software,Apache License 2.0 and Proprietary License," 3.2.0 / October 9, 2013 ",

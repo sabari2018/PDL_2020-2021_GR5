@@ -6,6 +6,7 @@ comment ~ ;," ALGOL 60, SIMULA "
 /+ ~ +/,D (can be nested)
 /# ~ #/,Cobra (can be nested)
 ;lt;# ~ # ;gt;,Powershell
+;lt;!-- ~ -- ;gt;," HTML, XML"
 =begin ~ =cut,Perl
 #`( ~ )," Raku (bracketing characters can be (), , {}, [], any Unicode characters with BiDi mirrorings, or Unicode characters with Ps/Pe/Pi/Pf properties)"
 =begin ~ =end,Ruby
@@ -13,9 +14,13 @@ comment ~ ;," ALGOL 60, SIMULA "
 {- ~ -},Haskell (can be nested)
 (* ~ *)," Pascal, Newspeak, F# "
 { ~ }," Delphi, Object Pascal, Pascal, Red"
+{# ~ #}," Nunjucks, Twig"
+~," Mustache, Handlebars"
+-- ~ --," Handlebars (cannot be nested, but may contain  and )"
 # ~ #,Curl
 %{ ~ %},MATLAB (the symbols must be in a separate line)
 # ~ #," Lisp, Scheme, Racket (can be nested in all three)."
+#[ ~ ]#,Nim
 " -- ~ ,--[=[ ~ ]=],--[=...=[ ~ ]=...=]",Lua (brackets can have any number of matching = characters; can be nested within non-matching delimiters)
 " "" ~ """,Smalltalk
 (comment ~ ),Clojure

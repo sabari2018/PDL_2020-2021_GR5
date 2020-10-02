@@ -12,7 +12,7 @@ Epictetus,no,yes,no,no,Excel,no,dunno
 ,MySQL Workbench,yes,yes,yes," yes - CSV, HTML, JSON, MS Excel, SQL INSERTS, Tab-separated, XML"," yes - CSV, HTML, JSON, MS Excel, SQL INSERTS, Tab-separated, XML",yes,no
 Oracle SQL Developer,yes,yes,yes,yes,yes,yes,yes,yes
 ,Orbada,no,yes,yes,SQL script," SQL script, CSV, XML, HTML, PDF, Excel, DBF, DataText",no,no,
-pgAdmin III,yes,yes,no," CSV, Text, or binary"," CSV, text, HTML, XML",yes,no
+pgAdmin,yes,yes,no," CSV, Text, or binary"," CSV, text, HTML, XML",yes,no
 ,phpMyAdmin,yes,some,yes," yes - CSV, Excel, ODS"," yes - CSV, Excel, Word, ODS, ODT, XML, SQL, YAML, Texy!, JSON, NHibernate, PHP, PDF, MediaWiki",yes,Git
 ,SQL Database Studio,yes,yes,no," CSV, XML, MS Excel"," CSV, HTML, MS Excel, SQL INSERTS, Tab-separated, XML",no,no
 ,SQLyog,yes,dunno,yes,yes,yes,dunno,dunno

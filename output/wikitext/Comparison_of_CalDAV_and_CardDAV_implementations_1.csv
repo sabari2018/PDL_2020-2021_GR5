@@ -7,7 +7,8 @@ CalDavZAP,Cross-platform JavaScript Web browser,AGPL,no,no,yes,yes,unk,no,no Doe
 CardDavMATE,Cross-platform JavaScript Web browser,AGPL,no,no,out of scope,out of scope,out of scope,out of scope,out of scope,yes vCard 3.0 only,no,CardDavMATE,no,no The used server is fixed in the configuration file,no Out of scope,no The used server is fixed in the configuration file,yes
 InfCloud (CalDavZAP+CardDavMATE),Cross-platform JavaScript Web browser,AGPL,no,no,yes,yes,unk,no,no Does not arrange meetings with participants,yes vCard 3.0 only,no,InfCloud,no,no The used server is fixed in the configuration file,no Does not arrange meetings with participants,no The used server is fixed in the configuration file,yes
 Chandler Desktop,Python,Apache,unk,unk,yes,yes,unk,unk,unk,no,unk,unk,unk,unk,unk,unk,unk
-DAVx⁵,Android,GPL-lic,no,no,yes,yes,out of scope,out of scope,No (except attendees/invitations),yes,no ([https://www.davx5.com/manual/synchronization server always wins])," Android, OpenTasks"," Google Play, OpenTasks",yes,out of scope,yes,yes
+DAVx⁵,Android,GPL-lic,no,no,yes,yes,out of scope,out of scope,No (except attendees/invitations),yes,no ([https://web.archive.org/web/20190110234927/https://www.davx5.com/manual/synchronization server always wins])," Android, OpenTasks"," Google Play, OpenTasks",yes,out of scope,yes,yes
+Tasks.org,Android,GPL-lic,no,no,no,yes,no,no,no,no,no,Android,Google Play,yes,no,no,yes
 jqCalDAV,Cross-platform JavaScript Web browser,MIT,unk,unk,yes,yes,unk,unk,unk,n/a,unk,unk,unk,unk,unk,unk,unk
 KCardDAV (discontinued),Kontact add-on,GPL-lic,unk,unk,n/a,n/a,n/a,unk,unk,yes,unk,unk,unk,unk,unk,unk,unk
 "  KOrganizer, KAddressBook, Kontact",Unix-KDE,GPL-lic,unk,unk,yes,yes,unk,unk,unk,yes,unk,KOrganizer,KOrganizer,unk,unk,unk,unk

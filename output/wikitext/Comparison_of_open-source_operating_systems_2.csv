@@ -5,13 +5,12 @@ OpenBSD,yes,yes,no,no,yes,yes,yes,no,yes,yes,yes,yes,yes,no,yes,no,SuperH ],
 NetBSD,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes," ns32k, M68010, mipseb, sparc64",
 DragonFly BSD,no,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,,[https://lwn.net/Articles/228404/ vkernel]
 OpenSolaris illumos,yes,yes,yes,no,yes,no,no,yes,yes,no,no,no,no,no,no,no,,
-AuroraUX,yes,yes,yes,no,yes,group=Noteb1,no,yes,yes,no,group=Noteb1,yes,no,no,no,no,
 " Darwin, OpenDarwin",yes,yes,no,no,yes,yes,yes,no,no,no,no,yes,no,yes,no,no,,[https://web.archive.org/web/20131219064814/http://www.ertos.nicta.com.au/software/darbat/ L4/Darwin]
 MINIX,yes,no,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,,
 FreeDOS,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,,
 Genode,yes,yes,yes,no,no,no,no,no,no,no,no,yes,no,no,no,no,RISC-V,Linux
 Haiku,yes,yes,no,no,yes,no,no,no,no,no,no,group=Noteb1,no,no,no,no,,
-KolibriOS,yes,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,,
+KolibriOS,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,,
 MenuetOS,yes,no,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,,
 GNU,yes,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4," Cell, h8, s390, group=Noteb4"," UML, [https://web.archive.org/web/20110223110627/http://ertos.nicta.com.au/software/virtualisation/lol.pml Itanium Linux-on-Linux]group=Noteb5"
 ReactOS,yes,yes,group=Noteb1,no,yes,group=Noteb1,group=Noteb1,no,no,no,no,yes,no,no,no,no,,

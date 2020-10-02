@@ -61,7 +61,7 @@ Digital Picture Exchange,Digital Picture eXchange file format,,,.dpx,image/dpx,,
 Raw image format,Kodak Pro Back RAW,Kodak,,.drf,,,
 Dr. Halo,,,,.cut,,,
 Encapsulated PostScript,page description/scripting language (see PostScript),Adobe Systems,," .epi, .eps, .eps2, .eps3, .epsf, .epsi, .ept ",application/postscript,printing/publishing industry standard format,
-ECW (file format),Enhanced Compressed Wavelet,ERDAS,,.ecw,,Wavelet image format used primarily with geo-referenced aerial and satellite imagery,No
+ECW (file format),Enhanced Compressed Wavelet,ERDAS,,.ecw,,Wavelet image format used primarily with geo-referenced aerial and satellite imagery,Yes
 EDG,EDGE2 Original Format,TAKABO,,.edg,,Used by EDGE2,
 EGI,Exclusive Graphics Format,,,.egi,,,
 Enhanced Metafile,Enhanced Metafile Format,Microsoft,," .emf, .emz ",,Microsoft Office,
@@ -71,7 +71,7 @@ ERI,Entis Rasterized Image format,,,.eri,,,
 Exchangeable image file format,Exchangeable Image File Format,,,.exif,,,
 Extended Vector Animation,Extended Vector Animation,Sharp Corporation,,.eva,application/x-eva,,
 OpenEXR,OpenEXR,Industrial Light &amp; Magic,,.exr,image/exr,Used in film effects for 3d rendering and hdr images.,?
-Farbfeld (page does not exist),,Laslo Hunhold,,.ff,,Very simple lossless bitmap format used for image processing.,No
+Farbfeld,,Laslo Hunhold,,.ff,,Very simple lossless bitmap format used for image processing.,No
 FIF,Fractal Image Format,,,.fif,,,
 FIG,FIG format,,,.fig,application/x-xfig,Supported by Xfig,
 FITS,Flexible Image Transport System,,," .fit, .fits ",,Scientific (esp. astronomical) data acquisition,
@@ -160,7 +160,7 @@ Panasonic RAW,,Panasonic,TIFF," .raw, .rw2 ",,,
 PCIF,Polyomino Compressed Image Format,,,.pcf,,,
 PhaseOne P25/P30/P45 RAW,,Phase One (company),," .tif, .tiff ",,,
 PictureGear Pocket Image,,,,.prc,,,
-Netpbm format,Portable Bitmap File Format,,,.pbm,image/x-portable-bitmap,,No
+Netpbm format,Portable Bitmap File Format,,ASCII,.pbm,image/x-portable-bitmap,,No
 PCD,Kodak ImagePac Photo CD,Kodak,,.pcd,image/jpcd,,
 PCF,Pixel Coordination Format,,,.pcf,image/pcf,,
 PCX,ZSoft PC Paintbrush File,ZSoft Corporation,," .pcx, .pcc, .dcx ",image/x-pcx," Dated rle packed indexed image format, used in some early 3d shooting games like Unreal Tournament as it takes up very little space and is easy to decode. ",?
@@ -168,10 +168,10 @@ PDF,Portable Document Format,Adobe Systems,," .pdf, .epdf ",application/pdf,,
 PDN,Paint.NET Image,dotPDN LLC,,.pdn,,Preferred and supported by Paint.NET,
 Raw image format,PENTAX RAW,PENTAX,TIFF,.pef,,,
 Progressive Graphics File,Progressive Graphics File,xeraina GmbH,,.pgf,," Photograph images, eventual replacement for Photograph. ",No
-Netpbm format,Portable Graymap File Format,,,.pgm,image/x-portable-graymap,,No
+Netpbm format,Portable Graymap File Format,,ASCII,.pgm,image/x-portable-graymap,,No
 Precision Graphics Markup Language,Precision Graphics Markup Language," Adobe Systems, Adobe Systems, Adobe Systems, Adobe Systems ",,,,,No
 Photochrome,,,,.pcs,,,
-Netpbm format,Portable Anymap File Format,,,.pnm,image/x-portable-anymap,,No
+Netpbm format,Portable Anymap File Format,,ASCII,.pnm,image/x-portable-anymap,,No
 PTX,Pentax RAW Bitmap Graphic,Pentax,,.ptx,,,
 Pi,,Yanagisawa,,.pi,,Used by some old Japanese applications.,
 PIC,Yanagisawa PIC,Yanagisawa,,.pic,,Used by many old Japanese applications.,
@@ -183,7 +183,7 @@ PLD,PhotoLine Document,Computerinsel GmbH,,.pld,application/pld,Native format of
 PMP,,Sony,JPEG,.pmp,,Used by Sony Cyber-Shot,
 Portable Network Graphics,Portable Network Graphics,World Wide Web Consortium,,.png,image/png,W3C endorsed replacement for W3C. Supported by most web browsers.,No
 PostScript," page description/scripting language, levels 1–3 ",Adobe Systems,," .ps, .ps2, .ps3 ",,printing/publishing industry standard format,
-Netpbm format,Portable Pixmap File Format,,,.ppm,image/x-portable-pixmap,Very easy to understand. Programs to analyze and write to this format are easily written.,No
+Netpbm format,Portable Pixmap File Format,,ASCII,.ppm,image/x-portable-pixmap,Very easy to understand. Programs to analyze and write to this format are easily written.,No
 Adobe Photoshop,Photoshop Document,Adobe Systems,," .psd, .psb, .pdb, .pdd ",image/vnd.adobe.photoshop[8],Used mainly for storing image manipulation &amp; editing data.,Yes
 Corel Paint Shop Pro,Paint Shop Pro Document,Corel Corporation,," .psp, .tub, .pspimage ",image/x-psp," Supported by Paint Shop Pro, Paint Shop Pro ",?
 PSX TIM,,,,.tim,,,

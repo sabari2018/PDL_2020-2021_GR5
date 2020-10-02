@@ -1,5 +1,5 @@
 Name,License,Deployment,Platforms
-https://www.networkmaps.org NetworkMaps,OpenSource,SaaS,"Linux, macOS, Windows"
+[https://www.networkmaps.org NetworkMaps],OpenSource,SaaS,"Windows, macOS, Linux"
 Cacoo (Software),Proprietary,SaaS,"Windows, macOS"
 ConceptDraw PRO,Proprietary,Desktop,"Windows, macOS"
 Microsoft Visio,Proprietary,Desktop,Windows

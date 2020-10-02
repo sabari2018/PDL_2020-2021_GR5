@@ -6,9 +6,9 @@ Cppre (page does not exist),Jeff Stuart,C++,GNU General Public License,
 DEELX,RegExLab,C++,Free personal and commercial use,
 FREJ[Note 2],Fuzzy Regular Expressions for Java,Java (programming language),GNU Lesser General Public License,
 GLib/GRegexGLib,GLib reference manual,C (programming language),LGPL,
-GRETA (page does not exist),Microsoft Research,C++,?,
-Gregex,Grovf Inc.," RTL, HLS ",Proprietary software," FPGA accelerated >100Gbps regex engine for cybersecurity, financial, e-commerce industries. "
-Helios RXPF,Titan IC,RTL,Proprietary software,hardware accelerated regex engine for cybersecurity OEMs
+GRETA,Microsoft Research,C++,?,
+Gregex,Grovf Inc.," RTL, HLS ",Proprietary software," FPGA accelerated >100Gbit/s regex engine for cybersecurity, financial, e-commerce industries. "
+RXP,Titan IC,RTL,Proprietary software," hardware-accelerated search acceleration using RegEx available for ASIC, FPGA and cloud. Enables massively parallel content processing at ultra-high speeds. "
 Hyperscan,Intel," C, X86-specific assembly (X86+X86) ",3-clause BSD,Rspamd
 International Components for Unicode,International Components for Unicode," C, C++[Note 4] ",ICU,Foundation Kit (Apple and Swift open-source versions)
 Jakarta turbine/Regexp,The Apache Jakarta Project,Java,Apache License,
@@ -16,9 +16,9 @@ java.util.regex,Java's User manual,Java,GNU GPLv2 with Classpath exception,JEdit
 JRegex,JRegex,Java,BSD,
 MATLAB,Regular Expressions,MATLAB Language," MATLAB, The Language of Technical Computing ",
 Oniguruma,Kosako,C,BSD," Atom (text editor), Atom (text editor), Atom (text editor), Atom (text editor), Atom (text editor), Atom (text editor), Atom (text editor) and jq "
-Onigmo (Oniguruma-mod) (page does not exist),Onigmo,C,BSD,Ruby
+Onigmo (Oniguruma-mod) (page does not exist),Onigmo,C,BSD,Ruby (programming language)
 Pattwo,Stevesoft,Java (compatible with Java 1.0),LGPL,
-Perl Compatible Regular Expressions,pcre.org," C, C++[Note 5] ",BSD," Apache HTTP Server, Apache HTTP Server, Apache HTTP Server, Apache HTTP Server, Notepad++ < 6.0.0, Apache HTTP Server, Apache HTTP Server, Apache HTTP Server "
+Perl Compatible Regular Expressions,pcre.org," C, C++[Note 5] ",BSD," Apache HTTP Server, Apache HTTP Server, Apache HTTP Server, Apache HTTP Server, Apache HTTP Server, Notepad++ < 6.0.0, Apache HTTP Server, Apache HTTP Server, Apache HTTP Server "
 Qt (software)/QRegExp,Digia,C++," Qt GNU GPL v. 3.0, Qt GNU LGPL v. 2.1, Qt Commercial  "," Kate (text editor), Kate (text editor) "
 regex - Henry Spencer's regular expression libraries,ArgList,C,BSD,
 RE2 (software),RE2,C++,BSD," Go (programming language), Google Sheets, Gmail, G Suite "
@@ -26,7 +26,7 @@ Henry Spencer's Advanced Regular Expressions,Tcl,C,BSD,
 RGX,RGX,C++ based component library,P6R,
 SubReg,Matt Bucknall,C,MIT,
 TPerlRegEx,TPerlRegEx VCL Component,Object Pascal,Mozilla Public License,
-TRE (computing)TRE (computing),Ville Laurikari,C,BSD,
+TRE (computing)TRE (computing),Ville Laurikari,C,BSD,Musl
 TRegExpr,RegExp Studio,Object Pascal," Dual-license: Freeware, or LGPL with static linking exception ",Total Commander
 XRegExp,XRegExp,JavaScript,MIT License,
 Wolfram Language (Wolfram Language),Wolfram Language Documentation Center,Wolfram Language,," Mathematica, the Mathematica "

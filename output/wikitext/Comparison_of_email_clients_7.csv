@@ -1,5 +1,5 @@
-Client,Secure POP3,,Secure IMAP4,,Secure SMTP,,Secure NNTP,,| Secure LDAP,,| SNI,| OCSP {{r|group=Note|OCSP}},,,| CRL {{r|group=Note|CRL}}
-,SSL,TLS group=NoteIMAPPOP,SSL,TLS group=NoteIMAPPOP,SSL,TLS group=NoteSMTPTLS,SSL,TLS,SSL,TLS,,,,,
+Client,Secure POP3,,Secure IMAP4,,Secure SMTP,,Secure NNTP,,| Secure LDAP,,| SNI,| OCSP {{r|group=Note|OCSP}},| CRL {{r|group=Note|CRL}},
+,SSL,TLS group=NoteIMAPPOP,SSL,TLS group=NoteIMAPPOP,SSL,TLS group=NoteSMTPTLS,SSL,TLS,SSL,TLS,,,
 Alpine,yes,yes,yes,yes,yes,yes,yes,yes,dunno,yes,dunno,dunno,dunno
 Apple Mail,yes,yes,yes,yes,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Becky! Internet Mail,yes,yes,yes,yes,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno
@@ -11,7 +11,6 @@ Elm,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunn
 eM Client,yes,yes,yes,yes,yes,yes,no,no,no,no,dunno,no,yes
 EmailTray,yes,yes,yes,yes,yes,yes,no,no,no,no,dunno,no,no
 Eudora,yes,yes,yes,yes,yes,yes,no,no,yes,yes,dunno,dunno,dunno
-Eureka Email,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Evolution,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno,no,no
 Gnus,dunno,dunno,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 GroupWise,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno

@@ -50,7 +50,7 @@ XFS,255 bytes[s],Any byte except NUL[e],No limit defined[f],8 ExbibyteExbibyte,8
 JFS file system,255 bytes,Any byte except NUL[e],No limit defined[f],8 Exbibyte,512 Tebibyte to 4 Tebibyte,?
 JFS file system,255 bytes,Any Unicode except NUL,No limit defined[f],4 Pebibyte,32 Pebibyte,?
 QFS,255 bytes,Any byte except NUL[e],No limit defined[f],16 ExbibyteExbibyte,4 PebibytePebibyte,?
-Be File System,255 bytes,Any byte except NUL[e],No limit defined[f]," 12,288 bytes to 260 GibibyteGibibyte ",256 Pebibyte to 2 Pebibyte,?
+Be File System,255 bytes,Any byte except NUL[e],No limit defined[f]," 12,288 bytes to 260 GibibyteGibibyte ",256 Pebibyte to 2 Pebibyte,Unlimited
 AdvFS,255 characters,Any byte except NUL[e],No limit defined[f],16 Tebibyte,16 Tebibyte,?
 Novell Storage Services,256 characters,Depends on namespace used[w],Only limited by client,8 Tebibyte,8 Tebibyte,?
 NetWare File System,80 bytes[x],Depends on namespace used[w],No limit defined[f],4 Gibibyte,1 Tebibyte,?
@@ -70,5 +70,5 @@ Rock Ridge,255 bytes,Any byte except NUL or /[e],No limit defined[f],same as ISO
 UniFS (page does not exist),No limit defined (depends on client),?,No limit defined (depends on client),Available cache space at time of write (depends on platform),No limit defined,No limit defined
 ISO 9660:1999,?,?,?,?,?,?
 High Sierra Format,?,?,?,?,?,?
-SquashFS,?,?,No limit defined,16 Exbibyte,16 Exbibyte,?
+SquashFS,256 bytes,?,No limit defined,16 Exbibyte,16 Exbibyte,?
 File system,Maximum filename length,Allowable characters in directory entries[c],Maximum pathname length,Maximum file size,Maximum volume size[d],Max number of files

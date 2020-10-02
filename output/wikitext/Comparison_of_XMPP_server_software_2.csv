@@ -64,7 +64,7 @@ XEP,Description,Status,ejabberd,iChat Server,jabberd14,jabberd2,Metronome,Isode 
 [http://xmpp.org/extensions/xep-0154.html 0154],User profile,Deferred,Contrib.,unk,unk,No,Yes,No,No,unk,No,No
 [http://xmpp.org/extensions/xep-0157.html 0157],Contact Addresses for XMPP Services,Approved,Yes,unk,Yes,Yes,Yes,No,Yes,unk,Contrib.,Yes
 [http://xmpp.org/extensions/xep-0158.html 0158],CAPTCHA Forms,Draft,Yes,unk,unk,No,No,No,No,unk,No,No
-[http://xmpp.org/extensions/xep-0159.html 0159],Spim-Blocking Control,Deferred,unk,unk,unk,No,No,No,No,unk,No,No
+[http://xmpp.org/extensions/xep-0159.html 0159],Spim-Blocking Control,Deferred,unk,unk,unk,No,Yes,No,No,unk,No,No
 [http://xmpp.org/extensions/xep-0160.html 0160],Best Practices for Handling Offline Messages,Approved,Yes,unk,Yes,Yes,Yes,No,Yes,unk,Yes,Yes
 [http://xmpp.org/extensions/xep-0161.html 0161],Abuse Reporting,Deferred,unk,unk,unk,No,No,No,No,unk,No,No
 [http://xmpp.org/extensions/xep-0163.html 0163],Personal Eventing Protocol,Draft,Yes,unk,unk,No,Yes,Yes,Yes,Yes,Yes,Yes
@@ -119,7 +119,7 @@ XEP,Description,Status,ejabberd,iChat Server,jabberd14,jabberd2,Metronome,Isode 
 [http://xmpp.org/extensions/xep-0255.html 0255],Location Query,Deferred,unk,unk,unk,No,No,No,No,unk,No,No
 [http://xmpp.org/extensions/xep-0256.html 0256],Last Activity in Presence,Draft,unk,unk,unk,No,No,No,unk,unk,No,No
 [http://xmpp.org/extensions/xep-0257.html 0257],Client Certificate Management for SASL EXTERNAL,Deferred,unk,unk,unk,No,No,No,No,unk,Contrib.,unk
-[http://xmpp.org/extensions/xep-0258.html 0258],Security Labels in XMPP,Draft,unk,unk,unk,unk,unk,Yes,No,unk,Contrib.,unk
+[http://xmpp.org/extensions/xep-0258.html 0258],Security Labels in XMPP,Draft,unk,unk,unk,unk,Yes,Yes,No,unk,Contrib.,unk
 [http://xmpp.org/extensions/xep-0259.html 0259],Message Mine-ing,Deferred,unk,unk,unk,No,No,No,No,unk,No,unk
 [http://xmpp.org/extensions/xep-0268.html 0268],Incident Handling,Deferred,unk,unk,unk,unk,Yes,No
 [http://xmpp.org/extensions/xep-0270.html 0270],XMPP Compliance Suites 2010,Obsolete,Yes,unk,unk,No,Yes,Yes,Yes,unk,unk,unk
@@ -135,6 +135,6 @@ XEP,Description,Status,ejabberd,iChat Server,jabberd14,jabberd2,Metronome,Isode 
 [http://xmpp.org/extensions/xep-0321.html 0321],Remote Roster Management,Deferred,Yes,unk
 [http://xmpp.org/extensions/xep-0357.html 0357],Push Notifications,Experimental,Contrib,unk,No,No,Yes,No,Contrib.,Yes
 [http://xmpp.org/extensions/xep-0363.html 0363],HTTP File Upload,Experimental,Contrib,unk,No,No,Yes,Yes/Plugin,Yes,Yes
-[http://xmpp.org/extensions/xep-0375.html 0375],XMPP Compliance Suites 2016,Experimental,Contrib,unk,unk,unk,Yes,unk,unk,unk,unk,unk
+[http://xmpp.org/extensions/xep-0375.html 0375],XMPP Compliance Suites 2016,Retracted,Contrib,unk,unk,unk,Yes,unk,unk,unk,unk,unk
 [http://xmpp.org/extensions/xep-0376.html 0376],Pubsub Account Management,Deferred,Contrib,unk,unk,unk,unk,unk,unk,unk,unk,unk
 XEP,Description,Status,ejabberd,iChat Server,jabberd14,jabberd2,Metronome,Isode M-Link,MongooseIM,Openfire,Prosody,Tigase

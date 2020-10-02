@@ -1,17 +1,17 @@
 ,TGA,RAW imports,BMP,GIF,JPEG,JPEG 2000,HD Photo,PNG,TIFF,PSD,PSP,XCF,PCX,ORA,HEIF
-Ability Photopaint,dunno,dunno,yes,yes,yes,no,,yes,yes,yes,no,no,dunno,,
-ACD Canvas,dunno,dunno,yes,yes,yes,no,,yes,yes,yes,yes,no,dunno,,
-ACDSee (Win),dunno,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,dunno,dunno,dunno,
-Acorn Image Editor,dunno,yes,yes,yes,yes,yes,no,yes,yes,yes,dunno,dunno,dunno,,
-Adobe Fireworks*,dunno,dunno,yes,yes,yes,yes,,yes,yes,yes,no,no,,,
-Adobe Photoshop,dunno,yes,yes,yes,yes,Via plug-in,yes,yes,yes,yes,no,no,yes,,
-Adobe Photoshop Lightroom,dunno,yes,no,Via plug-in,yes,Via plug-in,no,Via plug-in,dunno,dunno,dunno,,
+Ability Photopaint,dunno,dunno,yes,yes,yes,no,dunno,yes,yes,yes,no,no,dunno,dunno,dunno
+ACD Canvas,dunno,dunno,yes,yes,yes,no,dunno,yes,yes,yes,yes,no,dunno,dunno,dunno
+ACDSee (Win),dunno,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,dunno,dunno,dunno,dunno
+Acorn Image Editor,dunno,yes,yes,yes,yes,yes,no,yes,yes,yes,dunno,dunno,dunno,dunno,dunno
+Adobe Fireworks*,dunno,dunno,yes,yes,yes,yes,dunno,yes,yes,yes,no,no,dunno,dunno,dunno
+Adobe Photoshop,dunno,yes,yes,yes,yes,Via plug-in,yes,yes,yes,yes,no,no,yes,dunno,dunno
+Adobe Photoshop Lightroom,dunno,yes,no,Via plug-in,yes,Via plug-in,no,Via plug-in,dunno,dunno,dunno,dunno,dunno
 Affinity Photo,yes,yes,no,yes,yes,no,no,yes,yes,yes,no,no,no,no,yes
-Autodesk SketchBook Pro,dunno,dunno,yes,yes,yes,yes,,yes,yes,yes,no,no,no,,
-Artipic,dunno,yes,yes,yes,yes,yes,,yes,yes,partial,no,no,yes,,
-ArtRage,dunno,dunno,yes,yes,yes,no,,yes,yes,yes,no,no,dunno,,
-Artweaver,dunno,no,yes,yes,yes,partial,,yes,yes,partial,no,no,yes,,
-Bibble*,dunno,yes,no,no,yes,no,no,no,yes,no,no,no,no,,
+Autodesk SketchBook Pro,dunno,dunno,yes,yes,yes,yes,dunno,yes,yes,yes,no,no,no,dunno,dunno
+Artipic,dunno,yes,yes,yes,yes,yes,dunno,yes,yes,partial,no,no,yes,dunno,dunno
+ArtRage,dunno,dunno,yes,yes,yes,no,dunno,yes,yes,yes,no,no,dunno,dunno,dunno
+Artweaver,dunno,no,yes,yes,yes,partial,dunno,yes,yes,partial,no,no,yes,dunno,dunno
+Bibble*,dunno,yes,no,no,yes,no,no,no,yes,no,no,no,no,dunno,dunno
 Brush Strokes Image Editor,dunno,dunno,yes,yes,yes,no,,yes,yes,no,no,no,dunno,,
 Capture One,dunno,yes,yes,yes,yes,yes,,yes,yes,yes,dunno,dunno,dunno,,
 Chasys Draw IES,dunno,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,
@@ -28,7 +28,7 @@ Fatpaint,dunno,no,no,no,yes,no,no,yes,no,no,no,no,no,,
 Fotografix,dunno,partial,yes,yes,yes,no,no,yes,yes,Import only,no,Import only,Import only,,
 GIMP,yes,yes,yes,yes,yes,yes,Via plug-in,yes,yes,yes,yes,yes,yes,yes,yes
 GIMPshop,dunno,dunno,yes,yes,yes,no,no,yes,yes,yes,yes,yes,yes,,
-GrafX2,dunno,no,yes,yes,Import only,no,no,yes,Import only,no,no,no,yes,,
+GrafX2,dunno,no,yes,yes,Import only,no,no,yes,yes,no,no,no,yes,,
 GraphicConverter,dunno,partial,yes,yes,yes,yes,no,yes,yes,yes,yes,yes,yes,,
 HDR PhotoStudio,dunno,yes,yes,no,yes,no,no,no,yes,no,no,no,no,,
 Helicon Filter,dunno,yes,yes,Import,yes,yes,no,yes,yes,yes,no,no,no,,

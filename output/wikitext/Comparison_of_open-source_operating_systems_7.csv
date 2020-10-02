@@ -5,7 +5,6 @@ OpenBSD,yes,yes,Unix,yes,
 NetBSD,yes,yes," Unix, Veriexec",yes," Snapshots, Journaling"
 DragonFly BSD,yes,yes,Unix,yes," HAMMER, Snapshots, Checksumming, Deduplication"
 " OpenSolaris, illumos",yes,yes," Unix, ACL, MAC",yes," snapshots, transparent data repair"
-AuroraUX,yes,yes," Unix, ACL, MAC",," Solaris Volume Manager, ZFS, snapshots, transparent data repair"
 " Darwin, OpenDarwin",,yes," Unix, ACL",yes,
 MINIX,,,Unix,,
 FreeDOS,,,no,,

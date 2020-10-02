@@ -1,14 +1,13 @@
-Model,Launch,Code name,Fab (Nanometer),Transistors (billion),Die size (mm2),Computer bus Computer bus,Core config,Clock speeds,,,Fillrate,,Memory,,,,Supported Application programming interface version,,,,Processing power (GFLOPS),,,Thermal Design Power (Watts),Scalable Link Interface support
-,,,,,,,,Base core clock (Hertz),Boost core clock (Hertz),Memory (Transfer (computing)),Pixel (Pixel/s),Texture (Texel (graphics)/s),Size (Gibibyte),Bandwidth (Gigabyte/s),Bus type,Bus width (Bit),DirectX,OpenGL,OpenCL,Vulkan (API),Single precision floating-point format (Boost),Double precision floating-point format,Half precision floating-point format,,
-GeForce MX110[148][149],November 2017,GK208,28,Unknown,Unknown,Unknown,256:?:8,Unknown,Unknown,Unknown,Unknown,Unknown,≤2,(variable),GDDR5/DDR3,64,12,4.5,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
-GeForce MX130[148][150][151],November 2017,GM108,28,Unknown,Unknown,Unknown,384:?:8,Unknown,Unknown,Unknown,Unknown,Unknown,,,,,,,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
-GeForce MX150[152],Mid 2017,GP108 (N17S-G1-A1),14,1.8,70,PCIe 3.0 x4,384:24:16[153][154],1468,1532,6008,23.5,35.2,2,48,GDDR5,64,12 (Feature levels in Direct3D),4.5,1.2,1.0,1127 (1177),18,9,25,No
-,?,GP108 (N17S-LG-A1),,,,,,937,1038,5012,15,22.5,,40,,,,,,,720 (797),11,6,10,
-GeForce GTX 1050 (Notebook)[155][156]," January 3, 2017 ",GP107,,3.3,135,PCIe 3.0 x16,640:40:16,1354,1493,7000,21.7,54.2,4,112,,128,,,,,1733 (1911),27,14,53,
-GeForce GTX 1050 Ti (Notebook)[155],,,,,,,768:48:32,1493,1620,,47.8,71.7,,,,,,,,,2293 (2488),36,18,64,
-GeForce GTX 1060 (Notebook)[155]," August 16, 2016 ",GP106,16,4.4,200,,1280:80:48,1404,1670,8000,67.4,112,6,192,192,3594 (4275),,,,,112,56,80
-GeForce GTX 1060 Max-Q,May 2017,,,,,,,1063,1480,,,,,,,,,,,
-GeForce GTX 1070 (Notebook)[155]," August 16, 2016 ",GP104,,7.2,314,2048:128:64,1442,1645,92.3,,185,8,,,256,256,,,,,5906 (6738),185,92,115,,Yes
-GeForce GTX 1070 Max-Q,May 2017,,,,,,1101,1379,,,,,,,,,,,,,,No
-GeForce GTX 1080 (Notebook)[155]," August 16, 2016 ",,,,,2560:160:64,1556,1733,10000,,99.6,,,,249,,,,,,320,GDDR5X,7967 (8873),249,124,150,Yes
-GeForce GTX 1080 Max-Q,May 2017,,,,,,1101,1468,,,,,,,No,,,,,,,
+Model,Launch,Code name,Fab (Nanometer),Computer bus Computer bus,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported Application programming interface version,,,Processing power (GFLOPS)2,Thermal design power (Watts),Notes
+,,,,,,Min (Hertz),Average (Hertz),Memory (Transfer (computing)),Pixel (Pixel/s),Texture (Texel (graphics)/s),Size (Gigabyte),Bandwidth (Gigabyte/s),Bus type,Bus width (Bit),Direct3D,OpenGL,OpenCL,,,
+GeForce 920M," March 12, 2015 ",GK208,28,PCIe 3.0 ×16,384:32:8 (2 SMX),954,Unknown,1800,7.6,30.5,2,14.4,DDR3,64,12 (11_0),4.5,1.2,733,33,
+GeForce 930M,,GM108,,,384:24:8 (3 SMM),928,941,,7.4,22.3,,,,,,,,713,29[154],
+GeForce 940M,,,,,,1072,1176,2000,8.6,25.7,,16,,,,,,823,36[155],
+GeForce 940MX[156]," June 28, 2016 ",GM107,512:32:8 (4 SMM),795,861,5000,6.9,27.6,40,GDDR5,,882,23,,,,
+GeForce GTX 950M," March 12, 2015 ",,640:40:16 (5 SMM),914,Unknown,,14.6,36.6," 2, 4 ",,80,128,1170,Unknown,,,,Similar core config to GTX 750 Ti (GM107-400-A2)
+,,,,,,,,,,2000,32,,,DDR3,,,,,55[157],
+GeForce GTX 960M,,,,1097,1176,5000,17.5,43.8,,80,GDDR5,,1403,65[158],,,,
+GeForce GTX 965M[159]," January 5, 2015 ",GM204,1024:64:32 (8 SMM),944,Unknown,,30.2,60.4,,,,,12 (12_1),1933,60[160],Similar core config to GTX 960 (GM206-300)
+GeForce GTX 970M[161]," October 7, 2014 ",,1280:80:48 (10 SMM),,993,,44.4,73.9,,,,,," 3, 6 ",120,192,2365,75,Similar core config to GTX 960 OEM (GM204)
+GeForce GTX 980M[162],,,1536:96:64 (12 SMM),1038,1127,,66.4,99.6,,,,,," 4, 8 ",160,256,3189,100,Similar core config to GTX 970 (GM204-200) with one SMM disabled
+GeForce GTX 980[163]," September 22, 2015 ",,2048:128:64 (16 SMM),1064,Unknown,7010,68.1,136.2,,,,,,8,224,,4358," 165, oc to 200 ",Similar to Desktop GTX 980

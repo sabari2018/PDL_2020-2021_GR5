@@ -1,4 +1,4 @@
-Model[123],Launch,Model Number,Code name,Fab (nm),Computer bus Computer bus,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Application programming interface compliance (version),,Processing power (GFLOPS),TDP (Watts),Notes
+Model[136],Launch,Model Number,Code name,Fab (nm),Computer bus Computer bus,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Application programming interface compliance (version),,Processing power (GFLOPS),TDP (Watts),Notes
 ,,,,,,,,,Pixel (Pixel/s),Texture (Texel (graphics)/s),Size (Megabyte),Bandwidth (Gigabyte/s),Bus type,Bus width (Bit),Direct3D,OpenGL,,,
 Mobility Radeon HD 3100," August 1, 2008 ",RS780MC,RV620,55,PCIe x16 1.1,300,800 (system memory),40:4:4,1.2,1.2,up to 512 from system memory,6.4/12.8,DDR2 SDRAM,64/128,10.1,2.0 (3.3),24,," UVD, PowerPlay 7.0 "
 Mobility Radeon HD 3200," June 4, 2008 ",RS780MC,,,,500,800 (system memory),,2,2,,6.4/12.8,,,,,40,,

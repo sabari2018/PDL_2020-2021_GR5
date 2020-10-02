@@ -1,6 +1,7 @@
-Model,Launch,Micro-archi-tecture,Code name,Fab (nm),Computer bus Computer bus,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,Application programming interface compliance (version),,,,TDP (Watts),Notes
-,,,,,,Core (MHz),Memory (MHz),,Pixel (Pixel/s),Texture (Texel (graphics)/s),Size (Gibibyte),Bandwidth (Gigabyte/s),Bus type,Bus width (Bit),Single precision floating-point format,Double precision floating-point format,Direct3D,OpenGL,OpenCL,Vulkan (API),,
-FirePro V3900[196]," February 7, 2012 ",TeraScale 2,Turks GL,40,PCIe 2.1 x16,650,900,480(96×5):24:8:6,5.2,15.6,1,28.8,GDDR3,128,624,-,11.0,4.3,1.2,N/A,50," HD3D, UVD3, DP 1.2, PowerPlay, Eyefinity "
-FirePro V4900[197]," November 1, 2011 ",,Turks XT GL,,,800,1000,,6.4,19.2,,64,GDDR52,,768,,,,,,<75 Max,
-FirePro V5900[198]," May 24, 2011 ",TeraScale 3,Cayman LE GL,,,600,5002,512(128×4):32:32:8,19.2,,,,,2,256,,,,,,,,610,154
-FirePro V7900[199],,,Cayman Pro GL,,,725,12502,1280(320×4):80:32:20,23.2,,,,,,,58,160,1860,464,<150 Max
+Model,Launch,Core,Computer bus Computer bus,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate (Fillrate/s),Memory,,,,Application programming interface compliance (version),,Thermal Design Power / idle (watts),Notes
+,,,,,,,,Size (Megabyte),Bandwidth (Gigabyte/s),Bus type,Bus width (Bit),Direct3D,OpenGL,,
+FireMV 2200 PCI.[207],January 2006,RV280 GL,Conventional PCI,240,200,1:4:4:4,0.96,64,3.2,DDR,64,8.1,1.4,15,DMS-59 for dual DVI-D output
+FireMV 2200 PCIe.[208],,RV370,PCIE x16,324,196,2:4:4:4,1.296,128,,,,9.0,2.1,,
+FireMV 2260[209],January 2008,RV620," PCIE 2.0 x1/x16, PCI ",600,500,40(8×5):4:4,2.4,256,32,DDR2 SDRAM,256,10.1[210],3.3,15/8,Dual DisplayPort (with adapters: DVI-D)
+FireMV 2400 PCI.[211],,RV380,Conventional PCI,500,,2:4:4:4,2.0,128,16,DDR,128,9.0b,2.1,20," 2x VHDCI for quad DVI-D output, VGA "
+FireMV 2400 PCIe.[212],,,PCIE x1,500,,,,256,,DDR3,,,,,

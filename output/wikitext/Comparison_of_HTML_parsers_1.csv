@@ -1,35 +1,5 @@
 Parser,License,Implementation language(s),Latest date*,HTML parsing,HTML5-compliant parsing,Clean HTML**,Update HTML***
-[https://github.com/aantron/lambda-soup Lambda Soup],BSD-2-Clause,OCaml,2016-12-10,Yes,Yes,dunno,dunno
-[https://docs.python.org/3/library/html.parser.html html.parser],Python S. F. L.,Python,2016-06-27,Yes,dunno,No,No
-[https://html-agility-pack.net/ Html Agility Pack],MIT License,C#,2019-07-07,Yes,dunno,No,dunno
-[https://github.com/SoftCircuits/HtmlMonkey/ HTML Monkey],Microsoft Public License,C#,2018-12-14,Yes,dunno,dunno,dunno
-[https://www.crummy.com/software/BeautifulSoup/ Beautiful Soup],Python S. F. L.,Python,2019-01-07,Yes,partial,Yes,Yes
-[https://github.com/google/gumbo-parser Gumbo],Apache License 2.0,C,2015-05-01,Yes,Yes,No,No
-[https://github.com/servo/html5ever html5ever],Apache License 2.0,Rust,2016-02-23,Yes,Yes,dunno,dunno
-[https://github.com/html5lib/ html5lib],MIT License," Python (and PHP, six years ago)",2016-07-15,Yes,Yes,Yes,No
-[https://metacpan.org/module/HTML::Parser HTML::Parser],Perl license,Perl,2013-03-28,Yes,No,dunno,dunno
-[https://github.com/novikovag/WebGear WebGear],GPL3,Perl,2017-03-10,Yes,Yes,dunno,dunno
-[http://htmlpurifier.org/ htmlPurifier],GNU Lesser GPL,PHP,2019-07-14,No,No,Yes,Yes
 HTML Tidy,W3C license,ANSI C,2017-03-01,Yes,Yes,Yes,Yes
 HtmlUnit,Apache License 2.0,Java,2019-08-24,Yes,dunno,No,No
-[http://htmlcleaner.sourceforge.net/ HtmlCleaner],BSD License,Java,2015-08-24,No,No,Yes,dunno
-[http://www.netsurf-browser.org/projects/hubbub/ Hubbub],MIT License,C,2016-02-16,Yes,Yes,dunno,dunno
-[http://jaunt-api.com/ Jaunt API],Jaunt Beta License,Java,2013-08-01,Yes,dunno,Yes,No
-[http://jerichohtml.sourceforge.net/ Jericho HTML Parser],Eclipse Public License,Java,2015-10-24,Yes,dunno,dunno,dunno
-[https://npmjs.org/package/jsdom jsdom],MIT license,JavaScript,2018-08-19,Yes,Yes,dunno,dunno
-[https://jsoup.org/ jsoup],MIT license,Java,2019-05-12,Yes,Yes,Yes,Yes
-[http://jtidy.sourceforge.net/ JTidy],[http://jtidy.sourceforge.net/license.html JTidy License],Java,2012-10-09,No,dunno,Yes,dunno
-libxml2 [http://www.xmlsoft.org/html/libxml-HTMLparser.html HTMLparser],MIT License,C,2017-11-02,Yes,No,dunno,dunno
-[http://nekohtml.sourceforge.net/ NekoHTML],Apache License 2.0,Java,2014-06-02,Yes,dunno,dunno,dunno
-[https://web.archive.org/web/20070525055616/http://ccil.org/~cowan/XML/tagsoup/ TagSoup],Apache License 2.0,Java,2011-07-07,No,dunno,dunno,dunno
-[http://about.validator.nu/htmlparser/ Validator.nu HTML Parser],MIT License,Java,2012-06-05,Yes,Yes,dunno,dunno
-[http://simplehtmldom.sourceforge.net/ PHP Simple HTML DOM Parser],MIT License,PHP,2014-08-28,Yes,dunno,No,No
-The class,PHP License,PHP,2014-10-04,Yes,dunno,No,No
-[http://www.nokogiri.org/ Nokogiri],MIT License,Ruby,2016-10-03,Yes,dunno,No,No
-[https://www.github.com/avplayer/avhtml AVHTML],AGPL,C++,2015-08-27,Yes,dunno,No,Yes
-[https://github.com/ucotta/BrilliantHTML5Parser BrilliantHTML5Parser],Apache License 2.0,Swift 3,2016-11-10,Yes,dunno,No,No
-[https://github.com/lexborisov/myhtml MyHTML],LGPL,C,2018-09-06,Yes,Yes,No,No
-[https://products.aspose.com/html Aspose.HTML],Proprietary,C#,2018-06-06,Yes,Yes,dunno,dunno
-[https://github.com/lexborisov/lexbor Lexbor (HTML module)],Apache License 2.0,C,2019-11-18,Yes,Yes,No,No
-[https://github.com/HamedMasafi/tooska tooska],LGPL,C++,2019-06-29,Yes,dunno,dunno,dunno
+libxml2 HTMLparser,MIT License,C,2017-11-02,Yes,No,dunno,dunno
 Parser,License,Implementation language(s),Latest date*,HTML Parsing,HTML5-compliant Parsing,Clean HTML**,Update HTML***

@@ -13,12 +13,12 @@ pdksh,yes,yes,no,no,yes,no,no,yes,yes,no,no,no,no,no,no,yes,yes,no,no,no
 zsh,yes,yes,when defined,yes,yes,no,Yes (via predict-on or user-defined),yes,yes,Third-party extension,yes,optional,yes,no,when defined (as ZLE widgets),yes,yes,no,yes,no
 ash,no,no,no,no,yes,no,no,yes,yes,no,no,no,no,no,no,yes,yes,no,no,no
 CCP,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no
-COMMAND.COM,no,no,no,no,no,no,no,no,"no (only in DR-DOS through %$ON%, %$OFF%, %$HEADER%, %$FOOTER%)",no,no,no,no,no (only single-stepping with COMMAND /Y),no,no,"no (only via external CHOICE command, in DR-DOS also via SWITCH / DRSWITCH internal commands)",no,no,no
+COMMAND.COM,no,no,no,no,no,no,no,no,"no (only in DR-DOS through %$ON%, %$OFF%, %$HEADER%, %$FOOTER%)",no,no,no,no,no (only single-stepping with COMMAND /Y),no,no,"CHOICE command, in DR-DOS also via SWITCH / DRSWITCH internal commands)",no,no,no
 OS/2CMD.EXE,yes,yes,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no
-WindowsCMD.EXE,partial,partial,no,no,Yes (F8),no,no,no,no,no,"Yes (PUSHD, POPD)",no,no,no,no,yes (via SET /P command),no,no,no,no
-4DOS,yes,yes,yes,yes,yes,no,no,yes,no,no," (via popup, extended directory searches, CDPATH, PUSHD, POPD, DIRHISTORY, DIRS, CDD, CD - commands and %@DIRSTACK[] function)",yes,no,yes,no,"yes (via INPUT, INKEY and ESET commands)","yes (via @SELECT[] function, and indirectly via a combination of INKEY, INPUT, SWITCH commands)",no,yes,no (except for OPTION command for INI file directives)
+WindowsCMD.EXE,partial,partial,no,no,Yes (F8),no,no,no,no,no,"Yes (PUSHD, POPD)",no,no,no,no,SET /P command),no,no,no,no
+4DOS,yes,yes,yes,yes,yes,no,no,yes,no,no," (via popup, extended directory searches, CDPATH, PUSHD, POPD, DIRHISTORY, DIRS, CDD, CD - commands and %@DIRSTACK[] function)",yes,no,yes,no,"INPUT, INKEY and ESET commands)","@SELECT[] function, and indirectly via a combination of INKEY, INPUT, SWITCH commands)",no,yes,OPTION command for INI file directives)
 4OS2,?,?,?,?,yes,no,no,yes,no,no,yes,yes,no,?,no,?,?,no,yes,no
-TCC (formerly 4NT),yes,yes,yes,yes,yes,no,no,yes,no,yes," (via popup, extended directory searches, CDPATH, PUSHD, POPD, DIRHISTORY, DIRS, CDD, CD - commands and %@DIRSTACK[] function)",yes,no,yes,no,"yes (via INPUT, INKEY, ESET and SET /P commands)","yes (via @SELECT[] function, and indirectly via a combination of INKEY, INPUT, SWITCH commands)",no,yes,no
+TCC (formerly 4NT),yes,yes,yes,yes,yes,no,no,yes,no,yes," (via popup, extended directory searches, CDPATH, PUSHD, POPD, DIRHISTORY, DIRS, CDD, CD - commands and %@DIRSTACK[] function)",yes,no,yes,no,"INPUT, INKEY, ESET and SET /P commands)","@SELECT[] function, and indirectly via a combination of INKEY, INPUT, SWITCH commands)",no,yes,no
 PowerShell,yes,yes,yes,yes,Yes (F8),yes,"yes2Yes, in ISE module (included in v5.0)",Yes; multiple stacks; multiple location types,no,"yes2Yes, in PSReadLine","yes2Yes, in ISE",yes,"yes2Yes, in ISE"
 rc,yes,yes,no,no,yes,no,no,?,?,no,no,no,no,no,no,?,no,no,no,no
 BeanShell,yes,yes,no,no,no,no,no,?,?,no,no,no,no,no,no,no,no,no,no,no

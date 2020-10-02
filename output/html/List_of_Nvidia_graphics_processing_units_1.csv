@@ -1,7 +1,7 @@
 Model,Launch,Code name,Semiconductor device fabrication (Semiconductor device fabrication)Semiconductor device fabrication,Computer bus Computer bus,Core clock (Hertz),Memory clock (Hertz),Core config1,Fillrate,,,,Memory,,,,Application programming interface support,
 ,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (Megabyte),Bandwidth (Gigabyte/s),Bus type,Bus width (Bit),Direct3D,OpenGL
-NV1,September 1995,NV1,STMicroelectronics STMicroelectronics,PCI,12,75,1:1:1,12,12,12,0,2 4,0.6,EDO VRAM,64,n/a,n/a
-Riva 128,April 1997,NV3,SGS 350 nm," AGP 1×,[3] PCI ",100,100,,100,100,100,,4,1.6,SDR,128,5.0,1.0
+NV1," May 22, 1995 ",NV1,STMicroelectronics STMicroelectronics,PCI,12,75,1:1:1,12,12,12,0,2 4,0.6,EDO VRAM,64,n/a,n/a
+Riva 128," August 25, 1997 ",NV3,SGS 350 nm," AGP 1×,[3] PCI ",100,100,,100,100,100,,4,1.6,SDR,128,5.0,1.0
 Riva 128," February 23, 1998 ",,SGS/TSMC 350 nm," AGP 2×, PCI ",,,,,,,,8,1.6,,,,
 Riva TNT," June 15, 1998 ",NV4,TSMC 350 nm,,90,110,2:2:2,180,180,180,,8 16,1.76,,,6.0,1.2
 Vanta," March 22, 1999 ",NV6,TSMC 250 nanometer,AGP 4×,100,125,,200,200,200,,16,1,,,,,64

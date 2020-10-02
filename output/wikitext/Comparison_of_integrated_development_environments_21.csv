@@ -4,13 +4,13 @@ Aptana Studio," Aptana, Inc."," December 2013, 3.5.0",Cross-platform," GPL, prop
 CodeLite,CodeLite," October 2015, 9.0",Cross-platform,GPL,yes,yes,no," Git, SVN"
 Codelobster,Codelobster," March 2018, 5.14.5",Windows,proprietary,yes,yes,no,via plugins
 Eclipse Che,Zend," 4.7 / September 2, 2016",Cross-platform,EPL,yes,yes,yes,unk
-Eclipse PDT,Zend," 5.2 / December 20, 2017"," Windows, JVM, Solaris",EPL,yes,yes,yes," CVS, Git, SVN (via plugins)"
+Eclipse PDT,Zend," 7.0 / December 18, 2019"," Windows, JVM, Solaris",EPL,yes,yes,yes," CVS, Git, SVN (via plugins)"
 Geany,Geany Team," 1.27 / March 13, 2016"," Windows, AIX, Solaris, other Unix",GPL,yes,no,no,via plugins
 HTML-Kit,Chami.com,292,Windows (all),proprietary,unk,no,unk,unk
 HyperEdit,Jonathan Deutsch / Tumult," 1.6 / April 30, 2008",macOS,proprietary,yes,no,no,no
 KDevelop,KDE KDevelop Team,Latest stable release/KDevelop,Cross-platform,GPL,yes,no,unk," CVS, Git, SVN"
 Komodo IDE / Edit,ActiveState,10.0.1 (June 2016),Cross-platform,proprietary,yes,yes,yes," Bazaar, CVS, Git, SVN"
-NetBeans,Oracle,9.0 / 20180729,Cross-platform on Netbeans," CDDL, GPL",yes,yes,yes," CVS, Git, SVN"
+NetBeans,Oracle,Latest stable software release/NetBeans,Cross-platform on Netbeans," CDDL, GPL",yes,yes,yes," CVS, Git, SVN"
 Eclipse),PHPEclipse project team,1.2.2 / September 2009," Windows, JVM, Solaris",CPL,yes,yes,unk,unk
 PhpED Professional,NuSphere Corporation," 19.111 / May, 2019",Windows,proprietary,yes,yes,unk," CVS, SVN, any other Windows-shell integrated"
 PHPEdit,WaterProof SARL,LSR,article =,latest release version = 3.6.4,latest release date = 20100409,Windows,proprietary,yes,yes,no," CVS, SVN"

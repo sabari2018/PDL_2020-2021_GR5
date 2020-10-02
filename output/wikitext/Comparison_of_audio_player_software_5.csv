@@ -9,7 +9,7 @@ cmus,yes,name=through_ffmpegAvailable through a FFmpeg plugin.,no,yes,yes,yes,na
 Cog,yes,no,no,yes,yes,yes,no,dunno,dunno,yes,yes,yes,yes,yes,dunno
 Exaile,name=through_gstreamerAvailable through a Gstreamer plugin.,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,dunno,yes,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,dunno
 foobar2000,yes,yes,no,yes,yes,yes,name=plugin,no,yes,yes,yes,yes,yes,yes,yes
-Groove Music,Yes,Yes,No,No,,Yes,Yes,,,,Yes,,,,
+Groove Music,Yes,Yes,No,No,dunno,Yes,Yes,dunno,dunno,dunno,Yes,dunno,dunno,dunno,dunno
 JRiver Media Center,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
 JuK,yes,no,no,yes,yes,no,no,dunno,dunno,yes,yes,no,yes,no,dunno
 Media Jukebox,yes,yes,yes,yes,yes,yes,yes,dunno,dunno,yes,yes,yes,yes,yes,dunno
@@ -22,8 +22,9 @@ musikCube,yes,name=autodl,no,yes,name=autodl,name=autodl,name=autodl,dunno,dunno
 Quod Libet,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,dunno,yes,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,dunno
 Rhapsody,yes,yes,yes,no,no,yes,no,dunno,dunno,no,no,no,no,no,dunno
 Rhythmbox,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,dunno,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,name=through_gstreamer,dunno
+Sayonara Player,yes,dunno,dunno,yes,dunno,dunno,no,dunno,yes,dunno,yes,dunno,dunno,dunno,dunno
 Sonique,yes,yes,no,yes,name=autodl,name=autodl,no,dunno,dunno,no,no,no,no,no,dunno
-Spotify,yes,no,no,no,no,no,no,no,no,no,no,no,no,no,no
+Spotify,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no,no
 Style Jukebox,yes,yes,no,no,no,yes,no,no,no,no,yes,yes,no,no,yes
 Winamp,yes,yes,name=plugin,yes,name=plugin,yes,dunno,dunno,dunno,dunno,yes,dunno,dunno,name=plugin,dunno
 XMMS,yes,name=autodl,name=autodl,name=autodl,yes,yes,no,name=plugin,dunno,name=autodl,yes,no,name=autodl,yes,dunno

@@ -12,7 +12,7 @@ align=leftIntego,VirusBarrier,Yes,Yes,No,No,No,No,No,No,No,No,Yes,Yes,Proprietar
 align=leftIntego,Mac Internet Security,Yes,Yes,No,No,Yes,No,No,No,No,Yes,Yes,Yes,Proprietary,Nonfree,2000,United States,
 align=leftKaspersky Lab,Kaspersky Internet Security,Yes,Yes,Yes,Yes,No,No,No,Yes,No,Yes,Yes,Yes,Proprietary,Nonfree,2010,Russia,Banned by USG
 align=leftQuick Heal,Quick Heal Total Security for Mac,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Proprietary,Nonfree,1995,India,GoDeep.AI engine,
-Malwarebytes,Malwarebytes for Mac,,,,,,,,,,,,,,Free,2006,United States,4 vulnerabilities found by Project Zero in 2016
+Malwarebytes,Malwarebytes for Mac,Yes,No,,,No,No,No,No,Yes,No,Yes,,,Free,2006,United States,4 vulnerabilities found by Project Zero in 2016
 align=leftPanda Security,Panda Antivirus for Mac,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Proprietary,Nonfree,2008,Spain,
 align=leftSophos,Sophos Anti-Virus for Mac,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,No,Proprietary,Free,2010,United Kingdom,
 align=leftSymantec,Symantec Endpoint Protection,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,Proprietary,Nonfree,2012,United States,

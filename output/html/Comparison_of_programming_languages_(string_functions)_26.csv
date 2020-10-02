@@ -5,7 +5,7 @@ lc( string )," Perl, Perl "
 string .lc,Raku (programming language)
 tolower( char ),C (programming language)C (programming language)
 std.string.toLower( string ),D (programming language)
-" transform( string .begin(),  string .end(),  result .begin(), ::tolower)[20] ",C++C++
+" transform( string .begin(),  string .end(),  result .begin(), ::tolower)[31] ",C++C++
 lowercase( string ),Object Pascal (Object Pascal)
 strtolower( string ),PHP
 lower( string ),Seed7
@@ -31,3 +31,4 @@ ToLowerCase[ string ],Mathematica
 «FUNCTION» LOWER-CASE( string ),COBOL
 string .toLower,Cobra (programming language)
 string tolower  string,Tcl
+string .to_lowercase(),Rust (programming language)Rust (programming language)

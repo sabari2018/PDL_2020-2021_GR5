@@ -8,11 +8,11 @@ C#,type[]," type[,,...]",System.Collections.ArrayListorSystem.Collections.Generi
 Java,type[]Javas array[b],type[][]...Javas array[b],ArrayList or ArrayList,
 D,type[size],type[size1][size2],type[],
 Go,[size]type,[size1][size2]...type,[]type,[][]type,
-Rust,[type; size],type; size1]; size2],[type],n/a,
+Rust,[type; size],type; size1]; size2],Vec,Vec>,
 Swift,,,[type] or Array,type or Array>,
 Objective-C,NSArray,,NSMutableArray,
 JavaScript,n/a,n/a,ArrayJavaScripts array[d],
-Common Lisp,,,,
+Common Lisp,(simple-array type (dimension)),(simple-array type (dimension1 dimension2)),(array type (dimension)),(array type (dimension1 dimension2))
 Scheme,,,,
 ISLISP,,,,
 Pascal,array[first..last] of typesubrange[c]," rowspan=2array[first1..last1] of array[first2..last2]  ... of type subrange[c] or  array[first1..last1, first2..last2, ...] of type subrange[c]",n/a,n/a

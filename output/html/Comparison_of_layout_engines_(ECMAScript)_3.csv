@@ -1,4 +1,4 @@
-,Trident (layout engine),Gecko (layout engine),WebKit,Presto (layout engine),Blink (layout engine)
+Global object,Trident (layout engine),Gecko (layout engine),WebKit,Presto (layout engine),Blink (layout engine)
 Value properties,,,,,
 NaN,4.0,0.6,Yes,Yes,Yes
 Infinity,4.0,0.6,Yes,Yes,Yes

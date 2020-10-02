@@ -1,0 +1,31 @@
+[ Name
+, Language
+, Latest stable version
+, Academic/noncommercial&lt;br&gt;use is free
+, Can be used in&lt;br&gt;proprietary apps
+, License
+, Notes
+],
+| C++ C# FreePascal VBA,| 3.8.0 / August 2013,| {{yes}},| {{yes}},| Dual (Commercial GPL),| General purpose library includes optimization package.,
+| C C++ C# Python Java Matlab R,| October 2018,| {{yes}},| {{yes}},| Dual (Commercial academic),| A popular algebraic modeling language for linear mixed-integer and nonlinear optimization. Student and AMPL for courses versions are available for free.,
+| Fortran C++ Python Matlab Julia,| 0.6.2 / March 2016,| {{yes}},| {{yes}},| Dual (Commercial academic),| A differential and algebraic modeling language for mixed-integer and nonlinear optimization. Freely available interfaces for Matlab Python and Julia.,
+| C C++ C# Python Java Julia Matlab R,| 11.1 / November 2018,| {{no}},| {{yes}},| Commercial Academic Trial,| General purpose library specialized in nonlinear optimization. Handles mixed-integer problems (MINLP) and mathematical programs with equilibrium constraints ([[Mathematical programming with equilibrium constraints|MPEC]]). Specialized algorithms for nonlinear least squares problems.,
+|Mosel BCL C C++ Java R Python Matlab .Net VB6,|8.5 / Aug 2018,|{{Yes}},|{{Yes}},|Commercial academic community trial,|Suite of Optimization Technologies and Solutions. Includes: Solver technologies including (LP (Simplex ; Barrier) MIP MIQP MIQCQP MISOCP MINLP QP QCQP SOCP NLP (SLP ; Interior Point); An algebraic modelling and procedural programming language; an Integrated Development Environment; Supports for a range of execution services; Support for packaging of optimization models and services as software solutions,
+| Python,| 0.2.8 / August 2020,| {{yes}},| {{yes}},| Dual (Commercial academic),| GEKKO is a Python package for machine learning and optimization of mixed-integer and differential algebraic equations. It is coupled with large-scale solvers for linear quadratic nonlinear and mixed integer programming (LP QP NLP MILP MINLP). Modes of operation include parameter regression data reconciliation real-time optimization dynamic simulation and nonlinear predictive control.,
+| C,| 4.52 / July 2013,| {{yes}},| {{no}},| GPL,| Free library for linear programming (LP) and mixed integer programming (MIP).,
+| C,| 1.16 / July 2013 ,| {{yes}},| {{no}},| GPL,| Free library provided by GNU project.,
+| C C++ C# Java .Net Matlab Python R,| 9.0 / Nov 2019,| {{Yes}},| {{Yes}},| Commercial academic trial,| Optimization library. Handles mixed-integer linear problems convex quadratic constraints and objective multi-objective optimization and SOS constraints,
+| C Java C# Fortran Python,| many components,| {{no}},| {{yes}},| Proprietary,| ,
+| C++ Java ,| 2.0.198 / October 2011,| {{yes}},| {{yes}},| Proprietary,| Support for interactive and learning optimization,according to RSO principles,.ref{{cite book,|title=Reactive Search and Intelligent Optimization,|last=Battiti,|first=Roberto,|authorlink=,|author2=Mauro Brunato |author3=Franco Mascia, |year=2008,|publisher=[[Springer Verlag]],|location=,|isbn=978-0-387-09623-0,}},/ref,
+| C++ Fortran,| 11.1 / October 2013,| {{no}},| {{yes}},| Proprietary,| Numerical library from Intel. MKL is specialized on linear algebrabrbut contains some optimization-related functionality.,
+
+|C++ C# Python Matlab Octave Fortran R Java Excel VBA Julia,|6.0 / Mar 2018,|{{Yes}},|{{Yes}},|Dual (Commercial academic) ,|Lightweight software tool for single- and multi-objective optimization. Supporting MINLP and parallelization.,
+
+| C Fortran,| Mark 26 / October 2017,| {{no}},| {{yes}},| Proprietary,| ,
+| C C++ Fortran Octave Matlab Python Haskell Guile,| v2.6.2 / April 2020,| {{yes}},| {{no}},| LGPL,| NLopt is a free/open-source library for nonlinear optimization providing a common interface for a number of different free optimization routines available online as well as original implementations of various other algorithms. Its features include: Callable from C C++ Fortran Matlab or GNU Octave Python GNU Guile Julia GNU R Lua OCaml and Rust. A common interface for many different algorithms—try a different algorithm just by changing one parameter. Support for large-scale optimization (some algorithms scalable to millions of parameters and thousands of constraints). Both global and local optimization algorithms. Algorithms using function values only (derivative-free) and also algorithms exploiting user-supplied gradients. Algorithms for unconstrained optimization bound-constrained optimization and general nonlinear inequality/equality constraints. Free/open-source software under the GNU LGPL (and looser licenses for some portions of NLopt).,
+| C#,| 5.3 / May 2013,| {{no}},| {{yes}},| Proprietary,| C# numerical library built on top of MKL.,
+| C++/Python,| 0.11.29 / November 2019,| {{no}},| {{yes}},| Commercial,| Supercomputing deterministic global optimization solver for general MINLP problems. Octeract Engine uses MPI for distributed calculations.,
+| Java,| 7.30.0.Final / November 2019,| {{yes}},| {{yes}},| ASL (open source),| Lightweight optimization solver in Java with optional integration modules for JPA-Hibernate Quarkus Spring Jackson JAXB etc. Works on Kotlin and Scala too.,
+| Python,| 0.13.1 / November 2013,| {{yes}},| {{yes}},| BSD,| General purpose numerical and scientific computing library for Python.,
+
+,

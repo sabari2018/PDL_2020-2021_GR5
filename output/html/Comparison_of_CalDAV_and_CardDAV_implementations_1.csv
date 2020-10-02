@@ -8,16 +8,17 @@ CardDavMATE[6],Cross-platform Cross-platform Cross-platform,GNU Affero General P
 InfCloud (CalDavZAP+CardDavMATE)[7],Cross-platform Cross-platform Cross-platform,GNU Affero General Public License,No,No,Yes,Yes,Unknown,No,No Does not arrange meetings with participants,Yes vCard 3.0 only,No,InfCloud,No,No The used server is fixed in the configuration file,No Does not arrange meetings with participants,No The used server is fixed in the configuration file,Yes
 Chandler Desktop[8],Cross-platform Cross-platform,Apache License,Unknown,Unknown,Yes,Yes,Unknown,Unknown,Unknown,No,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
 DAVx⁵[9],Android (operating system),GNU General Public License,No,No,Yes,Yes,out of scope,out of scope,No (except attendees/invitations),Yes,No (server always wins)," Android, OpenTasks "," Google Play, OpenTasks ",Yes,out of scope,Yes,Yes
-jqCalDAV[10],Cross-platform Cross-platform Cross-platform,MIT License,Unknown,Unknown,Yes,Yes,Unknown,Unknown,Unknown,N/A,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
-KCardDAV[11] (discontinued),Cross-platform Cross-platform add-on,GNU General Public License,Unknown,Unknown,N/A,N/A,N/A,Unknown,Unknown,Yes,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
+Tasks.org[10],Android (operating system),GNU General Public License,No,No,No,Yes,No,No,No,No,No,Android,Google Play,Yes,No,No,Yes
+jqCalDAV[11],Cross-platform Cross-platform Cross-platform,MIT License,Unknown,Unknown,Yes,Yes,Unknown,Unknown,Unknown,N/A,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
+KCardDAV[12] (discontinued),Cross-platform Cross-platform add-on,GNU General Public License,Unknown,Unknown,N/A,N/A,N/A,Unknown,Unknown,Yes,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
 " KOrganizer, KAddressBook, Kontact ",Unix-Unix,GNU General Public License,Unknown,Unknown,Yes,Yes,Unknown,Unknown,Unknown,Yes,Unknown,KOrganizer,KOrganizer,Unknown,Unknown,Unknown,Unknown
 Mozilla LightningMozilla Lightning,Cross-platform Cross-platform Cross-platform," Mozilla Public License, Mozilla Public License, Mozilla Public License ",Unknown,Unknown,Yes,Yes,Unknown,Unknown,Unknown,N/A,Out of scope,Lightning,Lightning,Unknown,Unknown,Unknown,Unknown probably not
-CardBook[13],Cross-platform Cross-platform Cross-platform,Mozilla Public License,No,No,Out of scope,Out of scope,Out of scope,Out of scope,Out of scope,Yes VCard and VCard,Yes,CardBook,Mozilla Add-ons (ATN),Yes,Out of scope,No,partial
-MineTime[14],Cross-platform,Proprietary software,No,No,Yes,No,No,No,No,No,No,No,MineTime,minetime.ai,No,No,No
+CardBook[14],Cross-platform Cross-platform Cross-platform,Mozilla Public License,No,No,Out of scope,Out of scope,Out of scope,Out of scope,Out of scope,Yes VCard and VCard,Yes,CardBook,Mozilla Add-ons (ATN),Yes,Out of scope,No,partial
+MineTime[15],Cross-platform,Proprietary software,No,No,Yes,No,No,No,No,No,No,No,MineTime,minetime.ai,No,No,No
 Mulberry (e-mail client)Mulberry (e-mail client),Cross-platform,Apache License,Unknown,Unknown,Yes,Yes,Unknown,Unknown,Unknown,Yes,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
-Outlook CalDav Synchronizer[16],Microsoft Windows,GNU Affero General Public License,Unknown,Unknown,Yes,Yes,Unknown,Unknown,Unknown,Yes,Unknown,Outlook,Unknown,Yes,Unknown,Yes,Yes
-pyCardDAV[17],Cross-platform Cross-platform,MIT License,Unknown,Unknown,N/A,N/A,N/A,Unknown,Unknown,Yes,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
+Outlook CalDav Synchronizer[17],Microsoft Windows,GNU Affero General Public License,Unknown,Unknown,Yes,Yes,Unknown,Unknown,Unknown,Yes,Unknown,Outlook,Unknown,Yes,Unknown,Yes,Yes
+pyCardDAV[18],Cross-platform Cross-platform,MIT License,Unknown,Unknown,N/A,N/A,N/A,Unknown,Unknown,Yes,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
 The Bat!The Bat!,Microsoft Windows,Proprietary software,Unknown,Unknown,No,No,No,Unknown,Unknown,Yes,Unknown,The Bat!,The Bat!'s address book,Unknown,Unknown,Unknown,Unknown
 Inverse SOGo Connector-IntegratorSOGo,Cross-platform Cross-platform Cross-platform," Mozilla Public License, Mozilla Public License, Mozilla Public License ",Unknown,Unknown,Yes,Yes,Unknown,Unknown,Unknown,Yes,Unknown,Mozilla,Add-on (Mozilla),Unknown,Unknown,Unknown,Unknown
 Evolution (software),Cross-platform,GNU General Public License,No,No,Yes,Yes,Yes,No,No,Yes vCard 3.0 only,Unknown,Evolution,Evolution,Yes,Yes if the URL does not require authentication,Yes,Yes
-ReminderFox[20],Cross-platform Cross-platform,Mozilla Public License 1.1,Unknown,Unknown,Yes,Yes,Unknown,Unknown,No,N/A,Unknown,ReminderFox,Yes,Unknown,Unknown,Unknown,Unknown
+ReminderFox[21],Cross-platform Cross-platform,Mozilla Public License 1.1,Unknown,Unknown,Yes,Yes,Unknown,Unknown,No,N/A,Unknown,ReminderFox,Yes,Unknown,Unknown,Unknown,Unknown

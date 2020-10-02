@@ -24,7 +24,7 @@ String.sub  string   startpos   numChars,OCaml
 " substring ( string ,  startpos ,  numChars ) ",Standard ML
 " string:sub_string( string ,  startpos ,  endpos ) string:substr( string ,  startpos ,  numChars ) ",Erlang (programming language)
 " strncpy( result ,  string  +  startpos ,  numChars ); ",C (programming language)
-string [ startpos ..  endpos +1],D (programming language)
+string [ startpos  ..  endpos +1],D (programming language)
 take  numChars  $ drop  startpos   string,Haskell (programming language)
 " [ string  substringWithRange:NSMakeRange( startpos ,  numChars )] ",Objective-C (NSString * only)
 string .[ startpos .. endpos ],F Sharp (programming language)
@@ -33,5 +33,7 @@ string  copyFrom:  startpos  to:  endpos,Smalltalk
 string ( startpos : endpos ),Fortran
 SUBSTRING( string  FROM  startpos  «FOR  numChars »),SQL
 " StringTake[ string , { startpos ,  endpos }] ",MathematicaMathematicaMathematica
-string [ startpos  ..  endpos ],Ya,string  ( startpos : numChars )
-string range  string startpos endpos,Tcl,
+string [ startpos  ..  endpos ],Ya
+string  ( startpos : numChars ),COBOL
+string range  string startpos endpos,Tcl
+string [ startpos .. endpos ]  string .get( startpos .. endpos ),Rust (programming language)Rust (programming language)

@@ -5,7 +5,6 @@ OpenBSD,PF (firewall),Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes
 NetBSD," IPFilter, IPFilter, IPFilter ",Yes,Yes,,Yes,Yes[Note 1],Yes,Yes,Yes,Yes,Yes
 DragonFly BSD," IPFW2, IPFW2 ",Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,
 " OpenSolaris, OpenSolaris ",IPFilter,Yes,Yes,,Yes,Yes,Yes,Yes,Yes[Note 2],Yes,Yes
-AuroraUX (page does not exist),IPFilter,Yes,Yes,,Yes,Yes,Yes,Yes,,Yes,Yes
 " Darwin (operating system), Darwin (operating system) ",Ipfirewall,Yes,Yes,,,,Yes,,,Yes,
 MINIX,,Yes,,,,,,,,Yes,
 FreeDOS,,Yes,,Yes,Yes,Yes,Yes,,,Yes,

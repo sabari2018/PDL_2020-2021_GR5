@@ -5,21 +5,21 @@ length( string ),," Ingres (database), Ingres (database), Ingres (database), Ing
 Len (programming)( string ),," BASIC, BASIC, BASIC, BASIC, BASIC "
 " length( string ), string:len( string ) ",,Erlang (programming language)
 Len (programming)( string ),," Visual Basic, Visual Basic "
-string .Length,Number of 16-bit UTF-16-encoded blocks," Visual Basic .NET, Visual Basic .NET, Visual Basic .NET, Visual Basic .NET "
+string .Length,Number of UTF-16 UTF-16," Visual Basic .NET, Visual Basic .NET, Visual Basic .NET, Visual Basic .NET "
 chars( string )    string .chars,Number of graphemes (NFG),Raku (programming language)
 codes( string )    string .codes,Number of Unicode code points,Raku (programming language)
-string .size OR  string .length,Number of bytes[18],Ruby (programming language)
+string .size OR  string .length,Number of bytes[27],Ruby (programming language)
 Strlen( string ),Number of bytes," C (programming language), C (programming language) "
 string .length(),,C++ (STL)
 string .length,," Cobra (programming language), Cobra (programming language), Cobra (programming language) "
-string .length(),Number of 16-bit UTF-16-encoded blocks,Java (programming language)
+string .length(),Number of UTF-16 UTF-16,Java (programming language)
 (string-length  string ),,Scheme (programming language)
 (length  string ),," Common Lisp, Common Lisp "
 (count  string ),,Clojure
 String.length  string,,OCaml
 size  string,,Standard ML
-length  string,Number of Unicode codepoints,Haskell (programming language)
-string .length,Number of 16-bit UTF-16-encoded blocks,Objective-C (NSString * only)
+length  string,Number of Unicode code points,Haskell (programming language)
+string .length,Number of UTF-16 code units,Objective-C (NSString * only)
 string .characters.count,Number of characters,Swift (programming language) (2.x)
 count( string ),Number of characters,Swift (programming language) (1.2)
 countElements( string ),Number of characters,Swift (programming language) (1.0–1.1)
@@ -30,4 +30,6 @@ StringLength[ string ],,Mathematica
 Length(string) or Size(string),number of bytes as $int+,Ya
 «FUNCTION» LENGTH( string ) or «FUNCTION» BYTE-LENGTH( string )," number of characters and number of bytes, respectively ",COBOL
 string length  string,a decimal string giving the number of characters,Tcl
-≢  string,,APL (programming language),
+≢  string,,APL (programming language)
+string .len(),Number of bytes,Rust (programming language)Rust (programming language)
+string .chars().count(),Number of Unicode code points,Rust (programming language)Rust (programming language)

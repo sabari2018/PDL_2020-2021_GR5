@@ -1,8 +1,9 @@
-Assembler,Software license,Instruction set,Host Computing platform
-Atari Assembler Editor,Proprietary software,MOS Technology 6502,Atari 8-bit family
-Atari Macro Assembler,Proprietary software,MOS Technology 6502,Atari 8-bit family
-Lazer's Interactive Symbolic Assembler,Proprietary software,MOS Technology 6502,Apple II series
-MAC/65,Proprietary software," MOS Technology 6502, MOS Technology 6502 ",Atari 8-bit family
-Merlin (assembler),Free," MOS Technology 6502, MOS Technology 6502 ",Apple II series
-Vasm,Free,MOS Technology 6502,various
-k2asm,Artistic License,MOS Technology 6502," Linux, Linux, Linux, possibly other Unices "
+Assembler,Developer,Free and open-source software,Software license,Instruction set,Host Computing platform
+Atari Assembler Editor,Shepardson Microsystems,No,Proprietary software,MOS Technology 6502,Atari 8-bit family
+Atari Macro Assembler,Shepardson Microsystems,No,Proprietary software,MOS Technology 6502,Atari 8-bit family
+Lazer's Interactive Symbolic Assembler,Randall Hyde,No,Proprietary software,MOS Technology 6502,Apple II series
+MAC/65,Optimized Systems Software,No,Proprietary software," MOS Technology 6502, MOS Technology 6502 ",Atari 8-bit family
+Merlin (assembler),Glen Bredon,Yes,Public-domain software," MOS Technology 6502, MOS Technology 6502 ",Apple II series
+Vasm,,,Free,MOS Technology 6502,various
+k2asm," Andre Kaesmacher, Hauke Brandes, Börje Sieling ",Yes,Artistic License,MOS Technology 6502," Linux, Linux, Linux, possibly other Unices "
+rmac," James Hammons, George Nakos, Landon Dyer ",Yes,Free,MOS Technology 6502," Linux, Linux, Linux "

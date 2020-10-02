@@ -6,8 +6,8 @@ GeForce GT 6204," April 3, 2012",GF119,,,,PCIe 2.0 ×16,,48:8:4,,n/a,n/a,,898(17
 ," May 15, 2012",GF108-100-KB-A1,,,,,585,116,2,96:16:4,700,n/a,n/a,1400,1000–1800,2.8,11.2,,,,,,,1024<br />2048,8–14.4,268.8,{{unk}},49,Retail
 GeForce GT 625," February 19, 2013",GF119,,,,,292,79,1,48:8:4,810,n/a,n/a,1620,898(1796),3.24,6.5,,,,,,,512 1024,14.4,155.5,{{unk}},30,| OEM
 GeForce GT 630," April 24, 2012",GK107,TSMC 28 nm,1300,118,PCIe 3.0 ×16,192:16:16,875,,n/a,n/a,875,891(1782),14,14,10242048,28.5,,128,1.0,,,,336,14,50
-,"  May 15, 2012",GF108-400-A1,TSMC 40 nm,585,116,PCIe 2.0 ×16,2,96:16:4,700,n/a,n/a,1620,1600–1800,2.8,11.2,102420484096,25.6–28.8,,,n/a,,,,311,{{unk}},49,| Retail,
-,,GF108,,,,,,96:16:4,810,n/a,n/a,1620,800(3200),3.2,13,1024,51.2,,,,,,,GDDR5,311,{{unk}},,65
+,"  May 15, 2012",GF108-400-A1,TSMC 40 nm,585,116,PCIe 2.0 ×16,2,96:16:4,700,n/a,n/a,1620,1600–1800,2.8,11.2,102420484096,25.6–28.8,,,n/a,,,,311,{{unk}},49,| Retail
+,,GF108,,,,,,96:16:4,810,n/a,n/a,1620,800(3200),3.2,13,1024,51.2,,,,,,,GDDR5,311,{{unk}},,65,
 " May 29, 2013",GK208-301-A1,TSMC 28 nm,1020,79,PCIe 2.0 ×8,1,384:16:8,902,n/a,n/a,902,900(1800),7.22,14.44,10242048,14.4,DDR3,64,1.0,692.7,,,,{{unk}},25,
 GeForce GT 635," February 19, 2013",,,,GK208,,PCIe 3.0 ×8,384:16:8,967,n/a,n/a,967,1001(2002),7.74,,15.5,,,,16,,,,742.7,{{unk}},35,| OEM
 GeForce GT 6408,"  April 24, 2012",GF116,TSMC 40 nm,1170,238,PCIe 2.0 ×16,3,144:24:24,720,n/a,n/a,1440,891(1782),17.3,17.3,15363072,,42.8,192,n/a,,,,414.7,{{unk}},75,
@@ -22,11 +22,11 @@ GeForce GTX 650 Ti," October 9, 2012",GK106-220-A1,,2540,221,,4,768:64:16,928,n/
 GeForce GTX 650 Ti Boost," March 26, 2013",GK106-240-A1,,,,,,768:64:24,980,1032,n/a,980,1502(6008),23.5,62.7,,144.2,192,,,,,,,,1505.28,62.72,134,$170 (150)
 GeForce GTX 660," September 13, 2012",GK106-400-A1,,,,5,960:80:24,1084,,,1502(6008),,23.5,78.4,20483072,96.1+48.1<br />144.2,128+64<br />192,1881.6,,,,,,,,78.40,140,$230 (180)
 ," August 22, 2012",GK104-200-KD-A2,3540,294,6,1152:96:241152:96:32,823.5,888.5,899,823,1450(5800),19.8,79,1536
-2048,,,,
+2048,,,
 3072,134,192256,,,2108.6,79.06,130,OEM
 GeForce GTX 660 Ti," August 16, 2012",GK104-300-KD-A2,,,7,1344:112:24,915,980,1058,915,1502(6008),22.0,102.5,2048,96.1+48.1144.2,128+64192,2459.52,102.48,,,,,,,,150,$300
 GeForce GTX 670," May 10, 2012",GK104-325-A2,,,,1344:112:32,,,1084,,1502(6008),29.3,102.5,20484096,192.256,| 256,2459.52,102.48,,,,,,,,170,$400
 GeForce GTX 680," March 22, 2012",GK104-400-A2,8,1536:128:32,1006,1058,1110,1006,1502(6008),32.2,128.8,192.256,3090.43,,128.77,,195,$500,,,,,,,
 GeForce GTX 690," April 29, 2012",2× GK104-355-A2,2× 3540,2× 294,2× 8,2× 1536:128:32,915,1019,1058,915,1502(6008),2× 29.28,2× 117.12,2× 2048,2× 192.256,2× 256,2× 2810.88,2× 117.12,,,,,,,,300,$1000
 Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,SM count,Core config1,Clock rate,,,,,Fillrate,,| Memory configuration,,,,| Supported [[Application programming interface|API]] version,,,,,,,| Processing power ([[GFLOPS]])<sup>10</sup>,,| [[Thermal design power|TDP]] (Watts),| Release Price (USD)
-,,,,,,,,,Core (MHz),Average Boost (MHz),Max Boost (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth ([[Gigabyte|GB]]/s),DRAM type,Bus width ([[bit]]),[[Vulkan (API)|Vulkan]],[[Direct3D]],[[OpenGL]],[[OpenCL]],[[Single precision floating-point format|Single precision]],[[Double precision floating-point format|Double precision]]
+,,,,,,,,,Core (MHz),Average Boost (MHz),Max Boost (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth ([[Gigabyte|GB]]/s),DRAM type,Bus width ([[bit]]),[[Vulkan (API)|Vulkan]],[[Direct3D]],,[[OpenGL]],[[OpenCL]],[[Single precision floating-point format|Single precision]],[[Double precision floating-point format|Double precision]]

@@ -31,3 +31,4 @@ ToLowerCase[string],Mathematica
 «FUNCTION» LOWER-CASE(string),COBOL
 string.toLower,Cobra
 string tolower string,Tcl
+string.to_lowercase(),Rust

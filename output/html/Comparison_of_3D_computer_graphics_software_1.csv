@@ -3,7 +3,7 @@ Application,Latest release date  and version,Developed by,Platforms,Mainly Used 
 AC3D,2016-12-?  v 8,Inivis (page does not exist)," Linux, Linux, Linux ",Modeling,Proprietary software
 Alibre Design,2018-07-16  v 2018," Alibre, LLC (page does not exist) ",Microsoft Windows,Computer Aided Design,Proprietary software
 AutoCAD,2019-03-28  v 2020,Autodesk," Mac OS X, Mac OS X "," 2D Computer Aided Design, 3D Modeling, Basic Rendering, Rudimentary Animation (of Camera, not objects) ",Proprietary software
-Blender (software),2019-07-30 v 2.80,Blender Foundation," Microsoft Windows, Microsoft Windows, Microsoft Windows, Microsoft Windows, Microsoft Windows, Microsoft Windows, Microsoft Windows "," 2D/3D toon Animation, Lighting, Modeling, Node based Material Creation / Texturing / 3D Texture Painting/ UV Mapping, Rendering (Internal, External, 3D Anaglyph and VR), 3D Rigging and Animation, Sculpting, Video Game Creation and Player, Visual 3D Effects, Basic Post-Production Video Editing, Motion Tracking, Python Scripting, Fluid Simulation, Particles, Physics, Compositing ",GNU General Public License+ / GNU General Public License GNU General Public License
+Blender (software),2020-08-31 v 2.90,Blender Foundation," Microsoft Windows, Microsoft Windows, Microsoft Windows, Microsoft Windows, Microsoft Windows, Microsoft Windows, Microsoft Windows "," 2D/3D toon Animation, Lighting, Modeling, Node based Material Creation / Texturing / 3D Texture Painting/ UV Mapping, Rendering (Internal, External, 3D Anaglyph and VR), 3D Rigging and Animation, Sculpting, Visual 3D Effects, Basic Post-Production Video Editing, Motion Tracking, Python Scripting, Fluid Simulation, Particles, Physics, Compositing ",GNU General Public License+ / GNU General Public License GNU General Public License
 Carrara (software),2013-08-26  8.5.1.19,DAZ 3D," Microsoft Windows, Microsoft Windows "," Animation, Modeling ",Proprietary software
 Cheetah 3D,2017-12-07 v 7.1,Dr. Martin Wengenmayer (page does not exist),Mac OS X," Animation, Modeling, Rendering ",Proprietary software
 Cinema 4D,2018-09-11 R20,MAXON (page does not exist)," Mac OS X, Mac OS X, Mac OS XMac OS X "," Animation, Lighting, Modeling, Visual 3D Effects, Rendering, Simulation ",Proprietary software
@@ -26,7 +26,7 @@ Modo (software),2018-06-21 12.1,The Foundry Visionmongers," Mac OS X, Mac OS X, 
 Mudbox,2018-03-14 2018.2,Autodesk," Mac OS X, Mac OS X, Mac OS X "," Lighting, Sculpting (the deformation of the model) ",Proprietary software
 POV-Ray,2013-11-09  v3.7.0,The POV-Team (page does not exist)," Mac OS X, Mac OS X, Mac OS X, Mac OS X "," Lighting, Visual 3D effects ",Affero General Public License
 PTC Creo Elements/Pro (formerly Pro/Engineer),?  v 4.0,Parametric Technology Corporation," Microsoft Windows, Microsoft Windows, Microsoft Windows "," Modeling, Computer Aided Design ",Proprietary software
-Remo 3D,2019-12-13  v 2.9,Remograph," Microsoft Windows, Microsoft Windows "," Modeling, Virtual Reality, Real-time modeling, Video Game Creation, Computer Aided Design ",Proprietary software
+Remo 3D,2020-01-10  v 2.9.1,Remograph," Microsoft Windows, Microsoft Windows "," Modeling, Virtual Reality, Real-time modeling, Video Game Creation, Computer Aided Design ",Proprietary software
 Rhinoceros 3D,2018-02-06  v 6.0,McNeel," Microsoft Windows, Microsoft Windows in beta "," Modeling, Computer Aided Design ",Proprietary software
 Shade 3D,2015-03-20  v 15.1,Shade3D (page does not exist)," Mac OS X, Mac OS X "," Modeling, Rendering, Animation ",Proprietary software
 Silo (software),2018  v 2.5.3,Nevercenter," Mac OS X, Mac OS X ",Modeling,Proprietary software
@@ -37,5 +37,5 @@ SolidWorks,2018-11-16  v SolidWorks 2019 SP0.0,Dassault Systèmes,Microsoft Wind
 SpaceClaim,2018-01  v 7.12,SpaceClaim Corporation,Microsoft Windows,Computer Aided Design,Proprietary software
 E-on Vue,2017  v 2016 R5,E-on Software (page does not exist)," Mac OS X, Mac OS X "," Animation, Landscape Modeling, Lighting ",Proprietary software
 Verto Studio 3D,2018-05-06  v2.3.8,Michael L. Farrell (page does not exist)," Mac OS X, Mac OS X "," Mobile Modeling, Texture Mapping, Lighting ",Proprietary software
-Wings 3D,2018-05-30  v 2.1.7,Dan Gudmundsson (maintainer)," Mac OS X, Mac OS X, Mac OS X, Mac OS X "," Modeling, Sculpting (the deformation of the model), UV mapping ",BSD License
+Wings 3D,2019-04-12  v 2.2.4,Dan Gudmundsson (maintainer)," Mac OS X, Mac OS X, Mac OS X, Mac OS X "," Modeling, Sculpting (the deformation of the model), UV mapping ",BSD License
 ZBrush,2019-03-06  v 2019,Pixologic," Mac OS X, Mac OS X "," Modeling, Texturing, Lighting, Sculpting (the deformation of the model), Rendering ",Proprietary software

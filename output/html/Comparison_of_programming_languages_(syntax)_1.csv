@@ -14,6 +14,7 @@ C Sharp (programming language),semicolon terminated
 COBOL," whitespace separated, sometimes period separated, optionally separated with commas and semi-colons. ",
 Cobra (programming language),newline terminated
 CoffeeScript,newline terminated
+CSS,semicolon separated
 D (programming language),semicolon terminated
 Eiffel (programming language),newline terminated,semicolon
 Erlang (programming language)," colon separated, period terminated "

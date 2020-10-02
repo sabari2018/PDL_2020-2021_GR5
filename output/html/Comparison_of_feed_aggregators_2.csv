@@ -1,4 +1,4 @@
-Client,Microsoft Windows,Mac OS X,Linux,BSD,Solaris (operating system),Android (operating system),IOS,Other
+Client,Microsoft Windows,MacOS,Linux,BSD,Solaris (operating system),Android (operating system),IOS,Other
 Akregator,No,Yes,Yes,Yes,Yes,No,No,No
 Amarok (software),Yes,Yes,Yes,Yes,Yes,No,No,No
 AOL Explorer,Yes,No,No,No,No,No,No,No
@@ -17,25 +17,26 @@ Gnus,Yes,Yes,Yes,Yes,Yes,Yes,No,DOS
 IBM Lotus Notes,Yes,Yes,Yes,No,No,No,No,No
 Inoreader,Yes,Yes,Yes,No,No,Yes,Yes,No
 Internet Explorer,Included,No,No,No,No,No,No,No
-ITunes,Yes,Included,No,No,No,No,No,No
+ITunes,Yes,as Podcasts app,No,No,No,No,No,No
 Juice (aggregator),Yes,Yes,No,No,No,No,No,No
 K-Meleon,Yes,No,No,No,No,No,No,No
 Kazehakase,No,No,Yes,Yes,No,No,No,No
 Liferea,No,No,Yes,Yes,No,No,No,No
-Mail (OS X),No,Included,No,No,No,No,No,No
+Apple Mail,No,Included,No,No,No,No,No,No
 Maxthon,Yes,No,No,No,No,No,No,No
 MediaMonkey,Yes,No,No,No,No,No,No,No
 Microsoft Office Outlook,Yes,Yes,No,No,No,No,No,Windows Mobile
 Mozilla Firefox,Add-on,Add-on,Add-on,Add-on,No,No,No,No
 Mozilla Thunderbird,Yes,Yes,Yes,Yes,No,No,No,No
-NetNewsWire,No,Yes,No,No,No,No,No,No
+NetNewsWire,No,Yes,No,No,No,No,Yes,No
 Netscape Browser,Yes,No,No,No,No,No,No,No
 Netscape Navigator 9,Yes,Yes,Yes,No,No,No,No,No
 NewsAccess,No,Yes,No,No,No,No,No,No
 NewsBlur,Web based,Web based,Web based,Web based,Web based,Yes,Yes,every platform with a web browser
+Newsbeuter,No,Yes,Yes,Yes,No,No,No,Source code available
 NewsFire,No,Yes,No,No,No,No,No,No
 OmniWeb,No,Yes,No,No,No,No,No,No
-Opera Mail,Yes,Yes,Yes,Yes[37],Dropped,No,No," BeOS, BeOS, BeOS "
+Opera Mail,Yes,Yes,Yes,Yes[38],Dropped,No,No," BeOS, BeOS, BeOS "
 Pegasus Mail,Yes,No,No,No,No,No,No,No
 Protopage,Web based,Web based,Web based,Web based,Web based,Dedicated Web App,Dedicated Web App,every platform with a Web browser
 Pulse (software),Web based,Web based,Web based,Web based,Web based,Dedicated App,Dedicated App,every platform with a Web browser
@@ -56,3 +57,4 @@ Winamp,Yes,No,Obsolete,No,No,No,No,No
 Windows Live Mail,Yes,No,No,No,No,No,No,No
 Zimbra,Yes,Yes,Yes,Yes,No,No,No,No
 Zune,Yes,No,No,No,No,No,No,Windows Mobile
+Client,Microsoft Windows,Mac OS X,Linux,BSD,Solaris (operating system),Android (operating system),IOS,Other

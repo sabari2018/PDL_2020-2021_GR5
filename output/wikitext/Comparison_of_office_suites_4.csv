@@ -15,11 +15,10 @@ Microsoft Works,no,no,no,Microsoft Office Live
 MobiSystems OfficeSuite," OfficeSuite Mail for Windows, AquaMail for Android",no,no,no
 NeoOffice,no,NeoOffice Writer,no,no
 ONLYOFFICE,yes,no,yes,Fully online
-ShareOffice,no,no,yes,Fully online
 SoftMaker Office,a bundled Mozilla Thunderbird,no,no,no
 StarOffice,no,StarWriter,no,yes2 With free plugins
 TeXmacs,allows to read emails,yes,under development,no
-[./Https://www.onlyoffice.com OnlyOffice],no,yes,yes,yes
+TeamLab,no,yes,yes,yes
 ThinkFree Office,no,Note,no,ThinkFree.com
 Tiki Wiki CMS Groupware,Tiki Webmail,WYSIWYG editor via CKEditor,yes,Fully online
 WordPerfect Office,has mail merge capabilities,no,no,yes

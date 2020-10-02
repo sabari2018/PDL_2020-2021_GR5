@@ -1,28 +1,28 @@
 Implementation,Transport Layer Security (insecure)Transport Layer Security,Transport Layer Security (insecure)Transport Layer Security,Transport Layer SecurityTransport Layer Security,Transport Layer SecurityTransport Layer Security,Transport Layer SecurityTransport Layer Security,Transport Layer Security,Datagram Transport Layer SecurityDatagram Transport Layer Security,Datagram Transport Layer SecurityDatagram Transport Layer Security
-Botan (programming library),No,No[37],Yes,Yes,Yes,,Yes,Yes
-BoringSSL,,,Yes,Yes,Yes,Yes (draft version),Yes,Yes
+Botan (programming library),No,No[36],Yes,Yes,Yes,,Yes,Yes
+BoringSSL,,,Yes,Yes,Yes,Yes,Yes,Yes
 Bouncy Castle (cryptography),No,No,Yes,Yes,Yes,Yes (draft version),Yes,Yes
 Cryptlib,No,Disabled by default at compile time,Yes,Yes,Yes,,No,No
-GnuTLS,No[a],Disabled by default[38],Yes,Yes,Yes,Yes[39],Yes,Yes
-Java Secure Socket Extension,No[a],Disabled by default[40],Yes,Yes,Yes,Yes (JDK 11+)[41],Yes,Yes
-LibreSSL,No[42],No[43],Yes,Yes,Yes,Not yet[44],Yes,No
-MatrixSSL,No,Disabled by default at compile time[45],Yes,Yes,Yes,Yes,Yes,Yes
-Mbed TLS,No,Disabled by default[46],Yes,Yes,Yes,,Yes[46],Yes[46]
-Network Security Services,No[b],Disabled by default[47],Yes,Yes[48],Yes[49],Yes[50],Yes[48],Yes[51]
-OpenSSL,No[52],Disabled by default,Yes,Yes[53],Yes[53],Yes,Yes,Yes[54]
-RSA BSAFERSA BSAFE,No,Disabled by default,Yes,Yes,Yes,Not yet,No,No
+GnuTLS,No[a],Disabled by default[37],Yes,Yes,Yes,Yes[38],Yes,Yes
+Java Secure Socket Extension,No[a],Disabled by default[39],Yes,Yes,Yes,Yes (JDK 11+)[40],Yes,Yes
+LibreSSL,No[41],No[42],Yes,Yes,Yes,Yes,Yes,No
+MatrixSSL,No,Disabled by default at compile time[43],Yes,Yes,Yes,Yes,Yes,Yes
+Mbed TLS,No,Disabled by default[44],Yes,Yes,Yes,No,Yes[44],Yes[44]
+Network Security Services,No[b],Disabled by default[45],Yes,Yes[46],Yes[47],Yes[48],Yes[46],Yes[49]
+OpenSSL,No[50],Disabled by default,Yes,Yes[51],Yes[51],Yes,Yes,Yes[52]
+RSA BSAFERSA BSAFE,No,Disabled by default,Yes,Yes,Yes,No,No,No
 S2nS2n,No,Disabled by default,Yes,Yes,Yes,,No,No
 " SChannel XP, 2003SChannel ",Disabled by default in MSIE 7,Enabled by default,Enabled by default in MSIE 7,No,No,,No,No
 SChannel VistaSChannel,Disabled by default,Enabled by default,Yes,No,No,,No,No
 SChannel 2008SChannel,Disabled by default,Enabled by default,Yes,Disabled by default (KB4019276),Disabled by default (KB4019276),,No,No
-" SChannel 7, 2008R2SChannel ",Disabled by default,Disabled by default in MSIE 11,Yes,Enabled by default in MSIE 11,Enabled by default in MSIE 11,,Yes[60],No[60]
+" SChannel 7, 2008R2SChannel ",Disabled by default,Disabled by default in MSIE 11,Yes,Enabled by default in MSIE 11,Enabled by default in MSIE 11,,Yes[58],No[58]
 " SChannel 8, 2012SChannel ",Disabled by default,Enabled by default,Yes,Disabled by default,Disabled by default,,Yes,No
 " SChannel 8.1, 2012R2, 10 v1507 &amp; v1511SChannel ",Disabled by default,Disabled by default in MSIE 11,Yes,Yes,Yes,,Yes,No
 SChannel 10 v1607 / 2016SChannel,No,Disabled by default,Yes,Yes,Yes,,Yes,Yes
-" Secure Transport OS X 10.2-10.7, iOS 1-4 ",Yes,Yes,Yes,No,No,,No,No
+" MacOS OS X 10.2-10.7, iOS 1-4  ",Yes,Yes,Yes,No,No,,No,No
 " Secure Transport OS X 10.8-10.10, iOS 5-8 ",No[c],Yes,Yes,Yes[c],Yes[c],,Yes[c],No
 " Secure Transport OS X 10.11, iOS 9 ",No,No[c],Yes,Yes,Yes,,Yes,Unknown
-" Secure Transport OS X 10.13, iOS 11 ",No,No[c],Yes,Yes,Yes,Yes (draft version)[62],Yes,Unknown
-WolfSSL,No,Disabled by default[63],Yes,Yes,Yes,Yes,Yes,Yes
+" Secure Transport OS X 10.13, iOS 11 ",No,No[c],Yes,Yes,Yes,Yes (draft version)[60],Yes,Unknown
+WolfSSL,No,Disabled by default[61],Yes,Yes,Yes,Yes,Yes,Yes
 Erlang (programming language)/OTP SSL application,No,Disabled by default,Yes,Yes,Yes,Not yet,Yes,Yes
 Implementation,Transport Layer Security (insecure)Transport Layer Security,Transport Layer Security (insecure)Transport Layer Security,Transport Layer SecurityTransport Layer Security,Transport Layer SecurityTransport Layer Security,Transport Layer SecurityTransport Layer Security,Transport Layer Security,Datagram Transport Layer SecurityDatagram Transport Layer Security,Datagram Transport Layer SecurityDatagram Transport Layer Security

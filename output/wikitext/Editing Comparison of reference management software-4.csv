@@ -1,0 +1,40 @@
+[Software
+, Developer
+, First public release
+, Latest stable release date
+, Latest stable version
+, Cost (USD)
+, [[Free software]]
+, License
+, Notes
+],
+| [[Advanced Learning and Research Institute|ALaRI Institute]],| 2007-11-08,| 2009-11-10,| 1.1,| {{free}},| {{yes}},| {{BSD-lic}},| web-based BibTeX front-end (Apache PHP MySQL),
+| Christian Fritz,| 2005,| 2013-07,| v3,| {{free}},| {{no}},| {{proprietary}},| centrally hosted website intended for publication pages,
+| BibDesk developers,| 2002-04,| 2019-06-03,| 1.7.1,| {{free}},| {{yes}},| {{BSD-lic}},| [[BibTeX]] front-end + repository; [[Cocoa (API)|Cocoa]]-based; integration with [[Spotlight (software)|Spotlight]],
+| CG Information,| 1997,| 2015-06-22,| 10.0.3.6,| {{nonfree|[[US$]]79-299}},| {{no}},| {{proprietary}},| [[ODBC]]; web access in Pro ed; optional client/server; discontinued?,
+| [[University of Kassel]],| 2006-01,| 2018-07-30,| 3.8.13,| {{free}},| {{yes}},| {{free |[[GNU Affero General Public License|AGPL]] [[GNU General Public License|GPL]] [[GNU Lesser General Public License|LGPL]]}},| centrally hosted website,
+| Bibus developers,| 2004-06-03,| 2013-05-23,| 1.5.1,| {{free}},| {{yes}},| {{GPL-lic}},| discontinued?,
+| Sonny Software,| 1988 (Mac) / 1983 (Apple II+),| 2020-07-04,| 13.4.3 ,| {{nonfree|[[US$]]59.99ref name="MSRP"/}},| {{no}},| {{proprietary}},| Desktop ; iOS synced via iCloud integrated web search PDF download auto-completion Word plugin BibTex support PDF annotations stored as notes,
+| Swiss Academic Software,| 2006-02-13,| 2020-07-28,| 6.5.0.0,| {{depends|[[US$]]70-949 / Free for projects up to 100 references}},| {{no}},| {{proprietary}},| data can be saved locally on the computer or for team access in the Citavi Cloud or an intranet [[Microsoft SQL Server]];,
+| Oversity Limited,| 2004-11,| Shut down in 2019-03-30,| ,| {{free}},| {{no}},| {{proprietary |[[Proprietary software|proprietary]]}},| centrally hosted website,
+| colwiz Ltd,| 2011,| 2016-05-09,| ,| {{free|Free / Online storage free up to 3GB / Additional storage space available}},| {{no}},| {{proprietary}},| Desktop (Win Mac Linux) ; Web components iOS and Android,
+| [[Clarivate Analytics]],| 1988,| 2019-06-11,| X9.2,| {{nonfree|[[US$]]299.95ref name="MSRP"/}},| {{no}},| {{proprietary}},| The web version [http://endnote.com/basic EndNote basic] (formerly EndNote Web) is free of charge ,
+| JabRef developers,| 2003-11-29,| 2020-03-10,| 5.0,| {{free}},| {{yes}},| [[MIT license]],| [[Java (programming language)|Java]] [[BibTeX]] and [[BibLaTeX]] manager,
+| KBibTeX developers,| 2005-08,| 2018-06-21,| 0.8.1,| {{free}},| {{yes}},| {{GPL-lic}},| [[BibTeX]] front-end using the [[KDE Software Compilation]],
+| [[Elsevier]],| 2008-08,| 2018,| 1.19,| {{free|Free / Online storage free up to 2GB / Additional storage space available}},| {{no}},| {{proprietary |[[Proprietary software|proprietary]] (OS API clients exist)}},| Account required Desktop ; Web components Windows Linux macOS iPhone ; iPad Android,
+| Stefan Washietl Gregorgy Jordan Andreas Gruber ,| 2013,| Continually updated online,| ,| {{nonfree|[[US$]]2.99/month for academics 9.99/month otherwise}},| {{no}},| {{proprietary}},| web-application integrates with Google Docs collaboration ; sharing features currently only on Google Chrome,
+| pybliographer developers,| 1998-10-30 (0.2),| 2018-04-03,| 1.4.0,| {{free}},| {{yes}},| {{GPL-lic}},| [[Python (programming language)|Python]]/[[GTK2]],
+| Qiqqa,| 2010-04,| 2016-09,| v79,| {{free|Free Freemium and Premium versions}},| {{No}},| {{proprietary}},| Desktop; Tablet; Web; Intranet,
+| ReadCube,| 2011-10,| 2020-07-14,| v.4.4.2,| {{nonfree|[[US$]] 3/month for students 5/month academics}},| {{no}},| {{proprietary}},| Web-based MacOS Windows iOS and Android apps. Microsoft Word and Google Docs add-in. Browser extension (Chrome Firefox Edge),
+| refbase developers,| 2003-06-03,| 2014-02-28,| 0.9.6,| {{free}},| {{yes}},| {{GPL-lic}},| web-based for [[institutional repository|institutional repositories]]/[[self-archiving]],
+| refdb developers,| 2001-04-25,| 2007-11-05,| 0.9.9,| {{free}},| {{yes}},| {{GPL-lic}},| network-transparent; [[XML]]/[[SGML]] bibliographies,
+| [[Thomson Reuters]],| 1984,| 2010,| 12.0.3,| {{nonfree|Not for sale anymore sales ceased December 31 2015}},| {{no}},| {{proprietary}},| network version; built-in web publishing tool; discontinued,
+| Referencer developers,| 2008-03-15,| 2014-02-27,| 1.2.2,| {{free}},| {{yes}},| {{GPL-lic}},| [[BibTeX]] front-end,
+| RefME,| 2014,| Shut down in 2017,|,| {{free}},| {{no}},| {{proprietary}},| Web iOS and Android; Chrome and Safari Extensions available; discontinued,
+| Ex Libris / ProQuest,| 2001,| 2018,| 3,| {{nonfree|Institutional subscription}},| {{no}},| {{proprietary}},| web-based browser-accessed Word ; Google Docs,
+| Scientific Programs,| 2012,| 2015-07-26,| 1.5,| {{depends|[[US$]]}}38.90 / Free trial version,| {{no}},| {{proprietary}},|,
+| Third Street Software Inc.,| 2004,| Shut down in 2017,| 6.7.9,| {{depends|[[US$]]60–80ref name="MSRP"/}} / Free for libraries up to 100 refs,| {{no}},| {{proprietary}},|Desktop and iPad centralized backup/synching; discontinued,
+| Mark Grimshaw,| 2004-02,| 2020-07-21,| 6.3.7,| {{free}},| {{yes}},| [[CC-BY-NC-SA]],| web-based,
+| WizPatent,| 2008-06,| Shut down in 2017,| Avatara,| {{depends|US$25}} /  Free Basic version,| {{no}},| {{proprietary}},| centrally hosted website; discontinued,
+| [[Roy Rosenzweig Center for History and New Media]] at [[George Mason University|GMU]],| 2006,| 2020-07-22,| 5.0.89 ,| {{free|Free / Online storage free up to 300MB / Additional storage space available}},| {{yes}},| {{free |[[Affero General Public License|AGPL]]}},| Multi-platform desktop version with connectors for [[Mozilla Firefox|Firefox]] [[Google Chrome|Chrome]] and [[Safari (web browser)|Safari]]. Web-based access to reference library also available through Zotero.org or through a personal cloud-based database folder on a user's computer (Google Drive Dropbox etc.).,
+,

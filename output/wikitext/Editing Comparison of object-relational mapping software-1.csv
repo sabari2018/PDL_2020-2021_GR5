@@ -1,0 +1,30 @@
+[ Software
+, Platform
+, Availability
+, License
+, Version
+, Persistence Specification
+],
+| [[Java Virtual Machine]],| [[Open-source software|Open source]],| [[Apache License]] 2.0,| 3.0.2 / July 21 2011,|,
+| [[.NET]] 4.0,| [[Open-source software|Open source]],| Apache License 2.0,| 1.8 NuGet,|,
+| [[Java Virtual Machine]],| [[Open-source software|Open source]],| [[Apache License]] 2,| 4.1.0.RELEASE / May 19 2015,| [[Java Data Objects|JDO]],
+| Perl,| [[Open-source software|Open source]],| [[Artistic License]] 1.0 ; [[GNU General Public License|GPL]],| 0.082820 / {{release date|2015|03|20}},|,
+|[[Python (programming language)|Python]],|[[Open-source software|Open source]],|[[BSD licenses]],|2.1 small(1 August 2018)/small,|,
+| PHP,| [[Open-source software|Open source]],| MIT,| 2.4/April 8 2014,|,
+| [[Java Virtual Machine]],| [[Open-source software|Open source]],| [[Eclipse Public License]] Version 1.0 (EPL) and [[Eclipse Distribution License]] Version 1.0 (EDL),| 2.4.2	/ July 4 2013,| [[Java Persistence API|JPA 2.0]],
+|.net core,|[[Open-source software|Open Source]],|[[Apache License]] 2.0,|2.0,
+| [[.net]],| Source available for customers,| Proprietary License,| 5.7 / 25 May 2020,| Designer supports LLBLGen Engine [[Entity Framework Core]] [[Entity Framework]],
+| [[Java Virtual Machine]],| [[Open-source software|Open source]],| [[GNU Lesser General Public License]],| 4.2.5 / August 28 2013,| [[Java Persistence API|JPA 2.0]],
+| [[Cross-platform]],| [[Open-source software|Open source]],| [[Apache License]] 2.0,|,|,
+| [[Java Virtual Machine]],| [[Open-source software|Open source]],| [[Apache License]] 2.0 and Proprietary License,| 3.2.0 / October 9 2013,|,
+| .NET 4.5,| Part of .NET 4.5,| [[Apache License]] 2.0,| v6.0 (2014),|,
+| .NET 4.5,| [[Open-source software|Open source]],| [[GNU Lesser General Public License]],| 4.0 (2014-08-17),|,
+| [[Cross-platform]] [[C++]],| Dual-licensed,| [[GNU General Public License]] and Proprietary License,| 2.4.0 / February 11 2015,|,
+| PHP,| [[Open-source software|Open source]],| BSD License,| 4/April 1 2014,|,
+| Python,| [[Open-source software|Open source]],| [[MIT License]],| 1.2.14 / {{release date|2018|11|10}},|,
+| Python,| [[Open-source software|Open source]],| [[LGPL]],| 3.8.0 / {{release date|2019|12|07}},|,
+|PHP,|Commercial,|[[Proprietary software]],|3.0,|,
+| Python,| [[Open-source software|Open source]],| [[LGPL]] 2.1,| 0.20 / {{release date|2013|06|28}},|,
+| [[Java Virtual Machine]],| Commercial,| Oracle License,| 10g,| [[Java Persistence API|JPA]],
+| .NET Java PHP,| Commercial ; [[Open-source software|Open source]],| WebORB for .NET and WebORB for Java = Proprietary License WebORB for PHP = Mozilla Public License,| WebORB for .NET v.4.2 (Oct 2010) WebORB for Java v.4.0 (Sep 2010) WebORB for PHP (Sep 2008),|,
+,

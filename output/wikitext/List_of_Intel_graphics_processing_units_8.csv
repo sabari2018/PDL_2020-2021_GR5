@@ -2,7 +2,8 @@ Graphics,Launch,Market,Processor,Code name,Device ID,eDRAM  (MiB),Memory  bandwi
 ,,,,,,,,! [[Direct3D]],[[OpenGL]],[[OpenCL]],[[Vulkan (API)|Vulkan]]
 HD Graphics,2015,Ultramobile,Atom x5-Z8300,Cherryview  Braswell  (Gen8LP),22B0 22B1 22B2 22B3,200-500,96:12:2,11.2,4.3Windows  4.6Linux  ES 3.2Linux,2.0Windows  1.2Linux,1.1Linux,-,12.8
 ,,,Atom x5-Z8500,,,200-600,,,,,,,|25.6
-,,,Celeron N3000<br>Celeron N3050,,,320-600,,,,,,,
+,,,Atom x5-E8000
+Celeron N3000<br>Celeron N3050,,,320-600,,,,,,,
 ,,,Celeron N3150,,,320-640,,,,,,,
 ,,,Atom x7-Z8700,,,200-600,,,,,,,,|128:16:2
 ,,,Pentium N3700,,,400-700,,,,,,,,

@@ -1,21 +1,20 @@
 Name,Advanced Technology Attachment,Serial ATA,SCSI,Universal Serial Bus 3.0,USB 2.0,USB 1.1,FireWire,PC card,Accelerated Graphics Port,Nvidia official driver IA-32,Nvidia official driver IA-64,Nvidia official driver AMD64,ATI Technologies official driver x86,ATI official driver x86-64,ATI r200 free software driver,ATI r300 free software driver,Nvidia free software driver,Sound card," TV tuner card, TV tuner card, or TV tuner card "
-Linux,Yes,Yes,Yes,Yes 2.6.31+[16],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes," Yes,nv(2d only), Nouveau (graphics)(3d with mesa) "," Open Sound System, Open Sound System "," Video4Linux,V4L2 "
+Linux,Yes,Yes,Yes,Yes 2.6.31+[11],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes," Yes,nv(2d only), Nouveau (graphics)(3d with mesa) "," Open Sound System, Open Sound System "," Video4Linux,V4L2 "
 FreeBSD,Yes,Yes,Yes,Yes 8.2+,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes
-OpenBSD,Yes,Yes,Yes,Yes 5.7+,Yes,Yes,No,Yes,Yes,No,No,No,No,No,Yes[17],2d only[17],2d only[18],Yes,Yes
-NetBSD,Yes,Yes,Yes,No 7.1[19],Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,,,,Yes,Yes
-DragonFly BSD,Yes,Yes,Yes,Yes[20],Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,,,,Yes,
+OpenBSD,Yes,Yes,Yes,Yes 5.7+,Yes,Yes,No,Yes,Yes,No,No,No,No,No,Yes[12],2d only[12],2d only[13],Yes,Yes
+NetBSD,Yes,Yes,Yes,No 7.1[14],Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,,,,Yes,Yes
+DragonFly BSD,Yes,Yes,Yes,Yes[15],Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,,,,Yes,
 " OpenSolaris, OpenSolaris ",Yes,Yes,Yes,,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,,,,Yes,V4L2
-AuroraUX (page does not exist),Yes,Yes,Yes,,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,,,,Yes,
 " Darwin (operating system), Darwin (operating system) ",Yes,Yes,Yes,Yes,,Yes,,,,No,No,No,No,No,,,,,
 MINIX,,,,,,,,,,No,No,No,No,No,,,,,
-FreeDOS,Yes,Yes,Yes,No,No[21],No[21],No,,Yes,No,No,No,No,No,No,No,No,Yes,No
+FreeDOS,Yes,Yes,Yes,No,No[16],No[16],No,,Yes,No,No,No,No,No,No,No,No,Yes,No
 Genode,Yes,Yes,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,Yes,No
 Haiku (operating system),Yes,Yes,Yes,,Yes,Yes,Yes,No,Yes,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes
 KolibriOS,Yes,Yes,No,,Yes,Yes,,No,No,No,No,No,No,No,,,,Yes,No
 MenuetOS,Yes,No,No,,Yes,Yes,,No,No,No,No,No,No,No,,,,Yes,Yes
 GNU,Yes,Yes[Note 1],Yes[Note 1],,Yes[Note 1],Yes[Note 1],Yes[Note 1],Yes[Note 1],Yes,No[Note 2],No[Note 2],No[Note 2],No[Note 2],No[Note 2],No[Note 3],No[Note 3],Yes[Note 1],Yes[Note 1],Yes[Note 1]
-ReactOS,Yes,Yes,Yes,,Yes[22],Yes[22],No,No,Yes,No,No,No,No,No,,,,Yes,
-RISC OS,?,Yes,Yes,?,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,Yes,TV tuner[23]
+ReactOS,Yes,Yes,Yes,,Yes[17],Yes[17],No,No,Yes,No,No,No,No,No,,,,Yes,
+RISC OS,?,Yes,Yes,?,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,Yes,TV tuner[18]
 " L4 microkernel family, L4 microkernel family, L4 microkernel family ",,,,,,,,,,No,No,No,No,No,,,,,
 Plan 9 from Bell Labs,Yes,Yes,Yes,,Yes,Yes,,Yes,Yes,No,No,No,No,No,,,,Yes,Yes
 Amiga Research Operating System,Yes,,,,,,,,Yes,No,No,No,own,No,,,2D only,,

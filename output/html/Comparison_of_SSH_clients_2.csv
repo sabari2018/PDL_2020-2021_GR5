@@ -1,5 +1,6 @@
 Name,MacOS,Microsoft Windows,Cygwin,BSD,Linux,Solaris (operating system),Java (software platform),OpenVMS,Z/OS,IBM AIX,HP-UX,IOS,Android (operating system),Maemo,Windows Phone
 AbsoluteTelnet,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,?
+Bitvise SSH Client,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No
 ConnectBot,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No
 CRAX Commander,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No
 Dropbear (software),Yes,No,Yes,Yes,Yes,Yes,?,?,?,Yes,Yes,Yes[Note 1],No,Yes,?
@@ -9,10 +10,10 @@ OpenSSH (OpenBSD Secure Shell),Included,Included[Note 3],Included,Included,Inclu
 PuTTY,Partial,Yes,?,Yes,Yes,Yes,No,?,?,No,No,No,No,No,Software release life cycle
 SecureCRT,Yes,Yes,No,No,Yes,No,No,No,No,No,No,Yes,No,No,?
 SmartFTP,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,?
-SSH Communications Security,No,Yes,No,No,Yes,Yes,Yes[Note 5],No,Yes,Yes,Yes,No,No,No,?
 Tera Term,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,?
 TN3270 Plus,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,?
 TtyEmulator,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,?
 WinSCP,No,Yes,No,No,No,No,No,No,No,No,No,Yes[Note 1],No,No,?
+WolfSSH,Yes,Yes,Yes,Yes,Yes,Yes,No,No,?,?,No,No,No,No,No
 ZOC (software),Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,?
 Name,OS X,Microsoft Windows,Cygwin,BSD,Linux,Solaris (operating system),Java (software platform),OpenVMS,Z/OS,IBM AIX,HP-UX,IOS,Android (operating system),Maemo,Windows Phone

@@ -1,0 +1,56 @@
+[ Name
+, Language
+, License
+, Type
+, Configurable [[titlebar]] buttons
+, Graphical configuration
+, [[Hotkey]]s
+, ICCCM]]/[[Extended Window Manager Hints, Panel for window switching
+, Tabbed windows]]
+, Themeable
+, url=https://l3net.wordpress.com/2013/03/17/a-memory-comparison-of-light-linux-desktops/ , Initial Release
+, Latest Stable Release
+],
+| [[C (programming language)|C]],| [[MIT License|MIT]],| [[Stacking window manager|Stacking]],| {{no}},| {{no}},| {{no}},|,| {{yes}},| {{no}},| {{no}},| 0.4,| 1994,|,
+| [[C (programming language)|C]],| [[MIT License|MIT]],| [[Stacking window manager|Stacking]],| {{no}},| {{no}},| {{no}},| {{yes}},| {{yes}},| {{no}},| {{no}},|,|,|,
+| [[C (programming language)|C]] [[Lua (programming language)|Lua]],| [[GNU General Public License|GPL]],| [[Dynamic window manager|Dynamic]],| {{yes}},| {{no}},| {{yes}},| {{yes}},| {{yes}},| {{no}},| {{yes}},| 9,| 2007-09-18,|,
+| [[C (programming language)|C]],| [[MIT License|MIT]],| [[Stacking window manager|Stacking]],| {{no}},| {{yes|via CLI client}},| {{yes|via CLI client and third party (e.g. sxhkd)}},| {{no}},| {{no}},| {{no}},| {{yes}},|,| 2018-08-24,| 2019-09-21,
+| [[C++]],| [[MIT License|MIT]],| [[Stacking window manager|Stacking]],| {{no}},| {{won|third-party}},| {{won|with bbkeys}},| {{yes|through 0.65 / from 0.70}},| {{yes}},| {{no}},| {{yes}},| 3,|,|,
+| [[C (programming language)|C]],| [[BSD License|BSD]],| [[Tiling window manager|Tiling]],| {{no}},| {{no}},| {{won|with sxhkd}},| {{partial}},| {{no}},| {{no}},| {{no}},|,| 2013-04-23,|,
+| [[C (programming language)|C]] ([[OpenGL]]),| [[MIT License|MIT]],| [[Compositing window manager|Compositing]],| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{won|third-party}},| {{yes}},| {{yes}},|,| 2006,| 2016-11-11,
+| [[C (programming language)|C]],| [[ISC license|ISC]],| [[Stacking window manager|Stacking]],| {{no2}}no titlebar buttons,| {{no}},| {{yes}},|,| {{no}},| {{no}},| {{yes}},|,| 2004-07-10,| 2019-09-17,
+| [[C (programming language)|C]],| [[MIT License|MIT]],| [[Dynamic window manager|Dynamic]],| {{no2}}no titlebar buttons,| {{no}},| {{yes}},|,| {{yes}},| {{no}},| {{yes}},| 1,| 2006-07-14,|,
+| [[C (programming language)|C]],| [[BSD license|BSD]],| [[Compositing window manager|Compositing]],| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{no}},| {{yes}},|,| 1997,| 2019-08,
+| [[C (programming language)|C]],| [[MIT License|MIT]],| [[Stacking window manager|Stacking]],| {{no2}}no titlebar buttons,| {{no}},| {{yes}},| {{partial}},| {{no}},| {{no}},| {{yes}},|,| 2000,| 2015-07-13,
+| [[Emacs Lisp]],| [[GNU General Public License|GPL]],| [[Tiling window manager|Tiling]],| {{no}},| {{no}},| {{yes}},| {{partial}},| {{no}},| {{no}},| {{yes}},|,|,|,
+| [[C++]],| [[MIT License|MIT]],| [[Stacking window manager|Stacking]],| {{yes}},| {{won|third-party}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| 16,| 2001-09-12,| 2015-02-08 ,
+| [[C++]] ([[FLTK]]),| [[GNU General Public License|GPL]],| [[Stacking window manager|Stacking]],|,| {{no}},| {{yes}},|,| {{no|There is a window list menu}},| {{no}},| {{No}},|,| 1998,|,
+| [[C (programming language)|C]],| [[GNU General Public License|GPL]],| [[Dynamic window manager|Dynamic]],| {{yes}},| {{no}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{won|third-party}},| 4,| 1993-06-01,|,
+| [[C (programming language)|C]],| [[BSD License|BSD]],| [[Dynamic window manager|Dynamic]],| {{no2}}no titlebar buttons,| {{no}},| {{yes}},| {{yes}},| {{no}},| {{yes}},| {{yes}},| 3,| 2009-03-15,|,
+| [[C++]],| [[GNU Lesser General Public License|LGPL]],| [[Stacking window manager|Stacking]],| {{yes}},| {{won|third-party}},| {{yes}},| {{yes}},| {{yes}},| {{no}},| {{yes}},| 4.5,| 1997,| 2020-09-17,
+| [[C (programming language)|C]] [[Lua (programming language)|Lua]],| [[GNU Lesser General Public License|LGPL]] with naming restrictions on modified versions,| [[Tiling window manager|Tiling]],| {{no2}}no titlebar buttons,| {{no}},| {{yes}},|,| {{no}},| {{yes}},| {{yes}},|,| 2000,| 2009-01-10,
+| [[C (programming language)|C]],| [[MIT License|MIT]] (Formerly [[GNU General Public License|GPL]]),| [[Stacking window manager|Stacking]],| {{yes}},| {{won|third-party}},| {{yes}},| {{yes|EWMH}},| {{yes}},| {{no}},| {{yes}},| 3,| 2003,|,
+| [[C++]] ([[Qt (toolkit)|Qt]]),| [[GNU General Public License|GPL]],| [[Compositing window manager|Compositing]],| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| 41,|,| 2019-01,
+| [[C (programming language)|C]],| [[GNU General Public License|GPL]],| [[Stacking window manager|Stacking]],|,|,|,| {{Yes|EWMH compliance}},| {{no}},| {{no}},| {{yes}},|,| 2007-04-13,|,
+| [[C (programming language)|C]] [[C++]] ([[GTK+]]),| [[GNU General Public License|GPL]],| [[Compositing window manager|Compositing]],| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{no}},| {{yes}},|,| 2002-10,| 2016-09,
+| [[C (programming language)|C]] ([[Clutter (toolkit)|Clutter]]),| [[GNU General Public License|GPL]],| [[Compositing window manager|Compositing]],| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{won|Gnome Shell}},| {{no}},| {{yes}},| 18.6,| 2011-04,| 2018-09,
+| [[C (programming language)|C]],| [[The Open Group Public License]],| [[Stacking window manager|Stacking]],| {{no}},| {{no}},| {{yes}},|,|,|,| {{No|can change colours}},|,| 1989,|,
+| [[C (programming language)|C]],| [[GNU General Public License|GPL]],| [[Stacking window manager|Stacking]],| {{yes}},| {{won|third-party}},| {{yes}},| {{yes}},| {{won|third-party}},| {{no}},| {{yes}},| 7,| 2002-09-18,|,
+| [[C++]],| [[GNU General Public License|GPL]],| [[Stacking window manager|Stacking]],| {{yes}},| {{no}},| {{yes}},| {{partial}},| {{no}},| {{yes}},| {{yes}},| 5.3,|,|,
+| [[C (programming language)|C]],| [[GNU General Public License|GPL]],| [[Stacking window manager|Stacking]],| {{yes}},| {{no}},| {{yes}},| {{yes}},| {{yes}},| {{no}},| {{yes}},|,|,|,
+| [[C (programming language)|C]],| [[GNU General Public License|GPL]],| [[Tiling window manager|Tiling]],| {{no}},| {{no}},| {{yes}},| {{no}},| {{no}},| {{no}},| {{no}},| 1,| 2000-12-04,|,
+| [[Lisp (programming language)|Lisp]] [[C (programming language)|C]],| [[GNU General Public License|GPL]],| [[Stacking window manager|Stacking]],| {{yes}},| {{yes}},| {{yes}},| {{Partial}},| {{yes}},| primitive,| {{yes}},| 3.1,| 2000-01-01,|,
+| [[C (programming language)|C]],| [[GNU General Public License|GPL]],| [[Stacking window manager|Stacking]],| {{no2}}no titlebar buttons,| {{no}},| {{yes}},|,| {{no}},| {{no}},| {{yes}},|,|,|,
+| [[C (programming language)|C]],| [[ISC license|ISC]],| [[Dynamic window manager|Dynamic]],| {{no2}}no titlebar buttons,| {{no}},| {{yes}},| {{yes}},| {{no}},| {{no}},| {{won|solid colors}},|,|,|,
+| [[C (programming language)|C]] ,| [[BSD License#2-clause license ("Simplified BSD License" or "FreeBSD License")|BSD-2-clause]] ,| [[Compositing window manager|Compositing]],| {{no}},| {{no}},| {{yes}},| ,| {{no}},| {{no}},| {{no}},|,| 2013,|,
+| [[Common Lisp]],| [[GNU General Public License|GPL]],| [[Tiling window manager|Tiling]],| {{no}},| {{no}},| {{yes}},| {{no}},| {{no}},| {{no}},| {{no}},|,| ,|,
+| [[C (programming language)|C]],| [[MIT License|MIT]],| [[Stacking window manager|Stacking]],| {{yes}},| {{no}},| {{yes}},|,| {{yes}},| {{no}},| {{won|solid colors}},| 1.2,| 1987,|,
+| [[C (programming language)|C]],| [[BSD License|BSD]],| [[Tiling window manager|Tiling]],| {{yes}},| {{no}},| {{yes}},| {{Yes}},| {{yes}},| {{yes}},| {{yes}},|,|,| ,
+| [[C (programming language)|C]],| [[GNU General Public License|GPL]],| [[Stacking window manager|Stacking]],| {{no}},| {{yes}},| {{yes}},| {{partial}},| {{yes}},| {{yes}},| {{yes}},| 7,| 1997,| 2017-03-11,
+| [[Go (programming language)|Go]],| [[WTFPL]],| [[Dynamic window manager|Dynamic]],| {{yes}},| {{no}},| {{yes}},| {{yes}},| {{yes}},| {{no}},| {{yes}},|,|,|,
+| [[C (programming language)|C]],| [[MIT License|MIT]],| [[Dynamic window manager|Dynamic]],| {{yes}},| {{no}},| {{yes}},| {{yes}},| {{no}},| {{yes}},| {{yes}},|,| 2005-06-01,|,
+| [[C (programming language)|C]] [[C++]] ([[GTK+]]),| [[GNU General Public License|GPL]] [[GNU Lesser General Public License|LGPL]],| [[Compositing window manager|Compositing]],| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{no}},| {{yes}},| 70,| 1996,| 2019-08-12,
+| [[Haskell (programming language)|Haskell]],| [[BSD License|BSD]],| [[Dynamic window manager|Dynamic]],| {{yes}},| {{no}},| {{yes}},| {{yes|Yes / ?}},| {{won|third-party}},| {{yes}},| {{yes}},| 2,| 2007-03-06,|,
+| [[C (programming language)|C]],| Similar to [[BSD License|BSD]] license,| [[Stacking window manager|Stacking]],| ,| ,| ,| ,| ,| ,| ,|,| 1985,|,
+! Language,! License,! Type,! Configurable [[titlebar]] buttons,! Graphical configuration,! [[Hotkey]]s,! [[Inter-Client Communication Conventions Manual|ICCCM]]/[[Extended Window Manager Hints|EWMH]] compliant,! Panel for window switching,! [[Tab (GUI)|Tabbed windows]],! Themeable,! Memory (MB),! Initial release,! Last Stable Release,
+,

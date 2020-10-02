@@ -4,7 +4,7 @@ CounterPath Corporation Bria," Android v4.4+, iOS v10+",proprietary,No,SIP,Opus,
 CSipSimple,Android,GPL,yes,SIP," Opus, AMR-WB, iSAC, G711 (PCMA  ; PCMU), AMR, GSM"," SRTP, SIP over TLS 1.0 and ZRTP",dunno,1.02.02
 Google Duo," iOS, Android"," proprietary, freeware",No,WebRTC,dunno,dunno,One-to-one voice and video calling.,Latest stable software release/Google Duo
 iCall Mobile,iOS v4.3+," proprietary, freeware",No," SIP AIM XMPP, Facebook, Yahoo! Messenger, Windows Live"," Speex, CELT, WebM"," TLS, ZRTP"," VoIP over Wi-Fi or 3G, SMS, voicemail",2.0.1; 201204
-Jajah Mobile Web," Symbian, Windows Mobile (version unknown)",Proprietary,No,dunno,dunno,dunno," web based service, Call back,no download",dunno
+Jajah Mobile Web," Symbian, Windows Mobile (version unknown)",Proprietary,No,dunno,dunno,dunno," web based service, Call back, no download",dunno
 JusTex by Juphoon," Android, iOS v5.1+",proprietary,No,SIP," PCMA, iSAC, Opus, H.264, VP8, H.263"," TLS, TCP, UDP, SRTP"," JusTex Softphone over Wi-Fi or 3G, HD voice and video call, Multiparty call, conference.",3.0.1 (iOS); 20140713; 3.0 (Android); 20140709
 Line," Android, iOS",proprietary,No,dunno,dunno,dunno,dunno,
 Line2," Android, iOS"," proprietary, freeware",No,Proprietary with SIP core,dunno,dunno," Tri-mode calling (cellular, 3G/4G data, Wi-Fi), SMS over IP, visual voicemail, 20-person conference calls, auto-attendant, call-forwarding"," 1.0.4 Android, 3.2.1 iOS"
@@ -18,4 +18,4 @@ WhatsApp," Android, BlackBerry, iOS, Symbian, Windows Phone"," proprietary, free
 Windows Mobile 6,Windows Mobile 6 Professional/Standard,Proprietary,No,SIP to publicly and non-publicly routable servers,dunno,dunno,Wi-Fi Mobile VoIP,6.1
 X-PRO for Pocket PC,Windows Mobile 2003 (earlier versions support Windows PocketPC 2002)," Proprietary, discontinued in April 2007",No,SIP,dunno,dunno," Supported devices: AudioVox Maestro, Compaq/HP iPAQ: 365x, 37xx, 385x, 395x, hx4700, Dell Axim X51, X51v, Toshiba e550, e570. iPAQ 545x and Toshiba e7xx are not supported.",2.2
 Yuilop," Android, iOS , Windows Phone, BlackBerry OS"," proprietary, freeware",No,RTP,iLBC,TLS," VoIP over 3G-4G-LTE and Wi-fi, SMS, group chat, photo sharing, Location sharing, virtual phone numbers",Latest stable software release/Yuilop
-[https://www.yeastar.com/unified-communications/linkus-softphone/ Linkus],"Android V4.4+, iOS &nbsp;v10.0+ ","proprietary, freeware",No,SIP,iLBC,"TLS,SRTP","HD VoIP Call, Instant Messaging, Conferencing, SRTP Secure Media, Presence information",iOS 2.7.9 &nbsp; Android 2.7.12
+[https://www.yeastar.com/unified-communications/linkus-softphone/ Linkus],"Android V4.4+, iOS v10.0+ ","proprietary, freeware",No,SIP,iLBC,"TLS, SRTP","HD VoIP Call, Instant Messaging, Conferencing, SRTP Secure Media, Presence information",iOS 2.7.9 Android 2.7.12

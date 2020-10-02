@@ -6,8 +6,8 @@ Member accessibility levels," Yes; public, package, protected, private"," Yes; p
 Class-level Class (computer science),Yes;static inner classes are class level,Yes; all inner classes are class level
 Instance-level inner classes,Yes,No
 Statement-level (local) Class (computer science),Yes,Yes; but without methods
-Partial class,No; Third-party library[46],Yes
-Implicit (inferred) anonymous classes,No,Yes[47]
+Partial class,No; Third-party library[47],Yes
+Implicit (inferred) anonymous classes,No,Yes[48]
 Deprecation/obsolescence,Yes,Yes
 Overload versioning,Some,Yes
 Enumerated type can implement Enumerated type,Yes,No

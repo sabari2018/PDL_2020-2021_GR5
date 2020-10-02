@@ -12,7 +12,7 @@ Visual Basic .NET,Shared Narrowing Operator CType(operand As type) As returntype
 PHP,N/A,,
 Perl
 Raku,,,multi method type«($self:)» is export { instructions }
-Ruby
+Ruby,N/A,
 Windows PowerShell
 OCaml
 F#,,,

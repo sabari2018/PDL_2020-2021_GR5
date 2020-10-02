@@ -2,6 +2,7 @@ Name,Unicode Support,Single parent family,Same sex marriage,Witness to events,Na
 Agelong Tree,Yes,Yes,No,Yes,Yes,?,Yes,Yes,Yes
 Ahnenblatt,Yes,Yes,Yes,Partial christening and marriage only,Yes,?,Yes,Yes,Yes
 Ancestral Quest,Yes,Yes,No,?,Yes,Yes,Yes,Yes,?
+Ancestris,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No[a]
 Brother's Keeper (software),No,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes
 Family Historian,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
 MyHeritage,Yes,Yes,Yes,?,Yes,?,Yes,Yes,Yes
@@ -9,11 +10,9 @@ Family Tree Maker,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No
 GEDitCOM,Yes,?,Yes,?,?,?,?,?,?
 Genbox Family History,Yes,?,?,?,?,?,?,?,?
 GenealogyJ,Yes,?,Partial One partner's gender mislabelled,No,Yes,Yes,?,Yes,?
-GenEarth (page does not exist),Yes,Yes,No,No,No,?,?,Yes,Yes
-Genney (page does not exist),Yes,Yes,Yes,?,Yes,?,Yes,Yes,Yes
 GenoPro,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
 Gramps,Yes,Yes,Partial One partner's gender mislabelled[1],Yes,Yes,?,Yes,Yes,Yes
-Heredis (page does not exist),Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Heredis,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
 Legacy Family TreeLegacy Family Tree,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?
 LifeLines,Yes,?,No,?,?,?,?,?,?
 MacFamilyTree,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
@@ -21,3 +20,4 @@ Personal Ancestral File,Yes,?,No,?,?,?,?,?,?
 Reunion (genealogy software),Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes
 RootsMagic,Yes,?,Yes,Yes (paid version),Yes,Yes,Yes,Yes,Yes
 The Master Genealogist,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Webtrees,?,?,?,?,?,?,?,?,?

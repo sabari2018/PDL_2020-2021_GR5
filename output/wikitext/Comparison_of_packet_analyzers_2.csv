@@ -8,9 +8,10 @@ CommView,yes,no,no,no,no,no
 dSniff,dunno,yes,yes,yes,yes,dunno
 EtherApe,no,yes,yes,yes,yes,dunno
 Ettercap,yes,yes,yes,yes,yes,dunno
+[https://httptoolkit.tech HTTP Toolkit],yes,yes,yes,no,no,Client available for Android
 justniffer,no,yes,yes,yes,yes,dunno
 Kismet,yes,yes,yes,yes,dunno,dunno
-LANMeter,no,no,no,no,no,Fluke proprietary hardware
+Lanmeter,no,no,no,no,no,Fluke proprietary hardware
 netsniff-ng,no,no,yes,no,no,no
 ngrep,yes,yes,yes,yes,yes," AIX, BeOS, HP-UX, IRIX, Tru64 UNIX"
 Microsoft Network Monitor,yes,no,no,no,no,no

@@ -5,12 +5,12 @@ GnuTLS,yes,no,no,no,no
 JSSE,no,no,yes,no,no
 LibreSSL,no,no,no,no,no
 MatrixSSL,no,no,no,yes,yes
-mbed TLS,no,no,no,no,no
+Mbed TLS,no,no,no,no,no
 NSS,no,no,no,no,no
 OpenSSL,yes,yes,no,no,yes
 RSA BSAFE,no,no,no,no,no
 SChannel,no,no,yes,no,no
-[https://developer.apple.com/library/mac/documentation/Security/Reference/secureTransportRef/index.html Secure Transport],no,no,no,yes,no
+Secure Transport,no,no,no,yes,no
 wolfSSL,yes,yes,partial,no,no
 Erlang/OTP SSL application,no,no,no,no,yes
 Implementation,/dev/crypto,af_alg,Windows CSP,CommonCrypto,OpenSSL engine

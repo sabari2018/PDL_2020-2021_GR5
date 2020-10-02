@@ -5,8 +5,7 @@ Qualcomm code-excited linear prediction,Speech coding,No,13K,Yes,No,No,No,No,No,
 G.728,Speech coding,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No
 MPEG-1 Audio Layer I,Lossy compression,No,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,Yes,Yes,No,No,No,No,No
 MPEG-1 Audio Layer II,Lossy compression,No,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,Yes,Yes,No,No,No,Yes,No
-MP3,Lossy compression,No,No,Yes,Yes[β][61],Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Needs OGMtools[62],Yes,No,No,No
-MPEG-2 Part 3,Lossy compression,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Layer II,No
+MP3,Lossy compression,No,No,Yes,Yes[β][61],Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Needs OGMtools[62],MPEG-1 Audio,No,No,No
 Advanced Audio Coding,Lossy compression,Yes," Only AAC-LC, HE-AAC v1 ",Yes,Yes[β][61],No,No,Yes,Yes[γ],Yes,Private,Yes,Yes,Yes,No,Yes," Only AAC-LC, HE-AAC v1 ",No,No
 Dolby Digital,Lossy compression,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Private,Yes,Yes[63],Yes,Needs OGMtools[62],Yes,Yes,Private,No
 Dolby Digital Plus,Lossy compression,No,No,Yes,No,No,Yes,No,No,QuickTimeQuickTime,No,Yes,Yes,No,No,Yes,No,No,No
@@ -15,11 +14,11 @@ Windows Media Audio,Lossy compression,No,No,Yes,Yes,No,No,No,No,Audio Compressio
 Adaptive Transform Acoustic Coding,Lossy compression,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,No,No
 QDesign Music 1 and 2,Lossy compression,No,No,No,No,No,No,No,No,QuickTimeQuickTime,No,No,No,No,No,Yes,No,No,No
 Vorbis,Lossy compression,No,No,No,Tricky[ε],No,No,No,No,Yes,No,No,Private,No,Yes,No,No,No,Yes
-Opus (audio format),Lossy compression,No,No,Yes,Yes,No,No,No,No,Yes,No,No,Yes,No,Yes,No,No,No,Yes
+Opus (audio format),Lossy compression,No,No,Yes,Yes,No,No,No,No,Yes,Yes,No,Yes,No,Yes,No,No,No,Yes
 FLAC,Lossless compression,No,No,Yes,Yes,No,No,No,No,Yes,No,No,Not standard[66],No,Yes,No,No,No,No
 Apple Lossless,Lossless compression,No,No,Yes,Yes,No,No,No,No,Yes,No,No,Yes,No,No,Yes,No,No,No
 Meridian Lossless Packing,Lossless compression,No,No,No,No,No,Yes,No,No,No,Private,No,Yes[34],No,No,No,No,Private,No
-Dolby TrueHD,Lossless compression,No,No,No,No,No,Yes,No,No,No,No,Yes,Yes,No,No,No,No,No,No
+Dolby TrueHD,Lossless compression,No,No,No,No,No,Yes,No,No,Yes,No,Yes,Yes,No,No,No,No,No,No
 DTS (sound system),Lossless compression,No,No,No,No,No,Yes,No,No,Yes,No,Yes,Yes[34],No,No,Yes,No,No,No
 WMA Lossless,Lossless compression,No,No,Yes,Yes,No,No,No,No,Audio Compression ManagerAudio Compression Manager,No,No,No,No,No,No,No,No,No
 Audio Lossless Coding,Lossless compression,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No

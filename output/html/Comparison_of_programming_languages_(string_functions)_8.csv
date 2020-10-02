@@ -2,7 +2,7 @@ Format,Languages
 string1  &amp;  string2," Ada (programming language), Ada (programming language), Ada (programming language), Ada (programming language), Ada (programming language), Ada (programming language), Ada (programming language) (between literals only) "
 "  Strcat( string1 ,  string2 ) "," C (programming language), C (programming language) (C (programming language) C (programming language) only)C (programming language) "
 string1  .  string2," Perl, Perl "
-string1  +  string2," ALGOL 68, ALGOL 68 (STL), ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68 (ALGOL 68), ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68, Ya "
+string1  +  string2," ALGOL 68, ALGOL 68 (STL), ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68 (ALGOL 68), ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68,ALGOL 68 ALGOL 68, ALGOL 68, ALGOL 68, ALGOL 68, Ya "
 string1  ~  string2," D (programming language), D (programming language) "
 (string-append  string1   string2 )," Scheme (programming language), Scheme (programming language) "
 (concatenate 'string  string1   string2 ),Common Lisp

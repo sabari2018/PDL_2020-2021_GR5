@@ -1,10 +1,10 @@
-Graphics,Launch,Market,List of Intel microprocessors,Code name,Device driverDevice driver,Core Clock rate   (Clock rate),Core config1,Application programming interface supportApplication programming interfaceApplication programming interfaceApplication programming interface,,,,Memory bandwidth (Memory bandwidth),Dynamic video memory technology  (Dynamic video memory technology),Intel Quick Sync Video
+Graphics,Launch,Market,List of Intel microprocessors,Code name,Device driverDevice driver,Core Clock rate   (Clock rate),Core config1,Application programming interface supportApplication programming interfaceApplication programming interfaceApplication programming interfaceApplication programming interface,,,,Memory bandwidth (Memory bandwidth),Dynamic video memory technology  (Dynamic video memory technology),Intel Quick Sync Video
 ,,,,,,,,Direct3D,OpenGLOpenGL,OpenCL,Vulkan (API),,,
-HD Graphics,2012,Desktop,Celeron G16x0   Celeron G1610T   Pentium G2xx0   Pentium G2xx0T,Ivy Bridge (microarchitecture),015A,650–1050,48:6:1[33]   (GT1),11.1   Feature levels in Direct3D11_0,4.0Windows   4.1macOS   4.2Linux   ES 3.0Linux,1.2,(1.0)Linux,25.6,1720,No
+HD Graphics,2012,Desktop,Celeron G16x0   Celeron G1610T   Pentium G2xx0   Pentium G2xx0T,Ivy Bridge (microarchitecture),015A,650–1050,48:6:1[35]   (GT1),11.1   Feature levels in Direct3D11_0,4.0Windows   4.1macOS   4.2Linux   ES 3.0Linux,1.2,(1.0)Linux,25.6,1720,No
 ,,Mobile,Celeron 10x0M Celeron 10x7U Pentium 2117U Pentium 20x0M,,,350–1100,,,,,,,,
-HD Graphics 2500[34],,Workstation,Xeon E3-1265LV2,,0152,650–1150,,,,,,,,Yes
+HD Graphics 2500[36],,Workstation,Xeon E3-1265LV2,,0152,650–1150,,,,,,,,Yes
 ,,Desktop,Core i3-32x0 Core i3-32x0T Core i5-3xx0 Core i5-3xx0S Core i5-3xx0T,,,,,,,,,,,
-,,,HD Graphics 4000[27],Core i3-3225 Core i3-3245 Core i5-3475S Core i5-3570K Core i7-3770 Core i7-3770x,0162,,,,,,,,,,128:16:2 (GT2)
+,,,HD Graphics 4000[28],Core i3-3225 Core i3-3245 Core i5-3475S Core i5-3570K Core i7-3770 Core i7-3770x,0162,,,,,,,,,,128:16:2 (GT2)
 ,,,,Mobile,Core i3-3110M,,,,,,,,,,,0166,650–1000
 ,,,,,Core i3-3120M   Core i5-3210M,,,,,,,,,,,,650–1100
 ,,,,,Core i3-3120ME,,,,,,,,,,,,650–900
@@ -16,8 +16,8 @@ HD Graphics 2500[34],,Workstation,Xeon E3-1265LV2,,0152,650–1150,,,,,,,,Yes
 ,,,,,Core i5-3427U,,,,,,,,,,,,350–1150
 ,,,,,Core i5-3610ME,,,,,,,,,,,,650–950
 ,,,,,Core i7-3520M Core i7-3xx7U Core i7-3xxxQM Core i7-3920XM,,,,,,,,,,,,350–1300
-HD Graphics P4000[35],Workstation,Xeon E3-12x5V2,016A,650–1250
-HD Graphics,2013,Tablet,Atom Z3735D   Atom Z3735E   Atom Z3735F   Atom Z3735G   Atom Z3736F   Atom Z3736G,Silvermont (microarchitecture)   (Bay Trail),0F30  0F31  0F32  0F33  0155  0157,311-646,32:4:1[36],11[37],4.0  ES 2.0/1.1Linux[38],1.2,(1.0)Linux,10.7,2048,Yes
+HD Graphics P4000[37],Workstation,Xeon E3-12x5V2,016A,650–1250
+HD Graphics,2013,Tablet,Atom Z3735D   Atom Z3735E   Atom Z3735F   Atom Z3735G   Atom Z3736F   Atom Z3736G,Silvermont (microarchitecture)   (Bay Trail),0F30  0F31  0F32  0F33  0155  0157,311-646,32:4:1[38],11[39],4.0  ES 2.0/1.1Linux[40],1.2,(1.0)Linux,10.7,2048,Yes
 ,,,Atom Z3680,,,311-667,,,,,,8.5,,
 ,,,Atom Z3740   Atom Z3770,,,,,,,,,17.1,,
 ,,,Atom Z3680D   Atom Z3740D   Atom Z3770D,313-688,10.7,,,,,
@@ -43,7 +43,7 @@ Desktop,Celeron J1750,688-750,
 ,Celeron J1900   Pentium J2850,688-854,
 ,Pentium J2900,688-896,
 ??,Pentium A1020,,
-HD Graphics[39],2013,Desktop,Pentium G3xxx,Haswell (microarchitecture),0402 0406 040A 040B 040E  ULT: 0A02 0A06 0A0A 0A0B 0A0E,350–1150,80:10:1[40] (GT1),12Feature levels in Direct3D   Feature levels in Direct3D11_1,4.3Windows   4.1macOS   4.5Linux   ES 3.1Linux,1.2,,(1.0)Linux,,,25.6,2048,Yes[42]
+HD Graphics[41],2013,Desktop,Pentium G3xxx,Haswell (microarchitecture),0402 0406 040A 040B 040E  ULT: 0A02 0A06 0A0A 0A0B 0A0E,350–1150,80:10:1[42] (GT1),12Feature levels in Direct3D   Feature levels in Direct3D11_1,4.3Windows   4.1macOS   4.5Linux   ES 3.1Linux,1.2,,(1.0)Linux,,,25.6,2048,Yes[44]
 ,,,Pentium G3xxxT,,,200–1100,,,,,,,,,,,
 ,,,Celeron G18xx,,,350-1050,,,,,,,,,,,
 ,,,Celeron G18xxT,,,200-1050,,,,,,,,,,,

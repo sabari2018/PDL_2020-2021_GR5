@@ -5,7 +5,7 @@ Name,Windows,macOS,Linux,BSD
 " scope=""row""  Aperture",no,yes,no,no
 " scope=""row""  CDisplay",yes,no,no,no
 " scope=""row""  Comix",no,no,yes,no
-" scope=""row""  digiKam",partial,yes,yes,yes
+" scope=""row""  digiKam",yes,yes,yes,yes
 " scope=""row""  Eye of GNOME (aka Image Viewer)",no,no,yes,yes
 " scope=""row""  FastPictureViewer",yes,no,no,no
 " scope=""row""  FastStone Image Viewer",yes,no,no,no

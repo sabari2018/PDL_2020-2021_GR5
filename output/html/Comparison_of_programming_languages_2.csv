@@ -11,6 +11,7 @@ C++,Some (Input/output (C++) throw on failure but C APIs like Input/output (C++)
 C Sharp (programming language),Yes
 COBOL,No
 Common Lisp," Yes (""conditions and restarts"" system) "
+Curry (programming language),Yes
 D (programming language),Yes (throwing on failure) [FSIO 3]
 Eiffel (programming language),No – It actually depends on the library and it is not defined by the language
 Erlang (programming language),Yes
@@ -36,7 +37,7 @@ PHP,Yes
 Python (programming language),Yes
 Raku (programming language),Yes
 Rebol,Yes
-Rexx,Yes (with optional signal on… trap handling)
+Rexx,Yes (with optional signal on... trap handling)
 IBM RPG,No
 Ruby (programming language),Yes
 Rust (programming language),Yes (unless result explicitly ignored)

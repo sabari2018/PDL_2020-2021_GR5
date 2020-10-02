@@ -5,7 +5,6 @@ OpenBSD,BSD,Monolithic,C,1:1," BSD, Unix-like ",6.4,MirOS
 NetBSD,BSD,Monolithic with modules,C,1:1," BSD, Unix-like ",7.0,OpenBSD
 DragonFly BSD,BSD,Hybrid kernel,C,1:1," BSD, Unix-like ",No,
 " OpenSolaris, OpenSolaris ",Common Development and Distribution License,Monolithic with modules,C," 1:1, M:N ",Unix,No,
-AuroraUX (page does not exist),BSD/CDDL,Monolithic with modules," C, Ada (programming language) "," 1:1, M:N ",Unix,No,
 " Darwin (operating system), Darwin (operating system) ",Apple Public Source License,Hybrid," C, C++C++ ",1:1," BSD, Unix, Unix-like, OS X ",No,
 MINIX,BSD,Microkernel,C,,Unix-like,No,
 Redox (operating system),MIT,Microkernel,Rust,,Unix-like,No,

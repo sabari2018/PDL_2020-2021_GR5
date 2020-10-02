@@ -1,6 +1,6 @@
 Graphics,Launch,PowerVR core,Market,List of Intel chipsets,Code name,Device id.,Core render Clock rate (Clock rate),Pixel pipelines,Shader model (Shader/Shader),Application programming interface support,,,Memory bandwidth  (Memory bandwidth),Dynamic video memory technology  (Dynamic video memory technology),Hardware acceleration,,
 ,,,,,,,,,,Direct3D,OpenGL,OpenCL,,,H.262/MPEG-2 Part 2,VC-1,H.264/MPEG-4 AVC
-GMA 500,2008,SGX535,Intel Consumer Electronics,CE3100,Canmore (SoC),2E5B,?,2[88],3.0,9.0c,2.0,—,4.2,256,Full,Full,Full
+GMA 500,2008,SGX535,Intel Consumer Electronics,CE3100,Canmore (SoC),2E5B,?,2[90],3.0,9.0c,2.0,—,4.2,256,Full,Full,Full
 ,2009,,,Atom CE4100,Sodaville (SoC),,,,,,,,,,,,
 ,,,,Atom CE4110,,,200,,,,,,,,,,
 ,,,,Atom CE4130,,,,,,,,,,,,,
@@ -10,9 +10,9 @@ GMA 500,2008,SGX535,Intel Consumer Electronics,CE3100,Canmore (SoC),2E5B,?,2[88]
 2008,Mobile Internet Devices,,UL11L,Poulsbo chipset (Menlow),8108 8109,100,,,,,,,,,
 ,,,US15L,,,200,,,,,,,,,
 ,,,US15W,,,,,,,,,,,,
-GMA 600,2010,,MID,Atom Z6xx,Intel Atom (Intel Atom),4102,400[89],2,3.0,9.0c,2.0,—,6.4,759,Full,,,Full,Full
-GMA,2012,SGX540,Smartphone,Atom (system on chip) Z24xx,Penwell (SoC) (Penwell (SoC)),?,400[90],4,—,—,ES 2.0,—,6.4,1024,Full,,,Full,Full
-GMA 3600,2011,SGX545,Nettop Netbook,Atom D2500 Atom N2600,Intel Atom (Cedar Trail),0BE0 0BE1 0BE2 0BE3,400[91],4,3.0,9.0c,3.0,—,8.5 6.4,1024[92],Full,,,Full,Full
-GMA 3650,,,,Atom D2700 Atom N2800,,,640[91],,,,,,8.5,,,,,,
+GMA 600,2010,,MID,Atom Z6xx,Intel Atom (Intel Atom),4102,400[91],2,3.0,9.0c,2.0,—,6.4,759,Full,,,Full,Full
+GMA,2012,SGX540,Smartphone,Atom (system on chip) Z24xx,Penwell (SoC) (Penwell (SoC)),?,400[92],4,—,—,ES 2.0,—,6.4,1024,Full,,,Full,Full
+GMA 3600,2011,SGX545,Nettop Netbook,Atom D2500 Atom N2600,Intel Atom (Cedar Trail),0BE0 0BE1 0BE2 0BE3,400[93],4,3.0,9.0c,3.0,—,8.5 6.4,1024[94],Full,,,Full,Full
+GMA 3650,,,,Atom D2700 Atom N2800,,,640[93],,,,,,8.5,,,,,,
 GMA,2012,,Tablet computer,Atom Z2760,Atom (system on chip) (Clover Trail),08C7 08C8 08C9 08CA 08CB 08CC 08CD 08CE 08CF,533,4,3.0,9.0c,2.0,—,6.4,2048,Full,Full,Full
-GMA,2012,SGX544 MP2,Tablet computer,Atom Z2520 Atom Z2560 Atom Z2580,Atom (system on chip) (Clover Trail+),?,300Mhz 400MHz 533MHz,?,?,Direct3D feature levels," 2.0ES, 2.0?",1.1,?,?,Full,Full,Full
+GMA,2012,SGX544 MP2,Tablet computer,Atom Z2520 Atom Z2560 Atom Z2580,Atom (system on chip) (Clover Trail+),?,300Mhz 400 MHz 533 MHz,?,?,Direct3D feature levels," 2.0ES, 2.0?",1.1,?,?,Full,Full,Full

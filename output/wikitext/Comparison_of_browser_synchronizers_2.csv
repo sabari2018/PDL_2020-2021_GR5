@@ -5,4 +5,5 @@ Opera Link,yes,yes,yes,yes,yes,yes,yes,yes,yes," Solaris, S60, BREW"
 Firefox Sync,yes,yes,yes,Yes,yes,yes,no,no,yes,OpenSolaris
 ,,,,,,,,,,
 Eversync,yes,yes,yes,dunno,yes,yes,no,no,yes,no
+floccus,yes,yes,yes,dunno,yes,yes,no,no,no,no
 Client,Windows,OS X,Linux,FreeBSD,iOS,Android,BlackBerry OS,Symbian,Windows Phone,other

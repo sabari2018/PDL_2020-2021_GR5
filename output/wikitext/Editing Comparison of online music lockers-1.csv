@@ -1,0 +1,27 @@
+[ 
+, [[Google Play Music]]
+, [[YouTube Music]]
+, iBroadcast
+, [[iTunes Match]]
+, [[VOX Music Cloud]]
+],
+| [[Google|Google LLC]],|[[YouTube|YouTube LLC]] ([[Google|Google LLC]]),| iBroadcast Media LLC,| [[Apple Inc.]],| Coppertino Inc.,
+| 2011-05-10 (beta),|2015-11-12,| 2012-06-15,| 2011-10-12,| 2015-04-15,
+| {{yes}},| {{yes}},| {{yes}},| {{no}},| {{no}},
+| {{partial|Chrome}},| {{partial|Chrome}},| {{no}},| {{yes}},| {{no}},
+| {{yes}}ref name="GooglePlayPlatforms" /,| {{yes}},| {{yes}},| {{yes}},| {{no}},
+| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},
+| {{no}},| {{no}},| {{no}},| {{no}},| {{no}},
+| [[Android TV]] [[Apple TV]] other [[AirPlay]] [[Chromecast]] [[Sonos]],|[[Amazon Alexa]] [[Google Nest (smart speakers)|Google Home]] [[Sonos]] [[Chromecast]] [[Android TV]] [[Android Auto]],|,| [[Apple TV]] other [[AirPlay]],| [[macOS]] [[Apple TV]] via [[AirPlay]] [[Chromecast]] [[Sonos]],
+| 50000 files,, 100000 files,| no limit,| {{no|None}},
+| Windows macOS Linux,|Any web browserref name=":0" /,| Windows any web browser,| Windows macOS,| VOX Player for Mac any web browser,
+| MP3,|AAC,| MP3 AAC OGG FLAC PCM MKA,| MP3 and AAC,| FLAC MP3 AAC M4A WAV OGG AIFF WMA APE ALAC ,
+| Transcoded to 320 kbit/s MP3:brAAC ALAC FLAC{{efn|Google Play Music transcoding of FLAC to MP3 only supported with 16 and 24-bit stereo or mono FLAC.}} WMA{{efn|Google Play Music only supports WMA transcoding on Windows with Music Manager.}} OGG,|Transcoded to 256 kbit/s AAC:,,FLAC M4A MP3 OGG WMAref name=":0" /,|,| Transcoded to 256 kbit/s AAC:brALAC WAV AIFF,| {{no|None}},
+| 300 MB,|,| ,| 200 MB or 2 hours,| {{yes|No limit}},
+| {{no|None}},|[[YouTube Music#Subscriptions|YouTube Music Premium]],[[YouTube Premium]],| {{no|None}},| [[ICloud#iTunes Match|iTunes Match]],| Loop Music Cloud Storage,
+| Matching included in basic features,|Ads-free background play download music offline use audio-only mode travel with YouTube Music shuffle downloads Apple Carplay ; Android Auto compatibility,| N/A,| Match/import up to 100000 files{{efn|In the United States and Australia iTunes Match also gets you ad-free iTunes Radio listening.}},| Unlimited storage and playback,
+| ,|$119.88 ([[YouTube Music#Subscriptions|YouTube Music Premium]]),,$143.88 ([[YouTube Premium]]),| N/A,| $24.99 (US) £21.99 (UK) €24.99 (FR) $39.99 (AU),| $131.88,
+| MP3 AAC ALAC FLAC Ogg WMAref name="GoogleSupportedFileTypes" /,, ,| MP3 AAC AIFF ALACbr WAVref name="match" /,| {{no|No matching feature}},
+| 320 kbit/s CBR MP3,, ,| 256 kbit/s AACref name="match" /,| {{no|No matching feature}},
+| 63,, 94 ([[YouTube Music#Subscriptions|YouTube Music Premium]]),,95 ([[YouTube Premium]])ref name=":1" /,| 117,| Worldwide,
+,

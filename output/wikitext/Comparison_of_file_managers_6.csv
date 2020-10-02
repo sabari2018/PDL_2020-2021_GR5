@@ -34,6 +34,6 @@ Xfe,yes,no,no,yes,dunno,yes,dunno,no,no,dunno
 Xfile,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,no,dunno
 Xfm,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,no,dunno
 xplorer²,dunno,yes,no,yes,yes,yes,yes,yes,yes,dunno
-XYplorer,dunno,yes,yes,yes,yes,yes,partial,yes,yes,Contents including subs
+XYplorer,yes,yes,yes,yes,yes,yes,partial,yes,yes,Contents including subs
 ZTreeWin,dunno,yes,no,yes,yes,yes,no,yes,dunno,Selectable: Number of entries or Size (Optional: Including subs)
 File manager,Symbolic links,Browse compressed folders,Slideshows,Shows combined Size of Selected Directories,Branch Sizes,Directory Compare,Synchronizer,Find as you type (Type-ahead find),Embedded/Integrated Terminal," For Directories, size column shows: "

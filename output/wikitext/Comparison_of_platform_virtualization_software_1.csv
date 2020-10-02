@@ -12,7 +12,7 @@ GNOME Boxes,GNOME,,,Unix-like,Unix-like,LGPLv2
 GXemul,Anders Gavare,Any," ARM, MIPS, Motorola 88000, PowerPC, SuperH",Unix-like,Sprite,BSD
 Hercules,Roger Bowler,Any,z/Architecture," Windows, FreeBSD, NetBSD, Linux, macOS"," Linux on IBM Z, z/OS, z/VM, z/VSE, OS/360, DOS/360, DOS/VS, MVS, VM/370, TSS/370",QPL
 Hyper-V (2008),Microsoft,x86-64 with Intel VT-x or AMD-V," x86-64, x86 (up to 8 physical CPUs)"," R2) w/Hyper-V role, Microsoft Hyper-V Server"," Supported drivers for SUSE 10 released, more announced)",Proprietary
-Hyper-V (2012),Microsoft,x86-64 with Intel VT-x or AMD-V," x86-64, (up to 64 physical CPUs)"," R2) w/Hyper-V role, Microsoft Hyper-V Server"," Supported drivers for SUSE 10, RHEL 6, CentOS 6)",Proprietary. Component of various Windows editions.
+Hyper-V (2012),Microsoft," x86-64 with Intel VT-x or AMD-V, ARMv8"," x86-64, (up to 64 physical CPUs), ARMv8"," R2) w/Hyper-V role, Microsoft Hyper-V Server"," Supported drivers for SUSE 10, RHEL 6, CentOS 6)",Proprietary. Component of various Windows editions.
 iCore Virtual Accounts,iCore Software,x86,x86,Windows XP,Windows XP,Proprietary
 INTEGRITY,Green Hills Software," ARM, x86, PowerPC",Same as host," Linux, Windows"," INTEGRITY native, Linux, Android, AUTOSAR, Windows (on some platforms)",Proprietary
 Integrity Virtual Machines,Hewlett-Packard,IA-64,IA-64,HP-UX," HP-UX, Windows, Linux (OpenVMS announced)",Proprietary
@@ -21,7 +21,7 @@ KVM," Qumranet, now Red Hat"," x86, x86-64, IA-64, with ARM ",Same as host," Lin
 Linux-VServer,Community project," x86, x86-64, IA-64, Alpha, PowerPC 64, PA-RISC 64, SPARC64, ARM, S/390, SH/66, MIPS",Compatible,Linux,Linux variants,GPL version 2
 LynxSecure,LynuxWorks,x86,x86,No host OS," LynxOS, Linux, Windows",Proprietary
 LXC," Community project, Canonical Ltd."," x86, x86-64, IA-64, PowerPC 64, SPARC64, Itanium, ARM",Same as host,Linux,Linux variants,GPL version 2
-OKL4 Microvisor," Open Kernel Labs, acquired by General Dynamics Corporation"," ARM, x86, MIPS"," ARM (v5, v6, v7; paravirtualization), ARMv7VE (hardware virtualization)",No Host OS," Various OSes and RTOSes including Linux, Android, QNX",Proprietary
+OKL4 Microvisor," Open Kernel Labs, acquired by General Dynamics Corporation"," ARM, x86, MIPS"," ARM (v5, v6, v7, v8; paravirtualization), ARMv7VE (hardware virtualization)",No Host OS," Various OSes and RTOSes including Linux, Android, QNX",Proprietary
 OpenVZ," Community project, supported by SWsoft, now Parallels, Inc."," x86, x86-64, IA-64, PowerPC 64, SPARC64",Same as host,Linux," same as host (shared Linux kernel), choice of userland distribution",GPL
 Oracle VM Server for x86,Oracle Corporation," x86, x86-64"," x86, x86-64",No host OS," Microsoft Windows, Solaris"," GPLv2, Oracle VM Server; Manager is proprietary"
 OVPsim,OVP,x86," OR1K, MIPS32, ARC600/700, ARM; and public API which enables users to write custom processor models, RISC, CISC, DSP, VLIW all possible"," Microsoft Windows, Linux"," Depends on target machine, for example includes MIPS Malta that runs Linux or SMP-Linux; and includes public API which enables users to write custom peripheral and system models"," proprietary, Apache 2.0 for models"
@@ -62,10 +62,10 @@ VMware Server,VMware," x86, x86-64"," x86, x86-64"," Windows, Linux",Same as VMw
 VMware Workstation,VMware,x86-64Older versions of VMware Workstation support x86.," x86, x86-64"," Windows, Linux",Same as VMware ESX Server,Proprietary
 " VMware Player, later VMware Workstation Player",VMware,x86-64Older versions of VMware Player/VMware Workstation Player support x86.," x86, x86-64"," Windows, Linux",Same as VMware ESX Server," Proprietary, free for personal non-commercial use"
 Wind River Hypervisor,Wind River," x86, x86-64, PowerPC, ARM",Same as host,No host OS," Linux, VxWorks, unmodified guests (including MS Windows and RTOSes such ach OSE, QNX and others), bare metal virtual board",Proprietary
-Xen," Xensource, Now Citrix Systems"," x86, x86-64, ARM, IA-64 (inactive), PowerPC (inactive)",Same as host," GNU/Linux, Unix-like"," GNU/Linux, FreeBSD, MiniOS, NetBSD, Solaris, Windows 7/XP/Vista/Server 2008 (requires  Intel VT-x (Vanderpool) or AMD-V (Pacifica)-capable CPU), Plan 9",GNU GPLv2 +
+Xen," Xensource, Now Citrix Systems"," x86, x86-64, ARM, IA-64 (inactive), PowerPC (inactive)",Same as host," GNU/Linux, Unix-like"," GNU/Linux, FreeBSD, MiniOS, NetBSD, Solaris, Windows 7/XP/Vista/Server 2008 (requires Intel VT-x (Vanderpool) or AMD-V (Pacifica)-capable CPU), Plan 9",GNU GPLv2 +
 XCP-ng,By Vates SAS," x86, x86-64, ARM, IA-64 (inactive), PowerPC (inactive)",Same as host,No host OS," GNU/Linux, FreeBSD, MiniOS, NetBSD, Solaris, Windows, Windows Server 2008 (with Intel VT-x or AMD-V), Plan 9",GNU GPLv2 +
 XenServer,By Citrix Systems," x86, x86-64, ARM, IA-64 (inactive), PowerPC (inactive)",Same as host,No host OS," GNU/Linux, FreeBSD, MiniOS, NetBSD, Solaris, Windows 7/XP/Vista/Server 2008 (with Intel VT-x or AMD-V), Plan 9",GNU GPLv2 +
-XtratuM,Universidad Politecnica de Valencia," x86, x86; SPARC v8 LEON2/3",Same as host,No host OS," GPOS: Linux, RTOS: PartiKle, RTEMS",GPL
+XtratuM,fentISS," SPARC v8 LEON2/3/4, ARM v7",Same as host,No host OS," GPOS: Linux, RTOS: LithOS, RTEMS"," Proprietary, GPL version 2 depending on versions"
 z/VM,IBM,z/Architecture," z/Architecture, z/VM does not run on predecessor mainframes"," No host OS, itself (single or multiple levels/versions deep; e.g., VM/ESA running in z/VM 4.4 in z/VM 5.2 in z/VM 5.1.)"," Linux on IBM Z, z/OS, z/VSE, z/TPF, z/VM, VM/CMS, MUSIC/SP, OpenSolaris for System z, predecessors",Proprietary
 z LPARs,IBM,z/Architecture,z/Architecture,Integrated in firmware of System z mainframes," Linux on IBM Z, z/OS, z/VSE, z/TPF, z/VM, MUSIC/SP, and predecessors",proprietary
 Name,Creator,Host CPU,Guest CPU,Host OS(s),Guest OS(s),License

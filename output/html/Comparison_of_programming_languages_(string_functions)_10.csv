@@ -2,8 +2,8 @@ Format,Languages
 "  string_in_string ( string , loc int,  substring ) ",ALGOL 68
 "  ContainsStr ( string ,  substring ) ",Object Pascal (Object Pascal)
 " strstr( string ,  substring ) != NULL "," C (programming language), C (programming language) (char * only) "
-string .Contains( substring)," C Sharp (programming language), C Sharp (programming language), C Sharp (programming language), C Sharp (programming language) "
-string .contains( substring )," Cobra (programming language), Cobra (programming language) (1.5+), Cobra (programming language) "
+string .Contains( substring )," C Sharp (programming language), C Sharp (programming language), C Sharp (programming language), C Sharp (programming language) "
+string .contains( substring )," Cobra (programming language), Cobra (programming language) (1.5+), Cobra (programming language), Cobra (programming language)Cobra (programming language) "
 string .indexOf( substring ) >= 0,JavaScript
 " strpos( string ,  substring ) !== false ",PHP
 " pos( string ,  substring ) <> 0 ",Seed7

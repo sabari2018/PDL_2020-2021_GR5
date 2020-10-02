@@ -15,7 +15,8 @@ MapleRead,Free ebook libraries only,Yes,Yes,Yes,Yes,Built-in web server Calibre 
 Marvin,Free ebook libraries only,Yes,Yes,Yes,Yes,Calibre (Bonjour (software)) eMail (MIME type) Dropbox iTunes File Sharing,Yes,Yes
 MegaReader (page does not exist),No,Yes,Yes,No,Yes,Calibre (Bonjour (software)) eMail (MIME type),No,No
 PocketBook reader (page does not exist),Yes,Yes,No,Yes,Yes,iTunes File Sharing eMail (MIME type),No,Yes
-ShuBook (page does not exist),Yes,Yes,Yes,Yes,Yes,Calibre (Bonjour (software)) eMail (MIME type) iTunes File Sharing,Yes,Yes
+ShuBook 2 (page does not exist),Yes,Yes,Yes,Yes,Yes,Calibre (Bonjour (software)) eMail (MIME type) iTunes File Sharing,Yes,Yes
+SideBooks (page does not exist),No,Yes,No,No,No,iTunes File Sharing Dropbox,No,No
 Lexcycle Stanza,No,Yes,Yes,No,Yes,Calibre (Bonjour (software)) eMail (MIME type) iTunes File Sharing,Yes,Yes
 UBooks XL (page does not exist),No,Yes,Yes,No,Yes,eMail (MIME type) iTunes File Sharing,No,Yes
 IBouquiniste (page does not exist),Free ebook libraries only,Yes,Yes,No,Yes,eMail (MIME type),No,Yes

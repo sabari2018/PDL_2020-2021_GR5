@@ -15,10 +15,10 @@ Yes,Yes,Yes,,,,
 Yes,,,,,,
 ,no
 ,ALGOL 60,Application
-Yes,,,,,,
+Yes,,,Yes,Yes,,
 ," 1960, IFIP WG 2.1, ISO "
 ,ALGOL 68,Application
-Yes,,,,,,
+Yes,,Yes,Yes,Yes,,
 concurrent," 1968, IFIP WG 2.1, GOST 27974-88, "
 ,Ateji PX,Parallel application
 ,Yes,,,,,
@@ -98,6 +98,9 @@ Yes,,,Yes,,,
 ,Crystal,General purpose
 Yes,Yes,Yes,Yes,,,
 alpha stage,no
+,Curry,Application
+,,Yes,,Yes,,
+" lazy evaluation, non-determinism ",De facto standard via Curry Language Report
 ,Cython," Application, general, numerical computing"
 Yes,Yes,Yes,,,Yes,
 aspect-oriented,no
@@ -234,7 +237,7 @@ aspect-oriented,no
 Yes,Yes,Yes,Yes,,,
 distributed,no
 ,Mathematica,Symbolic language
-Yes,Yes,Yes,Yes,,,
+Yes,Yes,Yes,Yes,Yes,Yes,Yes
 " logic, distributed ",no
 ,MATLAB," Highly domain-specific, numerical computing "
 Yes,Yes,,Yes,,,
@@ -295,8 +298,8 @@ Yes,,,Yes,,,
 ,no
 ,PostScript," Graphics, page description "
 Yes,,,Yes,,,
-Stack-oriented,Yes (as the PostScript Reference Manual)
-,PowerShell," Administration, application, general, scripting "
+"  concatenative, stack-oriented"," Yes, as the PostScript Reference Manual "
+PowerShell," Administration, application, general, scripting "
 Yes,Yes,Yes,Yes,,Yes,
 pipeline,no
 ,Prolog," Application, artificial intelligence "
@@ -317,12 +320,15 @@ Yes,Yes,Yes,Yes,,Yes,
 ,Raku," Scripting, text processing, glue "
 Yes,Yes,Yes,Yes,Yes,Yes,
 " aspect-oriented, array, lazy evaluation, multiple dispatch, metaprogramming",yes
-REALbasic,Application
+,REALbasic,Application
 ,,,Yes,,,
 ,unk
 ,Rebol,Distributed
 Yes,Yes,Yes,Yes,,Yes,Yes
 dialected,no
+,REXX,Scripting
+Yes,Yes (NetRexx and Object REXX dialects),No,Yes,,No,No
+,1996 (ANSI X3.274-1996)
 ,RPG," Application, system "
 Yes,,,Yes,,,
 ,no
@@ -364,7 +370,7 @@ Yes,,Yes,,Yes,,
 ," 1997, SML 97 "
 ,Swift," Application, general "
 Yes,Yes,Yes,Yes,Yes,Yes,Yes
-" concurrent, Multi-paradigm ",no
+" concurrent, declarative, protocol-oriented",no
 ,Tcl," Application, scripting, web "
 Yes,Yes,Yes,Yes,,Yes,Yes
 ,no
@@ -381,7 +387,7 @@ Yes,Yes,Yes,Yes,Yes,Yes,Yes
 Yes,Yes,Yes,,,,Yes
 " declarative, logic ",no
 ,Wolfram Language,Symbolic language
-Yes,Yes,Yes,Yes,,,
+Yes,Yes,Yes,Yes,Yes,Yes,Yes
 " logic, distributed ",no
 ,XL,
 Yes,Yes,,,,,

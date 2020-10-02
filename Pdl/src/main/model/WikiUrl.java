@@ -19,6 +19,8 @@ public class WikiUrl {
      * @throws IllegalArgumentException Exception throw if one of the URLs is invalid
      */
     public WikiUrl(String newHtmlUrl) throws IllegalArgumentException {
+
+        //?????
         testAndAffectUrl(newHtmlUrl, true);
 
         String[] titleSpliter = htmlUrl.split("wikipedia.org/wiki/");
@@ -28,6 +30,7 @@ public class WikiUrl {
         String language = languageSpliter[0];
         String wikiTextUrlToTest = "https://"+ language + ".wikipedia.org/w/index.php?title=" + title + "&action=edit";
 
+        //?????
         testAndAffectUrl(wikiTextUrlToTest, false);
     }
 

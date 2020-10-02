@@ -1,0 +1,25 @@
+[[[Virtual machine]]
+, Machine model]]
+, [[Memory management]]
+, Code security]]
+, Interpreter]]
+, JIT]]
+, AOT]]
+, Shared libraries]]
+, Common Language [[Object Model]]
+, [[Dynamic typing]]
+],
+| [[Register machine|register]],| automatic,| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{dunno}},| {{yes}},| {{yes}},
+| [[Stack machine|stack]],| automatic or manual,| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},
+| [[Register machine|register]],| automatic,| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},
+| [[Stack machine|stack]],| automatic or manual,| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{no}},
+| [[Stack machine|stack]],| automatic,| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{Yes}},| {{yes}},| {{yes}},
+| [[Stack machine|stack]],| automatic,| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{dunno}},| {{yes}},| {{yes}},
+| [[Register machine|register]],| manual,| {{no}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{no}},
+| [[Stack machine|stack]],| automatic or manual,| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},
+| [[Register machine|register]],| automatic,| {{no}},| {{yes}},| {{no}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},
+| [[Register machine|register]],| automatic,| {{yes}},| {{yes}},| {{yes}},| {{no}},| {{dunno}},| {{no}},| {{no}},
+| [[Stack machine|stack]],| automatic,| {{no}},| {{yes}},| {{yes}},| {{no}},| {{yes}},| {{no}},| {{yes}},
+| [[Register machine|register]],| automatic,| {{dunno}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},
+| [[Register machine|register]],| automatic,| {{dunno}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},| {{yes}},
+,

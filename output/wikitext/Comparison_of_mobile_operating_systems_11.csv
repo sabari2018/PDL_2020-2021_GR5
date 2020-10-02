@@ -1,4 +1,4 @@
-" width=""10%"" Feature"," width=""10%"" Android"," width=""10%"" iOS"," width=""10%"" Windows 10 Mobile"," width=""10%"" BlackBerry 10"," width=""10%"" Tizen"," width=""10%"" Sailfish OS"," width=""10%"" Ubuntu Touch"
-Bluetooth keyboard,2.3+; previous versions via 3rd party software,Yes,8.1u2+,Yes,No,Yes,Yes
-USB keyboard,3.1+,Yes,No,?,Yes
-Interchangeable external memory cards,Yes,Only for photo/video import with an optional accessory,8+,Yes,Yes,Yes,Yes
+" width=""10%"" Feature"," width=""10%"" Android"," width=""10%"" iOS"," width=""10%"" Tizen"," width=""10%"" Sailfish OS"," width=""10%"" Ubuntu Touch"
+Bluetooth keyboard,2.3+; previous versions via 3rd party software,Yes,No,Yes,Yes
+USB keyboard,3.1+,With Camera Connection Kit,No,?,Yes
+Interchangeable external memory cards,Yes,Only for photo/video import with an optional accessory,Yes,Yes,Yes

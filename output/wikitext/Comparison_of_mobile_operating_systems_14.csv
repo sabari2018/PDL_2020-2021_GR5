@@ -1,6 +1,6 @@
-" width=""10%"" Feature"," width=""10%"" Android"," width=""10%"" iOS"," width=""10%"" Windows 10 Mobile"," width=""10%"" BlackBerry 10"," width=""10%"" Tizen"," width=""10%"" Sailfish OS"," width=""10%"" Ubuntu Touch"
-Custom ringtones,Yes,Yes,7.10.7720.0+,Yes,Yes,Yes,Yes
-Custom SMS/MMS tones,Yes,5+,8 GDR3+,?,Yes,No
-Custom vibrate alert patterns,"No2No, possible on some Samsung devices such as Galaxy S III, but limited",5+,No,Yes,?,API available for 3rd party apps,No
-Dismiss repeating alarm clock before trigger,4.4+,No,No,No,No,?,Yes
-Tap to snooze,3rd party apps,Yes,No,No,No,?,Yes
+" width=""10%"" Feature"," width=""10%"" Android"," width=""10%"" iOS"," width=""10%"" Tizen"," width=""10%"" Sailfish OS"," width=""10%"" Ubuntu Touch"
+Custom ringtones,Yes,Yes,Yes,Yes,Yes
+Custom SMS/MMS tones,Yes,5+,?,Yes,No
+Custom vibrate alert patterns,"No2No, possible on some Samsung devices such as Galaxy S III, but limited",5+,?,API available for 3rd party apps,No
+Dismiss repeating alarm clock before trigger,4.4+,No,No,?,Yes
+Tap to snooze,3rd party apps,Yes,No,?,Yes

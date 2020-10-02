@@ -1,5 +1,4 @@
 Name,Creator,First public release," class=""unsortable""Latest stable version",Latest release date," Cost, availability",License
-CACAO,Vienna University of Technology,dunno,1.6.0,"data-sort-value=""2012-09-04"" 4 September 2012"
 Eclipse OpenJ9 (formerly IBM J9),IBM,dunno,0.8.0,"data-sort-value=""2018-03-15"" 15 March 2018",Free,Apache License 2.0Eclipse Public License 2.0
 GCJ,GNU," data-sort-value=""1998-09-06"" 6 September 1998",6.4 (Terminal)," data-sort-value=""2017-07-04"" 4 July 2017",Free," GPL version 2 or later, with the ""libgcc exception"""
 " HotSpot, OpenJDK edition",Oracle,"data-sort-value=""1999-04-27"" 27 April 1999",dunno,"data-sort-value=""2017-09-21"" 21 September 2017",Free,GPL version 2 only

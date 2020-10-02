@@ -9,9 +9,9 @@ NB.,"J; from the (historically) common abbreviation Nota bene, the Latin for ""n
 //,"C (C99), C#, D, F#, Go, Java, Kotlin, Rust, Scala, SASS, Swift, Xojo"
 ,"Monkey, Small Basic, Gambas, Xojo"
 ,"Fortran, Basic Plus, Inform, Pick Basic"
-;,"Assembly x86, Lisp, Red, Scheme, "
+;,"Assembly x86, Lisp, Red, Scheme "
 --,"Euphoria, Haskell, Ada, Eiffel, Lua, VHDL, SGML, PureScript"
-*," Assembler S/360 (* in column 1), PAW, Fortran IV to Fortran 77 (* in column 1), Pick Basic"
+*,"Assembler S/360 (* in column 1), PAW, Fortran IV to Fortran 77 (* in column 1), Pick Basic"
 ,,Curl
 """","Vimscript, ABAP"
 \,Forth

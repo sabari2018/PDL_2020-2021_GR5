@@ -1,11 +1,10 @@
 Name,File Allocation Table; File Allocation Table,NTFS,Ext2,Ext3,XFS,ReiserFS,Unix File System,UFS2,Hierarchical File System,HFS Plus,MINIX file system,Be File System,ISO 9660,Universal Disk Format,Network File System,Server Message Block," RAM disk, RAM disk ",ZFS,Other special File system
-Linux,Yes,Yes[Note 1][Note 2],Yes,Yes,Yes,Yes,Yes[Note 3],Yes[32],Yes,Yes[Note 4],Yes,Yes[Note 3],Yes,Yes,Yes,Yes,Yes,Yes," 9P (protocol),9P (protocol) 9P (protocol),9P (protocol) 9P (protocol),9P (protocol) 9P (protocol),9P (protocol) 9P (protocol),9P (protocol)9P (protocol) 9P (protocol), 9P (protocol), 9P (protocol), 9P (protocol) "
+Linux,Yes,Yes[Note 1][Note 2],Yes,Yes,Yes,Yes,Yes[Note 3],Yes[19],Yes,Yes[Note 4],Yes,Yes[Note 3],Yes,Yes,Yes,Yes,Yes,Yes," 9P (protocol),9P (protocol) 9P (protocol),9P (protocol) 9P (protocol),9P (protocol) 9P (protocol),9P (protocol) 9P (protocol),9P (protocol)9P (protocol) 9P (protocol), 9P (protocol), 9P (protocol), 9P (protocol) "
 FreeBSD,Yes,Yes[Note 3][Note 2],Yes,Yes[Note 3],Yes[Note 1],Yes[Note 3],Yes,Yes,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes," FUSE, Nullfs (page does not exist), UnionFS "
 NetBSD,Yes,Yes[Note 3][Note 2],Yes,,No,No,Yes,Yes,,Yes[Note 3],No,No,Yes,Yes[Note 3],Yes,Yes,Yes,Yes," PUFFS (NetBSD), PUFFS (NetBSD), PUFFS (NetBSD) "
 OpenBSD,Yes,Yes[Note 3],Yes,,No,No,Yes,Yes,No,No,No,No,Yes,Yes,Yes,Yes,Yes,No,Andrew File System
 DragonFly BSD,Yes,Yes[Note 3],Yes,No,No,No,Yes,No,No,No,No,No,Yes,Yes[Note 7],Yes,Yes,Yes,No," HAMMER (file system), nullfs, PUFFS "
 " OpenSolaris, OpenSolaris ",Yes,Yes [Note 2][Note 8],No,No,No,No,Yes,,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes," Server Message Block (native), Server Message Block "
-AuroraUX (page does not exist),Yes,Yes [Note 2][Note 8],Yes,Yes,No,No,Yes,,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes," SMB (native), QFS "
 " Darwin (operating system), Darwin (operating system) ",Yes,Yes[Note 3][Note 2],,,,,Yes,,Yes,Yes,,,Yes,Yes,Yes,Yes,,,
 MINIX,Yes,No,Yes,,,,,,,,Yes,No,,,,,,,
 FreeDOS,Yes,No,No,No,No,No,No,,,,No,No,Yes,,,,Yes,,

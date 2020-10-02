@@ -1,4 +1,4 @@
-Profile,Element,Trident,Gecko,WebKit,Blink,Presto,KSVG,Prince XML,Amaya,[http://www.adobe.com/svg/viewer/install/ Adobe SVG Viewer],Batik,Renesis,LeonLabs
+Profile,Element,Trident,Gecko,WebKit,Blink,Presto,KSVG,Prince,Amaya,[http://www.adobe.com/svg/viewer/install/ Adobe SVG Viewer],Batik,Renesis,LeonLabs
 [http://www.w3.org/TR/SVG/struct.html#structure-mod Structure Module],,,,,,,,,,,
 Tiny,svg,5.0,1.8,522,dunno,1.0,yes,yes,yes,1.0,yes,yes,1.0
 ,g,,,,,{{yes|2.0}},,,,,,{{yes|1.0}},

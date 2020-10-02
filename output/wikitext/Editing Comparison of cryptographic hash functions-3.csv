@@ -1,0 +1,27 @@
+[ Function
+, Year
+, Designer
+, Derived from
+, Reference
+],
+| 2008,| Jean-Philippe AumassonbrLuca HenzenbrWilli MeierbrRaphael C.-W. Phan,| [[ChaCha20]],| [https://131002.net/blake/ Website]br[https://131002.net/blake/blake.pdf Specification],
+| 2012,| Jean-Philippe AumassonbrSamuel Nevesbr[[Zooko Wilcox-O'Hearn]]brChristian Winnerlein,| [[BLAKE (hash function)|BLAKE]],| [https://blake2.net/ Website]br[https://blake2.net/blake2.pdf Specification]br{{IETF RFC|7693}},
+| 2020,| Jack O'ConnorbrJean-Philippe AumassonbrSamuel Nevesbr[[Zooko Wilcox-O'Hearn]],| [[BLAKE2]],| [https://github.com/BLAKE3-team/BLAKE3 Website]br[https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf Specification],
+| 1994,| [[FAPSI]] and VNIIstandart,| [[GOST (block cipher)|GOST 28147-89]],| {{IETF RFC|5831}},
+| 1992,| [[Yuliang Zheng]]br[[Josef Pieprzyk]]br[[Jennifer Seberry]],|,| [https://web.archive.org/web/20150111210116/http://labs.calyptix.com/haval.php Website]br[https://web.archive.org/web/20140411060613/http://labs.calyptix.com/files/haval-paper.pdf Specification],
+| 2016,| Guido Bertonibr[[Joan Daemen]]brMichaël Peetersbr[[Gilles Van Assche]],| [[Keccak]],| [https://keccak.team/kangarootwelve.html Website]br[https://keccak.team/files/KangarooTwelve.pdf Specification],
+| 1989,| rowspan="4" | [[Ronald Rivest]],|,| {{IETF RFC|1319}},
+| 1990,|,| {{IETF RFC|1320}},
+| 1992,| [[MD4]],| {{IETF RFC|1321}},
+| 2008,|,| [https://groups.csail.mit.edu/cis/md6/ Website]br[https://groups.csail.mit.edu/cis/md6/docs/2009-04-15-md6-report.pdf Specification],
+| 1992,| The RIPE Consortium,| [[MD4]],|,
+| 1996,| [[Hans Dobbertin]]brAntoon Bosselaersbr[[Bart Preneel]],| [[RIPEMD]],| [http://homes.esat.kuleuven.be/~bosselae/ripemd160.html Website]br[https://homes.esat.kuleuven.be/~bosselae/ripemd160/pdf/AB-9601/AB-9601.pdf Specification],
+| 1993,| rowspan="4"|[[National Security Agency|NSA]],|,| [https://web.archive.org/web/20090130063617/http://w2.eff.org/Privacy/Digital_signature/?f=fips_sha_shs.info.txt SHA-0],
+| 1995,| [[SHA-0]],| rowspan="3" | [https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf Specification],
+| 2002,| rowspan="2"|,
+| 2004,
+| 2008,| Guido Bertonibr[[Joan Daemen]]brMichaël Peetersbr[[Gilles Van Assche]],| [[RadioGatún]],| [https://keccak.team/ Website]br[https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.202.pdf Specification],
+| 2012,| [[Federal Security Service|FSB]] InfoTeCS JSC,|,| {{IETF RFC|6986}},
+| 1995,| [[Ross J. Anderson|Ross Anderson]]br[[Eli Biham]],|,| [https://www.cs.technion.ac.il/~biham/Reports/Tiger/ Website]br[https://www.cs.technion.ac.il/~biham/Reports/Tiger/tiger/node3.html Specification],
+| 2004,| [[Vincent Rijmen]]br[[Paulo S. L. M. Barreto|Paulo Barreto]],|,| [https://web.archive.org/web/20171129084214/http://www.larc.usp.br/~pbarreto/WhirlpoolPage.html Website],
+,

@@ -1,0 +1,29 @@
+[ Program
+, Developer
+, License]]
+, Supported file systems
+, platforms]]
+, [[GUI]]
+, CLI]]
+, Script]]
+, Scheduler
+, Boot time]]
+, Auto defrag when idle
+, Stable release]]
+],
+| Auslogics,| {{Nonfree|[[Freeware]]}},| [[FAT16B|FAT16]] [[FAT32]] NTFS,| [[Windows XP]] and later,| {{Yes}},| {{Yes}},|,| {{Yes}},| {{Yes}},| {{Yes}},| {{Latest stable software release/Auslogics Disk Defrag}},
+| AVG Technologies,| {{Nonfree|[[Trialware]]}},|,|,|,|,|,|,|,|,| 2015 (v15.0.1001.238) (November 30 2014),
+| [[Microsoft]],| {{Nonfree|[[Freeware]] }},| NTFS,| [[Windows XP]] and later;br/[[Windows Server 2003]] and later,| {{No}},| {{Yes}},| {{No}},| {{Yes|Yes with [[Windows Task Scheduler]]}},| {{No}},| {{Yes|Yes with [[Windows Task Scheduler]]}}{{efn|name="ScheduleIdle"|Windows Task Scheduler "Idle" schedules and options settings will be applied to scheduled tasks.}},| 1.8 (July 4 2016)ref name="Russinovich2008" /,
+| [[Piriform (company)|Piriform]],| {{Nonfree|[[Freeware]] }},| FAT32 NTFS [[exFAT]] ReFS,| [[Windows XP]] and later,| {{Yes}},| {{Yes}},| {{No}},| {{Yes|Yes with [[Windows Task Scheduler]]}}{{efn|Defraggler's GUI only provides an interface to configure defragmenting activity in [[Windows Task Scheduler]].}},| {{Yes}},| {{Yes|Yes with [[Windows Task Scheduler]]}}{{efn|name="ScheduleIdle"}},| {{Latest stable software release/Defraggler}},
+| [[Microsoft]],| {{Needs|Bundled with [[Microsoft Windows]]}},| FAT16 FAT32 NTFS ReFS,| [[Windows 2000]] and later;br/[[Windows 95]] and later,| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes|Yes; via [[Security and Maintenance]]}},| {{No}},| {{Yes|Yes; via [[Security and Maintenance]]}},| Same as Windows,
+| [[Condusiv Technologies]],| {{Nonfree|[[Trialware]]}},| FAT16 FAT32 NTFS,| Windows XP and later,| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}}{{efn|Condusiv Technologies claims its InvisiTasking technology eliminates the need for scheduled defragmentation.}},| {{Yes}},| {{Yes}},| {{Latest stable software release/Diskeeper}},
+| Jeroen Kessels,| {{Free|[[GNU GPL]]}},| FAT ; NTFS,| Windows 2000 Windows XP Windows Vista,| {{Yes}},| {{Yes}},|,|,|,|,| 3.36.0.2 / August 31 2008,
+| Jeroen Kessels,| {{Nonfree|[[Freeware]] }},| FAT16 FAT32 NTFS.,Does not work at all on ExFAT,| Windows 2000 XP Vista 7.br,Unofficial: Windows 8.0 8.1 10.,| {{Yes}},| {{Partial}} {{efn|MyDefrag CLI -- Can execute script via CLI but displays disk map.}},| {{Yes}} !! {{efn|MyDefrag Scripts -- Runs exclusively via scripts. Included scripts good enough for most. The open-source predecessor JkDefrag does not have this level of power user script support. Geek-freak custom ultra-optimizing scripts are what distinguishes this defragmenter from the rest.}},| {{Partial}} Not in GUI. {{efn|MyDefrag Scheduler -- Can only add running specific built-in scripts via installer. Everything else including all edits and deletes must be set up manually in Windows task scheduler.}},| {{No}},| {{No}},| 4.3.1 / May 20 2010,
+| [[O;O Software]],| {{Nonfree|[[Trialware]]}},| FAT16 FAT32 NTFS,| Windows 2000 XP Vista Server 2008 7 and 8,| {{Yes}},| {{Yes}},|,| {{Yes}},| {{Yes}},| {{Yes}} !-- It seems that O;O Defrag supports idle-time defrag: https://docs.oo-software.com/en/oodefrag-19/about-oo-defrag-19/defrag-features-at-a-glance-19 --,| {{Latest stable software release/O;O Defrag}},
+| [[Microsoft]],| {{Nonfree|[[Freeware]]}},|,|,|,|,|,|,|,|,|,
+| [[Raxco]],| {{Nonfree|[[Trialware]]}},|FAT16 FAT32 exFAT NTFS ReFS* and CSVFS[https://raxco.my.salesforce.com/_ui/selfservice/pkb/PublicKnowledgeSolution/d?orgId=00D30000001FVTK;id=50130000000irUt;retURL=%2Fsol%2Fpublic%2Fsolutionbrowser.jsp%3Fsearch%3Dexfat%26cid%3D000000000000000%26orgId%3D00D30000001FVTK%26t%3D4;ps=1],|Windows XP SP3 or higher (x86 x64)Windows 10 Windows Server 2003 SP1Windows Server 2019[https://raxco.my.salesforce.com/_ui/selfservice/pkb/PublicKnowledgeSolution/d?orgId=00D30000001FVTK;id=50130000000irUt;retURL=%2Fsol%2Fpublic%2Fsolutionbrowser.jsp%3Fsearch%3Dexfat%26cid%3D000000000000000%26orgId%3D00D30000001FVTK%26t%3D4;ps=1],|{{Yes}},|{{Yes}}('''Enterprise Console Edition Only)''',|,|{{Yes}},|{{Yes}},|{{Yes}},|PerfectDisk 14 Build 894(May 2 2019),
+| DiskTrix,| {{Nonfree|[[Trialware]]}},| FAT32 NTFS,| Windows XP and later,| {{Yes}},|{{Yes}},|,| {{Yes}},| {{Yes}},|,| 6.0.50.0 (13 December 2019),
+| Dmitri Arkhangelski Justin Dearing Sayem Chaklader Stefan Pendl,| {{Nonfree|[[Commercial software]]}} (8.0) / [[Free software|GNU GPL]] (7.1.2) ,| [[FAT12]] FAT16 FAT32 NTFS exFAT,| Windows NT 4.0 and later,| {{Yes}},| {{Yes}},| {{Yes}}{{efn|UltraDefrag can be run in batch scripts and apply several parameters separately for each disk.}},| {{Yes|Yes with [[Windows Task Scheduler]]}},| {{Yes}},| {{Yes|Yes with [[Windows Task Scheduler]]}}{{efn|name="ScheduleIdle"}},| {{Latest stable software release/UltraDefrag}} Open source version discontinued,
+| GoldenBow (or DataTuna)refwhich makes available Howard Barry Emerson's VOPT on their own site at {{cite web,|url=http://www.disktuna.com/where-did-the-vopt-defragger-go,|title=The excellent VOPT defrag. Free license!}}/ref,| {{dropped|Discontinued (formerly [[freeware]])}},| FAT32 NTFS,| Windows 2000 and later,| {{Yes}},|,|,| {{Yes}},|,|,| {{Latest stable software release/Vopt}},
+! Developer,! License,! Supported file systems,! Supported platforms,! GUI,! CLI,! Script,! Scheduler,! Boot time,! Auto defrag when idle,! Stable release,
+,

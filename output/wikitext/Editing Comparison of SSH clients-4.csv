@@ -1,0 +1,26 @@
+[ Name
+, Developer
+, Status
+, First release
+, Latest release
+, Current version
+, Based on
+, License
+, Source]] available
+],
+| Celestial Software (Brian Pence),| {{site active}},| 1996,| 2016-10-12,| 10.16,|,| {{Proprietary}},| {{no}},
+| Bitvise Limited,| {{site active}},| 2001,| 2020-05-22,| 8.43,|,| {{Proprietary}},| {{no}},
+| Kenny Root / Jeffrey Sharkey,| {{site active}},| 2007-11,| 2019-11-12,| 1.9.6 ,| Trilead SSH-2 for Java,| {{free|[[Apache License|Apache]]}},| {{yes}},
+|Soft4U2 Marcin Słowik,| {{site active}},| 2013-09,| 2015-12-01,| 1.10.6,| libSSH2,| {{Proprietary}},| {{yes}},
+| Matt Johnston,| {{site active}},| 2003-04-06,| 2017-05-18,| 2017.75,|,|{{free|[[MIT License|MIT]]}},| {{yes}},
+| Ecode Software,| {{site inactive}},| 2002-07,|,|,|,| {{Proprietary}},| {{no}},
+| Niels Möller,| {{site active}},| 1999-05-23,| 2013-06-26,| 2.1,|,| {{free|[[GNU General Public License|GPL]]}},| {{yes}},
+| The [[OpenBSD]] project,| {{site active}},| 1999-12-01,| 2020-05-27,| 8.3,| ossh,| {{free|[[BSD licenses|BSD]]}},| {{yes}},
+| [[Simon Tatham]],| {{site active}},| 1999-01-22,| 2020-06-27,| 0.74,|,| {{free|[[MIT License|MIT]]}},| {{yes}},
+| VanDyke Software,| {{site active}},| 1998-06,| 2020-02-11,| 8.7.0,|,| {{Proprietary}},| {{no}},
+| TeraTerm Project,| {{site active}},| 2004,| 2018-08-31,| 4.100,| Tera Term Pro 2.3 (1994–1998),| {{free|[[BSD licenses|BSD]]}},| {{yes}},
+| SDI USA Inc.,| {{site active}},| 2006,|,|,|,| {{Proprietary}},| {{No}},
+| FCS Software,| {{site active}},| 2002-05,|,|,|,| {{Proprietary}},| {{no}},
+| [[wolfSSL]],| {{site active}},| 2016-07-20,| 2019-10-31,| 1.4.3,| [[wolfCrypt]] ,| {{Proprietary | [[GPL]] or Commercial Distribution}},| {{Yes}},
+| EmTec Innovative Software,| {{site active}},| 1995-07-01,| 2020-01-09,| 7.26.1,|,| {{Proprietary}},| {{no}},
+,

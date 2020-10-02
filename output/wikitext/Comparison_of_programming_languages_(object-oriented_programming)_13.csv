@@ -1,6 +1,7 @@
 ,current object,current objects parent object,null reference,Current Context of Execution
 Smalltalk,self,super,nil,thisContext
 ABAP Objects,me,super,initial,
+APL (Dyalog),⎕THIS,⎕BASE,⎕NULL,
 C++ (STL),*this,," NULL, nullptr",
 C#,this,base,null,
 Java,,super,,

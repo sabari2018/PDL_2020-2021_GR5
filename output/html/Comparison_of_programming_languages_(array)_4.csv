@@ -27,7 +27,6 @@ Java (programming language)Java (programming language),0,no,no,checked,array of 
 JavaScript,0,no,no,checked[35],array of array[22],yes,yes
 Julia (programming language),1,yes,yes,checked,yes,yes,yes
 Lingo (programming language),1,?,?,unchecked,yes,yes,yes
-Ring (programming language) (page does not exist),1,?,partial[36],checked,array of array[22],yes,?
 Lua (programming language),1,?,partial[36],checked,array of array[22],yes,?
 Mathematica,1,no,no,checked,yes,yes,yes
 MATLAB,1,?,no,checked,yes[37],yes,yes
@@ -44,7 +43,9 @@ PL/I,1,?,yes,checked,yes,no,?
 Python (programming language),0,no,no,checked,array of array[22],yes,no[45]
 IBM RPG,1,no,no,?,no,no,?
 R (programming language),1,?,?,?,?,?,?
+Ring (programming language) (page does not exist),1,?,partial[36],checked,array of array[22],yes,?
 Ruby (programming language),0,no,no,checked[35],array of array[22],yes,?
+Rust (programming language),0,no,no,checked,yes,?,?
 Sass (stylesheet language),1,no,no,checked,array of array[22],init[30],?
 S-Lang (programming library),0,?,no,checked,yes,yes,yes
 Scala (programming language),0,no,no,checked,array of array[22],init[15],yes (map)

@@ -1,5 +1,4 @@
-Model (Codename),Release Date,Microarchitecture &amp; Microarchitecture,Transistors &amp; Die Size,Core,,FillrateFillrateFillrateFillrate,,Processing powerGFLOPSGFLOPS (GFLOPS),,Memory,,,,Thermal Design Power,Bus interface
-,,,,Config[e],ClockHertz (Hertz),Texture (Texel (graphics)/s),Pixel (Pixel/s),Single precision floating-point format,Double precision floating-point format,Bus type &amp; width,Size (Gibibyte),Clock (Transfer (computing)),Band- width (Gigabyte/s),,
-Radeon Pro 450 [295][296][297][298][299],October 2016,Graphics Core Next 14 nm,3.0×109 123 mm2,640:40:16 10 CU,725  775,29  31,11.6  12.4,928  992,1/16 SP,GDDR5 128-bit,2,5000,80,35 W,PCIe 3.0 ×16
-Radeon Pro 455 [295][296][297][300],October 2016,,,768:48:16 12 CU,850,40.8,13.6,1305.6,1/16 SP,GDDR5 128-bit,2,5000,80,35 W,
-Radeon Pro 460 [295][296][297][301],October 2016,,,1024:64:16 16 CU,850  910,54.4  58.2,13.6  14.56,1740.8  1863.7,1/16 SP,GDDR5 128-bit,4,5000,80,35 W,
+Model (Codename),Release Date &amp; Price,Microarchitecture &amp; Microarchitecture,Transistors &amp; Die Size,Core,,FillrateFillrateFillrateFillrate,,Processing powerGFLOPSGFLOPS (GFLOPS),,Memory,,,,Thermal Design Power,Bus interface,Graphic output ports
+,,,,Config[e],ClockHertz (Hertz),Texture (Texel (graphics)/s),Pixel (Pixel/s),Single precision floating-point format,Double precision floating-point format,Bus type &amp; width,Size (Gibibyte),Clock (Transfer (computing)),Band- width (Gigabyte/s),,,
+Radeon Pro Vega II (Vega 20)[295]," November 2019$2,800 USD ",Graphics Core Next 7FF,0.0×109 ? mm2,4096:256:64 64 CU,1700,435,109,14200,880,High Bandwidth Memory 4096-bit,32,2000,1000,Unknown,PCIe ×16,4× Thunderbolt 3 1× HDMI 2.0
+Radeon Pro Vega II Duo (Vega 20)[295]," November 2019$5,600 USD ",,

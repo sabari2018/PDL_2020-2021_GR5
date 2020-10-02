@@ -22,3 +22,4 @@ string  last:  n," Smalltalk (Smalltalk, Smalltalk) "
 " StringTake[ string , - n ] ",MathematicaMathematica
 string  (1: n ),COBOL
 ¯n ↑ string .,APL (programming language)
+string [n..]  string .get(n..),Rust (programming language)Rust (programming language)

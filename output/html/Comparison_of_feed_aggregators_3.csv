@@ -7,7 +7,7 @@ Awasu,Yes,Yes,Yes,Yes,Yes,Yes,Yes,any XML format (via XSL),?,Yes,Yes
 BlogBridge,?,?,?,?,?,?,?,?,?,?,?
 Canto (news aggregator),?,Yes,Yes,Yes,Yes,?,Yes,?,?,?,Yes
 Claws Mail,?,No,Yes,Yes,?,?,Yes,?,No,Yes,Yes
-CommaFeed,Yes,Yes,Yes,Yes,Yes,Yes,Yes," RSS 0.90,  RSS 0.92,  RSS 0.93,  RSS 0.94,  Atom 0.3,  Atom 1.0[38] ",No,Yes,Yes
+CommaFeed,Yes,Yes,Yes,Yes,Yes,Yes,Yes," RSS 0.90,  RSS 0.92,  RSS 0.93,  RSS 0.94,  Atom 0.3,  Atom 1.0[39] ",No,Yes,Yes
 Cooliris (plugin),?,?,?,?,Yes,Yes,?,?,No,?,?
 Feed Viewer,?,Yes,Yes,Yes,Yes,Yes,Yes," Channel Definition Format, Channel Definition Format ",No,Yes,Yes
 FeedDemon,Yes,?,?,?,?,?,?,?,Yes,?,?
@@ -20,7 +20,7 @@ ITunes,?,?,?,Yes,Yes,?,Yes,?,No,?,Yes
 Juice (aggregator),?,?,?,?,Yes,?,?,?,No,?,?
 K-Meleon,?,?,?,?,?,?,Yes,?,?,Yes,?
 Kazehakase,?,?,?,?,?,?,?," LIRS (standard) (page does not exist), LIRS (standard) (page does not exist) ",?,Yes,?
-Liferea,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes[39],Yes
+Liferea,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes[40],Yes
 Mail (OS X),?,?,?,Yes,?,?,Yes,?,No,Yes,Yes
 Maxthon,?,?,?,?,?,?,Yes,?,Yes,Yes,?
 MediaMonkey,?,?,?,?,Yes,?,?,?,?,?,?

@@ -12,12 +12,11 @@
 ,Notepad++," yes, with SumatraPDF"," yes, with a DDE client",yes,partial,yes,yes,yes
 ,Overleaf,yes,no,yes,no,yes,yes,yes
 ,Scientific WorkPlace,N/A,?,?,yes,no,yes,no (one level)
-,ShareLaTeX,yes,no,yes,no,yes,yes,yes
-,TexLab,yes,N/A,yes,yes,no,yes,yes
+TexLab,yes,N/A,yes,yes,no,yes,yes
 ,TeXmacs,yes,yes,no,yes,no,yes,yes
-Texmaker,yes,no,partial (master file),yes,no,yes,yes
+,Texmaker,yes,no,partial (master file),yes,no,yes,yes
 ,TeXnicCenter,yes,yes,yes,yes,no,yes,yes
-,TeXShop,yes,no,no,yes,no,yes,yes
+TeXShop,yes,no,no,yes,no,yes,yes
 ,TeXstudio,yes,yes,partial (master file),yes,yes,yes,yes
 ,TeXworks,yes,no,no,no,no,yes,yes
 ,Verbosus,no,no,yes,yes,no,no,yes

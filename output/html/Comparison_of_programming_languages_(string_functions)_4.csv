@@ -27,3 +27,4 @@ string1 .localeCompare( string2 ),JavaScript
 " bytes.Compare([]byte( string1 ), []byte( string2 )) ",Go (programming language)
 string compare ?-nocase? ?-length int?  string1   string2,Tcl
 " compare( string1 , string2 , count ) ",PL/IPL/I
+string1 .cmp( string2 ),Rust (programming language)Rust (programming language)

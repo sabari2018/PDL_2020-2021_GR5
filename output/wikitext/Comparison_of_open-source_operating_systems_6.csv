@@ -5,7 +5,6 @@ NetBSD,yes,group=Notef2group=Notef7,yes,,no,no,yes,yes,,group=Notef2,no,no,yes,g
 OpenBSD,yes,group=Notef2,yes,,no,no,yes,yes,no,no,no,no,yes,yes,yes,yes,yes,no,AFS
 DragonFly BSD,yes,group=Notef2,yes,no,no,no,yes,no,no,no,no,no,yes,group=Notef10,yes,yes,yes,no," HAMMER, nullfs, PUFFS"
 " OpenSolaris, illumos",yes,group=Notef7group=Notef8,no,no,no,no,yes,,no,no,no,no,yes,yes,yes,yes,yes,yes," SMB (native), QFS"
-AuroraUX,yes,group=Notef7group=Notef8,yes,yes,no,no,yes,,no,no,no,no,yes,yes,yes,yes,yes,yes," SMB (native), QFS"
 " Darwin, OpenDarwin",yes,group=Notef2group=Notef7,,,,,yes,,yes,yes,,,yes,yes,yes,yes,,,
 MINIX,yes,no,yes,,,,,,,,yes,no,,,,,,,
 FreeDOS,yes,no,no,no,no,no,no,,,,no,no,yes,,,,yes,,

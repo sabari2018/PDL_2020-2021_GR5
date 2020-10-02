@@ -1,0 +1,24 @@
+[
+, [[GUI]]
+, Console]]
+, [[Software license]]
+, Latest stable version
+, Latest release date
+, Windows
+, Macintosh
+, Linux
+],
+| {{Yes}},| {{No}},| {{Proprietary}} ([[Freeware]]),| 2.4.0.0,| {{Dts|2020|February|28}},| style="background:#9F9" data-sort-value="Yes"|[[Windows 95|Win95]] [[Windows NT 4.0|WinNT4]] and up,| {{no}},| {{no}},
+| {{Yes}},| {{No}},| {{Proprietary}},| 10.0.1,| {{Dts|2020|February|14}},| {{yes}},| {{yes}},| {{yes}},
+| {{No}},| {{Yes}},| {{free|[[GNU General Public License|GPL]]}},| 6.1.0,| {{Dts|2009|December|12}},| {{yes}},| {{yes}},| {{yes}},
+| {{No}},| {{Yes}},| {{free|[[GNU General Public License|GPL]]}},| 1.4.0,| {{Dts|2014|October|07}},| style="background:#9f9" data-sort-value="Yes"|[[DOS]] [[Windows 95|Win95]] and up,| {{yes}},| {{yes}},
+| {{Yes}},| {{No}},| {{free|[[Adaptive Public License|APL]]}},| 6.8.1,| {{Dts|2018|06|23}},| {{yes}},| {{Yes}} ver. 6.2,| {{no}},
+| {{Yes}},| {{Yes}},| {{free|[[GNU General Public License|GPL]]}},| 26.2,| {{Dts|2019|4|12}},| {{yes}},| {{yes}},| {{yes}},
+| {{Yes}},| {{No}},| {{Proprietary}} (free for non-commercial use),| 2.7,| {{Dts|2018|October|12}},| style="background:#9F9" data-sort-value="Yes"|[[Windows XP]] and up,| {{no}},| {{no}},
+| {{Yes}},| {{No}},| {{free|[[GNU General Public License|GPL]]}},| 1.7.1,| {{Dts|2009|July|30}},| style="background:#9F9" data-sort-value="Yes"|[[Windows 98|Win98]] and up,| {{no}},| {{no}},
+| {{No}},| {{Yes}},| {{Proprietary}},| 8.68,| {{Dts|2019|August|01}},| {{yes}},| {{no}},| {{no}},
+| {{Yes}},| {{Yes}},| {{Proprietary}},| 6.24.2,| {{Dts|2015|Jan|1}},| {{yes}},| {{no}},| {{no}},
+| {{Yes}},| {{No}},| {{Proprietary}},| 26.10 (Windows) br / 18.0 (Linux / Mac OS X) ,| {{Dts|2019|05|07}} br / {{Dts|2018|01|02}},| {{yes}},| {{yes}},| {{yes}},
+| {{Yes}},| {{No}},| {{Proprietary}},| 19.7,| {{Dts|2018|08|19}},| style="background:#9F9" data-sort-value="Yes"|[[Windows 95|Win95]] and up,| {{no}},| {{no}},
+| {{Yes}},| {{Yes}},| {{free|GPL compatible}},| 8.1.0000,| {{Dts|2018|05|17}},| {{Yes}},| {{Yes}},| {{Yes}},
+,

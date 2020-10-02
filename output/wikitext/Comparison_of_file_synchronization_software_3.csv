@@ -24,7 +24,7 @@ scope=row  GS RichCopy 360,Windows,Limited,no,no,yes,yes,yes,no,yes,yes,yes,yes,
 scope=row  IBM Connections,"Windows, OS X, Android, iOS ",no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no
 scope=row  MediaFire,"Windows, OS X, Android, iOS ",yes,,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no
 scope=col  Name,scope=col  Operating system,scope=col  Freeware version,scope=col  Portable,scope=col  Encrypts files,scope=col  Detect conflict,scope=col  File lock,scope=col  Open file support,scope=col  Revision control,scope=col  Detect rename,scope=col  Detect move,scope=col  Full duplex transfer,scope=col  Propagate deletes,scope=col  Case sensitive,scope=col  Delta copying (block level transfer),scope=col  LAN Sync
-scope=row  Mega,"Windows, OS X, Linux, Android, iPhone, BlackBerry ",yes,,yes,yes,,,yes,yes,yes,yes,yes,yes,No,yes
+scope=row  Mega,"Windows, OS X, Linux, Android, iPhone, BlackBerry ",yes,,yes,yes,,,yes,yes,yes,yes,yes,yes,No,No
 scope=row  RepliWeb,"Windows, Linux ",no,,,Partial,,,yes,yes,yes,yes,yes,yes,,
 scope=row  Resilio Sync (ex. BitTorrent Sync),"Windows, OS X, Linux, Android, iOS, Windows Phone, Amazon Kindle Fire, FreeBSD ",Limited,no," yes, optional ",no,no,no,yes,yes,yes,yes,yes,,yes,yes
 scope=row  Robocopy,Windows,yes,no,,no,,,,,,,,,,
@@ -38,7 +38,6 @@ scope=row  Syncplicity,"Windows, OS X, Android, iPhone, Windows Mobile ",yes,,,y
 scope=row  Tonido,"Windows, OS X, Linux, Android, BlackBerry, iPhone, Windows Phone ",yes,yes,,yes,no,yes,no,yes,yes,yes,yes,,,
 scope=row  Tresorit,"Windows, OS X, Linux, Android, BlackBerry, iOS, Windows Phone ",Limited,yes,yes,yes,," yes, for Windows ",yes,,,,yes,yes,no,
 scope=row  Ubuntu One (discontinued 2 April 2014),"Windows, OS X, Ubuntu, iOS, Android ",yes,,,,,,,,,,,,,
-,scope=row  Windatareflector,Windows,yes,yes,no,yes,yes,no,yes,no,no,yes,yes,no,no,yes
 ,scope=row  Wuala (discontinued),"Windows, OS X, Debian, Ubuntu, Android, iOS ",yes,,yes,,,,,,,,,,,
 scope=row ZumoDrive (discontinued),"Windows, OS X, Linux, Android, iPhone, Palm webOS ",yes,,,yes,,,yes,,,,,,,
 scope=row  Zetta.net,"Windows, OS X, Linux ",No,,,Yes,,Yes,Yes,Yes,Yes,,Yes," Yes, Preserve file name case  ; file metadata",yes,Yes

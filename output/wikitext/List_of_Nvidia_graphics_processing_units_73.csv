@@ -1,6 +1,4 @@
-Model,Code name,,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power ([[GFLOPS]]),| Supported [[Application programming interface|API]] version,,,| [[Nvidia Optimus]]<br />technology,| [[Thermal design power|TBP]] (Watts)
-,,,,,,,,,! Pixel ([[Pixel|GP]]/s),Texture ([[Texel (graphics)|GT]]/s),Size ([[Megabyte|MB]]),Bandwidth ([[Gigabyte|GB]]/s),Bus type,Bus width ([[bit]]),[[Single precision floating-point format|Single precision]],[[Direct3D]],[[OpenGL]],,
-Quadro M520,GM108,28,PCIe 3.0 ×16,"  rowspan=""4"" ",,,384:24:8(3 SMM),"  rowspan=""4"" ",,1024,40,GDDR5,64,840,12.1,|4.5,|Yes,25
-Quadro M620,GM107,,,512:32:16(4 SMM),2048,,80,|128,,1000,30,,,,
-Quadro M1200,,,,640:40:16(5 SMM),|4096,,,,,1400,45,,,,
-Quadro M2200,GM206,,,1024:64:32(8 SMM),,88.1,2100,,,55,,,
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz)," rowspan=""2"" Boost clock"
+,,,,,(MHz),Memory clock (MHz),Core config1,Fillrate,,| Memory,,,,| Processing power ([[GFLOPS]]),,| Supported [[Application programming interface|API]] version,,| [[Nvidia Optimus]]<br />technology,| [[Thermal design power|TBP]] (Watts)
+Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),,,Single precision,Double precision,[[Direct3D]],[[OpenGL]]
+Quadro K2200M,GM107,28,PCIe 3.0 ×16,1150,1150,1253(5012),640:40:16(5 SMM),18.4,46,2048,80.2,GDDR5,128,1472,46,12.1,4.5,,,Yes,65

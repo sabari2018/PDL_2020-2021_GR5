@@ -33,3 +33,5 @@ SHA-384,,×6 = 384,,,,
 Tiger (hash function),64,×3 = 192,×3 = 192,,×8 = 512,64,8 × 3 = 24,A B L S,,,Not Specified
 Tiger (hash function),,×2.5=160,,,,,,,
 Tiger (hash function),,×2 = 128,,,,,,,
+Function,Word (computer architecture),Cryptographic hash function,Merkle–Damgård construction,Computation values,Merkle–Damgård construction,Merkle–Damgård construction,Words × Passes = Rounds,Operations,Endianness
+Size (Bit),,,,,,,,

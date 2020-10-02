@@ -1,6 +1,8 @@
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power ([[GFLOPS]]),| Supported [[Application programming interface|API]] version,,| [[Thermal design power|TBP]] (Watts),| Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12,Fillrate,,Memory,,,,Processing power ([[GFLOPS]]),| Supported [[Application programming interface|API]] version,,| [[Thermal design power|TBP]] (Watts),| Notes
 ,,,,,,,,Pixel (GP/s),Texture ([[Texel (graphics)|GT]]/s),Size ([[Megabyte|MB]]),Bandwidth ([[Gigabyte|GB]]/s),Bus type,Bus width ([[bit]]),[[Single precision floating-point format|Single precision]],[[Direct3D]],[[OpenGL]],,
-Quadro FX 360M,G86M,80,PCIe 1.0 ×16,400,800,1200,16:8:4,1.6,3.2,256,9.6,DDR2,64,38.4,10.0,3.3,17,Based on the GeForce 8400M GS
-Quadro FX 560M,G73GLM,90,,500,500,,5:12:12:8,4,6,512,19.2,GDDR3,128,,9.0c,2.1,35?,7600GS based?
-Quadro FX 1600M,G84M,80,,625,1250,1600,32:16:8,5,10,,25.6,,,120,|10.0,|3.3,50?,
-Quadro FX 3600M,G92M,65,,500,,,64:32:1696:48:16,88,1624,,51.2,,256,240<br />360,,,70,Based on the GeForce 8800M GTX
+Quadro2 Go,NV11GLM?,,AGP 4×,143,,130360,2:0:4:2,0.286,0.592,3264,2.95.8,SDRDDR,128,,7.0,1.2,,"First mobile Quadro based on the GeForce2 Go, Dynamic core clock 100–143 MHz, dynamic voltage 1.575V, graphics core listed as 64-bit and 128-bit for DDR and SDR SDRAM types respectively according to Nvidia"
+Quadro4 500 Go GL,NV17 GLM,150," AGP 4×,8×",?,,?,2:0:4:2,0.44,0.88,64,7.0,DDR,,,7.0,|1.3,,Based on the GeForce4 Go, dynamic core clock 66–220 MHz, core voltage 1.35 V, uses DDR SDRAM according to Nvidia brochures<ref name="nvidia.com"/>
+Quadro4 700 Go GL,NV28 GLM,150,,176,,200,4:2:4:4,0.704,0.704,,7.4?,,128?,,8.1,,,Based on GeForce4 Go 4200, uses DDR according to Nvidia brochures
+Quadro FX Go 700,NV31 GLM,130,AGP 8×,295?,,590?,4:3:4:4,1.18,1.18,128,9.44?,,128,,|9.0,|2.1?,,Based on the Geforce FX Go (FX 56XX)
+Quadro FX Go 1000,NV36 GLM,120,,,,570?,,,,,9.12?,,,,,,,Seems to be an overclocked Quadro FX 700 Go.
+Quadro FX Go 1400,NV41 GLM,130,PCIe,275,,590,12:5:12:12?,2.20,2.2,256,18.9?,256,Last chip designated as a Quadro FX Go, uses PCIe instead of AGP 8×.  Core config has been mentioned as either 8:5:8:8 or 12:5:12:12 - the latter is likely since chip is derived from GeForce Go 6800.,,,,

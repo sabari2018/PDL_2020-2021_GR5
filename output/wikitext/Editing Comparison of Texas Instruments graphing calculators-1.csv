@@ -1,0 +1,32 @@
+[ Calculator
+ , CPU]]
+ , RAM]]
+ , Display Size
+, Physical Size (inches)
+ , CAS]]
+ , Year Released
+ , MSRP]] (nominal [[United States dollar, url=http://apcentral.collegeboard.com/apc/public/ap_coordinators/on_exam_day/232033.html, ACT]] Standardized Tests&lt;ref name=":2"&gt;{{Cite web],
+| [[Zilog Z80]] @ 6[[megahertz|MHz]],| 25[[kilobyte|KB]] of RAM 512KB of Flash [[Read only memory|ROM]],| 96×64 pixels br / 16×8 characters,| 7.3 × 3.5 × 1.0, {{no}},| 1998/2003,| 95 (TI-73),| {{yes|Allowed}},| {{yes|Allowed}},
+| 980[[kilohertz|kHz]] Proprietary,| 7KB of RAM,| 64×48 pixels br / 16×8 characters,| 6.4 × 3.0 × 0.9, {{no}},| 1995,| Unknown,| {{yes|Allowed}},| {{yes|Allowed}},
+| Zilog Z80 @ 2MHz,| 2.4KB of RAM,| 96×64 pixels br / 16×8 characters,| 6.75 x 3.125 x 1.0, {{no}},| 1990,| 110 ,| {{yes|Allowed}},| {{yes|Allowed}},
+| Zilog Z80 @ 6MHz,| 28KB of RAM,| 96×64 pixels br / 16×8 characters,| 6.9 × 3.4 × 1.0, {{no}},| 1993,| 125,| {{yes|Allowed}},| {{yes|Allowed}},
+| Zilog Z80 @ 6MHz,| 32KB of RAM,| 96×64 pixels br / 16×8 characters,| 7.3 × 3.5 × 1.0, {{no}},| 1996,| 125,| {{yes|Allowed}},| {{yes|Allowed}},
+| Zilog Z80 @ 6MHz,| 32KB of RAM (24KB user accessible) 512KB of Flash ROM (160KB user accessible),| 96×64 pixels br / 16×8 characters,| 7.3 × 3.5 × 1.0, {{no}},| 1999,| 104.99,| {{yes|Allowed}},| {{yes|Allowed}},
+| Zilog Z80 @ 6MHz/15MHz (Dual Speed),| 128KB of RAM (24KB user accessible) 2[[megabyte|MB]] of Flash ROM (1.5MB user accessible),| 96×64 pixels br / 16×8 characters,| 7.3 × 3.5 × 1.0, {{no}},| 2001,| 129.95 ,| {{yes|Allowed}},| {{yes|Allowed}},
+| [[Zilog eZ80]] @ 48MHz,| 256KB of RAM (150KB user accessible) 4MB of Flash ROM (3MB user accessible),| 320×240 pixels br / 26×10 characters (large font),| 7.6 × 3.4 × 0.75, {{no}},| 2015/2019,| {{Euro|129}},| {{yes|Allowed}},| {{yes|Allowed}},
+| Zilog Z80 @ 15MHz,| 128/48KB of RAM (24KB user accessible) 1MB of Flash ROM (480KB user accessible),| 96×64 pixels br / 16×8 characters,| 7.5 × 3.3 × 0.9, {{no}},| 2004,| 109.99,| {{yes|Allowed}},| {{yes|Allowed}},
+| Zilog Z80 @ 15MHz,| 128/48KB of RAM (24KB user accessible) 2MB of Flash ROM (1.5MB user accessible),| 96×64 pixels br / 16×8 characters,| 7.5 × 3.3 × 0.9, {{no}},| 2004,| 129.99,| {{yes|Allowed}},| {{yes|Allowed}},
+| Zilog Z80 @ 15MHz,| 128KB of RAM (21KB user accessible) 4MB of Flash ROM (3.5MB user accessible),| 320×240 pixels br / 26×10 characters (large font),| 7.5 × 3.3 × 0.9, {{no}},| 2013,| 150 ,| {{yes|Allowed}},| {{yes|Allowed}},
+| Zilog eZ80 @ 48MHz,| 256KB of RAM (154KB user accessible) 4MB of Flash ROM (3MB user accessible),| 320×240 pixels br / 26×10 characters (large font),| 7.6 × 3.4 × 0.75, {{no}},| 2015,| 150,| {{yes|Allowed}},| {{yes|Allowed}},
+| Zilog Z80 @ 6MHz,| 28KB of RAM,| 128×64 pixels br / 21×8 characters,| 6.875 x 3.31 x 0.938, {{no}},| 1992,| 130 ,| {{yes|Allowed}},| {{yes|Allowed}},
+| Zilog Z80 @ 6MHz,| 128[[kibibyte|KiB]] of RAM,| 128×64 pixels br / 21×8 characters,| 7.3 × 3.5 × 1.0, {{no}},| 1997,| 150,| {{yes|Allowed}},| {{yes|Allowed}},
+| [[Motorola 68000]] @ 10MHz/12MHz (nominal),| 256KiB of RAM (188KB user accessible) 2[[mibibyte|MiB]] of Flash ROM,| 160×100 pixels,| 7.3 × 3.5 × 1.0,|{{Yes}},| 1998,| 159.99 ,| {{yes|Allowed}},| {{no|Not Allowed}},
+| Motorola 68000 @ ≤16MHz,| 256KiB of RAM (188KB user accessible) 2.7MB of Flash ROM,| 160×100 pixels,| 7.5 × 3.3 × 0.9,|{{Yes}},| 2004,| 149.99,| {{yes|Allowed}},| {{no|Not Allowed}},
+| Motorola 68000 @ 10MHz,| 68KB of RAM/136KB of RAM,| 240×128 pixels,| Unknown,|{{Yes}},| 1995/1996,| 200 (TI-92) ,| {{no|Not Allowed}},| {{no|Not Allowed}},
+| Motorola 68000 @ 12MHz,| 256KB of RAM (188KB user accessible) 384KB of Flash ROM,| 240×128 pixels,| 4.7 × 8.2 × 1.5,|{{Yes}},| 1998,| 179.99 ,| {{no|Not Allowed}},| {{no|Not Allowed}},
+| Motorola 68000 @ 12MHz,| 256KB of RAM (188KB user accessible) 2.7MB of Flash ROM,| 240×128 pixels,| 4.6 × 7.3 × 1.2,|{{Yes}},| 2002,| 129.99,| {{no|Not Allowed}},| {{no|Not Allowed}},
+| [[ARM9]] @ 90MHz/120MHz,| 16MB RAM 20MB of Flash ROM,| 320×240 pixels (16-shade grayscale),| 7.90625 × 3.9375 × 0.96875,| {{sometimes|Only CAS model}},| 2007,| 149 (CAS: 159),| {{yes|Allowed}},| {{sometimes|Only non-CAS model is allowed}},
+| ARM9 @ 132MHz,| 64MB of RAM 100MB of Flash ROM,| 320×240 pixels (16-bit color),| 7.5625 × 3.59375 × 0.75,| {{sometimes|Only CAS model}},| 2011,| 154.99 (CAS: 162.99),| {{yes|Allowed}},| {{sometimes|Only non-CAS model is allowed}},
+| ARM9 @ 396MHz,| 64MB of RAM 100MB of Flash ROM,| 320×240 pixels (16-bit color),| 7.5625 × 3.59375 × 0.75,| {{sometimes|Only CAS model}},| 2019,| 165 (CAS: 175),| {{yes|Allowed}},| {{sometimes|Only non-CAS model is allowed}},
+ ! [[Central processing unit|CPU]], ! [[Random access memory|RAM]], ! Display Size,! Physical Size, ! Contains [[Computer algebra system|CAS]], ! Year Released,!Initial [[Suggested retail price|MSRP]] (nominal [[United States dollar|US$]])ref name=":0" /,!Use on,[[College Board]] Standardized Testsref name=":1" /,!Use on [[ACT (test)|ACT]] Standardized Testsref name=":2" /,
+,

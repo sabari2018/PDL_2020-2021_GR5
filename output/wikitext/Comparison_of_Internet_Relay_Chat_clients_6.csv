@@ -32,5 +32,3 @@ Smuxi,dunno,dunno,dunno,dunno,dunno,dunno,dunno,no,no,dunno,dunno,dunno,dunno,du
 Snak,yes,dunno,yes,yes,dunno,yes,dunno,no,no,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Visual IRC,dunno,yes,dunno,group=Notedcc,dunno,dunno,dunno,yes,no,dunno,dunno,dunno,yes,dunno,dunno,group=Notevoice
 WeeChat,yes,dunno,yes,dunno,dunno,dunno,dunno,No,no,dunno,dunno,dunno,dunno,dunno,yes,dunno
-XChat,yes,dunno,yes,yes,no,no,dunno,yes,yes,dunno,dunno,dunno,yes,dunno,Supported via scripts and pluginsname=DCCXChatAgroup=Note,dunno
-Client,CHAT,Whiteboard,SEND,RESUME,TSEND,SEND T,XMIT,Passive DCC,Server,RDCC,REVERSE,RSEND,Reverse / Firewall DCC,File servers (FSERVs),XDCC,VOICE

@@ -11,6 +11,7 @@ C++,Some (STL iostreams throw on failure but C APIs like stdio or POSIX do not)
 C#,yes
 COBOL,no
 Common Lisp," yes (""conditions and restarts"" system)"
+Curry,yes
 D,yes (throwing on failure)
 Eiffel,no – It actually depends on the library and it is not defined by the language
 Erlang,yes
@@ -36,7 +37,7 @@ PHP,yes
 Python,yes
 Raku,yes
 Rebol,yes
-Rexx,yes (with optional signal on ;hellip; trap handling)
+Rexx,yes (with optional signal on... trap handling)
 RPG,no
 Ruby,yes
 Rust,yes (unless result explicitly ignored)

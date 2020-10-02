@@ -39,6 +39,6 @@ Operating system,Limit on IA-32,Limit on x64
 7.bWindows 10 Home,4 GB,128 GB
 7.cWindows 10 Pro,4 GB,2048 GB2 TB
 7.dWindows 10 Education,4 GB,2048 GB2 TB
-7.eWindows 10 Enterprise,4 GB,2048 GB2 TB
+7.eWindows 10 Enterprise,4 GB,2048 GB6 TB
 8.yWindows Server 2016 Standard,n/a,24576 GB24 TB
 8.zWindows Server 2016 Datacenter,n/a,24576 GB24 TB

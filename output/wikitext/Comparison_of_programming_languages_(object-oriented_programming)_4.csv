@@ -1,5 +1,6 @@
 ,public,private,protected,friend
 ABAP Objects,public section. data field type type.,private section.
+APL (Dyalog),:Field Public field «← value»,:Field «Private» field «← value»,,
 C++ (STL),public: type field;,private: type field;,protected: type field;,
 C#,public type field «= value»;,private type field «= value»;,protected type field «= value»;,internal type field «= value»;
 D,,,,<code>package type field «= value»;</code>

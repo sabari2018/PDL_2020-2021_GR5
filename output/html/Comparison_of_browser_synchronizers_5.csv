@@ -4,3 +4,4 @@ Opera (web browser) Link,Yes[18],No,No,Yes,Yes,No,Yes (only webbased),
 Firefox Sync,Yes,Yes,Yes,No,No,No,No,Data is encrypted on the client and not accessible even to Mozilla Foundation server operators.Mozilla Foundation
 ,,,,,,,,
 Eversync,Yes,?,?,?,?,?,?,?
+floccus,Yes,Yes,self-hosted bookmarks,NextCloud,Yes,Yes,try recommended options on github,Adapters are available

@@ -33,3 +33,4 @@ ToUpperCase[string],Mathematica
 «FUNCTION» UPPER-CASE(string),COBOL
 string.toUpper,Cobra
 string toupper string,Tcl
+string.to_uppercase(),Rust

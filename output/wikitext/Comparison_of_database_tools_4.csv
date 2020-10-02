@@ -10,7 +10,7 @@ ModelRight,no,yes,yes,yes,yes
 ,MySQL Workbench,yes,yes,yes,yes,yes
 ,Oracle SQL Developer,yes,yes,yes,yes,dunno
 ,Orbada,no,no,no,no,no
-,pgAdmin III,yes,no,no,no,no
+,pgAdmin,yes,no,no,no,no
 ,phpMyAdmin,yes,yes,yes,no,no
 ,SQL Database Studio,yes,yes,yes,yes,no
 ,SQL Server Management Studio,dunno,yes,yes,dunno,dunno

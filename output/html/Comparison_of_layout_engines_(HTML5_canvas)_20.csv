@@ -10,7 +10,7 @@ ping,No,No,Disabled,Yes,No
 time,No,No,22.0[g 3],No,2.8.146
 mark,5.0[t 1],12,2.0[g 4],Yes[w 7],2.7.70
 " Ruby character,Ruby character rt, rp ",3.1[t 2],12,38.0[g 5],533[w 8][w 9],No
-dialog[20],No,No,No[g 6],Only in Chrome[w 10],No
+dialog[21],No,No,No[g 6],Only in Chrome[w 10],No
 figure,5.0[t 1],12,2.0[g 7],Yes[w 11],2.7.70
 figcaption,,,,,
 embed,<3.1[IE 3.0],12,1.7,85,1.0
@@ -19,7 +19,7 @@ HTML5 Audio,,,,,
 source,,,,,
 Canvas element,,Partial,1.9.2[g 9],Partial,2.0[p 4]
 Inline MathML,No,No,2.0,No[w 12][w 13],2.1[c]
-Inline SVG,5.0[t 3],12,,Yes[w 14],2.9.220[p 6]
+Inline Scalable Vector Graphics,5.0[t 3],12,,Yes[w 14],2.9.220[p 6]
 details,No,No,47[g 10],Yes[w 15],No
 summary,,,,Yes[w 15],
 command,,,No[g 11],No,

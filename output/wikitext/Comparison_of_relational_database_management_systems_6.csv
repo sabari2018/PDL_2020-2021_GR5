@@ -24,7 +24,7 @@ Microsoft Visual Foxpro,no,no,yes,yes,yes2,yes,no,no,no,dunno,dunno,no
 Microsoft SQL Server,Spatial Indexes,yes4,yes3,yes,on Computed columns3,Bitmap filter index for Star Join Query,no,no,yes,yes,dunno,no
 Microsoft SQL Server Compact (Embedded Database),no,no,no,no,no,no,no,no,no,dunno,dunno,no
 Mimer SQL,no,no,no,no,yes,no,no,no,yes,yes,no,no
-MonetDB,no,yes,no,no,no,yes,no,no,no,no,no,no
+MonetDB,no,yes,no,no,no,no,no,no,no,no,no,no
 MySQL,Spatial IndexesCitation,publisher   = Oracle,series      = MySQL,url         = https://dev.mysql.com/doc/refman/5.7/en/create-index.html#create-index-storage-engine-index-types,title       = Index Types Per Storage Engine,access-date = 24 September 2017
 ,"  MEMORY, Cluster (NDB), InnoDB,5 tables only",no,no,no,no,no,no,"  MyISAM tables and, since v5.6.4, InnoDB tables","  MyISAM tables and, since v5.7.5, InnoDB tables",dunno,no
 OpenLink Virtuoso,yes,Cluster,yes,yes,no,yes,no,no,yes,yes (Commercial only),no,no

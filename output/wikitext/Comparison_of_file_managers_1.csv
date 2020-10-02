@@ -2,7 +2,7 @@ Name,Creator,First public version(date),"   Latest stable version(date, number)"
 Altap Salamander,Altap,19970815,20190701 (4.0),free,proprietary
 Commander One,Eltima Software,20150804,2019 (2.3),US$29.95,proprietary
 CRAX Commander,Soft4U2,20130901,20180605 (1.11.1),US$19.99,proprietary
-Directory Opus," Jonathan Potter,GPSoftware",Windows: v6 (2001-06-18),20181219 (12.11),A$49 lite / A$89 pro,proprietary
+Directory Opus," Jonathan Potter,GPSoftware",Windows: v6 (2001-06-18),20200330 (12.20),A$49 lite / A$89 pro,proprietary
 Dired," integral part of Emacs,part of the GNU project",1974?,20090730 (7.17),free,GPL
 Documents by Readdle,Readdle,,,free,proprietary
 Dolphin,KDE,20060607 (0.5),Latest stable software release/KDE Applications,free,GPL
@@ -20,7 +20,7 @@ Files by Google,Google LLC,20171205df=yes,,Free,proprietary
 ,GeoManager," Berkeley Softworks, Breadbox Ensemble",1990,2009,Part of OS),proprietary
 Finder,Apple Inc.,198401,20150813 (10.10.5),Part of OS),proprietary
 fman,Michael Herrmann,20160718,20190422 (1.5.8),US$18,proprietary
-ForkLift,BinaryNights,20070601,20180410 (3.2.2),US$29.95,proprietary
+ForkLift,BinaryNights,20070601,20200826 (3.4.2),US$29.95,proprietary
 gentoo,Emil Brink,dunno,2012318 (0.19.13),free,GPL
 GNOME Commander,GNOME Commander,200109,20170528 (1.6.4),free,GPL
 GNOME Files,Eazel,20010411,Latest stable software release/GNOME,free,GPL
@@ -31,7 +31,7 @@ muCommander,Maxence Bernard,20020217,20181208 (0.9.3),free,GPL
 Nemo,Linux Mint,201207 (1.0.0)," December 11, 2018 (4.0.5)",Free,GPL
 Nomad.NET,Eugene Sichkar,20080814 (2.2.0.537 beta),20160613 (3.2.0.2890),free,proprietary
 Norton Commander,Symantec corporation,1986,19990201 (2.01 WindowsDOS: 1998-07-01 (5.51)),?,proprietary
-Path Finder,Cocoatech,200104,20140902 (7),US$39.95,proprietary
+Path Finder,Cocoatech,200104,20200324 (9.1),US$36.00,proprietary
 PathMinder,Albert Nurick andBrittain Fraley,1984,1988 (4.11),US$39.95,proprietary
 PCManFM,Hong Jen Yee,20060109,2016221 (1.2.4),free,GPL
 PC Shell,Central Point Software,1986,,paid,proprietary
@@ -39,8 +39,8 @@ ROX-Filer,Thomas Leonard et al.,Before 20000310,20111009 (2.11),free,GPL
 SpaceFM,IgnorantGuru,20120113 (0.5.0),2016120 (1.0.5),free,GPL
 STDU Explorer,STDUtility,20090323,20120524 (1.0.465),free,proprietary
 Tabbles,Yellow blue soft UAB,20090801,20160812 (3.1.29),US$29.95,proprietary
-Thunar,Xfce,20060122,20180606 (1.8.0),free,GPL
-Total Commander,Christian Ghisler,19930925 (1.00d),20190329 (9.22a)," CHF40, €37, US$42",proprietary
+Thunar,Xfce,20060122,date=September 2020(4.15.2),free,GPL
+Total Commander,Christian Ghisler,19930925 (1.00d),20200325 (9.51)," CHF40, €37, US$42",proprietary
 ViewMAX,Digital Research / Novell,1990 (1.0),1993 (3.0),Part of OS),GPL
 Volkov Commander,Vsevolod Volkov,circa 1992,Latest stable software release/Volkov Commander,shareware / freeware,proprietary
 WinSCP,WinSCP,20000930,Latest stable software release/WinSCP,free,GPL
@@ -50,5 +50,5 @@ Xfile,Rixstep,20030302,20070219 (1.8.0),US$79.00,proprietary
 Xfm," Simon Marlow, Albert Gräf, Till Straumann,Robert Vogelgesang, Juan D. Martin",1992,200109 (1.4.3),free,GPL
 xplorer²,Nikos Bozinis,20040610,20171213 (3.5.0.2)," pro US$29.95, ultimate: US$49.95",proprietary
 XTree,Jeffery C. Johnson,19850401,1992 (Xtree for Windows),US$39.95,proprietary
-XYplorer,Donald Lessau,1997,20181029 (19.30.0000),US$39.95,proprietary
+XYplorer,Donald Lessau,1997,20200213 (20.80.0100)," Standard License Pro US$39.95,Lifetime License Pro $79.95",proprietary
 ZTreeWin,Kim Henkel,1996,20120527 (2.1.19)20130526 (2.4.121 beta)20170531 (2.4.172 zeta),US$29.95 (1-4),proprietary

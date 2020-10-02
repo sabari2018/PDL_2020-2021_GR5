@@ -1,7 +1,7 @@
 Client (computing),Direct Client-to-Client,Direct Client-to-Client,Dcc send,Direct Client-to-Client,Direct Client-to-Client,Direct Client-to-Client,Direct Client-to-Client,Direct Client-to-Client,Direct Client-to-Client,Direct Client-to-Client,Direct Client-to-Client,Direct Client-to-Client,Direct Client-to-Client,Direct Client-to-Client,XDCC,Direct Client-to-Client
 Bersirc,?,?,?,?,?,?,?,No,No,?,?,?,?,?,?,?
 BitchX,Yes,No,Yes,Yes,Yes,Yes,?,No,No,?,?,?,?,?,Yes,?
-ChatZilla,Yes,No,Yes,No[65],?,?,No,No[Note 1],No,No,No,No,No,No,?,?
+ChatZilla,Yes,No,Yes,No[52],?,?,No,No[Note 1],No,No,No,No,No,No,?,?
 Colloquy (IRC client),Yes,?,Yes,Yes,?,?,?,Yes,No,?,?,?,?,?,Yes,?
 degesch,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
 DMDirc,Yes,No,Yes,Yes,?,?,No,Yes,No,No,No,No,Yes,No,No,?
@@ -32,5 +32,3 @@ Smuxi,?,?,?,?,?,?,?,No,No,?,?,?,?,?,?,?
 Snak,Yes,?,Yes,Yes,?,Yes,?,No,No,?,?,?,?,?,?,?
 Visual IRC,?,Yes,?,Yes[Note 4],?,?,?,Yes,No,?,?,?,Yes,?,?,Yes[Note 3]
 WeeChat,Yes,?,Yes,?,?,?,?,No,No,?,?,?,?,?,Yes,?
-XChat,Yes,?,Yes,Yes,No,No,?,Yes,Yes,?,?,?,Yes,?,Yes[Note 6],?
-Client,CHAT,Whiteboard,SEND,RESUME,TSEND,SEND T,XMIT,Passive DCC,Server,RDCC,REVERSE,RSEND,Reverse / Firewall DCC,File servers (FSERVs),XDCC,VOICE

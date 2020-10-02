@@ -1,9 +1,9 @@
 Names," Underlying theory (symbolic, connectionist, or hybrid)",Achievements,Estimated requirements,Non-laboratory usages,Activity status (active or dead + RSS news),Year of creation,Related publications," License (if applies, for example GPL) "
 4CAPS,?,?,?,?,?,?,?,
 ACT-R,hybrid [1],?,?,?,active,?," Anderson, 2007",
-ASMO (page does not exist),hybrid,Many robotic systems,?,IBM internet-of-things system,active,2009," Novianto, Johnston and Williams 2010",
+ASMO,hybrid,Many robotic systems,?,IBM internet-of-things system,active,2009," Novianto, Johnston and Williams 2010",
 CHREST,symbolic,?,?,?,active,1992 [2],?,
-CLARION (cognitive architecture),hybrid [1],?,?,?,active,?," Sun, 2002",
+CLARION (cognitive architecture),hybrid [1],Many psychological theories derived from it,?,?,active,1994," Sun, 2002, 2016",
 Copycat (software),?,?,?,?,?,?,?,
 Deeplearning4j,hybrid," online learning, anomaly detection, image recognition",?,?,active,Josh Patterson &amp; Adam Gibson (2017),Apache 2.0,
 DUAL (cognitive architecture),hybrid,?,?,?,?,?,?,

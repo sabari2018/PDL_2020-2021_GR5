@@ -15,7 +15,7 @@ PgAdmin III,Yes,No,No,No,No
 PhpMyAdmin,Yes,Yes,Yes,No,No
 SQL Database Studio,Yes,Yes,Yes,Yes,No
 SQL Server Management Studio,?,Yes,Yes,?,?
-SQLyog,Yes[18],Yes[19],Yes,Yes,?
+SQLyog,Yes[19],Yes[20],Yes,Yes,?
 SQuirreL SQL,Yes,Yes,Yes[note 3],?,No
 Toad (software),Yes,Yes,Yes,Yes,?
 Toad Data Modeler,No,Yes,Yes,Yes[note 4],?

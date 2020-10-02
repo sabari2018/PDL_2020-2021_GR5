@@ -5,7 +5,6 @@ OpenBSD,PF,yes,yes,no,yes,yes,yes,yes,yes,yes,yes
 NetBSD," NPF, PF",yes,yes,,yes,group=Notee1,yes,yes,yes,yes,yes
 DragonFly BSD,PF,yes,yes,no,yes,yes,yes,yes,yes,yes,
 " OpenSolaris, illumos",IPFilter,yes,yes,,yes,yes,yes,yes,group=Notee2,yes,yes
-AuroraUX,IPFilter,yes,yes,,yes,yes,yes,yes,,yes,yes
 " Darwin, OpenDarwin",IPFW,yes,yes,,,,yes,,,yes,
 MINIX,,yes,,,,,,,,yes,
 FreeDOS,,yes,,yes,yes,yes,yes,,,yes,

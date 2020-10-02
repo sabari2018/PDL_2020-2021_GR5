@@ -1,0 +1,29 @@
+[ Tank
+, Country
+, Year introduced
+, Production total
+, Crew
+, Armament &lt;br /&gt;number of rounds
+, Armour thickness &lt;br/&gt; (front/side/top)
+, Weight&lt;br /&gt;([[tonne]]s)
+, Engine
+, power/weight ratio
+, Speed (km/h)
+, Range    
+],
+| 75 ,| 5×MG [30080],| 27.4t ,
+| rowspan=2 | UK,| rowspan=2 | 1917,| 420 ,| rowspan=2 | 8,| 2×57mm/L23 [332] br /3×MG [6272],| rowspan=2 | 14/12/8mm,| 28.5t,| rowspan=2 | 125hp (93kW),| rowspan=2 | ,| rowspan=2 | 5.6km/h,| rowspan=2 | 56km ,
+| 595 ,| 5×MG [10000],| 27t ,
+| rowspan=2 | UK,| rowspan=2 | 1918,| 200 ,| rowspan=2 | 8,| 2×57mm/L23 [207] br /4×MG [5800],| rowspan=2 | 14/14/8mm,| 29.5t,| rowspan=4 | 150hp (112kW),| rowspan=4 | 5.1hp/t,| rowspan=2 | 7.5km/h,| rowspan=2 | 72km ,
+| 200 ,| 6×.303 MG [14100],| 28.5t ,
+| rowspan=2 | UK,| rowspan=2 | 1918,| 200 ,| rowspan=2 | 8+24 infantry,| 2×57mm/L23 [221] br /8×MG [8400],| rowspan=2 | 14/12/6mm,| 33t,| rowspan=2 | 4km/h,| rowspan=2 | 63km ,
+| 432 ,| 10×MG [16800],| 32t ,
+| UK,| 1918,| 200 ,| 3-4,| 4×.303 MG [5400],| 14/14/5mm,| 14t,| Petrol 2×45hp (34kW),| 6.4hp/t,| 13km/h,| 64km ,
+	,| rowspan=2 | France,	,| 1917,	,| rowspan=2 | 400 ,	,| rowspan=2 | 6,	,| rowspan=2 | 75mm/L13 [94–96] br /2× 7.92mm MG [3840],	,| 11.5/11.5/5.5mm,	,| 13.5t,	,| rowspan=2 | 60hp (45kW),	,| rowspan=2 | ,| rowspan=2 | 8km/h,	,| 48km ,
+	,| 24/17/5.5mm,	,| 14.6t,	,| 75km ,
+	,| rowspan=2 | France,	,| 1917,	,| 165 ,	,| rowspan=2 | 8,	,| 75mm/? [106–108] br /4× 7.92mm MG [7488],	,| 11.5/8.5/5.5mm,	,| 22t,	,| rowspan=2 | 90hp (67kW),	,| rowspan=2 | 4.1hp/t,	,| rowspan=2 | 12km/h,	,| rowspan=2 | 60km ,
+| [[St Chamond (tank)|Saint-Chamond]],	,| 1917,	,| 235 ,	,| 75mm/L36 [106–108] br /4× 7.92mm MG [7488],	,| 19.5/17/5.5mm,	,| 24t ,
+	,| rowspan=2 | France,	,| 1918,	,| rowspan=2 | 3694,| rowspan=2 | 2,	,| 7.92mm MG [4800],	,| rowspan=2 | 16/8/6mm,	,| 6.5t,	,| rowspan=2 | 35hp (26kW),	,| rowspan=2 | 10.7hp/t,	,| rowspan=2 | 20km/h,	,| rowspan=2 | 60km ,
+	,| 1918,	,| 37mm/L20 [240],	,| 6.7t ,
+| Germany,	,| 1918,	,| 20 ,	,| 18,	,| 57mm/L26 [180] br /6×MG [10000–15000],| 30/20/10mm,,| 32t,	,| 2×100hp (75kW),	,| 6.25hp/t,	,| 15km/h,	,| 80km ,
+,

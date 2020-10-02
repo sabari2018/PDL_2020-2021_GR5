@@ -23,7 +23,7 @@ Majestic Media Server,Prop.,nonfree,Yes,No,No,Yes,Yes,Yes,Yes,No,unknown,unknown
 MediaMonkey,Prop.,nonfree,No,No,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Delphi,Yes,Yes,
 MediaTomb,GPL,Free,Partial,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,unknown,C++,unknown,No,
 Gerbera,GPL,Free,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,unknown,C++,unknown,Yes,Based on MediaTomb
-ReadyMedia (formerly MiniDLNA),GPL/BSD,Free,Partial,Yes,Yes,Yes,Yes,Yes,Partial,Partial,Yes,unknown,C,Yes,unknown,
+ReadyMedia (formerly MiniDLNA),GPL/BSD,Free,Partial,Yes,Yes,Yes,Yes,Yes,Partial,Partial,Yes,unknown,C,Yes,Yes,
 Mezzmo,Prop.,Free,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,C++,Yes,Yes,
 myiHome,Prop.,Free,Yes,Yes,Yes,Yes,Yes,Yes,No,No,unknown,unknown,Java,unknown,unknown,
 MythTV with uPnP,GPL,Free,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,unknown,unknown,C++,unknown,unknown,

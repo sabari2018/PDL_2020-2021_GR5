@@ -1,16 +1,16 @@
 Implementation,TPM support,Hardware token support,Objects identified via
 Botan,partial,PKCS11,
 cryptlib,no,PKCS11,User-defined label
-GnuTLS,yes,PKCS11,RFC7512 PKCS #11 URLs
+GnuTLS,yes,PKCS11,RFC 7512 PKCS #11 URLs
 JSSE,no," PKCS11 Java Cryptography Architecture,Java Cryptography Extension",
 LibreSSL,yes,PKCS11 (via 3rd party module),Custom method
 MatrixSSL,no,PKCS11,
-mbed TLS,no,PKCS11 (via libpkcs11-helper) or standard hooks,Custom method
+Mbed TLS,no,PKCS11 (via libpkcs11-helper) or standard hooks,Custom method
 NSS,no,PKCS11,
-OpenSSL,yes,PKCS11 (via 3rd party module),RFC7512 PKCS #11 URLs
+OpenSSL,yes,PKCS11 (via 3rd party module),RFC 7512 PKCS #11 URLs
 RSA BSAFE Micro-Edition Suite,no,PKCS11 (via 3rd party module),User-defined label
 RSA BSAFE SSL-J,no,no,
 SChannel,no,Microsoft CryptoAPI," UUID, User-defined label"
-[https://developer.apple.com/library/mac/documentation/Security/Reference/secureTransportRef/index.html Secure Transport],,,
-wolfSSL,no,no,
+Secure Transport,,,
+wolfSSL,yes,PKCS11,
 Implementation,TPM support,Hardware token support,Objects identified via

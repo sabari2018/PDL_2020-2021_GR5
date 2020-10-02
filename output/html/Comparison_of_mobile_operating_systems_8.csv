@@ -1,11 +1,11 @@
-Feature,Android (operating system),IOS,Windows 10 Mobile,BlackBerry 10,Tizen,Sailfish OS,Ubuntu Touch
-Non-English languages support,Partial[297],Yes[298][299][300],Yes,Yes,Limited (Search is not diacritical mark-insensitive),Yes,Yes
-Underlining Spell checker,2.3+[301][302],Yes[303],Yes[304],Yes,No,?,No
-Built-in system-wide dictionary,Built into keyboard app. Available on every device.[305],5+[306],Yes[307],Yes,No,Yes,Yes
-Autoexpanding text replacements,Yes,5+[308],Yes[307],Yes[309],?,?,?
-Keyboard next word prediction," No,[310] 3rd party software[311]",8+[312],Yes[313],Yes,No,Yes,Yes
-Keyboard cursor controller,Google Keyboard;[314];[315],12+;3D Touch 9-11: Only on devices with 3D Touch;3D Touch,Yes[318],No,No,No,Yes
-Optical character recognition input method,No[319],11+: Notes (software) app;Notes (software) 8+: Only for inputting credit card detailsNotes (software),No,No,No,No,No
-Third party Input method,Yes[322],8+,No," No, only for Android apps through sideload of Android keyboard[323]",?,?,?
-Gesture text input,4+[324],13+;SwiftKey 8+: 3rd party software like SwiftKey,8.1+[326],Yes,?,No[327],No
-Emoji support,4.4+[328],Yes[329],Yes[330],10.2+[331],?,3rd party software,Yes
+Feature,Android (operating system),IOS,Tizen,Sailfish OS,Ubuntu Touch
+Non-English languages support,Partial[202],Yes[203][204][205],Limited (Search is not diacritical mark-insensitive),Yes,Yes
+Underlining Spell checker,2.3+[206][207],Yes[208],No,?,No
+Built-in system-wide dictionary,Built into keyboard app. Available on every device.[209],5+[210],No,Yes,Yes
+Autoexpanding text replacements,Yes,5+[211],?,?,?
+Keyboard next word prediction," No,[212] 3rd party software[213]",8+[214],No,Yes,Yes
+Keyboard cursor controller,Google Keyboard;[215];[216],12+;3D Touch 9-11: Only on devices with 3D Touch;3D Touch,No,No,Yes
+Optical character recognition input method,No[219],11+: Notes (software) app;Notes (software) 8+: Only for inputting credit card detailsNotes (software),No,No,No
+Third party Input method,Yes[222],8+,?,?,?
+Gesture text input,4+[223],13+;SwiftKey 8+: 3rd party software like SwiftKey,?,No[225],No
+Emoji support,4.4+[226],Yes[227],?,2.2.0+[228] 3rd party software[229],Yes

@@ -1,7 +1,7 @@
 ,user manager,Plug-in (computing),Compare,Import,Export,Debugger,Source control,Spatial Visualization
 Adminer,Yes,Yes,Yes," SQL script, CSV, Tab Separated Values (as a plugin); imports of server-site file in SQL or SQL in zip, Tab Separated Values or Tab Separated Values "," SQL script, CSV, Tab Separated Values, Tab Separated Values, Tab Separated Values; XML (as a plugin) ",No,Git (software)
 DatabaseSpy,No,No,Yes," CSV, XML "," XML, XML Structure, CSV, HTML, MS Excel ",No,?
-DaDaBIK,Some[15],No,No,No,Comma-separated values,Yes,No
+DaDaBIK,Some[16],No,No,No,Comma-separated values,Yes,No
 Database Workbench,Yes,No,Yes,Yes,Yes,Yes,?
 DataGrip,No,Yes,Yes,Yes," Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file, Text file ",No,Yes
 DBeaver,Yes,Yes,Yes,Yes,Yes,No,With Eclipse (software) plugins
@@ -17,7 +17,7 @@ PgAdmin III,Yes,Yes,No," Comma-separated values, Comma-separated values, or bina
 PhpMyAdmin,Yes,Some,Yes," Yes - Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values "," Yes - Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values, Comma-separated values ",Yes,Git (software)
 SQL Database Studio,Yes,Yes,No," Comma-separated values, Comma-separated values, Comma-separated values "," Comma-separated values, Comma-separated values, Comma-separated values, SQL INSERTS, Tab-separated, Comma-separated values ",No,No
 SQLyog,Yes,?,Yes,Yes,Yes,?,?
-SQL Server Management Studio,Yes,Yes,?,Yes,Yes,Yes,Yes[17],Yes
+SQL Server Management Studio,Yes,Yes,?,Yes,Yes,Yes,Yes[18],Yes
 SQuirreL SQL,?,Yes,Yes,Yes,?,No,?
 Toad (software),Some,No,Yes,Yes,Yes,Yes," Subversion (software), Subversion (software), Subversion (software), Subversion (software) "
 Toad Data Modeler,No,?,Yes," Toad for Oracle ERD, ERWin 7.1(XML) via plugin "," SQL; meta data in XML; report in HTML/RTF/CSV; diagram as BMP, JPEG, PNG ",No,?

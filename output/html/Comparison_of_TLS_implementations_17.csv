@@ -10,7 +10,7 @@ Network Security Services,No,No,No,No,No
 OpenSSL,Yes,Yes,No,No,Yes
 RSA BSAFE,No,No,No,No,No
 SChannel,No,No,Yes,No,No
-Secure Transport,No,No,No,Yes,No
+MacOS,No,No,No,Yes,No
 WolfSSL,Yes,Yes,Partial,No,No
 Erlang (programming language)/OTP SSL application,No,No,No,No,Yes
 Implementation,/dev/crypto,af_alg,Windows CSP,CommonCrypto,OpenSSL engine

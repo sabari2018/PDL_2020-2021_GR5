@@ -10,7 +10,6 @@ Elm,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunn
 eM Client,Proprietary (sqlite),yes,yes,yes,yes,yes,no,yes,yes,yes,no,no,yes,yes,no,yes
 EmailTray,Proprietary,yes,yes,no,yes,yes,no,yes,no,no,no,no,yes,yes,dunno,dunno
 Eudora,modified mbox,no,yes,no,no,yes,yes,yes,yes,yes,yes,date=January 2007,yes,yes,yes,dunno
-Eureka Email,Proprietary,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Evolution,MH,no,yes,no,no,yes,yes,yes,partial,group=NoteKeybindings,yes,yes,yes,yes,yes,yes
 Gnus," babyl, maildir, mbox, MMDF, news, rnews, SOUP, outlook, oe-dbx",no,yes,no,no,dunno,dunno,dunno,yes,yes,yes,yes,group=Notename=GnusNNIRVia nnir backends such as Notmuch,yes,yes,dunno
 GroupWise,Proprietary,yes,yes,yes,dunno,yes,yes,yes,yes,dunno,dunno,dunno,yes,yes,yes,no
@@ -20,7 +19,7 @@ KMail," mbox, maildir",no,yes,no,dunno,dunno,dunno,dunno,yes,yes,no,yes,dunno,ye
 Mailbird,Proprietary,no,Yes,no,yes,yes,yes,yes,yes,yes,No,yes,Partial,Yes,Yes,Yes
 Mailpile,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Microsoft Entourage,Proprietary (Personal Storage Table),dunno,Yes,group=Noteeragebackups,dunno,dunno,dunno,dunno,Partial,No,No,group=Noteeragedbgrepsearch,Yes,Yes,Yes,Yes
-Microsoft Office Outlook,Proprietary (Personal Storage Table),Yes,yes,yes,dunno,yes,yes,yes,yes,Yes,dunno,dunno,group=NoteMSO,yes,yes,yes
+Microsoft Office Outlook,Proprietary (Personal Storage Table),Yes,yes,yes,dunno,yes,yes,yes,yes,Yes,dunno,dunno,group=NoteMSO,yes,dunno,yes
 Mozilla Mail  ; Newsgroups,mbox,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Mozilla Thunderbird," mbox, maildir",no,yes,dunno,dunno,yes,yes,yes,group=NoteTBThemes,dunno,no,dunno,yes (as of 3.0),yes,yes,yes
 Mulberry,group=NoteMulberryMBox,group=NoteMulberryDB,group=NoteMulberryDB,group=NoteMulberryDB,dunno,dunno,dunno,dunno,yes,dunno,dunno,date=January 2007,group=NoteMulberryDB,no,yes,no

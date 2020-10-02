@@ -5,7 +5,7 @@ Digital audio editor,Creator / developer,Software license,Microsoft Windows,MacO
 ,Audition,Adobe Systems,proprietary,Yes,Yes,No,No,,,
 ,Bitwig Studio,Bitwig,proprietary,Yes,Yes,Yes,No,,,
 ,Cakewalk by BandLab,BandLab Technologies,proprietary (Freeware),Yes,No,No,No,,,
-,Cubase,Steinberg,proprietary,Yes,Yes,No,Yes,,,Requires hardware dongle
+,Cubase,Steinberg,proprietary,Yes,Yes,No,Yes,Yes,,Requires hardware dongle
 ,Digital Performer,Mark of the Unicorn,proprietary,Yes,Yes,No,No,,,
 ,FL Studio,Image-Line,proprietary,Yes,Yes,No,Yes,Yes,,
 ,GarageBand,Apple,proprietary,No,Yes,No,Yes,,,
@@ -24,7 +24,7 @@ Nuendo,Steinberg,proprietary,Yes,Yes,No,No,,,
 ,Podium,Zynewave,proprietary / Freemium,Yes,No,No,No,,,
 ,Pro Tools,Avid,proprietary,Yes,Yes,No,No,,MediaNet (proprietary),Yes
 ,Qtractor,Qtractor,GNU GPL,No,No,Yes,No,,NFS,
-,REAPER,Cockos,proprietary,Yes,Yes,Yes (pre-beta),Yes,,,
+,REAPER,Cockos,proprietary,Yes,Yes,Yes (pre-beta),No,,,
 ,Reason,Propellerhead Software,proprietary,Yes,Yes,No,No,,,
 ,Record,Propellerhead Software,proprietary,Yes,Yes,No,No,,,
 ,Renoise,Renoise Team,proprietary,Yes,Yes,Yes,No,,,
@@ -33,4 +33,4 @@ Nuendo,Steinberg,proprietary,Yes,Yes,No,No,,,
 Soundscape 32,Mackie,proprietary,Yes,No,No,No,,,External 2U rack unit
 ,Studio One,PreSonus,proprietary,Yes,Yes,No,No,,SoundCloud,
 ,Tracktion,Tracktion Software Inc,proprietary,Yes,Yes,Yes,No,,,
-,Digital audio editor,Creator / developer,Software license,Microsoft Windows,MacOS,Linux,iOS,,Network storage,External hardware
+,Digital audio editor,Creator / developer,Software license,Microsoft Windows,MacOS,Linux,iOS,Android,Network storage,External hardware

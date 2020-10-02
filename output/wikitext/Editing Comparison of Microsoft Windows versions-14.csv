@@ -1,0 +1,16 @@
+[ Name&lt;, -- Windows --&gt;
+, Release date
+, Latest version
+, Status support
+, Codename
+, OS]] required
+, Architecture&lt;, -- Target system type --&gt;
+, Editions
+, Target market
+],
+| 1985-11-20,| 1.04 (1987-04-08),| Unsupportedbr(2001-12-31),| Interface Manager,| DOS 2.0 or higher,| [[16-bit]],|,| [[Desktop computer|Desktops]],
+| 1987-09-08,| 2.03 (1987-12-09),| Unsupportedbr(2001-12-31),|,| DOS 3.0 or higher,| 16-bit,|,| Desktops,
+| 1988-05-27,| 2.11 (1989-03-13),| Unsupportedbr(2001-12-31),|,| DOS 3.0 or higher,| 16-bit,|,| Desktops,
+| 1990-05-22,| 3.0a withbr/Multimedia Extensionsbr/(1991-10-20),| Unsupportedbr(2001-12-31),|,| DOS 3.1 or higher,| 16-bit,| Windows 3.0br/Windows 3.0abr/Windows 3.0a with Multimedia Extensions,| Desktops,
+| 1992-04-06,| 3.11 (1993-12-31),| Unsupportedbr(2001-12-31),|,*3.1 for Workgroups: Kato,*3.11: Snowball (LB),*3.11 for Workgroups: Sparta,| DOS 3.3 or higher,| 16-bit{{Asterisk}} ,| Windows 3.1br/Windows for Workgroups 3.1br/Windows 3.11br/Windows for Workgroups 3.11br/Windows 3.2 ([[Simplified Chinese]] only),| Desktops,
+,

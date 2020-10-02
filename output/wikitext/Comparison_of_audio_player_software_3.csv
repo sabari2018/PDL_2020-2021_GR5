@@ -20,6 +20,7 @@ musikCube,no,no,no,yes,no,name=plugin,dunno,yes
 Quod Libet,no,no,no,yes,yes,no,yes,yes
 Rhapsody,no,no,no,yes,dunno,no,dunno,dunno
 Rhythmbox,no,no,no,yes,yes,yes,yes,yes
+Sayonara Player,no,dunno,no (Dark Mode available),yes,yes,yes,no,yes
 Sonique,name=plugin,no,yes,no,no,yes,dunno,no
 Spotify,yes,dunno,no,no,yes,no,yes (via app),no
 Winamp,yes,yes,yes,yes,yes,yes,yes,yes

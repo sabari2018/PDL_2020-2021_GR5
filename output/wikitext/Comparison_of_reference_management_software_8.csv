@@ -1,30 +1,30 @@
-Software,ArXiv,CiteSeer,IEEE Xplore,PubMed,Other
-Bebop,no,no,no,no,no
-BibBase,no,no,no,no," DBLP, Zotero, BibSonomy, Mendeley"
-BibDesk,yes,yes,no,yes," ACM portal, Jstor, DBLP, Google Scholar, Web of Science, any Z39.50 or Entrez, and others"
-Biblioscape,no,no,no,yes,Import from integrated web browser
-BibSonomy,yes,yes,yes,yes,various
-Bibus,no,no,no,yes,none
-Bookends,yes,no,no,yes," Web of Science, Amazon, Google Scholar, Z39.50"
-Citavi,yes,yes,yes,yes," OCLC, Ovid, SRU. Further catalogs are added upon [https://www.citavi.com/databases request]. Browser plugins (Firefox, Chrome, Internet Explorer) support DOI lookup, ISBN lookup, PubMed ID lookup, PMCID lookup, arXiv ID lookup, COinS and import from Wikipedia."
-CiteULike,yes,yes,yes,yes,various [http://www.citeulike.org/post]
-colwiz,yes,yes,yes,yes," Over 30 repositories, Import from integrated web browser"
-EndNote,yes,no,yes,yes,various any Z39.50
-F1000Workspace,yes,yes,yes,yes," Google scholar, Google Books, Amazon, Web of Science/Web of Knowledge, WorldCat/OCLC, Science Direct, JSTOR, Highwire, PMC Europe, ACMDigitalLibrary, Scopus, Wiley,  NIHLibrary, voyager, PrimoLibweb, PubMedID/DOI/ISBN lookup and the majority of journal websites."
-JabRef,yes,yes,yes,yes,"   DOI, GVK, SAO/NASA Astrophysics Data System, Springer, and zbMATH"
-KBibTeX,yes,yes,yes,yes," CSB, Z MATH, Z39.50"
-Mendeley,yes,yes,yes,yes,various [http://www.mendeley.com/import/]
-Paperpile,yes,no,no,yes,Google Scholar
-Pybliographer,no,no,no,yes,none
-Qiqqa,yes,no,yes,yes," GoogleScholar, JSTOR"
-ReadCube  (now Papers),Yesalign=style=color=,no,yes,yes," Microsoft Academic, Google Scholar"
-refbase,yes,no,no,yes,DOI lookup
-RefDB,yes,no,no,yes,any Z39.50
-Reference Manager,no,no,no,yes,various
-Referencer,dunno,dunno,dunno,dunno,dunno
-RefWorks,no,no,no,yes,various
-SciRef,no,no,no,no,no
-Sente,yes,yes,yes,yes," Z39.50, SRU, Web of Knowledge"
-Wikindx,no,no,no,yes,via plug-ins
-WizFolio,yes,no,yes,yes,various
-Zotero,yes,yes,yes,yes,various
+Software,ArXiv,CiteSeer,IEEE Xplore,PubMed,Unpaywall,Other
+Bebop,no,no,no,no,no,no
+BibBase,no,no,no,no,no," DBLP, Zotero, BibSonomy, Mendeley"
+BibDesk,yes,yes,no,yes,no," ACM portal, Jstor, DBLP, Google Scholar, Web of Science, any Z39.50 or Entrez, and others"
+Biblioscape,no,no,no,yes,no,Import from integrated web browser
+BibSonomy,yes,yes,yes,yes,no,various
+Bibus,no,no,no,yes,no,none
+Bookends,yes,no,no,yes,no," Web of Science, Amazon, Google Scholar, Z39.50"
+Citavi,yes,yes,yes,yes,no," OCLC, Ovid, SRU. Further catalogs are added upon [https://www.citavi.com/databases request]. Browser plugins (Firefox, Chrome, Internet Explorer) support DOI lookup, ISBN lookup, PubMed ID lookup, PMCID lookup, arXiv ID lookup, COinS and import from Wikipedia."
+CiteULike,yes,yes,yes,yes,no,various [http://www.citeulike.org/post]
+colwiz,yes,yes,yes,yes,no," Over 30 repositories, Import from integrated web browser"
+EndNote,yes,no,yes,yes,no,various any Z39.50
+JabRef,yes,yes,yes,yes,yes," DOI, GVK, SAO/NASA Astrophysics Data System, Springer, and zbMATH"
+KBibTeX,yes,yes,yes,yes,no," CSB, Z MATH, Z39.50"
+Mendeley,yes,yes,yes,yes,no,various [http://www.mendeley.com/import/]
+Paperpile,yes,no,no,yes,no,Google Scholar
+Pybliographer,no,no,no,yes,no,none
+Qiqqa,yes,no,yes,yes,no," GoogleScholar, JSTOR"
+ReadCube (now Papers),Yesalign=style=color=,no,yes,yes,no," Microsoft Academic, Google Scholar"
+refbase,yes,no,no,yes,no,DOI lookup
+RefDB,yes,no,no,yes,no,any Z39.50
+Reference Manager,no,no,no,yes,no,various
+Referencer,dunno,dunno,dunno,dunno,no,dunno
+RefME,dunno,dunno,dunno,dunno,dunno,dunno
+RefWorks,no,no,no,yes,no,various
+SciRef,no,no,no,no,no,no
+Sente,yes,yes,yes,yes,no," Z39.50, SRU, Web of Knowledge"
+Wikindx,no,no,no,yes,no,via plug-ins
+WizFolio,yes,no,yes,yes,no,various
+Zotero,yes,yes,yes,yes,yes,various

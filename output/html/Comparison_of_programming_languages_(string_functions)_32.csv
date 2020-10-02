@@ -18,8 +18,9 @@ string  reverse,Smalltalk
 StringReverse[ string ],Mathematica
 reverse( string ),PL/I
 «FUNCTION» REVERSE( string ),COBOL
-string .toCharArray.toList.reversed.join( ),Cobra (programming language)
+string .toCharArray.toList.reversed.join(),Cobra (programming language)
 String( string .characters.reverse()),Swift (programming language) (2.x)
 String(reverse( string )),Swift (programming language) (1.2)
 string reverse  string,Tcl
 ⌽ string,APL (programming language)
+string .chars().rev().collect::<String>(),Rust (programming language)Rust (programming language)

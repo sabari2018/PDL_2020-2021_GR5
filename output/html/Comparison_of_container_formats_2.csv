@@ -23,6 +23,6 @@ AV1,Lossy compression or Lossy compression,No,No,No,No,No,No,No,Software release
 Multiview Video Coding,Stereoscopic video coding,Yes,No,No,No,No,No,No,Yes[12],No,No,Yes,No[VII][VIII],No,No,No,No,No
 Huffyuv,Lossless compression,No,No,Needs HuffyuvHuffyuv,No,No,No,No,Video Compression Manager,No,No,No,No,No,No,No,No,No
 YCbCrYCbCr,Uncompressed video,No,Yes,Yes,No,No,No,No,Yes,No,No,SheerVideo,Yes[56],Software release life cycleSoftware release life cycle,Yes,No,No,No
-Other,Other,—,—,—,—,—,Screen Video,—,—," JPEG 2000, TICO ",—,—,—," Multiple-image Network Graphics, Multiple-image Network Graphics, Multiple-image Network GraphicsMultiple-image Network Graphics "," DVC Pro 50, Photo JPEG, Graphics, Quicktime Animation ",—,—,—
+Other,Other,—,—,—,—,—,Screen Video,—,—," JPEG 2000, TICO ",—,—,—," Multiple-image Network Graphics, Multiple-image Network Graphics, Multiple-image Network GraphicsMultiple-image Network Graphics "," DVC Pro 50, Photo JPEG, Graphics, QuickTime Animation, QuickTime Animation ",—,—,—
 Obsolete,Other,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
 Format,Type,3GP and 3G2,Advanced Systems FormatAdvanced Systems Format,Audio Video InterleaveAudio Video Interleave,DivX Media Format,Enhanced VOB,Flash VideoFlash Video,Flash Video,Matroska," MPEG program stream, MPEG program streamMPEG program stream ",.m2ts,MPEG-4 Part 14MPEG-4 Part 14,Material eXchange Format,OggOgg,QuickTime File FormatQuickTime File Format,RMVB,VOB,WebMWebM

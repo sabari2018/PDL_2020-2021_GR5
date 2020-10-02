@@ -1,22 +1,21 @@
 Client,Author/Developer,Operating system,Software license,User Interface
 Alpine (email client),University of Washington,Cross-platform,Apache License 2.0,Text user interface
 Apple Mail,Apple Inc," MacOS, MacOS, MacOS ",Proprietary software,Graphical user interface (Graphical user interface)
-Balsa (email client),Stuart Parmenter,Linux,GNU General Public License,Graphical user interface (Graphical user interface)
+Balsa (email client),Stuart Parmenter,Linux,GNU General Public License,Graphical user interface (Graphical user interface3)
 Becky!,Rimarts,Microsoft Windows,Proprietary software,Graphical user interface
 BlitzMail,Dartmouth College,,BSD licenses,GUI
 Citadel/UX,citadel.org,Unix-like,GNU General Public License,Webmail
-Claws Mail,the Claws Mail team,Cross-platform,GNU General Public License,Graphical user interface (Graphical user interface)
+Claws Mail,the Claws Mail team,Cross-platform,GNU General Public License,Graphical user interface (Graphical user interface2)
 Cone (software),Courier Mail Server developers,Unix-like,GNU General Public License,Text-based user interface
 Courier (email client) (formerly Calypso)," Micro Computer Systems, Inc., continued by Rose City Software ",Windows,Proprietary software,GUI
-Elm (email client)," Dave D. Taylor, Sydney Weinstein, Bill Pemberton, Michael Elkins, Kari Hurtta ",Unix-like,Free[1],TUI
-EM Client,eM Client Inc.,Windows,Proprietary software,GUI
+Elm (email client)," Dave Taylor, Sydney Weinstein, Bill Pemberton, Michael Elkins, Kari Hurtta ",Unix-like,Free[1],TUI
+EM Client,eM Client Inc.," Windows, Windows  ",Proprietary software,GUI
 EmailTray,Internet Promotion Agency S.A.," Windows, Windows ",Proprietary software,GUI
 Eudora OSE,Qualcomm," Windows, MacOS ",Free,GUI
-Eureka Email,Sean O'Connor,Windows,Proprietary software,GUI
-Evolution (software),The GNOME Project,Unix-like,GNU General Public License,GUI (GTK+)
+Evolution (software),The GNOME Project,Unix-like,GNU General Public License,GUI (GTK)
 FirstClass,Open Text,,Proprietary software,GUI
 Forté Agent,Mark Sidell,Windows,Proprietary software,GUI
-Geary (software),Yorba Foundation,Unix-like,GNU Lesser General Public License v2.1,GUI (GTK+)
+Geary (software),Yorba Foundation,Unix-like,GNU Lesser General Public License v2.1,GUI (GTK)
 GNUMail,Ludovic Marcotte and others," Unix-like, macOS ",GNU General Public License,GUI
 Gnus,Gnus team,Cross-platform,GNU General Public License,TUI and GUI
 GroupWise,Micro Focus (formerly Micro Focus),Cross-platform,Proprietary software,GUI
@@ -26,6 +25,7 @@ IBM Notes (formerly IBM Lotus Notes)," IBM Collaboration Solutions (formerly Lot
 Internet Messaging Program,Horde LLC,Cross-platform,GNU General Public License,Webmail
 K-9 Mail," K-9 Dog Walkers: cketti, et al. ",Android,Apache License 2.0,GUI
 KMail,KDE,Cross-platform,GNU General Public License,GUI (Qt (software))
+Mail (Windows),Microsoft,Windows,Proprietary software,GUI
 Mailbird,Mailbird,Windows,Proprietary software,GUI
 Mailpile,Mailpile," Linux, Windows, macOS ",Affero General Public License and Affero General Public License,Webmail
 Mailx,?,Unix-like,BSD Licenses,TUI
@@ -49,12 +49,12 @@ SeaMonkey Mail &amp; Newsgroups,SeaMonkey Council,Cross-platform,Mozilla Public 
 Spark (application),Readdle,macOS,Proprietary software,GUI
 Spicebird,Synovel," Windows, Linux, BSD ",Mozilla Public License,GUI (XUL)
 SquirrelMail,The SquirrelMail Project Team,Cross-platform,GNU General Public License,Webmail
-Sylpheed,Hiroyuki Yamamoto,Cross-platform,GNU General Public License,GUI (GTK+)
+Sylpheed,Hiroyuki Yamamoto,Cross-platform,GNU General Public License,GUI (GTK2)
 The Bat!,RitLabs,Windows,Proprietary software,GUI
 Trojitá,KDE,Cross-platform,GNU General Public License,GUI (Qt (software))
 Turnpike (software),Demon Internet,Windows,Proprietary software,GUI
 Windows Live Mail,Microsoft,Windows,Proprietary software,GUI
-Windows Mail,Microsoft,Windows,Proprietary software,GUI
+Windows Mail (Vista),Microsoft,Windows,Proprietary software,GUI
 YAM (Yet Another Mailer),YAM Open Source Team and contributing authors,AmigaOS,GNU General Public License,GUI
 Zimbra,Zimbra,Cross-platform,Mozilla Public License for server and Mozilla Public License for client,GUI
 Client,Author/Developer,Operating system,Software license,User interface

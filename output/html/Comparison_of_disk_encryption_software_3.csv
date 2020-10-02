@@ -1,7 +1,7 @@
 Name,Hidden containers,Pre-boot authentication,Single sign-on,Custom authentication,Multiple keys,Passphrase strengthening,Hardware acceleration,TPM,Filesystems,Two-factor authentication
 Aloaha Secure Stick,Yes,No,N/A,Yes,Yes,No,No,No," NTFS, FAT32 ",Yes
 ArchiCrypt Live,Yes[61],No,N/A,No,Yes[61][62],No,No,No,?,Yes[61][63]
-BestCrypt,Yes,Yes,?,No,Yes[64],Yes,Yes,Yes,Any supported by OS,Yes[65]
+BestCrypt,Yes,Yes,?,Yes,Yes[64],Yes,Yes,Yes,Any supported by OS,Yes[65]
 BitArmor DataControl,No,Yes,?,No,Yes,Yes,No,No," NTFS, FAT32 on non-system volumes ",No
 BitLocker,No,Yes[66],No,Yes[67],Yes[68],Yes[69],Yes,Yes[68],Chiefly NTFS [Note 1],Yes [Note 2]
 Bloombase Keyparc,No,No,N/A,Yes,Yes,Yes,Yes,No,?,?
@@ -19,7 +19,7 @@ Cryptomator,No,No,N/A,No,No,Yes,Yes,No,Any supported by OS,No
 CryptoPro Secure Disk Enterprise,Yes with add-on Secure Device,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Any supported by OS,Yes
 CryptoPro Secure Disk for BitLocker,Yes with add-on Secure Device,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Any supported by OS,Yes
 Cryptsetup / Cryptsetup,No,Yes[78],?,Yes,No,No,Yes,No,Any supported by OS,Yes
-DiskCryptor,No,Yes,?,No,No,No,Yes[79],No,Only Windows MBR volumes; no UEFI GPT drives,Yes[79]
+DiskCryptor,No,Yes,?,No,No,No,Yes[79],No," Only Windows MBR volumes; no UEFI GPT drives, ReFs ",Yes[79]
 DISK Protect,No,Yes[80],Yes,No,Yes[80],No,Yes,Yes," NTFS,FAT32 ",Yes
 Dm-crypt / Dm-crypt,No,Yes[78],?,Yes,Yes,Yes,Yes,Partial[81] [Note 3],Any supported by OS,Yes
 DriveCrypt,Yes[82],Yes,Yes,Yes,Yes,Yes,Yes,No,Any supported by OS,Yes
@@ -28,6 +28,7 @@ E4M,No,No,N/A,No,No,?,No,No,?,No
 e-Capsule Private Safe,Yes[83],No,N/A,No,Yes[83],No,Yes,No,?,?
 ECryptfs,No,No,N/A,Yes,Yes,Yes,Yes,Yes,Yes[84],Yes
 EgoSecure HDD Encryption,No,Yes,Yes,Yes,Yes,Yes,Yes[85],Yes," NTFS, FAT32 ",Yes
+EncryptUSB,No,No,No,No,No,Yes,No,No," NTFS, FAT32, exFAT ",No
 FileVault,No,No,N/A,No,Two passwords[86],Yes[86],?,No," HFS+, possibly others ",No
 FileVault,No,Yes,Yes,No,Yes,Yes,Yes[87],No," HFS+, possibly others ",No
 FREE CompuSec,No,Yes,?,No,No,No,No,No,Any supported by OS,No
@@ -56,5 +57,5 @@ Svnd / Vnconfig,No,No,N/A,No,No,Yes[103],Yes,?,Any supported by OS,?
 NortonLifeLock Endpoint Encryption,No,Yes,Yes,Yes,Yes,Yes,No,No," NTFS, FAT32 ",Yes
 Trend Micro Endpoint Encryption,No,Yes,Yes,Yes,Yes,Yes[104],Yes[105],No,Any supported by OS,Yes[106]
 TrueCrypt TrueCrypt," Yes (limited to one per ""outer"" container) ",only on Windows[107],?,No,yes with multiple keyfiles[74][108],Yes,Yes,No[75]," Only Windows MBR volumes; no UEFI GPT drives, and dynamic drives discouraged[76] ",Yes
-VeraCrypt," Yes (limited to one per ""outer"" container) ",only on Windows[109],No,No,yes with multiple keyfiles,Yes,Yes,No," Only Windows MBR volumes; no UEFI GPT drives, and dynamic drives discouraged ",Yes
+VeraCrypt," Yes (limited to one per ""outer"" container) ",only on Windows[109],No,No,yes with multiple keyfiles,Yes,Yes,No,Windows on both MBR and UEFI GPT drives; dynamic drives discouraged,Yes
 CyberSafe Top Secret,Yes,No,No,No,Yes,Yes,Yes,No," Only Windows MBR volumes; no UEFI GPT drives, and dynamic drives discouraged ",Yes

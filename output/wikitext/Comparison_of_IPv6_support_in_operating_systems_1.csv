@@ -12,10 +12,11 @@ HP-UX,11i,yes,yes,yes,yes,
 IBM i,7.1,yes,yes,yes,no,
 iOS,4.1,yes,yes,yes,yes,
 Juniper JUNOS,14.1,yes,yes,yes,yes,RDNSS support introduced in JunOS 14.1
+LibreELEC,9.2.1,no,no,no,no," LibreELEC uses [https://01.org/connman connman], which does not have full IPv6 support. "
 macOS,Mac OS X 10.7 (Lion),yes,yes,yes,yes,Versions 10.7 through 10.10 often prefer IPv4 even when working IPv6 connectivity is available. Versions 10.11 and up will prioritize IPv6 Traffic in spec with Happy Eyeballs.
 MeeGo,1.2,no,yes,no,yes,
 NetBSD,7.0,yes,yes,yes,yes,
-OpenBSD,5.2,yes,yes,Addon,yes,RDNSS is only supported for rad(8) so far.
+OpenBSD,6.6,yes,yes,Addon,yes," RDNSS is only supported for rad(8) so far. As of 6.6, OpenBSD still does not favor IPv6 connectivity if there is IPv4 connectivity.date=June 2020"
 openSUSE,42.1 (Leap),yes,yes,yes,yes,
 OpenVMS,8.3,yes,yes,no,no,
 ReactOS,0.4.11,no,no,no,no," Though ReactOS itself has no IPv6 support, [https://reactos.org/wiki/IPv6 ReactOS Foundation services are all IPv6 enabled]."
@@ -27,9 +28,9 @@ Ubuntu,All supported versions,yes,yes,yes,yes," RDNSS support available so long 
 webOS,2.1.0,no,no,no,no,
 Windows NT [includesWindows 10 Mobile],5.1 (XP),yes,no,Addon,no," Windows XP users can use Dibbler, an open source DHCPv6 implementation. --update: Windows XP fully supports IPv6- but NOT IPv6 DNS queries (nslookup)"
 ," 6.X (Vista), 7, 8, 8.1, 10 RTM-Anniversary Update",yes,yes,{{yes}}
-,10 Creators Update,yes,yes,yes,yes,Windows 10 Creators Update introduces support for RFC 8106 (6106) RDNSS.
+,10 Creators Update and later,yes,yes,yes,yes,Windows 10 Creators Update introduces support for RFC 8106 (6106) RDNSS.
 Windows Mobile,6.5,yes,yes,Lite,no," If the OEM explicitly unsets the SYSGEN_TCPIP6 pre-processor symbol, the built image will not have any IPv6 capabilities."
-Windows Phone,7.5,no,no,no,no,Windows Phone 8 might have some support.
+Windows Phone,7.5,no,no,no,no,
 ,8(.1),yes,yes,yes,no,Private lab research. No privacy extensions (RFC4941).
 z/OS,V1R4.0,yes,yes,no,,
 z/VM,V5R1.0,yes,yes,no,no,

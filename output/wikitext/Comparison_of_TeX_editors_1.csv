@@ -1,26 +1,25 @@
-,Editing style,Native operating systems,Latest stable version,Costs,License,Configurable,Integrated viewer,
-,AUCTeX,Source," Linux, macOS, Windows",(2017-12-10) 12.1,free,GPL,yes,yes,AUCTeX
-,Authorea,Source / partial-WYSIWYG,Online,N/A,free,proprietary,yes,yes,Authorea
-,Auto-Latex Equations for Google Docs,Source,Online,(2016-01-06) 8.04,free,Unclear,yes,yes,Auto-Latex Equations for Google Docs
-,CoCalc,Source,Online,N/A,free,AGPL,yes,yes,CoCalc
-,GNOME LaTeX,Source,Linux,(2019-03-10) 3.32,free,GPL,yes,no,GNOME LaTeX
-,Gummi,Source,Linux,(2016-01-27) 0.6.6,free,MIT,yes,yes (Live update),Gummi
-,Kile,Source," Linux (macOS, Windows)",(2012-09-23) 2.1.3,free,GPL,yes,yes (Quick preview),Kile
-,LEd,Source,Windows,(2009-10-09) 0.53,free,proprietary,?,yes (dvi),LEd
-,LyX,WYSIWYM," Linux, macOS, Windows",(2019-06-25) 2.3.3,free,GPL,yes,yes,LyX
-,MeWa,Source,Windows,(2007-06-06) 1.4.0,free,GPL,yes,no,MeWa
-,Notepad++,Source,Windows,(2019-10-29) 7.8.1,free,GPL,yes," no, but can be integrated ",Notepad++
-,Overleaf,Source,Online,N/A,free,Unclear,yes,yes,Overleaf
-,Scientific WorkPlace,WYSIWYM,Windows,(2016-02-23) 6.0.12,nonfree,proprietary,yes,yes,Scientific WorkPlace
-,ShareLaTeX,Source,Online,N/A,free,AGPL,yes,yes,ShareLaTeX
-,TexLab,Source-WYSIWYG,Windows,(2019-04-30) 7.8,free,free,yes,yes,TexLab
-TeXmacs,WYSIWYG," Linux, macOS, Windows",(2017-12-21) 1.99.6,free,GPL,yes,yes,TeXmacs
-Texmaker,Source," Linux, macOS, Windows",(2018-11-01) 5.0.3,free,GPL2,yes,yes,Texmaker
-,TeXnicCenter,Source,Windows,Latest stable software release/TeXnicCenter,free,GPL,yes,no,TeXnicCenter
-,TeXShop,Source,macOS,(2019-10-23) 4.44,free,GPL,yes,yes,TeXShop
-,TeXstudio,Source," Linux, Windows, macOS",(2019-05-19) 2.12.16,free,GPL2,yes," yes (pdf, selection with dvi2png)",TeXstudio
-,TeXworks,Source," Linux, macOS, Windows",(2019-03) 0.6.3,free,GPL,no,yes (pdf),TeXworks
-,Verbosus,Source," Online, Android, iOS ",(2016-05-06) 4.1.3,free,proprietary,yes,yes (pdf),Verbosus
-,WinEdt,Source,Windows,(2017-04-13) 10.2,nonfree,proprietary,yes,no,WinEdt
-,WinShell,Source,Windows,(2013-02-10) 3.3.2.6,free,proprietary,yes,no,WinShell
-"class=""sortbottom""",,Editing Style,Native Operating Systems,Latest stable version,Costs,License,Configurable,Integrated viewer,
+Name,Editing style,Native operating systems,Latest stable version,Costs,License,Configurable,Integrated viewer
+,AUCTeX,Source," Linux, macOS, Windows",(2019-10-30) 12.2,free,GPL,yes,yes
+,Authorea,Source / partial-WYSIWYG,Online,N/A,free,proprietary,yes,yes
+,Auto-Latex Equations for Google Docs,Source,Online,(2020-04-06) 48,free,Free,yes,yes
+,CoCalc,Source,Online,N/A,free,AGPL,yes,yes
+,GNOME LaTeX,Source,Linux,(2019-03-10) 3.32,free,GPL,yes,no
+,Gummi,Source,Linux,(2020-01-26) 0.8.1,free,MIT,yes,yes (Live update)
+,Kile,Source," Linux (macOS, Windows)",(2012-09-23) 2.1.3,free,GPL,yes,yes (Quick preview)
+,LEd,Source,Windows,(2009-10-09) 0.53,free,proprietary,?,yes (dvi)
+,LyX,WYSIWYM," Linux, macOS, Windows",(2019-06-25) 2.3.3,free,GPL,yes,yes
+,MeWa,Source,Windows,(2007-06-06) 1.4.0,free,GPL,yes,no
+,Notepad++,Source,Windows,(2019-10-29) 7.8.1,free,GPL,yes," no, but can be integrated "
+,Overleaf,Source,Online,N/A,free,Unclear,yes,yes
+,Scientific WorkPlace,WYSIWYM,Windows,(2016-02-23) 6.0.12,nonfree,proprietary,yes,yes
+TexLab,Source-WYSIWYG,Windows,(2019-04-30) 7.8,free,free,yes,yes
+TeXmacs,WYSIWYG," Linux, macOS, Windows",(2017-12-21) 1.99.6,free,GPL,yes,yes
+Texmaker,Source," Linux, macOS, Windows",(2018-11-01) 5.0.3,free,GPL2,yes,yes
+,TeXnicCenter,Source,Windows,Latest stable software release/TeXnicCenter,free,GPL,yes,no
+,TeXShop,Source,macOS,(2019-10-23) 4.44,free,GPL,yes,yes
+,TeXstudio,Source," Linux, Windows, macOS",(2020-08-25) 3.0.0,free,GPL2,yes," yes (pdf, selection with dvi2png)"
+,TeXworks,Source," Linux, macOS, Windows",(2019-03) 0.6.3,free,GPL,no,yes (pdf)
+,Verbosus,Source," Online, Android, iOS ",(2016-05-06) 4.1.3,free,proprietary,yes,yes (pdf)
+,WinEdt,Source,Windows,(2018-05-07) 10.3,nonfree,proprietary,yes,no
+,WinShell,Source,Windows,(2013-02-10) 3.3.2.6,free,proprietary,yes,no
+"class=""sortbottom""",Name,Editing Style,Native Operating Systems,Latest stable version,Costs,License,Configurable,Integrated viewer

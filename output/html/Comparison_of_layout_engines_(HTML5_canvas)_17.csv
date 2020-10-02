@@ -6,7 +6,7 @@ bgcolor," body, table, tr, td, th",CSS,,,,,
 border," img, object",CSS,Partial[note 8]
 clear,br,CSS,No
 compact," dl, ul, ol",CSS,,No,No,,
-color," basefont, font",CSS,3.1,Partial[note 9][7],Partial[note 9],,
+color," basefont, font",CSS,3.1,Partial[note 9][8],Partial[note 9],,
 height," td, th",CSS,,Yes,Yes,,
 hspace," img, object",CSS,,,,,
 language,script,The type attribute,No[ Wikipedia:Citation needed ],,

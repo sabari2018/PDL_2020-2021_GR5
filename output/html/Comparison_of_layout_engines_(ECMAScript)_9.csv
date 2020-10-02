@@ -1,4 +1,4 @@
-,Trident (layout engine),Gecko (layout engine),WebKit,Presto (layout engine)
+Number object,Trident (layout engine),Gecko (layout engine),WebKit,Presto (layout engine)
 Called as function,,,,
 Number([value]),?,Yes,Yes,?
 Called as constructor,,,,

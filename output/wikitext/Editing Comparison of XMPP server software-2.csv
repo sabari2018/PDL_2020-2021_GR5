@@ -1,0 +1,27 @@
+[ RFC
+, Description
+, Status
+, [[ejabberd]]
+, iChat Server]]
+, [[jabberd14]]
+, [[jabberd2]]
+, Metronome]]
+, [[MongooseIM]]
+, [[Openfire]]
+, Prosody]]
+, Sun Java System Instant Messaging Server]]
+, [[Tigase]]
+],
+| XMPP Core,| {{incorrect|Obsolete}},| {{Yes}},| {{unk}},| {{Yes}},| {{Yes}},| {{unk}},| {{Yes}}ref name="Features and supported standards"{{cite web |url=https://mongooseim.readthedocs.io/en/latest/user-guide/Features-and-supported-standards,|title=Features and supported standards|website=mongooseim.readthedocs.io|accessdate=2019-01-17}}/ref,| {{Yes}},| {{Yes}},| {{unk}},| {{Yes}},
+| XMPP IM,| {{incorrect|Obsolete}},| {{Yes}}ref name="ejabberd-features" /,| {{unk}},| {{Yes}}ref name="jabberd14-features" /,| {{Yes}}ref name="jabberd2-featers" /,| {{unk}},| {{Yes}}ref name="Features and supported standards" /,| {{Yes}}ref name="openfire-features" /,| {{Yes}},| {{unk}},| {{Yes}}ref name="tigase-features" /,
+| XMPP CPIM,| {{Yes|Final}},| {{Yes}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{Yes}}ref name="Features and supported standards" /,| {{unk}},| {{unk}},| {{unk}},| {{unk}},
+| XMPP E2E,| {{Yes|Final}}ref name="xsf-rfc"/,| {{Yes}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},
+| XMPP URN,| {{okay|Informational}}ref name="xsf-rfc"/,| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},
+| XMPP ENUM,| {{Yes|Final}}ref name="xsf-rfc"/,| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},
+| XMPP URI,| {{Yes|Final}}ref name="xsf-rfc"/,| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},
+| XMPP Core,| {{Yes|Final}}ref name="xsf-rfc"/,| {{Yes}}ref name="ejabberd-protocols"/,| {{Yes}},| {{unk}},| {{unk}},| {{Yes}},| {{Yes}}ref name="Features and supported standards" /,| {{Yes}}/Partial ,| {{Yes}},| {{unk}},| {{Yes}}ref name="tigase-features" /,
+| XMPP IM,| {{Yes|Final}}ref name="xsf-rfc"/,| {{Yes}}ref name="ejabberd-protocols"/,| {{Yes}},| {{unk}},| {{unk}},| {{Yes}},| {{Yes}}ref name="Features and supported standards" /,| {{Yes}}/Partial ,| {{Yes}},| {{unk}},| {{Yes}}ref name="tigase-features"/,
+| XMPP AF,| {{incorrect|Obsolete}},| {{Yes}}ref name="ejabberd-protocols"/,| {{Yes}},| {{unk}},| {{unk}},| {{Yes}},| {{Yes}}ref name="Features and supported standards" /,| {{Yes}},| {{Yes}},| {{unk}},| {{Yes}}ref name="tigase-features" /,
+| XMPP WebSockets,| Proposed,| {{Yes}},| {{unk}},| {{unk}},| {{unk}},| {{Yes}},| {{Yes}}ref name="Features and supported standards" /,| {{Yes}}/Plugin,| {{Yes}},| {{unk}},| {{Yes}}ref name="tigase-features" /,
+| XMPP AF,| {{Yes|Final}}ref name="xsf-rfc"/,| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},| {{unk}},
+,

@@ -6,7 +6,7 @@ C shell,bytes concurrent,Yes,No,Yes,No,N/A[nb 19]
 Tcsh,bytes concurrent,Yes,No,Yes,No,N/A[nb 19]
 Hamilton C shell,bytes concurrent,Yes,No,Yes,No,?
 Scsh,text,?,?,?,Yes,N/A[nb 19]
-Korn Shell (ksh93t+),bytes (may contain serialized objects if print -C is used) concurrent,Yes ($(...) and ${<space>...;}),Yes (if system supports /dev/fd/ ⟨n⟩ ),Yes," Yes (and SCTP support, client only) ",N/A[nb 19]
+Korn Shell (ksh93t+),bytes (may contain serialized objects if print -C is used) concurrent,Yes ( $(...) and ${<space>...;}),Yes (if system supports /dev/fd/ ⟨n⟩ ),Yes," Yes (and SCTP support, client only) ",N/A[nb 19]
 Pdksh,bytes concurrent,Yes,No,Yes,No,N/A[nb 19]
 Zsh,bytes concurrent,Yes,Yes,Yes," Yes (client and server, but only TCP) ",N/A[nb 19]
 Almquist shell,bytes concurrent,Yes,No,Yes,No,N/A[nb 19]
@@ -21,4 +21,4 @@ Windows PowerShell,objects concurrent,Yes,No,Yes,Yes,?
 Rc,text concurrent,Yes,Yes (via: <{cmd} if system supports /dev/fd/ ⟨n⟩ ),Yes,No,?
 BeanShell,not supported,?,?,?,Yes,?
 DIGITAL Command Language,text (via PIPE command),Yes,No,Yes (spawn),Yes (server TCP only),No
-Friendly interactive shell,bytes concurrent,Yes (...),No (broken)[52],No,No,N/A[nb 19]
+Friendly interactive shell,bytes concurrent,Yes ( ...),No (broken)[52],No,No,N/A[nb 19]

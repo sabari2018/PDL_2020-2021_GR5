@@ -6,21 +6,21 @@ Colloquy (IRC client),Yes,Yes,?,Yes,Yes[Note 1]," AppleScript, AppleScript, Appl
 degesch,Yes,Yes,Yes,N/A,N/A,Lua (programming language)
 DMDirc,Yes,Partial,?,Yes,Yes," Custom  Actions  system, Java (programming language) plugins "
 ERC (software),Yes,Yes,Yes[Note 2],?,Yes[Note 3],Emacs Lisp
-HexChat,Yes,Yes,Yes,Yes,Yes," Perl, Python, Tcl, Lua[Note 4], JavaScript, C, C++, and via D-Bus. "
+HexChat,Yes,Yes,Yes,Yes,Yes," Perl, Perl, Perl, PerlPerlPerlPerl[./Comparison_of_Internet_Relay_Chat_clients#cite_note-Features_HexChat_A-88 [Note 4]], Perl, Perl, Perl, and via Perl. "
 HydraIRC,Yes,Yes,?,?,Yes,No
-IceChat,Yes,Yes,No,?,Yes,VBScript
+IceChat,Yes,Yes,No,Yes,Yes,VBScript
 IrcII,Yes,Yes[Note 5],?,?,?,IrcII script
 IRCjr,No,No,No,No,No,N/A
 IRCCloud,Yes,Yes,Yes,Yes,N/A,JavaScript
 Ircle,Yes,No,?,?,?,AppleScript
 Irssi,Yes,Yes,Yes,No,No,Perl
 jIRCii,Yes,Yes,Yes,?,No,Sleep
-KiwiIRC,Yes,Yes,Yes,Yes,N/A," JavaScript, Node.js "
-Konversation,Yes,Yes,Yes,Yes,?," Shell script, Ruby (programming language), Python, Perl, Java, Ruby (programming language), Ruby (programming language), JavaScriptRuby (programming language) "
-KVIrc,Yes,Yes,Yes,Yes,No," KVS (custom), Perl, Python, C++ "
+KiwiIRC,Yes,Yes,Yes,Yes,N/A," JavaScript, JavaScript "
+Konversation,Yes,Yes,Yes,Yes,?," Shell script, Shell script, Shell script, Shell script, Shell script, Shell script, Shell script, Shell scriptShell scriptShell scriptShell script[./Comparison_of_Internet_Relay_Chat_clients#cite_note-Features_Konversation_A-90 [Note 6]] "
+KVIrc,Yes,Yes,Yes,Yes,No," KVS (custom), Perl, Perl, Perl "
 LeafChat,Yes,Yes,?,N/A,Yes,Java (programming language)
 LimeChat,Yes,Yes,?,?,?,N/A
-Linkinus,Yes,Yes,Yes,Yes,Yes," AppleScript, Cocoa "
+Linkinus,Yes,Yes,Yes,Yes,Yes," AppleScript, AppleScript "
 Mibbit,Yes,Yes,?,Yes,N/A,N/A
 MIRC,Yes,Yes,Yes,Yes,Yes[Note 7],MIRC scripting language
 Nettalk (IRC client),Yes,Yes,SOCKS,Yes,Yes," VBScript, custom "
@@ -31,8 +31,7 @@ Quassel IRC,Yes,Yes,Yes,?,No,No
 Qwebirc,No,Yes,No,Yes,Yes,No
 Rcirc,Yes,Yes,?,?,No,Emacs Lisp
 Smuxi,Yes,Yes,Yes,?,?,Yes (language agnostic)
-Snak,Yes,Yes,?,?,?," AppleScript, IrcII script "
+Snak,Yes,Yes,?,?,?," AppleScript, AppleScript script "
 Visual IRC,Yes,No,?,?,?,Versus programming language
-WeeChat,Yes,Yes,Yes,Yes,?," C (programming language), Perl, Python, Ruby, C (programming language), C (programming language), C (programming language) (C (programming language)) "
-XChat,Yes,Yes,Yes,Yes,No," Perl, Python, Tcl, Ruby, C++, ECMAScript, Scheme (Guile) "
+WeeChat,Yes,Yes,Yes,Yes,?," C (programming language), C (programming language), C (programming language), C (programming language), C (programming language), C (programming language), C (programming language) (C (programming language)) "
 Client,Multi-server,UTF-8,Proxy server,irc:// URI scheme,Automatic updates,Scripting language

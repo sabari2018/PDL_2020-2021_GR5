@@ -3,14 +3,14 @@ Botan (programming library),No
 Cryptlib,No
 GnuTLS,Disabled by default
 Java Secure Socket Extension,No
-LibreSSL,No[42]
+LibreSSL,No[41]
 MatrixSSL,Disabled by default
 Mbed TLS,Disabled by default
 Network Security Services,Disabled by default
 OpenSSL,Disabled by default
 RSA BSAFERSA BSAFE,No
 SChannel,No
-Secure Transport,No
+MacOS,No
 WolfSSL,Disabled by default
 Erlang (programming language)/OTP SSL application,No
 Implementation,DEFLATE

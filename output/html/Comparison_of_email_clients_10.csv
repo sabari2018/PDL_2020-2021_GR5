@@ -10,27 +10,26 @@ Elm (email client),?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
 EM Client,Proprietary format (Proprietary format),Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes
 EmailTray,Proprietary format,Yes,Yes,No,Yes,Yes,No,Yes,No,No,No,No,Yes,Yes,?,?
 Eudora (email client),Mbox,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes[ Wikipedia:Citing sources ],Yes,Yes,Yes,?
-Eureka Email,Proprietary format,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
 Evolution (software)," Maildir, Maildir, Maildir ",No,Yes,No,No,Yes,Yes,Yes,Partial,Yes [Note 3],Yes,Yes,Yes,Yes,Yes,Yes
 Gnus," babyl, Maildir, Maildir, Maildir, news, rnews, SOUP, outlook, oe-dbx ",No,Yes,No,No,?,?,?,Yes,Yes,Yes,Yes,Yes[Note 4],Yes,Yes,?
 GroupWise,Proprietary format,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,?,?,?,Yes,Yes,Yes,No
 Hiri (email client),Proprietary,No,No,No,No,No,No,No,Yes,No,No,No,Yes,Yes,No,No
-IBM Lotus Notes,Proprietary,Yes[91],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes [Note 5],No,Yes,Yes,?,No
+IBM Lotus Notes,Proprietary,Yes[35],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes [Note 5],No,Yes,Yes,?,No
 KMail," Mbox, Mbox ",No,Yes,No,?,?,?,?,Yes,Yes,No,Yes,?,Yes,Yes,Yes
 Mailbird,Proprietary,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Partial,Yes,Yes,Yes
 Mailpile,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
 Microsoft Entourage,Proprietary (Personal Storage Table),?,Yes,Partial [Note 6],?,?,?,?,Partial,No,No,Partial [Note 7],Yes,Yes,Yes,Yes
-Microsoft Office Outlook,Proprietary (Personal Storage Table),Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,?,?,Yes [Note 8],Yes,Yes,Yes
+Microsoft Office Outlook,Proprietary (Personal Storage Table),Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,?,?,Yes [Note 8],Yes,?,Yes
 Mozilla Mail &amp; Newsgroups,Mbox,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
 Mozilla Thunderbird," Mbox, Mbox ",No,Yes,?,?,Yes,Yes,Yes,Yes [Note 9],?,No,?,Yes (as of 3.0),Yes,Yes,Yes
 Mulberry (email client),Mbox Mbox,Partial [Note 11],Partial [Note 11],Partial [Note 11],?,?,?,?,Yes,?,?,Yes[ Wikipedia:Citing sources ],Partial [Note 11],No,Yes,No
-Mutt (email client)," Mbox, Mbox, Mbox, Mbox ",Yes (with compressed folders patch[92]),? (has limit command),No,?,?,?,?,Yes,Yes,?,Yes,Yes[Note 12],Yes[Note 12],Yes,Yes
+Mutt (email client)," Mbox, Mbox, Mbox, Mbox ",Yes (with compressed folders patch[36]),? (has limit command),No,?,?,?,?,Yes,Yes,?,Yes,Yes[Note 12],Yes[Note 12],Yes,Yes
 Netscape Messenger,Mbox,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
 Netscape Messenger 9,Mbox,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
 MH Message Handling System,MH,No,Yes,No,No,?,?,?,Yes,Yes,?,Yes,Yes,Yes,No,?
 Opera Mail," Mbox, Mbox, Proprietary ",No,Yes  (all folders are virtual),No,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,?,Yes
 Outlook Express,Proprietary,No,No,No,?,Yes,No,Yes,No,No,Yes,?,No,?,?,Yes
-Pegasus Mail,Proprietary (mbox-like),No,Yes,No,?,Yes,Yes,Yes,Yes,?,?,Yes,?,Yes,Yes,No[95]
+Pegasus Mail,Proprietary (mbox-like),No,Yes,No,?,Yes,Yes,Yes,Yes,?,?,Yes,?,Yes,Yes,No[39]
 Pine (email client)," Mbox, mbx, Mbox, Mbox (with patches), Mbox, tenex, mtx, Mbox, mx, news, phile ",?,?,?,?,?,?,?,?,?,?,?,?,?,?,No
 Pocomail,mbox,Yes,Yes,Yes,?,?,?,?,Yes,?,?,Yes,Yes,Yes,?,?
 RoundCube,[IMAP Server],?,?,?,Yes,No,No,Yes,Yes,Yes,?,?,?,Yes,Yes,?

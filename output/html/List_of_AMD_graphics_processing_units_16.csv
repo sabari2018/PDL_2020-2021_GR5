@@ -1,4 +1,4 @@
-Model,Launch,Code name,Fab (nm),Transistors (million),Die size (Millimeter Squared),Bus interface,Clock rate,,Core config,Fillrate,,,,Memory,,,,TDP (Watts),Application programming interface support (version),,Release Price (USD)
+Model,Launch,Code name,Fab (nm),Transistor count (million),Die size (Millimeter Squared),Bus interface,Clock rate,,Core config,Fillrate,,,,Memory,,,,TDP (Watts),Application programming interface support (version),,Release Price (USD)
 ,,,,,,,Core (MHz),Memory (MHz),,MOperations/s,MPixels/s,MVertices/s,MTexels/s,Size (Megabyte),Bandwidth (Gigabyte/s),Bus type,Bus width (Bit),Max.,Direct3D,OpenGL,
 Radeon X1300," Oct. 5, 2005 (PCI-E) Dec. 1, 2005 (AGP) ",RV515,90,107,100,AGP 8x PCI PCI-E x16,450,250,4:2:4:4,1800,1800,225,1800,128 256,8.0,DDR2,128,,9.0c,2.1,$
 Radeon X1300 HyperMemory," Oct. 5, 2005 ",,,,,PCI-E x16,,,,,,,,128 256 512,,,64,,,,

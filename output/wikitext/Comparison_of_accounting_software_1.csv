@@ -3,7 +3,7 @@ Adempiere,GPL,yes,yes,yes,Mid-market,yes,yes,yes,yes,,yes,yes,,yes,yes,yes,yes,y
 Apache OFBiz,Apache License,yes,yes,yes,Small to mid-sized enterprises,yes,yes,yes,yes,,yes,yes,,,yes,yes,yes,yes,yes,yes,yes,,yes,yes,yes,yes," SaaS, Calendar, Webmail"," Multi-User, Web Access, Cloud Hostable",Java
 Compiere," GPL2, other proprietary ",yes,yes,yes,Mid-market,,,,,,yes,,,,yes,yes,,,yes,,,,yes,,,,MES,Web-based,Java EE
 Dolibarr,GPL,yes,yes,yes,Small to mid-sized enterprises,yes,yes,yes,yes,,yes,,yes,,yes,yes,,yes,,,,,yes,yes,yes,,SaaS,Web-based,PHP
-GnuCash,GPL,yes,yes,yes,Personal and small enterprise,yes,yes,yes,yes,yes,,,yes,,,,,,,,,,,,,ltd,,Stand-alone," C, Scheme"
+GnuCash,GPL,yes,yes,yes,Personal and small enterprise,yes,yes,yes,yes,yes,,,yes,,,,,,,,,,,no,,ltd,,Stand-alone," C, Scheme"
 GNU Enterprise,GPL,yes,yes,yes,Mid to high end market,,,,yes,,,yes,,,yes,yes,,yes,,yes,,,,,,,,Web-based + stand-alone,Python
 iDempiere,GPL2,yes,yes,yes,Mid-market,yes,yes,yes,yes,,yes,yes,,yes,yes,yes,yes,yes,yes,yes,yes,,yes,yes,yes,," SaaS, Calendar, Project Management",Web-based and Client-server," Java on Jetty, OSGi, PostgreSQL, Oracle"
 JFire,GPL,yes,no,yes,All enterprises,,,yes,,,yes,,,,yes,yes,,,,,,,yes,,,,," Web-based, Stand-alone",Java

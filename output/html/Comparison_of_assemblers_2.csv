@@ -1,3 +1,4 @@
-Assembler,Open-source license,Software license,Instruction set,Host Computing platform,Development active
-ASM-One Macro Assembler,No,Free,Motorola 68000 series,Commodore Amiga,No
-Vasm,No,Proprietary software,Motorola 68000 series,various,Yes
+Assembler,Developer,Free and open-source software,Software license,Instruction set,Host Computing platform,Development active
+ASM-One Macro Assembler,Rune Gram-Madsen (page does not exist),No,Free,Motorola 68000 series,Commodore Amiga,No
+Vasm,,No,Proprietary software,Motorola 68000 series,various,Yes
+rmac," James Hammons, George Nakos, Landon Dyer ",Yes,Free,MOS Technology 6502," Linux, Linux, Linux ",Yes

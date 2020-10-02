@@ -4,7 +4,7 @@ Program,Comic book,PDF,BMP,JPEG,PNG,TIFF,GIF,PSD,Other graphics file formats
 " scope=""row""  Aperture",,PDF,,JPEG,PNG,TIFF,GIF,PSD," PSD, OLY,date=July 2015 Various video formats including: AVI, MOV, MPEG"
 " scope=""row""  CDisplay"," CBZ, CBR, CBT, CBA ",,BMP,JPEG,PNG,,GIF,,
 " scope=""row""  Comix"," CBZ, CBR, CBT ",,,JPEG,PNG,,,,...
-" scope=""row""  digiKam",,,BMP,JPEG,PNG,TIFF,GIF,," WMF, PNM, PPM, XCF, XPM, PGX, MPO, MPE, AVI, MOV, ASF"
+" scope=""row""  digiKam",,,BMP,JPEG,PNG,TIFF,GIF,," WMF, PNM, PPM, XCF, XPM, PGX, MPO, MPE, AVI, MOV, ASF, PGF"
 " scope=""row""  Eye of GNOME",,,BMP,JPEG,PNG,TIFF,GIF,," PNM, RAS, ICO, XPM, SVG"
 " scope=""row""  F-Spot",,,,JPEG,PNG,TIFF,GIF,," PPM, SVG"
 " scope=""row""  FastPictureViewer",,,BMP,JPEG,PNG,TIFF,,PSD," HDP, WDP, JPEG XR(+ RLE, DIB, ICO, MTIFF in the registered edition, as well as TGA, PSD, HDR, DDS, EXR, J2K, PNM, PBM, PGM, PBM, LRPREV, JPS through additional WIC codecs from the optional FastPictureViewer Codec Pack or from 3rd parties)"
@@ -22,7 +22,6 @@ Program,Comic book,PDF,BMP,JPEG,PNG,TIFF,GIF,PSD,Other graphics file formats
 " scope=""row""  Phase One Media Pro",,PDF,,JPEG,PNG,TIFF,GIF,PSD," Supports over 100 file formats for images, videos and documents, including: PSD, IIQ, CR, EIP, DOC"
 " scope=""row""  Picasa",,,BMP,JPEG,PNG,TIFF,GIF,," 8 types including TGA, RAW, and some movie formats"
 " scope=""row""  Preview",,PDF,BMP,JPEG,PNG,TIFF,GIF,,All QuickTime images:
-" scope=""row""  ResourceSpace",,,,,,,,,Hundreds; all types supported by ImageMagick and FFmpeg plus InDesign
 " scope=""row""  Shotwell",,,,JPEG,PNG,TIFF,GIF,,RAW and some video formats
 " scope=""row""  Simple Comic"," CBZ, CBR, CB7 ",,,JPEG,PNG,,GIF,," LHA, RAR, ZIP"
 " scope=""row""  STDU Viewer",,PDF,BMP,JPEG,PNG,TIFF (multipage),GIF,PSD," TXT, EMF, WMF, DjVu, XPS"

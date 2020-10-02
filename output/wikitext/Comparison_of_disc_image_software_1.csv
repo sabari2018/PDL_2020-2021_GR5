@@ -1,4 +1,4 @@
-Software,Creates?,Modifies?,Mounts?,Writes/Burns?,Extracts?,Input,Output,OS,License
+Name,Creates?,Modifies?,Mounts?,Writes/Burns?,Extracts?,Input format,Output format,OS,License
 7-Zip,yes,no,no,no,yes," DMG, FAT, HFS, MBR, ISO, UDF, VHD, WIM ",WIM," Windows, Linux, Classic Mac OS ",Free software (GPL)
 AcetoneISO,yes,no,yes,yes,yes," CD, DVD, ISO, BIN, MDF+MDS, IMG, NRG, CUE, TOC, DMG "," CD, DVD, ISO, BIN ",Linux,Free software (GPL)
 Acronis True Image,yes,no,yes,yes,yes," TIB, VHD "," TIB, VHD ",Windows,Shareware
@@ -16,7 +16,7 @@ genisoimage,yes,no,no,no,no,N/A,Dunno," Linux,Unix ",Free software (GPL)
 isoinfo,no,no,no,no,yes,Dunno,N/A," Unix, Linux,AmigaWindows, macOS ",Free software (GPL)
 mkisofs,yes,no,no,no,no,N/A,Dunno," Unix, Linux,AmigaWindows, macOS  ",Free software (GPL)
 CDRoller,Yes,No,No,Yes,Yes,ISO,ISO,Windows,Shareware
-CDRWIN,dunno,dunno,dunno,dunno,dunno,BIN+CUE,BIN+CUE,Windows,Shareware
+CDRWIN,Yes,Yes,No,Yes,Yes," ISO, BIN+CUE, Audio File Types+CUE, ISO+CUE, Audio File Types+ISO+CUE, ISO+Audio File Types+CUE ",BIN+CUE,Windows,Shareware
 CloneCD,yes,no,no,yes,no,N/A," ISO, UFD, IMG ",Windows,Shareware
 CloneDVD,yes,no,no,yes,yes,ISO,ISO,Windows,Shareware
 CopyCatX,yes,no,no,yes,yes,DMG,DMG,macOS,Shareware
@@ -27,7 +27,7 @@ DiscJuggler,dunno,dunno,dunno,dunno,dunno," CDI, ISO ",CDI,Windows,Shareware
 Disk Utility,yes,yes,yes,yes,yes," DMG, ISO "," DMG, ISO ",macOS,Part of macOS
 DiskImageMounter,no,yes,yes,yes,no," DMG, ISO "," DMG, ISO ",macOS,Part of macOS
 DVD Shrink,yes,no,no,no,Opens DVD images (File menu or Ctrl-I)," ISO, NRG, IMG, MDF+MDS ",ISO,Windows,Freeware
-Exact Audio Copy,Audio tracks only. Leaves an ISO placeholder for the data track in the CUE for mixed-mode discs.,no,no,no,no,CUE,CUE/audio file types,Windows,Free software
+Exact Audio Copy,Audio tracks only. Leaves an ISO placeholder for the data track in the CUE for mixed-mode discs.,Yes,no,Yes,Yes,Audio File Types+CUE,Audio File Types+CUE,Windows,Free software
 Furius ISO Mount,no,no,yes,yes,no," ISO, IMG, BIN, MDF+MDS, NRG ",dunno,Linux,Free software (GPL)
 Image for Windows,yes,no,yes,yes,yes," TBI, VHD, VMDK "," TBI, VHD, VMDK ",Windows,Shareware
 ImgBurn,yes,no,no,yes,no," APE+CUE, BIN+CUE, CDI, CDR, DI, FLAC+CUE, GCM, GI, IBQ, IMG, ISO, LST, MDF+MDS, NRG, PDI, UDI, WV "," ISO, IMG, BIN+CUE ",Windows,Freeware
@@ -49,6 +49,7 @@ Norton Ghost,yes,no,yes,yes,dunno," GHO, GHS, VMDK, V2I, IV2I, PQI "," GHO, GHS,
 OSFmount,no,yes,yes,dunno,dunno," IMG, DD, ISO, BIN+CUE, 00n, NRG, SDI, AFF(v3), AFM, AFD, VMDK, E01, S01, VHD ",dunno,Windows,Freeware
 Partimage,yes,no,no,yes,no," Compressed HPFS, JFS, UFS, HFS and NTFS"," Ext2, Ext3, Reiserfs, FAT16, FAT32, HPFS, JFS, Xfs, UFS, HFS and NTFS ",Linux,Free software (GPL)
 PeaZip,no,no,no,no,yes," DMG, ISO, VHD, WIM ",N/A," Windows, Linux ",LGPL v3)
+PowerISO,yes,yes,yes,yes,yes," ISO, DAA, BIN+CUE, MDF+MDS, ASHDISC, BWI+B5I, LCD, IMG, CDI, CDR, CIF, P01, PDI, NRG, NCD, PXI, GI, FCD, VCD, C2D, DMG, BIF, IMA + FLP, IMG, UIF, ISZ, WIM, ESD, VMDK, VHD, VDI "," ISO, BIN, DAA"," Windows, macOS, Linux ",Proprietarycommercial
 Roxio Creator,Yes,no,no,yes,no," ISO, C2D, BIN+CUE, GI "," ISO, GI ",Windows,Proprietarycommercial
 Roxio Toast,no,no,no,yes,no," ISO, BIN+CUE, IMG, DMG, CDR, NRG ",N/A,macOS,Proprietarycommercial
 UltraISO,yes,yes,yes,yes,yes," BIN+CUE, BWI+BWT, B5T+B5I, B6T+B6I, C2D, CDI, CIF, DAA, DMG, FCD, G2D, GCD, GI, IMA, IMG+CCD, IML, ISO, ISZ, LCD, MDF+MDS, NCD, NRG, P01+MD1+XA, PDI, PXI, TAO, DAO, UIF, VaporCD, VC4/000, VCD, VDI, XMD+XMF "," BIN+CUE, CCD+IMG+SUB, ISO, ISZ, MDF+MDS, NRG ",Windows,Trialware
@@ -62,4 +63,5 @@ WinISO,yes,yes,yes,yes,yes," ISO, BIN, CCD, CUE, DVD, IMG, MDF, MDS, NRG "," ISO
 WinRAR,no,no,no,no,yes,ISO,N/A,Windows,Shareware
 WinZip,no,no,no,no,yes,ISO,N/A,Windows,Shareware
 xorriso,yes,yes,LinuxFreeBSD," Linux,BSD,Solaris ",yes,ISO,ISO," Unix, Linux,Cygwin,macOS ",Free software (GPL)
-Software,Creates?,Modifies?,Mounts?,Writes/Burns?,Extracts?,Input?,Output?,OS,License
+BlackBox ISO Burner,yes,no,yes,yes,no,ISO,ISO,Windows,Free software (GPL)
+Name,Creates?,Modifies?,Mounts?,Writes/Burns?,Extracts?,Input format,Output format,OS,License

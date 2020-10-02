@@ -10,7 +10,6 @@ Citavi,yes,yes,yes,yes,10600+ styles. Styles can be [http://www.citavi.com/style
 CiteULike,yes,yes,yes,yes,variousdate=March 2009,none
 colwiz,yes,yes,yes,yes,[http://www.zotero.org/styles 9464 styles],CSL
 EndNote,yes,yes,yes,yes,[https://endnote.com/downloads/styles/ 6926 styles],EndNote format (through GUI)
-F1000Workspace,yes,yes,yes,yes,[http://www.zotero.org/styles 9464 styles],CSL
 JabRef,yes,yes,yes,yes,any BibTeX style,BibTeX
 KBibTeX,yes,yes,yes,yes,any BibTeX style,BibTeX
 Mendeley,yes,yes,yes,yes,[http://www.zotero.org/styles 9464 styles],CSL
@@ -22,6 +21,7 @@ refbase,yes,yes,yes,yes,various polar  ; marine journals,PHP
 RefDB,yes,yes,yes,yes,[http://refdb.sourceforge.net/styles.html 21 biomedical  ; law journals]," XML (citestylex.dtd), interactive script"
 Reference Manager,yes,yes,yes,yes,various,Reference Manager format (through GUI)
 Referencer,dunno,dunno,dunno,dunno,dunno,dunno
+RefME,dunno,dunno,dunno,dunno,dunno,dunno
 RefWorks,yes,yes,yes,yes," [https://www.refworks.com/content/products/output_style.asp 4256], plus CSL styles",RefWorks format (through CSL
 SciRef,yes,yes,yes,yes,[http://sci-progs.com/help/index.html?adding_of_new_styles.htm various],SciRef format (through GUI)
 Sente,yes,yes,yes,yes,[http://www.thirdstreetsoftware.com/downloads/SenteUserManual/Sente-6.6-User-Manual.pdf various],Sente format (through GUI)

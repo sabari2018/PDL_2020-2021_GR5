@@ -20,8 +20,8 @@ Org-mode," Multi-purpose (notes, project management, publishing, literate progra
 ReStructuredText,Technical and Multi-purpose documents[13],Structured Text and Setext,Tag,Yes,Yes[14]
 Rich Text Format,Formatted documents,TeX,Pattern parsing,Yes,Yes
 Scalable Vector Graphics,2D Vector graphics,XML,Tag,Yes,Yes
-SCRIPT (markup),Multi-purpose,RUNOFF,Control code,Yes,Yes
-TeX,Academia documents,,Control code,Yes,Yes
+SCRIPT (markup) SCRIPT (markup),Multi-purpose,RUNOFF,Control code,Yes,Yes
+TeX TeX,Academia documents Multi-purposeAcademia,,Control code,Yes,Yes
 Texinfo,Technical documents," TeX, TeX ",Control code,Yes,Yes
 TeXmacs,Academic documents,Tree (data structure),Tag,Yes,Yes
 Textile (markup language),Hypertext documents,AsciiDoc (based on some similarities and dates of release),Tag,Yes,Yes

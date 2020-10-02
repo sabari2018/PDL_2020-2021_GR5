@@ -1,0 +1,15 @@
+[ Graphics
+, Launch
+, Market
+, [[List of Intel chipsets, Code name
+, Device id.&lt;ref name="xf86-video-intel" /&gt;
+, RAMDAC&lt;br&gt;[[Clock rate, [[Pixel pipelines, [[Shader]] model&lt;br&gt;([[vertex shader, [[Application programming interface, [[Memory bandwidth]] &lt;br&gt;([[Gigabyte per second, [[Dynamic video memory technology, Hardware acceleration
+],
+! [[OpenGL]],! [[OpenCL]],! [[MPEG-2 Part 2|MPEG-2]],! [[VC-1]],! [[H.264/MPEG-4 AVC|AVC]],
+| 1998,| rowspan=6 | Desktop,| rowspan=2 | stand-alone,| Auburn,| 7800,| 220,| rowspan=6 | 1,| rowspan=6 | 3.0 (SW) / No,| 5.0,| rowspan=6 | 1.1,| rowspan=6 {{No}},| br0.8,| 2–8,| Optional external MPEG-2 decoder via Video Module Interface,| rowspan=6 {{No}},| rowspan=6 {{No}},
+| rowspan=4 | 1999,| Portola,| 1240,| 250,| rowspan=4 | 6.0 (full)br 8.0 (some features no hardware shaders),| rowspan=5 | 0.8([[PC100]])–1.067([[PC133]])br1.067(AGP 4× for [[AGP Inline Memory Module|AIMM]]),| 8–16,| rowspan=5 | [[Motion compensation|MC]],
+| [[i810|810]],| rowspan=3 | Whitney,| 7121,| rowspan=4 | 230,| rowspan=4 | 32,
+| 7123,
+| 7125,
+| 815br815Ebr815Gbr815EG,| Solano,| 1132,| 6.0 (full)br 9.0 (some features no hardware shaders),
+,

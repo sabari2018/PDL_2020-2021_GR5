@@ -1,0 +1,33 @@
+[ Function
+, [[FalconStor]]
+, [[FreeNAS]]
+, title=Windows Storage Server 2008
+, Open-E]] &lt;ref&gt;
+{{cite web
+, [[Openfiler]]
+],
+| {{Yes}},| {{No}},| {{Yes}},| {{Yes}},| {{Yes}},
+| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}},
+| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}},
+| {{Yes}},| {{No}},| {{Yes}},| {{No}},| {{No}},
+| {{Yes}},| {{No}},| {{Yes}},| {{No}},| {{Yes}},
+| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}},
+| {{No}},| {{No}},| {{No}},| {{No}},| {{No}},
+| {{No}},| {{No}},| {{Yes}},| {{Yes}},| {{No}},
+| {{No}},| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}},
+| {{No}},| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}},
+| {{Yes}},| {{No}},| {{No}},| {{Yes}},| {{No}},
+| {{No}},| {{Yes}},| {{No}},| {{No}},| {{No}},
+| {{No}},| {{No}},| {{Yes}},| {{No}},| {{No}},
+| {{Yes}},| {{No}},| {{Yes}},| {{Yes}} but unstable ref,{{cite web,|title=Review of Open-E DSS v7,|url=http://www.admlife.de/2014/01/15/review-of-open-e-dss-v7/,}}/ref,| {{No}},
+| {{Yes}},| {{Yes}}-[[Challenge-handshake authentication protocol|CHAP]],| {{Yes}},| {{Yes}},| {{No}},
+| {{Yes}},| {{No}},| {{No}},| {{No}},| {{No}},
+| {{No}},| {{No}},| {{No}},| {{No}},| {{No}},
+| {{No}},| {{No}},| {{Yes}},| {{No}},| {{No}},
+| {{Yes}},| {{No}},| {{Yes}},| {{Yes}},| {{Yes}},
+| {{No}},| {{No}},| {{Yes}},| {{No}},| {{No}},
+| {{No}},| {{No}},| {{No}},| {{No}},| {{No}},
+| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}},
+| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}},| {{Yes}} (Old v:1),
+| {{No}} 64 TB,| {{Yes}},| {{Yes}},| {{No}} 4/8/16 (more need additional license),| {{Yes}},
+,

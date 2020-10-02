@@ -4,17 +4,17 @@ Format,Languages
 " Replace( string ,  find ,  replace ) ",Visual Basic
 " replace( string ,  find ,  replace ) ",Seed7
 " change( string ,  find ,  replace ) ",Pick Basic
-"  string .Replace( find ,  replace ) "," Visual Basic .NET, Visual Basic .NET, Visual Basic .NET "
+"  string .Replace( find ,  replace ) "," C Sharp (programming language), C Sharp (programming language), C Sharp (programming language) "
 " str_replace( find ,  replace ,  string ) ",PHP
 " re:replace( string ,  find ,  replace , «{return, list}») ",Erlang (programming language)
-"  string .replace( find ,  replace ) "," Cobra (programming language), Cobra (programming language), Cobra (programming language) (1.5+) "
-"  string .replaceAll( find_regex ,  replace )[23] ",Java (programming language)
+"  string .replace( find ,  replace ) "," Cobra (programming language), Cobra (programming language) (1.5+), Cobra (programming language), Cobra (programming language)Cobra (programming language) "
+"  string .replaceAll( find_regex ,  replace )[36] ",Java (programming language)
 "  string .gsub( find ,  replace ) ",Ruby (programming language)
-string  =~ s/ find_regex / replace /g[23],Perl 5
+string  =~ s/ find_regex / replace /g[36],Perl 5
 "  string .subst( find ,  replace , :g) ",Raku (programming language)
-"  string .replace( find ,  replace , ""g"") [24] or   string .replace(/ find_regex /g,  replace )[23] ",JavaScript
+"  string .replace( find ,  replace , ""g"") [37] or   string .replace(/ find_regex /g,  replace )[36] ",JavaScript
 " Echo (command) "" string "" | Echo (command) 's/ find_regex / replace /g'Echo (command) ",Unix
-"  string .replace( find ,  replace ), or  string  -replace  find_regex ,  replace [23] ",Windows PowerShell
+"  string .replace( find ,  replace ), or  string  -replace  find_regex ,  replace [36] ",Windows PowerShell
 Str.global_replace (Str.regexp_string  find )  replace   string,OCaml
 [ string  stringByReplacingOccurrencesOfString: find  withString: replace ],Objective-C (NSString * only)
 "  string .stringByReplacingOccurrencesOfString( find , withString: replace ) ",Swift (programming language) (Foundation)

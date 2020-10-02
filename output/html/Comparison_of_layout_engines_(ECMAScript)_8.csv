@@ -1,4 +1,4 @@
-,Trident (layout engine),Gecko (layout engine),WebKit,Presto (layout engine),Blink (layout engine)
+Boolean object,Trident (layout engine),Gecko (layout engine),WebKit,Presto (layout engine),Blink (layout engine)
 Called as function,,,,,
 Boolean([value]),Yes,Yes,Yes,Yes,Yes
 Called as constructor,,,,,

@@ -27,6 +27,7 @@ E4M,No,Yes,Yes,No,no,dunno
 e-Capsule Private Safe,no,no,yes,no,no,dunno
 eCryptfs,no,no,yes,no,no,dunno
 EgoSecure HDD Encryption,yes,yes,yes,yes,yes,dunno
+EncryptUSB,no,no,yes,no,no,dunno
 FileVault,no,no,yes
 FileVault 2,yes,yes,no,yes,yes,dunno
 FREE CompuSec,yes,no,yes,yes,yes,dunno
@@ -47,7 +48,7 @@ SafeHouse Professional,no,no,yes,no,no,dunno
 Scramdisk,no,yes,yes,no,no,dunno
 Scramdisk 4 Linux,yes,yes,yes,yes,no,dunno
 SecuBox,no,no,yes,n/a,no,dunno
-SecureDoc,yes,yes,yes,yes,yes,dunno
+[https://www.winmagic.com/encryption-solutions/enterprise-encryption SecureDoc],yes,yes,yes,yes,yes,dunno
 Sentry 2020,no,no,yes,no,no,dunno
 Seqrite Encryption Manager,yes,yes,yes,yes,yes,RAID-5
 Softraid / RAID C,yes,yes,no,yes (encrypted by default in OpenBSD),no,dunno

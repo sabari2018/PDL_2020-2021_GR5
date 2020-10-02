@@ -2,6 +2,7 @@ Software,Windows,macOS,Linux,ChromeOS,BSD,Unix,iOS App,Android App,Windows App
 Bebop,yes,yes,yes,dunno,yes,yes,no,no,no
 BibBase,n/a,n/a,n/a,n/a,n/a,n/a,dunno,dunno,dunno
 BibDesk,no,yes,no,dunno,no,no,Third-party - PocketBib,dunno,dunno
+Biblioscape,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 BibSonomy,n/a,n/a,n/a,n/a,n/a,n/a,dunno,dunno,dunno
 Bibus,yes,table-experimental,yes,dunno,yes,yes,no,no,no
 Bookends,no,yes,no,dunno,no,no,yes,dunno,dunno
@@ -9,7 +10,6 @@ Citavi,yes,no,no,no,no,no,no,no,no
 CiteULike,n/a,n/a,n/a,n/a,n/a,n/a,dunno,dunno,dunno
 colwiz,yes,yes,yes,dunno,yes,yes,yes,yes,no
 EndNote,yes,yes,no,no,no,no,yes,no,no
-F1000Workspace,yes,yes,no,no,no,no,Yes,Yes,no
 JabRef,yes,yes,yes,no,yes,yes,no,no,no
 KBibTeX,table-experimental,table-experimental,yes,dunno,yes,yes,no,no,no
 Mendeley,yes,yes,yes,no,no,no,yes,yes,no
@@ -21,6 +21,7 @@ refbase,yes,yes,yes,dunno,yes,yes,no,no,no
 RefDB,yes,yes,yes,dunno,yes,yes,no,no,no
 Reference Manager,yes,no,no,dunno,no,no,no,no,no
 Referencer,no,no,yes,dunno,no,no,dunno,dunno,dunno
+RefME,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 RefWorks,yes,yes,no,yes,yes,dunno,No - but is responsive,dunno,no
 SciRef,yes,no,no,dunno,no,no,dunno,dunno,dunno
 Sente,no,yes,no,dunno,no,no,yes,dunno,dunno

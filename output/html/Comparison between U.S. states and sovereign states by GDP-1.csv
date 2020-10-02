@@ -1,0 +1,244 @@
+#, Country, GDP (USD million)
+1, IMG United States, 21427690
+2, IMG China[n 1], 14140163
+3, IMG Japan, 5154475
+4, IMG Germany (European Union), 3863344
+5, IMG California (United States), 3137469
+6, IMG India, 2935570
+7, IMG United Kingdom, 2743586
+8, IMG France (European Union), 2707074
+9, IMG Italy (European Union), 1988636
+10, IMG Texas (United States), 1886956
+11, IMG Brazil, 1847020
+12, IMG New York (United States), 1731910
+13, IMG Canada, 1730914
+14, IMG Russia[n 2], 1637892
+15, IMG South Korea, 1629532
+16, IMG Spain (European Union), 1397870
+17, IMG Australia, 1376255
+18, IMG Mexico, 1274175
+19, IMG Indonesia, 1111713
+20, IMG Florida (United States), 1093350
+21, IMG Netherlands (European Union), 902355
+22, IMG Illinois (United States), 897123
+23, IMG Pennsylvania (United States), 813513
+24, IMG Saudi Arabia, 779289
+25, IMG Turkey, 743708
+26, IMG Switzerland, 715360
+27, IMG Ohio (United States), 698458
+28, IMG New Jersey (United States), 644841
+29, IMG Georgia (United States), 616333
+30, IMG Washington (United States), 599607
+31, IMG Massachusetts (United States), 595558
+32, IMG North Carolina (United States), 587711
+33, IMG Taiwan, 586104
+34, IMG Poland (European Union), 565854
+35, IMG Virginia (United States), 554211
+36, IMG Michigan (United States), 541550
+37, IMG Thailand, 529177
+38, IMG Sweden (European Union), 528929
+39, IMG Belgium (European Union), 517609
+40, IMG Iran, 458500
+41, IMG Austria (European Union), 447718
+42, IMG Nigeria, 446543
+43, IMG Argentina, 445469
+44, IMG Maryland (United States), 428388
+45, IMG Norway, 417627
+46, IMG United Arab Emirates, 405771
+47, IMG Colorado (United States), 390283
+48, IMG Israel, 387717
+49, IMG Ireland (European Union), 384940
+50, IMG Minnesota (United States), 380854
+51, IMG Tennessee (United States), 380137
+52, IMG Indiana (United States), 379133
+53, IMG Arizona (United States), 366189
+54, IMG Malaysia, 365303
+55, IMG Singapore, 362818
+56, IMG South Africa, 358839
+57, IMG Philippines, 356814
+58, IMG Wisconsin (United States), 347306
+59, IMG Denmark (European Union), 347176
+60, IMG Missouri (United States), 332082
+61, IMG Colombia, 327895
+62, IMG Bangladesh, 317465
+63, IMG Egypt, 302256
+64, IMG Chile, 294237
+65, IMG Connecticut (United States), 285640
+66, IMG Pakistan, 284214
+67, IMG Finland (European Union), 269654
+68, IMG Louisiana (United States), 263856
+69, IMG Vietnam, 261637
+70, IMG Oregon (United States), 251604
+71, IMG Czech Republic (European Union), 246953
+72, IMG South Carolina (United States), 246308
+73, IMG Romania (European Union), 243698
+74, IMG Portugal (European Union), 236408
+75, IMG Alabama (United States), 230968
+76, IMG Peru, 228989
+77, IMG Iraq, 224462
+78, IMG Kentucky (United States), 214671
+79, IMG Greece (European Union), 214012
+80, IMG Oklahoma (United States), 206058
+81, IMG New Zealand, 204671
+82, IMG Iowa (United States), 194788
+83, IMG Qatar, 191849
+84, IMG Utah (United States), 188501
+85, IMG Nevada (United States), 177614
+86, IMG Kansas (United States), 173142
+87, IMG Algeria, 172781
+88, IMG Hungary (European Union), 170407
+89, IMG Kazakhstan, 170326
+90, IMG Ukraine, 150401
+91, IMG District of Columbia (United States), 146194
+92, IMG Kuwait, 137591
+93, IMG Arkansas (United States), 133180
+94, IMG Nebraska (United States), 127036
+95, IMG Morocco, 119040
+96, IMG Mississippi (United States), 118779
+97, IMG Ecuador, 107914
+98, IMG Slovakia (European Union), 106552
+99, IMG New Mexico (United States), 104001
+100, IMG Puerto Rico (United States), 99913
+101, IMG Kenya, 98607
+102, IMG Hawaii (United States), 97281
+103, IMG Angola, 91527
+104, IMG Ethiopia, 91166
+105, IMG Dominican Republic, 89475
+106, IMG New Hampshire (United States), 88595
+107, IMG Sri Lanka, 86566
+108, IMG Idaho (United States), 80911
+109, IMG Guatemala, 81318
+110, IMG West Virginia (United States), 78189
+111, IMG Syria[n 3], 77460
+112, IMG Oman, 76609
+113, IMG Delaware (United States), 75415
+114, IMG Venezuela, 70140
+115, IMG Luxembourg (European Union), 69453
+116, IMG Panama, 68536
+117, IMG Maine (United States), 67518
+118, IMG Ghana, 67077
+119, IMG Bulgaria (European Union), 66250
+120, IMG Myanmar, 65994
+121, IMG Rhode Island (United States), 63541
+122, IMG Belarus, 62572
+123, IMG Tanzania, 62224
+124, IMG Costa Rica, 61021
+125, IMG Croatia (European Union), 60702
+126, IMG Uzbekistan, 60490
+127, IMG Uruguay, 59918
+128, IMG Lebanon, 58565
+129, IMG North Dakota (United States), 57036
+130, IMG Alaska (United States), 55406
+131, IMG Slovenia (European Union), 54154
+132, IMG Lithuania (European Union), 53641
+133, IMG South Dakota (United States), 53305
+134, IMG Montana (United States), 52169
+135, IMG Serbia, 51523
+136, IMG Democratic Republic of the Congo, 48994
+137, IMG Azerbaijan, 47171
+138, IMG Turkmenistan, 46674
+139, IMG Côte d'Ivoire, 44439
+140, IMG Jordan, 44172
+141, IMG Bolivia, 42401
+142, IMG Paraguay, 40714
+143, IMG Wyoming (United States), 39646
+144, IMG Tunisia, 38732
+145, IMG Cameroon, 38632
+146, IMG Bahrain, 38184
+147, IMG Latvia (European Union), 35045
+148, IMG Vermont (United States), 34785
+149, IMG Libya, 33018
+150, IMG Estonia (European Union), 31038
+151, IMG Sudan, 30873
+152, IMG Uganda, 30666
+153, IMG Yemen, 29855
+154, IMG Nepal, 29813
+155, IMG El Salvador, 26871
+156, IMG Cambodia, 26730
+157, IMG Honduras, 24449
+158, IMG Cyprus (European Union), 24280
+159, IMG Zambia, 23946
+160, IMG Senegal, 23940
+161, IMG Iceland, 23918
+162, IMG Papua New Guinea, 23587
+163, IMG Trinidad and Tobago, 22607
+164, IMG Bosnia and Herzegovina, 20106
+165, IMG Laos, 19127
+166, IMG Afghanistan, 18734
+167, IMG Botswana, 18690
+168, IMG Mali, 17647
+169, IMG Gabon, 16877
+170, IMG Georgia, 15925
+171, IMG Jamaica, 15702
+172, IMG Albania, 15418
+173, IMG Mozambique, 15093
+174, IMG Malta (European Union), 14859
+175, IMG Burkina Faso, 14593
+176, IMG Mauritius, 14391
+177, IMG Benin, 14374
+178, IMG Namibia, 14368
+179, IMG Mongolia, 13637
+180, IMG Armenia, 13444
+181, IMG Guinea, 13368
+182, IMG Zimbabwe, 12818
+183, IMG North Macedonia, 12672
+184, IMG The Bahamas, 12664
+185, IMG Madagascar, 12550
+186, IMG Nicaragua, 12528
+187, IMG Brunei, 12455
+188, IMG Equatorial Guinea, 12142
+189, IMG Moldova, 11688
+190, IMG Republic of Congo, 11576
+191, IMG Chad, 11026
+192, IMG Rwanda, 10209
+193, IMG Niger, 9443
+194, IMG Somalia, 9819
+195, IMG Kyrgyzstan, 8261
+196, IMG Tajikistan, 8152
+197, IMG Kosovo, 7996
+198, IMG Malawi, 7522
+199, IMG Maldives, 5786
+200, IMG Fiji, 5708
+201, IMG Mauritania, 5651
+202, IMG Togo, 5502
+203, IMG Montenegro, 5424
+204, IMG Barbados, 5189
+205, IMG Haiti, 4958
+206, IMG Eswatini, 4657
+207, IMG Sierra Leone, 4229
+208, IMG Guyana, 4121
+209, IMG Suriname, 3774
+210, IMG South Sudan, 3681
+211, IMG Burundi, 3573
+212, IMG Liberia, 3222
+213, IMG Djibouti, 3166
+214, IMG Timor-Leste, 2938
+215, IMG Aruba, 2903
+216, IMG Bhutan, 2842
+217, IMG Lesotho, 2741
+218, IMG Central African Republic, 2321
+219, IMG Eritrea, 2110
+220, IMG Cape Verde, 2013
+221, IMG Belize, 2001
+222, IMG St. Lucia, 1992
+223, IMG The Gambia, 1773
+224, IMG Antigua and Barbuda, 1688
+225, IMG Seychelles, 1644
+226, IMG San Marino, 1591
+227, IMG Solomon Islands, 1440
+228, IMG Guinea-Bissau, 1397
+229, IMG Grenada, 1238
+230, IMG Comoros, 1179
+231, IMG St. Kitts and Nevis, 1032
+232, IMG Vanuatu, 951
+233, IMG Samoa, 905
+234, IMG St. Vincent and the Grenadines, 856
+235, IMG Dominica, 593
+236, IMG Tonga, 488
+237, IMG São Tomé and Príncipe, 430
+238, IMG Micronesia, 381
+239, IMG Palau, 291
+240, IMG Marshall Islands, 220
+241, IMG Kiribati, 184
+242, IMG Nauru, 108
+243, IMG Tuvalu, 42

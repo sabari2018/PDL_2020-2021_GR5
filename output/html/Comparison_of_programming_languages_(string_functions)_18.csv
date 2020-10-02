@@ -8,7 +8,7 @@ string1  ne  string2," Perl, Perl "
 (string/=  string1   string2 ),Common Lisp
 (string/=  string1   string2 ),ISLISP
 (not=  string1   string2 ),Clojure
-string1  !=  string2," C++ (STL), C++, C++, C++ (not similar), C++ (not similar), C++, C++, C++, C++, C++ "
+string1  !=  string2," C++ (STL), C++, C++, C++ (not similar), C++ (not similar), C++, C++, C++,C++ C++, C++, C++ "
 string1  !==  string2," JavaScript, JavaScript "
 string1  \=  string2,Rexx
 string1  ¬=  string2,PL/I
@@ -16,3 +16,4 @@ string1  ¬=  string2,PL/I
 "  string1  -ne  string2 , or  -not [string]::Equals( string1 ,  string2 ) ",Windows PowerShell
 string1  ~=  string2," Lua (programming language), Lua (programming language) "
 string1  ≢  string2,APL (programming language)
+string1 .ne( string2 ),Rust (programming language)Rust (programming language)

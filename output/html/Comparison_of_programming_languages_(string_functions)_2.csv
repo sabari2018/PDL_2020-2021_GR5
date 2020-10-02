@@ -9,7 +9,7 @@ string .Chars( i ),Visual Basic .NET,0
 string ( i : i ),Fortran,1
 string .charAt( i )," Java (programming language), Java (programming language) ",0
 string .[ i ]," OCaml, OCaml ",0
-string .chars().nth( i ),Rust (programming language),0
+string .chars().nth( i ),Rust (programming language)Rust (programming language),0
 "  string [ i , 1 ] ",Pick Basic,1
 " String.sub ( string ,  i ) ",Standard ML,0
 string  !!  i,Haskell (programming language),0
@@ -18,7 +18,7 @@ string  !!  i,Haskell (programming language),0
 (elt  string   i ),ISLISP,0
 (get  string   i ),Clojure,0
 " substr( string ,  i , 1) ",Perl 5Perl 5,0
-" substr( string ,  i , 1)    string.substr( i , 1)  ",Raku (programming language)Raku (programming language),0
+" substr( string ,  i , 1)   string.substr( i , 1) ",Raku (programming language)Raku (programming language),0
 " substr( string ,  i , 1) ",PL/I,1
 string .at( i ),C++ (STL) (w/ bounds checking),0
 " lists:nth( i ,  string ) ",Erlang (programming language),1

@@ -22,3 +22,4 @@ Str.search_backward (Str.regexp_string substring) string (Str.length string - 1)
 string lastIndexOfString:substring,Smalltalk,returns 0
 string last substring string startpos,Tcl,returns −1
 (⌽,APL,returns −1
+string.rfind(substring),Rust,returns None

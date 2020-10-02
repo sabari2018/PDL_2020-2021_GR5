@@ -5,7 +5,6 @@ OpenBSD,yes,yes,yes,yes,yes,yes,yes,no
 NetBSD,yes,yes,yes,yes,yes,yes,yes,yes
 DragonFly BSD,yes,,yes,yes,yes,yes,yes,
 " OpenSolaris, illumos",yes,,yes,yes,yes,yes,no,no
-AuroraUX,yes,,yes,yes,yes,yes,no,no
 " Darwin, OpenDarwin",yes,,,,,,,
 MINIX,yes,,yes,,,,,
 FreeDOS,yes,yes,yes,,,,,

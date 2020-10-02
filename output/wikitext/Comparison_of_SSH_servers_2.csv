@@ -1,7 +1,9 @@
 Name,Mac OS X,Mac OS classic,Windows,Cygwin,BSD,Linux,Solaris,Java,OpenVMS,z/OS,AmigaOS,AIX,HPUX,group=Noteiphone iPod Touch,webOS,Android
 Apache MINA SSHD,yes,no,yes,no,yes,yes,yes,yes,no,no,no,yes,yes,no,no,no
+Bitvise SSH Server,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no
 CopSSH,no,no,yes,yes,no,no,no,no,no,no,no,no,no,no,no,no
 CrushFTP Server,yes,no,yes,yes,yes,yes,yes,yes,no,no,no,yes,yes,no,no,no
 Dropbear,yes,no,no,yes,yes,yes,yes,no,no,no,no,yes,yes,no,group=Notesshwebos,yes
 lsh,yes,no,no,no,group=Notefreebsdonly,yes,yes,no,no,no,no,no,no,no,no,??
 OpenSSH (OpenBSD Secure Shell),included,no,group=Notewin32-openssh,included,included,group=Noteopensshlinux,yes,no,yes,yes,yes,group=Noteopensshaix,included,group=Noteopensshiphone,group=Notesshwebos,partial
+wolfSSH,yes,no,yes,yes,yes,yes,yes,no,no,no,no,??,??,no,??,no

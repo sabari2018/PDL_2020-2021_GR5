@@ -8,9 +8,10 @@ Linphone,Active,yes,yes,yes,dunno,yes,yes,yes,yes,dunno,no
 PGPfone,Abandonware,Viewable source,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Signal,Active,yes,yes
 Silent Phone,Active,Viewable source,yes,yes,yes,no
+" Skype(opt-in per conversation,one pair of devices per conversation)",Active,no,yes,no,no,no,yes,dunno,dunno,no,no
 Telegram,Active,yes,yes,no,no,no,no,yes,dunno,no,no
 Threema,Active,Partially,yes,no,yes,yes,no,no
 Viber,Active,no,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,no
 WhatsApp,Active,Partially,no,yes,no,yes,yes,yes,no,no
-Wire,Active,yes,yes,no,dunno,yes,yes,dunno,yes,yes,no
+Wire,Active,yes,yes,no,dunno,yes,yes,yes,yes,no
 Zfone,Abandonware,Viewable source,yes,yes,optional,dunno,yes,yes,yes,dunno,dunno

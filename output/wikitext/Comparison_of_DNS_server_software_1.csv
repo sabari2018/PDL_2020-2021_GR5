@@ -1,11 +1,11 @@
-Server,Authoritative,Recursive,Recursion ACL,Slave mode,Caching,DNSSEC,TSIG,IPv6,Wildcard,Free Software,Interface,split horizon
-BIG-IP DNS,yes,yes,yes,yes,yes,yes,yes,yes,yes,date=October 2019," API, command line",yes
+Server,Authoritative,Recursive,Recursion ACL,Secondary mode,Caching,DNSSEC,TSIG,IPv6,Wildcard,Free Software,Interface,split horizon
+BIG-IP DNS,yes,yes,yes,yes,yes,yes,yes,yes,yes,no," API, command line",yes
 BIND,yes,Yes,yes,Yes,yes,yes,yes,yes (since 9.x),yes (since 4.x),yes," Webgroup=Notebind_web, command line",yes
-PowerDNS,Yes,Yes,Yes,group=Notepowerdns_slave6,Yes,group=Notepowerdns_dnssec,Yes (since 3.0),group=Notepowerdns_slave6,Yes,Yes," REST, Webgroup=Notepowerdns_web, command line",group=Notepowerdns_views
-djbdns,yes,yes,yes,group=Notedjbslave,yes,group=Notedjbdns_dnssec,no,partial via generic records. [http://www.fefe.de/dns/],group=Notedjbdns_wild,yes,command line and web ([http://vegadns.org/ VegaDNS]  ; [http://www.nictool.com/ NicTool]),group=Notelocations
+PowerDNS,Yes,Yes,Yes,group=Notepowerdns_sec6,Yes,group=Notepowerdns_dnssec,Yes (since 3.0),group=Notepowerdns_sec6,Yes,Yes," REST, Webgroup=Notepowerdns_web, command line",group=Notepowerdns_views
+djbdns,yes,yes,yes,group=Notedjbsec,yes,group=Notedjbdns_dnssec,no,partial via generic records. [http://www.fefe.de/dns/],group=Notedjbdns_wild,yes,command line and web ([http://vegadns.org/ VegaDNS]  ; [http://www.nictool.com/ NicTool]),group=Notelocations
 dbndns,yes,yes,yes,yes,yes,no,no,yes,partial,yes,command line and web,yes
 pdnsd,partial,yes,partial,partial,yes,no,partial,yes,yes,yes," command line, pdnsd-ctl program",partial
-MaraDNS,Yes,Yes,Yes,group=Notemaraslave,yes,no,no,partial,yes,yes,command line,no
+MaraDNS,Yes,Yes,Yes,group=Notemarasec,yes,no,no,partial,yes,yes,command line,no
 ,Posadis,yes,yes,yes,yes,yes,no,no,yes,yes,Yes," command line, API",no
 Unbound,partial,yes,yes,n/a,yes,yes,no,yes,yes,yes," command line, API",yes
 Dnsmasq,group=Notemasqauth,no,no,no,yes,group=Notemasqdnssec,no,yes,yes,yes,command line,group=Notemasqsplit
@@ -17,4 +17,4 @@ Microsoft DNS,Yes,Yes,group=Notemsdns_policies,Yes,Yes,group=Notemsdns_dnssec,gr
 Simple DNS Plus,yes,yes,yes,yes,yes,yes,yes,yes,yes,No," GUI, Web, command line",group=Notesdns_views
 Secure64 DNS Authority,yes,no,no,yes,no,yes,yes,yes,yes,no,Command Line or Web GUI,yes
 Secure64 DNS Cache,no,yes,yes,no,yes,yes,no,yes,yes,no,Command Line or Web GUI,yes
-Server,Authoritative,Recursive,Recursion ACL,Slave mode,Caching,DNSSEC,TSIG,IPv6,Wildcard,Free Software,Interface,split horizon
+Server,Authoritative,Recursive,Recursion ACL,Secondary mode,Caching,DNSSEC,TSIG,IPv6,Wildcard,Free Software,Interface,split horizon

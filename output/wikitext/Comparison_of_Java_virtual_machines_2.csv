@@ -1,6 +1,5 @@
 JVM,Status,Latest supported Java version,Supported class libraries,,,| Performance,,
 ,,,GNU Classpath,OpenJDK,Other,Interpretation,[[AOT compiler|AOT]],[[Just-in-time compilation|JIT]]
-CACAO,,1.6,Yes,Yes,,No,No,Yes
 GCJ,No longer maintained or distributed by GNU as of GCC 7,dunno,Yes,No,,Yes,Yes,No
 "HotSpot, OpenJDK edition",Reference implementation.,1.8,No,Yes,,Yes,No,Yes
 Oracle JDK edition,Reference implementation.,1.8,No,Yes,,Yes,No,Yes

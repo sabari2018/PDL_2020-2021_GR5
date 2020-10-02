@@ -1,0 +1,28 @@
+[ Pump type
+, Cyclic/continuous ?
+, Maximum lift height
+, Production cost
+, Efficiency
+, Output
+, Size of device
+, Fabrication requirements
+, Difficulty of production
+, Durability
+, Difficulty of repair
+, Suction lift ?
+],
+| continuous,| 5m-50m,| low-medium,| medium,| low-medium,| ?,| ?,| traditional,| ?,| ?,| no,
+| cyclic,| 1m-4m,| low-medium,| low-medium,| low-medium,| ?,| ?,| traditional,| ?,| ?,| no,
+| cyclic,| 3m-8m,| low-medium,| low,| medium,| ?,| ?,| traditional,| ?,| ?,| no,
+| continuous,| 3m-10m,| low-medium,| medium,| medium,| ?,| ?,| traditional,| ?,| ?,| no,
+| continuous,| 3m-15m,| medium,| medium-high,| medium-high,| ?,| ?,| traditional,| ?,| ?,| no,
+| cyclic,| 1m-15m,| low-medium,| low-medium,| low-medium,| ?,| ?,| traditional,| ?,| ?,| no,
+| cyclic,| 100m-500m,| medium-high,| medium,| medium-high,| ?,| ?,| industrial,| ?,| ?,| no,
+| cyclic,| 5m-50m,| very low,| very low,| very low,| ?,| ?,| basic,| ?,| ?,| no,
+| cyclic,| 1m,| very low,| very low,| low-medium,| ?,| ?,| basic,| ?,| ?,| no,
+| continuous,| 2m,| medium-high,| medium-high,| medium-high,| ?,| ?,| traditional,| ?,| ?,| no,
+| cyclic,| 1m,| very low,| very low,| low-medium,| ?,| ?,| basic,| ?,| ?,| no,
+| continuous,| 5m,| low-medium,| low-medium,| low-medium,| ?,| ?,| traditional,| ?,| ?,| no,
+| cyclic,| 3m,| very low,| very low,| very low,| ?,| ?,| basic,| ?,| ?,| no,
+
+,

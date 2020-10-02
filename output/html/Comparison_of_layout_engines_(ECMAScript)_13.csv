@@ -1,4 +1,4 @@
-,Trident (layout engine),Gecko (layout engine),WebKit,Presto (layout engine)
+Error object,Trident (layout engine),Gecko (layout engine),WebKit,Presto (layout engine)
 Called as function,,,,
 Error (message),?,?,?,?
 Called as constructor,,,,

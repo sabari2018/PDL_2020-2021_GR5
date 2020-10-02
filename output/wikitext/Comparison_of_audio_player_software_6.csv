@@ -16,6 +16,7 @@ Musicmatch Jukebox,no,no,no,no,no,no,no,dunno,dunno,dunno
 musikCube,no,no,no,Vorbis only,no,no,no,dunno,dunno,dunno
 Rhapsody,no,no,no,no,no,no,no,dunno,dunno,dunno
 Rhythmbox,no,yes,no,Vorbis only,no,no,name=through_gstreamer,dunno,dunno,dunno
+Sayonara Player,no,dunno,no,Vorbis only,dunno,dunno,dunno,dunno,dunno,dunno
 Sonique,name=autodl,no,no,yes,no,no,no,dunno,dunno,dunno
 Winamp,yes,yes,name=plugin,yes,yes,yes,yes,dunno,dunno,yes
 XMMS,no,no,no,Vorbis only,no,no,no,dunno,dunno,dunno

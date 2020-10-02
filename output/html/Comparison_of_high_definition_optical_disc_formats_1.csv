@@ -6,7 +6,7 @@ Maximum Bitrate,Raw data transfer,,128 Mbit/s,53.95 Mbit/s,36.55 Mbit/s,,Unknown
 Audio+Video+Subtitles,,,48.0 Mbit/s,30.24 Mbit/s,,27 Mbit/s,,10.08 Mbit/s
 Video,,,40.0 Mbit/s,29.4 Mbit/s,,Unknown,,9.8 Mbit/s
 Mandatory Video codec,,,H.265/MPEG-H Part 2,H.264/MPEG-4 AVC / H.264/MPEG-4 AVC / H.264/MPEG-4 AVC,,China's Audio Video Standard / Audio Video Standard / Audio Video Standard / Audio Video Standard,H.264/MPEG-4 AVC,H.264/MPEG-4 AVC H.264/MPEG-4 AVC,MPEG-1 / MPEG-1
-,Audio codec (maximum data rates shown),Audio compression (data),Dolby Digital,TBD,Mandatory 640 kbit/s,Mandatory 504 kbit/s [1],,Mandatory 64-640 kbit/s,,Mandatory 448 kbit/s
+,Audio codec (maximum data rates shown),Audio compression (data),Dolby Digital,TBD,Mandatory 640 kbit/s,Mandatory 504 kbit/s [2],,Mandatory 64-640 kbit/s,,Mandatory 448 kbit/s
 ,,,DTS Coherent Acoustics,TBD,Mandatory 1.5 Mbit/s,,Unknown,N/A,,Optional 1.5 Mbit/s
 ,,,Dolby Digital PlusDolby Digital Plus,TBD,Optional 1.7 Mbit/s,Mandatory 3.0 Mbit/s,,N/A,,N/A
 ,,,Digital Theater System,TBD,Optional 6.0 Mbit/s,Optional 3.0 Mbit/s,Unknown,N/A,,N/A

@@ -2,7 +2,7 @@ Program,Fullscreen,slideshow,zoom(styles),cache decoded images,thumbnails (sizes
 ACDSee,yes,yes," yes 1:1, fit width and/or height, lock","  yes previous, next",yes user-defined,yes database,"  directory-tree, albums, calendar, favourites, search results",yes,"  yes user-defined, name, date, size, type, ..."
 CDisplay,yes,yes," yes 1:1, fit over/under width/height, fullscreen, doublepage",,"  YesFixed, with scroll",,Thumbnails(of current folder images or archive),No,No
 Comix,yes,yes," yes 1:1, fit over/under width/height, fullscreen, doublepage",,"  YesFixed, with scroll",,Thumbnails(of current folder images or archive),No,No
-digiKam,yes,yes," yes fit, in/out","  yes previous, next",Yes adjustable size,yes," yes album-tree, tags, calendar, searches, map (geolocation)",yes," yes tags, date, keywords, metadata"
+digiKam,yes,yes," yes fit, in/out","  yes previous, next",Yes adjustable size,yes," yes album-tree, tags, calendar, searches, map (geolocation)",yes," sort (schemes) --> partialtags, date, keywords, metadata; no user-defined order"
 Eye of gnome,yes,yes," yes +/-, 1:1, best fit",,"  image collection pane, only one row",,Thumbnails(of current folder images),yes,No
 F-Spot,yes,yes,yes,,yes,," list, file-tree",,yes keywords
 FastPictureViewer,yes,yesAuto-advance mode,"  yes 1:1, fit, 50%-6400% magnifier, click-and-hold zooming"," yesdynamic, adaptive"," yes96x96px, shown on navigation slider (Vista or later)",yes(uses OS-managed cache on Windows Vista or later)," yesWindowed or full-screen, back and forth navigation, bookmarks, navigation slider",no," yes Filenames, file creation/modification date, Exif date taken, GPS timestamp"
@@ -14,7 +14,6 @@ IrfanView,yes,yes,"  yes 1:1, fit width and/or height, lock",no,yes 18 predefine
 KPhotoAlbum,yes,yes," yes fit, in/out, presets",,yes,,views search results,,by date
 Phase One Media Pro,yes,yes," yesFit to viewing area/height/width, 1:1, zoom to 1600%",yes," yes Yes, user-defined",yesDatabase,"  yes Catalog-sets, date, filetypes, events, author, people, by search, by keywords and all metadata",yes,"  yes name, date, size, user-defined"
 Picasa,partial only in slideshow mode,yes," partial no view window, fit to viewing area, 1:1, zoom to 400%",no,yes user defined,yesdatabase,"  directory-tree, albums, timeline",yes,"  partial name, date, size, user-defined"
-ResourceSpace,yes,yes,yes,yes,yesuser defined,yesdatabase," thumbs, list, events, tags",yescontact sheet," yesdate, relevance, colour"
 Shotwell,Yes,Yes,Yes,no,yes fixed size,yes,"  Thumbs, Events (dates), tags",yes,"  Yes Title, Exposure Date"
 Simple Comic,yes,yes,yesMagnifying loupe on cursor,,yes,," yesfullscreen thumbnails, thumbnails when hovering over progress bar, single page, double page",no,Only by ascending file name.
 STDU Viewer,yes,no," yesfit to width, fit to height, fit to size",no,yes,no,no,yes,no

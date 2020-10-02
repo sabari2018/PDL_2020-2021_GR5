@@ -2,7 +2,7 @@ Firewall,License,Cost,OS
 Clavister,Proprietary,Included on all ClavisterNGFWs,Proprietary operating system cOS Core
 Check Point,Proprietary,Included on Check Pointsecurity gateways,Proprietary operating system Check Point IPSOand Gaia (Linux-based)
 FortiGate,Proprietary,Included on all Fortigatedevices," Proprietary, FortiOS, Based on the Linux kernel"
-Palo Alto Networks,Proprietary,Included on Palo AltoNetworks firewalls,Proprietary operating system PANOS
+Palo Alto Networks,Proprietary,Included on Palo AltoNetworks firewalls,Linux
 Sophos,Proprietary,Included on Sophos UTM,Linux-based appliance
 Cisco ASA Firepower,Proprietary,Included on all CISCOASA devices,Proprietary operating system
 Cisco PIX,Proprietary,Included on all CISCOPIX devices,Proprietary operating system
@@ -16,7 +16,6 @@ Endian Firewall,Proprietary,Free / Paid,Linux-based appliance
 Forcepoint NGFW,Proprietary,Included on all Forcepoint NGFW devices,Proprietary operating system
 OPNsense,Simplified BSD / FreeBSD License,Free / Paid,FreeBSD-based appliancefirewall distribution
 pfSense,ESF/Apache 2.0,Free / Paid,FreeBSD-based appliancefirewall distribution
-Untangle,GPL,Free / Paid,Linux-based appliancefirewall distribution
 Zeroshell,GPL,Free / Paid,Linux/NanoBSD-based appliancefirewall distribution
 SmoothWall,GPL,Free / Paid,Linux-based applianceembedded firewall distribution
 IPFire,GPL,Free (Donations welcomed),Linux-based applianceembedded firewall distribution

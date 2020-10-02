@@ -1,18 +1,18 @@
 Implementation,HMAC-MD5,SHA1,SHA256/384,AEAD,GOST 28147-89 IMIT,GOST R 34.11-94
-Botan,no,yes,yes,yes,no,no
-cryptlib,yes,yes,yes,yes,no,no
-GnuTLS,yes,yes,yes,yes,no,no
-JSSE,Yes,yes,yes,yes,no,no
-LibreSSL,yes,yes,yes,yes,yes,yes
-MatrixSSL,yes,yes,yes,yes,no,no
-mbed TLS,yes,yes,yes,yes,no,no
-NSS,yes,yes,yes,yes,no,no
-OpenSSL,yes,yes,yes,yes,yes,yes
-RSA BSAFE,yes,yes,yes,yes,no,no
-" SChannel XP/2003, Vista/2008",yes,yes," XP SP3, 2003 SP2 via hotfix",no,no,no
-" SChannel 7/2008R2, 8/2012, 8.1/2012R2",yes,yes,yes,except ECDHE_RSA,no,no
-SChannel 10,yes,yes,yes,yes,no,no
-[https://developer.apple.com/library/mac/documentation/Security/Reference/secureTransportRef/index.html Secure Transport],yes,yes,yes,no,no,no
-wolfSSL,yes,yes,yes,yes,no,no
-Erlang/OTP SSL application,yes,yes,yes,yes,no,no
+Botan,No,Yes,Yes,yes,No,No
+cryptlib,Yes,Yes,Yes,yes,No,No
+GnuTLS,Yes,Yes,Yes,yes,No,No
+JSSE,Yes,Yes,Yes,yes,No,No
+LibreSSL,Yes,Yes,Yes,yes,Yes,Yes
+MatrixSSL,Yes,Yes,Yes,yes,No,No
+Mbed TLS,Yes,Yes,Yes,yes,No,No
+NSS,Yes,Yes,Yes,yes,No,No
+OpenSSL,Yes,Yes,Yes,yes,Yes,Yes
+RSA BSAFE,Yes,Yes,Yes,yes,No,No
+" SChannel XP/2003, Vista/2008",Yes,Yes," XP SP3, 2003 SP2 via hotfix",no,No,No
+" SChannel 7/2008R2, 8/2012, 8.1/2012R2",Yes,Yes,Yes,except ECDHE_RSA,No,No
+SChannel 10,Yes,Yes,Yes,yes,No,No
+Secure Transport,Yes,Yes,Yes,yes,No,No
+wolfSSL,Yes,Yes,Yes,yes,No,No
+Erlang/OTP SSL application,Yes,Yes,Yes,yes,No,No
 Implementation,HMAC-MD5,HMAC-SHA1,HMAC-SHA256/384,AEAD,GOST 28147-89 IMIT,GOST R 34.11-94

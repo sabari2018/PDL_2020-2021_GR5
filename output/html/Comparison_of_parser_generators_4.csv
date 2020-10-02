@@ -7,7 +7,6 @@ DParser,Scannerless parsing,?,C (programming language),Mixed,Scannerless parsing
 Dypgen,Adaptive grammar Adaptive grammar,?,OCaml,Mixed,generated,All,No," Free, CeCILL-B "
 E3,Earley parser,?,OCaml,Mixed," external, or scannerless",All,No,?
 Elkhound,GLR parser,?," C++, C++",Mixed,external,All,No," Free, BSD licenses "
-eu.h8me.Parsing,GLR parser,?,N/A (state machine is runtime generated),Separate,external,.NET Framework,No," Free, BSD licenses "
 GDK," LALR parser(1), LALR parser",?," C (programming language), C (programming language), C (programming language), C (programming language), C (programming language), C (programming language), C (programming language)",Mixed,generated,POSIX,No," Free, MIT License "
 Happy," LALR parser, LALR parser",?,Haskell (programming language),Mixed,external,All,No," Free, BSD licenses "
 Hime Parser Generator,GLR parser,?," C Sharp (programming language), C Sharp (programming language), C Sharp (programming language)",Separate,generated," .NET Framework, .NET Framework",No," Free, GNU Lesser General Public License "
@@ -16,8 +15,6 @@ Jison," LALR parser(1), LALR parser(0), LALR parser(1)",Yacc," JavaScript, JavaS
 Syntax," LALR parser(1), LALR parser(0), LALR parser(1) LALR parser(1) LALR parser(1)",JSON/JSON," JavaScript, JavaScript, JavaScript, JavaScript, JavaScript, JavaScript, JavaScript",Mixed,generated,All,No," Free, MIT License "
 Laja," Scannerless, two phase",Laja,Java (programming language),Separate,Scannerless parsing,All,No," Free, GNU General Public License "
 ModelCC,Earley parser,Annotated class model,Java (programming language),Generated,generated,All,No," Free, BSD licenses "
-parglare,Scannerless parsing,BNF-like," Python interpreted, automata run-time generated",Mixed,Scannerless parsing,All,No," Free, MIT License "
-P1,Combinators,BNF-like,OCaml,Mixed," external, or scannerless",All,No,?
 P3,Earley–combinators,BNF-like,OCaml,Mixed," external, or scannerless",All,No,?
 P4," Earley–combinators, infinitary CFGs",BNF-like,OCaml,Mixed," external, or scannerless",All,No,?
 Scannerless Boolean Parser,Scannerless parsing (Scannerless parsing),?," Haskell (programming language), Haskell (programming language)",Separate,Scannerless parsing,Java virtual machine,No," Free, BSD licenses "
@@ -29,4 +26,3 @@ UltraGram," LALR parser, LALR parser, LALR parser",?," C++, C++, C++, C++",Separ
 Wormhole," Pruning (algorithm), Pruning (algorithm), Pruning (algorithm), Pruning (algorithm)",?," C (programming language), C (programming language)",Mixed,Scannerless parsing,Microsoft Windows,No," Free, MIT License "
 Whale Calf," General tabular, LL parser(k), Linear normal form (LL parser), LL parser, Binary normal form (LL parser)",?,C++,Separate,external,All,No,Proprietary software
 yaep,Earley parser,Yacc-like,C (programming language),Mixed,external,All,No," Free, GNU Lesser General Public License "
-Zecc,Recursive pattern matching,Zecc/Zacc,Linkable library,Mixed,Scannerless,MacOS,Yes,Proprietary software
