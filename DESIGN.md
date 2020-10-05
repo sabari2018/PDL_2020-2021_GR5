@@ -98,8 +98,9 @@ Tests results realised on 10/08/19
 
 ## Global architecture
 
-![100% center](images/finalReport-class-diagram.png)
+![100% center](images/ArchitectureGlobale.jpg)
 Note : some methods (like getters and setters) were omited for readability.
+
 
 | Class | Extends | Description | 
 | --- | --- | --- |
@@ -156,8 +157,8 @@ For links, we decided to keep their title only as we prefer to keep comprehensiv
 | testNullUrl	| OK	|
 | testEmptyUrl | OK |
 | **TestParserComparaison**	| |
-| testCompareNbTabHTML | Failed => Assertion Error : <ul><li>Expected : 100 </li> <li>Actual : 80 |
-| testCompareNbTabWikiText |Failed => Assertion Error : <ul><li>Expected : 100 </li> <li>Actual : 59 </li></ul> |
+| testCompareNbTabHTML | Failed => Assertion Error : <ul><li>Expected : 100 </li> <li>Actual : 80 </li> <li> 80 % of success </li></ul>| 
+| testCompareNbTabWikiText |Failed => Assertion Error : <ul><li>Expected : 100 </li> <li>Actual : 59 </li> <li> 59 % of success </li></ul> |
 | **TestParserHTML**	| |
 | testParseHtml | OK |
 | testParseHtmlTree | OK |
@@ -194,8 +195,8 @@ For links, we decided to keep their title only as we prefer to keep comprehensiv
 | **TestConverter**	| |
 | testFileIsCreated | OK  |
 | testCheckNbRows| OK  |
-| testCheckNbColumn| Failed => Assertion Error : <ul><li>Expected : 2726 </li> <li>Actual : 2614 </li></ul>  |
-| testCsvValid | Failed => Assertion Error : <ul><li>Expected : 2726 </li> <li>Actual : 1862 </li></ul>|
+| testCheckNbColumn| Failed => Assertion Error : <ul><li>Expected : 2726 </li> <li>Actual : 2614 </li> <li> 96 % of success </li></ul>  |
+| testCsvValid | Failed => Assertion Error : <ul><li>Expected : 2726 </li> <li>Actual : 1862 </li> <li> 68 % of success </li></ul>|
 | **TestCSVTemoin**	| |
 | testTemoinOneHtml  | OK |
 | testTemoinTwoHtml  | OK |
