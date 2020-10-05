@@ -101,6 +101,9 @@ Tests results realised on 10/08/19
 ![100% center](images/finalReport-class-diagram.png)
 Note : some methods (like getters and setters) were omited for readability.
 
+We construct a new architecture with few modifications details :
+https://app.genmymodel.com/api/projects/_SWWPkASLEeu_35Z1GKTxtw/diagrams/_SWWPkwSLEeu_35Z1GKTxtw/svg
+
 | Class | Extends | Description | 
 | --- | --- | --- |
 | Main | | Runs the program by creating an instance of ProcessWikiUrl |
