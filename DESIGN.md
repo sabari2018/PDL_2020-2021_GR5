@@ -98,7 +98,7 @@ Tests results realised on 10/08/19
 
 ## Global architecture
 
-![100% center](images/Architecture_Globale.jpeg)
+![100% center](images/ArchitectureGlobale.jpeg)
 Note : some methods (like getters and setters) were omited for readability.
 
 
