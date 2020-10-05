@@ -98,7 +98,7 @@ Tests results realised on 10/08/19
 
 ## Global architecture
 
-![100% center](images/ArchitectureGlobale.jpg)
+![100% center](images/class_diagram_V3.jpg)
 Note : some methods (like getters and setters) were omited for readability.
 
 
