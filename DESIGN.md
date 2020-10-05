@@ -98,8 +98,9 @@ Tests results realised on 10/08/19
 
 ## Global architecture
 
-![100% center](images/finalReport-class-diagram.png)
+![100% center](images/ArchitectureGlobale.jpg)
 Note : some methods (like getters and setters) were omited for readability.
+
 
 | Class | Extends | Description | 
 | --- | --- | --- |
