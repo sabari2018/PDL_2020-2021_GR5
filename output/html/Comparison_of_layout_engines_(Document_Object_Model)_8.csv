@@ -1,4 +1,0 @@
-,,Trident (layout engine),Tasman (layout engine),Gecko (layout engine),WebKit,KHTML,Presto (layout engine)
-Interface CSS2Properties,,,,,,,
-DOM2,Support this interface,4.0,Yes,1.0,?,?,1.0
-,Properties,Please refer to Comparison of layout engines (Cascading Style Sheets) for the comparison of CSS properties.,,,,,,

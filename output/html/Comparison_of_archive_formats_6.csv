@@ -1,9 +1,0 @@
-Format,Filename  extension,Created  by,Introduced in,Based on,Integrity check,Recovery record,Encryption supported,Unicode filenames,Modification date resolution
-Deb (file format) (deb),.deb,Debian,1994 Debian 0.91," Ar (Unix), Ar (Unix), and Ar (Unix) ",Yes,No,No,Yes,1 s
-Installer (macOS)," .pkg, .mpkg (metapackage) ",NeXT,1989 NeXTSTEP 1.0,Pax (command) and Pax (command),Yes,?,?,Yes,?
-RPM Package Manager (RPM),.rpm,Red Hat,1995 Red Hat Linux 1.0,Cpio and Cpio,Yes,?,?,?,1 s
-Slackware Package,.tgz,Patrick Volkerding,1993 Slackware 1.0,Tar (file format) and Tar (file format),Yes,No,No,?,?
-Windows Installer (also MSI),.msi,Microsoft,2000 Windows 2000," OLE Structured Storage, Cabinet (file format) and Cabinet (file format) ",Optional PKCS7 Authenticode Signature,No,No,No,2 s
-JAR (file format) (JARJAR (file format)),.jar,Sun Microsystems,1997 JDK 1.1,PKZIP,Yes,No,?,Yes,?
-Google Chrome Google Chrome package,.crx,Google,2009 (Chrome 4.0),.zip,?,?,YesWikipedia:Verifiability[ Wikipedia:Verifiability ],?,?
-Arch Linux," .pkg.tar.zst, .pkg.tar (no compression) ",Judd Vinet,2001 (before ArchLinux 0.1),Tar (file format) and Tar (file format)Tar (file format) (formerly Tar (file format)),Yes,No,No,Yes,1 s

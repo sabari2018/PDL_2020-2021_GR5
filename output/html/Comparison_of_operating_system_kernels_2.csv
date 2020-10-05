@@ -1,7 +1,0 @@
-Kernel Name,Transmission Control Protocol,User Datagram Protocol,SCTP,DCCP
-DragonFly BSD,Yes,Yes,No,No
-FreeBSD,Yes,Yes,Yes,Optional
-Linux kernel,Yes,Yes,Yes,Yes
-Solaris (operating system),Yes,Yes,Yes,?
-Architecture of Windows NT,Yes,Yes,No,?
-XNU,Yes,Yes,No,No

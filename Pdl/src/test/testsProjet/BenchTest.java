@@ -42,7 +42,7 @@ public class BenchTest {
                 nbUrl++;
             }
             bufferedReader.close();
-            assertEquals(nbUrl, 336);
+            assertEquals(nbUrl, 40);
         }
         catch (IOException e) {
             System.out.println("Erreur "+e);

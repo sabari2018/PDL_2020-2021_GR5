@@ -1,8 +1,0 @@
-System,Type,Modulation,Data rate,Sidebands?,Channel (communications) Channel (communications) (Channel (communications)),Radio spectrum,Sound Codec,Digital subchannel,Single-frequency network,Metadata/Metadata
-AM radio,Analog radio,Amplitude Modulation,N/A,?,18–20 kHz,148.5-283.5 kHz (Longwave) 510–1610 kHz (Europe) 510–1710 kHz (USA and Canada),N/A,N/A,No,None
-Motorola Motorola,Analog radio (AM stereo),QAM,N/A,?,18–20 kHz,510–1610 kHz (Europe  510–1710 kHz (USA and Canada),N/A,N/A,No,None
-Digital Audio Broadcasting,Digital radio,OFDM (OFDM),around 1000 kbit/s (4 channels up to 256 kbit/s),?,1500 kHz," Band III/174-240 MHz, Band III/1452-1492 MHz",MPEG-1 Audio Layer II," Yes, typically 4-6 ""stations"" per channel",Yes,Yes
-Digital Audio Broadcasting,Digital radio,OFDM (OFDM),up to 256 kbit/s,?,1500 kHz," Band III/174-240 MHz, Band III/1452-1492 MHz",HE-AAC,No,Yes,Yes
-Digital Radio Mondiale,Digital radio,COFDM (COFDM),up to 72 kbit/s,?," 4.5–5 kHz (hybrid mode), 9–10 kHz, Single Channel Simulcast"," Mediumwave (Europe), 510–1710 kHz (USA and Canada), Mediumwave, Mediumwave",MPEG-4 MPEG-4/MPEG-4/MPEG-4," Yes, via In-band on-channel",No?,Yes
-FM radio,Analog radio,Frequency Modulation,N/A,?,200 kHz," 87.5-108 MHz, 76-90 MHz (Japan), 65.8-74 MHz (USSR)",N/A,N/A,None,Yes (depending on station)
-HD Radio,Hybrid/Digital radio,COFDM-HDC (COFDM)," up to 60 kbit/s on AM, up to 300 kbit/s on FM",?," 20–30 kHz on AM band ±5 kHz (on adjacent channel), up to 400 kHz on FM band (2 full FM channels)"," 510–1710 kHz,  87.5-108 MHz",HDC," up to 7 (3 full-power, 4 low-power) subchannels (FM)",No?,Yes

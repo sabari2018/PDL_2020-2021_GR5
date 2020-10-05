@@ -1,4 +1,0 @@
-Integrated development environment,Software license,Microsoft Windows,Linux,MacOS,Platform (computing),Text editor,Debugger,GUI builder,Profiler (computer science),Browsers
-Allegro Common Lisp,Proprietary software,Yes,Yes,Yes," FreeBSD, FreeBSD, FreeBSD, FreeBSD, FreeBSD ",Yes,Yes,Yes,Yes," Class browser, Systems, Definitions "
-LispWorks,Proprietary software,Yes,Yes,Yes," FreeBSD, FreeBSD, FreeBSD ",Yes,Yes,Yes,Yes," Class browser, Functions, Errors, Processes, Symbols, Systems "
-SLIME (SLIME)," portions in GNU General Public License v2, GNU General Public License, GNU General Public License and GNU General Public License ",Yes,Yes,Yes," DragonFly BSD, DragonFly BSD, DragonFly BSD, DragonFly BSD, DragonFly BSD, DragonFly BSD, DragonFly BSD, DragonFly BSD, DragonFly BSD, DragonFly BSD, DragonFly BSD, other DragonFly BSD ",Yes,Yes,No,Yes," Class browser, Errors, Symbols "

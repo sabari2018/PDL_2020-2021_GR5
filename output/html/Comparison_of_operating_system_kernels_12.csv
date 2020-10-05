@@ -1,6 +1,0 @@
-Kernel name,Data Encryption Standard,Advanced Encryption Standard,Blowfish (cipher),Triple DES,Serpent (cipher),Twofish,CAST-128,DES-X,International Data Encryption Algorithm,RC2,RC5,SEED,Skipjack (cipher),Tiny Encryption Algorithm,XTEA,CAST-256,RC4,Camellia (cipher),Anubis (cipher),KHAZAD,Salsa20,FCrypt (page does not exist)
-DragonFly BSD kernel,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No
-FreeBSD kernel,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,No,No,No,Yes,No,No,Yes,Yes,Yes,No,No,No,No
-Linux,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Windows NT kernel,Yes,Yes,Yes,Yes,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,No,No,No,No,No
-macOS XNU Kernel,Yes,Yes,Yes,?,?,?,Yes,?,?,Yes,Yes,?,?,?,?,Yes,Yes,?,?,?,?,?

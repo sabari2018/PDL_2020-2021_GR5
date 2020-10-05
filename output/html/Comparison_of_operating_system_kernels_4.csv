@@ -1,8 +1,0 @@
-Kernel Name," Operating system-level virtualization (no resource management, no security) ",Operating system-level virtualization (no resource management),Operating system-level virtualization (resource management),Paravirtualization,Full virtualization,User-space execution,Operating system,Kernel as Kernel Driver,Hypervisor-Enforced Kernel Partitioning
-Linux,Chroot,LXC,," Virtio, Hyper-V (guest only), Hyper-V (guest only), Hyper-V (guest only), Hyper-V, Hyper-V ",Kernel-based Virtual Machine,User-mode Linux,(LKL),(Cooperative Linux),No
-DragonFly BSD kernel,chroot,Operating-system-level virtualization,,No,No,vkernel,?,?,No
-FreeBSD kernel,chroot,FreeBSD jail,," Virtio, Xen (guest only) ",BHyVe (KVM),?,?,?,No
-NetBSD kernel,chroot,(Sysjail (discontinued)),No,Virtio and Xen,No,?,Rump kernel,?,No
-Solaris kernel,chroot,Solaris Zones,,No,No,No,?,?,No
-Windows NT kernel," AppContainers, Job Objects, Windows Server Containers ",,,Hyper-V,,Project Drawbridge,,No," Virtual Secure Mode, Device Guard, Credential Guard[14] "
-XNU,chroot,?,?,?,?,?,?,?,No

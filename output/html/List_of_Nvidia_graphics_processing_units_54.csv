@@ -1,6 +1,0 @@
-Model,Code name,Fab (Nanometer),Computer bus Computer bus,Core clock (Hertz),Shader clock (Hertz),Memory clock (Hertz),Core config12,Fillrate,,Memory,,,,Processing power (GFLOPS)GFLOPSGFLOPS,,Supported Application programming interface version,,Thermal design power (Watts),Notes
-,,,,,,,,Pixel (Pixel/s),Texture (Texel (graphics)/s),Size (Megabyte),Bandwidth (Gigabyte/s),Bus type,Bus width (Bit),Single precision floating-point format,Double precision floating-point format,Direct3D,OpenGL,,
-Quadro FX 560,G73GL,90,PCIe ×16,350,350,1200,5:12:12:8,2.8,4.2,128,19.2,GDDR3,128,,,9.0c,2.1,30,
-Quadro FX 46002,G80,,,500,1200,1400,96:24:24,12,24,768,67.2,,384,345,-,10.0,3.3,134," Stereo display, Scalable Link Interface, Genlock "
-Quadro FX 4600 SDI2,,,,,,,96:24:24,,,,,,,345,,,,154,
-Quadro FX 56002,,PCIe 2.0 ×16,600,1350,1600,128:32:24,14.4,38.4,1536,76.8,518.4,,,171,,,

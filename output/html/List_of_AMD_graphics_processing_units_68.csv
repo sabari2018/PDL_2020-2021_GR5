@@ -1,4 +1,0 @@
-Model (Codename),Release Date &amp; Price,Microarchitecture &amp; Microarchitecture,Transistors &amp; Die Size,Core,,FillrateFillrateFillrateFillrate,,Processing powerGFLOPSGFLOPS (GFLOPS),,Memory,,,,Thermal Design Power,Bus interface,Graphic output ports
-,,,,Config[e],ClockHertz (Hertz),Texture (Texel (graphics)/s),Pixel (Pixel/s),Single precision floating-point format,Double precision floating-point format,Bus type &amp; width,Size (Gibibyte),Clock (Transfer (computing)),Band- width (Gigabyte/s),,,
-Radeon Pro Vega II (Vega 20)[295]," November 2019$2,800 USD ",Graphics Core Next 7FF,0.0×109 ? mm2,4096:256:64 64 CU,1700,435,109,14200,880,High Bandwidth Memory 4096-bit,32,2000,1000,Unknown,PCIe ×16,4× Thunderbolt 3 1× HDMI 2.0
-Radeon Pro Vega II Duo (Vega 20)[295]," November 2019$5,600 USD ",,

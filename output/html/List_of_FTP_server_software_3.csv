@@ -1,2 +1,0 @@
-Name,Licence,Language,Platform,Details
-Pyftpdlib,MIT License,Python,Platform independent,A high-level portable library to easily write asynchronous FTP servers with FTP. It is currently the most complete RFC-959 FTP server implementation available for Python.

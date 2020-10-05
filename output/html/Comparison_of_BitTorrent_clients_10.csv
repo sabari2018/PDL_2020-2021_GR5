@@ -1,5 +1,0 @@
-BitTorrent library,Cache (computing)Cache (computing),BitTorrent (protocol) BitTorrent (protocol),WebTorrent,Broadcatching (Broadcatching),Prioritization,Selective downloads,SOCKS,Remote control via web,BitTorrent (protocol),Notes
-Libtorrent (Rasterbar),Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,?,
-MonoTorrent,Yes,Yes,No,Yes,Yes,Yes,No,Yes,No,
-RTorrent (libTorrent Rakshasa),Partial,No,No,No,Yes,Yes,No,Yes,No,No built-in cache-disk cache but a delayed sync
-BitTorrent library,Cache,Web seeding,WebTorrent,Broadcatching (RSS),Prioritization,Selective downloads,SOCKS,Remote control via web,Engine,Notes

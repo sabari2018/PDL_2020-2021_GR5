@@ -1,7 +1,0 @@
-Kernel Name,Network File System (protocol),Andrew File System,CIFS,Coda (file system),9P (protocol),Ceph (software)
-DragonFly BSD,Yes,No,Yes,No,No,No
-FreeBSD,Yes,Yes,Yes,Yes,No,Yes
-Linux kernel,Yes,Yes,Yes,Yes,Yes,Yes
-Solaris (operating system),Yes,Yes,Yes,No,No,No
-Architecture of Windows NT,Yes,Yes,Yes,No,No,No
-XNU,Yes,Yes,Yes,No,No,No

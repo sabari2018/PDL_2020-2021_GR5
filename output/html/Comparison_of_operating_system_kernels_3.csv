@@ -1,6 +1,0 @@
-Kernel Name,File access control,NX bit support,Kernel Address space layout randomization,Mandatory access control,Capability-based security,In-kernel key management,Audit API,Sandbox (computer security),SYN flood protection,UDP flood protection,Ping flood protection,Smurf attack protection,Intrusion prevention system
-Linux," Filesystem permissions, Filesystem permissions ",Yes,Yes," Linux Security Modules (Linux Security Modules, Linux Security Modules, Linux Security Modules, Linux Security Modules) ",seccomp,Keyctl (page does not exist),fanotify," SELinux Sandbox, Seccomp ",SYN cookies,No?,No?,No?,No
-FreeBSD Kernel," Filesystem permissions, Filesystem permissions ",Yes,?,TrustedBSD MAC (page does not exist),Capsicum,?,OpenBSM," Capsicum, MAC framework ",SYN cookies,?,?,?,?
-Solaris Kernel," Filesystem permissions, Filesystem permissions, Filesystem permissions ",Default,?,Solaris Trusted Extensions,?,?,?,?,?,?,?,?,?
-Windows NT kernel,Access control list,Data Execution Prevention,Yes,Mandatory Integrity Control,AppContainers,?,Yes,Windows Event Log,Yes[12],?,?,?,?
-XNU," Filesystem permissions, Filesystem permissionsFilesystem permissions ",Yes,Yes,TrustedBSD MAC (page does not exist),?,?,OpenBSM,Apple XNU Sandbox,?,?,?,?,?

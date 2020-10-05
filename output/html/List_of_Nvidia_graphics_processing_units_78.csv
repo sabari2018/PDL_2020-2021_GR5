@@ -1,5 +1,0 @@
-Model,Code name,Fab (Nanometer),Computer bus Computer bus,Core clock (Hertz),Shader clock (Hertz),Memory clock (Hertz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported Application programming interface version,,Nvidia Optimus technology,Thermal design power (Watts)
-,,,,,,,,Pixel (Pixel/s),Texture (Texel (graphics)/s),Size (Megabyte),Bandwidth (Gigabyte/s),Bus type,Bus width (Bit),Single precision floating-point format,Direct3D,OpenGL,,
-Quadro P3200,GP104,16,PCIe 3.0 ×16,,,,1792:112:64:14,,,6144,168,GDDR5,192,5300,12.1,4.5,Yes,78
-Quadro P4200,,,,,,,2304:144:64:18,,,8192,,,256,7600,,,,115
-Quadro P5200,,,,,,,2560:160:64:20,,,16384,,,,230,,,,8900,150

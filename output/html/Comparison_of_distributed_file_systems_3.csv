@@ -1,6 +1,0 @@
-Name,Run by,Access API
-Amazon S3,Amazon.com,HTTP (HTTP/HTTP)
-Google Cloud Storage,Google,HTTP (HTTP)
-SWIFT (part of OpenStack)," Rackspace, Rackspace, others ",HTTP (HTTP)
-Microsoft Azure,Microsoft,HTTP (HTTP)
-IBM Cloud Object Storage,IBM (formerly IBM)IBM,HTTP (HTTP)

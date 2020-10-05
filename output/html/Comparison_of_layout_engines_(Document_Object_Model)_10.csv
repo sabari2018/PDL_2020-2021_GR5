@@ -1,5 +1,0 @@
-,,Trident (layout engine),Tasman (layout engine),Gecko (layout engine),WebKit,KHTML,Presto (layout engine)
-Interface AbstractView,,,,,,,
-DOM2,document,6.0,?,1.0,?,?,1.0
-Interface DocumentView,,,,,,,
-DOM2,defaultView,No,?,1.0,?,?,1.0

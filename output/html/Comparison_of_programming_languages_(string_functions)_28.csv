@@ -1,5 +1,0 @@
-Format,Languages,Comments
-string .partition( separator )," Python (programming language), Python (programming language)(1.9+) ",
-" lists:partition( pred ,  string ) ",Erlang (programming language),
-" split /( separator )/,  string , 2 ",Perl 5,
-" split  separator ,  string , 2    string .split(  separator , 2 ) ",Raku (programming language),Separator does not have to be a regular expression

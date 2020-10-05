@@ -1,6 +1,0 @@
-Model,Code name,Fab (Nanometer),Computer bus Computer bus,Core clock (Hertz),Shader clock (Hertz),Memory clock (Hertz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported Application programming interface version,,Nvidia Optimus technology,Thermal design power (Watts)
-,,,,,,,,Pixel (Pixel/s),Texture (Texel (graphics)/s),Size (Megabyte),Bandwidth (Gigabyte/s),Bus type,Bus width (Bit),Single precision floating-point format,Direct3D,OpenGL,,
-Quadro M520,GM108,28,PCIe 3.0 ×16,,,,384:24:8 (3 SMM),,,1024,40,GDDR5,64,840,12.1,4.5,Yes,25
-Quadro M620,GM107,,,512:32:16 (4 SMM),2048,,80,128,,1000,30,,
-Quadro M1200,,,,640:40:16 (5 SMM),4096,,,,,1400,45,,
-Quadro M2200,GM206,,,1024:64:32 (8 SMM),,88.1,2100,,,55,

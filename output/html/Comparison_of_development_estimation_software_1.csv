@@ -1,8 +1,0 @@
-Estimation approach,Category,Examples of support of implementation of estimation approach
-Analogy-based estimation,Formal estimation model," ANGEL, Weighted Micro Function Points "
-Work breakdown structure (bottom up) estimation,Expert estimation," Project management software, company specific activity templates "
-Parametric models,Formal estimation model," COCOMO, COCOMO, COCOMO, COCOMO "
-Size-based estimation models[15],Formal estimation model," Function Point Analysis,Function Point Analysis Function Point Analysis Analysis, Function Point Analysis, SSU (Software Size Unit), Function Point Analysis-based estimation in Function Point Analysis, Function Point Analysis "
-Group estimation,Expert estimation," Planning poker, Planning poker "
-Mechanical combination,Combination-based estimation,Average of an analogy-based and a Work breakdown structure-based effort estimateWork breakdown structure
-Judgmental combination,Combination-based estimation,Expert judgment based on estimates from a parametric model and group estimation
