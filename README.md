@@ -19,6 +19,9 @@ We read and analyze Wikipedia pages in two different formats :
 ### Improvement of extractors
 Improve the quality of the source code, the software robustness. Rewrite a more accurate documentation and more tests, develop continuous integration.
 
+### Mangement of special cases
+At the moment, extractors don't manage special cases. For exemple, if the table have merged cells, the extraction will not extract merged cells. We hve to improve extractors when tables contains pictures and when the number of rows is different between columns.
+
 ### Tools to evaluate our extractors
 Develop new tools which allow us to evaluate the quality and the performance of our extractors.
 
