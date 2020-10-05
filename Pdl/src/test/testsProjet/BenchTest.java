@@ -19,7 +19,8 @@ public class BenchTest {
     public void testBenchExtractors () {
 
         //Create output directories
-        Converter converter = new Converter();
+        //Test if folder html or wikitext exist
+
 
         String outputDirHtml = "output" + File.separator + "html" + File.separator;
         assertTrue("There are no folder CSV output for html", new File(outputDirHtml).isDirectory());
@@ -28,6 +29,7 @@ public class BenchTest {
         assertTrue(new File(outputDirWikitext).isDirectory());
         assertTrue("There are no folder CSV output for wikitext",new File(outputDirHtml).isDirectory() );
 
+       //Count number of row in wikiurls.txt
        int nbUrl = 0;
 
         try {
@@ -42,7 +44,7 @@ public class BenchTest {
                 nbUrl++;
             }
             bufferedReader.close();
-            assertEquals(nbUrl, 40);
+            assertEquals(nbUrl, 1);
         }
         catch (IOException e) {
             System.out.println("Erreur "+e);
