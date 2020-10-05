@@ -98,11 +98,9 @@ Tests results realised on 10/08/19
 
 ## Global architecture
 
-![100% center](images/finalReport-class-diagram.png)
+![100% center](images/Architecture_Globale.jpeg)
 Note : some methods (like getters and setters) were omited for readability.
 
-We construct a new architecture with few modifications details :
-https://app.genmymodel.com/api/projects/_SWWPkASLEeu_35Z1GKTxtw/diagrams/_SWWPkwSLEeu_35Z1GKTxtw/svg
 
 | Class | Extends | Description | 
 | --- | --- | --- |
