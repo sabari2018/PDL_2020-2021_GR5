@@ -21,6 +21,7 @@ Improve the quality of the source code, the software robustness. Rewrite a more 
 
 ### Tools to evaluate our extractors
 Develop new tools which allow us to evaluate the quality and the performance of our extractors.
+Develop a tool which allow us to evaluate the best extractor between HTML and WikiText
 
 ### Getting started
 Make the project easy to use by anyone thanks to a complete and functional dataset and a clear documentation to launch it.
