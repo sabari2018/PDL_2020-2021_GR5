@@ -119,6 +119,13 @@ In this proposal, we will remove the inefficient inheritances mentioned above an
 
 This proposal is likely to be changed during development.
 
+##Use case 
+
+![100% center](images/UseCaseWiki.jpg)
+
+An user can parse manage the list of Wikipedia pages to parse and he can choose to parse table using HTML or WikiText
+
+
 ## Dynamic model
 
 In this new version, the Main class does the same thing : extract tables from urls with two ways : html and wikitext.
