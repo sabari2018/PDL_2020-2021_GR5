@@ -4,11 +4,16 @@ You will have to use an IDE. This documentation is for IntelliJ and Eclipse.
 This will allow Maven to automatically import the missing libraries to properly run the project.  
 Everything is now set and you are ready to run the program.
 
-*The following installation process is for IntelliJ :*  
+## Installation with IntelliJ 
 
 Requirements :
+<<<<<<< HEAD
 - IntelliJ (https://www.jetbrains.com/fr-fr/idea/)
 - Maven (http://maven.apache.org/)
+=======
+- [IntelliJ](https://www.jetbrains.com)
+- [Maven](https://maven.apache.org)
+>>>>>>> fe0569107c9ff028ca036b74916da283988e55f7
 
 Start by opening IntelliJ and close all opened projects.
 Then get the project with the HTTPS link :
@@ -24,10 +29,14 @@ Then get the project with the HTTPS link :
   - In "LifeCycle" select "Clean" and "Compile" to run the project
 To execute the project go in "Pdl/src/main/model" and run the class "Main".
   
-*The following installation process is for Eclipse :*
+## Installation with Eclipse
 
 Requirements:
+<<<<<<< HEAD
 - Eclipse (https://www.eclipse.org/downloads/)
+=======
+- [Eclipse](https://www.eclipse.org)
+>>>>>>> fe0569107c9ff028ca036b74916da283988e55f7
 
 Start by opening Eclipse and close all opened projects. 
 To open the git project with the HTTPS link : 
