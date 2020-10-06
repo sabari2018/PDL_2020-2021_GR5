@@ -101,6 +101,9 @@ Tests results realised on 10/08/19
 ![100% center](images/class_diagram_V3.jpg)
 Note : some methods (like getters and setters) were omited for readability.
 
+If you want to improve actual UML diagram you can copy the project by clicking [here](https://app.genmymodel.com/personal/projects/_SWWPkASLEeu_35Z1GKTxtw) (you must have an account): 
+
+
 
 | Class | Extends | Description | 
 | --- | --- | --- |
@@ -117,6 +120,13 @@ In this proposal, we will remove the inefficient inheritances mentioned above an
 
 This proposal is likely to be changed during development.
 
+##Use case 
+
+![100% center](images/UseCaseWiki.jpg)
+
+An user can parse manage the list of Wikipedia pages to parse and he can choose to parse table using HTML or WikiText
+
+
 ## Dynamic model
 
 In this new version, the Main class does the same thing : extract tables from urls with two ways : html and wikitext.
@@ -132,10 +142,14 @@ In the main a ProcessWikiUrl object is created. This object contains :
 * a ParserWikiText object
 * a Converter converter
 
-First, "addWikiUrlFromFile ()" is called. This function reads "wikiurls.txt" and fills WikiUrl list.
-Then, "parseHTML ()" is executed and realizes the HTML extraction. When a Wikipedia table is extracted, a Table object is created, filled with the Wikipedia table content and add to the Table list.
-After, "parseWikiText ()" is executed and realizes the WikiText extraction. When a Wikipedia table is extracted, a Table object is created, filled with the Wikipedia table content and add to the Table list. This object is a common structure which takes the results of our two parsers. This is vey practical in order to compare their results.
-Finally, "convert ()" is called. This methods consits in writing all Table in the list in a csv file.
+1: Create new instance for ProcessWikiUrl().  
+2: "addWikiUrlFromFile ()" is called. This function reads "wikiurls.txt" and fills WikiUrl list.  
+3: "parseHTML ()" is executed and realizes the HTML extraction.  
+4:  When a Wikipedia table is extracted, a Table object is created, filled with the Wikipedia table content and add to the Table list.  
+5: "parseWikiText ()" is executed and realizes the WikiText extraction.  
+6: When a Wikipedia table is extracted, a Table object is created, filled with the Wikipedia table content and add to the Table list. This object is a common structure which takes the results of our two parsers. This is vey practical in order to compare their results.  
+7: "convert ()" is called.  
+8: This methods consits in writing all Table in the list in a csv file. 
 
 ## Special cases
 
