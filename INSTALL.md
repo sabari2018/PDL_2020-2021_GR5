@@ -4,7 +4,7 @@ You will have to use an IDE. This documentation is for IntelliJ and Eclipse.
 This will allow Maven to automatically import the missing libraries to properly run the project.  
 Everything is now set and you are ready to run the program.
 
-*The following installation process is for IntelliJ :*  
+##Installation with IntelliJ 
 
 Requirements :
 - [IntelliJ](https://www.jetbrains.com)
@@ -24,7 +24,7 @@ Then get the project with the HTTPS link :
   - In "LifeCycle" select "Clean" and "Compile" to run the project
 To execute the project go in "Pdl/src/main/model" and run the class "Main".
   
-*The following installation process is for Eclipse :*
+##Installation with Eclipse
 
 Requirements:
 - [Eclipse](https://www.eclipse.org)
