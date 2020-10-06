@@ -100,6 +100,8 @@ Tests results realised on 10/08/19
 
 ![100% center](images/class_diagram_V3.jpg)
 Note : some methods (like getters and setters) were omited for readability.
+If you want to improve actual UML diagram you can copy the project with the URL : 
+https://app.genmymodel.com/personal/projects/_SWWPkASLEeu_35Z1GKTxtw
 
 
 | Class | Extends | Description | 
