@@ -132,10 +132,14 @@ In the main a ProcessWikiUrl object is created. This object contains :
 * a ParserWikiText object
 * a Converter converter
 
-First, "addWikiUrlFromFile ()" is called. This function reads "wikiurls.txt" and fills WikiUrl list.
-Then, "parseHTML ()" is executed and realizes the HTML extraction. When a Wikipedia table is extracted, a Table object is created, filled with the Wikipedia table content and add to the Table list.
-After, "parseWikiText ()" is executed and realizes the WikiText extraction. When a Wikipedia table is extracted, a Table object is created, filled with the Wikipedia table content and add to the Table list. This object is a common structure which takes the results of our two parsers. This is vey practical in order to compare their results.
-Finally, "convert ()" is called. This methods consits in writing all Table in the list in a csv file.
+1: Create new instance for ProcessWikiUrl().
+2: "addWikiUrlFromFile ()" is called. This function reads "wikiurls.txt" and fills WikiUrl list.
+3: "parseHTML ()" is executed and realizes the HTML extraction.
+4:  When a Wikipedia table is extracted, a Table object is created, filled with the Wikipedia table content and add to the Table list.
+5: "parseWikiText ()" is executed and realizes the WikiText extraction. 
+6: When a Wikipedia table is extracted, a Table object is created, filled with the Wikipedia table content and add to the Table list. This object is a common structure which takes the results of our two parsers. This is vey practical in order to compare their results.
+7: "convert ()" is called.
+8: This methods consits in writing all Table in the list in a csv file.
 
 ## Special cases
 
