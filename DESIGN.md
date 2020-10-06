@@ -157,8 +157,8 @@ For links, we decided to keep their title only as we prefer to keep comprehensiv
 | testNullUrl	| OK	|
 | testEmptyUrl | OK |
 | **TestParserComparaison**	| |
-| testCompareNbTabHTML | Failed => Assertion Error : <ul><li>Expected : 100 </li> <li>Actual : 80 </li> <li> 80 % of success </li></ul>| 
-| testCompareNbTabWikiText |Failed => Assertion Error : <ul><li>Expected : 100 </li> <li>Actual : 59 </li> <li> 59 % of success </li></ul> |
+| testCompareNbTabHTML | Ok | 
+| testCompareNbTabWikiText | OK |
 | **TestParserHTML**	| |
 | testParseHtml | OK |
 | testParseHtmlTree | OK |

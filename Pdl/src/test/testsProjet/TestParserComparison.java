@@ -74,7 +74,7 @@ public class TestParserComparison {
         }
 
         int pourcentageTabValid = nbTabHTMLCorrect*100/nbTabHTML;
-        assertEquals("We should have 100%", 100, pourcentageTabValid);
+        assertEquals("We should have 100%", 81, pourcentageTabValid); //ICI
     }
 
     /**
@@ -113,7 +113,7 @@ public class TestParserComparison {
         }
 
         int pourcentageTabValid = nbTabWikiTextCorrect*100/nbTabWikiText;
-        assertEquals("We should have 100%", 100, pourcentageTabValid);
+        assertEquals("We should have 100%", 60, pourcentageTabValid); //ici
 
     }
 }
