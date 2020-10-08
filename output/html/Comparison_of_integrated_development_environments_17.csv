@@ -1,0 +1,3 @@
+Integrated development environment,Software license,Microsoft Windows,Linux,MacOS,Platform (computing),Debugger,Profiler (computer science),Notes
+Visual Studio Code (using the Visual Studio Code),MIT License,Yes,Yes,Yes,FreeBSDFreeBSD,?[34],?,License is for the extension; and Microsoft's source code (only).
+Emacs / Emacs," portions in GNU General Public License v2, GNU General Public License, GNU General Public License and GNU General Public License ",Yes,Yes,Yes,FreeBSD,Yes,Yes," Vi support for emacs. Vi support also available, e.g. in spacemacs (useful for Vi ). "

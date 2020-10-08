@@ -1,0 +1,16 @@
+Implementation,/dev/crypto,af_alg,Cryptographic Service Provider,CommonCrypto,OpenSSL
+Botan (programming library),No,No,No,No,Partial
+Cryptlib,No,No,No,No,No
+GnuTLS,Yes,No,No,No,No
+Java Secure Socket Extension,No,No,Yes,No,No
+LibreSSL,No,No,No,No,No[223]
+MatrixSSL,No,No,No,Yes,Yes
+Mbed TLS,No,No,No,No,No
+Network Security Services,No,No,No,No,No
+OpenSSL,Yes,Yes,No,No,Yes
+RSA BSAFE,No,No,No,No,No
+SChannel,No,No,Yes,No,No
+MacOS,No,No,No,Yes,No
+WolfSSL,Yes,Yes,Partial,No,No
+Erlang (programming language)/OTP SSL application,No,No,No,No,Yes
+Implementation,/dev/crypto,af_alg,Windows CSP,CommonCrypto,OpenSSL engine

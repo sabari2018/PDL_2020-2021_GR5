@@ -1,0 +1,34 @@
+Intel Atom,,,Feature size,,X86,,,,,,,
+Microarchitecture,Step,,,,Microarchitecture,Step
+,,,600 nanometer,,P6 (microarchitecture),Pentium Pro (133 MHz)
+500 nanometer,,,Pentium Pro (150 MHz),,
+350 nanometer,,,Pentium Pro (166–200 MHz),,
+,,,Klamath (microprocessor),,
+250 nanometer,,,Deschutes (microprocessor),,
+,,,Katmai (microprocessor),,,,NetBurst,,,,,
+180 nanometer,,,Coppermine (microprocessor),,,,Pentium 4
+130 nanometer,,,Tualatin (microprocessor),,,,Pentium 4
+,,,Banias (microprocessor),,,,,,Hyper-threading,,,,NetBurst(Multi-core processor)
+90 nanometer,,,Dothan (microprocessor),Pentium 4,⇨,Pentium 4,⇨,Smithfield (microprocessor)
+,,,,Tejas and Jayhawk,→,⇩,→,Tejas and Jayhawk
+65 nanometer,Yonah (microprocessor),NetBurst (microarchitecture),,Pentium 4,⇨,Presler (microprocessor)
+,Core,Core (microarchitecture)," 4 cores on mainstream desktop, DDR3 introduced",,,,,
+,,Bonnell,Bonnell (microarchitecture),45 nanometer,Penryn (microarchitecture),,,,,,,,
+,,,,,Nehalem,Nehalem (microarchitecture)," Hyper-threading reintroduced, integrated Hyper-threading, PCH L3-cache introduced, 256KiB L2-cache/core",,,,,,
+,,,,,,Saltwell (microarchitecture),32 nanometer,Westmere (microarchitecture),introduced GPU on same package and AES-NI,,,,,
+,,,,,,,,Sandy Bridge,Sandy Bridge," on-die ring bus, no more non-UEFI motherboards",,,,,
+,,,,,,,,,Silvermont,Silvermont,22 nanometer,,Ivy Bridge (microarchitecture),,,,,,
+,,,,,,,,,,,,,Haswell,Haswell (microarchitecture),FIVR,,,,,
+,,,,,,,,,,,,,,Airmont (microarchitecture),14 nanometer,Broadwell (microarchitecture),,,,,,
+,,,,,,,,,,,,,,,,Skylake,Skylake (microarchitecture),DDR4 introduced on mainstream desktop,,,,,
+,,,,,,,,,,,,,,,,,Goldmont,Goldmont,Kaby Lake,,,,,,
+,,,,,,,,,,,,,,,,,,,Coffee Lake,6 cores on mainstream desktop,,,,,
+,,,,,,,,,,,,,,,,,,,Kaby Lake,mobile-only,,,,,
+,,,,,,,,,,,,,,,,,,Goldmont Plus,Whiskey Lake (microarchitecture),mobile-only,,,,,
+,,,,,,,,,,,,,,,,,,,Coffee Lake,8 cores on mainstream desktop,,,,,
+,,,,,,,,,,,,,,,,,,,Comet Lake,10 cores on mainstream desktop,,,,,
+,,,,,,,,,,,,,,,,,,,Willow Cove,Rocket Lake,,,,,,
+Tremont,Tremont (microarchitecture),10 nm,Palm Cove,Cannon Lake (microarchitecture),mobile-only,,,,,
+,,,Sunny Cove,Ice Lake (microarchitecture),512KiB L2-cache/core,,,,,
+,Gracemont (microarchitecture) (page does not exist),,Willow Cove,Tiger Lake (microarchitecture),Intel Xe graphics engine,,,,,
+,,,Golden Cove,Alder Lake (microarchitecture),hybrid,,,,,

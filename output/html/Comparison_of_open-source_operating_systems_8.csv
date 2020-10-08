@@ -1,0 +1,8 @@
+Operating system,Mandatory access control,Software Executable space protection,Operating system-level virtualization,Virtualisation,Userspace protection,Others
+Linux," Security-Enhanced Linux, Security-Enhanced LinuxSecurity-Enhanced Linux "," Exec Shield,Exec Shield Exec ShieldExec Shield "," Chroot, Chroot and cgroups,Chroot Chroot,Chroot ChrootChroot ",Kernel-based Virtual Machine," IPFilter, IPFilter "," grsecurity,RSBAC RSBACRSBAC "
+FreeBSD," SeBSD (page does not exist),SeBSD (page does not exist)SeBSD (page does not exist) SeBSD (page does not exist) ",ProPoliceProPolice,FreeBSD jail,BhyveBhyve," Ipfirewall, Ipfirewall, IPFilter ",
+Darwin (operating system)," SEDarwin (page does not exist), TrustedBSD ",,jail,,IPFW,
+OpenBSD,," W^X, W^XW^X ",,vmm[21],PF,
+" OpenSolaris, OpenSolaris ",TrustedBSD,,Solaris Containers,Kernel-based Virtual MachineKernel-based Virtual Machine,IPFilter,RBAC[23]
+Plan 9 from Bell Labs,No,No,per-process namespaces,,,
+Inferno (operating system),No,No,per-process namespaces,,,

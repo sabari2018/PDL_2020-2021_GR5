@@ -1,6 +1,6 @@
 Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,|Memory,,,
 ,,,,,,,,! MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size ([[Mebibyte|MiB]]),Bandwidth ([[Gigabyte|GB]]/s),Bus type,Bus width ([[bit]])
-Radeon 9500,"  Oct. 24, 2002",R300 (Khan),150,AGP 8x,275,270,4:4:4:4,1100,2200,1100,275," 64, 128"," 8.64, 17.28",DDR," 128, 256"
+Radeon 9500,"  Oct. 24, 2002",R300 (Khan),150,AGP 8x,275,270,4:4:4:4,1100,1100,1100,275," 64, 128"," 8.64, 17.28",DDR," 128, 256"
 Radeon 9500 Pro,,,,,,,8:4:8:8,2200,2200,2200,,128,8.64,,| 128
 Radeon 9550,2004,RV350 (Shivah),130,,250,200,4:2:4:4,1000,1000,1000,125,"  64, 128, 256",6.4,,
 Radeon 9550 SE,,,,,,,,,,,,,3.2,64

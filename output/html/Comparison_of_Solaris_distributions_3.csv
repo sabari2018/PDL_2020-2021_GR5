@@ -1,0 +1,9 @@
+Distribution,Approximate number of Package manager,Package format/tools,Default installer,Graphical user interface installation procedure
+BeleniX,?,Rpm (software),?,?
+Nexenta OS,?,Advanced Packaging Tool,?,?
+NexentaStor,?,?,?,?
+OmniOS (page does not exist),1032[11],Image Packaging System,Kayak,No
+OpenIndiana,4600[12],Image Packaging System,Caiman,Yes
+SmartOS,?,Pkgsrc/pkgin,N/A (live system),N/A
+V9os (page does not exist),?,Image Packaging System,?,No
+Distribution,Approximate number of Software package (installation),Package format/tools,Default installer,Graphical user interface installation procedure

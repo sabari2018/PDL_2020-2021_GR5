@@ -1,0 +1,8 @@
+Kernel name,Linux,Darwin (operating system),Windows NT,FreeBSD,NetBSD,Solaris (operating system),Tru64 UNIX,Amiga Unix,SunOS,BSD/OS,IBCS2 systems,IRIX,Ultrix,NDIS,UNIX System V
+FreeBSD,Yes[38],No,No,Yes,No,No,No,No,No,No,No,No,No,Yes[38],Yes[38]
+Linux kernel,Yes,No,(Longene),Yes,Yes,No,No,No,No,No,No,No,No,No,No
+NetBSD,Yes[39],No? [3]?,No? [4]?,Yes[39],Yes,Yes[39],Yes[39],Yes[39],Yes[39],Yes[39],Yes[39],Yes[39],Yes[39],Yes [5],Yes
+OpenBSD,Yes,No,No,Yes,Yes,Yes,No,No,Yes,?,?,?,?,No,Yes
+Architecture of Windows NT,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No
+ReactOS,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No
+XNU,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No

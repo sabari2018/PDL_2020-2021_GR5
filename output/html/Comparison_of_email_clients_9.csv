@@ -1,0 +1,48 @@
+Client,Label messages,,,,Reformat received messages,,Right-to-left,Composing messages,,,Native images preview,,,,,Postpone / scheduled message sending,Native documents preview,,,,,,
+,with colors,with flag,antidelete,add note," edit headers (e.g., Subject) ",forced recode [Note 1],,Spell checker,Signature block,Posting style,JPEG,GIF,Windows bitmap,Portable Network Graphics,others,,Text file,Portable Document Format,DOC (computing),Microsoft Excel,OpenDocument,OpenDocument,others
+Alpine (email client),Yes,Yes,?,?,?,?,?,Yes,Yes,?,?,?,?,?,?,Yes,Yes,?,?,?,?,?,?
+Becky!,Yes,Yes,?,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,?,?,?,?,?,?,?,?
+Citadel/UX,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Claws Mail,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,with a plugin,?,?,?,?,?
+Cone (software),Yes,Yes,Yes,No,?,?,?,Yes,No,?,No,No,No,No,No,?,?,?,?,?,?,?,?
+Courier (email client),Yes,Yes,No,No,Yes,?,?,Yes,Yes,?,No,No,No,No,No,Yes,?,No,No,No,No,No,?
+Elm (email client),?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+EM Client,Yes,Yes,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,?,?,?,?,?,?
+EmailTray,Yes,No,No,No,No,No,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,No,Yes,Yes,Yes,Yes,No,No,?
+Eudora (email client),Yes,Yes,No,No,Yes,?,?,Yes,Yes,?,Yes,Yes,Yes,Yes,QuickTime,Yes,?,?,?,?,?,?,?
+Evolution (software),Yes,Yes,?,?,No,?,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,?,?,?,?,?,?,?,?,?
+Gnus,Yes,Yes,Yes,?,?,?,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,X PixMap,Yes,?,?,?,?,?,?,?
+GroupWise,Yes,Yes,Yes,Yes,Yes,?,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?
+Hiri (email client),Yes,Yes,No,Yes,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,No,No
+Scribe Mail,Yes,No,No,Yes,No,No,No,Yes [Note 2],Yes,Yes,Yes [Note 3],Yes,Yes,Yes [Note 4]," ICO (icon image file format), ICO (icon image file format) ",Yes,No,No,No,No,No,No,No
+HCL Notes,Yes,Yes,?,?,Yes,?,?,Yes,Yes,?,Yes,Yes,Yes,No," Computer Graphics Metafile, Lotus PIC, Computer Graphics Metafile, Computer Graphics Metafile ",?,Yes,Yes,Yes,Yes,?,?,?
+KMail,Yes[32],Yes,No,Yes,?,?,?,Yes,Yes,?,Yes,Yes,Yes,Yes,?,?,?,?,?,?,?,?,?
+Mailbird,Yes,Yes,?,Yes,?,?,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,No,No,?
+Mailpile,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Microsoft Entourage,Yes,Yes,?,Yes[Note 5],?,?,?,Yes,Yes,?,Yes,Yes,?,Yes,?,?,?,Yes,?,?,?,?,?
+Microsoft Office Outlook,Yes,Yes,No,Yes,Yes,?,?,Yes,Yes,No,Yes,Yes,Yes,Yes,?,Yes,Yes,with a plugin,Yes,Yes,2010,2010,Microsoft Powerpoint
+Mozilla Mail &amp; Newsgroups,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Mozilla Thunderbird,Yes,Yes,?,?,with a plugin[33],?,?,Yes,Yes,Yes [Note 6],Yes,Yes,Yes,Yes,ICO (icon image file format),Yes [Note 7],Yes,Yes,No,No,No,No,No
+Mulberry (email client),?,Yes,?,?,?,?,?,Yes,Yes,?,No,No,No,No,No,?,?,?,?,?,?,?,?
+Mutt (email client),Yes,Yes,No,No,Yes,?,?,Yes,Yes,?,No,No,No,No,No,postpone,?,?,?,?,?,?,?
+Netscape Messenger,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Netscape Messenger 9,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+MH Message Handling System,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Opera Mail,Yes,Yes,No,No,?,?,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes," APNG, APNG, APNG, APNG, APNG, APNG ",No,No,No,No,No,No,No,No
+Outlook Express,No,Yes,No,No,?,?,?,Yes,Yes,?,Yes,Yes,Yes,Yes," ICO (icon image file format), art ",?,?,?,?,?,?,?,?
+Pegasus Mail,Yes,Yes,Yes,Yes,in index,No,No,Yes,Yes,No [Note 8],Yes,Yes,Yes,Yes,Tagged Image File Format,N/A,Yes,No,No,No,No,No," Rich Text Format, Rich Text Format "
+Pine (email client),Yes,Yes,?,?,No,with a patch [Note 9],?,Yes [Note 10],Yes,?,No,No,No,No,No,?,?,?,?,?,?,?,?
+Pocomail,Yes,Yes,?,Yes,?,?,?,Yes,Yes,?,Yes,Yes,Yes,Yes,?,?,?,?,?,?,?,?,?
+RoundCube,Yes,Yes,Yes,Yes,?,?,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,?,?,Yes,Yes,Yes,Yes,Yes,Yes,?
+SeaMonkey Mail &amp; Newsgroups,Yes,Yes,No,No,?,?,?,Yes,Yes,?,Yes,Yes,Yes,Yes,?,?,?,?,?,?,?,?,?
+SquirrelMail,Yes,Yes,Yes,Yes,?,?,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,?,?,Yes,Yes,Yes,Yes,Yes,Yes,?
+Sylpheed,Yes,Yes,No,No,?,?,?,Yes,Yes,?,Yes,Yes,Yes,Yes,?,?,Yes,No,No,No,No,No,?
+The Bat!,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes," ICO (icon image file format), ICO (icon image file format) ",Yes,Yes,No,No,No,No,No,No
+Trojitá,No,Yes,?,?,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,Yes
+Turnpike (software),Yes,?,?,No,?,?,?,Yes,Yes,?,Yes,Yes,Yes,No,?,?,?,?,?,?,?,?,?
+Windows Live Mail,No,Yes,No,No,?,?,?,Yes,Yes,?,Yes,Yes,Yes,Yes,?,?,?,?,?,?,?,?,?
+Windows Mail,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+YAM (Yet Another Mailer),No,No,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Zimbra,Yes,Yes,Yes,Yes,?,?,?,Yes,Yes,?,Yes,Yes,Yes,Yes,?,?,?,?,?,?,?,?,?
+Client,Label messages,,,,Reformat received messages,,Right-to-left,Composing messages,,,Native images preview,,,,,Postpone/?scheduled message sending,Native documents preview,,,,,,
+,with colors,with flag,antidelete,add note," edit headers (e.g., Subject) ",forced recode [Note 1],,Spell checker,Signature block,Posting style,JPEG,GIF,Windows bitmap,Portable Network Graphics,others,,Text file,Portable Document Format,DOC (computing),Microsoft Excel,OpenDocument,OpenDocument,others

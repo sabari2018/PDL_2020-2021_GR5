@@ -1,0 +1,32 @@
+,Directives [Note 1],Conditionals,Atomic groups [Note 2],Named capture [Note 3],Comments,Embedded code,Unicode property support Unicode,Balancing groups [Note 4],Variable-length look-behinds [Note 5]
+Boost.Regex (page does not exist),Yes,Yes,Yes,Yes,Yes,No,Some[Note 6],No,No
+Boost.Xpressive (page does not exist),Yes,No,Yes,Yes,Yes,No,No,No,No
+CL-PPCRE (page does not exist),Yes,Yes,Yes,Yes,Yes,Yes,Some[Note 6],No,No
+EmEditor,Yes,Yes,?,?,Yes,No,?,No,No
+FREJ,No,No,Yes,Yes,Yes,No,?,No,No
+GLib/GRegex,Yes,Yes,Yes,Yes,Yes,No,Some[Note 6],No,No
+Grep,Yes,Yes,?,Yes,Yes,No,No,No,No
+Haskell (programming language),?,?,?,?,?,No,No,No,No
+RXP,Yes,Yes,No,Yes,Yes,No,No,No,No
+International Components for Unicode Regex,Yes,No,Yes,Yes[Note 7],Yes,No,Yes,No,No
+Java (programming language),Yes,No,Yes,Yes[Note 8],Yes,No,Some[Note 6],No,No
+JavaScript (JavaScript),No,No,No,No,No,No,Some[Note 6][Note 9][4],No,No
+Just Great Software (page does not exist),Yes,Yes,Yes,Yes,Yes,No,Some[Note 6],No,Yes
+Lua (programming language),No,No,No,No,No,No,No,No,No
+.NET framework,Yes,Yes,Yes,Yes,Yes,No,Some[Note 6],Yes,Yes
+OCaml,No,No,No,No,No,No,No,No,No
+OmniOutliner 3.6.2,?,?,?,?,No,No,?,No,No
+Perl Compatible Regular Expression,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+Perl,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No[Note 10]
+PHP,Yes,Yes,Yes,Yes,Yes,No,No,No,No
+Python (programming language),Yes,Yes,Yes[Note 11],Yes,Yes,No,Yes[Note 12],No,Yes[Note 11]
+Qt (toolkit)/QRegExp,No,No,No,No,No,No,No,No,No
+RE2 (software),Yes,No,?,Yes,No,No,Some[Note 6],No,No
+Ruby (programming language),Yes,Yes,Yes,Yes,Yes,Yes,Some[Note 6],No,No
+Tcl,Yes,No,Yes,No,Yes,No,Yes,No,No
+TRE (computing),Yes,No,No,No,Yes,No,?,No,No
+Vim (text editor),Yes,No,Yes,No,No,No,No,No,Yes
+RGX,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No
+XML Schema,No,No,No,No,No,No,Yes,No,No
+XPath 3/XPath 3,No,No,No,No,No,No,Yes,No,No
+XRegExp,Leading only,No,No,Yes,Yes,No,Yes,No,No

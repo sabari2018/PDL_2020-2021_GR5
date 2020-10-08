@@ -1,0 +1,20 @@
+Server,Name server,Name server,Recursion Access control list,Secondary mode,Name server,Domain Name System Security Extensions,TSIG,IPv6,Wildcard DNS record,Free Software,Interface,Split-horizon DNS
+F5 Networks,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No," API, command line ",Yes
+BIND,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes (since 9.x),Yes (since 4.x),Yes," Web[Note 1], command line ",Yes
+PowerDNS,Yes,Yes,Yes,Yes[Note 2],Yes,Yes (since 3.0) [Note 3],Yes (since 3.0),Yes[Note 2],Yes,Yes," REST, Web[Note 4], command line ",Partial[Note 5]
+Djbdns,Yes,Yes,Yes,Yes[Note 6],Yes,Partial[Note 7],No,Partial via generic records. [6],Partial[Note 8],Yes,command line and web (VegaDNS &amp; NicTool),Yes[Note 9]
+Dbndns,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Partial,Yes,command line and web,Yes
+Pdnsd,Partial,Yes,Partial,Partial,Yes,No [19],Partial,Yes,Yes,Yes," command line, pdnsd-ctl program ",Partial
+MaraDNS,Yes,Yes,Yes,Partial[Note 10],Yes,No,No,Partial,Yes,Yes,command line,No
+Posadis,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes," command line, API ",No
+Unbound (DNS Server),Partial,Yes,Yes,N/A,Yes,Yes,No,Yes,Yes,Yes," command line, API ",Yes
+Dnsmasq,Partial[Note 11],No,No,No,Yes,Yes (since 2.69) [Note 12],No,Yes,Yes,Yes,command line,Partial[Note 13]
+NSD,Yes,No,N/A,Yes,N/A,Yes,Yes,Yes,Yes,Yes,command line,No
+Knot DNS,Yes,No,N/A,Yes,N/A,Yes,Yes,Yes,Yes,Yes,command line,Yes[Note 14]
+Knot Resolver (page does not exist),No,Yes,Yes,N/A,Yes,Yes,No,Yes,Yes,Yes,command line and web,No
+YADIFA,Yes,No,N/A,Yes,N/A,Yes,Yes,Yes,Yes,Yes,command line,No
+Microsoft DNS,Yes,Yes,Yes[Note 15],Yes,Yes,Yes[Note 16],Yes[Note 17],Yes[Note 18],Yes,No," GUI, command line, APIWindows Management Instrumentation, Windows Management InstrumentationWindows Management Instrumentation, Windows Management InstrumentationWindows Management Instrumentation ",Yes[Note 15]
+Simple DNS Plus,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No," GUI, Web, command line ",Yes[Note 22]
+Secure64 DNS,Yes,No,No,Yes,No,Yes,Yes,Yes,Yes,No,Command Line or Web GUI,Yes
+Secure64 DNS,No,Yes,Yes,No,Yes,Yes,No,Yes,Yes,No,Command Line or Web GUI,Yes
+Server,Authoritative,Recursive,Recursion Access control list,Secondary mode,Caching,Domain Name System Security Extensions,TSIG,IPv6,Wildcard,Free Software,Interface,Split-horizon DNS

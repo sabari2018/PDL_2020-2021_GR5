@@ -16,14 +16,14 @@ Firebird,Firebird project,2000-07-25,Firebird version,releasedate,IPL and IDPL,Y
 GPUdb,GIS Federal,2014,3.2.5,2015-01-14,Proprietary,No
 HSQLDB,HSQL Development Group,2001,2.4.1,2018-05-20,BSD,Yes
 H2,H2 Software,2005,1.4.200,2019-10-14,EPL and modified MPL,Yes
-Informix Dynamic Server,IBM,1981????1980,14.10.xC3,2019-12-05,Proprietary,No
+Informix Dynamic Server,IBM,1981????1980,14.10.xC4W1,2020-06-22,Proprietary,No
 Ingres,Ingres Corp.,1974,11.0,2017-03-21,GPL and Proprietary,No
 InterBase,Embarcadero,1984,XE7 v12.0.4.357,2015-08-12,Proprietary,No
 Linter SQL RDBMS,RELEX Group,1990,6.0.17.53,2018-02-15,Proprietary,Yes
 LucidDB,The Eigenbase Project,2007-01,0.9.4,2012-01-05,GPL v2,No
 MariaDB,MariaDB Community,2010-02-01,MariaDB version,releasedate," GPL v2, LGPL (for client-libraries)",Yes
 MaxDB,SAP AG,2003-05,7.9.0.8,2014,Proprietary,Yes
-MemSQL,MemSQL,2012-06,7.1.8,2020-08-31,Proprietary,No
+MemSQL,MemSQL,2012-06,7.1.10,2020-10-05,Proprietary,No
 Microsoft Access (JET),Microsoft,1992,16 (2016),2015-09-22,Proprietary,No
 Microsoft Visual Foxpro,Microsoft,1984,9 (2005),2007-10-11,Proprietary,No
 Microsoft SQL Server,Microsoft,1989,Microsoft SQL Server version,releasedate,Proprietary,No
@@ -44,7 +44,7 @@ Paradox,Corel Corporation,1985,11,2009-09-07,Proprietary,No
 Percona Server for MySQL,Percona,2006,8.0.18-9,2019-12-11,GPL v2,Yes
 Pervasive PSQL,Pervasive Software,1982,v12,2015,Proprietary,No
 Polyhedra DBMS,ENEA AB,1993,9.0,2015-06-24," Proprietary, with Polyhedra Lite available as Freeware",No
-PostgreSQL,PostgreSQL Global Development Group,1989-06,12.4,2020-08-13,PostgreSQL License (a liberal Open Source license),No
+PostgreSQL,PostgreSQL Global Development Group,1989-06,13.0,2020-09-24,PostgreSQL License (a liberal Open Source license),No
 R:Base,R:BASE Technologies,1982,10.0,2016-05-26,Proprietary,No
 Raima Database Manager,Raima Inc.,1984,14.1,2018-03-23,Proprietary,No
 RDM Server,Raima Inc.,1993,8.4,2012-10-31,Proprietary,No

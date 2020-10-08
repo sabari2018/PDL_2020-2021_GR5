@@ -23,7 +23,7 @@ ext,no,no,no,yes - until 2.1.20,no,no,no,no,no,no,no,no
 Xiafs,no,no,no,yes - until 2.1.20 Experimental port available to 2.6.32 and later,no,no,no,no,no,no,no,no
 ext2,no,no,yes with Paragon ExtFS  or partial with Ext2 IFS or ext2fsd,yes,no,yes with Paragon ExtFS  or ext2fsx,yes,no,yes,dunno,dunno,dunno
 ext3,no,no,yes with Paragon ExtFS,no,with addon,dunno,yes,dunno
-ext4,no,no,yes with Paragon ExtFS  or partial with Ext2 IFS or ext2fsd,yes,dunno,yes with Paragon ExtFS,partial support in kernel since version 10.1 (read-only),no,with addon,dunno,dunno,dunno
+ext4,no,no,yes with Paragon ExtFS  or partial with Ext2 IFS or ext2fsd,yes,dunno,yes with Paragon ExtFS,yes since FreeBSD 12.0,no,with addon,dunno,dunno,dunno
 NOVA,no,no,no,yes,no,no,no,no,no,no,no,no
 Lustre,no,no,no,yes,dunno,dunno,no,dunno,dunno,dunno,yes,dunno
 NILFS,no,no,dunno,yes as an external kernel module,dunno,dunno,no,dunno,dunno,dunno,dunno,dunno

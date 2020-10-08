@@ -1,0 +1,46 @@
+Client,IMSP,Application Configuration Access Protocol,RSS (file format) RSS (file format),RSS (file format) RSS (file format),RSS (file format) RSS (file format),Atom (standard) Atom (standard),ICalendar,Messaging Application Programming Interface,CalDAV,CardDAV
+Alpine (email client),?,?,?,?,?,?,?,?,?,?
+Apple Mail,?,?,?,?,?,?,Yes,?,Yes,Yes
+Becky!,?,?,Yes [Note 9],Yes [Note 9],Yes [Note 9],Yes [Note 9],?,?,?,?
+Citadel/UX,?,?,?,?,?,?,?,?,?,?
+Claws Mail,?,?,No,Yes [Note 10],Yes [Note 10],Yes [Note 10],Yes [Note 11],?,?,?
+Cone (software),No,No,No,No,No,No,No,?,?,?
+Courier (email client),No,No,No,No,No,No,No,?,?,?
+Elm (email client),?,?,?,?,?,?,?,?,?,?
+EM Client,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes
+EmailTray,No,No,No,No,No,No,No,No,?,?
+Eudora (email client),No,Yes,No,No,No,No,No,?,?,?
+Evolution (software),No,No,No [Note 12],No [Note 12],No [Note 12],No,Yes,Yes,Yes,Yes
+Gnus,?,?,Yes,Yes,Yes,No,?,?,?,?
+GroupWise,?,No,?,?,?,?,Yes,?,?,?
+Hiri (email client),No,No,No,No,No,No,No,No,No,No
+Scribe Mail,No,No,No,No,No,No,No,Yes,?,?
+IBM Lotus Notes,No,No,Yes [Note 13],Yes,Yes,Yes,Yes,?,?,?
+KMail,?,?,Yes [Note 14],Yes [Note 14],Yes [Note 14],Yes [Note 14],Yes [Note 15],?,Yes,Yes
+Mailpile,?,?,?,?,?,?,?,?,?,?
+Microsoft Entourage,?,?,?,?,?,?,Yes,?,?,?
+Microsoft Office Outlook,?,?,Yes [Note 16],Yes [Note 16],Yes [Note 16],Yes [Note 16],Yes [Note 17],Yes,No,No
+Mozilla Mail &amp; Newsgroups,?,?,?,?,?,?,?,?,?,?
+Mozilla Thunderbird,No,No,Yes,Yes,Yes,Yes,Yes [Note 18],Yes [Note 19],Yes,No
+Mulberry (email client),Yes,Yes,No,No,No,No,Yes,?,Yes,?
+Mutt (email client),?,?,No,No,No,No,No,?,?,?
+Netscape Messenger,?,?,?,?,?,?,?,?,?,?
+Netscape Messenger 9,?,?,?,?,?,?,?,?,?,?
+MH Message Handling System,?,?,?,?,?,?,?,?,?,?
+Opera Mail,?,?,Yes,Yes,Yes,Yes,No,?,No,No
+Outlook Express,?,?,No,No,No,No,No,?,No,No
+Pegasus Mail,?,?,Yes [Note 5],Yes [Note 5],Yes [Note 5],?,?,?,?,?
+Pine (email client),No,No,No,No,No,No,No,?,?,?
+Pocomail,No,No,Yes,Yes,Yes,No,No,?,?,?
+SeaMonkey Mail &amp; Newsgroups,No,No,Yes,Yes,Yes,Yes,Yes [Note 18],?,?,?
+Spicebird,No,No,Yes,Yes,Yes,Yes,Yes [Note 18],No,?,?
+SquirrelMail,?,?,Yes,Yes,Yes,Yes,Yes,Yes,?,?
+Sylpheed,No,No,No,No,No,No,No,No,?,?
+The Bat!,No,No,Yes [Note 20],Yes [Note 20],Yes [Note 20],Yes [Note 20],No,Yes,?,Yes
+Trojitá,No,No,No,No,No,No,No,No,?,?
+Turnpike (software),?,?,?,?,?,?,?,?,?,?
+Windows Live Mail,?,?,Yes,Yes,Yes,Yes,No,?,?,?
+Windows Mail,?,?,?,?,?,?,?,?,?,?
+YAM (Yet Another Mailer),No,No,No,No,No,No,No,?,?,?
+Zimbra,?,?,Yes,Yes,Yes,Yes,Yes,?,?,?
+Client,IMSP,Application Configuration Access Protocol,RSS (file format) RSS (file format),RSS (file format) RSS (file format),RSS (file format) RSS (file format),Atom (standard) Atom (standard),ICalendar,MAPI/RPC,CalDAV,CardDAV

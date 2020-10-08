@@ -1,18 +1,20 @@
-Written in,License,Access API,High availability,Shards,Initial release year,Memory requirements (GB)
-Alluxio (Virtual Distributed File System),Java,Apache License 2.0," FUSE, HTTP/S3",hot standby,no,2013,
-Ceph,C++,LGPL," librados (C, C++, Python, Ruby), S3, Swift, FUSE",yes,yes,2010,1 per TB of storage
-Coda,C,GPL,C,yes,yes,1987,
-GlusterFS,C,GPLv3," libglusterfs, FUSE, NFS, SMB, Swift, libgfapi",yes,yes,2005,
-MooseFS,C,GPLv2," POSIX, FUSE",master,no,2008,
-Quantcast File System,C,Apache License 2.0," C++ client, FUSE (C++ server: MetaServer and ChunkServer are both in C++)",master,no,2012,
-[https://github.com/freakmaxi/kertish-dfs Kertish-DFS],Go,GPLv3,"HTTP(REST), CLI, C# Client, Go Client",yes,,2020,
-LizardFS,C++,GPLv3," POSIX, FUSE, NFS-Ganesha, Ceph FSAL (via libcephfs)",master,no,2013,
-Lustre,C,GPLv2," POSIX, NFS-Ganesha, NFS, SMB",yes,yes,2003,
-MinIO,Go,Apache Licence 2.0,AWS S3 API,yes,yes,2014,
-OpenAFS,C,IBM Public License," Virtual file system, Installable File System",,,2000,
-OpenIO,C,AGPLv3 / LGPLv3," Native (Python, C, Java), S3, Swift, FUSE (NFS, SMB, FTP)",yes,,2015,0.5
-[https://github.com/chrislusf/seaweedfs SeaweedFS]," Go, Java",Apache License 2.0," HTTP (FUSE, S3, HDFS"," requires CockroachDB, undocumented config",,2015,
-Tahoe-LAFS,Python,GNU GPL," HTTP (browser or CLI), SFTP, FTP, FUSE via SSHFS, pyfilesystem",,,2007,
-HDFS,Java,Apache License 2.0," Java and C client, HTTP",transparent master failover,no,2005,
-XtreemFS," Java, C++",BSD License," libxtreemfs (Java, C++), FUSE",,,2009,
-Ori," C, C++",MIT," libori, FUSE",,,2012,
+Written in,License,Access API,High availability,Shards,Efficient Redundancy,Redundancy Granularity,Initial release year,Memory requirements (GB)
+Alluxio (Virtual Distributed File System),Java,Apache License 2.0," FUSE, HTTP/S3",hot standby,no,Replication,File,2013,
+Ceph,C++,LGPL," librados (C, C++, Python, Ruby), S3, Swift, FUSE",yes,yes,Pluggable erasure codes,Pool,2010,1 per TB of storage
+Coda,C,GPL,C,yes,yes,Replication,Volume,1987,
+GlusterFS,C,GPLv3," libglusterfs, FUSE, NFS, SMB, Swift, libgfapi",yes,yes,Reed-Solomon,Volume,2005,
+MooseFS,C,GPLv2," POSIX, FUSE",master,no,Replication,File,2008,
+Quantcast File System,C,Apache License 2.0," C++ client, FUSE (C++ server: MetaServer and ChunkServer are both in C++)",master,no,Reed-Solomon,File,2012,
+IPFS,Go,Apache 2.0 or MIT," [https://docs.ipfs.io/concepts/ipfs-gateway/ HTTP gateway], [https://github.com/ipfs/go-ipfs/blob/master/docs/fuse.md FUSE], [https://github.com/ipfs/go-ipfs Go client], [https://js.ipfs.io/ Javascript client], [https://docs.ipfs.io/reference/cli/ command line tool]",yes,with [https://cluster.ipfs.io/ IPFS Cluster],Replication,Block,2015,
+[https://github.com/freakmaxi/kertish-dfs Kertish-DFS],Go,GPLv3,"HTTP(REST), CLI, C# Client, Go Client",yes,,Replication,,2020,
+LizardFS,C++,GPLv3," POSIX, FUSE, NFS-Ganesha, Ceph FSAL (via libcephfs)",master,no,Reed-Solomon,File,2013,
+Lustre,C,GPLv2," POSIX, NFS-Ganesha, NFS, SMB",yes,yes,No redundancy,No redundancy,2003,
+MinIO,Go,Apache Licence 2.0,AWS S3 API,yes,yes,Reed-Solomon,Object,2014,
+OpenAFS,C,IBM Public License," Virtual file system, Installable File System",,,Replication,Volume,2000,
+OpenIO,C,AGPLv3 / LGPLv3," Native (Python, C, Java), S3, Swift, FUSE (NFS, SMB, FTP)",yes,,Pluggable erasure codes,Object,2015,0.5
+RozoFS," C, Python",GPLv2," FUSE, SMB, NFS, key/value",yes,,Mojette,Volume,2011,
+[https://github.com/chrislusf/seaweedfs SeaweedFS]," Go, Java",Apache License 2.0," HTTP (FUSE, S3, HDFS"," requires CockroachDB, undocumented config",,Reed-Solomon,Volume,2015,
+Tahoe-LAFS,Python,GNU GPL," HTTP (browser or CLI), SFTP, FTP, FUSE via SSHFS, pyfilesystem",,,Reed-Solomon,File,2007,
+HDFS,Java,Apache License 2.0," Java and C client, HTTP, FUSE",transparent master failover,no,Reed-Solomon,File,2005,
+XtreemFS," Java, C++",BSD License," libxtreemfs (Java, C++), FUSE",,,Replication,File,2009,
+Ori," C, C++",MIT," libori, FUSE",,,Replication,Filesystem,2012,

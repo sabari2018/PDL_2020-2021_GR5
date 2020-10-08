@@ -1,5 +1,5 @@
 Name,Creator,FOSS,Free,First public release date,Year of latest stable version,Windows,Macintosh,Linux,Other platforms,Max supported file size
-Beyond Compare,Scooter Software,no; Proprietary,no,1996,2020-09-10 (v4.3.6),Yes,Yes,Yes,,> 2GB (64 bits)
+Beyond Compare,Scooter Software,no; Proprietary,no,1996,2020-10-02 (v4.3.7),Yes,Yes,Yes,,> 2GB (64 bits)
 Compare++,Coode Software,no; Proprietary,no,2010,2014-11-12 (2.21.2.0),Yes,No,No,,
 "  diff, diff3",AT ;T," yes; BSD 3-clause, BSD 4-clause, CDDL, GPL, Proprietary",yes,1974,,Yes,Yes (Mac OS X),Yes,ported to most platforms as part of SCCS,> 2GB but less than 64 bits
 Eclipse (compare),,yes; Eclipse Public License,yes,2004-07-21,2016-09-28 (4.6.1 (Neon.1)),Yes,Yes,Yes,Anything with Java,
@@ -9,7 +9,7 @@ Far Manager (compare),Eugene Roshal (original); FAR Group,yes; Revised BSD licen
 fc,Microsoft,no; Proprietary,yes; Part of OS,1987,,Yes (DOS),No,No,,
 FileMerge (aka opendiff),Apple Inc.,no; Proprietary,yes; (part of Apple Developer Tools),1993 (part of NEXTSTEP 3.2),2014 (v2.8),No,Yes (Mac OS X),No,,
 FreeFileSync,Zenju,yes; GPLv3,yes,2008,2019-09-16 (v10.16),Yes,Yes,Yes,,
-Guiffy SureMerge,Guiffy Software,no; Proprietary,no,2000,2020-03-03 (v11.12),Yes,Yes,Yes,Anything with Java,> 2GB
+Guiffy SureMerge,Guiffy Software,no; Proprietary,no,2000,2020-10-06 (v11.13),Yes,Yes,Yes,Anything with Java,> 2GB
 IntelliJ IDEA (compare),JetBrains,no; Proprietary,no,2001,2019-08-20 (2019.2.1),Yes,Yes,Yes,,
 jEdit JDiff plugin,Various,yes; GPL,yes,1998,2012-10-04 (3.3.0),Yes,Yes,Yes,Anything with Java,
 Kompare,Otto Bruggeman,yes; GPLv2+,yes,,,Yes,Yes (Mac OS X),Yes,,

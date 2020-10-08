@@ -22,11 +22,11 @@ Asus,Eee PC 1215B,1.45,,12.1,1366x768 WXGA,129,AMD APU E450 / E350 / C30 / C50 /
 Asus,Eee PC 1215N,1.45,,12.1,1366x768 WXGA,129,Intel Atom D525,1.8,,?,"VGA, HDMI",HDD,250 / 320 + Web Storage,1 - 4 (DDR),6 (6-cell),6 (6-cell),?,0.3 MP,Touchpad 2-buttons below,-,7 Home Premium,[https://www.asus.com/Notebooks/Eee_PC_1215N/HelpDesk_Manual/ Eee PC 1215N Manual]
 Asus,Eee PC 1215T,1.45,,12.1,1490x900 WXGA+,147,AMD Athlon II Neo K125,1.7,,AMD HD 4250,"VGA, HDMI",HDD,250 / 320,1 - 2 (DDR3),? (6-cell),? (6-cell),?,0.3 MP,Touchpad 2-buttons below,-,7 Home Premium,[https://www.asus.com/Notebooks/Eee_PC_1215T/HelpDesk_Manual/ Eee PC 1215T Manual]
 AVERATEC
-Averatec,Buddy,1.19,2.62,10.2,?dunno,?dunno,Atom,1.6,,dunno,VGA,HDD,160,1,dunno,dunno,dunno,dunno,,,,dunno,XP,
+Averatec,Buddy,1.19,2.62,10.2,?dunno,?dunno,Atom,1.6,,dunno,VGA,HDD,160,1,dunno,dunno,dunno,dunno,,dunno,XP,
 Axioo,Pico,1.2,2.6,10,6144001024×600  WSVGA,118,Atom N270,1.6,,dunno,dunno,HDD,120,1 group=Notepico," dunno (3 cells, 2200 mAh)"," dunno (6 cells, 5200 mAh)",dunno,dunno,,dunno,XP,
 BELCO,450R,0.75,1.65,7,384000800x480,133," DM ;P PDX-600 (Vortex86dx, i486DX compatible)",1,,XGI Z9s (no 3D acceleration),dunno,SSD,4/8,0.5,dunno 2000 mAh,dunno,dunno,dunno,,dunno,dunno,
 BENQ
-BenQ,Joybook Lite U101,1.05,2.31,10.1,6144001024×576 WSVGA 16:9 LED glossy,117,Atom N270,1.66,,GMA 950,VGA,SSD+HDD," 4 (SSD) 80, 120, 160 (HDD)"," 1.5, 2.5 (512MB built in)",dunno,44,90%,dunno,,,Linux Lite,XP Home,
+BenQ,Joybook Lite U101,1.05,2.31,10.1,6144001024×576 WSVGA 16:9 LED glossy,117,Atom N270,1.66,,GMA 950,VGA,SSD+HDD," 4 (SSD) 80, 120, 160 (HDD)"," 1.5, 2.5 (512MB built in)",dunno,44,90%,dunno,,Linux Lite,XP Home,
 Datacask,Jupiter 1014a,1.25,2.75,10.2,6144001024x600,116,Atom,1.6,,GMA 945,VGA,HDD," 80, 160"," 0.5, 1, 2",4 (4000 mAh),dunno,83%,1.3 MP,Touchpad 2-buttons below,Knoppix Variant,XP,
 DELL
 Manufacturer,Model,Weight  ;#91;kg ;#93;,Weight  ;#91;lb ;#93;," Display size """,Display resolution,Display DPIgroup=Notedispdpi,CPU,Speed  ;#91;GHz ;#93;,HSDPA,Video chipset,Video connection(s),Storage type,Storage  ;#91;GB ;#93;,RAM  ;#91;GB ;#93;,Battery life  ;#91;h ;#93; (low end),Battery life  ;#91;h ;#93; (high end),Keyboard size in %group=Notekbdpct,Camera,Mouse layout,Unix OS choice(s),Windows OS choice(s),Manual / DataSheet

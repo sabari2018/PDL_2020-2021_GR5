@@ -1,0 +1,6 @@
+" Rover (mission, organization, year)",Central processing unit,Random access memory,Flash memory,EEPROM,Operating system,CPU time available for the autonomy software
+" Mars Pathfinder (Mars Pathfinder, NASA, 1997)Mars PathfinderMars PathfinderMars PathfinderMars Pathfinder",2 MHzIntel 80C85 Intel 80C85,512 Kilobyte,176 KB,None,Custom Cyclic executive,Not applicable to Cyclic Executives
+" Pathfinder mission (NASA, 1997)Pathfinder mission    (Base station for  Sojourner  rover) ",20 MHz MFC,128 Megabyte,None,6 MB,VxWorksVxWorks (VxWorks),less than 75%
+" Spirit (rover) and Spirit (rover) (Spirit (rover) (MER), NASA, 2004)Spirit (rover)",20 MHz RAD6000,128 MB,256 MB,3 MB,VxWorks (multitasking),less than 75%
+" Curiosity rover (Curiosity rover (MSL), NASA, 2011)Curiosity roverCuriosity roverCuriosity rover",200 MHz RAD750,256 MB,2 Gigabyte,256 KB,VxWorks (multitasking),less than 75%
+" Perseverance (rover) (Perseverance (rover), NASA, 2020)Perseverance (rover) ",200 MHz BAE RAD750,128 MB,4 GB,?,VxWorks (multitasking)[11],?

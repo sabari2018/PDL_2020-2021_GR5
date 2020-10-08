@@ -10,7 +10,7 @@ Adobe Photoshop Elements," Raster graphics editor for entry-level photographers,
 Adobe Photoshop Lightroom,Photo editor,Adobe Systems,20070219,8.2,20190207,$9.99/month,proprietary
 Affinity Photo," Professional image editor for Windows, macOS and iOS",Serif Europe,20150709,1.8.2,20200403,$49.99,proprietary
 Autodesk SketchBook Pro,Paint and drawing toolset for use with digitized pen tablets  ; tablet computers,Autodesk,2004," data-sort-value=""4.1""  2016 (4.1) ",,,proprietary
-Artipic,Image editor for Windows and macOS,Artipic AB,2014,2.6,"October 30, 2017 ",,proprietary
+Artipic,Image editor for Windows and macOS,Artipic AB,2014,2.6,20171030,,proprietary
 ArtRage,Digital paint program for tablet computers,Ambient Design,2004,6,201906,,proprietary
 Artweaver,Emulates physical painting experience on a computer,Boris Eyrich,2002,7.0.4,20200209,,Freeware
 Bibble*,Photo editor and organizer with camera raw file support,Bibble Labs,2000,5.2,,,proprietary
@@ -18,7 +18,7 @@ Black Ink,Advanced Digital Painting,Bleank,2012,2020.1,202001,$59.99,proprietary
 Bloom,Procedural node-based image editor,Sad Cat Software,2015,1.0.467,20160805,,proprietary
 Brush Strokes Image Editor,Image editor like Windows Paint,Paul Bird,2004,2.0,,,Freeware
 Capture One,Professional raw converter and image editor,Phase One,2002,12,,,proprietary
-Chasys Draw IES," Image Editor with layers, animation, icon edit, super-res, batch and camera raw",John Paul Chacha,2001,4.56.01,"November 12, 2018 ",,Freeware
+Chasys Draw IES," Image Editor with layers, animation, icon edit, super-res, batch and camera raw",John Paul Chacha,2001,4.56.01,20181112,,Freeware
 CinePaint," Moving picture, photo and graphics editor",Robin Rowe,20020704,1.0-4,20130508,,GPL
 CodedColor PhotoStudio Pro,An bitmap graphics editor and image organizer for Windows pc,1STEIN Corp.,2001,6.2,,,proprietary
 Corel PaintShop Pro,Advanced image editor and graphics creator,Jasc Software,1992," data-sort-value=""17""  X7 ",,,proprietary
@@ -47,12 +47,12 @@ Helicon Filter,Advanced image editor with a simplified tabbed interface,Helicon 
 ImageJ,Image processing program developed at the National Institutes of Health.,Wayne Rasband (NIH),1997,1.46m,,,Public Domain
 ImageMagick," Command line software suite for displaying, converting, and editing raster image files",ImageMagick Studio LLC,1990,7.0.9-23,20200215,,Apache 2.0
 iPhoto*,Image organizer and basic editor for Photos,Apple Inc.,2002,9.6,,,proprietary
-IrfanView,Image and video viewer with basic editing functions,Irfan Skiljan,1996,4.44," December 20, 2016",,Freeware
+IrfanView,Image and video viewer with basic editing functions,Irfan Skiljan,1996,4.44,20161220,,Freeware
 Iridient Developer,Powerful raw image conversion application designed and optimized for macOS,Iridient Digital,2004,3.0.3,,,proprietary
 KolourPaint,,KDE,2004,19.12.1,20200109,,BSD
 Krita,Digital painting oriented free and open-source raster graphic editor with vector support. KDE/Calligra based.,KDE,2005,4.2.8,20191127,,GPL
 LazPaint,Free multiplatform layered image editor,circular,2011,7.0.7,20191014,,GPL
-LiveQuartz,Basic multi-layer photo editor,Romain Piveteau,2005,2.8," December 1, 2018 ",,proprietary
+LiveQuartz,Basic multi-layer photo editor,Romain Piveteau,2005,2.8,2018121,,proprietary
 MacPaint*,Obsolete basic editor,Bill Atkinson,1984,2.0,,,proprietary
 Microsoft Office Picture Manager*,Basic image editor,Microsoft,2002,14.0,,,proprietary
 Microsoft Paint,Basic graphic creator and editor packaged with Microsoft Windows operating systems,Microsoft,1985,6.1,,,proprietary
@@ -60,7 +60,7 @@ Microsoft Photo Editor*,Obsolete basic image editor for Windows,Microsoft,2000,3
 mtPaint,photo editing application,Mark Tyler,20040913,3.40,20111230,free,GPL3
 MyPaint,Digital painting application,Martin Renold,20050312,2.0.0,20200216,free,GPL2
 OpenCanvas,,Portalgraphics,2000,4,,,proprietary
-paint.net,Freeware image editor and graphics creator based on the .Net framework," Rick Brewster, et al.",20040506,4.0.19 (for Windows 7 SP1 or newer) / 3.5.11 (the last version to support Windows XP),"October 2, 2017",,Freeware
+paint.net,Freeware image editor and graphics creator based on the .Net framework," Rick Brewster, et al.",20040506,4.0.19 (for Windows 7 SP1 or newer) / 3.5.11 (the last version to support Windows XP),2017102,,Freeware
 Paint Tool SAI*,Simple and lightweight painting software,Systemax Software,20080225,1.2.5,20160425,~$50 (5500JPY),proprietary
 PC Paintbrush*,Obsolete basic editor,ZSoft Corporation,1984,5,,,proprietary
 Pencil2D,2D graphical animation software.,Pascal Naidon,,0.6.4,20190531,,GPL

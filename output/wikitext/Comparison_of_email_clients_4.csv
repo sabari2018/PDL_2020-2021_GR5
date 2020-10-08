@@ -14,7 +14,7 @@ Gnus,yes,yes,no,yes,yes,yes,yes,yes,dunno,dunno,dunno
 GroupWise,yes,yes,yes,yes,yes,yes,yes,yes,no,yes,yes
 Hiri,no,no,no,no,no,no,yes,yes,yes,yes,no
 i.Scribe / InScribe,yes,no,yes,yes,yes,no,group=Noteplugin,group=Noteplugin,no,no,yes
-IBM Notes,yes,yes,yes,yes,yes,yes,yes,yes,no,yes,no
+HCL Notes,yes,yes,yes,yes,yes,yes,yes,yes,no,yes,no
 KMail,yes,yes,yes,yes,yes,group=NoteKDENNTP,yes,dunno,dunno,dunno,dunno
 Mailbird,yes,dunno,dunno,yes,yes,dunno,yes,yes,dunno,yes,dunno
 Mailpile,yes,no,no,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno

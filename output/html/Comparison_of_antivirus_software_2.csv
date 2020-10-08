@@ -1,0 +1,22 @@
+Company,Software,On-demand scan,Real-time protection,Heuristic (computer science),Cloud computing,Firewall (computing),Intrusion Detection System,Intrusion prevention system,Email security,Antispam,Web filter,Live-Update,Support,Software license,Price,First release,Country of origin,Notes
+Avast Software,Avast Antivirus,Yes,Yes,Yes,No,No,No,No,Yes,No,Yes,Yes,Yes,Proprietary software,Free,2012,Czech Republic,
+Avira,Avira,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,No,Proprietary software,Free,2011,Germany,
+Bitdefender,BitDefender,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,Yes,Proprietary software,Non-free,2011,Romania,
+Cisco,Clam AntiVirus,Yes,Yes,No,No,No,No,No,Yes,No,No,Yes,No,GNU General Public License,Free,2000,United States,
+Comodo Group,Comodo Internet Security,Yes,Yes,Yes,No,No,No,No,No,No,No,Yes,No,Proprietary software,Free,2012,United States,
+Dr. Web,Dr. Web,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Proprietary software,Trialware,2012,Russia,
+ESET,ESET,Yes,Yes,Yes,Yes,No,No,No,No,No,Yes,Yes,Yes,Proprietary software,Non-free,2011,Slovakia,
+ESET,ESET,Yes,Yes,Yes,Yes,Yes[9],No,No,Yes,No,Yes,Yes,Yes,Proprietary software,Non-free,2013,Slovakia,
+F-Secure,F-Secure,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Proprietary software,Non-free,2008,Finland,Third-party antivirus engine (Bitdefender + Bitdefender)
+Intego,VirusBarrier,Yes,Yes,No,No,No,No,No,No,No,No,Yes,Yes,Proprietary software,Non-free,1997,United States,
+Intego,Intego,Yes,Yes,No,No,Yes,No,No,No,No,Yes,Yes,Yes,Proprietary software,Non-free,2000,United States,
+Kaspersky Lab,Kaspersky Internet Security,Yes,Yes,Yes,Yes,No,No,No,Yes,No,Yes,Yes,Yes,Proprietary software,Non-free,2010,Russia,Banned by Federal government of the United States
+Quick Heal,Quick Heal,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Proprietary software,Non-free,1995,India,GoDeep.AI engine,
+Malwarebytes (software),Malwarebytes for Mac,Yes,No,,,No,No,No,No,Yes,No,Yes,,,Free,2006,United States,4 vulnerabilities found by Project Zero in 2016
+Panda Security,Panda Security,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Proprietary software,Non-free,2008,Spain,
+Sophos,Sophos,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,No,Proprietary software,Free,2010,United Kingdom,
+NortonLifeLock,Symantec Endpoint Protection,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,Proprietary software,Non-free,2012,United States,
+NortonLifeLock,Norton Security Standard for Mac,Yes,Yes,Yes,No,Yes,No,No,No,No,Yes,Yes,Yes,Proprietary software,Non-free,2012,United States,
+Trend Micro,Trend Micro Internet Security,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,Yes,Proprietary software,Non-free,2011,Japan,
+Webroot,SecureAnywhere AntiVirus,Yes,Yes,No,No,No,No,No,No,No,Yes (only in Apple Safari),Yes,Yes,Proprietary software,Trialware,2012,United States,
+Webroot,SecureAnywhere Internet Security Plus and Complete,Yes,Yes,No,No,No,No,No,No,No,Yes (only in Apple Safari),Yes,Yes,Proprietary software,Trialware,2012,United States,
