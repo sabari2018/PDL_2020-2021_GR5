@@ -22,5 +22,5 @@ There is 303 URL processed for 336 in total.
 |When the value of cells is a link, it extract the content| X ||
 |Merged cells create a new column for each rows| X | X |
 |When cells are merged, only one row include the value| X | X |
-|Some cells in colors extract the color attribute|| X |
+|Some cells in colors extract the color attribute| |X|
 |When the value of cells is "?", it extract "dunno"| | X |
