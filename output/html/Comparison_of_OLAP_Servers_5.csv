@@ -1,0 +1,16 @@
+OLAP server,Semi-additive measures,Many-to-Many,Multi-Cube Model,Perspectives,KPI,Multilingual,Named Sets,Multi-attribute Hierarchies,Actions
+Apache Kylin,No,No,Yes,No,Yes,Yes,No,Yes,Yes
+ClickHouse,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No
+Druid (open-source data store),Yes,Yes,Yes,?,No,Yes,?,Yes,Yes
+Essbase,Yes,?,?,?,Yes,Yes,Yes,Yes,?
+IBM Cognos BI,Yes,Yes,?,?,?,?,Yes,Yes,?
+IBM Cognos TM1,Yes,Yes,Yes,?,?,?,?,?,?
+IcCube,Yes[32],Yes[33],Yes,Yes,?,Yes,Yes,?,?
+Jedox,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?
+Kyvos,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No
+Microsoft Analysis Services,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+MicroStrategy,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Mondrian OLAP server,Yes[34],?,?,?,?,?,?,?,?
+Oracle OLAP,Yes,?,?,?,?,?,?,?,?
+SAP NetWeaver Business Intelligence,Yes,?,?,?,?,?,?,?,?
+SAS System,Yes,?,?,?,?,?,?,?,?

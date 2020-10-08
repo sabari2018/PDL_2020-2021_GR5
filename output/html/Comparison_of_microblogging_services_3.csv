@@ -1,0 +1,10 @@
+Service,Post via,,,,,,Read via,,,,,
+,Web interface,Extensible Messaging and Presence Protocol,E-Mail,SMS,API,Micropub (protocol),Web interface,Extensible Messaging and Presence Protocol,E-Mail,SMS,API,Web feed
+Facebook,Yes,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes
+GNU social,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes
+Loforo (page does not exist) Loforo (page does not exist),Yes,No,No,Yes,Yes,No,Yes,No,No,No,Yes,Yes
+Twitter,Yes,No,No,Yes,Yes,No,Yes,No,?,Yes,Yes,Yes
+Mastodon (software),Yes,No,No,No,Yes,No,Yes,No,No,No,Yes,Yes
+Misskey,Yes,No,No,No,Yes,No,Yes,No,No,No,Yes,Yes
+Micro.blog,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+Pleroma,Yes,No,No,No,Yes,No,Yes,No,No,No,Yes,Yes

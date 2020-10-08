@@ -1,0 +1,15 @@
+Feature,Android (operating system),IOS,Tizen,Sailfish OS,Ubuntu Touch
+Proxy server," 3.1+[335] but only global, not per connection[336] and only works for the browser[337] 3rd party apps available[338]",Yes,Yes,Yes[339],No
+On-device Encryption,3+Qualcomm but insecure on Qualcomm devicesQualcomm,YesBrute-force attack (3rd party software may attempt Brute-force attack on passwordBrute-force attack),No,3.3.0+[344],No
+External storage encryption,6+,External storage not available,No,Yes,No
+Zero knowledge encryption[345]," No, data is accessible by GooglePRISM (surveillance program) and shared with the American PRISM (surveillance program).PRISM (surveillance program)"," No, data stored on ICloud is accessible by AppleICloud and shared with the American ICloud.ICloud",?,?,No
+Privacy of synchronization[349],3rd party software like OwnCloudOwnCloud,When synchronizing locally and not using ICloud,?,?,?
+Sync to cloud communication encryption,2.3.4+[351],Yes[352],?,?,?
+Wireless anti-tracking[353],Developer Options (9+)[354],8+[355],No,?,No
+Remote device location tracking,Yes[356],Yes[357],?,?,No
+Remote device locking and/or data wipe,2.2+[358],Yes[357],?,?,No
+End-to-end encryption push notifications," Possible, notifications are handled by the app that can decrypt it[109]"," Possible since iOS 7, where the app can handle the notification and decrypt it[359]",?,?,Yes
+Secure Shell,Yes,Yes[360][361],?,Yes,Yes
+VPN,Yes[362],Yes[363],?,Yes,Yes
+OpenVPN," No, but possible with 3rd party firmware[364]",Yes[365],?,Yes,Yes
+Wi-Fi Protected Access Wi-Fi Protected Access,Yes[366],Yes[367],?,In developer mode[368],Yes

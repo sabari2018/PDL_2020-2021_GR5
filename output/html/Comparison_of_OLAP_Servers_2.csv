@@ -1,0 +1,16 @@
+OLAP server,MOLAP,ROLAP,HOLAP,Offline
+Apache Kylin,Yes,No,No,Yes
+ClickHouse,Yes,Yes,Yes,Yes
+Druid (open-source data store),Yes,Yes,Yes,Yes
+Essbase,Yes,No,No,
+IBM Cognos BI,Yes,Yes,Yes,
+TM1,Yes,No,No,Cognos Insight Distributed mode
+IcCube,Yes,No,No,Offline Cubes
+Jedox,Yes,No,No,No
+Kyvos,Yes,Yes,Yes,Yes
+Microsoft Analysis Services,Yes,Yes,Yes," Local cubes,  PowerPivot, PowerPivot "
+MicroStrategy,Yes,Yes,Yes," MicroStrategy Office,  Dynamic Dashboards "
+Mondrian OLAP server,No,Yes,No,
+Oracle OLAP,No,Yes,No,
+SAP NetWeaver Business Intelligence,Yes,Yes,No,
+SAS System,Yes,Yes,Yes,

@@ -1,0 +1,58 @@
+File system,Internal snapshotting / branching,Filesystem-level encryption,Data deduplication,Checksum,Cache (computing),RAID,Data compression
+DECtape,No,No,No,No,No,No,No
+BeeGFS,No,No,Yes,No,No,No,Yes
+Level-D,No,No,No,No,No,No,No
+RT-11,No,No,No,No,No,No,No
+APFS,Yes,Yes,No,No,No,No,Yes
+Version 6 Unix file system (V6FS),No,No,No,No,No,No,No
+Version 7 Unix file system (V7FS),No,No,No,No,No,No,No
+ExFAT,No,No,No,No,No,No,No
+FAT12,No,No,No,No,No,No,Partial (only inside of Stacker 3/Stacker 3 and Stacker 3 compressed volumesStacker 3)
+FAT16 / FAT16 / FAT16,No,No,No,No,No,No,Partial (only inside of Stacker 3/Stacker 3 and Stacker 3 compressed volumesStacker 3)
+FAT32 / FAT32,No,No,No,No,No,No,No
+Global File System,No,No,?,No,No,No,No
+High Performance File System,?,No,?,No,No,No,No
+NTFS,No,Yes,Yes[cc][48],No,No,No,Yes
+HFS Plus,No,No[cd],No,No,No,No,No
+Berkeley Fast File System,No,No,No,No,No,No,No
+UFS1 (file system),No,No,No,No,No,No,No
+UFS2 (file system),Yes,No,No,No,No,No,No
+HAMMER (file system),Yes,No,Yes,Yes,No,No,No
+Log-structured File System (BSD),Yes,No,No,No,No,No,No
+Extended file system,No,No,No,No,No,No,No
+Xiafs,No,No,No,No,No,No,No
+Ext2,No,No,No,No,No,No,No
+Ext3,No,No,No,No,No,No,No
+Ext4,No," Yes, experimental [49] ",No,No,No,No,No
+NOVA (filesystem),Yes,No,No,Yes,No,No,No
+F2FS,No," Yes, experimental [50] ",No,No,No,No,Yes
+Lustre (file system),No,No,No,No,Yes,Yes,No
+NILFS," Yes, continuous[br] ",No,No,Yes,No,No,No
+ReiserFS,No,No,No,No,No,No,No
+Reiser4,?,Yes[ce],?,No,No,No,Yes
+OCFS,No,No,No,No,No,No,No
+OCFS2,No,No,No,No,No,No,No
+XFS,No,No," Yes, experimental [51] ",No,No,No,No
+JFS file system,?,No,?,No,No,No,only in JFS1 on AIX[52]
+QFS,No,No,No,No,No,No,No
+Be File System,No,No,No,No,No,No,No
+Novell Storage Services,Yes,Yes,?,No,No,No,Yes
+NetWare File System,?,No,?,No,No,No,Yes
+ODS-2,Yes,No,No,No,No,No,No
+ODS-5,Yes,No,No,No,No,No
+Universal Disk Format,No,No,No,No,No,No,No
+Veritas File System,Yes[cf],No,Yes,No,No,No,No
+Fossil (file system),Yes,No,Yes,No,No,No,Yes
+ZFS,Yes,Yes[cg],Yes,Yes,Yes,Yes,Yes
+Btrfs,Yes,No,Yes,Yes,No,Yes,Yes
+MINIX file system,No,No,No,No,No,No,No
+MINIX file system,No,No,No,No,No,No,No
+MINIX file system,No,No,No,No,No,No,No
+VMFS2,No,No,No,No,No,No,No
+VMFS3,No,No,No,No,No,No,No
+ReFS,?,No,Yes,Yes,No,No,No
+ISO 9660,No,No,No[ch],No,No,No,No
+Rock Ridge,No,No,No[ch],No,No,No,No
+Joliet (file system),No,No,No[ch],No,No,No,No
+SquashFS,No,No,Yes,Yes,No,No,Yes
+File system,Internal snapshotting / branching,Filesystem-level encryption,Data deduplication,Checksum,Cache (computing),RAID,Data compression

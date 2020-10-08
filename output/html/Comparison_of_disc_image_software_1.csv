@@ -1,0 +1,66 @@
+Name,Creates?,Modifies?,Mounts?,Writes/Burns?,Extracts?,Input format,Output format,Operating system,Software license
+7-Zip,Yes,No,No,No,Yes," CramFS, CramFS, CramFS, CramFS, CramFS, CramFS, CramFS, CramFS, CramFS, CramFS, CramFSCramFS",WIM," Windows, Windows, Windows",Free software (Free software)
+AcetoneISO,Yes,No,Yes,Yes,Yes," CD, DVD, ISO image, BIN, ISO image, IMG, NRG, CUE, TOC, DMG"," CD, DVD, ISO, BIN",Linux,Free software (Free software)
+Acronis True Image,Yes,No,Yes,Yes,Yes," TIB, VHD"," TIB, VHD",Windows,Shareware
+Alcohol 120%,Yes,No,Yes,Yes,No," ISO image, B5T, B6T, BWT, CCD, CDI, CUE, MDF+MDS, NRG, ISZ"," Media Descriptor File, ISO",Windows,Trialware
+Alcohol 120%,Yes,No,Yes,No,No,ISO image,N/A,Windows,Adware
+AnyDVD HD,Yes,No,No,No,No,N/A,ISO,Windows,Shareware
+Archive Manager,No,No,No,No,Yes,ISO image,N/A,Unix-like,Free software (Free software)
+Ashampoo Burning Studio,Yes,No,No,Yes,No," ISO image, BIN+CUE"," ISO, BIN+CUE",Windows,SharewareShareware
+BlindWrite,Yes,No,No,Yes,No," B5T, B6T, BWA, BWI, BWS, BWT, BIN+CUE, ISO image, MDF+MDS"," B5T, B6T, BWA, BWI, BWS, BWT, BIN+CUE, ISO, MDF+MDS",Windows,Shareware
+Brasero (software),No,No,No,Yes,No," ISO image, CUE"," CD, DVD",Linux,Free software (Free software)
+Burnatonce,No,No,No,Yes,No," ISO image, CUE, TOC",N/A,Windows,Freeware
+CDBurnerXP,Yes,No,No,Yes,No," ISO image, MDF+MDS, NRG, BIN+CUE"," ISO, MDF+MDS",Windows,Freeware
+CDemu,Yes,No,Yes,Yes,Yes," CSO, ECM, GBI, GZ, XZ, ISZ, DMG, ISO image, UDF, NRG, CDI, CCD, SUB, IMG, BIN+CUE, TOC, B5T+B5I, B6T+B6I, MDF+MDS, MDX, CIF, C2D, DAA"," ISO image, TOC",Linux,Free software (Free software v2)
+Cdrkit,Yes,No,No,No,No,N/A,?," Linux, Linux",Free software (Free software)
+Cdrtools,No,No,No,No,Yes,?,N/A," Unix,  Unix, Unix Unix,  Unix",Free software (Free software)
+Cdrtools,Yes,No,No,No,No,N/A,?," Unix,  Unix, Unix Unix,  Unix",Free software (Free software)
+CDRoller,Yes,No,No,Yes,Yes,ISO image,ISO,Windows,Shareware
+CDRWIN,Yes,Yes,No,Yes,Yes," ISO image, BIN+CUE, Audio File Types+CUE, ISO image+CUE, Audio File Types+ISO image+CUE, ISO image+Audio File Types+CUE",BIN+CUE,Windows,Shareware
+CloneCD,Yes,No,No,Yes,No,N/A," ISO, UFD, .img",Windows,Shareware
+CloneDVD,Yes,No,No,Yes,Yes,ISO image,ISO,Windows,Shareware
+CopyCatX,Yes,No,No,Yes,Yes,DMG,DMG,MacOS,Shareware
+Daemon Tools,Yes,All editions except Lite,Yes,Yes[b],All editions except Lite," BIN+CUE, B5T, B6T, BWT, CCD, CDI, ISO image, ISZ, MDF+MDS, MDX, NRG, ISO image, ISO image and ISO imageISO image"," ISO, MDF+MDS, MDX – VHD (file format) and VHD (file format) in Ultra edition",Windows,FreemiumFreemium
+DeepBurner,Yes,No,No,Yes,No,ISO image,ISO,Windows,Freemium
+Disco (software),Yes,No,No,Yes,No," CDR, ISO image, DMG"," CDR, ISO, DMG",MacOS,Freeware
+DiscJuggler,?,?,?,?,?," CDI, ISO image",CDI,Windows,Shareware
+Disk Utility,Yes,Yes,Yes,Yes,Yes," DMG, ISO image"," DMG, ISO",MacOS,Part of macOS
+DiskImageMounter,No,Yes,Yes,Yes,No," DMG, ISO image"," DMG, ISO",MacOS,Part of macOS
+DVD Shrink,Yes,No,No,No,Yes[e]," ISO image, NRG, IMG, MDF+MDS",ISO,Windows,Freeware
+Exact Audio Copy,Yes[f],Yes,No,Yes,Yes,Audio File Types+CUE,Audio File Types+CUE,Windows,Free software
+Furius ISO Mount,No,No,Yes,Yes,No," ISO, IMG, BIN, MDF+MDS, NRG",?,Linux,Free software (Free software)
+Image for Windows (disk imaging),Yes,No,Yes,Yes,Yes," TBI, VHD, VMDK"," TBI, VHD, VMDK",Windows,Shareware
+ImgBurn,Yes,No,No,Yes,No," APE+CUE, BIN+CUE, CDI, CDR, DI, FLAC+CUE, GCM, GI, IBQ, IMG, ISO, LST, MDF+MDS, NRG, PDI, UDI, WV"," ISO, IMG, BIN+CUE",Windows,Freeware
+ImgDrive,Yes,No,Yes,No,No," CCD, ISO image, ISZ, NRG",ISO,Windows,Freeware
+InfraRecorder,Yes,No,No,Yes,No,ISO,ISO,Windows,Free software (Free software)
+ISO Master (page does not exist)ISO Master (page does not exist)ISO Master (page does not exist),Yes,Yes,No,No,Yes,ISO,ISO,Linux,Free software (Free software)
+ISO Recorder Power Toy,Yes,No,No,Yes,No,ISO,ISO,Windows,Free software (Free software)
+IsoBuster,Yes,No,No,Yes,Yes," DAO, TAO, ISO, BIN+CUE, IMG+CCD, CIF, FCD, NRG, GCD, P01, C2D, CDI, CD, GI, PXI, MDF+MDS, VC4/000, B5T+B5I, B6T+B6I, DMG, IBP+IBQ, NCD, FLP, E01/S01/Ex01, RMG, UDF, DSK, VMDK, IBADR+IBDAT, DD, XISO, XBX, IMAGE, VHD, VHDX, DC42, WBFS, ST, 128, 256, 512, 512E, 1KN, 2KN, 4KN, 8KN, 16KN, 32KN, 64KN[9][10][11]"," ISO, TAO, BIN, CUE, IBADR+IBDAT, DSK, 1KN, 2KN, 4KN, 8KN, 16KN, 32KN, 64KN, IBR, IBP and IBQ[11]",Windows,Shareware
+IsoCreator (page does not exist)IsoCreator (page does not exist),Yes,No,No,No,No,N/A,ISO,Windows,Free software (Free software)
+K3b,Yes,No,No,Yes,Yes,ISO,N/A,Unix-like,Free software (Free software)
+Libguestfs,Yes,Yes,Yes,No,Yes," raw, qcow2, VMDK, VHD"," raw, qcow2, VMDK, VHD",Linux,Free software (Free software)
+Loop deviceLoop device,No,No,Yes,No,No,Raw image,N/A," Linux, Linux",Free software
+MagicISO,Yes,Yes,With MagicDisc,Yes,Yes," Both MagicISO and MagicDisc: ISO, BIN+CUE, IMA, IMG, CIF, NRG, IMG+CCD, MDF+MDS, VCD, VaporCD, P01, MD1, XA, VC4/000, VDI, C2D, BWI+BWT, CDI, TAO/DAO, PDI.[14][15] MagicISO only: DMG, FLP, DSK, BFI, BIF, WBT[14]"," ISO, BIN+CUE, UIF, NRG, DMG[16]",Windows,SharewareSharewareShareware
+Mount (Unix),No,No,Yes,No,No,ISO,N/A,Linux,Free software (Free software)
+Nero Multimedia Suite,Yes,No,No,Yes,No," ISO, NRG"," ISO, NRG",Windows,Shareware
+Nero Burning ROM,Yes,No,No,Yes,No," ISO, NRG"," ISO, NRG",Windows,Shareware
+Nero Linux,Yes,No,No,Yes,No," ISO, NRG"," ISO, NRG",Linux,Shareware (Discontinued)
+Ghost (software),Yes,No,Yes,Yes,?," GHO, GHS, VMDK, V2I, IV2I, PQI"," GHO, GHS, VMDK",Windows,Shareware
+OSFmount (page does not exist),No,Yes,Yes,?,?," IMG, DD, ISO, BIN+CUE, 00n, NRG, SDI, AFF(v3), AFM, AFD, VMDK, E01, S01, VHD",?,Windows,Freeware
+Partimage,Yes,No,No,Yes,No," Data compression Data compression images: Data compression, Data compression, Data compression, Data compression, Data compression, Data compression, Data compression, Data compression, Data compression, Data compression and Data compression"," Ext2, Ext3, Reiserfs, FAT16, FAT32, HPFS, JFS, Xfs, UFS, HFS and NTFS",Linux,Free software (Free software)
+PeaZip,No,No,No,No,Yes," DMG, ISO, VHD, WIM[18]",N/A," Windows, Windows",Free software (Free software v3)
+PowerISO (page does not exist)PowerISO (page does not exist),Yes,Yes,Yes,Yes,Yes," ISO, DAA, BIN+CUE, MDF+MDS, ASHDISC, BWI+B5I, LCD, IMG, CDI, CDR, CIF, P01, PDI, NRG, NCD, PXI, GI, FCD, VCD, C2D, DMG, BIF, IMA + FLP, IMG, UIF, ISZ, WIM, ESD, VMDK, VHD, VDI"," ISO image, BIN, ISO image"," Windows, Windows, Windows",Proprietary software Proprietary software
+Roxio CreatorRoxio Creator,Yes,No,No,Yes,No," ISO, C2D, BIN+CUE, GI"," ISO, GI",Windows,Proprietary software Proprietary software
+Roxio ToastRoxio Toast,No,No,No,Yes,No," ISO, BIN+CUE, IMG, DMG, CDR, NRG",N/A,MacOS,Proprietary software Proprietary software
+UltraISO,Yes,Yes,Yes,Yes,Yes," BIN+CUE, BWI+BWT, B5T+B5I, B6T+B6I, C2D, CDI, CIF, DAA, DMG, FCD, G2D, GCD, GI, IMA, IMG+CCD, IML, ISO, ISZ, LCD, MDF+MDS, NCD, NRG, P01+MD1+XA, PDI, PXI, TAO, DAO, UIF, VaporCD, VC4/000, VCD, VDI, XMD+XMF [22]"," BIN+CUE, CCD+IMG+SUB, ISO, ISZ, MDF+MDS, NRG",Windows,Trialware
+SlySoft,No,No,Yes,No,No," ISO, BIN, IMG, UDF, DVD, CCD",N/A,Windows,Freeware
+Virtual CD-ROM Control Panel,No,No,Yes,No,No,ISO,N/A,Windows,Freeware
+VirtualDrive Pro,No,No,Yes,No,No,N/A,N/A,Windows,Shareware
+Windows Assessment and Deployment Kit,Yes,Yes,Yes,Yes,No,Windows Imaging Format,Windows Imaging Format,Windows NT,Freeware; DISM component is included with Windows
+WinCDEmu,Yes,No,Yes,No,No," ISO, BIN, NRG, MDF+MDS, CCD, IMG",N/A,Windows,Free software (Free software)
+File Explorer,VHD only,No,Yes,ISO only,No," ISO,[23][24] VHD[25]",VHD,Windows NT,Part of Windows
+WinISO (page does not exist),Yes,Yes,Yes,Yes,Yes," ISO, BIN, CCD, CUE, DVD, IMG, MDF, MDS, NRG"," ISO, BIN, CCD, CUE, DVD, IMG, MDF, MDS, NRG",Windows,Shareware
+WinRAR,No,No,No,No,Yes,ISO,N/A,Windows,Shareware
+WinZip,No,No,No,No,Yes,ISO,N/A,Windows,Shareware
+Libburnia,Yes,Yes,Linux FreeBSD," Linux, BSD, Solaris",Yes,ISO,ISO," Unix,  Unix, Unix, Unix",Free software (Free software)
+BlackBox ISO Burner (page does not exist),Yes,No,Yes,Yes,No,ISO,ISO,Windows,Free software (Free software) Free software

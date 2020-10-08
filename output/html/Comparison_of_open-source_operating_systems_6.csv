@@ -1,0 +1,27 @@
+Name,File Allocation Table; File Allocation Table,NTFS,Ext2,Ext3,XFS,ReiserFS,Unix File System,UFS2,Hierarchical File System,HFS Plus,MINIX file system,Be File System,ISO 9660,Universal Disk Format,Network File System,Server Message Block," RAM disk, RAM disk ",ZFS,Other special File system
+Linux,Yes,Yes[Note 1][Note 2],Yes,Yes,Yes,Yes,Yes[Note 3],Yes[19],Yes,Yes[Note 4],Yes,Yes[Note 3],Yes,Yes,Yes,Yes,Yes,Yes," 9P (protocol),9P (protocol) 9P (protocol),9P (protocol) 9P (protocol),9P (protocol) 9P (protocol),9P (protocol) 9P (protocol),9P (protocol)9P (protocol) 9P (protocol), 9P (protocol), 9P (protocol), 9P (protocol) "
+FreeBSD,Yes,Yes[Note 3][Note 2],Yes,Yes[Note 3],Yes[Note 1],Yes[Note 3],Yes,Yes,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes," FUSE, Nullfs (page does not exist), UnionFS "
+NetBSD,Yes,Yes[Note 3][Note 2],Yes,,No,No,Yes,Yes,,Yes[Note 3],No,No,Yes,Yes[Note 3],Yes,Yes,Yes,Yes," PUFFS (NetBSD), PUFFS (NetBSD), PUFFS (NetBSD) "
+OpenBSD,Yes,Yes[Note 3],Yes,,No,No,Yes,Yes,No,No,No,No,Yes,Yes,Yes,Yes,Yes,No,Andrew File System
+DragonFly BSD,Yes,Yes[Note 3],Yes,No,No,No,Yes,No,No,No,No,No,Yes,Yes[Note 7],Yes,Yes,Yes,No," HAMMER (file system), nullfs, PUFFS "
+" OpenSolaris, OpenSolaris ",Yes,Yes [Note 2][Note 8],No,No,No,No,Yes,,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes," Server Message Block (native), Server Message Block "
+" Darwin (operating system), Darwin (operating system) ",Yes,Yes[Note 3][Note 2],,,,,Yes,,Yes,Yes,,,Yes,Yes,Yes,Yes,,,
+MINIX,Yes,No,Yes,,,,,,,,Yes,No,,,,,,,
+FreeDOS,Yes,No,No,No,No,No,No,,,,No,No,Yes,,,,Yes,,
+Genode,Yes,No,Yes,No,No,No,No,No,No,No,No,No,Yes,No,No,No,Yes,No,Extensible VFS layer
+Haiku (operating system),Yes,Yes [Note 2],Yes [Note 9],Yes [Note 9],,,,,,,,Yes,Yes,Yes,Yes,No[Note 10],,,
+KolibriOS,Yes,Yes[Note 3],Yes[Note 3],Yes[Note 3],Yes[Note 3],,,,,,,,Yes,,,,Yes,,
+MenuetOS,Yes,,,,,,,,,,,,,,,,,,
+GNU,Yes,,Yes,Yes[Note 11],,,Yes[Note 12],,,,,,Yes,,Yes,,Yes,No,
+ReactOS,Yes,,Yes,No,No,No,No,,,,No,No,,,,,,,
+" L4 microkernel family, L4 microkernel family, L4 microkernel family ",Yes,No,,,,,,,,,,,,,,,,,
+Plan 9 from Bell Labs,Yes,,Yes,No,No,No,No,No,No,No,No,No,Yes,No,Yes,Yes,Yes,No," Fossil (file system), Fossil (file system), most system services "
+Amiga Research Operating System,Yes,,,,,,,,,,,,,,,,Yes,," Smart File System, Smart File System "
+Syllable Desktop,Yes,Yes[Note 3],Yes[Note 3],Yes[Note 3],,,,,,,,Yes,Yes,,,,Yes,,AtheOS File System
+Inferno (operating system),Yes,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,Yes,," kfs, most system services "
+FreeRTOS,,,,,,,,,,,,,,,,,,No,
+ECos,Yes,,Yes[Note 3],,,,,,,,,,,,,,Yes,," MMFS, ROMfs, JFFS2, JFFS2 "
+RTEMS,Yes,,,,,,,,,,,,,,Yes,,Yes,," TarFS, TFTP FS, IMFS, miniIMFS "
+HelenOS,Yes,No,Yes,Yes,No,No,No,No,No,No,Yes,No,Yes,Yes,No,No,Yes,," locfs, ExFAT "
+E/OS,Yes,No,Yes,No,No,No,No,No,No,No,Yes,Yes[Note 13],Yes,No,Yes,Yes,Yes,,
+Name," FAT16, dosfs; FAT32, vfat ",NTFS,Ext2,Ext3,XFS,ReiserFS,UFS,UFS2,HFS,HFS+,MINIXfs,BFS,ISO 9660,UDF,NFS,SMBFS," RAM disk, tmpfs ",ZFS,Other special file systems

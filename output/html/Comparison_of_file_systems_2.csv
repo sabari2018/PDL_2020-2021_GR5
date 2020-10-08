@@ -1,0 +1,74 @@
+File system,Maximum Filename length,Allowable characters in directory entries[c],Maximum pathname length,Maximum file size,Maximum volume size[d],Max number of files
+BeeGFS,255 bytes,Any byte except NUL[e],No limit defined[f],16 Exbibyte,16 Exbibyte,?
+CP/M file system,8.3," ASCII except for < > . , ; : = ? * [ ] ",No directory hierarchy (but accessibility of files depends on user areas via USER command since CP/M 2.2),32 MiB,512 MiB,?
+IBM SFS,8.8,?,?,Non-hierarchical[8],?,?
+DECtape,6.3," A–Z, 0–9 ",DTxN:FILNAM.EXT = 15," 369,280 bytes (577 * 640) "," 369,920 bytes (578 * 640) ",?
+Elektronika BK tape format,16 bytes,?,No directory hierarchy,64 KiB,Not limited. Approx. 800KB (one side) for 90 min cassette,?
+MicroDOS file system,14 bytes,?,?,16 MiB,32 MiB,?
+Level-D,6.3," A–Z, 0–9 "," DEVICE:FILNAM.EXT[PROJCT,PROGRM] = 7 + 10 + 15 = 32; + 5*7 for SFDs = 67 "," 34,359,738,368 words (2**35-1); 206,158,430,208 SIXBIT bytes ",Approx 12 GB (64 * 178 MB),?
+RT-11,6.3," A–Z, 0–9, $ ",0 (no directory hierarchy)," 33,554,432 bytes (65536 * 512) "," 33,554,432 bytes ",?
+Version 6 Unix file system (V6FS),14 bytes,Any byte except Null character and /Null character,No limit defined[f],16 MebibyteMebibyte,32 Mebibyte,?
+Disk Operating System (GEC DOS),?,?,?," ? at least 131,072 bytes ",?,?
+GEC DOS filing system extended,8 bytes," A–Z, 0–9. Period was directory separator ",? No limit defined (workaround for OS limit)," ? at least 131,072 bytes ",?,?
+CBM DOS,16 bytes,Any byte except NUL,0 (no directory hierarchy),16 Mebibyte,16 Mebibyte,?
+Version 7 Unix file system (V7FS),14 bytes,Any byte except NUL or /[e],No limit defined[f],1 GibibyteGibibyte,2 Tebibyte,?
+ExFAT,255 UTF-16 characters,?," 32,760 Unicode characters with each path component no more than 255 characters[11] ",16 ExbibyteExbibyte,64 Zebibyte (276 bytes),?
+FAT (8-bit),6.3 filename (binary files) / 9 characters (ASCII files),ASCII (0x00 and 0xFF not allowed in first character),No directory hierarchy,?,?,?
+FAT12/FAT12,8.3 filename (255 8.3 filename characters with LFN)8.3 filename," SFN: OEM code page A-Z, 0-9, ! # $ % &amp; ' ( ) - @ ^ _ ` { } ~, 0x80-0xFF, 0x20. LFN: OEM code page except NUL, "" * / : < > ? \ | OEM code pageOEM code page ",No limit defined[f],32 Mebibyte (4 Mebibyte)Mebibyte,1 Mebibyte to 32 Mebibyte,?
+FAT16B/FAT16B,8.3 filename (255 8.3 filename characters with LFN)8.3 filename," SFN: OEM code page A-Z, 0-9, ! # $ % &amp; ' ( ) - @ ^ _ ` { } ~, 0x80-0xFF, 0x20. LFN: OEM code page except NUL, "" * / : < > ? \ | OEM code pageOEM code pageOEM code page ",No limit defined[f],2 (4) GibibyteGibibyte,16 Mebibyte to 2 (4) Mebibyte,?
+FAT32/FAT32,8.3 filename (255 8.3 filename characters with LFN)8.3 filename," SFN: OEM code page A-Z, 0-9, ! # $ % &amp; ' ( ) - @ ^ _ ` { } ~, 0x80-0xFF, 0x20. LFN: OEM code page except NUL, "" * / : < > ? \ | OEM code pageOEM code pageOEM code page "," 32,760 Unicode characters with each path component no more than 255 characters[11] ",4 GibibyteGibibyte,512 Mebibyte to 16 MebibyteMebibyte,?
+FATX,42 bytes[i],ASCII. Unicode not permitted.,No limit defined[f],2 Gibibyte,16 Mebibyte to 2 Mebibyte,?
+Fossil (file system),?,?,?,?,?,?
+GEMDOS,8.3," A-Z, a-z, 0-9 ! @ # $ % ^ &amp; ( ) + - = ~ ` ; ' "" , < > | [ ] ( ) _[13] ",?,?,?,?
+APFS,255 UTF-8 characters,Unicode 9.0 encoded in Unicode 9.0 Unicode 9.0,?,8 Exbibyte,?,263 [15]
+F2FS,255 bytes," Any byte except NUL, /[e] ",No limit defined[f],3.94 Tebibyte,16 Tebibyte,?
+Macintosh File System,255 bytes,Any byte except :,No path (flat filesystem),256 Mebibyte,256 Mebibyte,?
+Hierarchical File System,31 bytes,Any byte except :,Unlimited,2 Gibibyte,2 Tebibyte,?
+High Performance File System,255 bytes,Any byte except NUL[l],No limit defined[f],2 Gibibyte,2 TebibyteTebibyte,?
+NTFS,255 characters," In Win32 namespace: any Win32 code unit (case-insensitive) except /\:*""?<>| as well as Win32 In Win32 namespace: any Win32 code unit (case-sensitive) except / as well as Win32Win32  "," 32,767 Unicode characters with each path component (directory or filename) up to 255 characters long[f] ",16 EiB[n],16 EiB[n],232
+ReFS,255 UTF-16 characters[17]," Any Unicode except NUL, /Unicode "," 32,767 Unicode characters with each path component (directory or filename) up to 255 characters long[17] ",16 EiB[17][18],1 YobibyteYobibyte,?
+HFS Plus,255 UTF-16 characters[o],Any valid UnicodeUnicodeUnicode,Unlimited,slightly less than 8 EiB,slightly less than 8 EiB[19][20],?
+Berkeley Fast File System,255 bytes,Any byte except NUL[e],No limit defined[f],4 Gibibyte,256 Tebibyte,?
+HAMMER (file system),255 bytes[21],Any byte except NUL[e],?,?,1 ExbibyteExbibyte,?
+UFS1 (file system),255 bytes,Any byte except NUL[e],No limit defined[f],16 Gibibyte to 256 Gibibyte,16 Exbibyte," Subdirectory per directory is 32,767[23] "
+UFS2 (file system),255 bytes,Any byte except NUL[e],No limit defined[f],512 Gibibyte to 32 Gibibyte,512 ZebibyteZebibyte (279 bytes)," Subdirectory per directory is 32,767[23] "
+Extended file system,255 bytes,Any byte except NUL[e],No limit defined[f],2 Gibibyte,2 Gibibyte,?
+Xiafs,248 bytes,Any byte except NUL[e],No limit defined[f],64 Mebibyte,2 Gibibyte,?
+Ext2,255 bytes," Any byte except NUL, /[e] ",No limit defined[f],16 Gibibyte to 2 GibibyteGibibyte,2 Tebibyte to 32 Tebibyte,?
+Ext3,255 bytes," Any byte except NUL, /[e] ",No limit defined[f],16 Gibibyte to 2 GibibyteGibibyte,2 Tebibyte to 32 Tebibyte,?
+Ext4,255 bytes[25]," Any byte except NUL, /[e] ",No limit defined[f],16 Gibibyte to 16 GibibyteGibibyteGibibyte,1 EiB,232
+NOVA (filesystem),255 bytes," Any byte except NUL, /[e] ",No limit defined[f],16 Exbibyte,16 Exbibyte,?
+Lustre (file system),255 bytes,Any byte except NUL[e],No limit defined[f],16 Exbibyte on Exbibyte,16 Exbibyte,?
+General Parallel File System,255 UTF-8 Codepoint,Any byte except NUL[e],No limit defined[f],No limit found,299 bytes (2 Petabyte tested),?
+Global File System,255 bytes,Any byte except NUL[e],No limit defined[f],2 Tebibyte to 8 TebibyteTebibyte,2 Tebibyte to 8 TebibyteTebibyte,?
+NILFS,255 bytes,Any byte except NUL[e],No limit defined[f],8 EiB,8 EiB,?
+ReiserFS," 4,032 bytes/255 characters ",Any byte except NUL or '/'[e],No limit defined[f]," 8 TebibyteTebibyte (v3.6), 4 Tebibyte (v3.5) ",16 Tebibyte,?
+Reiser4," 3,976 bytes ",Any byte except / and NUL,No limit defined[f],8 Tebibyte on x86,?,?
+OCFS,255 bytes,Any byte except NUL[e],No limit defined[f],8 Tebibyte,8 Tebibyte,?
+OCFS2,255 bytes,Any byte except NUL[e],No limit defined[f],4 Pebibyte,4 Pebibyte,?
+XFS,255 bytes[s],Any byte except NUL[e],No limit defined[f],8 ExbibyteExbibyte,8 ExbibyteExbibyte,?
+JFS file system,255 bytes,Any byte except NUL[e],No limit defined[f],8 Exbibyte,512 Tebibyte to 4 Tebibyte,?
+JFS file system,255 bytes,Any Unicode except NUL,No limit defined[f],4 Pebibyte,32 Pebibyte,?
+QFS,255 bytes,Any byte except NUL[e],No limit defined[f],16 ExbibyteExbibyte,4 PebibytePebibyte,?
+Be File System,255 bytes,Any byte except NUL[e],No limit defined[f]," 12,288 bytes to 260 GibibyteGibibyte ",256 Pebibyte to 2 Pebibyte,Unlimited
+AdvFS,255 characters,Any byte except NUL[e],No limit defined[f],16 Tebibyte,16 Tebibyte,?
+Novell Storage Services,256 characters,Depends on namespace used[w],Only limited by client,8 Tebibyte,8 Tebibyte,?
+NetWare File System,80 bytes[x],Depends on namespace used[w],No limit defined[f],4 Gibibyte,1 Tebibyte,?
+ODS-5,236 bytes[y],?," 4,096 bytes[z] ",1 Tebibyte,1 Tebibyte,?
+Veritas File System,255 bytes,Any byte except NUL[e],No limit defined[f],16 Exbibyte,?,?
+Universal Disk Format,255 bytes,Any Unicode except NUL," 1,023 bytes[aa] ",16 Exbibyte,512 Mebibyte to 16 Mebibyte,?
+ZFS,255 bytes,Any Unicode except NUL,No limit defined[f],16 EiB,256 Zebibyte (278 bytes),2128
+Btrfs,255 bytes,Any byte except '/' and NUL,No limit defined,16 EiB,16 EiB,264
+Minix file system," 14 or 30 bytes, set at filesystem creation time ",Any byte except NUL[e],No limit defined[f],256.5 Mebibyte Mebibyte,64 Mebibyte,?
+Minix file system," 14 or 30 bytes, set at filesystem creation time ",Any byte except NUL[e],No limit defined[f],2 Gibibyte Gibibyte,1 Gibibyte,?
+Minix file system,60 bytes,Any byte except NUL[e],No limit defined[f],2 Gibibyte,4 Gibibyte,?
+VMFS2,128,Any byte except NUL or /[e]," 2,048 ",4 TebibyteTebibyte,64 Tebibyte,?
+VMFS3,128,Any byte except NUL or /[e]," 2,048 ",2 TebibyteTebibyte,64 Tebibyte,?
+ISO 9660:1988," Level 1: 8.3, Level 2 &amp; 3: ~ 180 ",Depends on Level[ad],~ 180 bytes?,4 GiB (Level 1 &amp; 2) to 8 GiB (Level 3)GiB,8 TiBTiB,?
+Joliet (file system),64 Unicode characters," All UCS-2 code except *, /, \, :, ;, and ?UCS-2 ",?,same as ISO 9660:1988,same as ISO 9660:1988,?
+Rock Ridge,255 bytes,Any byte except NUL or /[e],No limit defined[f],same as ISO 9660:1988,same as ISO 9660:1988,?
+UniFS (page does not exist),No limit defined (depends on client),?,No limit defined (depends on client),Available cache space at time of write (depends on platform),No limit defined,No limit defined
+ISO 9660:1999,?,?,?,?,?,?
+High Sierra Format,?,?,?,?,?,?
+SquashFS,256 bytes,?,No limit defined,16 Exbibyte,16 Exbibyte,?
+File system,Maximum filename length,Allowable characters in directory entries[c],Maximum pathname length,Maximum file size,Maximum volume size[d],Max number of files

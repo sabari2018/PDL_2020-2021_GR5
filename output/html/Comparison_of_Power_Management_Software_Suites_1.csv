@@ -1,0 +1,18 @@
+Software,Data Synergy PowerMAN (Software)PowerMAN (Software),EMCO Software (page does not exist) Remote ShutdownEMCO Software (page does not exist),Energy Star EZ GPOEnergy Star,Faronics Power SaveFaronics,Verdiem SurveyorVerdiem
+License,Proprietary software,Proprietary software,Free,Proprietary software,Proprietary software
+64-bit Support,Yes,No,No,Yes,Yes
+Active Directory Integration,Yes,No,No,Yes,Yes
+Group Policy Configuration Support,Yes,No,Yes,No,No
+Per-user Policy,Yes,No,No,Yes,Yes
+Per-machine Policy,Yes,No,Yes,Yes,Yes
+Anti-insomnia,Yes,Yes,No,Yes,Yes
+Sleep mode on idle,Yes,Yes,Yes,Yes,Yes
+Hibernation (computing) on idle,Yes,Yes,Yes,Yes,Yes
+Power-off on idle,Yes,Yes,No,Yes,Yes
+Login on idle,Yes,Yes,No,Yes,No
+Standby display on idle,Yes,No,Yes,Yes,No
+Scheduled Sleep/Hibernate,Yes,Yes,No,Yes,Yes
+Scheduled power-off,Yes,Yes,No,Yes,Yes
+Scheduled Reboot,Yes,No,No,Yes,Yes
+Scheduled wake-up (without Wake on lan),Yes,No,No,Yes,Yes
+Remote wake-up (with Wake on lan),Yes,No,No,Yes,Yes
