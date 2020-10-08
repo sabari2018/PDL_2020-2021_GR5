@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-|<h3>Problems </h3>| <h3>HTML Extractor</h3>       |  <h3>Wikitext Extractor</h3>  |
-|:--------:|:------------:|:------------:| 
-|| **TestFichier**  	||
-
-=======
 # Extractors evaluation
 During this project, two types of extractors has been made. One of them extract tables from HTML code. 
 The other extract from WikiText code. We have to compare the performance of the two extractors. 
@@ -21,4 +15,11 @@ There is 303 URL processed for 336 in total.
 |:----------:|:---------:|
 |1657|1049|
  
->>>>>>> ac4420e99b2e56cc56484e84b636f8b8514ec46c
+### List of problems
+|<h3>Problems </h3>| <h3>HTML Extractor</h3>       |  <h3>Wikitext Extractor</h3>  |
+|:---------------:|:------------:|:------------:| 
+|Bad extract of headers of rows| X ||
+|When the value of cells is a link, it extract the content| X ||
+|Merged cells create a new column for each rows| X | X |
+|When cells are merged, only one row include the value| X | X |
+|Some cells in colors extract the color attribute|| X |
