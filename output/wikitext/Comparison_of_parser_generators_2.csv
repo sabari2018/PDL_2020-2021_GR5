@@ -1,7 +1,8 @@
 Name,Parsing algorithm,Input grammar notation,Output languages," Grammar, code ",Lexer,Development platform,IDE,License
-ANTLR4,ALL(*),EBNF," C#, Java, Python, Swift, Go, PHP ",Separate,generated,Java virtual machine,Yes," Free, BSD"
+ANTLR4,Adaptive LL(*),EBNF," C#, Java, Python, Swift, Go, PHP ",Separate,generated,Java virtual machine,Yes," Free, BSD"
 ANTLR3,LL(*),EBNF," Ada95, C, C#, Java, Python, Ruby ",Mixed,generated,Java virtual machine,Yes," Free, BSD"
 APG," Recursive descent, backtracking ",ABNF," C, Java ",Separate,none,All,No," Free, GNU GPL"
+Astir," LL(k), LL(finite), LL(*) ",Astir hierarchical grammar,C++,Only grammar (actioned),generated,All,Visual Studio Code," Free, MIT"
 AXE,Recursive descent,AXE/C++," C++17, C++11 ",Mixed,none,Any with C++17 or C++11 standard compiler,No," Free, Boost"
 Beaver,LALR(1),EBNF,Java,Mixed,external,Java virtual machine,No," Free, BSD"
 Belr,Recursive descent,ABNF," C++17, C++11 ",Separate,included,POSIX,No," Partial, GNU GPL, proprietary"
@@ -47,7 +48,7 @@ LLgen,LL(1),?,C,Mixed,external,POSIX,No," Free, BSD"
 LLnextgen,LL(1),?,C,Mixed,external,All,No," Free, GNU GPL"
 LLLPG,LL(k) + syntactic and semantic predicates,ANTLR-like,C#,Mixed,generated (?),Mono,Visual Studio," Free, GNU LGPL"
 LPG,LALR(k),?,Java,Mixed,generated,Java virtual machine,No," Free, EPL"
-LRXparser generator," LALR(*), LR(*) "," YACC, ANTLR, EBNF ",C++,separated,generated,Windows,Visual Studio,BSD
+LRSTAR," LALR(*), LR(*) "," YACC, ANTLR, EBNF ",C++,separated,generated,Windows,Visual Studio,BSD
 Menhir,LR(1),?,OCaml,Mixed,generated,All,No," Free, QPL"
 ML-Yacc,LALR(1),?,ML,Mixed,external,All,No,?
 Monkey,LR(1),?,Java,Separate,generated,Java virtual machine,No," Free, GNU GPL"

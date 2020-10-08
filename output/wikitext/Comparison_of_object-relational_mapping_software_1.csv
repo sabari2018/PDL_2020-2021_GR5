@@ -16,7 +16,7 @@ nHibernate,.NET 4.5,Open source,GNU Lesser General Public License,4.0 (2014-08-1
 ODB,Cross-platform C++,Dual-licensed,GNU General Public License and Proprietary License," 2.4.0 / February 11, 2015",
 RedBeanPHP,PHP,Open source,BSD License," 4/April 1, 2014",
 SQLAlchemy,Python,Open source,MIT License,1.2.14  / 20181110,
-SQLObject,Python,Open source,LGPL,3.8.0 / 20191207,
+SQLObject,Python,Open source,LGPL,3.8.1 / 20201001,
 Skipper,PHP,Commercial,Proprietary software,3.0,
 Storm,Python,Open source,LGPL 2.1,0.20 / 20130628,
 TopLink,Java Virtual Machine,Commercial,Oracle License,10g,JPA

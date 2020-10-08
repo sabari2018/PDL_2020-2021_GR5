@@ -39,7 +39,6 @@ align=leftPanda Security,Panda Antivirus Pro,Yes,Yes,Yes,Yes,Yes,Yes,No,No,?,No,
 align=leftPanda Security,Panda Internet Security,Yes,Yes,Yes,Yes,Yes,Yes,No,No,?,Yes,Yes,Yes,Yes,Yes,Yes,?,?,Proprietary,Nonfree,2002,Spain,Mikel Urizarbarrena,
 align=leftPanda Security,Panda Antivirus Free,Yes,Yes,Yes,Yes,Yes,Yes,No,No,?,No,No,Yes,Yes,Yes,Yes,?,?,Proprietary,Trialware,2009,Spain,,
 align=leftQihoo 360,360 Total Security,Yes,Yes,Yes,Yes,Yes,No,No,No,?,No,No,Yes,Yes,Yes,Yes,?,?,Proprietary,Free,2006,China,,
-align=leftQuick Heal,Quick Heal Total Security,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes*,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Proprietary,Nonfree,1995,India,,*Browser Sandbox only.
 align=leftSophos,Sophos Anti-Virus,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,?,Yes,No,No,Yes,Yes,Yes,?,?,Proprietary,Nonfree,1988,United Kingdom,Jan Hruska and Peter Lammer,
 align=leftSophos,Sophos EndUser Protection,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,Yes,?,?,Proprietary,Nonfree,2000,United Kingdom,Jan Hruska and Peter Lammer,
 align=leftSymantec,Norton Internet Security,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,Yes,?,?,Proprietary,Nonfree,2000,United States,,Whitelists FBI backdoor scandal
@@ -50,6 +49,4 @@ align=leftTrustPort,TrustPort Antivirus,Yes,Yes,No,Yes,No,Yes,No,No,?,Yes,Yes,Ye
 align=leftTrustPort,TrustPort Internet Security,Yes,Yes,No,Yes,No,Yes,No,No,?,Yes,Yes,Yes,No,Yes,Yes,?,?,Proprietary,Trialware,2008,Czech Republic,,Third-party antivirus engine (?)
 align=leftTrustPort,TrustPort Total Protection,Yes,Yes,No,Yes,No,Yes,No,No,?,Yes,Yes,Yes,No,Yes,Yes,?,?,Proprietary,Trialware,2008,Czech Republic,,Third-party antivirus engine (?)
 align=leftVirusBlokAda,Vba32 AntiVirus,Yes,Yes,No,No,No,No,No,No,?,No,No,No,No,No,No,?,?,Proprietary,Nonfree,2010,Belarus,,
-align=leftWebroot,SecureAnywhere AntiVirus,Yes,Yes,No,Yes,Yes,Yes,No,Yes,?,No,No,Yes,No,Yes,Yes,?,?,Proprietary,Trialware,2011,United States,,
-align=leftWebroot,SecureAnywhere Internet Security Plus and Complete,Yes,Yes,No,Yes,Yes,Yes,No,Yes,?,No,No,Yes,No,Yes,Yes,?,?,Proprietary,Nonfree,2011,United States,,
 Company,Software,On-demand scan,On-access scan,Boot-time scans,Heuristics,CloudAV,Firewall,IDS,IPS,Sandbox,Email Security,AntiSpam,Web protection,Macro protection,Live-Update,Support,Settings Import/Export,installer/ updater  MIMA safe,License,Price,First release,Country of origin,Original author/s,Notes

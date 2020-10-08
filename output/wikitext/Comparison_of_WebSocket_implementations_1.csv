@@ -5,7 +5,7 @@ Mozilla Firefox 7,yes,no,7 beta12 Sep 2011,8 (10),,"MPL, GPL, LGPL","C++, [https
 Mozilla Firefox 11,yes,no,11.013 Mar 2012,13 (17/RFC 6455),,"MPL, GPL, LGPL","C++, [https://wiki.mozilla.org/Modules/Core#Necko Necko]","JavaScript, HTML5",no,yes,yes,yes,no,"no, No",no,yes,no,no,(memory-limited?)
 Achex WS,yes,yes,2.1717 June 2014,RFC 6455,,Commercial,C++,"C++, JavaScript",yes,yes,yes,yes,yes,yes,yes,no,no,yes,2^16
 Kaazing WebSocket Gateway,yes,yes,5.0 Dec 2014,RFC 6455,,"APL2 (Community Edition), commercial (Enterprise Edition)","Java, JMS","Flash/Flex, Java, Java  ; Android, .NET, Xamarin",yes,yes,yes,yes,no,yes,yes,yes,yes,no,"memory-limited, configurable"
-Lightstreamer,yes,yes,7.1.127 May 2020,RFC 6455,,"Commercial, freeware",Java,"Flash/Flex, Java, Android, .NET Standard",yes,yes,no,yes,no,no,yes,yes,yes,no,"Data driven, configurable"
+Lightstreamer,yes,yes,7.1.225 Sep 2020,RFC 6455,,"Commercial, freeware",Java,"Flash/Flex, Java, Android, .NET Standard",yes,yes,no,yes,no,no,yes,yes,yes,no,"Data driven, configurable"
 MigratoryData,yes,yes,5.0.2823 Aug 2019,RFC 6455,,Commercial,Java,"Android, Java, .NET, Python, Ruby ",yes,yes,no,yes,no,"no, No",yes,yes,yes,no,"263, configurable"
 noPoll,yes,yes,0.3.228 aug 2015,RFC 6455,,LGPL 2.1,ANSI C,ANSI C,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,"memory-limited, configurable"
 POCO C++ Libraries,yes,yes,1.4.623 Sep 2014,RFC 6455,,Boost,"C++, POCO C++ Libraries",C++,yes,yes,yes,no,yes,yes,no,no,no,yes,"memory-limited, configurable"

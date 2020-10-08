@@ -1,8 +1,8 @@
 Provider,Win.11,Linux11,Mac11,Android11,iOS11,Encrypted storage,Zero knowledge22,Secure Key Management33,Limited MB plan44,Unlimited MB plan44,$/MB plan44,Unlimited BW 1616,Provider,Cloud hosted Net Drive55,Sync77,Autodetect changes1212,Public file hosting88,physical media restore99,Server location(s)1010,Free online storage (non-trial)1313,Maximum per-file size,External hard drive support1414,Hybrid Option1515,Green Hosting,OpenSaaS
 Acronis,yes," Enterprise only, with limited data",yes,yes,yes,yes,Optional,yes,optional (Enterprise),yes (Only win/mac),no,yes,Acronis,no,yes,,,," USA, EUR",no,No limit,yes,,,
 Backblaze,yes,yes,yes,yes,yes,yes,no,No limit,yes,no,,
+,Baidu Cloud,yes,yes,yes,yes,yes,yes,no,?,no,no,yes,,Baidu,,yes,yes,yes,,CHN,2 TB,4 GB (Non-member) 10 GB (Member) 20 GB (Super Member).,,dunno,,
 Barracuda Backup Service,yes,yes,yes,,,yes,no,?,no fee per computer,no,yes,,Barracuda Backup Service,date=June 2014,yes,,no,yes," USA, Canada, APAC, EUR",no,,,dunno,,
-Baidu Cloud,yes,yes,yes,yes,yes,yes,no,?,no,no,yes,,Baidu,,yes,yes,yes,,CHN,2 TB,4 GB (Non-member) 10 GB (Member) 20 GB (Super Member).,,dunno,,
 Box,yes," Partial (no offline sync, access through DAV server)",yes,yes,yes,yes,no,yes,yes,,,USA,10 GB,250 MB (Free) 5 GB (Paid),,,,
 Carbonite,yes,no,yes,yes,yes,yes," partial, optional for Windows only",?,yes (Business only),yes (Home only),no,yes,Carbonite,,yes,yes,yes,,USA,no,4 GB,yes,yes,,
 CloudBerry Backup,yes,yes,yes,no,no,yes,date=August 2018,yes,,,,yes,CloudBerry Backup,yes,yes,yes,,yes,Global,no,No limit,yes,yes,,

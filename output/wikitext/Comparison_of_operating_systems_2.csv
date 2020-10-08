@@ -2,6 +2,7 @@ Name,Computer architectures supported,File systems supported,Kernel type,Source 
 AIX," POWER, PowerPC-AS, PowerPC, Power ISA"," JFS, JFS2, UDF, NFS, SMBFS, GPFS",Monolithic with modules,,No," installp, RPM",Service Update Management Assistant (SUMA),SysV/POSIX,
 AmigaOS Classic," 68k, PowerPC"," Proprietary (OFS, FFS, SFS, PFS), FAT, ISO 9660, UDF, many others via 3rd party drivers, such as SMBFS, etc.",Microkernel,,Yes,Installer (almost not needed),,Proprietary,BSD subset (available through 3rd party ixemul.library)
 AmigaOS 4,PowerPC," Proprietary (OFS, FFS, SFS, PFS), JXFS, FAT, ISO 9660, UDF, many others via 3rd party drivers, such as SMBFS, etc.",Microkernel,,Yes,Installer (almost not needed),[http://www.amiupdate.net/ AmiUpdate] (almost not needed),Proprietary,BSD subset (available through 3rd party ixemul.library)
+ArcaOS,IA-32," JFS (default), HPFS, UDF, FAT32, NTFS",Hybrid,,Yes,ANPM (based on YUM and RPM),Update Facility,OS/2," POSIX, Win16, DOS, Win32, Java"
 Chrome OS," ARM, IA-32, x86-64"," FAT, MTP (read and write), UDF (read-only)",Monolithic with modules,≈17 million,Yes,Portage,,Linux/POSIX,
 DragonFly BSD,x86-64," UFS1, MFS, FAT (16/32), HAMMER, ISO 9660",Hybrid,,No," dports, pkg"," git, cvsup, rsync, pkg",BSD/POSIX," Mono, Java, Win16, Win32, Linux"
 eComStation,IA-32," HPFS (default), FAT, JFS, UDF, FAT32, NTFS (read only)",Hybrid,,Yes," WarpIN, Feature Install, others",Maintenance Tool," Proprietary, DOS API, Win16"," POSIX, Java, others"

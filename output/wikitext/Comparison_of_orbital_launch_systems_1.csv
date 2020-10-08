@@ -1,6 +1,7 @@
 width=120  Vehicle,Origin,Manufacturer,Payload mass to ... (kg),,,| Orbital launches incl. failures{{efn|Suborbital flight tests and on-pad explosions are excluded, but launches failing en route to orbit are included.}},| Date of flight,
 ,,,LEO,GTO,Other,,First{{efn|Effective year for active rockets, planned year for rockets in development}},Latest
 ,Alpha,USAUKR,Firefly Aerospace,1000,,630 to SSO,0,2020,
+Amur,RUS,,10500,
 Angara 1.2,RUS,Khrunichev,3500,,2400 to SSO,0," 2021A suborbital flight was conducted in 2014 as Angara-1.2pp, testing only the first and second stages.",
 Angara A5,RUS,Khrunichev,24000,7500 with KVTK  5400 with Briz-M,,1,2014,2014
 Antares 230 / 230+,USA,Northrop Grumman,8200,,3000 to SSOname=500km,6,2016,2020
@@ -29,7 +30,7 @@ Delta IV Heavy,USA,ULA,28790,14220,23560 to polar  11290 to TLI  8000 to TMI,11,
 Epsilon,JPN,IHI,1500,,590 to SSO,4,2013,2019
 ,Eris-S,AUS  SIN,Gilmour Space Technologies,200,,,0,2021–2022,
 Eris-L,AUS  SIN,Gilmour Space Technologies,450,,,0,TBATo be announced,
-,Falcon 9 Full Thrust  (partially reusable),USA,SpaceX,16800+," 5,500"," 9,600 to polar"," 62Additionally, one rocket exploded on the launch pad in 2016.",2015,2020
+,Falcon 9 Full Thrust  (partially reusable),USA,SpaceX,16800+," 5,500"," 9,600 to polar"," F9FTlaunchreusableAdditionally, one rocket exploded on the launch pad in 2016.",2015,2020
 Falcon 9 Full Thrust  (expended),USA,SpaceX,22800,8300,2017,2020
 ,Falcon Heavy  (partially reusable),USA,SpaceX," 30,000–57,000"," 8,000",2018,2019
 Falcon Heavy  (expended),USA,SpaceX," 63,800"," 26,700"," 16,800 to TMI",0,– As of 2019 Falcon Heavy has only flown in partially reusable configuration; fully expendable configuration is considered operational in the sense that it is a simplified version of the reusable configuration.,
@@ -107,7 +108,7 @@ Vikram l,IND,Skyroot Aerospace,280,,200 to SSPO,0,2021,
 Vikram lll,IND,Skyroot Aerospace,720,,580 to SSPO,0,TBATo be announced,
 ,Vulcan / Centaur,USA,ULA,27200,14400,
 Yun Feng,TWN,National Chung-Shan Institute of Science and Technology,200,,,0,TBATo be announced,
-Yenisei,RUS,TsSKB-ProgressRSC Energia," 88,000 – 115,000",," 20,000 to TLI",
+Yenisei,RUS,TsSKB-ProgressRSC Energia," 88,000 – 115,000",," 27,000 to TLI",0,2028,
 Zero,JPN,Interstellar Technologies,,,100 to SSOname=500km,0,2022–2023,
 Zhuque-1,CHN,LandSpace,300,,200 to SSO,1,2018,2018
 Zhuque-2,CHN,LandSpace," 4,000",," 2,000 to SSO",0,2021,

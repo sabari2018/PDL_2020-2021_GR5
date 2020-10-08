@@ -3,7 +3,7 @@ Ski Bromont,Bromont,Quebec,"1,854",590,"1,264",450,141,9,190,$54,"December 1, 20
 Apex Mountain Resort,Penticton,British Columbia,"7,197","5,197","2,000","1,112",79,4,236,$65,"November 30, 2019"
 Canyon Ski Area,Red Deer,Alberta,"2,950","2,412",538,80,23,6,45,$35,"November 30, 2019"
 Fernie Alpine Resort,Fernie,British Columbia,"7,000","3,450","3,550","2,500",142,10,360,$90,"November 30, 2019"
-Marble Mountain Ski Resort,Steady Brook,Newfoundland and Labrador,"1,791","1,759",32,230,40,5,192,$34,"December 1, 2019"
+Marble Mountain Ski Resort,Steady Brook,Newfoundland and Labrador,"1,791",33,"1,759",230,40,5,192,$34,"December 1, 2019"
 White Hills Ski Resort,Clarenville,Newfoundland and Labrador,"1,227",482,745,55,27,2,100,$38,"December 1, 2019"
 Ski Wentworth,Wentworth,Nova Scotia,990,715,815,150,20,3,150,$35,"December 1, 2019"
 Mount Sima,Whitehorse,Yukon,"3,900","2,857","1,043",92,15,3,,$37,"November 30, 2019"
@@ -455,10 +455,10 @@ Searchmont,"Sault Ste. Marie, Ontario",Ontario,912,1470,700,100,21,4,132,$59,"Ma
 [http://www.ci.ouray.co.us/city_offices/city_resources/lee_s_ski_hill.php Lees Ski Hill],Ouray,Colorado,"7,867","7,792",75,2,1,1,134,Free,"June 21, 2020"
 Whitewater Ski Resort,Nelson,British Columbia,"6,709","4,665","2,044","1,180",46,4,472,,
 Kimberley Alpine Resort,Kimberley,British Columbia,,,"2,464","1,800",,,160,,
-Nakiska,,Alberta,,,"2,411","1,021",,,100,,
+Nakiska,Kananaskis,Alberta,7415,5003,"2,412","1,021",79,6,100,,
 Salmo Ski Area,Salmo,British Columbia,,,"1,120",,,,120,,
 Sasquatch Mountain,Chehalis,British Columbia,,,"1,100",300,,,,,
 Mount Washington Alpine Resort,Courtenay,British Columbia,,,"1,663","1,700",,,432,,
-[https://www.manningpark.com/ Manning Park],,British Columbia,,,"1,417",140,,,296,,
+[https://www.manningpark.com/ Manning Park],Manning Park,British Columbia,,,"1,417",140,,,296,,
 Mount Baldy Ski Area,Oliver,British Columbia,,,"1,293",600,,,256,,
 Harper Mountain,Kamloops,British Columbia,,,"1,400",400,,,156,,
