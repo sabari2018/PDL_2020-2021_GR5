@@ -96,5 +96,3 @@ Extractor extract, sometimes, HTML attributes. Exemple :
 ```
 irgatempe,|nulatempe,,style="background: #d8ffd8" | omnatempe, sempre
 ```
-
-#### Dunno problem
