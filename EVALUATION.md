@@ -1,16 +1,16 @@
 # Extractors evaluation
-During this project, two types of extractors has been made. One of them extract tables from HTML code. 
+During this project, two types of extractors have been made. One of them extracts tables from HTML code. 
 The other extract from WikiText code. We have to compare the performance of the two extractors. 
 The first comparison will be on the number of URL processed. 
 The other comparison will be on the quality of the extraction.
 
 ## JUnit tests
 
-For the URLs test, we realized that is problems in JUnit tests. Some test was wrong because the code was not correct. We correct a good part of JUnit test. We realized also that there is a lot of invalid links. We suspended these tests. We checked the URL list and we realized there are links with an other name or the page didn't exist anymore.
+For the URLs test, we realized that is problems in JUnit tests. Some test was wrong because the code was not correct. We correct a good part of JUnit test. We realized also that there was a lot of invalid links. We suspended these tests. We checked the URL list and we realized there are links with another name or the page didn't exist anymore.
 
 ## Number of extraction
 
-Like we said before, we have to compare the number of good extraction.
+Like we said before, we have to compare the number of good extractions.
 There is 303 URL processed for 336 in total, so 90.2% of success
 
 ### Comparison
@@ -23,14 +23,14 @@ There is 303 URL processed for 336 in total, so 90.2% of success
 |<h3>Problems </h3>| <h3>HTML Extractor</h3>       |  <h3>Wikitext Extractor</h3>  |
 |:---------------:|:------------:|:------------:| 
 |Bad extract of row header| X ||
-|When the value of cells is a link, it extract the content| X ||
+|When the value of cells is a link, it extracts the content| X ||
 |Merged cells create a new column for each rows| X | X |
 |When cells are merged, only one row include the value| X | X |
 |Some cells in colors extract the color attribute|| X |
 |When the value of cells is "?", it extract "dunno"| | X |
-|Link in exponent extract the date of the article | | X |
-|Some title of row were shifted or deleted| | X |
-|Presence of picture in cells, extract her size| | X |
+|Link in the exponent extracts the date of the article | | X |
+|Some titles of row were shifted or deleted| | X |
+|Presence of a picture in cells, extracts her size| | X |
 
 ### Problems explanation
 
@@ -94,7 +94,7 @@ to be going to go,,-onti (ironti)
 
 Indeed, there is the good value for the first row, but the others have a blank. So, when Wikipedia table contains merged cells, a new column (or row) is added.
 
-The problem is, with the good extraction, the table will look like 3 cells separated, but not merged.
+The problem is, with the good extraction, the table will look like 3 separated cells, but not merged.
 
 #### HTML attributes
 
@@ -119,7 +119,7 @@ In the WikiText editor, the "?" is a "dunno", so it will be difficult to repair 
 
 #### Extra-comma
 
-In the WikiText extractor, sometimes, it add a comma in the beginning of each row.
+In the WikiText extractor, sometimes, it adds a comma in the beginning of each row.
 There is the Wikipedia version : 
 
 ![100% center](images/WikiText.PNG)
@@ -133,7 +133,7 @@ In the third row, the header is on the second cell.
 #### Pictures problems 
 
 When a Wikipedia table contains pictures, there is the same probleme for attributes.
-The extractor take pictures attributes and writes them on CSV cell.
+The extractor takes pictures attributes and writes them on CSV cell.
 
 For example, in a good part of the next table, the value is the dimension of Wikipedia pictures : 
 
