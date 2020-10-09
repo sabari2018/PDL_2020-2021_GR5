@@ -24,6 +24,7 @@ There is 303 URL processed for 336 in total.
 |When cells are merged, only one row include the value| X | X |
 |Some cells in colors extract the color attribute|| X |
 |When the value of cells is "?", it extract "dunno"| | X |
+|Link in exponent extract the date of the article | | X |
 
 ### Problems explanation
 
