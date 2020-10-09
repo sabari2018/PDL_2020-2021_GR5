@@ -16,7 +16,7 @@ Malwarebytes,Malwarebytes for Mac,Yes,No,,,No,No,No,No,Yes,No,Yes,,,Free,2006,Un
 align=leftPanda Security,Panda Antivirus for Mac,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Proprietary,Nonfree,2008,Spain,
 align=leftSophos,Sophos Anti-Virus for Mac,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,No,Proprietary,Free,2010,United Kingdom,
 align=leftSymantec,Symantec Endpoint Protection,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,Proprietary,Nonfree,2012,United States,
-align=leftSymantec,Norton Security Standard for Mac,Yes,Yes,Yes,No,Yes,No,No,No,No,Yes,Yes,Yes,Proprietary,Nonfree,2012,United States,
+align=leftNortonLifelock (formerly Symantec),Norton Security Standard for Mac,Yes,Yes,Yes,No,Yes,No,No,No,No,Yes,Yes,Yes,Proprietary,Nonfree,2012,United States,
 align=leftTrend Micro,Titanium Internet Security for Mac,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,Yes,Proprietary,Nonfree,2011,Japan,
 align=leftWebroot,SecureAnywhere AntiVirus,Yes,Yes,No,No,No,No,No,No,No,Yes (only in Apple Safari),Yes,Yes,Proprietary,Trialware,2012,United States,
 align=leftWebroot,SecureAnywhere Internet Security Plus and Complete,Yes,Yes,No,No,No,No,No,No,No,Yes (only in Apple Safari),Yes,Yes,Proprietary,Trialware,2012,United States,
