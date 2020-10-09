@@ -4,6 +4,10 @@ The other extract from WikiText code. We have to compare the performance of the 
 The first comparison will be on the number of URL processed. 
 The other comparison will be on the quality of the extraction.
 
+## JUnit tests
+
+For the URLs test, we realized that is problems in JUnit tests. Some test was wrong because the code was not correct. We correct a good part of JUnit test. We realized also that there is a lot of invalid links. We suspended these tests. We checked the URL list and we realized there are links with an other name or the page didn't exist anymore.
+
 ## Number of extraction
 
 Like we said before, we have to compare the number of good extraction.
