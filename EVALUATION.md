@@ -117,11 +117,11 @@ In the WikiText editor, the "?" is a "dunno", so it will be difficult to repair 
 In the WikiText extractor, sometimes, it add a comma in the beginning of each row.
 There is the Wikipedia version : 
 
-![100% center](images/WikiEx.png)
+![100% center](images/WikiText.PNG)
 
 and the extractor version : 
 
-![100% center](images/CSVEx.png)
+![100% center](images/CSVEx.PNG)
 
 In the third row, the header is on the second cell.
 
@@ -132,4 +132,4 @@ The extractor take pictures attributes and writes them on CSV cell.
 
 For example, in a good part of the next table, the value is the dimension of Wikipedia pictures : 
 
-![100% center](images/CSVEx2.png)
+![100% center](images/CSVEx2.PNG)
