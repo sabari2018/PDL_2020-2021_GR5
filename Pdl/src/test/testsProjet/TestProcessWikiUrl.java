@@ -20,7 +20,7 @@ public class TestProcessWikiUrl {
      */
     @Test
     public void testAddWikiUrlFromFileValid(){
-        processWikiUrlTest.addWikiUrlFromFile("wikiurlstest", false, "en");
+        processWikiUrlTest.addWikiUrlFromFile("wikiurlsTest", false, "en");
 
         Assert.assertEquals("La taille n'est pas bonne", processWikiUrlTest.getListWikiUrl().size(), 2);
     }
@@ -64,7 +64,7 @@ public class TestProcessWikiUrl {
      */
     @Test
     public void testParseHTML(){
-        processWikiUrlTest.addWikiUrlFromFile("wikiurlstest", false, "en");
+        processWikiUrlTest.addWikiUrlFromFile("wikiurlsTest", false, "en");
         processWikiUrlTest.parseHTML();
 
         Assert.assertNotEquals("Le parseur n'as rien parser", 0, processWikiUrlTest.getListTable().size());
@@ -77,7 +77,7 @@ public class TestProcessWikiUrl {
      */
     @Test
     public void testParseWikiText(){
-        processWikiUrlTest.addWikiUrlFromFile("wikiurlstest", false, "en");
+        processWikiUrlTest.addWikiUrlFromFile("wikiurlsTest", false, "en");
         processWikiUrlTest.parseWikiText();
 
         Assert.assertNotEquals("Le parseur n'as rien parser", 0, processWikiUrlTest.getListTable().size());

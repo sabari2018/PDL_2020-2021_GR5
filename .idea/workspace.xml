@@ -23,7 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a39cd410-3664-465a-83da-3ab73231d3de" name="Default Changelist" comment="add the URL of the UML project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EVALUATION.md" beforeDir="false" afterPath="$PROJECT_DIR$/EVALUATION.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1ib6lOwB8K5TI900WJqmkX5ciiM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -89,7 +90,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.TestParserWikiText">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="model.Main" />
       <module name="PDL_2020-2021_GR5" />
@@ -118,6 +119,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestParserWikiText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PDL_2018-2019_GR3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testsProjet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testsProjet" />
+      <option name="MAIN_CLASS_NAME" value="testsProjet.TestParserWikiText" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestProcessWikiUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PDL_2018-2019_GR3" />
       <extension name="coverage">
@@ -128,21 +144,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="testsProjet" />
       <option name="MAIN_CLASS_NAME" value="testsProjet.TestProcessWikiUrl" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PDL_2018-2019_GR3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testsProjet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testsProjet" />
-      <option name="MAIN_CLASS_NAME" value="testsProjet.TestTable" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,15 +166,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestParserWikiText" />
+        <item itemvalue="JUnit.TestProcessWikiUrl" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.BenchTest" />
         <item itemvalue="JUnit.TestWikiUrl" />
-        <item itemvalue="JUnit.TestTable" />
-        <item itemvalue="JUnit.TestProcessWikiUrl" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -197,10 +198,36 @@
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="781000" />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -229,5 +256,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="940" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602171338835" />
+    <state x="452" y="172" key="Vcs.Push.Dialog.v2" timestamp="1602259459334">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="452" y="172" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602259459334" />
   </component>
 </project>

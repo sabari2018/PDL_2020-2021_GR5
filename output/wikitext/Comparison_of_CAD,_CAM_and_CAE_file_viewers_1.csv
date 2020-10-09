@@ -1,6 +1,0 @@
-Application,Latest stable release,Developer,3D support?,Runs on POSIX style systems?,Runs on Windows?,Other platforms?,Open source?,User Interface Language(s),Supported format(s)
-Caddie,14,Advanced Computer Solutions,yes,no,yes,dunno,no (Free download),EN," DXF, DWG, DRW"
-progeCAD Viewer DWG (based on IntelliCAD) (incomplete entry),2009,progeCAD,no,no,yes,no,no,EN," DWG, DXF"
-VariCAD Viewer,2019 v2.03,VariCAD,yes,yesLinux,yes,yes,no," EN, DE, JP, PT, CN"," DWG (2D), STEP (3D)"
-WorkXPlore 3D,1.7 (2009),Sescoi,yes,no,yes,no,no (Free download)," EN, FR, DE, ES, IT, JP, CN"," DWG, STEP, STL, Catia V4, Catia V5, UGS, ISO toolpaths, CADDS, Solid Edge"
-LibreCAD,2.0.6 (10/2014),LibreCAD,No,Yes,Yes,Yes,yes (GPLv2)," CN, EN, ES, FR, DE, HU, IT, JP, RU, other",DXF

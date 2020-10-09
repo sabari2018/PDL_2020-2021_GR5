@@ -7,7 +7,7 @@ The other comparison will be on the quality of the extraction.
 ## Number of extraction
 
 Like we said before, we have to compare the number of good extraction.
-There is 303 URL processed for 336 in total.
+There is 303 URL processed for 336 in total, so 90.2% of success
 
 ### Comparison
 
@@ -99,4 +99,38 @@ Extractor extract, sometimes, HTML attributes. Exemple :
 
 ```
 irgatempe,|nulatempe,,style="background: #d8ffd8" | omnatempe, sempre
+``` 
+
+#### Manage of "?"
+
+As we know, the WikiText language is not the same for each contributor.
+So, the extractor will work with all specifical cases. In this exemple
+we can see in the WikiText editor, there is a "dunno" for a "?"
+
 ```
+Qhub,dunno,dunno,dunno,dunno
+```
+
+In the WikiText editor, the "?" is a "dunno", so it will be difficult to repair that.
+
+#### Extra-comma
+
+In the WikiText extractor, sometimes, it add a comma in the beginning of each row.
+There is the Wikipedia version : 
+
+![100% center](images/WikiText.PNG)
+
+and the extractor version : 
+
+![100% center](images/CSVEx.PNG)
+
+In the third row, the header is on the second cell.
+
+#### Pictures problems 
+
+When a Wikipedia table contains pictures, there is the same probleme for attributes.
+The extractor take pictures attributes and writes them on CSV cell.
+
+For example, in a good part of the next table, the value is the dimension of Wikipedia pictures : 
+
+![100% center](images/CSVEx2.PNG)
