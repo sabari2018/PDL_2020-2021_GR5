@@ -19,4 +19,4 @@ Spyder,Carlos Cordoba and contributors,4.1.3,2020-05-09,Cross-platform,Python," 
 Thonny,Aivar Annamaa and contributors,3.2.6,2020-01-02," Windows, Linux, macOS ",Python,Tkinter,MIT License,no,yes,yes,no,no,no,no,yes,yes,unk,yes,no,no,Flask
 Understand,SciTools,4.0,2015-04-01," Windows, Solaris, other Unix ",unk,HTML,Proprietary,unk,unk,no,unk,unk,unk,unk,unk,unk,unk,unk,unk,unk,unk
 Visual Studio Code,Microsoft,1.49.0,2020-09-10," Windows, Linux, macOS ",JavaScript,HTML,MIT License,yes,yes,yes,no,unk,yes,unk,yes,unk,unk,unk,unk,yes,yes
-Wing,Wingware,7.2.5,2020-09-09," Windows, Linux, macOS ",Python,Qt5 with PyQt,Proprietary,yes,yes," yes (also remote, multi-threaded, and multi-process debugging) ",no,yes,no,no,yes,yes,yes,yes,yes,yes,yes
+Wing,Wingware,7.2.6,2020-10-07," Windows, Linux, macOS ",Python,Qt5 with PyQt,Proprietary,yes,yes," yes (also remote, multi-threaded, and multi-process debugging) ",no,yes,no,no,yes,yes,yes,yes,yes,yes,yes

@@ -25,6 +25,7 @@ There is 303 URL processed for 336 in total, so 90.2% of success
 |Some cells in colors extract the color attribute|| X |
 |When the value of cells is "?", it extract "dunno"| | X |
 |Link in exponent extract the date of the article | | X |
+|Some title of row were shifted or deleted| | X |
 
 ### Problems explanation
 

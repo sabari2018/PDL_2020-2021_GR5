@@ -2,7 +2,7 @@ Client (computing),Client-to-client protocol,Direct Client-to-Client,IPv6,Secure
 Bersirc,?,Partial,No,No,?,?,?,?,?,No
 BitchX,Yes,Yes,Yes,Yes,Yes,?,?,?,?,No
 ChatZilla,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,script,No
-Colloquy (IRC client),Yes,Yes,Yes,Yes,?,?,?,?,Yes,No[45]
+Colloquy (IRC client),Yes,Yes,Yes,Yes,?,?,?,?,Yes,No[47]
 degesch,Yes,Yes,Yes,No,Yes,?,?,?,?,No
 DMDirc,Yes,Yes,Yes,Yes,?,?,?,?,?,No
 ERC (software),Yes,Yes,Yes,Yes,Yes,?,?,?,Yes[Note 1],No
@@ -13,8 +13,9 @@ IRCCloud,Yes,No,Yes,Yes,Yes,No,No,No,Yes,No
 IrcII,Yes,Yes,Yes,Yes,?,?,?,?,?,No
 IRCjr,Yes,No,No,No,No,?,No,No,No,No
 Ircle,Yes,Yes,?,Yes,?,?,?,?,?,No
-Irssi,Yes,Yes,Yes,Yes,Yes,Yes,No,?,Yes,Yes[46]
+Irssi,Yes,Yes,Yes,Yes,Yes,Yes,No,?,Yes,Yes[48]
 jIRCii,Yes,Yes,Yes,Yes,?,?,?,?,?,No
+kirc,?,?,Yes,Yes,Yes,?,?,?,Yes,?
 KiwiIRC,Yes,No,Yes,Yes,Yes,?,No,No,Yes,No
 Konversation,Yes,Yes,Yes,Yes,Yes,?,?,?,Yes,No
 KVIrc,Yes,Yes,Yes,Yes,Yes,?,No,No,Yes,No
@@ -23,15 +24,15 @@ Linkinus,Yes,Yes,No,Yes,?,?,?,?,No,No
 Mibbit,?,Partial[Note 3][Note 4],No,Yes,?,?,?,?,Yes,No
 MIRC,Yes,Yes,Yes,Yes,Yes,?,?,?,Yes,No
 Nettalk (IRC client),Yes,Yes,No,No,?,?,?,?,?,No
-Opera (web browser),Yes[47],Yes,Yes,Yes,Yes,?,?,?,?,No
+Opera (web browser),Yes[49],Yes,Yes,Yes,Yes,?,?,?,?,No
 PIRCH (IRC client),Yes,Yes,No,No,?,?,?,?,?,No
 PJIRC,?,Yes,No,No,?,?,?,?,?,No
-Quassel IRC,Yes,No,Yes,Yes,Yes,?,No,No,Yes,No[48]
+Quassel IRC,Yes,No,Yes,Yes,Yes,?,No,No,Yes,No[50]
 Qwebirc,Yes,No,No,Yes,No,?,No,No,No,No
 Rcirc,Partial,No,No,Yes,Yes,?,?,?,?,No
 Scrollback,Partial,No,Yes,Yes,?,?,?,?,No,No
-Smuxi,Yes,No,Yes,Yes,?,?,?,?,No,No[49]
+Smuxi,Yes,No,Yes,Yes,?,?,?,?,No,No[51]
 Snak,Yes,Yes,Yes,Yes,?,?,?,?,?,No
 Visual IRC,Yes,Yes,No,No,?,?,?,?,?,No
-WeeChat,Yes,Yes,Yes,Yes,Yes,?,?,?,Yes,Yes[50][51][Note 2]
+WeeChat,Yes,Yes,Yes,Yes,Yes,?,?,?,Yes,Yes[52][53][Note 2]
 Client,CTCP,DCC,IPv6,SSL,TLS,DANE,OCSP,CRL,SASL,OTR

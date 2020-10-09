@@ -10,24 +10,24 @@ Colloquy (IRC client)," Timothy Hatcher, Kiji Roshi "," Desktop: Free software, 
 ERC (software)," Alexander L. Belikoff, Sergey Berezin ",Free software,GNU General Public License," TUI, GUI ",Emacs Lisp
 F-IRC,Folkert van Heusden,Free software,GNU General Public License,TUI,C++
 GrumpyChat[5],Petr Bena,Free software,GNU Lesser General Public License,GUI,C++
-HexChatHexChat,Berke Viktor,Free software,GNU General Public License," TUI, GUI ",C (programming language)
+HexChatHexChat,Berke Viktor," Shareware, 30-day trialShareware ",GNU General Public License," TUI, GUI ",C (programming language)
 IceChatIceChatIceChat,Paul Vanderzee,Free software,GNU General Public License,GUI,C Sharp (programming language) (C Sharp (programming language) until 2004)C Sharp (programming language)
-Igloo[10],Jordan Koch,Commercial,Proprietary software,GUI,Swift (programming language)
+Igloo[11],Jordan Koch,Commercial,Proprietary software,GUI,Swift (programming language)
 Instantbird,Florian Quèze,Free software,GNU General Public License,Graphical user interface," C/C++, C/C++, C/C++, C/C++ "
-IRCCloud[11],IRCCloud Ltd.,Freemium,Proprietary software,Web application," JavaScript frontend, JavaScript backend "
+IRCCloud[12],IRCCloud Ltd.,Freemium,Proprietary software,Web application," JavaScript frontend, JavaScript backend "
 IrcII,Michael Sandrof,Free software,BSD licenses,TUI,C (programming language)
 Ircle,Onno Tijdgat," Commercial, 30-day trial ",Proprietary software,GUI,C (programming language)
 Irssi,Timo Sirainen,Free software,GNU General Public License,TUI,C (programming language)
 Kiwi IRC,Darren Whitlen,Free software,Affero General Public License,Web application," JavaScript frontend, JavaScript backend "
-Kirc (page does not exist),Michael Czigler,Free software,GNU General Public License,TUI,C (programming language)
+kirc[13],Michael Czigler,Free software,GNU General Public License,TUI,C (programming language)
 KVIrc,Szymon Stefanek,Free software,GNU General Public License,GUI,C++
 Konversation,KDE,Free software,GNU General Public License,GUI,C++
 LeafChatLeafChat,Samuel Marshall,Free software,GNU General Public License,GUI,Java (programming language)
-LimeChat[13][14][15],Satoshi Nakagawa,Free software,GNU General Public LicenseGNU General Public License,GUI,RubyCocoa (2007–2010)RubyCocoaRubyCocoa RubyCocoa (2010–)RubyCocoa
+LimeChat[15][16][17],Satoshi Nakagawa,Free software,GNU General Public LicenseGNU General Public License,GUI,RubyCocoa (2007–2010)RubyCocoaRubyCocoa RubyCocoa (2010–)RubyCocoa
 Linkinus,Conceited Software," Commercial, 15-day trial ",Proprietary software,GUI,Objective-C
 Mibbit,Jimmy Moore,Web banner,Proprietary software,Web application," JavaScript frontend, JavaScript backend "
 MIRC,Khaled Mardam-Bey," Shareware, 30-day trialShareware ",Proprietary software,GUI,C (programming language)/C (programming language)C (programming language)
-Monochrome[20],Peter Pawlowski,Freeware,GNU General Public License,GUI,C Sharp (programming language)
+Monochrome[22],Peter Pawlowski,Freeware,GNU General Public License,GUI,C Sharp (programming language)
 Nettalk (IRC client),Nicolas Kruse,Freeware,Apache license 2.0,GUI,Visual Basic
 Opera (web browser) (until version 12.xx) Opera (web browser),,Freeware,Proprietary software,GUI[Note 4],C++
 Pidgin (software),,Free software,GNU General Public License,GUI,C (programming language)

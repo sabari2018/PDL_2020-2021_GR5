@@ -14,7 +14,7 @@ LabWindows/CVI,Proprietary software,Yes,No,No," cross-compile to Linux, Linux ",
 Microsoft Visual Studio," Proprietary software, Proprietary software (Community edition only) ",Yes,No,No," Mac OS 7 (v2.x-v4.x only), LinuxMac OS 7 ",C++ and C++,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,2019-04,Yes,Yes,Yes (also plugin)[18]
 Visual Studio Code,MIT License,Yes,Yes,Yes,,TypeScript TypeScript TypeScript,Yes,No,Yes,No,No,Yes,No,Yes,Yes,2020-09,External,External,Requires language server support[19][20]
 MonoDevelop,LGPL,Yes,Yes,Yes," FreeBSD, FreeBSD, FreeBSD ",C Sharp (programming language),Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,2016-11,Yes (GCC + custom),Yes (GCC + custom),Yes
-NetBeans,CDDL and CDDL,Yes,Yes,Yes," OpenBSD, OpenBSD ",Java (programming language),Yes[21],Yes[21],Yes[22],No[21],No,Yes,No,Yes,Yes," 12.1 (September 1, 2020; 23 days ago (2020-09-01)) [±][23] ",External,External,Yes
+NetBeans,CDDL and CDDL,Yes,Yes,Yes," OpenBSD, OpenBSD ",Java (programming language),Yes[21],Yes[21],Yes[22],No[21],No,Yes,No,Yes,Yes," 12.1 (September 1, 2020; 37 days ago (2020-09-01)) [±][23] ",External,External,Yes
 OpenWatcom,Sybase Open Watcom Public License,Yes (32-bit only),partial,No," FreeBSD, FreeBSD, FreeBSD ",C (programming language)/C (programming language),Yes (GUI remote),Yes,Yes,Yes,No,No,No,Yes,Yes,2010-06,Yes,Yes,No
 Oracle Solaris Studio (formerly Oracle Solaris Studio)," Proprietary software, Proprietary software ",No,Yes,No,Solaris (operating system),?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,2008-11,Yes,Yes,Yes
 Qt Creator,GPL / GPL / GPL,Yes,Yes,Yes," FreeBSD, FreeBSD, FreeBSD, FreeBSD ",C++,Yes,Yes,Yes,Yes,No,Yes,Yes (clang),Yes,Yes,2019-06,External,External,Yes[24]

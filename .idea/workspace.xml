@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a39cd410-3664-465a-83da-3ab73231d3de" name="Default Changelist" comment="UPDATE EVALUATION">
-      <change afterPath="$PROJECT_DIR$/images/CSVEx.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/WikiText.PNG" afterDir="false" />
+    <list default="true" id="a39cd410-3664-465a-83da-3ab73231d3de" name="Default Changelist" comment="add the URL of the UML project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EVALUATION.md" beforeDir="false" afterPath="$PROJECT_DIR$/EVALUATION.md" afterDir="false" />
     </list>
@@ -36,12 +34,41 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pdl/src/main/model/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="64" lean-forward="true" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3420">
+              <caret line="228" column="10" selection-start-line="228" selection-start-column="10" selection-end-line="228" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="sadou" />
       </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+      </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
@@ -60,8 +87,57 @@
     </option>
   </component>
   <component name="ProjectId" id="1ib6lOwB8K5TI900WJqmkX5ciiM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PDL_2018-2019_GR3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PDL_2018-2019_GR3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PDL_2018-2019_GR3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PDL_2018-2019_GR3" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PDL_2018-2019_GR3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PDL_2018-2019_GR3" type="462c0819:PsiDirectoryNode" />
+              <item name="Pdl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PDL_2018-2019_GR3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PDL_2018-2019_GR3" type="462c0819:PsiDirectoryNode" />
+              <item name="Pdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PDL_2018-2019_GR3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PDL_2018-2019_GR3" type="462c0819:PsiDirectoryNode" />
+              <item name="Pdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PDL_2018-2019_GR3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PDL_2018-2019_GR3" type="462c0819:PsiDirectoryNode" />
+              <item name="Pdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -69,11 +145,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Pdl/src/main" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -83,16 +163,25 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\cleme\Documents\M1\ACO\Projet\PDL_2020-2021_GR5\images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Pdl/src/main" />
       <recent name="$PROJECT_DIR$/Pdl/src/test" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestParserWikiText">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="model.Main" />
       <module name="PDL_2020-2021_GR5" />
@@ -121,6 +210,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestParserWikiText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PDL_2018-2019_GR3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testsProjet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testsProjet" />
+      <option name="MAIN_CLASS_NAME" value="testsProjet.TestParserWikiText" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestProcessWikiUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PDL_2018-2019_GR3" />
       <extension name="coverage">
@@ -131,21 +235,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="testsProjet" />
       <option name="MAIN_CLASS_NAME" value="testsProjet.TestProcessWikiUrl" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PDL_2018-2019_GR3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testsProjet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testsProjet" />
-      <option name="MAIN_CLASS_NAME" value="testsProjet.TestTable" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,15 +257,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestParserWikiText" />
+        <item itemvalue="JUnit.TestProcessWikiUrl" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.BenchTest" />
         <item itemvalue="JUnit.TestWikiUrl" />
-        <item itemvalue="JUnit.TestTable" />
-        <item itemvalue="JUnit.TestProcessWikiUrl" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -195,14 +284,66 @@
       <workItem from="1600702470958" duration="5122000" />
       <workItem from="1601623580234" duration="9987000" />
       <workItem from="1601884339481" duration="2272000" />
+      <workItem from="1602245200493" duration="2645000" />
+      <workItem from="1602255908467" duration="1395000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="781000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32744783" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32744783" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4414125" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="oldMeFiltersMigrated" value="true" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="339" y="0" width="617" height="680" key="#Main" timestamp="1602169187123">
@@ -214,25 +355,37 @@
     </state>
     <state x="208" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1602169168819" />
     <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1602164200423" />
-    <state width="940" height="163" key="GridCell.Tab.0.bottom" timestamp="1602170024176">
+    <state width="940" height="163" key="GridCell.Tab.0.bottom" timestamp="1602171338836">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="940" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602170024176" />
-    <state width="940" height="163" key="GridCell.Tab.0.center" timestamp="1602170024174">
+    <state width="940" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602171338836" />
+    <state width="940" height="163" key="GridCell.Tab.0.center" timestamp="1602171338835">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="940" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602170024174" />
-    <state width="940" height="163" key="GridCell.Tab.0.left" timestamp="1602170024174">
+    <state width="940" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602171338835" />
+    <state width="940" height="163" key="GridCell.Tab.0.left" timestamp="1602171338835">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="940" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602170024174" />
-    <state width="940" height="163" key="GridCell.Tab.0.right" timestamp="1602170024175">
+    <state width="940" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602171338835" />
+    <state width="940" height="163" key="GridCell.Tab.0.right" timestamp="1602171338835">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="940" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602170024175" />
-    <state x="654" y="257" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602256593342">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="654" y="257" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1602256593342" />
+    <state width="940" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602171338835" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Pdl/src/main/model/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="64" lean-forward="true" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3420">
+          <caret line="228" column="10" selection-start-line="228" selection-start-column="10" selection-end-line="228" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
