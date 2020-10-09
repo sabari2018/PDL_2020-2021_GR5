@@ -1,0 +1,25 @@
+,Get object type,Is instance of (includes subtypes),Upcasting,Downcasting,
+,,,,! Runtime check,No check
+ABAP Objects,n/a,,=,?=
+C++ (STL),typeid(x),nullptr,n/a,dynamic_cast(ptr),(type*) ptr or  static_cast(ptr)
+C#,x.GetType(),x is type,,(type) x or x as type,
+D,typeid(x),,,cast(type) x,
+Delphi,,x is type,,x as type,
+eC,x._class," eClass_IsDerived(x._class, type)",,,<code>(type) x</code>
+Java,x.getClass(),x instanceof class,,(type) x,
+Objective-C (Cocoa),[x class],[x isKindOfClass:[class class,,,<code>(type*) x</code>
+Swift,x.dynamicType,x is type,,<code>x as! type</code> <br /> <code>x as? type</code>
+JavaScript,x.constructor (If not rewritten.),x instanceof class,n/a,,
+Visual Basic .NET,x.GetType(),TypeOf x Is type,n/a," CType(x, type) or TryCast(x, type)",
+Xojo,Introspection.GetType(x),x IsA type,n/a," CType(x, type)",n/a
+Eiffel,x.generating_type,attached {TYPE} x,attached {TYPE} x as down_x,
+Python,type(x)," isinstance(x, type)",rowspan=3 n/a,,
+PHP,get_class(x),x instanceof class,
+Perl,ref(x)," x->isa(""class"")",
+Raku,x.WHAT,x.isa(class),n/a,type(x) or x.type,
+Ruby,x.class,x.instance_of?(type) or x.kind_of?(type),rowspan=2 n/a,,
+Smalltalk,x class,x isKindOf: class,
+Windows PowerShell,x.GetType(),x -is [type],n/a,[type]x or x -as [type],
+OCaml,n/a,,(x :> type),{{n/a}},
+F#,x.GetType(),x :? type,,(x :?> type),
+COBOL,n/a,,x AS type,{{n/a}},

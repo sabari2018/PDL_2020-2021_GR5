@@ -1,0 +1,22 @@
+Audio player,HTTP," RTSP (RTSPU, RTSPT)"," MMS (MMSU, MMST)",Podcasting,Other
+AIMP,yes,no,yes,no,no
+Amarok,yes,yes,yes,yes,UPNP
+Audacious,yes,no,yes,no,dunno
+Audion,yes,no,no,no,dunno
+cmus,yes,no,no,no,dunno
+Cog,no,no,no,no,dunno
+foobar2000,yes,partial,yes,partial,dunno
+JuK,dunno,dunno,dunno,dunno,dunno
+JRiver Media Center,yes,yes,yes,yes,dunno
+MediaMonkey,yes,no,no,yes,dunno
+MusicBee,yes,dunno,dunno,yes,dunno
+Musicmatch Jukebox,yes,dunno,dunno,dunno,dunno
+musikCube,yes,no,no,dunno,dunno
+Music Player Daemon,yes,yes,yes,yes,Music Player Daemon
+Rhapsody,yes,yes,yes,yes,dunno
+Rhythmbox,yes,yes,no,partial,UPNP
+Sayonara Player,yes,dunno,dunno,dunno,dunno
+Sonique,yes,dunno,dunno,dunno,dunno
+XMMS,yes,dunno,dunno,dunno,dunno
+Zinf,yes,yes,no,no,dunno
+Audio player,HTTP," RTSP (RTSPU, RTSPT)"," MMS (MMSU, MMST)",Podcasting,Other

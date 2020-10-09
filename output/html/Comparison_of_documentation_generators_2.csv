@@ -1,0 +1,25 @@
+,HTML,Microsoft Compressed HTML Help,Rich Text Format,Portable Document Format,LaTeX,PostScript,Unix manual,DocBook,XML,EPub
+COBOLDoc (page does not exist),Yes,No,No,No,No,No,No,No,No
+Ddoc,Yes,Yes[a],No,Yes[a],Yes[a],Yes[a],Yes[a],No,Yes[a]
+Document! X,Yes,Yes,No,No,No,No,No,No,No
+Doxygen,Yes,Yes,Yes,Indirectly[b],Yes,Indirectly[b],Yes,Yes,Yes,No
+Epydoc,Yes,No,No,Yes,Indirectly[c],Indirectly[c],No,No,No
+Haddock (software),Yes,Yes,No,No,No,No,No,Partial,No
+HeaderDoc,Yes,No,No,No,No,No,Yes,No,Yes
+Imagix 4D,Yes,No,Yes,No,No,No,No,No,No
+Javadoc,Yes,Indirectly[d],Indirectly[d],Indirectly[d],Indirectly[d],Indirectly[d],Indirectly[d],Indirectly[d],Indirectly[d]
+JSDoc,Yes,No,No,No,No,No,No,No,No
+JSDoc,Yes,No,No,No,No,No,No,No,Yes+JSON
+Natural Docs,Yes,No,No,No,No,No,No,No,No
+NDoc,Yes,Yes,No,No,No,No,No,No,No
+Pdoc3,Yes,No,No,Indirectly[e],No,No,No,No,No,No
+PhpDocumentor,Yes,Yes,No,Yes,No,No,No,Yes,Yes
+Pydoc,Yes,No,No,No,No,No,No,No,No,No
+RDoc,Yes,Yes[f],No,No,No,No,Indirectly[g],No,Yes[f]
+ROBODoc,Yes,Indirectly,Yes,Indirectly[c],Yes,Indirectly[c],Yes,Yes,No
+Sandcastle (software),Yes,Yes,No,No,No,No,No,No,No
+Sphinx (documentation generator),Yes,Yes,,Indirectly[h],Yes,,Yes,,,Yes
+Visual Expert,Yes,No,No,No,No,No,No,No,No
+VSdocman,Yes,Yes,No,Yes,No,No,No,No,Yes
+YARD (software),Yes,No,No,No,No,No,No,No,No
+,HTML,CHM,RTF,PDF,LaTeX,PostScript,man pages,DocBook,XML,ePub

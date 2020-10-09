@@ -1,0 +1,9 @@
+Assembler,Developer,Operating system,FOSS,License,Development active
+FASM,Tomasz Grysztar,Windows,Yes,BSD with added Copyleft,Yes
+GAS,GNU Project,Windows,Yes,GNU GPLv3,Yes
+MASM,Microsoft,WindowsXenix,No,Commercial,Yes
+NASM,"Simon Tatham, Julian Hall, Hans Peter Anvin, et al.",Windows,Yes,BSD 2-clause,Yes
+Open Watcom Assembler,Watcom,Windows,"approved by OSI, but not by FSF",Sybase Open Watcom Public,Yes
+POASM,,"Windows, Windows Mobile",No,Freeware,Yes
+TCCASM,Fabrice Bellard,Windows,Yes,LGPL,Yes
+Yasm,,Windows,Yes,BSD,No

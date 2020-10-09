@@ -1,0 +1,75 @@
+,Selection editing,Layers,Alpha Channel,Histogram,Scripting,HDR,Retouching,Resizing,Noise removal,Lens correction,Sized Printing,Sharpening,Color correction,Image library,Plug-in support,Non-destructive editing
+Ability Photopaint,yes,yes,dunno,yes,yes,no,dunno,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+ACD Canvas,yes,yes,dunno,yes,yes,no,yes,yes,yes,yes,dunno,yes,dunno,yes,no,dunno
+ACDSee (Win),yes,yes,dunno,yes,no,no,yes,yes,yes,yes,dunno,yes,yes,yes,no,partial
+Acorn Image Editor,yes,yes,dunno,yes,yes,no,Yes,Yes,Yes,No,dunno,Yes,Yes,No,Yes,Yes
+Adobe Fireworks*,yes,yes,dunno,yes,yes,no,yes,yes,yes,no,yes,yes,yes,yes,yes,dunno
+Adobe Photoshop,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes (Through Mini Bridge),yes,partial
+Adobe Photoshop Lightroom,yes,no,dunno,yes,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+Affinity Photo,yes,yes,yes,yes,no,yes,yes,yes,yes,yes,yes,yes,yes,no,yes,yes
+Aperture,yes,partial,dunno,yes,yes,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+Autodesk SketchBook Pro,yes,yes,yes,no,no,no,no,yes,no,no,yes,no,no,no,no,yes
+Artipic,yes,yes,dunno,yes,no,no,yes,yes,no,no,yes,yes,yes,no,no,yes
+ArtRage,yes,yes,yes,no,yes,no,yes,yes,yes,no,yes,no,no,dunno,dunno,dunno
+Artweaver,yes,yes,dunno,no,Via plug-in,no,yes,yes,yes,dunno,dunno,yes,yes,no,yes,dunno
+Bibble*,partial,partial,dunno,yes,no,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno
+Bloom Image Editor,yes,yes,dunno,yes,no,yes,yes,yes,no,yes,no,yes,yes,no,no,yes
+Black Ink,yes,yes,yes,no,yes,no,yes,yes,no,no,yes,no,yes,no,no,yes
+Brush Strokes Image Editor,yes,no,dunno,no,no,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno
+Capture One,yes,yes,dunno,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+Chasys Draw IES,yes,yes,dunno,yes,yes,partial,yes,yes,yes,yes,yes,yes,yes,no,yes,yes
+CinePaint,yes,yes,dunno,yes,yes,yes,yes,yes,no,no,yes,yes,yes,no,yes,dunno
+CodedColor PhotoStudio Pro,yes,yes,dunno,yes,no,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Corel PaintShop Pro,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno
+Corel Painter,yes,yes,yes,no,yes,no,yes,yes,yes,dunno,dunno,yes,yes,dunno,yes,dunno
+Corel Photo-Paint,yes,yes,dunno,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno
+darktable,no,no,dunno,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,no,yes
+Deluxe Paint*,no,partial,dunno,partial,yes,no,yes,yes,no,no,dunno,no,no,dunno,no,dunno
+DigiKam,no,no,dunno,yes,yes,no,no,yes,yes,yes,yes,yes,yes,yes,yes,yes
+Erdas Imagine,yes,yes,dunno,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,no,yes,dunno
+Fatpaint,yes,yes,dunno,yes,no,no,yes,yes,no,no,yes,yes,yes,yes,no,dunno
+Fotografix,yes,yes,dunno,no,partial,no,yes,yes,yes,no,yes,yes,yes,no,no,dunno
+GIMP,yes,yes,yes,yes,yes,Via plug-in,yes,yes,yes,yes,yes,yes,yes,no,yes,no
+GIMPshop,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,yes,yes,yes,no,yes,dunno
+GraphicConverter,yes,partial,dunno,yes,yes,no,yes,yes,yes,Via plug-in,yes,yes,yes,yes,yes,dunno
+HDR PhotoStudio,no,no,dunno,no,yes,yes,yes,yes,yes,no,no,yes,yes,no,yes,dunno
+Helicon Filter,partial,no,dunno,yes,no,yes,yes,yes,yes,yes,yes,yes,yes,no,yes,dunno
+iPhoto*,no,no,dunno,yes,partial,no,yes,partial,yes,partial,yes,yes,yes,yes,yes,yes
+IrfanView,yes,no,dunno,yes,no,no,Via plug-in,yes,no,no,dunno,yes,yes,dunno,yes,dunno
+Iridient Developer,dunno,yes,dunno,yes,dunno,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+Kolourpaint,yes,no,dunno,no,no,no,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Krita,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,no,yes,yes
+LiveQuartz,yes,yes,dunno,no,no,no,yes,yes,yes,no,dunno,yes,yes,no,no,partial
+MacPaint*,yes,no,dunno,no,no,no,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Microsoft Office Picture Manager*,partial,no,dunno,no,no,no,no,yes,no,no,yes,no,dunno,no,no,dunno
+Microsoft Paint,no,no,dunno,no,no,no,partial,yes,no,no,no,no,no,no,no,no
+Microsoft Photo Editor*,yes,no,dunno,no,no,no,no,yes,yes,no,yes,yes,yes,no,no,dunno
+mtPaint,yes,yes,yes,no,yes,no,dunno,yes,no,no,no,yes,yes,no,no,yes
+OpenCanvas,yes,yes,dunno,yes,no,dunno,yes,yes,no,no,yes,yes,yes,no,dunno,dunno
+Paint.NET,yes,yes,dunno,yes,partial,no,yes,yes,yes,no,yes,yes,yes,no,yes,no
+Paint Tool SAI,yes,yes,yes,no,no,no,no,yes,no,no,no,no,no,no,no,no
+PC Paintbrush*,yes,no,dunno,no,no,no,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Photogenics,yes,yes,dunno,yes,dunno,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+PhotoLine,yes,yes,dunno,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+PhotoPerfect*,yes,no,dunno,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno,yes,dunno
+Photos,no,no,dunno,yes,partial,no,yes,partial,yes,partial,yes,yes,yes,yes,yes,yes
+Photo Raster,yes,yes,dunno,yes,no,no,yes,yes,yes,no,no,yes,yes,no,no,dunno
+Picasa*,no,no,dunno,yes,no,partial,partial,partial,no,no,yes,yes,yes,yes,no,yes
+PicMaster,yes,no,dunno,yes,yes,no,yes,yes,yes,no,yes,yes,yes,no,yes,dunno
+PixBuilder Photo Editor,yes,yes,dunno,yes,no,no,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Pixelmator,yes,yes,dunno,yes,no,no,yes,yes,yes,yes,yes,yes,yes,no,yes,no
+Pixia,yes,yes,dunno,yes,no,no,yes,yes,yes,no,yes,yes,dunno,dunno,yes,dunno
+Project Dogwaffle,dunno,Commercial version,dunno,yes,partial,no,yes,yes,dunno,dunno,dunno,yes,yes,dunno,yes,dunno
+QFX,yes,yes,dunno,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,yes,dunno
+RawTherapee,no,no,dunno,yes,yes,no,yes,yes,yes,yes,yes,yes,yes,yes,no,yes
+Serif PhotoPlus,yes,yes,dunno,yes,no,no,yes,yes,yes,no,yes,yes,yes,yes,no,dunno
+Side Effects Houdini,yes,yes,dunno,yes,yes,no,yes,yes,yes,no,dunno,yes,yes,no,yes,dunno
+Tux Paint,no,no,dunno,no,no,no,no,no,no,no,no,yes,no,no,yes,dunno
+TVPaint,yes,yes,dunno,yes,yes,no,yes,yes,dunno,dunno,dunno,dunno,yes,dunno,yes,dunno
+Ulead PhotoImpact*,yes,yes,dunno,yes,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno
+Ultimate Paint*,yes,no,dunno,yes,no,no,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+WinImages,yes,yes,dunno,dunno,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Xara Photo  ; Graphic Designer,yes,yes,dunno,yes,no,no,yes,yes,yes,partial,yes,yes,yes,yes,yes,yes
+XnView,no,Partial,dunno,Partial,yes,no,no,yes,yes,dunno,dunno,yes,yes,yes,yes,no
+XPaint,yes,Partial,dunno,no,yes,no,yes,yes,yes,no,yes,yes,yes,Partial,yes,no
+Zoner Photo Studio,yes,partial,dunno,yes,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno

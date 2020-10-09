@@ -1,0 +1,8 @@
+Model(Codename),Launch,Architecture(Fab),TransistorsDie Size,Core,,"  name=""boost""name=""texture fill""name=""pixel fill""",,"  Processing powername=""boost""name=""FLOPS""(GFLOPS)",,Memory,,,,| TDP ([[Watt|W]]),| Bus interface,| Release Price (USD)
+,,,," Configname=""cconfig"""," Clockname=""boost"" (MHz)",Texture (GT/s),Pixel (GP/s),Single,Double,Bus type<br /> ; width ([[bit]]),Size ([[Gibibyte|GiB]]),Clock ([[Transfer (computing)|MT/s]]),Band-<br />width ([[Gigabyte|GB]]/s),,,
+Radeon WX 2100 MobileRadeon ProWX 2100 (Mobile)(Polaris 12),20170301format=mynowrap=off,GCN 4th gen(14 nm),2.2e=9101 mm2,512:32:16:8,?,?,?,1250,781/16 SP,GDDR564-bit,2,6000,48,35,PCIe 3.0 ×16,$ 149
+Radeon WX 3100 MobileRadeon ProWX 3100 (Mobile)(Polaris 12),20170321format=mynowrap=off,,,512:32:16:8,?,?,?,1250,781/16 SP,GDDR5128-bit,4,6000,96,50,,$ 199
+Radeon WX 4130 MobileRadeon ProWX 4130 Mobile(Polaris 11),20170301format=mynowrap=off,,3.0e=9123 mm2,640:40:16:10,10001050,16.85,42.12,1348,84.241/16 SP,GDDR5128-bit,4,6000,96,50,,{{unk}}
+Radeon WX 4150 MobileRadeon ProWX 4150 Mobile(Polaris 11),20170301format=mynowrap=off,,,896:56:16:14,10001050,16.85,58.97,1887,1181/16 SP,GDDR5128-bit,4,6000,96,50,,{{unk}}
+Radeon Pro WX 4170 MobileRadeon ProWX 4170 Mobile(Polaris 11),20170301format=mynowrap=off,,,1024:64:16:16,10001050,16.85,67.39,2157,1351/16 SP,GDDR5128-bit,4,7000,112,50,,$ 399
+Radeon Pro WX 7100 MobileRadeon ProWX 7100 Mobile(Polaris 10),20170301format=mynowrap=off,5.7e=9232 mm2,2304:144:32:36,1188,39.78,179.0,5728,358 1/16 SP,GDDR5256-bit,8,5000,160,130,$ 799,

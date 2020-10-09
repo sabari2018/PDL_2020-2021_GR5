@@ -1,0 +1,35 @@
+Format,Languages
+string (stringFirst .. stringFirst + n - 1),Ada
+" substr(string, 0, n)",Raku
+" LEFT$(string,n)",VB
+" left(string,n)","VB, Ingres, Pick Basic"
+" strncpy(string2, string, n)",C standard library
+" string.substr(0,n)",Raku
+[string substringToIndex:n],Objective-C (NSString * only)
+(apply str (take n string)),Clojure
+string[0 .. n],D
+" string:substr(string, start, length)",Erlang
+(subseq string 0 n),Common Lisp
+string[:n],"Cobra, Go, Python"
+" left(string,n «,padchar»)",Erlang
+" string[0, n]  string[0..n - 1]",Ruby
+" string[1, n]",Pick Basic
+string[ .. n],Seed7
+" string.Substring(0,n)","VB .NET, C#, F#"
+" leftstr(string, n)","Pascal, Delphi)"
+"copy (string,1,n)",Turbo Pascal
+" string.substring(0,n)","Java, JavaScript "
+(string-take string n),Scheme (SRFI 13)
+take n string,Haskell
+" String.extract (string, n, NONE)",Standard ML
+String.sub string 0 n,OCaml
+string.[..n],F#
+" string.sub(string, 1, n)  (string):sub(1, n)",Lua
+string first: n,"Smalltalk (Squeak, Pharo)"
+string(:n),Fortran
+" StringTake[string, n]",Mathematica
+string («FUNCTION» LENGTH(string) - n:n),COBOL
+"string.substring(0, n)",Cobra
+n↑string.,APL
+string[0..n]string[..n]string.get(0..n)string.get(..n)," RustIn Rust, strings are indexed in terms of byte offsets and there is a runtime panic if the index is out of bounds or if it would result in invalid UTF-8. A  ;str (string reference) can be [https://doc.rust-lang.org/stable/std/primitive.str.html#impl-Index%3CI%3E indexed] by various types of ranges, including [https://doc.rust-lang.org/stable/std/slice/trait.SliceIndex.html#impl-SliceIndex%3Cstr%3E Range] (0..n), [https://doc.rust-lang.org/stable/std/slice/trait.SliceIndex.html#impl-SliceIndex%3Cstr%3E-1 RangeFrom] (n..), and [https://doc.rust-lang.org/stable/std/slice/trait.SliceIndex.html#impl-SliceIndex%3Cstr%3E-4 RangeTo] (..n) because they all implement the [https://doc.rust-lang.org/stable/std/slice/trait.SliceIndex.html SliceIndex] trait with str being the type being indexed."
+The [https://doc.rust-lang.org/stable/std/primitive.str.html#method.get str::get] method is the non-panicking way to index. It returns None in the cases in which indexing would panic.

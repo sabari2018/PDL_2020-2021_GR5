@@ -1,0 +1,44 @@
+,Range,Hash,Composite (Range+Hash),List,Expression,Round Robin
+4th Dimension (Software),?,?,?,?,?,?
+ADABAS,?,?,?,?,?,?
+Adaptive Server Enterprise,Yes,Yes,No,Yes,?,?
+Advantage Database Server,No,No,No,No,?,?
+Altibase,Yes,Yes,No,Yes,?,?
+Apache Derby,No,No,No,No,?,?
+Clustrix,Yes,No,No,No,No,?
+CUBRID,Yes,Yes,No,Yes,?,?
+IBM DB2,Yes,Yes,Yes,Yes,Yes,?
+Empress database,No,No,No,No,?,?
+EXASOL,No,Yes,No,No,No,?
+Firebird (database server),No,No,No,No,?,?
+HSQLDB,No,No,No,No,?,?
+H2 (DBMS),No,No,No,No,?,?
+Informix Dynamic Server,Yes,Yes,Yes,Yes,Yes,Yes
+Ingres (database),Yes,Yes,Yes,Yes,?,?
+InterBase,No,No,No,No,?,?
+Linter SQL RDBMS,No,No,No,No,No,?
+MariaDB,Yes,Yes,Yes,Yes,?,?
+MaxDB,No,No,No,No,?,?
+Microsoft Access (JET),No,No,No,No,?,?
+Microsoft Visual Foxpro,No,No,No,No,?,?
+Microsoft SQL Server,Yes,via computed column,via computed column,Yes,via computed column,?
+SQL Server Compact,No,No,No,No,?,?
+Mimer SQL,No,No,No,No,No,?
+MonetDB,Yes,No,No,No,Yes,?
+MySQL,Yes,Yes,Yes,Yes,?,?
+OpenBase (page does not exist),?,?,?,?,?,?
+Oracle Database,Yes,Yes,Yes,Yes,via Virtual Columns,?
+Oracle Rdb,Yes,Yes,?,?,?,?
+Virtuoso Universal Server,Yes,Yes,Yes,Yes,Yes,?
+Pervasive PSQL,No,No,No,No,No,?
+Polyhedra DBMS,No,No,No,No,No,?
+PostgreSQL,Yes,Yes,Yes,Yes,Yes,?
+Raima Database Manager,Yes1,Yes1,Yes1,No,?,?
+RDM Server,No,No,No,No,?,?
+SAP HANA,Yes,Yes,Yes,Yes,Yes,?
+SolidDB,Yes,No,No,No,?,?
+SQL Anywhere,No,No,No,No,?,?
+SQLite,No,No,No,No,?,?
+Teradata,Yes,Yes,Yes,Yes,?,?
+UniVerse,Yes,Yes,Yes,Yes,?,?
+,Range,Hash,Composite (Range+Hash),List,Expression,Round Robin

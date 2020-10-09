@@ -1,0 +1,8 @@
+" scope=""col"" width=""5em"" ",Austria,Belgium,Czechia,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,RussiaBelarus,Slovakia,Slovenia,Spain,Sweden,SwitzerlandLiechtenstein,Turkey,Ukraine,UK,Åland
+" scope=""col""  Maximum speed limit",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px
+" scope=""col""  End of maximum speed limit",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,DISUSED,60px,60px,60px,60px,60px
+" scope=""col""  Speed limit zone",60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,60px,NOTUSED,60pxor60px,,60px,60px,60px50px
+" scope=""col""  End of speed limit zone",60px,60px,,60px,60px,60px,60px,60px,60px,60px,60px,,60px,60px,,60px,60px,60px,60px,60px,60px,60px,60px,NOTUSED,60pxor60px,,60px,60px,60px
+" scope=""col""  Minimum speed limit",60px,NOTUSED,60px,60px,60px,60px,60px,60px,60px,60px,NOTUSED,NOTUSED,60px,60px,NOTUSED,,60px,60px,60px,60px,60px,60px,60px,NOTUSED,60px,60px,60px,60px,NOTUSED
+" scope=""col""  Minimum speed limit ends",60px,NOTUSED,60px,60px,60px,60px,60px,60px,60px,60px,NOTUSED,NOTUSED,60px,60px,NOTUSED,,60px,60px,60px,60px,60px,60px,60px,NOTUSED,60px,60px,60px,60px,NOTUSED
+" scope=""col""  Advisory speed",NOTUSED,NOTUSED,60px,60px,60px,60px,60px,60px (until 2022),60px,60px,NOTUSED,NOTUSED,60px,60px,60px,60px,NOTUSED,60px,60px,60px,50pxDEFUNCT,60px,60px,60px,NOTUSED,,60px,60px,60px

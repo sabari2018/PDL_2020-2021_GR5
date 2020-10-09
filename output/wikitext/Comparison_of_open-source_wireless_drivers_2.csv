@@ -1,0 +1,34 @@
+Driver,802.11,,,,,,,|Bus<br>interface,|Wireless<br>Security,,,|[[Monitor mode|Monitor<br>mode]],|Master<br>([[Wireless access point|AP]])<br>mode,|[[Wireless ad hoc network|Ad-Hoc<br>mode]]
+,a,b,g,n,ac,ad,ax,,WEP,[[Wi-Fi Protected Access|WPA]],[[Wi-Fi Protected Access|WPA2]],,,
+[http://acx100.sourceforge.net/ acx1xx],No,Yes,Yes,No,No,dunno,dunno,"  PCI, Mini PCI, PC card, USB",Yes,No,No,Yes,Yes,dunno
+[https://web.archive.org/web/20080213051945/http://aluminum.sourmilk.net/adm8211/ adm8211],dunno,dunno,dunno,dunno,dunno,dunno,dunno,PCI,dunno,dunno,dunno,dunno,No,dunno
+[https://wireless.wiki.kernel.org/en/users/Drivers/carl9170 carl9170],Yes,Yes,Yes,Yes,No,dunno,dunno,USB,yes,yes,yes,yes,yes,yes
+[https://wireless.wiki.kernel.org/en/users/Drivers/ath5k ath5k],Yes,Yes,Yes,No,No,dunno,dunno," PCI, AHB",yes,yes,yes,yes,yes (2.6.31),yes
+[https://wireless.wiki.kernel.org/en/users/Drivers/ath9k ath9k],Yes,Yes,Yes,Yes,No,dunno,dunno," PCI, Mini PCIe, AHB",yes,yes,yes,yes,yes,yes
+[https://wireless.wiki.kernel.org/en/users/Drivers/ath9k_htc ath9k_htc],Yes,Yes,Yes,Yes,No,dunno,dunno,USB,yes,yes,yes,yes,yes,yes
+[https://wireless.wiki.kernel.org/en/users/Drivers/ath10k ath10k],No,No,No,No,Yes,dunno,dunno," PCI, AHB, Mini PCIe",yes,yes,yes,yes,yes,yes
+[https://web.archive.org/web/20080409212922/http://linuxwireless.org/en/users/Drivers/b43 b43],No,Yes,Yes,No,No,dunno,dunno," PCI, SDIO ?",Yes,Yes,Yes,Yes,yes,Yes
+[https://web.archive.org/web/20060522192624/http://bcm43xx.berlios.de/ bcm43xx],No,Yes,Yes,No,No,dunno,dunno," PCI, Mini PCI,Cardbus, PC card",Yes,Yes,Yes,Yes,No,dunno
+[https://web.archive.org/web/20121029101459/http://linuxwireless.org/en/users/Drivers/brcm80211 brcmfmac],Yes,Yes,Yes,Yes,No,dunno,dunno," SDIO,PCI Express",Yes,Yes,Yes,Exp.,Yes,No
+[https://web.archive.org/web/20121029101459/http://linuxwireless.org/en/users/Drivers/brcm80211 brcmsmac],Yes,Yes,Yes,Yes,No,dunno,dunno," PCI, Mini PCIe",Yes,Yes,Yes,Yes,Yes,Yes
+[https://web.archive.org/web/20080221092622/http://hostap.epitest.fi/ hostap],No,Yes,No,No,No,dunno,dunno," PCI, Mini PCI,PC card",Yes,Yes,Yes,Yes,Yes,Yes
+[http://ipw2100.sourceforge.net/ ipw2100],No,Yes,No,No,No,dunno,dunno,Mini PCI,Yes,Yes,Yes,Yes,dunno,dunno
+[http://ipw2200.sourceforge.net/ ipw2200],Yes,Yes,Yes,No,No,dunno,dunno,Mini PCI,Yes,Yes,Yes,Yes,No,Yes
+[http://ipw2200-ap.sourceforge.net/ ipw2200-ap],No,Yes,Yes,No,No,dunno,dunno,Mini PCI,dunno,dunno,dunno,Yes,Yes,dunno
+[http://ipw3945.sourceforge.net/ ipw3945],Yes,Yes,Yes,No,No,dunno,dunno,Mini PCIe,Yes,Yes,Yes,Yes,No,Yes
+[http://www.prism54.org islsm],dunno,dunno,dunno,dunno,dunno,dunno,dunno," PCI, USB",No,No,No,dunno,No,dunno
+[https://web.archive.org/web/20120206221202/http://intellinuxwireless.org/?p=iwlwifi iwlwifi],Yes,Yes,Yes,Yes,Yes,dunno,dunno," Mini PCIe, M.2",Yes,Yes,Yes,Yes,2.4 GHz onlyExp.,Yes
+[https://web.archive.org/web/20080411175117/http://linuxwireless.org/en/users/Drivers/libertas libertas],No,Yes,Yes,No,No,dunno,dunno," CF, SDIO",dunno,dunno,dunno,dunno,No,dunno
+[http://madwifi-project.org/ madwifi],Yes,Yes,Yes,No,No,dunno,dunno," PCI, PC card,Mini PCI",Yes,Yes,Yes,Yes,Yes,Yes
+[https://github.com/openwrt/mt76/issues mt76],Yes,Yes,Yes,Yes,Yes,dunno,dunno," PCIe, USB",Yes,Yes,Yes,Yes,Yes,Yes
+[https://github.com/kuba-moo/mt7601u mt7601u],No,Yes,Yes,Yes,No,dunno,dunno,USB,Yes,Yes,Yes,Yes,dunno,dunno
+[http://www.nongnu.org/orinoco/ orinoco],No,Yes,No,No,No,dunno,dunno," Mini PCI,PC card",Yes,Yes,No,Yes,no,Yes
+[https://web.archive.org/web/20090129114522/http://linuxwireless.org/en/users/Drivers/p54 p54],No,Yes,Yes,No,No,dunno,dunno," Mini PCI, USB,Cardbus",Yes,Yes,Yes,Yes,Yes,Yes
+[http://www.prism54.org prism54],No,Yes,Yes,No,No,dunno,dunno,PCI,Yes,No,dunno,Yes,Yes,dunno
+[https://web.archive.org/web/20110325121008/http://linuxwireless.org/en/users/Drivers/rndis_wlan rndis_wlan],No,Yes,Yes,No,No,dunno,dunno,USB,Yes,Yes,Yes,No,No,Yes
+[https://web.archive.org/web/20141120043216/http://rt2x00.serialmonkey.com/ rt2x00],No,Yes,Yes,No,No,dunno,dunno," PCI, USB,Mini PCI",Yes,Yes,Yes,Yes,Yes,Yes
+[http://rtl8180-sa2400.sourceforge.net/ rtl8180],Yes,Yes,Yes,No,No,dunno,dunno," PCI, PC card,Mini PCI",dunno,dunno,dunno,dunno,Yes,dunno
+[https://wireless.wiki.kernel.org/en/users/Drivers/rtl8187/ rtl8187],Yes,Yes,Yes,No,No,dunno,dunno,USB,Yes,Yes,Yes,Yes,dunno,dunno
+[http://linux-lc100020.sourceforge.net/ zd1201],No,Yes,No,No,No,dunno,dunno,USB,Yes,No,No,Yes,Yes,dunno
+[https://archive.is/20121225160546/http://zd1211.wiki.sourceforge.net/VendorBasedDriver zd1211],Yes,Yes,Yes,No,No,dunno,dunno,USB,Yes,Yes,Yes,Yes,Yes,dunno
+[https://web.archive.org/web/20070406154055/http://zd1211.ath.cx/wiki/DriverRewrite zd1211rw],No,Yes,Yes,No,No,dunno,dunno,USB,Yes,Yes,yes,Yes,Yes,Yes

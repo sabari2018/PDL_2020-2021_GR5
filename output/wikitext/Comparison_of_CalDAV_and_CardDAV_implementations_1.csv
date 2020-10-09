@@ -1,0 +1,24 @@
+Client name,Platform,License,WebDAV ACL editor,[https://tools.ietf.org/html/rfc3744#section-9.4 Discovery of other user’s collections],events,ICalendar tasks,ICalendar journals,[https://tools.ietf.org/html/rfc7953 ICalendar VAVAILABILITY (RFC 7953)],[https://tools.ietf.org/html/6638 CalDAV Scheduling],CardDAV,[https://tools.ietf.org/html/rfc6350#section-7 vCard Synchronization],User interface,Online store,.well-known URLs,[http://www.calconnect.org/pubdocs/CD0903%20Freebusy%20Read%20URL.pdf FBURL],DNS SRV,handles home-sets
+AgenDAV,Cross-platform JavaScript Web browser,GPL-lic,yes limited,no,yes,n/a,unk,no,no Does not arrange meetings with participants,n/a,out of scope,AgenDAVs fullcalendar.io,no,no The used server is fixed in the configuration file,no Does not arrange meetings with participants,no the caldav-server settings need to be fixed in AgenDAVs configuration file,yes
+Cadaver,Command-line,GPL-lic,unk,unk,yes,unk,unk,unk,unk,yes,unk,unk,unk,unk,unk,unk,unk
+aCal,Android,GPL-lic,unk,unk,yes,yes,unk,unk,unk,n/a,unk,aCal,aCal,unk,unk,unk,unk
+AndroidCaldavSyncAdapater,Android,GPL-lic,unk,unk,yes,n/a,unk,unk,unk,n/a,out of scope,Android,Google Play,unk,no Out of scope,unk,unk
+CalDavZAP,Cross-platform JavaScript Web browser,AGPL,no,no,yes,yes,unk,no,no Does not arrange meetings with participants,n/a,out of scope,CalDavZAP,no,no The used server is fixed in the configuration file,no Does not arrange meetings with participants,no The used server is fixed in the configuration file,yes
+CardDavMATE,Cross-platform JavaScript Web browser,AGPL,no,no,out of scope,out of scope,out of scope,out of scope,out of scope,yes vCard 3.0 only,no,CardDavMATE,no,no The used server is fixed in the configuration file,no Out of scope,no The used server is fixed in the configuration file,yes
+InfCloud (CalDavZAP+CardDavMATE),Cross-platform JavaScript Web browser,AGPL,no,no,yes,yes,unk,no,no Does not arrange meetings with participants,yes vCard 3.0 only,no,InfCloud,no,no The used server is fixed in the configuration file,no Does not arrange meetings with participants,no The used server is fixed in the configuration file,yes
+Chandler Desktop,Python,Apache,unk,unk,yes,yes,unk,unk,unk,no,unk,unk,unk,unk,unk,unk,unk
+DAVx⁵,Android,GPL-lic,no,no,yes,yes,out of scope,out of scope,No (except attendees/invitations),yes,no ([https://web.archive.org/web/20190110234927/https://www.davx5.com/manual/synchronization server always wins])," Android, OpenTasks"," Google Play, OpenTasks",yes,out of scope,yes,yes
+Tasks.org,Android,GPL-lic,no,no,no,yes,no,no,no,no,no,Android,Google Play,yes,no,no,yes
+jqCalDAV,Cross-platform JavaScript Web browser,MIT,unk,unk,yes,yes,unk,unk,unk,n/a,unk,unk,unk,unk,unk,unk,unk
+KCardDAV (discontinued),Kontact add-on,GPL-lic,unk,unk,n/a,n/a,n/a,unk,unk,yes,unk,unk,unk,unk,unk,unk,unk
+"  KOrganizer, KAddressBook, Kontact",Unix-KDE,GPL-lic,unk,unk,yes,yes,unk,unk,unk,yes,unk,KOrganizer,KOrganizer,unk,unk,unk,unk
+Lightning,Thunderbird Add-on," MPL, GPL, LGPL",unk,unk,yes,yes,unk,unk,unk,n/a,Out of scope,Lightning,Lightning,unk,unk,unk,unk probably not
+CardBook,Thunderbird Add-on,MPL,no,no,Out of scope,Out of scope,Out of scope,Out of scope,Out of scope,yes vCard 3.0 and vCard 4.0,yes,CardBook,[https://addons.thunderbird.net/thunderbird/addon/cardbook/ Mozilla Add-ons (ATN)],yes,Out of scope,no,partial
+MineTime,Cross-platform,proprietary,no,no,yes,no,no,no,no,no,no,no,MineTime,minetime.ai,no,no,no
+Mulberry,Cross-platform,Apache,unk,unk,yes,yes,unk,unk,unk,yes,unk,unk,unk,unk,unk,unk,unk
+Outlook CalDav Synchronizer,Windows,AGPL,unk,unk,yes,yes,unk,unk,unk,yes,unk,Outlook,unk,yes,unk,yes,yes
+pyCardDAV,Python,MIT,unk,unk,n/a,n/a,n/a,unk,unk,yes,unk,unk,unk,unk,unk,unk,unk
+The Bat!,Windows,proprietary,unk,unk,no,no,no,unk,unk,yes,unk,The Bat!,The Bat!s address book,unk,unk,unk,unk
+Inverse SOGo Connector-Integrator,Thunderbird Add-on," MPL, GPL, LGPL",unk,unk,yes,yes,unk,unk,unk,yes,unk,Mozilla,Mozilla Add-ons,unk,unk,unk,unk
+Evolution,Cross-platform,GPL-lic,no,no,yes,yes,yes,no,no,yes vCard 3.0 only,unk,Evolution,Evolution,yes,yes if the URL does not require authentication,yes,yes
+ReminderFox,Cross-platform Firefox,MPL 1.1,unk,unk,yes,yes,unk,unk,no,n/a,unk,ReminderFox,yes,unk,unk,unk,unk

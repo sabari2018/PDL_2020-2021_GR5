@@ -1,0 +1,33 @@
+,Microsoft Windows,MacOS,Linux,Berkeley Software Distribution,Unix,DOS,Android (operating system),Software as a service
+ADMB,Yes,Yes,Yes,No,No,No,No,No
+Analytica (software),Yes,No,No,No,No,No,No,No
+Ch (computer programming),Yes,Yes,Yes,Yes,Yes,No,No,No
+Dyalog APL,Yes,Yes,Yes,No,Yes,No[Note 4],No,No
+DADiSP,Yes,No,No,No,Yes,No,No,No
+Euler (software),Yes,No,Yes,No,No,No,No,No
+FlexPro,Yes,No,No,No,No,No,No,No
+FreeMat,Yes,Yes,Yes,Yes,Yes,No,No,No
+GAUSS (software),Yes,Yes,Yes,No,Yes,No,No,No
+GNU Data Language,Yes,Yes,Yes,Yes,Yes,No,No,No
+MCSim,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+GNU Octave,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+IGOR Pro,Yes,Yes,No,No,No,No,No,No
+Julia (programming language),Yes,Yes,Yes,Yes,No,No,No,Yes
+LabPlot,Yes,Yes,Yes,Yes,Yes,No,No,No
+LabVIEW,Yes,Yes,Yes,No,Yes,No,No,No
+Maple (software),Yes,Yes,Yes,No,Yes,No,No,No
+Mathematica,Yes,Yes,Yes,Yes,Yes,No,No,Yes
+MATLAB,Yes,Yes,Yes,Yes,Yes,No,No,No
+MLAB,Yes,Yes,Yes,No,No,Yes,No,No
+Origin (data analysis software),Yes,No,No,No,No,No,No,No
+Perl Data Language,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+R (programming language),Yes,Yes,Yes,Yes,Yes,No,No,No
+SageMath,Yes,Yes,Yes,No,Yes,No,No,Yes
+SAS (software),Yes,No,Yes,No,Yes,No,No,No
+SequenceL,Yes,Yes,Yes,No,No,No,No,No
+S-Lang (programming library),Yes,Yes,Yes,Yes,Yes,Yes,No,No
+Scilab,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+Sysquake,Yes,Yes,Yes,No,No,No,No,No
+TK Solver,Yes,No,No,No,No,No,No,No
+The Unscrambler,Yes,No,No,No,No,No,No,No
+VisSim,Yes,Yes,Yes,No,Yes,No,No,No

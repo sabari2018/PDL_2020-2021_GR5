@@ -1,0 +1,22 @@
+" width=""10%"" Feature"," width=""10%"" Android"," width=""10%"" iOS"," width=""10%"" Tizen"," width=""10%"" Sailfish OS"," width=""10%"" Ubuntu Touch"
+While-in-use permissions,10+,11+: Location only,No,No,Yes
+Per-app Internet access,"No2No, 3rd party software",7+: Cellular only; 3rd party software on jailbroken devices,No,No,No
+Per-app identity access,8+,6+,No,No,Yes
+Per-app user data access,6+,6+,No,No,Yes
+Per-app background execution,"No2 No, 3rd party apps available",7+,No,No,Background execution not allowed
+Per-app notifications,4.1+,5+,No,No,Yes
+Per-app location access,6+,No,No,Yes
+Per-app camera access,6+,No,No,Yes
+Per-app microphone access,6+,No,No,Yes
+Per-app shared files access,6+,No,No,Yes
+Per-app network data usage auditing,4+,Yes,?,No,No
+Fine grained storage usage,Yes,5+,?,No,Yes
+Parental controls,4.3+ or 3rd party software,Yes,?,No,No
+Screen orientation lock,Yes,Yes,Yes
+File manager,6.0+,11+,No2 3rd party software,Yes,Yes
+File manager write access to external storage,6+ Or 3rd party software like LineageOS,13+,Yes,Yes,Yes
+Multi-user,"4.2+, including phones 5+",9.3+: Education use only on iPad,No,No,No
+Guest mode,5+,6+,No,No,No
+Guided Access,No,Yes,No,No,No
+Do not disturb mode,5+,6+,No,No,No
+App groups,Yes,4+,?,1.0.7+,Yes

@@ -1,0 +1,34 @@
+,Simple composite types,,Algebraic data types,|[[Union (computer science)|Unions]]
+,Records,[[Tuple]] expression,,
+Ada,type identifier is «abstract» «tagged» «limited» [recordfieldname1 : type;fieldname2 : type;...end record null record],n/a," Any combination of records, unions and enumerations (as well as references to those, enabling recursive types).",type identifier (variation : discrete_type) is recordcase variation iswhen choice_list1 =>fieldname1 : type;...when choice_list2 =>fieldname2 : type;......end case;end record
+ALGOL 68," struct (modename «fieldname», ...);",align=center Required types and operators can be user defined,,<code>union (modename, ...);</code>
+C (C99),struct «name» {type name;...};,n/a,n/a,union {type name;...};
+Objective-C,,,,
+C++,struct «name» {type name;...};C++s struct[b],«std::»tuple1..typen>,,
+C#,struct name {type name;...},"(val1, val2, ... )",,n/a
+Java,just classes[a],,,
+JavaScript,,n/a,,
+D,struct name {type name;...},," std.variant.Algebraic!(type,...)",union {type name;...}
+Go,struct {«name» type...},,,
+Rust," struct name {name: type, ...}"," (val1, val2, ... )"," enum name { Foo(types), ...}"," union name {name: type, ...}"
+Swift,struct name {var name «: type»...}," («name1:» val1, «name2:» val2, «name3:» val3, ... )",enum name { case Foo«(types)» case Bar «(types)» ... },
+Common Lisp,(defstruct name slot-name (slot-name initial-value) (slot-name initial-value :type type) ...),(cons val1 val2)pair only[c],,
+Scheme,n/a,,,
+ISLISP,,,,
+Pascal,recordname: type;...end,n/a,n/a,recordcase type of value: (types);...end
+Visual Basic,,,,
+Visual Basic .NET,Structure name  Dim name As type  ...  End Structure,"(val1, val2, ... )",,
+Python,just classes[a]," «(»val1, val2, val3, ... «)»",,n/a
+S-Lang," struct {name [=value], ...}",,,
+Fortran,TYPE name   type ::  name  ...  END TYPE,,,
+PHP,just classes[a],,,
+Perl,Perls records[d],,,n/a
+Raku,just classes[a],,,
+Ruby,lang=ruby1=OpenStruct.new({:name => value}),,,
+Scala," case class name(«var» name: type, ...)"," (val1, val2, val3, ... )",abstract class namecase class Foo(«parameters») extends namecase class Bar(«parameters») extends name... or abstract class namecase object Foo extends namecase object Bar extends name... or combination of case classes and case objects,
+Windows PowerShell,,,,
+OCaml,type name = {«mutable» name : type;...}," «(»val1, val2, val3, ... «)»",type name = Foo «of type»  Bar «of type»  ...,n/a
+F#,,,,
+Standard ML," type name = {name : type,...}"," (val1, val2, val3, ... )",datatype name = Foo «of type»  Bar «of type»  ...,
+Haskell," data Name = Constr {name :: type,...}",,<code>data Name = Foo «types» <nowiki>|</nowiki> Bar «types» <nowiki>|</nowiki> ...</code>,
+COBOL,level-number name type clauses.  level-number+n name type clauses.  ...,n/a,n/a,name REDEFINES variable type.

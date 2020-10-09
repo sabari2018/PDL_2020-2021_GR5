@@ -1,0 +1,22 @@
+IDE,Developer,Latest stable release version,Latest stable release date,Platform,Written in,Widget toolkit,License,Python2x support,Python3x support,Debugger,GUI builder,Integrated toolchain,Profiler,Code coverage,Autocomplete,Static program analysis,GUI based design,Class browser,Code refactoring,Version control system support,Web framework support
+Anjuta,Naba Kumar,3.22,2016-09-18,Unix-like,C,GTK+,GPL,unk,unk,yes,unk,unk,unk,unk,unk,unk,unk,unk,unk,unk,unk
+eric,Detlev Offenbach,19.10,2019-10-03," Windows, Linux, macOS ",Python,PyQt," GPLv3 ""or later"" "," Yes, until version 4.5.25 and since version 5.5.0 "," Yes, since version 5.0.0 "," Yes, for Python 2  ; 3 ",yes: Qt Creator,unk,yes,yes,yes,Multiple integrated checkers and Pylint via plug-in,yes,yes,yes,Subversion and git (optional plug-in),Django as optional plug-in
+Geany,Team,1.36.0,2019-09-28," Windows, AIX, Solaris, other Unix ",C,GTK+,GPL,unk,yes,no,unk,unk,unk,unk,yes,unk,unk,unk,unk,unk,unk
+IDLE,Guido van Rossum et al.,3.7,2019-03-25,Cross-platform,Python,Tkinter,PSFL,yes,yes,yes,yes,unk,no,no,yes,no,yes,yes,unk,no,no
+,Komodo IDE,ActiveState,10.2,2017-02-21,Cross-platform,unk,Mozilla platform,Proprietary,yes,yes,yes,unk,unk,unk,unk,unk,unk,unk,unk,unk," Bazaar, CVS, Git, SVN",unk
+KDevelop,KDE KDevelop Team,5.4.3,2019-10-21,Cross-platform," C, C++ ",Qt,GPL,unk,yes,yes,unk,unk,unk,unk,yes,unk,unk,yes,date=September 2020," Bazaar, CVS, Git, SVN ",unk
+MonoDevelop,Mono community,6.1.2.44,2016-11-11," Windows, Solaris ",C#,Gtk#,LGPL,unk,unk,yes,unk,unk,unk,unk,unk,unk,unk,unk,unk,unk,unk
+Ninja-IDE,Team,2.3,2013-07-07,Cross-platform,Python,PyQt,GPL,yes (Python 2.7),yes,yes (with wdebugger plugin),unk,unk,unk,unk,unk,unk,unk,unk,unk,unk,unk
+PIDA,Team,0.6.2,2010-08-04,Cross-platform,Python,PyGTK,GPL,unk,unk,yes (integrates with external debuggers),unk,unk,unk,unk,unk,unk,unk,unk,unk,unk,unk
+PyCharm,JetBrains,2020.1.3,2020-07-20," Windows, Linux, macOS ",Java,Swing,Open core: Full version under Apache License 2.0,yes,yes,yes,unk,yes,yes (full version only),yes (full version only),yes,yes PEP 8 and others,yes,yes,yes,yes,yes
+Eclipse and Aptana),Appcelerator,7.5.0,2020-01-10," Windows, JVM, Solaris ",unk,SWT,EPL,yes,yes,yes,unk,unk,unk,unk,yes,yes,unk,yes,yes,yes,unk
+PyScripter,Kiriakos Vlahos,3.6.0,2019-01-12,Windows,Object Pascal,JVCL,MIT License,yes,yes up to v3.4,yes,unk,unk,unk,unk,unk,unk,unk,unk,unk,unk,unk
+Python Tools for Visual Studio,Microsoft,2.2.6,2017-01-13,Windows,unk,Windows Forms,Apache License 2.0,yes,yes,yes,unk,unk,unk,unk,unk,unk,unk,unk,unk,unk,unk
+PythonAnywhere,PythonAnywhere LLP,N/A,N/A,Web-based,Python,HTML,proprietary,yes,yes,no,unk,unk,unk,unk,unk,unk,unk,unk,unk,unk,unk
+SlickEdit,SlickEdit,21,October 2016," Solaris, AIX, HP-UX",C++,Qt,Proprietary,Yes,Yes,Yes,No,Yes,No,No,Yes,No,No,Yes,No,Yes,No
+SourceLair," SourceLair, Limited. ",N/A,N/A,Web-based,Python,HTML,proprietary,yes,no,no,unk,unk,unk,unk,unk,unk,unk,unk,unk,unk,unk
+Spyder,Carlos Cordoba and contributors,4.1.3,2020-05-09,Cross-platform,Python," PyQt, PySide ",MIT License,yes 2.7,yes 3.5 – 3.8,yes,no,yes,yes,no,yes,yes,unk,beta,planned,partial,no
+Thonny,Aivar Annamaa and contributors,3.2.6,2020-01-02," Windows, Linux, macOS ",Python,Tkinter,MIT License,no,yes,yes,no,no,no,no,yes,yes,unk,yes,no,no,Flask
+Understand,SciTools,4.0,2015-04-01," Windows, Solaris, other Unix ",unk,HTML,Proprietary,unk,unk,no,unk,unk,unk,unk,unk,unk,unk,unk,unk,unk,unk
+Visual Studio Code,Microsoft,1.49.0,2020-09-10," Windows, Linux, macOS ",JavaScript,HTML,MIT License,yes,yes,yes,no,unk,yes,unk,yes,unk,unk,unk,unk,yes,yes
+Wing,Wingware,7.2.6,2020-10-07," Windows, Linux, macOS ",Python,Qt5 with PyQt,Proprietary,yes,yes," yes (also remote, multi-threaded, and multi-process debugging) ",no,yes,no,no,yes,yes,yes,yes,yes,yes,yes

@@ -1,0 +1,18 @@
+Assembler,Developer,Operating system,Free and open-source software,Software license,Development active
+A86 (software),Eric Isaacson," Microsoft Windows, Microsoft Windows ",No,Proprietary software,No
+Amsterdam Compiler Kit," Andrew Tanenbaum, Ceriel Jacobs "," Linux, Linux, Linux ",Yes,BSD licenses since 2003,1985-? [1]
+IBM ALP,IBM,OS/2,No,Proprietary software,No
+AT&amp;T,AT&amp;T,Unix System V,No,Proprietary software,1985-?[2]
+Digital Research ASM86,Digital Research," CP/M-86, CP/M-86, CP/M-86's CP/M-86 and CP/M-86 ",No,Proprietary software,1978-1992
+FASM,Tomasz Grysztar (page does not exist)," Microsoft Windows, Microsoft Windows, Microsoft Windows, Microsoft Windows ",Yes,BSD licenses with added BSD licenses,Yes
+GNU Assembler,GNU Project," Unix-like, Unix-like, Unix-like, Unix-like ",Yes,GNU General Public License,Since 1987
+High Level Assembly,Randall Hyde," Microsoft Windows, Microsoft Windows, Microsoft Windows, Microsoft Windows ",Yes,Public domain,Yes
+" Open Watcom Assembler (HJWASM a.k.a. UASM, JWASM, WASM) ",Watcom," Linux, Linux, Linux, Linux, Linux "," approved by Open Source Initiative, but not by Open Source Initiative ",Sybase Open Watcom Public License,Yes
+Microsoft Macro Assembler,Microsoft," Microsoft Windows, Microsoft Windows, Microsoft Windows ",No,Microsoft End-user license agreement,Since 1981[3]
+Netwide Assembler," Simon Tatham, Julian Hall, Simon Tatham, et al. "," Linux, Linux, Linux, Linux, Linux ",Yes,BSD licenses,Yes
+Tim Paterson's ASM,Tim Paterson," 86-DOS, 86-DOS 86-DOS ",No,Proprietary software,1979-1983
+Turbo Assembler,Borland," Microsoft Windows, Microsoft Windows ",No,Proprietary software,? [4][5]
+Tiny C Compiler,Fabrice Bellard," Unix-like, Unix-like ",Yes,GNU Lesser General Public License,Yes
+Vasm,,various,Yes,Free,Yes
+Xenix,Microsoft,Xenix 2.3 and 3.0 (before 1985),No,Proprietary software,1982-1984
+Yasm[1],," Microsoft Windows, Microsoft Windows, Microsoft Windows, Microsoft Windows ",Yes,BSD licenses,No[6]

@@ -1,0 +1,28 @@
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core configname=CoreConfig,Bus interface," rowspan=""2"" L2 Cache(MB)",Clock speeds,,,Memory,,,,name=PerfValues,,|Processing power ([[GFLOPS]]){{efn|name=PerfValues}},,,,|[[Ray tracing (graphics)|Ray-tracing]] Performance,,|[[Thermal design power|TDP]] (Watts),|[[NVLink]] support,|Release price (USD),
+,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s)name=PixelFillrate,Texture (GT/s)name=TextureFillrate,[[Single precision floating-point format|Single precision]],[[Double precision floating-point format|Double precision]],[[Half precision floating-point format|Half precision]],[[Tensor]] compute (FP16),Rays/s (Billions),RTX OPS/s (Trillions),MSRP,,,Founders Edition
+GeForce RTX 2060," January 15, 2019",TU106-200-KA-A1,12FFN,10.8,445,1920:120:48:240:30 (30) (3),PCIe 3.0 x16,3,1365,1680,14000,6,336.0,GDDR6,192,65.5280.64,163.80201.60,5 ;thinsp;241.606 ;thinsp;451.20,163.80201.60,10 ;thinsp;483.2012 ;thinsp;902.40,41 ;thinsp;932.8051 ;thinsp;609.60,5,37,160,No,$349,
+,"January 10, 2020",TU104-150-KC-A1,,13.6,545,,,,,,,,,,,,,,,,,,,,,$299,
+GeForce RTX 2060 Super," July 9, 2019",TU106-410-A1,,10.8,445,2176:136:64:272:34 (34) (3),,4,1470,1650,,8,| 448.0,,| 256,94.08
+105.60,199.92,,,,,,,,
+224.40,6 ;thinsp;400.00,,
+7 ;thinsp;180.00,199.00,,
+224.00,12 ;thinsp;800.00,,
+14 ;thinsp;360.00,51 ;thinsp;200.00
+57 ;thinsp;440.00,6,41,175,$399,,,
+GeForce RTX 2070,,"  October 17, 2018",,TU106-400-A1,2304:144:64:288:36 (36) (3),1410,1620,90.24103.68,203.04233.28,6 ;thinsp;497.287 ;thinsp;464.96,,,,,,203.04<br />233.28,12 ;thinsp;994.56<br />14 ;thinsp;929.92,51 ;thinsp;978.24<br />59 ;thinsp;719.68,42,| $499,$599
+GeForce RTX 2070 Super," July 9, 2019",TU104-410-A1,13.6,545,2560:160:64:320:40 (40) (5),1605,1770,102.70,,,,,
+113.28,256.80,,
+283.20,8 ;thinsp;220.00,,
+9 ;thinsp;060.00,256.80
+283.20,16 ;thinsp;440.00
+18 ;thinsp;120.00,65 ;thinsp;760.00
+72 ;thinsp;480.00,7,52,215,2-way NVLink,$499
+GeForce RTX 2080," September 20, 2018",TU104-400-A1,,,2944:184:64:368:46 (46) (6),1515,1710,96.96109.44,278.76314.64,8 ;thinsp;920.3210 ;thinsp;068.48,278.76314.64,17 ;thinsp;840.6420 ;thinsp;136.96,71 ;thinsp;362.5680 ;thinsp;547.84,,,| 8,57,| $699,$799,
+GeForce RTX 2080 Super," July 23, 2019",TU104-450-A1,3072:192:64:384:48 (48) (6),,1650,1815,15500,496.0,105.60,,,
+116.16,316.80 348.48,10 ;thinsp;140.00,
+11 ;thinsp;150.00,316.80,
+348.50,20 ;thinsp;280.00
+22 ;thinsp;300.00,81 ;thinsp;120.00
+89 ;thinsp;200.00,63,250,$699
+GeForce RTX 2080 Ti," September 27, 2018",,TU102-300-K1-A1,18.6,754,4352:272:88:544:68 (68) (6),5.5,1350,1545,14000,11,616.0,352,118.80135.96,367.20420.24,11 ;thinsp;750.4013 ;thinsp;447.68,367.20420.24,,23 ;thinsp;500.8026 ;thinsp;895.36,94 ;thinsp;003.20107 ;thinsp;581.44,10,76,$999,$1199,
+Nvidia TITAN RTX," December 18, 2018",,TU102-400-A1,,,4608:288:96:576:72 (72) (6),6,,1770name=TitanRTXBoost,,24,672.0,384,129.60169.92,388.80509.76,12 ;thinsp;441.6016 ;thinsp;312.32,388.80509.76,24 ;thinsp;883.2032 ;thinsp;624.64,99 ;thinsp;532.80<br />130 ;thinsp;498.56,11,84,{{n/a}},$2,499,

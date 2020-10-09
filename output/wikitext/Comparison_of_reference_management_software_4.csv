@@ -1,0 +1,30 @@
+Software,BibTeX,Copac,CSA,Endnote/Refer/BibIX,ISI,Medline,MODS XML,Ovid,PubMed,RIS,SciFinder,Other
+Bebop,yes,no,no,no,no,no,no,no,no,no,no,none
+BibBase,yes,no,no,no,no,no,no,no,no,no,no,none
+BibDesk,yes,yes,no,yes,yes,yes,yes,no,yes,yes,yes,"MARC, JSTOR, Reference Miner"
+Biblioscape,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,?
+BibSonomy,yes,no,no,yes,no,no,no,no,no,no,no,Firefox bookmarks
+Bibus,yes,no,no,yes,yes,yes,no,no,no,yes,no,none
+Bookends,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,various [http://www.sonnysoftware.com/]; user-customizable
+Citavi,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,various
+CiteULike,yes,no,no,no,no,no,no,no,no,yes,no,none
+colwiz,yes,no,no,yes,yes,yes,no,no,yes,yes,no,"  with built-in browser, bookmarklet"
+EndNote,no,no,yes,yes,yes,yes,no,yes,yes,yes,yes,various
+JabRef,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes," REPEC (NEP), SilverPlatter, SixPack"
+KBibTeX,yes,no,no,yes,no,no,depends,no,yes,yes,no,none
+Mendeley,yes,no,no,yes,no,no,no,no,no,yes,no,Browser bookmarks
+Paperpile,yes,no,no,no,no,no,no,no,no,yes,no,PDF
+Pybliographer,yes,no,no,yes,yes,yes,no,yes,no,no,no,none
+Qiqqa,yes,no,no,yes,no,no,no,no,yes,no,no,none
+ReadCube (now Papers),yes,no,no,yes,no,no,no,no,yes,yes,no,PDFalign=style=color=
+refbase,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,RefWorks
+RefDB,yes,yes,no,yes,yes,yes,yes,no,yes,yes,yes," MARC, risx"
+Reference Manager,yes,no,yes,yes,yes,yes,no,yes,yes,yes,yes,various; user-customizable
+Referencer,yes,no,no,yes,no,no,yes,no,no,yes,no,none
+RefME,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+RefWorks,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,various
+SciRef,no,no,no,yes,no,no,no,no,no,yes,no,?
+Sente,yes,no,yes,yes,yes,no,no,yes,yes,yes,yes," Dublin Core, Marc21 SUTRS, JSTOR, SilverPlatter"
+Wikindx,yes,depends,no,date=April 2009,depends,no,depends,no,date=April 2009,date=April 2009,no,"ISI, BibReX LaTeX"
+WizFolio,no,no,no,no,no,no,no,no,no,yes,no,Internet Browser bookmarks
+Zotero,yes,no,no,yes,yes,yes,yes,yes,yes,yes,no," MARC, RDF, Browser bookmarks, Endnote XML "

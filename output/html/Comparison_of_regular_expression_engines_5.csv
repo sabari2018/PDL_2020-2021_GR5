@@ -1,0 +1,14 @@
+,Native UTF-16 supportUTF-16,Native UTF-8 supportUTF-8,Multi-line matching,Partial match[Note 2]
+Boost.Regex (page does not exist),No,No,Yes,Yes
+GLib/GRegex,Yes,Yes,Yes,Yes
+RXP,Yes,Yes,No,Yes
+International Components for Unicode Regex,Yes,No,Yes,?
+Java (programming language),No,Partial[Note 3],Yes,Yes
+.NET framework,No[Note 4],Yes,Yes,?
+Perl Compatible Regular Expression,Yes[Note 5],Yes,Yes,Yes
+Qt (toolkit)/QRegExp,Yes,No,No,?
+Tcl,Yes,Yes[Note 6],Yes,?
+TRE (computing),Yes,Yes,Yes,?
+RGX,No,No,Yes,?
+WxWidgets::WxWidgetsWxWidgets,Yes,Yes,Yes,?
+XRegExp,Yes,?,Yes,?

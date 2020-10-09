@@ -1,0 +1,48 @@
+Client,Message file format,Encrypted database,Virtual folders,Scheduled backup,New mail notification,,,,Customizable interface,Customizable keybindings,Fragmented messages group=NoteFragmentedMessages,Database search with regular expressions support,| [[Indexed search]],| Search folders {{r|group=Note|Searchfolders}},| IMAP,,,
+,,,,,ticker,tray icon,tooltip,sound,,,,,,,Search,IDLE
+Alpine," MIX, MH, mx, news, phile",dunno,yes,partial,dunno,dunno,dunno,yes,yes,no,dunno,no,yes,yes,yes,no
+Becky! Internet Mail,mbox,dunno,dunno,no,yes,dunno,yes,yes,dunno,dunno,dunno,yes,dunno,yes,yes,yes
+Citadel,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Claws Mail," MH, mbox (plugin)",no,no,no,yes,yes,yes,yes,yes,yes,dunno,dunno,dunno,no,yes,no
+Cone," mbox, maildir",no,no,no,no,dunno,dunno,dunno,yes (colors),no,no,no,no,yes,yes,yes
+Courier,Proprietary,yes (weak),yes,dunno,dunno,dunno,dunno,dunno,yes (layout),no,dunno,no,no,yes,no,yes
+Elm,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+eM Client,Proprietary (sqlite),yes,yes,yes,yes,yes,no,yes,yes,yes,no,no,yes,yes,no,yes
+EmailTray,Proprietary,yes,yes,no,yes,yes,no,yes,no,no,no,no,yes,yes,dunno,dunno
+Eudora,modified mbox,no,yes,no,no,yes,yes,yes,yes,yes,yes,date=January 2007,yes,yes,yes,dunno
+Evolution,MH,no,yes,no,no,yes,yes,yes,partial,group=NoteKeybindings,yes,yes,yes,yes,yes,yes
+Gnus," babyl, maildir, mbox, MMDF, news, rnews, SOUP, outlook, oe-dbx",no,yes,no,no,dunno,dunno,dunno,yes,yes,yes,yes,group=Notename=GnusNNIRVia nnir backends such as Notmuch,yes,yes,dunno
+GroupWise,Proprietary,yes,yes,yes,dunno,yes,yes,yes,yes,dunno,dunno,dunno,yes,yes,yes,no
+Hiri,Proprietary,no,no,no,no,no,no,no,yes,no,no,no,yes,yes,no,no
+IBM Notes,Proprietary,yes,yes,yes,yes,yes,yes,yes,yes,yes,group=NoteLotus_frag,no,yes,yes,dunno,no
+KMail," mbox, maildir",no,yes,no,dunno,dunno,dunno,dunno,yes,yes,no,yes,dunno,yes,yes,yes
+Mailbird,Proprietary,no,Yes,no,yes,yes,yes,yes,yes,yes,No,yes,Partial,Yes,Yes,Yes
+Mailpile,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Microsoft Entourage,Proprietary (Personal Storage Table),dunno,Yes,group=Noteeragebackups,dunno,dunno,dunno,dunno,Partial,No,No,group=Noteeragedbgrepsearch,Yes,Yes,Yes,Yes
+Microsoft Office Outlook,Proprietary (Personal Storage Table),Yes,yes,yes,dunno,yes,yes,yes,yes,Yes,dunno,dunno,group=NoteMSO,yes,dunno,yes
+Mozilla Mail  ; Newsgroups,mbox,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Mozilla Thunderbird," mbox, maildir",no,yes,dunno,dunno,yes,yes,yes,group=NoteTBThemes,dunno,no,dunno,yes (as of 3.0),yes,yes,yes
+Mulberry,group=NoteMulberryMBox,group=NoteMulberryDB,group=NoteMulberryDB,group=NoteMulberryDB,dunno,dunno,dunno,dunno,yes,dunno,dunno,date=January 2007,group=NoteMulberryDB,no,yes,no
+Mutt," MH, maildir",yes (with compressed folders patch),dunno (has limit command),no,dunno,dunno,dunno,dunno,yes,yes,dunno,yes,group=Notename=muttindexersVia Notmuch or other indexers.,group=Notemuttindexers,yes,yes
+Netscape Messenger,mbox,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Netscape Messenger 9,mbox,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+nmh / MH,MH,no,yes,no,no,dunno,dunno,dunno,yes,yes,dunno,yes,yes,yes,no,dunno
+Opera Mail," MH, Proprietary",no,yes(all folders are virtual),no,no,yes,yes,yes,yes,yes,no,yes,yes,yes,dunno,yes
+Outlook Express,Proprietary,no,no,no,dunno,yes,no,yes,no,no,yes,dunno,no,dunno,dunno,yes
+Pegasus Mail,Proprietary (mbox-like),no,yes,no,dunno,yes,yes,yes,yes,dunno,dunno,yes,dunno,yes,yes,no
+Pine," MIX, MH, mx, news, phile",dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,no
+Pocomail,mbox,yes,yes,yes,dunno,dunno,dunno,dunno,yes,dunno,dunno,yes,yes,yes,dunno,dunno
+RoundCube,[IMAP Server],dunno,dunno,dunno,Yes,No,No,Yes,Yes,Yes,dunno,dunno,dunno,Yes,Yes,dunno
+i.Scribe / InScribe,Proprietary (sqlite),no,no,no,no,yes,no,yes,yes,no,no,no,no,no,no,yes
+SeaMonkey Mail  ; Newsgroups,mbox,dunno,dunno,dunno,yes,yes,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,yes,yes
+SquirrelMail,[IMAP Server],dunno,dunno,dunno,Yes,No,No,Yes,Yes,Yes,dunno,dunno,dunno,Yes,Yes,dunno
+Sylpheed,MH,no,yes,no,dunno,yes,dunno,dunno,yes,yes,no,group=NoteGrepMH,group=NoteGrepMH,yes,dunno,no
+The Bat!,Proprietary,Yes (group=NoteTBEncryptedDB,yes,yes,yes,yes,no,yes,yes,yes,yes,yes (PCRE 6.2),no,yes,yes,yes
+Trojitá,IMAP,no,no,no,no,yes,no,no,yes,yes,no,no,yes,no,yes,yes
+Turnpike,Proprietary,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,yes,dunno,dunno,yes,dunno,dunno
+Windows Live Mail,File System (.eml),no,no,no,no,yes,dunno,yes,yes,no,yes,no,yes,yes,dunno,dunno
+Windows Mail,dunno,dunno,dunno,dunno,dunno,dunno,dunno,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,yes
+YAM," mbox, maildir, oe-dbx",no,no,no,dunno,dunno,yes,yes,yes,no,no,no,no,no,no,no
+Zimbra,File system,No,Yes,Yes,dunno,dunno,dunno,dunno,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Client,Message file format,Encrypted database,Virtual folders,Scheduled backup,New mail notification,,,,Customizable interface,Customizable keybindings,Fragmented messages group=NoteFragmentedMessages,Database search with regular expressions support,| [[Indexed search]],| Search folders {{r|group=Note|Searchfolders}},| IMAP,,,
+,,,,,ticker,tray icon,tooltip,sound,,,,,,,Search,IDLE

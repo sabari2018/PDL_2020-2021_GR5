@@ -1,0 +1,25 @@
+Example usage,Languages
+String.Trim([chars]),"C#, VB.NET, Windows PowerShell"
+string.strip();,D
+(.trim string),Clojure
+sequence [ predicate? ] trim,Factor
+(string-trim (#\Space #\Tab #\Newline) string),Common Lisp
+(string-trim string),Scheme
+string.trim(),"Java, Rust"
+Trim(String),"Pascal, Delphi"
+string.strip(),Python
+" strings.Trim(string, chars)",Go
+LTRIM(RTRIM(String)),"Oracle SQL, T-SQL"
+" strip(string [,option, char])",REXX
+" string:strip(string [,option, char])",Erlang
+string.strip or string.lstrip or string.rstrip,Ruby
+string.trim,Raku
+trim(string),Raku
+[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet,Cocoa
+string withBlanksTrimmedstring withoutSpacesstring withoutSeparators,"Smalltalk (Squeak, Pharo)Smalltalk"
+strip(string),SAS
+string trim $string,Tcl
+TRIM(string) or TRIM(ADJUSTL(string)),Fortran
+TRIM(string),SQL
+TRIM(string) or LTrim(string) or RTrim(String),ColdFusion
+String.trim string,OCaml 4+

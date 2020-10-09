@@ -1,0 +1,26 @@
+IDE,License,Windows,Linux,macOS,Other platforms,Written in,Debugger,GUI builder,Integrated toolchain,Profiler,Code coverage,Autocomplete,Static code analysis,GUI-based design,Class browser,Latest stable release,C compiler,C++ compiler,Refactoring
+Anjuta,GPL,no,yes,no,FreeBSD,C,yes,yes,yes,Yes,no,Yes,no,Yes,Yes,2016-03,yes,yes,no
+AppCode (IntelliJ IDEA),proprietary,no,no,yes,,Java,yes,yes,no,yes (Xcode profiler),no,yes,yes,yes,yes,2012-12,yes (Xcode toolchain),yes (Xcode toolchain),yes
+C++Builder," Proprietary, Freeware (Starter edition only)",yes,no (Cross compiler planned),yes (Cross compiler),cross-compiles for Android and iOS,C++ and Object Pascal,yes,yes,yes,yes (AQTime Standard in package manager),yes,yes,yes,yes,yes,2017-03 Tokyo 10.2,yes,yes,yes
+Code::Blocks,GPL,yes,yes,yes,Solaris,C++,yes,yes,yes,yes,yes,Yes,yes,Yes,yes,2020-03,yes (MinGW + custom),yes (MinGW + custom),yes
+CodeLite,GPL,yes,yes,yes,FreeBSD,C++,yes,yes,yes," Yes (As of CodeLite 6.1, integration with Valgrind)",no,Yes,Yes,Yes,yes,2020-02-28," yes (GCC, Clang, VC + custom)"," yes (GCC, Clang, VC + custom)",yes
+Dev-C++,GPL,yes,no,no,FreeBSD,Object Pascal,yes,no,yes,yes,no,yes,no,yes,yes," 2013-10 (Unofficial Version), 2005-02 (Official Version)",yes,yes,no
+Eclipse CDT,EPL,yes,yes,yes," JVM, Solaris",Java,yes,yes,yes,yes,yes,yes,yes,yes,2020-06,External,External,yes
+Geany,GPL,yes,yes,yes," AIX, Solaris, other Unix",C,yes (via a plug-in),no,no,no,no,Yes,no,no,yes,2019-04,External,External,no
+GNAT Programming Studio,GPL,yes,yes,yes,Solaris,Ada,yes,yes,yes,yes,yes,yes,yes,no,yes,2016-06,yes,yes,yes
+JetBrains CLion,Proprietary,yes,yes,yes,,Java,yes,no,yes,no,no,yes,yes,no,yes,2019-07,yes (customizable),yes (customizable),yes
+KDevelop,GPL,yes,yes,yes,Solaris,C/C++,yes,yes,yes,yes,yes,Yes,yes,yes,yes,2018-11,External,External,yes
+LabWindows/CVI,Proprietary,yes,no,no,cross-compile to Phar Lap ETS,dunno,yes,yes,yes,yes,no,yes,no,yes,N/A,2016-12,yes,no,no
+Microsoft Visual Studio," Proprietary, Freeware (Community edition only)",yes,no,no," Mac OS 7 (v2.x-v4.x only), Linux",C#,yes,yes,yes,yes,yes,yes,Yes,yes,yes,2019-04,yes,yes,yes (also plugin)
+Microsoft Visual Studio Code,MIT,yes,yes,yes,,TypeScript JavaScript CSS,yes,no,yes,no,no,yes,no,yes,yes,2020-09,External,External,Requires language server support
+MonoDevelop,LGPL,yes,yes,yes,Solaris,C#,yes,yes,yes,no,no,yes,no,yes,yes,2016-11,yes (GCC + custom),yes (GCC + custom),yes
+NetBeans C/C++ pack,CDDL and GPL,yes,yes,yes,Solaris,Java,yes,yes,no,no,yes,no,yes,yes,Latest stable software release/NetBeans,External,External,yes
+OpenWatcom,OSI Approved,yes (32-bit only),partial,no," FreeBSD, DOS, OS/2",C/C++,yes (GUI remote),yes,yes,yes,no,no,no,yes,yes,2010-06,yes,yes,no
+Sun Studio)," Proprietary, Freeware",no,yes,no,Solaris,dunno,yes,yes,yes,yes,yes,yes,yes,yes,yes,2008-11,yes,yes,yes
+Qt Creator,Proprietary,yes,yes,yes," FreeBSD, Maemo, OpenBSD, Symbian",C++,yes,yes,yes,yes,no,yes,yes (clang),yes,yes,2019-06,External,External,yes
+Rational Software Architect (Eclipse IBM),proprietary,yes,yes,no," JVM, Solaris",Java,yes,yes,yes,yes,yes,yes,yes,yes,yes,2015-09,External,External,yes
+SlickEdit,Proprietary,Yes,Yes,Yes," Solaris, Solaris SPARC, AIX, HP-UX",C++,Yes,No,Yes,No,No,Yes,No,Yes,Yes,2018-12,External,External,Yes
+Ultimate++ TheIDE,BSD,yes,yes,no,,C++,yes,yes,yes,no,no,yes,no,yes,yes,2015-12,External,External,no
+Understand,proprietary,yes,yes,yes,Solaris,dunno,no,no,no,no,no,yes,yes,no,yes,2015-12,no,no,yes
+Xcode (Apple),proprietary,no,no,yes,cross compiles to iOS," C, C++, Objective-C, Objective-C++",yes,yes,yes,yes,yes,yes,yes,yes,yes,2016-12," yes, llvm (llvm-gcc and gcc deprecated)"," yes, llvm (llvm-gcc and gcc deprecated)",yes
+IDE,License,Windows,Linux,macOS,Other platforms,Written in,Debugger,GUI builder,Integrated toolchain,Profiler,Code coverage,Autocomplete,Static code analysis,GUI-based design,Class browser,Latest stable release,C compiler,C++ compiler,Refactoring

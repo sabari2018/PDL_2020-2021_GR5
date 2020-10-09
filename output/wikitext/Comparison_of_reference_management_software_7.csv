@@ -1,0 +1,30 @@
+Software,Word for Windows,Word for Mac,Word Online,Pages,Apache OpenOffice / LibreOffice,Kile/LyX,Google Docs,RTF scan,Other
+Bebop,no,no,no,no,no,no,no,no,none
+BibBase,no,no,no,no,no,no,no,no,none
+BibDesk,no,no,no,no,no,yes,dunno,dunno,dunno
+Biblioscape,yes,no,dunno,no,no,no,no,dunno,WordPerfect
+BibSonomy,no,no,no,no,no,no,no,no,none
+Bibus,yes,dunno,dunno,dunno,yes,no,no,dunno,none
+Bookends,yes,yes,no,yes,yes,no,no,yes,Nisus
+Citavi,yes,no,no,no,Only versions prior to 6.0,yes,no,Only versions prior to 6.0," LaTeX editors LEd, Texmaker, TeXnicCenter, TeXstudio, TeXworks, WinEdt, WinShell"
+CiteULike,no,no,no,no,no,no,no,no,none
+colwiz,yes,dunno,dunno,dunno,yes,no,no,dunno," NeoOffice, Star Office"
+EndNote,Yes,yes,no,yes,no,no,no,yes,no
+JabRef,yes,dunno,dunno,dunno,yes,yes,no,dunno," Vim, WinEdt"
+KBibTeX,no,dunno,dunno,dunno,no,yes,no,dunno,none
+Mendeley,yes,partial,yes,no,yes,no,no,dunno,NeoOffice
+Paperpile,in beta,no,no,no,no,no,yes,no,no
+Pybliographer,no,dunno,dunno,dunno,yes,yes,no,dunno,none
+Qiqqa,yes,dunno,dunno,dunno,no,yes,no,no,none
+ReadCube (now Papers),yes,yes,yes,yes,yes,no,Yesalign=style=color=,"  [http://www.manuscriptsapp.com/ Manuscripts App], Ulysses, Scrivener"
+refbase,no,dunno,dunno,dunno,yes,no,no,yes," [http://pira.isrl.uiuc.edu/ PIRA], MediaWiki, SPIP"
+RefDB,no,dunno,dunno,dunno,no,no,no,no,none
+Reference Manager,yes,no,dunno,no,no,no,no,yes,none
+Referencer,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+RefME,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+RefWorks,yes,yes,no,no,no,no,yes,yes,none
+SciRef,yes,dunno,dunno,dunno,no,no,no,no,none
+Sente,yes,dunno,dunno,Only versions prior to 5.0,no,no,no,yes," Nisus, TextEdit; HTML and plain text scan"
+Wikindx,no,dunno,dunno,dunno,no,no,no,yes,Integrated WYSIWYG word processor (RTF output for Word/OpenOffice)
+WizFolio,yes,dunno,dunno,dunno,yes,no,yes,dunno,Zoho Writer
+Zotero,yes,yes,No,No,yes,(with LyZ),yes,yes,NeoOffice

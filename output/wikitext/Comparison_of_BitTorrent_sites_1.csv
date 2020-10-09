@@ -1,0 +1,28 @@
+Site,Specialization,Is a tracker,Directory,Public,RSS,One-click download,Sortable,Comments,Multi-tracker index,Ignores DMCA,Tor friendly
+,1337x,None,no,yes,yes,no,no,yes,yes,yes,no,no
+,apollo.rip,Music,yes,yes,no,yes,yes,yes,yes,no,yes,no
+Demonoid,None,yes,yes,yes,no,yes,yes,yes,?,?,yes
+,etree,Live concerts,yes,yes,yes,yes,yes,yes,yes,no,?,?
+,ETTV,None,yes,yes,no,yes,yes,yes,yes,no,yes,no
+EZTV,TV Series,no,yes,yes,yes,yes,yes,yes,no,no,yes
+,HDBits,Movies,yes,yes,no,yes,yes,yes,yes,no,yes,no
+,IPTorrents,None,yes,yes,no,yes,yes,yes,yes,no,yes,no
+Kickass Torrent,None,no,yes,yes,no,yes,no,no,no,no,no
+,Limetorrents,None,yes,yes,yes,yes,yes,yes,yes,yes,no,no
+,MkvCage,Movies,no,yes,yes,yes,no,yes,yes,no,yes,no
+,NyaaV2,"CJK content, especially otaku and anime",yes,yes,yes,yes,yes,yes,yes,no,yes,no
+,The Pirate Bay,None,no,yes,yes,yes,yes,yes,yes,no,yes,yes
+Rarbg,None,yes,yes,yes,yes,no,yes,yes,yes,no,no
+redacted.ch,Music,yes,yes,no,yes,yes,yes,yes,no,yes,no
+RevolutionTT,None,yes,yes,no,yes,yes,yes,yes,no,yes,no
+,RutrackerruRuTracker.org,None,yes,yes,yes,yes,yes,yes,yes,no,yes,yes
+Torlock,None,no,yes,yes,yes,yes,yes,yes,yes,no,?
+,Torrent downloads,None,no,yes,yes,no,no,no,yes,no,no,no
+,torrentleech.org,None,yes,yes,no,yes,yes,yes,yes,no,yes,no
+Torrentseeker,Search,no,no,yes,no,no,yes,no,no,no,no
+,Torrents.me,Search,no,yes,yes,no,no,yes,yes,no,no,no
+,Worldwidetorrents.me,None,yes,yes,no,yes,yes,yes,yes,no,yes,no
+,YourBittorrent,None,yes,yes,yes,yes,yes,yes,yes,yes,no,no
+,YTS,Movies,no,yes,yes,yes,yes,yes,yes,no,yes,yes
+,Zooqle,Search,no,yes,yes,yes,yes,yes,yes,yes,no,no
+" class=""sortbottom""",Site,Specialization,Is a tracker,Directory,Public,RSS,One-click download,Sortable,Comments,Multi-tracker index,Ignores DMCA,Tor friendly

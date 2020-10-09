@@ -1,0 +1,36 @@
+Client,386BSD," BSD/OS (BSD/386, BSDI)"," FreeBSD, NetBSD, OpenBSD",SunOS,ULTRIX,AIX,A/UX,HP-UX,IRIX,SCO OpenServer,Solaris,UnixWare,Linux,NeXTSTEP,OpenVMS,OSF/1,QNX,Tru64 UNIX
+Bersirc,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,yes,dunno,no,dunno,dunno,dunno
+BitchX,dunno," BitchX is known to work on BSDI 2.0, 2.1, 3.1, 4.0; FreeBSD 2.x, 3.x, 4.0; NetBSD 3.x, 4.x; SunOS 4.1.4; Ultrix; AIX; HP-UX 9.x, 10.x; IRIX 5.x, 6.x; Solaris 5.x and later; Linux; OSF/1 (DEC Alpha); QNX name=Unix_operating_system_support_BitchX_Agroup=Note",yes,yes,yes,yes,dunno,yes,yes,dunno,yes,yes,yes,yes,dunno,yes,yes,dunno
+ChatZilla,no,no,yes,yes,no,yes,no,yes,yes,yes,yes,yes,yes,no,yes,no,yes,yes
+Colloquy,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no
+degesch,dunno,dunno,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,yes,dunno,dunno,dunno,dunno,dunno
+DMDIrc,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+ERC,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+HexChat,dunno,dunno,yes,yes,dunno,yes,dunno,yes,yes,dunno,yes,dunno,yes,dunno,dunno,dunno,dunno,yes
+HydraIRC,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no
+IceChat,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no
+IRCCloud,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+ircII,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno,yes,yes,dunno,yes,yes,yes
+IRCjr,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no
+Ircle,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no
+Irssi,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,yes
+KiwiIRC,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+Konversation,dunno,dunno,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,yes,dunno,yes,dunno,dunno,dunno,dunno,yes
+KVIrc,dunno,dunno,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,yes,dunno,yes,dunno,dunno,dunno,dunno,dunno
+LeafChat,no,no,no,no,no,no,no,no,no,no,no,no,yes,no,no,no,no,no
+LimeChat,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no
+Linkinus,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no
+Mibbit,dunno,dunno,yes,yes,yes,yes,dunno,yes,yes,yes,yes,yes,yes,dunno,yes,dunno,dunno,yes
+mIRC,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no
+Nettalk,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no
+Opera,no,no,yes,no,no,no,no,no,no,no,yes,no,yes,no,no,no,dropped,no
+PIRCH,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no
+PJIRC,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+Quassel,dunno,dunno,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,yes,dunno,yes,dunno,dunno,dunno,dunno,dunno
+qwebirc,dunno,dunno,yes,yes,yes,yes,dunno,yes,yes,yes,yes,yes,yes,dunno,yes,dunno,dunno,yes
+rcirc,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+Smuxi,dunno,dunno,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,yes,dunno,yes,dunno,dunno,dunno,dunno,dunno
+Snak,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no
+Visual IRC,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no
+WeeChat,dunno,dunno," WeeChat tested on FreeBSD 4.11, 5.4, 6.0; NetBSD 2.0, 2.1; OpenBSD 3.6, 3.7, 3.8; Solaris 5.10; QNX 6.3name=Unix_operating_system_support_WeeChat_Agroup=Note",dunno,dunno,dunno,dunno,yes,In developmentname=Unix_operating_system_support_WeeChat_Bgroup=Note,dunno,yes,dunno,yes,dunno,dunno,dunno,yes,dunno
+Client,386BSD," BSD/OS (BSD/386, BSDI)"," FreeBSD, NetBSD, OpenBSD",SunOS,ULTRIX,AIX,A/UX,HP-UX,IRIX,SCO OpenServer,Solaris,UnixWare,Linux,NeXTSTEP,OpenVMS,OSF/1,QNX,Tru64 UNIX

@@ -1,0 +1,14 @@
+,Maximum file size,Partial file loading,Disk sector editing,Process memory editing,Data inspector,Bit editing,Insert/delete bytes,ao),Search Unicode,File structure view,Disassembler,File compare,Find in files,Bookmarks,Macro,Text editor
+HxD,8 EiB,yes,Windows 9x/NT and up,yes,yes,yes,yes," ANSI, ASCII, OEM, EBCDIC, Macintosh",yes,no,yes,yes,yes,yes,,no
+010 Editor,8 EiB,yes,yes,WinNT only,yes,yes,yes," ANSI, OEM, Unicode, UTF-8, EBCDIC, Custom",yes,yes,no,yes,yes,yes,yes,yes
+beye,8 PiB,yes,no,,,yes,yes," ANSI, EBCDIC, ASCII, Macintosh",yes,," data-sort-value=""Yes"" AVR, Java, ARM/XScale, PowerPC, PPC64",,,yes,no
+bvi,Unlimiteddate=October 2019,yes,,,,yes,yes," ANSI, ASCII",,no,no,,Yes and replace,,yes
+Emacs,Limited by RAM,,no,no,no,no,yes,,,no,no,,,,yes,yes
+FlexHex,Unlimiteddate=October 2019,yes,yes,,yes,yes,yes," ANSI, OEM, UTF-16",yes,yes,no,yes,no,yes,,no
+Frhed,Limited by RAM,yes,no(read only),,,yes,yes," ANSI, OEM",yes,yes,no,yes,no,yes,no
+Hiew,Unlimiteddate=October 2019,yes,WinNT only,,yes,yes,yes," ASCII,OEM, Unicode,Custom",yes,yes," data-sort-value=""Yes"" MMX, SSE 4.2, ARM",,yes,yes,yes
+VEDIT," Standard, 2 GiB, Pro 64, unlimiteddate=October 2019",yes," data-sort-value=""Partial"" DOS version only",,no,yes,yes," ANSI, OEM, EBCDIC, ASCII, custom",no,no,no,yes,yes,yes,yes,yes
+UltraEdit,>4 GiB,yes,no,no,no,no,yes," ANSI, OEM, EBCDIC, ASCII, Mac, Unix, UTF-8",yes,yes,no,yes,yes,yes
+WinHex,Unlimiteddate=October 2019,yes,yes,,yes,yes,yes," partial support of these formats: ANSI, UNICODE, OEM, UTF-8/UTF-16, EBCDIC, ASCII",yes,yes,Only x86 Intel opcodes,yes," data-sort-value=""Yes"" Yes and replace",,yes,no
+vim,Limited by RAM,no,no,no,no,yes,yes," ASCII, ISO-8859, DOS (OEM), UTF-8, UTF-16, partial EBCDIC (compilation required), unicode",yes,no,no,yes,no,Plug-in,Yes,yes
+,Maximum file size,Partial file loading,Disk sector editing,Process memory editing,Data inspector,Bit editing,Insert/delete bytes,ao),Search Unicode,File structure view,Disassembler,File compare,Find in files,Bookmarks,Macro,Text editor

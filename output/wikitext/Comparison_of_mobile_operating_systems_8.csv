@@ -1,0 +1,11 @@
+" width=""10%"" Feature"," width=""10%"" Android"," width=""10%"" iOS"," width=""10%"" Tizen"," width=""10%"" Sailfish OS"," width=""10%"" Ubuntu Touch"
+Non-English languages support,Partial,Yes,Limited (Search is not diacritical mark-insensitive),Yes,Yes
+Underlining spell checker,2.3+,Yes,No,?,No
+Built-in system-wide dictionary,Built into keyboard app. Available on every device.,5+,No,Yes,Yes
+Autoexpanding text replacements,Yes,5+,?,?,?
+Keyboard next word prediction,"No2 No, 3rd party software",8+,No,Yes,Yes
+Keyboard cursor controller,Google Keyboard;;,12+;9-11: Only on devices with 3D Touch;,No,No,Yes
+Optical character recognition input method,No,11+: Notes app;8+: Only for inputting credit card details,No,No,No
+Third party input methods,Yes,8+,?,?,?
+Gesture text input,4+,13+;8+: 3rd party software like SwiftKey,?,No,No
+Emoji support,4.4+,Yes,?,2.2.0+ 3rd party software,Yes

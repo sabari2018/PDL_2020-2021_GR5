@@ -1,0 +1,28 @@
+Implementation,SSL 2.0 (insecure),SSL 3.0 (insecure),TLS 1.0,TLS 1.1,TLS 1.2,DTLS 1.2
+Botan,No,No,Yes,Yes,yes,,Yes,yes
+BoringSSL,,,Yes,Yes,yes,yes,Yes,yes
+Bouncy Castle,No,No,Yes,Yes,yes,Yes(draft version),Yes,yes
+cryptlib,No,Disabled by default at compile time,Yes,Yes,yes,,No,no
+GnuTLS,Nogroup=protocolsupporta,Disabled by default,Yes,Yes,yes,Yes,Yes,yes
+JSSE,Nogroup=protocolsupporta,Disabled by default,Yes,Yes,yes,Yes(JDK 11+),Yes,yes
+LibreSSL,No,No,Yes,Yes,yes,yes,Yes,no
+MatrixSSL,No,Disabled by default at compile time,Yes,Yes,yes,yes,Yes,yes
+Mbed TLS,No,Disabled by default,yes
+NSS,Nogroup=protocolsupportb,Disabled by default,Yes,Yes,yes,yes,Yes
+OpenSSL,No,yes
+RSA BSAFE,No,Disabled by default,Yes,Yes,yes,no,No,no
+S2n,No,Disabled by default,Yes,Yes,yes,,No,no
+" SChannel XP, 2003",Disabled by default in MSIE 7,Enabled by default,Enabled by default in MSIE 7,No,no,,No,no
+SChannel Vista,Disabled by default,Enabled by default,Yes,No,no,,No,no
+SChannel 2008,Disabled by default,Enabled by default,Yes,Disabled by default (KB4019276),Disabled by default (KB4019276),,No,no
+" SChannel 7, 2008R2",Disabled by default,Disabled by default in MSIE 11,Yes,Enabled by default in MSIE 11,Enabled by default in MSIE 11,,Yes,no
+" SChannel 8, 2012",Disabled by default,Enabled by default,Yes,Disabled by default,Disabled by default,,Yes,no
+" SChannel 8.1, 2012R2, 10 v1507  ; v1511",Disabled by default,Disabled by default in MSIE 11,Yes,Yes,yes,,Yes,no
+SChannel 10 v1607 / 2016,No,Disabled by default,Yes,Yes,yes,,Yes,yes
+"Secure Transport OS X 10.2-10.7, iOS 1-4",Yes,Yes,Yes,No,no,,No,no
+" Secure Transport OS X 10.8-10.10, iOS 5-8",Nogroup=protocolsupportc,Yes,Yes,Yesgroup=protocolsupportc,group=protocolsupportc,,Yesgroup=protocolsupportc,no
+" Secure Transport OS X 10.11, iOS 9",No,Nogroup=protocolsupportc,Yes,Yes,yes,,Yes,Unknown
+" Secure Transport OS X 10.13, iOS 11",No,Nogroup=protocolsupportc,Yes,Yes,yes,Yes(draft version),Yes,Unknown
+wolfSSL,No,Disabled by default,Yes,Yes,yes,yes,Yes,yes
+Erlang/OTP SSL application,No,Disabled by default,Yes,Yes,yes,Not yet,Yes,yes
+Implementation,SSL 2.0 (insecure),SSL 3.0 (insecure),TLS 1.0,TLS 1.1,TLS 1.2,TLS 1.3,DTLS 1.0,DTLS 1.2

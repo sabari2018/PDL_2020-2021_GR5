@@ -1,0 +1,9 @@
+Paradigm,Description,Main traits,Related paradigm(s),Critique,Examples
+Imperative,Programs as statements that directly change computed state (datafields)," Direct assignments, common data structures, global variables",," Edsger W. Dijkstra, Michael A. Jackson"," C, Java, Kotlin, Python, Ruby, Wolfram Language"
+Structured,A style of imperative programming with more logical program structure," indentation, no or limited use of goto statements",Imperative,," C, Java, Kotlin, Pascal, Python, Wolfram Language"
+Procedural," Derived from structured programming, based on the concept of modular programming or the procedure call",modularization," Structured, imperative",," C, Lisp, Python, Wolfram Language"
+Functional,Treats mathematical functions avoiding state and mutable data," compositionality, recursion, side effects",Declarative,," C#, Elixir, Erlang, F#, Haskell, Java (since version 8), Kotlin, Lisp, Python, R, Ruby, Scala, Elm, Wolfram Language"
+Event-driven including time-driven," events, such as mouse clicks or interrupts including timer",asynchronous processes," Procedural, dataflow",,Elm
+Object-oriented,Treats datafields as objects manipulated through predefined methods only," Objects, methods, encapsulation, polymorphism, inheritance, serialization-marshalling",Procedural," Wikipedia, others"," C#, Eiffel, Java, Kotlin, Python, Ruby, Scala, JavaScript"
+Declarative," Defines program logic, but not detailed control flow"," Fourth-generation languages, spreadsheets, report program generators",,," OWL, SPARQL, XSLT"
+Automata-based programming,Treats programs as a model of a finite state machine or any other formal automata," State control variable, state changes, isomorphism, state transition table"," Imperative, event-driven",,Abstract State Machine Language

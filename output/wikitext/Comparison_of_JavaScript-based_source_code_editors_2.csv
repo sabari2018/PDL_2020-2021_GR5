@@ -1,0 +1,25 @@
+Feature,Ace,CodeMirror,[https://medv.io/codejar/ CodeJar],Orion,CodePress,CodeTextArea,EditArea,Helene,markItUp!,MDK-Editor
+,Implementation,,nestable full parsers,,pattern-based parser,pattern-based parser,,,,,parsers
+Syntax highlight,Over 110 languages,[http://codemirror.net/mode 129 languages],yes,"  mixed mode: HTML + JavaScript and CSS, PHP, EJS; single mode: JavaScript, Java, JSON, CSS, Python, Ruby, XML, YAML (pluggable)","  limited mixed mode: HTML + JavaScript (no CSS), PHP + HTML (no JavaScript or CSS), Java, Perl, SQL",only keywords,"  [http://www.cdolivet.com/index.php?page%3DeditArea only one language at a time]: Perl, PHP, CSS, Javascript, Python, HTML, XML, VB, C, CPP, SQL, Pascal, Basic, Brainf*ck",PHP,no,"  mixed mode: PHP + HTML + JavaScript + CSS, single-mode: PHP, Javascript, CSS, XML; extensible"
+Syntax checking,"  HTML, CSS, JavaScript (using JSHint)",some,no,JavaScript (using JSLint),no,,,no,,"  HTML, JavaScript (using JSLint)"
+Tab support,yes,yes,yes,yes,some,,yes,,,yes
+"  Indent, new line keeps level",optional setting that is on by default,yes,yes,yes,very limited,no,yes,N/A (cant press Enter),no,yes
+"  Indent, syntax",yes,yes,yes,yes,,,no,,,no
+"  Indent, selected block","  yes, including Shift+Tab"," either automatically, or block-level indent/unindent",yes,"  yes, including Shift+Tab",no,," yes, including Shift+Tab",,,"  yes, including Shift+Tab and using context menu"
+Bracket matching,yes,yes,no,yes,an implementation exists with mouse-hover bracket matching  date=February 2009,Ctrl+B; no angle bracket matching,,,no,matching bracket ([{}]) always highlighted
+XML matching tag highlight,yes,yes,no,no,no,,,,,yes
+Code folding,yes,yes,no,Some,no,no,no,no,no,no
+Code snippets,yes,through API/add-on,,some,type for or if then Tab,no,yes,no,yes,JavaScript
+Code suggestion,yes,[http://codemirror.net/demo/complete.html example],,yes through [http://contraptionsforprogramming.blogspot.ca/2012/02/better-javascript-content-assist-in.html esprima content assist plugin],no,,yesdate=February 2009,,no,"  CSS, HTML, JavaScript)"
+Toggle syntax highlight on/off,yes,yes,,no,,,[http://www.cdolivet.com/editarea/editarea/exemples/exemple_full.html last example in demo],,N/A,textmode
+Keyboard shortcuts,[https://wiki.mozilla.org/Labs/Bespin/UserGuide#Keyboard_Shortcuts All Common Shortcuts]  ; [https://wiki.mozilla.org/Labs/Bespin/Tips#Want_custom_keybindings.3F Custom Keybindings],fully configurable,,yes,,,"  some common used: Ctrl+f, Ctrl+g,Ctrl+z,Ctrl+y",,yes,All key combos (except F1 in IE7) can be bound to shortcuts
+Line numbers,yes,yes,yes,yes,yes,yes,yes,yes,no,supports mouse selection
+Search  ; replace,regex supported,[http://codemirror.net/demo/search.html via API],no,yes,,no,toolbar button,,,has API for the studio
+Spell checking,addon for context menu,no,no,no,browser-based,none,browser-based,none,browser-based,no
+Toolbar,But command line console,no,no,no,,no,yes,no,yes,no
+Visual styling,[https://wiki.mozilla.org/Labs/Bespin/UserGuide#Themes Fully theme-able],CSS-based themes,yes,yes,,font-type and font-size,,,,"  5 styles to choose from, having 2 font-sizes"
+Undo/Redo,yes,yes,yes,yes,yes,,yes,,,Differential Undo
+Multiple cursors / Block selection,Multiple cursors,yes,no,yes,no,no,no,no,no,no
+IndentGuides,yes,no,no,no,no,no,no,no,no,no
+Inline widgets,yes,yes,no,no,no,no,no,no,no,no
+Non US charset support,yes,yes,yes,yes,,,,,,no

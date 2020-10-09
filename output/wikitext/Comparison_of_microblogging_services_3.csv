@@ -1,0 +1,10 @@
+Service,Post via,,,,,,| Read via,,,,,
+,Web,XMPP,E-Mail,SMS,API,Micropub,Web,XMPP,E-Mail,SMS,API,[[Web feed|Feed]]
+Facebook,yes,no,yes,yes,yes,no,yes,no,yes,yes,yes,yes
+GNU social,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,yes,yes
+Loforo,yes,no,no,yes,yes,no,yes,no,no,no,yes,yes
+Twitter,yes,no,no,yes,yes,no,yes,no,dunno,yes,yes,yes
+Mastodon,yes,no,no,no,yes,no,yes,no,no,no,yes,yes
+Misskey,yes,no,no,no,yes,no,yes,no,no,no,yes,yes
+micro.blog,yes,yes,no,no,yes,yes,yes,yes,no,no,yes,yes
+Pleroma,yes,no,no,no,yes,no,yes,no,no,no,yes,yes

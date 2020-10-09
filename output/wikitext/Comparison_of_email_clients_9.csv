@@ -1,0 +1,48 @@
+Client,Label messages,,,,Reformat received messages,,Bi-directional text support,| Composing messages,,,| Native images preview,,,,,| Postpone / scheduled message sending,| Native documents preview,,,,,,
+,with colors,with flag,antidelete,add note," edit headers (e.g., Subject)",forced recode group=Noterecode,,Spell checking,Signatures,Bottom-posts replies,jpeg,gif,bmp,png,others,,txt,pdf,doc,xls,[[OpenDocument|odt]],[[OpenDocument|ods]],others
+Alpine,yes,yes,dunno,dunno,dunno,dunno,dunno,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno
+Becky! Internet Mail,yes,yes,dunno,yes,yes,yes,dunno,yes,yes,yes,yes,yes,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Citadel,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Claws Mail,yes,yes,yes,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno,yes,yes,with a plugin,dunno,dunno,dunno,dunno,dunno
+Cone,yes,yes,yes,no,dunno,dunno,dunno,yes,no,dunno,no,no,no,no,no,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Courier,yes,yes,no,no,yes,dunno,dunno,yes,yes,dunno,no,no,no,no,no,yes,dunno,no,no,no,no,no,dunno
+Elm,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+eM Client,yes,yes,no,no,no,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+EmailTray,yes,no,no,no,no,no,dunno,yes,yes,yes,yes,yes,yes,yes,dunno,no,yes,yes,yes,yes,no,no,dunno
+Eudora,yes,yes,no,no,Yes,dunno,dunno,yes,yes,dunno,yes,yes,yes,yes,QuickTime,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Evolution,yes,yes,dunno,dunno,no,dunno,yes,yes,yes,dunno,yes,yes,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Gnus,yes,yes,yes,dunno,dunno,dunno,dunno,yes,yes,yes,yes,yes,yes,yes,XPM,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+GroupWise,yes,yes,yes,yes,yes,dunno,dunno,yes,yes,yes,yes,yes,yes,yes,dunno,yes,yes,yes,yes,yes,yes,yes,dunno
+Hiri,yes,yes,no,yes,no,no,no,yes,no,yes,yes,yes,yes,yes,yes,no,no,no,no,no,no,no,no
+i.Scribe / InScribe,yes,no,no,yes,no,no,no,group=NoteSCRIBE_spell,yes,yes,group=NoteSCRIBE_jpeg,yes,yes,group=NoteSCRIBE_png," ICO, TIFF",yes,no,no,no,no,no,no,no
+HCL Notes,yes,yes,dunno,dunno,yes,dunno,dunno,yes,yes,dunno,yes,yes,yes,no," CGM, Lotus PIC, TIFF",dunno,yes,yes,yes,yes,dunno,dunno,dunno
+KMail,yes,yes,no,yes,dunno,dunno,dunno,yes,yes,dunno,yes,yes,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Mailbird,yes,yes,dunno,Yes,dunno,dunno,dunno,yes,yes,yes,yes,yes,yes,yes,dunno,yes,yes,yes,yes,yes,no,no,dunno
+Mailpile,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Microsoft Entourage,yes,yes,dunno,group=Noteeragenotes,dunno,dunno,dunno,yes,yes,dunno,Yes,Yes,dunno,Yes,dunno,dunno,dunno,yes,dunno,dunno,dunno,dunno,dunno
+Microsoft Office Outlook,yes,yes,no,yes,yes,dunno,dunno,yes,yes,no,yes,yes,yes,yes,dunno,yes,yes,with a plugin,yes,yes,2010,2010,PowerPoint
+Mozilla Mail  ; Newsgroups,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Mozilla Thunderbird,yes,yes,dunno,dunno,with a plugin,dunno,dunno,yes,yes,group=NoteThunderbird_reply_format,yes,yes,yes,yes,ICO,group=NoteTbirdSl8Tr,yes,yes,no,no,no,no,no
+Mulberry,dunno,yes,dunno,dunno,dunno,dunno,dunno,yes,yes,dunno,no,no,no,no,no,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Mutt,yes,yes,no,no,yes,dunno,dunno,yes,yes,dunno,no,no,no,no,no,postpone,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Netscape Messenger,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Netscape Messenger 9,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+nmh / MH,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Opera Mail,yes,yes,no,no,dunno,dunno,yes,yes,yes,dunno,yes,yes,yes,yes," ICO, SVG, WBMP, XBM, WebP",no,no,no,no,no,no,no,no
+Outlook Express,no,yes,no,no,dunno,dunno,dunno,yes,yes,dunno,yes,yes,yes,yes," ICO, art",dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Pegasus Mail,yes,yes,yes,yes,in index,no,no,yes,yes,group=NotePegasus_reply_format,yes,yes,yes,Yes,TIFF,N/A,yes,no,no,no,no,no," RTF, HTML"
+Pine,yes,yes,dunno,dunno,no,with a patch group=NotePINE_recode,dunno,group=NotePINE_spell,yes,dunno,no,no,no,no,no,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Pocomail,yes,yes,dunno,yes,dunno,dunno,dunno,yes,yes,dunno,yes,yes,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+RoundCube,yes,yes,yes,yes,dunno,dunno,yes,yes,yes,dunno,yes,yes,yes,yes,dunno,dunno,yes,yes,yes,yes,yes,yes,dunno
+SeaMonkey Mail  ; Newsgroups,yes,yes,no,no,dunno,dunno,dunno,yes,yes,dunno,yes,yes,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+SquirrelMail,yes,yes,yes,yes,dunno,dunno,yes,yes,yes,dunno,yes,yes,yes,yes,dunno,dunno,yes,yes,yes,yes,yes,yes,dunno
+Sylpheed,yes,yes,no,no,dunno,dunno,dunno,yes,yes,dunno,yes,yes,yes,yes,dunno,dunno,yes,no,no,no,no,no,dunno
+The Bat!,yes,yes,yes,yes,no,no,no,yes,yes,yes,yes,yes,yes,yes," ICO, emf",yes,yes,no,no,no,no,no,no
+Trojitá,no,yes,dunno,dunno,no,no,yes,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,no,no,no,no,yes
+Turnpike,yes,dunno,dunno,no,dunno,dunno,dunno,yes,yes,dunno,yes,yes,yes,no,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Windows Live Mail,no,yes,no,no,dunno,dunno,dunno,yes,yes,dunno,yes,yes,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Windows Mail,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+YAM,no,no,no,no,no,no,no,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
+Zimbra,yes,yes,yes,yes,dunno,dunno,dunno,yes,yes,dunno,yes,yes,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
+Client,Label messages,,,,Reformat received messages,,Bi-directional text support,| Composing messages,,,| Native images preview,,,,,| Postpone/?scheduled message sending,| Native documents preview,,,,,,
+,with colors,with flag,antidelete,add note," edit headers (e.g., Subject)",forced recode group=Noterecode,,Spell checking,Signatures,Bottom-posts replies,jpeg,gif,bmp,png,others,,txt,pdf,doc,xls,[[OpenDocument|odt]],[[OpenDocument|ods]],others

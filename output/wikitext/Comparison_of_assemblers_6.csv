@@ -1,0 +1,18 @@
+Assembler,Developer,Operating system,FOSS,License,Development active
+A86/A386,Eric Isaacson," Windows, DOS",No,Proprietary,No
+ACK," Andrew Tanenbaum, Ceriel Jacobs"," Linux, MINIX, Unix-like",Yes,BSD since 2003,1985-? ACK
+IBM ALP,IBM,OS/2,No,Proprietary,No
+AT ;T,AT ;T,Unix System V,No,Proprietary,1985-?ATT
+Digital Research ASM86,Digital Research,ISIS and iRMX,No,Proprietary,1978-1992
+FASM,Tomasz Grysztar," Windows, DOS, Linux, Unix-like",Yes,BSD with added Copyleft,Yes
+GAS,GNU Project," Windows, DOS, OS/2",Yes,GPL-lic,Since 1987
+HLA,Randall Hyde," Windows, Linux, FreeBSD, macOS",Yes,Public domain,Yes
+" Open Watcom Assembler(HJWASM a.k.a. UASM, JWASM, WASM)",Watcom," Windows, DOS, FreeBSD, OS/2"," approved by OSI, but not by FSF",Sybase Open Watcom Public,Yes
+MASM,Microsoft," Windows, DOS, OS/2",No,Microsoft EULA,Since 1981MASM
+NASM," Simon Tatham, Julian Hall, Hans Peter Anvin, et al."," Windows, DOS, OS/2",Yes,BSD,Yes
+Tim Patersons ASM,Tim Paterson," 86-DOS, DOS DEBUG",No,Proprietary,[http://www.patersontech.com/dos/manuals.aspx 1979-1983]
+TASM,Borland," Windows, DOS",No,Proprietary,TASM1TASM2
+TCCASM,Fabrice Bellard,Windows,Yes,LGPL,Yes
+vasm,,various,Yes,Free,Yes
+Xenix,Microsoft,Xenix 2.3 and 3.0 (before 1985),No,Proprietary,1982-1984
+Yasm,," Windows, DOS, Linux, Unix-like",Yes,BSD,YASM

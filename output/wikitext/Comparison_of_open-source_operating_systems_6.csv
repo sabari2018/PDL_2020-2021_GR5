@@ -1,0 +1,27 @@
+Name," FAT16, dosfs; FAT32, vfat",NTFS,Ext2,Ext3,XFS,ReiserFS,UFS,UFS2,HFS,HFS+,MINIXfs,BFS,ISO 9660,UDF,NFS,SMBFS," RAM disk, tmpfs",ZFS,Other special file systems
+Linux,yes,group=Notef5group=Notef7,yes,yes,yes,yes,group=Notef2,yes,yes,group=Notef9,yes,group=Notef2,yes,yes,yes,yes,yes,yes," 9P,group=Notef3 FUSE,group=Notef3 group=Notef3 group=Notef3 group=Notef3group=Notef4 JFS, Btrfs, UnionFS, Ext4"
+FreeBSD,yes,group=Notef2group=Notef7,yes,group=Notef2,group=Notef5,group=Notef2,yes,yes,no,no,no,no,yes,yes,yes,yes,yes,yes," FUSE, nullfs, UnionFS"
+NetBSD,yes,group=Notef2group=Notef7,yes,,no,no,yes,yes,,group=Notef2,no,no,yes,group=Notef2,yes,yes,yes,yes," PUFFS, LFS, EFS"
+OpenBSD,yes,group=Notef2,yes,,no,no,yes,yes,no,no,no,no,yes,yes,yes,yes,yes,no,AFS
+DragonFly BSD,yes,group=Notef2,yes,no,no,no,yes,no,no,no,no,no,yes,group=Notef10,yes,yes,yes,no," HAMMER, nullfs, PUFFS"
+" OpenSolaris, illumos",yes,group=Notef7group=Notef8,no,no,no,no,yes,,no,no,no,no,yes,yes,yes,yes,yes,yes," SMB (native), QFS"
+" Darwin, OpenDarwin",yes,group=Notef2group=Notef7,,,,,yes,,yes,yes,,,yes,yes,yes,yes,,,
+MINIX,yes,no,yes,,,,,,,,yes,no,,,,,,,
+FreeDOS,yes,no,no,no,no,no,no,,,,no,no,yes,,,,yes,,
+Genode,yes,no,yes,no,no,no,no,no,no,no,no,no,yes,no,no,no,yes,no,Extensible VFS layer
+Haiku,yes,group=Notef7,group=Notef12,group=Notef12,,,,,,,,yes,yes,yes,yes,group=Notef11,,,
+KolibriOS,yes,group=Notef2,group=Notef2,group=Notef2,group=Notef2,,,,,,,,yes,,,,yes,,
+MenuetOS,yes,,,,,,,,,,,,,,,,,,
+GNU,yes,,yes,group=Notef13,,,group=Notef14,,,,,,yes,,yes,,yes,no,
+ReactOS,yes,,yes,no,no,no,no,,,,no,no,,,,,,,
+" L4, Fiasco, Pistachio",yes,no,,,,,,,,,,,,,,,,,
+Plan 9,yes,,yes,no,no,no,no,no,no,no,no,no,yes,no,yes,yes,yes,no," Fossil, Venti, most system services"
+AROS,yes,,,,,,,,,,,,,,,,yes,," SFS, AFFS"
+Syllable,yes,group=Notef2,group=Notef2,group=Notef2,,,,,,,,yes,yes,,,,yes,,AFS
+Inferno,yes,no,no,no,no,no,no,no,no,no,no,no,yes,no,no,no,yes,," kfs, most system services"
+FreeRTOS,,,,,,,,,,,,,,,,,,no,
+eCos,yes,,group=Notef2,,,,,,,,,,,,,,yes,," MMFS, ROMfs, JFFS2, YAFFS"
+RTEMS,yes,,,,,,,,,,,,,,yes,,yes,," TarFS, TFTP FS, IMFS, miniIMFS"
+HelenOS,yes,no,yes,yes,no,no,no,no,no,no,yes,no,yes,yes,no,no,yes,," locfs, exFAT"
+E/OS,yes,no,yes,no,no,no,no,no,no,no,yes,group=Notef6,yes,no,yes,yes,yes,,
+" class=""sortbottom""",Name," FAT16, dosfs; FAT32, vfat",NTFS,Ext2,Ext3,XFS,ReiserFS,UFS,UFS2,HFS,HFS+,MINIXfs,BFS,ISO 9660,UDF,NFS,SMBFS," RAM disk, tmpfs",ZFS,Other special file systems

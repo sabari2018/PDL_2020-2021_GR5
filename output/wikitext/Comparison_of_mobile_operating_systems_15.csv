@@ -1,0 +1,15 @@
+" width=""10%"" Feature"," width=""10%"" Android"," width=""10%"" iOS"," width=""10%"" Tizen"," width=""10%"" Sailfish OS"," width=""10%"" Ubuntu Touch"
+Proxy server,"3.1+ but only global, not per connection and only works for the browser 3rd party apps available",Yes,Yes,Yes,No
+On-device encryption,3+ but insecure on Qualcomm devices,Yes (3rd party software may attempt brute-force attacks on password),No,3.3.0+,No
+External storage encryption,6+,External storage not available,No,Yes,No
+Zero knowledge encryption,"No, data is accessible by Google and shared with the American PRISM surveillance program. and shared with the American PRISM surveillance program.",?,?,No
+Privacy of synchronization,No2 3rd party software like ownCloud,When synchronizing locally and not using iCloud,?,?,?
+Sync to cloud communication encryption,2.3.4+,Yes,?,?,?
+Wireless anti-tracking,Developer Options (9+),8+,No,?,No
+Remote device location tracking,Yes,Yes,?,?,No
+Remote device locking and/or data wipe,2.2+,Yes,?,?,No
+End-to-end encrypted push notifications,"Possible, notifications are handled by the app that can decrypt it",?,?,Yes
+SSH Client,Yes,Yes,?,Yes,Yes
+VPN,Yes,Yes,?,Yes,Yes
+OpenVPN,"No2 No, but possible with 3rd party firmware",Yes,?,Yes,Yes
+WPA PEAP,Yes,Yes,?,In developer mode,Yes

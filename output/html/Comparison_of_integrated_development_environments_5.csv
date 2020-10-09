@@ -1,0 +1,26 @@
+Integrated development environment,Software license,Microsoft Windows,Linux,MacOS,Platform (computing),Written in,Debugger,GUI builder,Integrated Toolchain,Profiler (computer science),Code coverage,Autocomplete,Static code analysis,User interface design,Class browser,Latest stable Software release,C compiler,C++ compiler,Refactoring
+Anjuta,GPL,No,Yes,No,FreeBSD,C (programming language),Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,2016-03,Yes,Yes,No
+AppCode (AppCode),Proprietary software,No,No,Yes,,Java (programming language),Yes,Yes,No,Yes (Xcode profiler),No,Yes,Yes,Yes,Yes,2012-12,Yes (Xcode toolchain),Yes (Xcode toolchain),Yes
+C++Builder," Proprietary software, Proprietary software (Starter edition only) ",Yes,No (Cross compiler planned),Yes (Cross compiler),cross-compiles for Android (operating system) and Android (operating system),C++ and C++,Yes,Yes,Yes,Yes (AQTime Standard in package manager),Yes,Yes,Yes,Yes,Yes,2017-03 Tokyo 10.2,Yes,Yes,Yes
+Code::Blocks,GPL,Yes,Yes,Yes," FreeBSD, FreeBSD, FreeBSD ",C++,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[5],Yes,2020-03[6],Yes (MinGW + custom),Yes (MinGW + custom),Yes
+CodeLite,GPL,Yes,Yes,Yes,FreeBSD,C++,Yes,Yes,Yes," Yes (As of CodeLite 6.1, integration with Valgrind) ",No,Yes,Yes,Yes[7],Yes,2020-02-28," Yes (GCC, Clang, VC + custom) "," Yes (GCC, Clang, VC + custom) ",Yes
+Dev-C++,GPL,Yes,No[8],No,FreeBSD,Object Pascal,Yes,No,Yes,Yes,No,Yes,No,Yes,Yes," 2013-10 (Unofficial Version), 2005-02 (Official Version) ",Yes,Yes,No
+Eclipse (software),Eclipse Public License,Yes,Yes,Yes," FreeBSD, FreeBSD, FreeBSD "," C++, C++ ",Yes,Yes[2],Yes[9],Yes[10],Yes[11],Yes,Yes,Yes,Yes,2020-06[12][13][14],External,External,Yes
+Geany,GPL,Yes,Yes,Yes," FreeBSD, FreeBSD, FreeBSD, FreeBSD, other FreeBSD ",C (programming language),Yes (via a plug-in),No,No,No,No,Yes,No,No,Yes,2019-04[15],External,External,No
+GNAT Programming Studio,GPL,Yes,Yes,Yes," DragonFly BSD, DragonFly BSD, DragonFly BSD, DragonFly BSD, DragonFly BSD ",Ada (programming language),Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,2016-06,Yes,Yes,Yes
+CLion,Proprietary software,Yes,Yes,Yes,,Java (programming language),Yes,No,Yes,No,No,Yes,Yes,No,Yes,2019-07[16],Yes (customizable),Yes (customizable),Yes
+KDevelop,GPL,Yes,Yes,Yes," FreeBSD, FreeBSD ",C (programming language)/C (programming language),Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,2018-11,External,External,Yes
+LabWindows/CVI,Proprietary software,Yes,No,No," cross-compile to Linux, Linux ",?,Yes,Yes,Yes,Yes,No,Yes,No,Yes,N/A,2016-12,Yes,No,No
+Microsoft Visual Studio," Proprietary software, Proprietary software (Community edition only) ",Yes,No,No," Mac OS 7 (v2.x-v4.x only), LinuxMac OS 7 ",C++ and C++,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,2019-04,Yes,Yes,Yes (also plugin)[18]
+Visual Studio Code,MIT License,Yes,Yes,Yes,,TypeScript TypeScript TypeScript,Yes,No,Yes,No,No,Yes,No,Yes,Yes,2020-09,External,External,Requires language server support[19][20]
+MonoDevelop,LGPL,Yes,Yes,Yes," FreeBSD, FreeBSD, FreeBSD ",C Sharp (programming language),Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,2016-11,Yes (GCC + custom),Yes (GCC + custom),Yes
+NetBeans,CDDL and CDDL,Yes,Yes,Yes," OpenBSD, OpenBSD ",Java (programming language),Yes[21],Yes[21],Yes[22],No[21],No,Yes,No,Yes,Yes," 12.1 (September 1, 2020; 37 days ago (2020-09-01)) [±][23] ",External,External,Yes
+OpenWatcom,Sybase Open Watcom Public License,Yes (32-bit only),partial,No," FreeBSD, FreeBSD, FreeBSD ",C (programming language)/C (programming language),Yes (GUI remote),Yes,Yes,Yes,No,No,No,Yes,Yes,2010-06,Yes,Yes,No
+Oracle Solaris Studio (formerly Oracle Solaris Studio)," Proprietary software, Proprietary software ",No,Yes,No,Solaris (operating system),?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,2008-11,Yes,Yes,Yes
+Qt Creator,GPL / GPL / GPL,Yes,Yes,Yes," FreeBSD, FreeBSD, FreeBSD, FreeBSD ",C++,Yes,Yes,Yes,Yes,No,Yes,Yes (clang),Yes,Yes,2019-06,External,External,Yes[24]
+Rational Software Architect,Proprietary software,Yes,Yes,No," FreeBSD, FreeBSD, FreeBSD ",Java (programming language),Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,2015-09,External,External,Yes
+SlickEdit,Proprietary software,Yes,Yes,Yes," Solaris (operating system), Solaris (operating system), Solaris (operating system), Solaris (operating system) ",C++,Yes,No,Yes,No,No,Yes,No,Yes,Yes,2018-12,External,External,Yes
+Ultimate++,BSD,Yes,Yes,No,,C++,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,2015-12,External,External,No
+Understand (software),Proprietary software,Yes,Yes,Yes,Solaris (operating system),?,No,No,No,No,No,Yes,Yes,No,Yes,2015-12,No,No,Yes
+Xcode,Proprietary software,No,No,Yes,cross compiles to IOS (Apple)," C (programming language), C (programming language), C (programming language), C (programming language) ",Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,2016-12," Yes, llvm (llvm-gcc and gcc deprecated) "," Yes, llvm (llvm-gcc and gcc deprecated) ",Yes
+IDE,License,Windows,Linux,macOS,Other platforms,Written in,Debugger,GUI builder,Integrated toolchain,Profiler,Code coverage,Autocomplete,Static code analysis,GUI-based design,Class browser,Latest stable release,C compiler,C++ compiler,Refactoring

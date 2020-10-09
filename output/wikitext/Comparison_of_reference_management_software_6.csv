@@ -1,0 +1,30 @@
+Software,HTML,LaTeX,RTF,Plain text,RSS,Other
+Bebop,yes,no,no,no,yes,unAPI
+BibBase,yes,no,no,no,yes,no
+BibDesk,yes,yes,yes,yes,yes," Atom, DOC, PDF, XML,"
+Biblioscape,yes,no,yes,yes,no,no
+BibSonomy,yes,no,yes,yes,yes,OpenOffice-CSV
+Bibus,yes,no,no,no,no,no
+Bookends,yes,no,yes,yes,no,clipboard
+Citavi,yes,yes,yes,yes,no," clipboard, DOC, ODT, PDF, HTML"
+CiteULike,yes,no,yes,yes,yes,PDF
+colwiz,yes,yes,yes,no,no,PDF
+EndNote,yes,no,yes,yes,no," clipboard, XML"
+JabRef,yes,yes,yes,yes,no,clipboard
+KBibTeX,yes,no,yes,no,no,PS
+Mendeley,yes,yes,yes,yes,yes," clipboard, embeddable HTML widget, RSS"
+Paperpile,dunno,dunno,dunno,dunno,dunno,dunno
+Pybliographer,yes,dunno,no,yes,no,no
+Qiqqa,dunno,dunno,dunno,dunno,dunno,dunno
+ReadCube (now Papers),yes,no,no,no,no,PDF
+refbase,yes,yes,yes,yes,yes," Markdown, PDF, unAPI"
+RefDB,yes,dunno,yes,yes,no,TEI
+Reference Manager,yes,no,yes,yes,no,clipboard
+Referencer,dunno,dunno,dunno,dunno,dunno,dunno
+RefME,dunno,dunno,dunno,dunno,dunno,dunno
+RefWorks,yes,no,yes,yes,no," DOC, ODT"
+SciRef,no,no,yes,yes,no," Doc, others"
+Sente,yes,no,yes,yes,no,clipboard
+Wikindx,yes,no,yes,yes,yes,Multiple via BibUtils plug-in
+WizFolio,yes,no,yes,yes,no," clipboard, DOC"
+Zotero,yes,Possible via plugin,yes,Possible via plugins,yes,clipboard

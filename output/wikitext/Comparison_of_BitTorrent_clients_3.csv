@@ -1,0 +1,26 @@
+BitTorrent client,GUI,Remote,CLI,Other,Programming language,Based on,IPv6,μTP
+BitComet,yes,yes,Partial,no,C++,-,yes,no
+BitLord,yes,no,no,no," Python, C++",libtorrent (Rasterbar),yes,no
+" BitTorrent 5, Mainline",yes,no,partial,no,Python,-,no,no
+BitTorrent 6,yes,yes,partial,no,C++,μTorrent,yes,yes
+Deluge,yes,yes,yes,Daemon," Python, C++",libtorrent (Rasterbar),yes,yes
+FlashGet,yes,no,no,no,dunno,dunno,no,no
+Free Download Manager,yes,yes,partial,no,C++,libtorrent (Rasterbar),no,no
+Frostwire,yes,no,no,no,Java,libtorrent (Rasterbar),no,yes
+KGet,yes,yes,Partial,no,C++,-,yes,no
+KTorrent,yes,yes,partial,no,C++,-,yes,yes
+LimeWire,yes,no,no,no,Java,libtorrent (Rasterbar),no,no
+Miro,yes,no,no,no,C++,libtorrent (Rasterbar),no,no
+MLDonkey,no,Third Party,partial,Telnet,OCaml,-,no,no
+μTorrent,yes,yes,no,RESTful Web API,C++,-,yes,yes
+Opera 12,yes,no,no,no,C++,-,yes,no
+qBittorrent,yes,yes,partial,no," Python, C++",libtorrent (Rasterbar),yes,yes
+rTorrent,no,Third Party,yes,SCGI,C++,[libTorrent] (Rakshasa),yes,no
+Shareaza,yes,yes,partial,no,C++,-,no,no
+Tixati,yes,yes,no,Web interface,C++,-,yes,yes
+Tonido,no,yes,no,no,C++,libtorrent (Rasterbar),no,no
+Transmission,yes,yes,yes," Daemon, JSON-RPC over HTTP remote control API"," C, Objective-C",libtransmission,yes,yes
+Tribler,yes,partial,partial,no," Python, C++",libtorrent (Rasterbar),no,yes
+Vuze (formerly Azureus),yes,yes,partial," Telnet, XML over HTTP remote control API"," Java, SWT",-,yes,yes
+Xunlei,yes,no,no,remote control over internet,C++,-,no,no
+BitTorrent client,GUI,Web,CLI,Other,Programming language,Based on,IPv6,μTP

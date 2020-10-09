@@ -1,0 +1,32 @@
+Program,Comic book,PDF,BMP,JPEG,PNG,TIFF,GIF,PSD,Other graphics file formats
+" scope=""row""  ACDSee",,,BMP,JPEG,PNG,TIFF,GIF,PSD," ACDSee reads 9 compression formats and writes to 2, reads 33 video formats, and supports 61 image formats and writes to 16, including EMF, PSD, PSP, SGI, TGA, WMF, XBM, various camera formats among others"
+" scope=""row""  Adobe Bridge",,,,,,,,,Displays all file types supported by Adobe Creative Suite
+" scope=""row""  Aperture",,PDF,,JPEG,PNG,TIFF,GIF,PSD," PSD, OLY,date=July 2015 Various video formats including: AVI, MOV, MPEG"
+" scope=""row""  CDisplay"," CBZ, CBR, CBT, CBA ",,BMP,JPEG,PNG,,GIF,,
+" scope=""row""  Comix"," CBZ, CBR, CBT ",,,JPEG,PNG,,,,...
+" scope=""row""  digiKam",,,BMP,JPEG,PNG,TIFF,GIF,," WMF, PNM, PPM, XCF, XPM, PGX, MPO, MPE, AVI, MOV, ASF, PGF"
+" scope=""row""  Eye of GNOME",,,BMP,JPEG,PNG,TIFF,GIF,," PNM, RAS, ICO, XPM, SVG"
+" scope=""row""  F-Spot",,,,JPEG,PNG,TIFF,GIF,," PPM, SVG"
+" scope=""row""  FastPictureViewer",,,BMP,JPEG,PNG,TIFF,,PSD," HDP, WDP, JPEG XR(+ RLE, DIB, ICO, MTIFF in the registered edition, as well as TGA, PSD, HDR, DDS, EXR, J2K, PNM, PBM, PGM, PBM, LRPREV, JPS through additional WIC codecs from the optional FastPictureViewer Codec Pack or from 3rd parties)"
+" scope=""row""  FastStone Image Viewer",,,BMP,JPEG,PNG,TIFF,GIF,PSD," loading of:  WMF, ICO, CUR, TGA, CRW, saving to:  BMP, GIF, JPEG, JPEG 2000, PCX, PNG, PPM, TGA, TIFF, PDF"
+" scope=""row""  Geeqie",,,BMP,JPEG,PNG,TIFF,GIF,," ANI, APM, CUR, ICNS, ICO, JP2/JPC/JPX/J2K/JPF, JPS, MPO, PBM/PGM/PNM/PPM, QIF/QTIF (SVG/SVGZ, TGA/TARGA, WBMP, WMF, XBM, XPM "
+" scope=""row""  Gonvisor"," CBZ, CBR, CBA, CB7 ",PDF,BMP,JPEG,PNG,,GIF,,"Opens images contained in rar, zip, ace and 7zip files."
+" scope=""row""  GraphicConverter",,PDF,BMP,JPEG,PNG,TIFF,GIF,PSD," 190 types read, 79 types saved"
+" scope=""row""  gThumb",,,BMP,JPEG,PNG,TIFF,GIF,,
+" scope=""row""  Gwenview",,,BMP,JPEG,PNG,TIFF,GIF,PSD," MNG, SVG, XCF, RAW (NEF), etc."
+" scope=""row""  iPhoto",,,,JPEG,PNG,,GIF,PSD," RAW (All QuickTime supported images), PSD (Leopard), AVI (Leopard), MOV (Leopard)"
+" scope=""row""  IrfanView",,PDF,BMP,JPEG,PNG,TIFF,GIF,PSD," ~70 types including : AIF, ANI/CUR, ASF, AU/SND, AVI, B3D, DIB, CAM (Casio JPG), CLP, DDS, Dicom/ACR, DJVU, ECW, EMF/WMF, EPS/PS, FITS, FlashPix (FPX), FSH, G3, HDR, ICO/ICL/EXE/DLL, IFF/LBM, IMG (GEM), JPEG 2000, JPM, KDC, LDF, LWF, MED, MID/RMI, MNG/JNG, MOV, MP3, MPG, MrSID, NLM/NOL/NGG, OGG, PBM/PGM/PPM, PCX/DCX, PhotoCD, PIC, PSD, PSP, RAS/SUN, RAW, Real Audio (RA), RLE, SFF, SFW, SGI/RGB, SWF (Flash/Shockwave), TGA, TTF, TXT, WAD, WAL, WAV, WBMP, WBZ/WBC, XBM, XPM, CAD formats. Partial support: MOV, QTIF, Mac PICT, FLI/FLC, SVG. Note that some modes dont display large animated GIF files entirely (for example the Slideshow mode)."
+" scope=""row""  KSquirrel",,,,,,,,,51 types
+" scope=""row""  KPhotoAlbum",,,,,,,,," Photo formats supported by KDE; AVI, MPEG, RAW"
+" scope=""row""  Lphoto",,,,,,,,,iPhoto Clone
+" scope=""row""  Phase One Media Pro",,PDF,,JPEG,PNG,TIFF,GIF,PSD," Supports over 100 file formats for images, videos and documents, including: PSD, IIQ, CR, EIP, DOC"
+" scope=""row""  Picasa",,,BMP,JPEG,PNG,TIFF,GIF,," 8 types including TGA, RAW, and some movie formats"
+" scope=""row""  Preview",,PDF,BMP,JPEG,PNG,TIFF,GIF,,All QuickTime images:
+" scope=""row""  Shotwell",,,,JPEG,PNG,TIFF,GIF,,RAW and some video formats
+" scope=""row""  Simple Comic"," CBZ, CBR, CB7 ",,,JPEG,PNG,,GIF,," LHA, RAR, ZIP"
+" scope=""row""  STDU Viewer",,PDF,BMP,JPEG,PNG,TIFF (multipage),GIF,PSD," TXT, EMF, WMF, DjVu, XPS"
+" scope=""row""  Windows Photo Viewer",,,BMP,JPEG,PNG,TIFF,GIF,," WMF, EMF, ICO"
+" scope=""row""  XnView and XnViewMP",,PDF,BMP,JPEG (IPTC ;Exif),PNG,TIFF (multipage),GIF,PSD," reads over 500 formats, including: EPS, WMF, DPX; writes about 75 formats"
+" scope=""row""  Xv",,,BMP,JPEG,PNG (with patch),TIFF,GIF,," PBM, PGM, PPM, XPM, Targa, RGB, PCX, FITS, PM, PostScript"
+" scope=""row""  Zoner Photo Studio",,,BMP,JPEG,PNG,TIFF,GIF/aGIF,," HDP/WDP, PSD, PSB, PSP/PSPIMAGE, DIB/RLE, J2K/JPC/JP2, PAM, PBM, PGM, PNM, PCD, PCX, WBMP/WBM, TGA, ICO, MAC, WPG, BMI, MDM, THN, DCM, stereo pictures: JPS, PNS, BMS."
+Program,Comic book,PDF,BMP,JPEG,PNG,TIFF,GIF,PSD,Other graphics file formats

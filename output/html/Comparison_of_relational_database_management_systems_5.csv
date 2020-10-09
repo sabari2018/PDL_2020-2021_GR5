@@ -1,0 +1,44 @@
+,Temporary table,Materialized view
+4th Dimension (Software),Yes,No
+ADABAS,?,?
+Adaptive Server Enterprise,Yes1,Yes - see precomputed result sets
+Advantage Database Server,Yes,No (only common views)
+Altibase,Yes,No (only common views)
+Apache Derby,Yes,No
+Clustrix,Yes,No
+CUBRID,No,No
+IBM DB2,Yes,Yes
+Empress database,Yes,Yes
+EXASOL,Yes,No
+Firebird (database server),Yes,No (only common views)
+HSQLDB,Yes,No
+H2 (DBMS),Yes,No (only common views)
+Informix Dynamic Server,Yes,No2
+Ingres (database),Yes,No
+InterBase,Yes,No
+Linter SQL RDBMS,Yes,Yes
+LucidDB,No,No
+MariaDB,Yes,No4
+MaxDB,Yes,No
+Microsoft Access (JET),No,No
+Microsoft Visual Foxpro,Yes,Yes
+Microsoft SQL Server,Yes,Yes
+SQL Server Compact,Yes,No
+Mimer SQL,No,No
+MonetDB,Yes,No (only common views)
+MySQL,Yes,No4
+Oracle Database,Yes,Yes
+Oracle Rdb,Yes,Yes
+Virtuoso Universal Server,Yes,Yes
+Pervasive PSQL,Yes,No
+Polyhedra DBMS,No,No (only common views)
+PostgreSQL,Yes,Yes5
+Raima Database Manager,Yes,No
+RDM Server,Yes,No
+SAP HANA,Yes,?
+SolidDB,Yes,No (only common views)
+SQL Anywhere,Yes,Yes
+SQLite,Yes,No
+Teradata,Yes,Yes
+UniData,Yes,No
+UniVerse,Yes,No

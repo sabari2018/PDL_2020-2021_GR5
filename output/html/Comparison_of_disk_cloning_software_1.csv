@@ -1,0 +1,24 @@
+Name,Operating system,User interface,Sector by sector[a],File by file[b],Hot transfer[c],Mount or extract[d],Operation model,,,Software license
+,,,,,,,Standalone,Client–server,From a Live OS,
+Acronis True ImageAcronis True Image,Windows,Graphical user interface,Yes[e]," FAT32, FAT32FAT32",Yes,Yes,Yes,Yes,Yes (64 MB),TrialwareTrialware
+Apple Software Restore,MacOS,Command-line,Yes,HFS+,No,via hdiutil,Yes,Yes,No,Part of MacOS
+CloneDisk (page does not exist)CloneDisk (page does not exist),Windows 7,Graphical user interface,Yes," File Allocation Table, File Allocation Table, File Allocation Table, File Allocation Table, File Allocation Table",No,Yes,Yes,Yes,Yes,Freeware
+ClonezillaClonezilla,Linux,Text-based user interface,Yes," FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12",No,Through a Hack (computer science)Hack (computer science),Yes,Yes (Clonezilla server edition),Yes (210 MB),GNU General Public License
+Dcfldd,Linux,Command-line,Yes,No,No,Yes,Yes,No,?,GPL
+Dd (Unix),Unix,Command-line,Yes,No,No,Yes[h],Yes,No,Yes[i],GPLv3
+GNOME Disks,Linux,Graphical user interface,?,?,?,?,?,?,?,Part of Linux
+Disk Utility,MacOS,Graphical user interface,Yes,HFS+,Yes,Yes,Yes,No,Yes,Part of MacOS
+Drive SnapShot (page does not exist)Drive SnapShot (page does not exist),Windows," Graphical user interface, Graphical user interface",Yes[6],No,Yes,Yes,Yes,No,No,Trialware
+Foxclone (page does not exist)Foxclone (page does not exist)Foxclone (page does not exist),Linux,Graphical user interface,Yes," Ntfs, Ntfs, Ntfs, Ntfs",No,No,Yes,No,Yes,GNU General Public License
+FSArchiver,Linux,Text-based user interface,No," FAT32, FAT32, FAT32, FAT32, FAT32, FAT32-4, FAT32, FAT32, FAT32",?,?,Yes,No,?,GPL
+Ghost (software)Ghost (software),Windows," Graphical user interface, Graphical user interface",Yes," FAT32, FAT32, FAT32, FAT32, FAT32 FAT32",Yes,Yes,Yes,Yes,Yes,Trialware
+GPartedGParted,Linux,Graphical user interface,No," Ext2, Ext2",No,No,Yes,No,Yes,GPL
+HDCloneHDClone," Windows, (WindowsWindows)"," Graphical user interface, Graphical user interface",Yes," File Allocation Table, File Allocation Table, File Allocation Table, File Allocation Table, File Allocation Table, File Allocation Table, File Allocation Table, File Allocation Table, File Allocation Table, File Allocation Table",Yes,Yes,Yes,No,Yes,Freemium
+Image for Windows (disk imaging)Image for Windows (disk imaging),Windows,Graphical user interface,Yes," FAT32, FAT32, FAT32, FAT32",Yes,Yes,Yes,No,Yes,Trialware
+IsoBusterIsoBuster,Windows,Graphical user interface,Yes," FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12, FAT12FAT12",No,Yes,Yes,No,Yes,Trialware
+Kleo Bare Metal Backup,Independent (Live OS),Graphical user interface,Yes," FAT32, FAT32, FAT32, FAT32, FAT32",No,?,No,Yes,Yes (570 MB),Freeware
+Mondo RescueMondo Rescue,Linux,Text-based user interface,Yes," FAT32, FAT32, FAT32, FAT32",Yes,?,Yes,?,Yes *[j],GNU General Public License
+NtfscloneNtfscloneNtfsclone,Linux,Command-line,No,NTFS,?,?,Yes,No,No[k],GNU General Public License
+PartimagePartimagePartimage,Linux,Text-based user interface,No," FAT32, FAT32, FAT32, FAT32-3, FAT32, FAT32, FAT32; FAT32 (beta), FAT32 (beta), FAT32 (experimental)FAT32",?,?,Yes,Yes,No[k],GNU General Public License
+Partition-SavingPartition-Saving," Windows, Windows, Windows",Text-based user interface Text-based user interface,Yes," FAT32, FAT32, FAT32, FAT32",No,Yes,Yes,No,Yes,Freeware
+Redo Backup and Recovery,Independent (Live OS),Graphical user interface,Yes," FAT32, FAT32, FAT32, FAT32, FAT32",No,No,No,Can access networked drives,Yes (225 MB),GNU General Public License

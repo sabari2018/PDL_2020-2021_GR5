@@ -1,0 +1,25 @@
+,Client (library),Server (library),Version compared,Protocol (spec) version support,Protocol test report,License,"Implementation: language, environment","API: language, environment",Self-hosted server,Text message support,Binary message support,API message-based,API frame-based,API streaming input-output,Flow-control framework,Automatic pongs for pings,Automatic heartbeat pings,Manual pings-pongs,Frame size limit
+Google Chrome 15,yes,no,15.0.874.812 Sep 2011,8 (10),,Complex,"C++, WebKit","JavaScript, HTML5",no,yes,yes,yes,no,"no, No",no,yes,no,no,≥ 16 MB(memory-limited?)
+Google Chrome 16,yes,no,16.0.91213 Dec 2011,13 (17/RFC 6455),,Complex,"C++, WebKit","JavaScript, HTML5",no,yes,yes,yes,no,"no, No",no,yes,no,no,≥ 16 MB(memory-limited?)
+Mozilla Firefox 7,yes,no,7 beta12 Sep 2011,8 (10),,"MPL, GPL, LGPL","C++, [https://wiki.mozilla.org/Modules/Core#Necko Necko]","JavaScript, HTML5",no,yes,no,yes,no,"no, No",no,yes,no,no,< 16 MB
+Mozilla Firefox 11,yes,no,11.013 Mar 2012,13 (17/RFC 6455),,"MPL, GPL, LGPL","C++, [https://wiki.mozilla.org/Modules/Core#Necko Necko]","JavaScript, HTML5",no,yes,yes,yes,no,"no, No",no,yes,no,no,(memory-limited?)
+Achex WS,yes,yes,2.1717 June 2014,RFC 6455,,Commercial,C++,"C++, JavaScript",yes,yes,yes,yes,yes,yes,yes,no,no,yes,2^16
+Kaazing WebSocket Gateway,yes,yes,5.0 Dec 2014,RFC 6455,,"APL2 (Community Edition), commercial (Enterprise Edition)","Java, JMS","Flash/Flex, Java, Java  ; Android, .NET, Xamarin",yes,yes,yes,yes,no,yes,yes,yes,yes,no,"memory-limited, configurable"
+Lightstreamer,yes,yes,7.1.225 Sep 2020,RFC 6455,,"Commercial, freeware",Java,"Flash/Flex, Java, Android, .NET Standard",yes,yes,no,yes,no,no,yes,yes,yes,no,"Data driven, configurable"
+MigratoryData,yes,yes,5.0.2823 Aug 2019,RFC 6455,,Commercial,Java,"Android, Java, .NET, Python, Ruby ",yes,yes,no,yes,no,"no, No",yes,yes,yes,no,"263, configurable"
+noPoll,yes,yes,0.3.228 aug 2015,RFC 6455,,LGPL 2.1,ANSI C,ANSI C,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,"memory-limited, configurable"
+POCO C++ Libraries,yes,yes,1.4.623 Sep 2014,RFC 6455,,Boost,"C++, POCO C++ Libraries",C++,yes,yes,yes,no,yes,yes,no,no,no,yes,"memory-limited, configurable"
+PowerWebSockets,yes,yes,15.176.518826 Jun 2015,RFC 6455,Test report,Commercial,.NET,"Android, Mono",yes,yes,yes,yes,no,yes,yes,yes,yes,yes,"memory-limited, configurable"
+QtWebSockets,yes,yes,1.012 Nov 2013,RFC 6455,,LGPL,Qt,Qt,yes,yes,yes,yes,yes,no,yes,yes,yes,yes,"memory-limited, configurable"
+RingSocket,no,yes,1.013 Sep 2019,RFC 6455,,MIT,C,C,yes,yes,yes,yes,no,no,yes,yes,no,no,unlimited/configurable
+Resin,no,yes,4.02629 Feb 2012,RFC 6455,,"GPL, commercial","Java, C",Java,,yes,yes,yes,no,yes,no,yes,no,no,"memory-limited, configurable"
+WebSocketListener,no,yes,2.1.324 Nov 2014,RFC 6455,,MIT,".NET, Mono",".NET, Mono",yes,yes,yes,yes,no,yes,yes,yes,yes,no,Configurable
+Wt,no,yes,3.2.030 Nov 2011,"0,7,8,13 (17)",[? Report],"GPL, commercial",Boost Asio,C++,,yes,yes,no,no,no,yes,yes,yes,no," memory-limited, configurable"
+XSockets.NET,yes,yes,5.*,RFC 6455,,Commercial,.NET,"Server-languages: Windows (.NET), .NET, Mono",yes,yes,yes,yes,no,yes,yes,yes,yes,yes,"memory-limited, configurable"
+RIWA Gateway,yes,yes,2.01,RFC 6455,,Commercial,Java,"Java, Android, iOS, JavaScript",yes,yes,yes,yes,no,yes,no,yes,no,no,"memory-limited, configurable"
+µWebSockets,no,yes,v0.14.028 Mar 2017,RFC 6455,Test report,Apache License 2.0,Boost Asio,"C++, JavaScript, Node.js",yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,"memory-limited, configurable"
+Boost.Beast,yes,yes,9430 July 2017,RFC 6455,Test report,Boost,Boost Asio,C++,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,"unlimited (packets streamed to user code), permessage-deflate also unlimited (chunked)"
+libwebsockets,yes,yes,2.416 Oct 2017,RFC 6455 + RFC 7692,Test report,LGPL2 + SLE,"C, poll, external poll loop integration, OpenSSL, mbedTLS","C, HTML5, JavaScript",yes,yes,yes,yes,yes,"yes, yes",yes,yes,yes,yes,"unlimited (packets streamed to user code), permessage-deflate also unlimited (chunked)"
+websocket++,yes,yes,"0.7.022 Feb, 2016",RFC 6455,,BSD,C++11,C++11,?,?,?,?,?,?,?,?,?,?,?
+facil.io,yes,yes,0.7.118 May 2019,RFC 6455,,MIT,C,C,yes,yes,yes,yes,yes,"yes, yes",yes,yes,yes,yes,configurable client to server limits. unlimited (chunked) server to client.
+oatpp-websocket,yes,yes,1.1.025 May 2020,RFC 6455,,Apache License 2.0,Oat++,Oat++,yes,yes,yes,yes,yes,yes,yes,no,no,yes,unlimited (packets streamed to user code)

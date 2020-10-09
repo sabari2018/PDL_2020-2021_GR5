@@ -1,0 +1,16 @@
+Package,License,Microsoft Windows,Mac OS,Linux,Market focus,General ledger,Accounts receivable/Accounts receivable,Double-entry bookkeeping system,Multi-currency pricing,Online banking,Point of sale,E-commerce,StockStockStockStock,Payroll,Enterprise resource planning,Customer relationship management,Business Intelligence,Human resource management,Manufacturing Manufacturing,Supply chain management,Inventory Management—,Records management,Distribution (business)/Distribution (business),Multi-user,Multi Co,Tax form,Other Features,Structure,Language
+Adempiere,GPL,Yes,Yes,Yes,Mid-market,Yes,Yes,Yes,Yes,,Yes,Yes,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,Yes,Yes,Yes,," SaaS, Project Management, CRM. ",Web-based and Client-server.," Java on JBoss, GlassFish, PostgreSQL, Oracle. "
+Apache OFBiz,Apache License,Yes,Yes,Yes,Small to mid-sized enterprises,Yes,Yes,Yes,Yes,,Yes,Yes,,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,Yes,Yes,Yes,Yes," SaaS, Calendar, Webmail "," Multi-User, Web Access, Cloud Hostable ",Java
+Compiere," GPL2, other proprietary ",Yes,Yes,Yes,Mid-market,,,,,,Yes,,,,Yes,Yes,,,Yes,,,,Yes,,,,Manufacturing execution system,Web-based,Java EE
+Dolibarr,GPL,Yes,Yes,Yes,Small to mid-sized enterprises,Yes,Yes,Yes,Yes,,Yes,,Yes,,Yes,Yes,,Yes,,,,,Yes,Yes,Yes,,SaaS,Web-based,PHP
+GnuCash,GPL,Yes,Yes,Yes,Personal and small enterprise,Yes,Yes,Yes,Yes,Yes,,,Yes,,,,,,,,,,,No[1],,ltd,,Stand-alone," C, Scheme "
+GNU Enterprise,GPL,Yes,Yes,Yes,Mid to high end market,,,,Yes,,,Yes,,,Yes,Yes,,Yes,,Yes,,,,,,,,Web-based + stand-alone,Python
+IDempiere,GPL2,Yes,Yes,Yes,Mid-market,Yes,Yes,Yes,Yes,,Yes,Yes,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,Yes,Yes,Yes,," SaaS, Calendar, Project Management ",Web-based and Client-server," Java on Jetty, OSGi, PostgreSQL, Oracle "
+JFire,GPL,Yes,No,Yes,All enterprises,,,Yes,,,Yes,,,,Yes,Yes,,,,,,,Yes,,,,," Web-based, Stand-alone ",Java
+LedgerSMB,GPL,Yes,Yes,Yes,Mid-market,Yes,Yes,Yes,Yes,Yes,Yes,,,,Yes,Yes,Yes,,Yes,Yes,Yes,,Yes,Yes,Yes,Yes," SaaS, Light Manufacturing, Multi-language (40), ",Web-based,Perl
+Ledger (software),BSD,Yes,Yes,Yes,Personal and small enterprise,Yes,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Can be used with Git,Plain text file-based,C++
+Metasfresh,GPL2,Yes,Yes,Yes,Mid-market,Yes,Yes,Yes,Yes,,Yes,Yes,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,Yes,Yes,Yes,," SaaS, On-Premise "," Web-based, Client-server "," Java on Tomcat, PostgreSQL "
+Odoo,GNU Lesser General Public License,Yes,Yes,Yes,All enterprises,Yes,Yes,Yes,Yes,,Yes,Yes,,,Yes,Yes,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,," SaaS, On-Premise ",Web-based,Python
+Openbravo,Mozilla Public License derivative with badgeware clause,Yes,Yes,Yes,Mid-market,Yes,Yes,Yes,Yes,,Yes,Yes,,Yes,Yes,Yes,Yes,Yes,Yes,,Yes,,,Yes,Yes,Yes," Project Management, Multi-language, Localized by country "," Web-based, on-premises, Saas, On Demand ",Java
+SQL-Ledger,GPL,Yes,Yes,Yes,Mid-market,Yes,Yes,Yes,Yes,,Yes,,,,Yes,,,,Yes,,Yes,,,Yes,Yes,,,Web-based,Perl
+Tryton,GPL,Yes,Yes,Yes,Low to mid-market,Yes,Yes,Yes,Yes,Yes[2],,Yes[3],,,Yes,Yes,,,Yes[4],Yes,Yes,,Yes,Yes[5],Yes[6],Yes,,Thin client &amp; Web-based client - Server,Python
