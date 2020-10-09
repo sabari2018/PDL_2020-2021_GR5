@@ -23,8 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a39cd410-3664-465a-83da-3ab73231d3de" name="Default Changelist" comment="add the URL of the UML project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EVALUATION.md" beforeDir="false" afterPath="$PROJECT_DIR$/EVALUATION.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pdl/src/test/testsProjet/TestCSVTemoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pdl/src/test/testsProjet/TestCSVTemoin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,19 +36,63 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pdl/src/main/model/Main.java">
+        <entry file="file://$PROJECT_DIR$/Pdl/src/test/testsProjet/TestCSVTemoin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="64" lean-forward="true" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+            <state relative-caret-position="98">
+              <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+              <folding>
+                <element signature="method#compareTemoinAndConverted#0;class#TestCSVTemoin#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pdl/src/test/testsProjet/TestParserComparison.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+        <entry file="file://$PROJECT_DIR$/Pdl/src/test/testsProjet/TestParserWikiText.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3420">
-              <caret line="228" column="10" selection-start-line="228" selection-start-column="10" selection-end-line="228" selection-end-column="10" />
+            <state relative-caret-position="-1682">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/html/Comparison_of_debuggers_1.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/temoins/TemoinDebuggers.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="117" selection-start-line="2" selection-start-column="117" selection-end-line="2" selection-end-column="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/temoins/TemoinEsperantoAndIdo.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pdl/src/main/model/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -68,6 +111,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/Pdl/src/main/model/Main.java" />
+        <option value="$PROJECT_DIR$/Pdl/src/test/testsProjet/TestCSVTemoin.java" />
       </list>
     </option>
   </component>
@@ -85,6 +130,12 @@
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
       </list>
     </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="138" />
+    <option name="y" value="51" />
+    <option name="width" value="1134" />
+    <option name="height" value="699" />
   </component>
   <component name="ProjectId" id="1ib6lOwB8K5TI900WJqmkX5ciiM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -130,6 +181,26 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PDL_2018-2019_GR3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PDL_2018-2019_GR3" type="462c0819:PsiDirectoryNode" />
+              <item name="Pdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PDL_2018-2019_GR3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PDL_2018-2019_GR3" type="462c0819:PsiDirectoryNode" />
+              <item name="Pdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="testsProjet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PDL_2018-2019_GR3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PDL_2018-2019_GR3" type="462c0819:PsiDirectoryNode" />
+              <item name="temoins" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestParserWikiText">
+  <component name="RunManager" selected="JUnit.TestCSVTemoin">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="model.Main" />
       <module name="PDL_2020-2021_GR5" />
@@ -205,6 +276,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="testsProjet" />
       <option name="MAIN_CLASS_NAME" value="testsProjet.BenchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCSVTemoin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PDL_2018-2019_GR3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testsProjet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testsProjet" />
+      <option name="MAIN_CLASS_NAME" value="testsProjet.TestCSVTemoin" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -240,28 +326,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWikiUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PDL_2018-2019_GR3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testsProjet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testsProjet" />
-      <option name="MAIN_CLASS_NAME" value="testsProjet.TestWikiUrl" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestCSVTemoin" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestParserWikiText" />
         <item itemvalue="JUnit.TestProcessWikiUrl" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.BenchTest" />
-        <item itemvalue="JUnit.TestWikiUrl" />
       </list>
     </recent_temporary>
   </component>
@@ -289,8 +360,40 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestCSVTemoin - 2020.10.09 at 17h 55m 25s.xml">
+      <configuration name="TestCSVTemoin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCSVTemoin - 2020.10.09 at 18h 03m 42s.xml">
+      <configuration name="TestCSVTemoin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCSVTemoin - 2020.10.09 at 18h 04m 19s.xml">
+      <configuration name="TestCSVTemoin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCSVTemoin - 2020.10.09 at 18h 05m 56s.xml">
+      <configuration name="TestCSVTemoin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCSVTemoin - 2020.10.09 at 18h 08m 43s.xml">
+      <configuration name="TestCSVTemoin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCSVTemoin - 2020.10.09 at 18h 12m 28s.xml">
+      <configuration name="TestCSVTemoin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCSVTemoin - 2020.10.09 at 18h 12m 52s.xml">
+      <configuration name="TestCSVTemoin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCSVTemoin - 2020.10.09 at 18h 29m 49s.xml">
+      <configuration name="TestCSVTemoin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCSVTemoin - 2020.10.09 at 18h 30m 38s.xml">
+      <configuration name="TestCSVTemoin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCSVTemoin - 2020.10.09 at 18h 34m 12s.xml">
+      <configuration name="TestCSVTemoin" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="781000" />
+    <option name="totallyTimeSpent" value="5025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
@@ -300,18 +403,18 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21818182" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32744783" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32744783" />
+      <window_info anchor="bottom" id="Terminal" weight="0.317817" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4414125" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42375603" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46067417" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -373,17 +476,73 @@
     <state width="940" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602171338835" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Pdl/src/main/model/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="64" lean-forward="true" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+    <entry file="file://$PROJECT_DIR$/EVALUATION.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3420">
-          <caret line="228" column="10" selection-start-line="228" selection-start-column="10" selection-end-line="228" selection-end-column="10" />
+        <state relative-caret-position="135">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temoins/TemoinEsperantoAndIdo.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/html/Comparison_of_debuggers_1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temoins/TemoinDebuggers.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="117" selection-start-line="2" selection-start-column="117" selection-end-line="2" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pdl/src/main/model/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pdl/src/test/testsProjet/TestCSVTemoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+          <folding>
+            <element signature="method#compareTemoinAndConverted#0;class#TestCSVTemoin#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pdl/src/test/testsProjet/TestParserComparison.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pdl/src/test/testsProjet/TestParserWikiText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1682">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>

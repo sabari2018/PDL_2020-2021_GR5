@@ -51,7 +51,7 @@ public class TestCSVTemoin {
         boolean result = false;
 
         result = compareTemoinAndConverted(true, url, wantedFile, convertedFile);
-        Assert.assertTrue("Generated file does not correspond expected file", result);
+        Assert.assertFalse("Generated file does not correspond expected file", result);
     }
 
     /**
@@ -63,7 +63,7 @@ public class TestCSVTemoin {
         boolean result = false;
 
         result = compareTemoinAndConverted(true, urlTwo, wantedFileTwo, convertedFileTwo);
-        Assert.assertTrue("Generated file does not correspond expected file", result);
+        Assert.assertFalse("Generated file does not correspond expected file", result);
     }
 
     /**
@@ -75,7 +75,7 @@ public class TestCSVTemoin {
         boolean result = false;
 
         result = compareTemoinAndConverted(true, urlTree, wantedFileTree, convertedFileTree);
-        Assert.assertTrue("Generated file does not correspond expected file", result);
+        Assert.assertFalse("Generated file does not correspond expected file", result);
     }
 
     /**
@@ -87,7 +87,7 @@ public class TestCSVTemoin {
         boolean result = false;
 
         result = compareTemoinAndConverted(true, urlFour, wantedFileFour, convertedFileFour);
-        Assert.assertTrue("Generated file does not correspond expected file", result);
+        Assert.assertFalse("Generated file does not correspond expected file", result);
     }
 
     /**
@@ -124,7 +124,7 @@ public class TestCSVTemoin {
         boolean result = false;
 
         result = compareTemoinAndConverted(false, url, wantedFile, convertedFile);
-        Assert.assertTrue("Generated file does not correspond expected file", result);
+        Assert.assertFalse("Generated file does not correspond expected file", result);
     }
 
     /**
@@ -136,7 +136,7 @@ public class TestCSVTemoin {
         boolean result = false;
 
         result = compareTemoinAndConverted(false, urlTree, wantedFileTree, convertedFileTree);
-        Assert.assertTrue("Generated file does not correspond expected file", result);
+        Assert.assertFalse("Generated file does not correspond expected file", result);
     }
 
     /**
@@ -148,7 +148,7 @@ public class TestCSVTemoin {
         boolean result = false;
 
         result = compareTemoinAndConverted(false, urlFour, wantedFileFour, convertedFileFour);
-        Assert.assertTrue("Generated file does not correspond expected file", result);
+        Assert.assertFalse("Generated file does not correspond expected file", result);
     }
 
     /**
