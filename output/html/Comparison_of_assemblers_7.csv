@@ -1,9 +1,0 @@
-Assembler,Developer,Operating system,Free and open-source software,Software license,Development active
-FASM,Tomasz Grysztar (page does not exist)," DOS, DOS, DOS ",Yes,BSD licenses,Yes
-GNU Assembler,GNU Project," DOS, DOS, DOS, DOS ",Yes,GNU General Public License,Yes
-Microsoft Macro Assembler,Microsoft," DOS, DOS, DOS ",No,Commercial software,Yes
-Netwide Assembler," Simon Tatham, Julian Hall, Simon Tatham, et al. "," DOS, DOS, DOS, DOS, DOS ",Yes,BSD licenses,Yes
-Open Watcom Assembler,Watcom," DOS, DOS, DOS, DOS, DOS "," approved by Open Source Initiative, but not by Open Source Initiative ",Sybase Open Watcom Public License,Yes
-Pelles C (page does not exist),," Microsoft Windows, Microsoft Windows ",No,Freeware,Yes
-Tiny C Compiler,Fabrice Bellard," Unix-like, Unix-like ",Yes,GNU Lesser General Public License,Yes
-Yasm[2],," DOS, DOS, DOS ",Yes,BSD licenses,No

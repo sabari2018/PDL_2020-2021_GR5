@@ -1,7 +1,0 @@
-Functional programming,Java,C#
-Method references,yes,yes
-Closures,All lambdas do not introduce a new level of scope. All referenced variables must be effectively final,yes
-Lambda expressions,yes,yes
-Expression trees,no,yes
-Generic query language,no; but see Java Stream equivalent (Monad),yes
-Tail recursion compiler optimizations,date=January 2014,Only on x64

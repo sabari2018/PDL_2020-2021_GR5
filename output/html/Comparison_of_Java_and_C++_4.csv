@@ -1,2 +1,0 @@
-C++,Java
-C++ is compiled directly to Machine code which is then executed directly by the Machine code.," Java is compiled to Byte-code which the Byte-code (JVM) then Byte-code at runtime. Actual Java implementations do Byte-code to native machine code. Alternatively, the Byte-code can compile directly to machine code. "

@@ -1,5 +1,0 @@
-IDE,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder,Toolchain,Profiler,Code coverage,Autocomplete,Static code analysis,GUI-based design,Class browser,Latest stable release
-Eclipse w/ AonixADT,EPL,yes,yes,yes," JVM, Solaris",yes,yes,no,unk,unk,yes,unk,no,yes,December 2009
-GNAT Programming Studio,GPL,yes,yes,yes,Solaris,yes,yes,yes,yes,yes,yes,yes,no,yes,June 2014
-SlickEdit,Proprietary,Yes,Yes,Yes," Solaris, Solaris SPARC, AIX, HP-UX",Yes,No,No,No,No,Yes,No,No,Yes,2018
-Understand,proprietary,yes,yes,yes,Solaris,no,no,no,no,no,yes,yes,no,yes,December 2015

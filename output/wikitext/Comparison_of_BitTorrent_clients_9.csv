@@ -1,5 +1,0 @@
-BitTorrent library,Super-seeding,Tracker,UPnP,NAT Port Mapping Protocol,NAT traversal,DHT,Peer exchange,Encryption,UDP tracker,LPD,Fast extensions,Magnet URI,μTP
-libtorrent (Rasterbar),yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes
-MonoTorrent,yes,yes,yes,yes,no,yes,yes,yes,yes,yes,yes,yes,no
-rTorrent (libTorrent Rakshasa),yes,yes,no,dunno,dunno,yes,yes,yes,yes,dunno,no,yes,no
-BitTorrent library,Super-seeding,Tracker,UPnP,NAT Port Mapping Protocol,NAT traversal,DHT,Peer exchange,Encryption,UDP tracker,LPD,Fast extensions,Magnet URI,μTP

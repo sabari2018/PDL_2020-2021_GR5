@@ -1,6 +1,0 @@
-,Trident (layout engine),Gecko (layout engine),WebKit,KHTML,Presto (layout engine),Prince XML,Antenna House Formatter
-XPath 1.0XPath 1.0,Yes,1.8,Yes,4.8,2.0,?,Depends[a 1]
-XPath 2.0XPath 2.0,No,No[g 6],?,?,?,?,Depends[a 1]
-XPath 3.0XPath 3.0,?,?,?,?,?,?,?
-XPath 3.1XPath 3.1,?,?,?,?,?,?,?
-XQueryXQuery,?,No[g 7],No[w 5],?,No,?,No

@@ -1,5 +1,0 @@
-IDE,License,Windows,Linux,macOS,Other platforms,Editor,Debugger
-GUI builder,Profiler,Browsers
-Allegro Common Lisp,proprietary,yes,yes,yes," AIX, Solaris, Tru64 UNIX",yes,yes,yes,yes," Class browser, Systems, Definitions"
-LispWorks,proprietary,yes,yes,yes,Solaris,yes,yes,yes,yes," Class browser, Functions, Errors, Processes, Symbols, Systems"
-SLIME (Emacs)," portions in GPL v2, BSD and public domain",yes,yes,yes," AIX, Solaris, other Unix",yes,yes,no,yes," Class browser, Errors, Symbols "

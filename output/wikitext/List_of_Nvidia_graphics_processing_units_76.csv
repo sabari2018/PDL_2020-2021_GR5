@@ -1,3 +1,0 @@
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power ([[GFLOPS]]),| Supported [[Application programming interface|API]] version,,,| [[Nvidia Optimus]]<br />technology,| [[Thermal design power|TBP]] (Watts)
-,,,,,,,,Pixel (GP/s),Texture ([[Texel (graphics)|GT]]/s),Size ([[Megabyte|MB]]),Bandwidth ([[Gigabyte|GB]]/s),Bus type,Bus width ([[bit]]),[[Single precision floating-point format|Single precision]],[[Direct3D]],[[OpenGL]],,,
-Quadro M5500,GM204,28,PCIe 3.0 ×16,,,,2048:128:64(16 SMM),,,8096,211,GDDR5,256,4700,12.1,4.5,Yes,150

@@ -1,5 +1,0 @@
-BitTorrent library,Super-seeding,BitTorrent tracker,Universal Plug and Play Universal Plug and Play,NAT Port Mapping Protocol,NAT traversal NAT traversal,Distributed hash table Distributed hash table,Peer exchange,BitTorrent protocol encryption,UDP tracker,Local Peer Discovery,Fast extensions (page does not exist),Magnet URI,Micro Transport Protocol
-Libtorrent (Rasterbar),Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[84],Yes,Yes,Yes[85]
-MonoTorrent,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No
-RTorrent (libTorrent Rakshasa),Yes,Yes,No,?,?,Yes,Yes,Yes,Yes,?,No,Yes,No
-BitTorrent library,Super-seeding,Tracker,UPnP,NAT Port Mapping Protocol,NAT traversal,DHT,Peer exchange,Encryption,UDP tracker,LPD,Fast extensions,Magnet URI,μTP

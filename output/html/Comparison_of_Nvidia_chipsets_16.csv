@@ -1,3 +1,0 @@
-Model,Code Name,Release Date,CPU Socket,Processors Supported,Fab (Nanometer),FSB/HT Frequency (MHz),Memory,PCI-Express,Scalable Link Interface,PCI,USB,PATA,SATA,LAN,Sound,Graphics
-GeForce 9300,MCP7A,October 2008,LGA 775," Intel Core 2, Intel Core 2,  Intel Core 2 ",,1333 MHz,DDR3 SDRAM / DDR3 SDRAM dual channel,2.0 20 lanes,No,5 Ports,12 Ports Rev 2.0,No,6 Ports 3.0Gbit/s,1000 Mbit/s,Intel High Definition Audio,List of Nvidia graphics processing units
-GeForce 9400,MCP7A,,,,,,,,,,,,,,,List of Nvidia graphics processing units

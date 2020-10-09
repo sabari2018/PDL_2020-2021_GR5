@@ -1,7 +1,0 @@
-Kernel name,CRC-32 (IEEE),CRC32c,MD2,MD4,MD5,SHA-1,SHA-2,SHA-3,Michael MIC,Poly1305,RIPEMD-128,RIPEMD-160,RIPEMD-256,RIPEMD-320,Tiger,Whirlpool,HMAC,MDC2,GOST,LASH,VMAC
-Linux,yes,yes,no,yes,yes,yes,yes,partial,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,no,no,yes
-Solaris kernel,yes,yes,yes,yes,yes,yes,yes,dunno,dunno,dunno,dunno,yes,dunno,dunno,yes,dunno,yes,yes,dunno,dunno,dunno
-Windows NT kernel,dunno,dunno,yes,yes,yes,yes,yes,dunno,no,dunno,no,no,no,no,no,no,yes,no,no,no,dunno
-FreeBSD kernel,yes,yes,dunno,yes,yes,yes,yes,dunno,dunno,dunno,dunno,yes,dunno,dunno,yes,dunno,yes,dunno,dunno,dunno,dunno
-XNU kernel,yes,dunno,yes,dunno,yes,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
-Kernel name,CRC-32 (IEEE),CRC32c,MD2,MD4,MD5,SHA-1,SHA-2,SHA-3,Michael MIC,Poly1305,RIPEMD-128,RIPEMD-160,RIPEMD-256,RIPEMD-320,Tiger,Whirlpool,HMAC,MDC2,GOST,LASH,VMAC

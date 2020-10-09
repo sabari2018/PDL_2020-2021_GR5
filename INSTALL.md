@@ -7,13 +7,10 @@ Everything is now set and you are ready to run the program.
 ## Installation with IntelliJ 
 
 Requirements :
-<<<<<<< HEAD
-- IntelliJ (https://www.jetbrains.com/fr-fr/idea/)
-- Maven (http://maven.apache.org/)
-=======
+
 - [IntelliJ](https://www.jetbrains.com)
 - [Maven](https://maven.apache.org)
->>>>>>> fe0569107c9ff028ca036b74916da283988e55f7
+
 
 Start by opening IntelliJ and close all opened projects.
 Then get the project with the HTTPS link :
@@ -32,11 +29,8 @@ To execute the project go in "Pdl/src/main/model" and run the class "Main".
 ## Installation with Eclipse
 
 Requirements:
-<<<<<<< HEAD
-- Eclipse (https://www.eclipse.org/downloads/)
-=======
+
 - [Eclipse](https://www.eclipse.org)
->>>>>>> fe0569107c9ff028ca036b74916da283988e55f7
 
 Start by opening Eclipse and close all opened projects. 
 To open the git project with the HTTPS link : 

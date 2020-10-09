@@ -1,4 +1,0 @@
-Model,Launch,Code name,Semiconductor device fabrication (Semiconductor device fabrication)Semiconductor device fabrication,Computer bus Computer bus,Core clock (Hertz),Memory clock (Hertz),Core config1,Fillrate,,,,Memory,,,,Processing power (GFLOPS)
-,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (Megabyte),Bandwidth (Gigabyte/s),Bus type,Bus width (Bit),Single precision floating-point format
-GeForce 256 SDR," October 11, 1999 ",NV10,TSMC 220 nm,AGP 4× PCI,120,166,4:4:4,480,480,480,0,32,2.656,SDR,128,50[4]
-GeForce 256 DDR," December 13, 1999 ",,,,,150,,,,,,32 64,4.8,DDR,,

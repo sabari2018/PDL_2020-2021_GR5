@@ -1,4 +1,0 @@
-Name,Resourceaccesscontrol,Subsystemisolationmechanisms,Integratedfirewall,Encryptedfilesystems,"  rowspan=""2""  No execute (NX)page flag",,| Manufacturer acknowledged unpatched vulnerabilities (by severity)<ref name="unpatched" group="s"/>,,,,,
-Secunia,,,,,,,Security-<br>Focus
-,,,,,Hard-ware,Emula-tion,Extremely critical(number / oldest),style="width:12em"|Highly<br> critical<br>(number / oldest),style="width:12em"|Moderately critical<br>(number / oldest),style="width:12em"|Less<br>critical <br>(number / oldest),style="width:12em"|Not<br>critical<br>(number / oldest),style="width:12em"|Total<br>(number / oldest)
-,,,,AIX 7.1," POSIX, ACLs, MAC, RBAC",chroot," IPFilter, IPsec VPNs, basic IDS",yes,{{yes}}<ref name="AIXHardwareNX" group="s"/>,{{n/a}},{{unk}},,,,,{{Good

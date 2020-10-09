@@ -1,8 +1,0 @@
-Kernel Name," Container (no resource management, no security)",Container (no resource management),Container (resource management),Paravirtualization,Full virtualization,User-space execution,Kernel as Library,Kernel as Kernel Driver,Hypervisor-Enforced Kernel Partitioning
-Linux,chroot,LXC,," Virtio, VMI (guest only), kvm-lite, lguest",KVM,UML,(LKL),(coLinux),{{no}}
-DragonFly BSD kernel,chroot,jail,,no,no,vkernel,?,?,{{no}}
-FreeBSD kernel,chroot,jail,," Virtio, Xen (guest only)",BHyVe (KVM),dunno,?,?,{{no}}
-NetBSD kernel,chroot,(sysjail (discontinued)),no,Virtio and Xen,no,dunno,Rump kernel,?,no
-Solaris kernel,chroot,Solaris Containers / Zones,,No,No,No,?,?,{{no}}
-Windows NT kernel,"  AppContainers, Job Objects, Windows Server Containers",,,Hyper-V,,{{no|[https://www.microsoft.com/en-us/research/project/drawbridge/ Project Drawbridge]}},,{{no}},{{yes|Virtual Secure Mode, Device Guard, Credential Guard}}
-XNU,chroot,dunno,dunno,dunno,dunno,dunno,?,?,no

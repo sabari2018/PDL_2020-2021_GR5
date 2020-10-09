@@ -1,4 +1,0 @@
-IDE,License,Windows,Linux,macOS,Other platforms,Debugger
-Profiler,Notes
-Visual Studio Code (using the [https://marketplace.visualstudio.com/items?itemName=julialang.language-julia Julia extension]),MIT License,yes,yes,yes,FreeBSD,dunno,dunno,License is for the extension; and Microsofts source code (only).
-Emacs / spacemacs," portions in GPL v2, BSD and public domain",yes,yes,yes,FreeBSD,yes,yes," [https://github.com/emacs-ess/ESS/wiki/Julia ESS extension] support for emacs. vi support also available, e.g. in spacemacs (useful for pair programming ). "

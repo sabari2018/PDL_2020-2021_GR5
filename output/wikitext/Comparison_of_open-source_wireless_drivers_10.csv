@@ -1,4 +1,0 @@
-Driver,Chipset,Free firmware,License,Development
-[https://code.google.com/p/iwidarwin IWIDarwin],Intel PRO/Wireless 2100/2200BG/2225BG/2915ABG/3945ABG/4965AGN,no,GPL,Port from Linux
-[http://wirelessdriver.sourceforge.net/ WirelessDriver],PRISM-2 802.11b,n/a,BSD,
-[http://gtdriver.binaervarianz.de/ GTdriver],PRISM-GT 802.11b/g,n/a,GPL,

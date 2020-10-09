@@ -1,9 +1,0 @@
-Client,Fork from,Free software,Runs on,,,Kad network,Unicode,Languages supp,Development Status
-,,,Linux,Microsoft Windows,Mac OS X,,,,
-EDonkey2000,-,No,Yes,Yes,Yes,No,No,1,Discontinued
-AMule,XMule,GNU General Public License,Yes,Yes[N 1],Yes,Yes,Yes,28,Active
-EMule and its Mods,-,GPL,No,Yes,No,Yes,Yes,43[1],Active
-EMule Plus,EMule,GPL,No[N 2],Yes,No,No,Yes[N 3],31,Abandoned
-MLDonkey,-,GPL,Yes,Yes,Yes,Yes,Yes,3,Discontinued
-Shareaza,-,GPL,No[N 4],Yes,No,No,Yes,31,Active
-XMule,LMule,GPL,Yes,No,No,No,No,?,Abandoned

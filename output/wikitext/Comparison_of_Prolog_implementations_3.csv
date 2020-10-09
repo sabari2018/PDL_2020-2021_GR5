@@ -1,9 +1,0 @@
-Name,Type checker,Determinacy checker,Call-pattern checker
-Ciao,yes,yes,yes
-GNU Prolog,,,
-[http://www.jekejeke.ch/ Jekejeke Prolog],,,
-SICStus Prolog,,yes,
-SWI-Prolog,,yes,
-Visual Prolog,yes,yes,yes
-XSB,,,
-YAP-Prolog,,,

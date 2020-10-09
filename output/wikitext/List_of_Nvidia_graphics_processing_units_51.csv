@@ -1,4 +1,0 @@
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,| Processing power ([[GFLOPS]])<ref name="NVcomp1" /><ref name="NVcomp2" />,,| Supported [[Application programming interface|API]] version,,| [[Thermal design power|TBP]] (Watts)
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size ([[Megabyte|MB]]),Bandwidth ([[Gigabyte|GB]]/s),Bus type,Bus width ([[bit]]),[[Single precision floating-point format|Single precision]],[[Double precision floating-point format|Double precision]],[[Direct3D]],[[OpenGL]],
-Quadro FX 330,NV37GL,150,PCIe ×16,250,250,400,2:4:4:2,1,1,64,3.2,DDR,128,"  rowspan=""2"" ",,9.0,2.0,21
-Quadro FX 1300,NV38,130,,350,350,550,3:4:8:4,2.8,2.8,128,17.6,,256,2.1,,,55

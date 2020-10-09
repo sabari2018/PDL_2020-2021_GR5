@@ -1,5 +1,0 @@
-Can:,"  NATstatic, dynamic w/o ports, PAT",NPTv6,Intrusion Detection System (IDS)monitors for malicious activity or policy violations,"  Virtual Private Network (VPN)types include: PPTP, L2TP, MPLS, IPsec, SSL",Antivirus (AV),Packet capture,Profile selectionstore sets of firewall settings to switch between
-Vyatta,yes (three NAT types),dunno,yes (integrated Snort),yes (IPsec and OpenVPN)," yes (with clamav, Sophos Antivirus (optional))",yes (with wireshark or tcpdump),dunno
-WinGate,yes,dunno,yes (with NetPatrol),yes (proprietary),yes (Kaspersky Labs),yes (filtered capturing to pcap format),no
-pfSense,yes,yes (NPt),yes (with Snort)," yes (OpenVPN, IPsec, L2TP, IKEv2, Tinc, PPTP)",yes (with squid and clamav),yes (tcpdump),no
-IPFire,yes,dunno,yes (with Snort)," yes (OpenVPN, IPsec, IKEv2)",yes (with squid and clamav),yes (tcpdump),no

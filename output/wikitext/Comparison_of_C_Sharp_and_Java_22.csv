@@ -1,8 +1,0 @@
-width=50% Java,width=50% C#
-valign=top import java.nio.file.*;
-class FileIOTest {
-"    public static void main(String[] args) throws Exception {         var lines = Files.readAllLines(Paths.get(""input.txt""));         Files.write(Paths.get(""output.txt""), lines);     }"
-},valign=top using System.IO;
-"class FileIOTest {     public static void Main(string[] args)     {         var lines = File.ReadLines(""input.txt"");         File.WriteAllLines(""output.txt"", lines);     } } "
-"valign=topNotes on the Java implementation: * Files.readAllLines method returns a List of String, with the content of the text file, Files has also the method readAllBytes, returns an array of Strings. * Files.write method writes byte array or into an output file, indicated by a Path object. * Files.write method also takes care of buffering and closing the output stream."
-"valign=topNotes on the C# implementation: * The ReadLines method returns an enumerable object that upon enumeration will read the file one line at a time. * The WriteAllLines method takes an enumerable and retrieves a line at a time and writes it until the enumeration ends. * The underlying reader will automatically allocate a buffer, thus there is no need to explicitly introduce a buffered stream. * WriteAllLines automatically closes the output stream, also in the case of an abnormal termination. "

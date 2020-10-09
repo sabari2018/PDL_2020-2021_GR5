@@ -1,3 +1,0 @@
-Model,Code nameCode name,Fab (Nanometer),Computer bus Computer bus,Core clock (Hertz),Boost clock (Hertz),Memory clock (Hertz),Core config1,FillrateFillrate,,Memory,,,,Processing power (GFLOPS),,Supported Application programming interface version,,,,,Thermal design power (Watts),Notes
-,,,,,,,,Pixel (Pixel/s),Texture (Texel (graphics)/s),Size (Gigabyte),Bandwidth (Gigabyte/s),Bus type,Bus width (Bit),Single precision floating-point format,Double precision floating-point format,Direct3D,OpenGL,Vulkan (API),OpenCL,CUDA,,
-Quadro GV100[213],GV100-875-A1,12,PCIe 3.0 ×16,1132,1627,848 (1696),5120:320:128:80:640,208.4,521,32,870,HBM2,4096,14800,7400,12.1,4.6,1.1,1.2,7,250," 4x DisplayPort, NVLINK support "

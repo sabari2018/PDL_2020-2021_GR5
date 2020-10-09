@@ -1,7 +1,0 @@
-Threading and Synchronization,Java,C#
-Threads,yes,yes
-Thread pool,yes,yes
-Task-based parallelism,yes,yes
-Semaphores,yes,yes
-Monitors,yes,yes
-Thread-local variables,yes,yes; ThreadStaticAttribute and ThreadLocal class

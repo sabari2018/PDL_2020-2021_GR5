@@ -1,4 +1,0 @@
-,Trident,Gecko,WebKit,KHTML,Presto,Prince XML,Antenna House
-XLink,5.0," Gecko, as of version 1.8, only supports simple XLinks, and only for SVG and group=note",no,no,partial,Prince XML supports only simple XLinks.group=note,partial
-XML Base,no,1.0,no,yes,yes,6.0,yes
-XPointer,Dunno,partial,no,no,no,Dunno,no

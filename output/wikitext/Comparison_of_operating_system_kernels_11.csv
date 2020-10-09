@@ -1,9 +1,0 @@
-Kernel name,Linux,Darwin,Windows NT,FreeBSD,NetBSD,Solaris,OSF/1,Amiga Unix,SunOS,BSD/OS,IBCS2 systems,IRIX,Ultrix,NDIS,SVR4
-FreeBSD kernel,yes,no,no,yes,no,no,no,no,no,no,no,no,no,yes,yes
-Linux kernel,yes,no,(Longene),yes,yes,no,no,no,no,no,no,no,no,no,no
-NetBSD kernel,yes,no? [http://hcpnet.free.fr/applebsd.html]?,no? [http://pkgsrc.se/emulators/peace]?,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes [http://netbsd-soc.sourceforge.net/projects/ndis/],yes
-OpenBSD kernel,yes,no,no,yes,yes,yes,no,no,yes,dunno,dunno,dunno,dunno,no,yes
-Windows NT kernel,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no
-ReactOS kernel,no,no,yes,no,no,no,no,no,no,no,no,no,no,no,no
-XNU,no,yes,no,no,no,no,no,no,no,no,no,no,no,no,no
-Kernel name,Linux,Darwin,Windows NT,FreeBSD,NetBSD,Solaris,OSF/1,Amiga Unix,SunOS,BSD/OS,IBCS2 systems,IRIX,Ultrix,NDIS,SVR4

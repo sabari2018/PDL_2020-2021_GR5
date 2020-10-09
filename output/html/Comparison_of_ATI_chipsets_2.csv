@@ -1,9 +1,0 @@
-Codename,Model,Year,Semiconductor device fabrication (Semiconductor device fabrication),Serial ATA Ports,Universal Serial Bus Ports,Sound card,Parallel ATA (2 Devices/Channel),Notes
-IXP200,Radeon Comparison of ATI chipsets/Comparison of ATI chipsets IGP,2002,,0,6 Universal Serial Bus,AC'97,2 Parallel ATA," A-Link, 3Com 10/100 Ethernet "
-IXP250,,,,,,,," A-Link, 3Com 10/100 Ethernet, Desktop Management Interface, Desktop Management Interface, Desktop Management Interface, Desktop Management Interface "
-SB300C,,2003,,1 (SATA 150Mbit/s),6,AC'97,2 (ATA133)," 10/100 Ethernet, Advanced power management "
-IXP380/SB380,,2003,,1 (SATA 150Mbit/s),6 (USB 2.0),AC'97,2 (ATA 133)," 10/100 Ethernet, Advanced power management,  8-bit HyperTransport links "
-IXP400/SB400,Radeon Xpress 200 Radeon Xpress 1150,2004,,4,8,HD,2,
-IXP450/SB450,Radeon Xpress 200 Radeon Xpress 1150,2004,,4,8,HD,2 (UDMA 100/133),RAID 0 and 1
-IXP460/SB460,Radeon Xpress 1600 Radeon Xpress 1150,2004,,4,8,HD,1,
-SB600,AMD 480/570/580  CrossFire Chipset,2006,130,4,10,HD,1 (ATA 133)," RAID 0, 1, 10 Serial ATA, Serial ATA "
