@@ -178,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.TestParserWikiText">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="model.Main" />
       <module name="PDL_2020-2021_GR5" />
@@ -207,6 +207,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestParserWikiText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PDL_2018-2019_GR3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testsProjet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testsProjet" />
+      <option name="MAIN_CLASS_NAME" value="testsProjet.TestParserWikiText" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestProcessWikiUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PDL_2018-2019_GR3" />
       <extension name="coverage">
@@ -217,21 +232,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="testsProjet" />
       <option name="MAIN_CLASS_NAME" value="testsProjet.TestProcessWikiUrl" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PDL_2018-2019_GR3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testsProjet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testsProjet" />
-      <option name="MAIN_CLASS_NAME" value="testsProjet.TestTable" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -254,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestParserWikiText" />
+        <item itemvalue="JUnit.TestProcessWikiUrl" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.BenchTest" />
         <item itemvalue="JUnit.TestWikiUrl" />
-        <item itemvalue="JUnit.TestTable" />
-        <item itemvalue="JUnit.TestProcessWikiUrl" />
       </list>
     </recent_temporary>
   </component>
