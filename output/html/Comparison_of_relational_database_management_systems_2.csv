@@ -1,0 +1,53 @@
+,Microsoft Windows,MacOS,Linux,BSD,UNIX,AmigaOS,Z/OS,IOS,Android (operating system),OpenVMS
+4th Dimension (Software),Yes,Yes,No,No,No,No,No,No,No,No
+ADABAS,Yes,No,Yes,No,Yes,No,Yes,No,No,No
+Adaptive Server Enterprise,Yes,No,Yes,Yes,Yes,No,No,No,No,No
+Advantage Database Server,Yes,No,Yes,No,No,No,No,No,No,No
+Altibase,Yes,No,Yes,No,Yes,No,No,No,No,No
+Apache Derby,Yes,Yes,Yes,Yes,Yes,No,Yes,?,No,No
+Clustrix,No,No,Yes,No,Yes,No,No,No,No,No
+CUBRID,Yes,Partial,Yes,No,No,No,No,No,No,No
+IBM DB2,Yes,Yes (IBM DB2 Express-C),Yes,No,Yes,No,Yes,Yes,No,No
+Empress database,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,No
+EXASOL,No,No,Yes,No,No,No,No,No,No,No
+FileMaker,Yes,Yes,Yes,No,No,No,No,Yes,No,No
+Firebird (database server),Yes,Yes,Yes,Yes,Yes,No,Maybe,No,Yes[41],No
+HSQLDB,Yes,Yes,Yes,Yes,Yes,No,Yes,?,?,No
+H2 (DBMS),Yes,Yes,Yes,Yes,Yes,No,Yes,?,Yes,No
+Informix Dynamic Server,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No
+Ingres (database),Yes,Yes,Yes,Yes,Yes,No,Partial,No,No,Yes[42]
+InterBase,Yes,Yes,Yes,No,Yes (Solaris (operating system)),No,No,Yes,Yes,No
+Linter SQL RDBMS,Yes,Yes,Yes,Yes,Yes,No,Under Linux on IBM Z,Yes,Yes,Yes
+LucidDB,Yes,Yes,Yes,No,No,No,No,No,No,No
+MariaDB,Yes,Yes[43],Yes,Yes,Yes,No,No,?,Yes[44],No
+MaxDB,Yes,No,Yes,No,Yes,No,Maybe,No,No,No
+Microsoft Access (JET),Yes,No,No,No,No,No,No,No,No,No
+Microsoft Visual Foxpro,Yes,No,No,No,No,No,No,No,No,No
+Microsoft SQL Server,Yes,No,Yes[45],No,No,No,No,No,No,No
+SQL Server Compact,Yes,No,No,No,No,No,No,No,No,No
+Mimer SQL,Yes,Yes,Yes,No,Yes,No,No,No,Yes,Yes
+MonetDB,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No
+MySQL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes[46],No
+Omnis Studio,Yes,Yes,Yes,No,No,No,No,No,No,No
+OpenEdge Database,Yes,No,Yes,No,Yes,No,No,No,No,No
+Virtuoso Universal Server,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No
+Oracle Database,Yes,Yes,Yes,No,Yes,No,Yes,No,No,Yes
+Oracle Rdb,No,No,No,No,No,No,No,No,No,Yes
+Pervasive PSQL,Yes,Yes (OEM only),Yes,No,No,No,No,No,No,No
+Polyhedra DBMS,Yes,No,Yes,No,Yes,No,No,No,No,No
+PostgreSQL,Yes,Yes,Yes,Yes,Yes,Yes (MorphOS)MorphOS,Under Linux on IBM ZLinux on IBM Z,No,Yes,No
+R:Base,Yes,No,No,No,No,No,No,No,No,No
+Raima Database Manager,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No
+RDM Server,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No
+SAP HANA,Yes,No,Yes,No,No,No,No,No,No,No
+SolidDB,Yes,No,Yes,No,Yes,No,Under Linux on IBM Z,No,No,No
+SQL Anywhere,Yes,Yes,Yes,No,Yes,No,No,No,Yes,No
+SQLBase,Yes,No,Yes,No,No,No,No,No,No,No
+SQLite,Yes,Yes,Yes,Yes,Yes,Yes,Maybe,Yes,Yes,No
+SQream DB,No,No,Yes,No,No,No,No,No,No,No
+Superbase database,Yes,No,No,No,No,Yes,No,No,No,No
+Teradata,Yes,No,Yes,No,Yes,No,No,No,No,No
+Tibero,Yes,No,Yes,No,Yes,No,No,No,No,No
+UniData,Yes,No,Yes,No,Yes,No,No,No,No,No
+UniVerse,Yes,No,Yes,No,Yes,No,No,No,No,No
+YugabyteDB,Yes,Yes,Yes,No,No,No,No,No,No,No

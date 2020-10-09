@@ -1,0 +1,62 @@
+File system,Stores file owner,POSIX file permissions,Creation timestamps,Last access/ read timestamps,Last metadata change timestamps,Last archive timestamps,Access control list,Security/ Mandatory access control labels,Extended attribute/ Extended attribute,Checksum/ Error-correcting code
+BeeGFS,Yes,Yes,No,Yes,Yes,No,Yes,?,Yes,Yes
+CP/M file system,No,No,Yes[ag],No,No,No,No,No,No,No
+DECtapeDECtape,No,No,Yes,No,No,No,No,No,No,No
+Elektronika BK tape format,No,No,No,No,No,No,No,No,No,Yes
+Level-D,Yes,Yes,Yes,Yes (date only),Yes,Yes,Yes (FILDAE),No,No,No
+RT-11RT-11,No,No,Yes (date only),No,No,No,No,No,No,Yes
+Version 6 Unix file system (V6FS)[31],Yes,Yes,No,Yes,No,No,No,No,No,No
+Version 7 Unix file system (V7FS)[32],Yes,Yes,No,Yes,No,No,No,No,No,No
+ExFAT,No,No,Yes,Yes,No,No,No,No,No,No
+FAT12/FAT12/FAT12,No,No,Yes,Yes,No[ah],No,No,No,No[ai],No
+High Performance File System,Yes[aj],No,Yes,Yes,No,No,No,?,Yes,No
+NTFS,Yes,Yes[ak],Yes,Yes,Yes,No,Yes,Yes[al],Yes,Yes[am]
+ReFS,Yes,Yes,Yes,Yes,Yes,No,Yes,?,Yes[an],Yes[ao]
+Hierarchical File System,No,No,Yes,No,No,Yes,No,No,Yes,No
+HFS Plus,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,No
+Berkeley Fast File System,Yes,Yes,No,Yes,Yes,No,No,No,No,No
+UFS1 (file system),Yes,Yes,No,Yes,Yes,No,Yes[ap],Yes[ap],No[aq],No
+UFS2 (file system),Yes,Yes,Yes,Yes,Yes,No,Yes[ap],Yes[ap],Yes,Partial
+HAMMER (file system),Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,No,Yes
+Log-structured File System (BSD),Yes,Yes,No,Yes,Yes,No,No,No,No,No
+Extended file system,Yes,Yes,No,No,No,No,No,No,No,No
+Xiafs,Yes,Yes,No,Yes,Yes,No,No,No,No,No
+Ext2,Yes,Yes,No,Yes,Yes,No,Yes[ar],Yes[ar],Yes,No
+Ext3,Yes,Yes,No,Yes,Yes,No,Yes[ar],Yes[ar],Yes,No
+Ext4,Yes,Yes,Yes,Yes,Yes,No,Yes[ar],Yes[ar],Yes,Partial[as]
+NOVA (filesystem),Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes
+Lustre (file system),Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,No
+F2FS,Yes,Yes,Yes,Yes,Yes,No,Yes[ar],Yes[ar],Yes,No
+GPFS,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes
+Global File System,Yes,Yes,No,Yes,Yes,No,Yes[ar],Yes[ar],Yes,No
+NILFS,Yes,Yes,Yes,No,Yes,No,No,No,No,Yes
+ReiserFS,Yes,Yes,No,Yes,Yes,No,Yes[ar],Yes[ar],Yes,No
+Reiser4,Yes,Yes,No,Yes,Yes,No,No,No,No,No
+OCFS,No,Yes,No,No,Yes,Yes,No,No,No,No
+OCFS2,Yes,Yes,No,Yes,Yes,No,No,No,No,No
+XFS,Yes,Yes,Partial[at],Yes,Yes,No,Yes,Yes[ar],Yes,Partial[au]
+JFS file system,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No
+QFS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No
+Be File System,Yes,Yes,Yes,No,No,No,No,No,Yes,No
+AdvFS,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,No
+Novell Storage Services,Yes,Yes,Yes[av],Yes[av],Yes,Yes[av],Yes,?,Yes[aw][ax],No
+NetWare File System,Yes,?,Yes[av],Yes[av],Yes,Yes[av],Yes,?,Yes[aw][ax],No
+ODS-5,Yes,Yes,Yes,?,?,Yes,Yes,?,Yes[ay],No
+APFS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Partial
+Veritas File System,Yes,Yes,Yes,Yes,Yes,No,Yes,?,Yes[ar],No
+Universal Disk Format,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No
+Fossil (file system),Yes,Yes[az],No,Yes,Yes,No,No,No,No,No
+ZFS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[ba],Yes[bb],Yes
+Btrfs,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes[bc]
+MINIX file system,Yes,Yes,No,No,No,No,No,No,No,No
+MINIX file system,Yes,Yes,No,Yes,Yes,No,No,No,No,No
+MINIX file system,Yes,Yes,No,Yes,Yes,No,No,No,No,No
+VMFS2,Yes,Yes,No,Yes,Yes,No,No,No,No,No
+VMFS3,Yes,Yes,No,Yes,Yes,No,No,No,No,No
+ISO 9660:1988,No,No,Yes,No,No,No,No,No,No,No
+Rock Ridge,Yes,Yes,No,Yes[bd],Yes,No,No[be],No[bf],No[bf],No
+Joliet (file system),No,No,Yes,No,No,No,No,No,No,No
+ISO 9660:1999,No,No,Yes,No,No,No,No,No,No,No
+High Sierra Format,No,No,Yes,No,No,No,No,No,No,No
+SquashFS,Yes,Yes,No,No,Yes,No,No,Yes,Yes,No
+File system,Stores file owner,POSIX file permissions,Creation timestamps,Last access/read timestamps,Last metadata change timestamps,Last archive timestamps,Access control list,Security/ Mandatory access control labels,Extended attribute/ Extended attribute,Checksum/ Error-correcting code

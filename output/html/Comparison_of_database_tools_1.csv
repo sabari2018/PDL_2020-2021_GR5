@@ -1,0 +1,29 @@
+Product,Creator,Latest stable release date,Latest stable release,Software license,Runs on Microsoft Windows,Runs on Mac OS X,Runs on Linux,Oracle Database,MySQL,PostgreSQL,Microsoft SQL Server,ODBC,JDBC,SQLite,Other,Programming language
+Adminer,Jakub Vrána,2020-05-11[±],4.7.7[1],Apache License or Apache License,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,,Yes,,PHP
+DaDaBIK,Eugenio Tacchini,2019-07-23[±],9.4 Monterosso[2],Proprietary software,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,,PHP
+Database Deployment Manager,The Unauthorized Frog project,2012-05-29,v0.1i,LGPL,Yes,No,Yes,,Yes,,,,,,,Qt/C++
+DatabaseSpy,Altova,2019-04-02[±],2019r3[3],Proprietary software,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,," IBM DB2, IBM DB2, IBM DB2 ",C++
+Database Workbench,Upscene Productions,2017-06-29,5.3.2,Proprietary software,Yes,requires Wine (software),requires Wine (software),Yes,Yes,,Yes,Yes,,," InterBase, InterBase, InterBase, InterBase and InterBase ",Delphi (programming language)
+DataGrip,JetBrains,2017-09-06,2017.2.2,Proprietary software,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes," Sybase, Sybase, Sybase, Sybase, Sybase, Sybase ",Java (programming language)
+DBeaver,Serge Rider,2020-08-31,7.2.0,Apache License,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes," MySQL, MySQL, MySQL, MySQL, MySQL, MySQL, MySQL, MySQL all with MySQL driver ",Java (programming language)
+DBEdit,Jef Van Den Ouweland,2012-05-10,2.4.6,GPL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes," IBM DB2, IBM DB2, IBM DB2, IBM DB2 ",Java (programming language)
+Epictetus Database Client,Antilogic Software,?,?,Proprietary software,Yes,Yes,Yes,Yes,,Yes,Yes,,,," Sybase, Sybase/Sybase, Sybase, Sybase ",Java (programming language)
+HeidiSQL,Ansgar Becker,2020-03-17[±],11.0[5],GPL,Yes,requires Wine (software),requires Wine (software),,Yes,Yes,Yes,,,Yes,,Embarcadero Delphi
+Maatkit,Baron Schwartz,2010-06-01,5247,GPL,Yes,Yes,Yes,,Yes,,,,,,,Perl
+SQL Server Management Studio,Microsoft,2020-07-22[6],18.6,Proprietary software,Yes,No,No,,,,Yes,,,," including SSAS management, and MDX, DMX, and XMLA languages ",.NET Framework
+ModelRight,ModelRight,2016-12-??,4.1[7][8],Proprietary software,Yes,No,No,Yes,Yes,,Yes,Yes,,," Microsoft SQL Server, Microsoft SQL Server, Microsoft SQL Server, Microsoft SQL Server, Microsoft SQL Server, DB2/zOS, Microsoft SQL Server ",C++
+MySQL Workbench,Oracle Corporation,2020-04-05[±],8.0.20[9],Community Ed: GPL Standard Ed: Commercial Proprietary,Yes,Yes,Yes,,Yes,,,,,,,C++/C++ C++ C++
+Navicat,PremiumSoft CyberTech Ltd.,2020-04-15,15.0.13,Proprietary software,Yes,Yes,requires Wine (software),Yes,Yes,Yes,Yes,Yes,,Yes,,Embarcadero Delphi Embarcadero Delphi
+Navicat,PremiumSoft CyberTech Ltd.,2015-12-10,2.1,Proprietary software,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,Yes,,Embarcadero Delphi Embarcadero Delphi
+Oracle Enterprise Manager,Oracle Corporation,2015-06-16,12.1.0.5,Proprietary software,Yes,No,Yes,Yes,Yes,,Yes,,,," IBM DB2, IBM DB2, IBM DB2 ",Java (programming language)
+Oracle SQL Developer,Oracle Corporation,2018-04-05,18.1.0.095.1630,Proprietary software,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,," Microsoft Access, Microsoft Access, Microsoft Access, Microsoft Access ",Java (programming language)
+Orbada,Andrzej Kaluza,2016-12-06[±],1.2.5.395[10],GPL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes," FirebirdSQL, FirebirdSQL, FirebirdSQL, FirebirdSQL all with FirebirdSQL driver ",Java (programming language)
+PgAdmin III,pgAdmin Development Team,2020-03-05,4.19[11],PostgreSQL,Yes,Yes,Yes,,,Yes,,,,,,C++
+PhpLiteAdmin," Dane Iracleous, Christopher Kramer and others ",2019-09-05,1.9.8.2[12],GPL,Yes,Yes,Yes,No,No,No,No,No,No,Yes,,PHP
+PhpMyAdmin,phpMyAdmin Development Team,2020-03-21[±],5.0.2[13],GPL,Yes,Yes,Yes,,Yes,,,,,," Drizzle (database server), Drizzle (database server) ",Php
+SQL Database Studio,Jan Prochazka,2016-05-27,3.4.1,Proprietary software,Yes,No,No,No,No,No,Yes,,,,," .NET Framework, .NET Framework, .NET Framework "
+SQLyog,Webyog Softworks Pvt. Ltd.,2020-09-22[±],13.1.7[14],Gpl v2,Yes,requires Wine (software),requires Wine (software),,Yes,,,,,,,C++
+SQuirreL SQL Client," Colin Bell, Gerd Wagner, Rob Manning and others ",2019-09-09[±],4.0.0[15],GPLv2 &amp; GPLv22,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes," Microsoft Access,Axion Java RDBMS, Microsoft Access, Daffodil DB, FileMaker (JDBC), Microsoft Access, Microsoft Access, Microsoft Access, Microsoft Access, Microsoft Access, Microsoft Access, Microsoft Access, Microsoft Access, Microsoft Access, Microsoft Access, InstantDB, Microsoft Access, Mckoi SQL Database, Microsoft Access, Microsoft Access, Microsoft Access, Pointbase, Microsoft Access, Microsoft Access, Sunopsis XML Driver, Teradata Warehouse, ThinkSQL RDBMS, Vertica Analytic Database, and others with JDBC drivers. ",Java (programming language)
+Toad (software),Quest Software,Various,Various,Proprietary software,Yes,No,No,Yes,Yes,,Yes,Yes,,," IBM DB2, IBM DB2 "," Embarcadero Delphi, Embarcadero Delphi "
+Toad Data Modeler,Quest Software,2009-03-05,3.3.8,Proprietary software,Yes,No,No,Yes,Yes,Yes,Yes,,,," IBM DB2, IBM DB2, IBM DB2 ",Embarcadero Delphi
+TOra,Community,2017-07-04,3.2,GPL,Yes,Yes,Yes,Yes,Yes,Yes,,,,,Teradata,C++/C++

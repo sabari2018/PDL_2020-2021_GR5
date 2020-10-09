@@ -16,7 +16,7 @@ Gnus,yes,yes,yes,yes,yes,dunno,yes,dunno,yes,yes,yes,dunno,dunno,yes
 GroupWise,yes,yes,yes,yes,dunno,dunno,yes,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 Hiri,yes,yes,yes,yes,yes,dunno,yes,yes,yes,no,no,no,no,no
 i.Scribe / InScribe,Read-only,yes,yes,yes,no,dunno,yes,dunno,yes,no,no,no,no,no
-IBM Notes,yes,yes,yes,yes,yes,yes,group=NoteNotesThread,dunno,yes,yes (4.1.2+),yes,yes,yes,yes
+HCL Notes,yes,yes,yes,yes,yes,yes,group=NoteNotesThread,dunno,yes,yes (4.1.2+),yes,yes,yes,yes
 KMail,yes,yes,yes,yes,dunno,dunno,yes,yes,yes (with GPG)," yes (1.5+, with GPGME)",yes,yes,yes,dunno
 Mailbird,yes,yes,yes,yes,yes,yes,yes,yes,dunno,no,no,no,no,no
 Mailpile,dunno,yes,dunno,dunno,dunno,dunno,dunno,yes,dunno,yes,dunno,dunno,dunno,dunno

@@ -2,7 +2,7 @@ Firewall,License,Cost,OS
 Clavister,Proprietary,Included on all ClavisterNGFWs,Proprietary operating system cOS Core
 Check Point,Proprietary,Included on Check Pointsecurity gateways,Proprietary operating system Check Point IPSOand Gaia (Linux-based)
 FortiGate,Proprietary,Included on all Fortigatedevices," Proprietary, FortiOS, Based on the Linux kernel"
-Palo Alto Networks,Proprietary,Included on Palo AltoNetworks firewalls,Linux
+Palo Alto Networks,Proprietary,Included on Palo AltoNetworks firewalls," Proprietary, PAN-OS, Based on the Linux kernel"
 Sophos,Proprietary,Included on Sophos UTM,Linux-based appliance
 Cisco ASA Firepower,Proprietary,Included on all CISCOASA devices,Proprietary operating system
 Cisco PIX,Proprietary,Included on all CISCOPIX devices,Proprietary operating system

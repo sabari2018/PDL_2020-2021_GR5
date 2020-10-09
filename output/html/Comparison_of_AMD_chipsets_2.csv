@@ -1,0 +1,24 @@
+Model,Codename,Released,CPU support,Fabrication process (Fabrication process),HyperTransport (MHz),Graphics processing unit,ATI CrossFire,Southbridge,Features / Notes
+AMD AMD 580 chipset series chipset (originally CrossFire Xpress 1600),RD480,Oct 2006," Athlon 64, Sempron ",110,1000 (HT 2.0),No,x8 + x8," SB600, ULi-M1575",
+AMD AMD 580 chipset series chipset (originally CrossFire Xpress 3100),RD570,Jun 2007," AMD Phenom,AMD Phenom Athlon 64, Sempron ",,1000 HT 2.0),No,x16 + x8,SB600,
+AMD AMD 580 chipset series chipset (originally CrossFire Xpress 3200),RD580,Oct 2006,,,,,x16 + x16,,
+,,,,,,,,,
+AMD AMD 690 chipset series chipset,RS690C,Feb 2007," Athlon 64, Sempron ",80,1000 (HT 2.0),Radeon X1200 (350MHz),No,SB600," DirectX 9.0, DirectX, DirectX/DirectX, no DirectX "
+AMD AMD 690 chipset series chipset,RS690,," Phenom, Athlon 64,  Sempron ",,,Radeon X1250 (400MHz),,," DirectX 9.0, AVIVO, HDMI/HDCP "
+AMD AMD 690 chipset series chipset,RS690MC,Feb 2007," Turion 64 X2, Turion 64 X2 ",80,800 (HT 2.0),Radeon X1200 (350 MHz),No,SB600," DirectX 9.0, AVIVO, DVI, HDMI/HDCP, no LVDS, Powerplay 7.0 "
+AMD AMD 690 chipset series chipset,RS690M,,,,,Radeon X1250 (350 MHz),,," DirectX 9.0, AVIVO, DVI/HDCP, no HDMI, Powerplay 7.0 "
+AMD AMD 690 chipset series chipset,RS690T,Feb 2007," Athlon Neo, Mobile Sempron ",80,800 (HT 2.0),Radeon X1250 (350Mhz),No,SB600," DirectX 9.0, AVIVO, 2× HDMI/HDMI, Powerplay 7.0 "
+AMD AMD 690 chipset series chipset,,," Turion 64 X2, Turion 64 X2 ",,,Radeon X1270 (400Mhz),,," DirectX 9.0, AVIVO, HDMI/HDMI, Powerplay 7.0 "
+AMD AMD 700 chipset series chipset,RX740,2008," Athlon 64, Phenom, Sempron ",55,1000 (HT 2.0),No,No," SB600, SB700, SB750 ",Single PCIe 1.1 x16
+AMD AMD 700 chipset series chipset,RS740,,,,,Radeon 2100,,," DirectX 9.0, AVIVO, HDMI/HDMI, OR single PCIe 1.1 x16 "
+AMD AMD 700 chipset series chipset,RS780L,2009," Athlon 64,  Phenom, Sempron ",55,2600 (HT 3.0),Radeon 3000,Hybrid,SB710," Direct3D, AVIVO HD, Direct3D/Direct3D, OR single PCIe 2.0 x16 "
+AMD AMD 700 chipset series chipset,RX780,2008," Athlon 64, Phenom, Sempron ",65,2600 (HT 3.0),No,No," SB600, SB700, SB710, SB750 ",Single PCIe 2.0 x16
+AMD AMD 700 chipset series chipset,RS780C,2008," Athlon 64, Phenom, Sempron ",55,2600 (HT 3.0),Radeon 3100,No," SB700, SB710, SB750 "," Direct3D, AVIVO HD, Direct3D/Direct3D, Direct3D/DPCP, OR single PCIe 2.0 x16 "
+AMD AMD 700 chipset series chipset,RS780I,,,,,Radeon HD 3200,Hybrid,," Direct3D, UVD+, Direct3D/Direct3D, Direct3D/DPCP, Side-port memory, OR single PCIe 2.0 x16 "
+AMD AMD 700 chipset series chipset,RS780MC,2008," Mobile Turion, Mobile Athlon, Athlon Neo ",55,2600 (HT 3.0),Radeon 3100,AMD 700 chipset series AMD 700 chipset series/AMD 700 chipset series," SB600, SB700, SB710 "," Direct3D, UVD+, Direct3D/Direct3D, Direct3D, Direct3D, Direct3D, OR single PCIe 2.0 x16 Direct3D, Direct3D  "
+AMD AMD 700 chipset series chipset,RS780M,,,,,Radeon HD 3200,,,
+AMD AMD 700 chipset series chipset,RS880,2009," Athlon 64, Phenom, Sempron ",55,2600 (HT 3.0),Radeon HD 4200," Hybrid, x16 + x4 "," SB710, SB750, SB810, SB850 "," Direct3D, UVD2, Side-port memory, Direct3D/Direct3D, Direct3D/DPCP, OR two PCIe 2.0 x16 TDP: 11 W (500 MHz), 3 W in PowerPlay "
+785E,RS785E,,,55,2200 (HT 3.0),Radeon HD 4200,Hybrid," SB810, SB850, SB820M ",
+AMD AMD 700 chipset series chipset,RS780D,2008," Athlon 64, Phenom, Sempron ",55,2600 (HT 3.0),Radeon HD 3300," Hybrid, x8 + x8[4] ",SB750," Direct3D, UVD+, Side-port memory, Direct3D/Direct3D, Direct3D/DPCP, OR two PCIe 2.0 x16 "
+AMD AMD 700 chipset series chipset,RD780,2008," Athlon 64, Phenom, Sempron ",65,2600 (HT 3.0),No,x8 + x8," SB600, SB700, SB750, SB850 ",Two PCIe 2.0 x16
+AMD AMD 700 chipset series chipset,RD790,Nov 2007," Athlon 64, Phenom, Sempron ",65,2600 (HT 3.0),No,CrossFire X (dual x16 or quad x8)," SB600, SB750, SB850 "," Up to four PCIe 2.0 x16 Support for AMD Quad FX platform ( FASN8 ), Dual socket enthusiast platform with AMD Quad FX platform, optional single socket variant, 720-pin 1.1 AMD Quad FX platform AMD Quad FX platform "

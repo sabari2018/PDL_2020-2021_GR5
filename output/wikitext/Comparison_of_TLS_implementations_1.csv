@@ -10,7 +10,7 @@ MatrixSSL,PeerSec Networks,yes,GNU GPLv2+ and commercial license,PeerSec Network
 Mbed TLS (previously PolarSSL),Arm,yes,GNU GPLv2+ and commercial license,Arm Holdings,C,Latest stable software release/Mbed TLS,EU (Netherlands)
 Network Security Services (NSS)," Sun, Oracle, Google and others",yes,MPL 2.0,NSS contributors," C, assembly",Latest stable software release/Network Security Services,US
 OpenSSL,OpenSSL project,yes,OpenSSL-SSLeay dual-license," Eric Young, Tim Hudson, Sun, OpenSSL project, and others"," C, assembly",Latest stable software release/OpenSSL,Australia/EU
-RSA BSAFE,RSA Security,no,proprietary,RSA Security," Java, C, assembly",SSL-J Latest stable software release/RSA BSAFE SSL-J Micro Edition Suite Latest stable software release/RSA BSAFE Micro Edition Suite,Australia
+RSA BSAFE," Dell, formerly RSA Security",no,proprietary,Dell," Java, C, assembly",SSL-J Latest stable software release/RSA BSAFE SSL-J Micro Edition Suite Latest stable software release/RSA BSAFE Micro Edition Suite,Australia
 S2n,Amazon,yes,GNU GPLv2+ and commercial license," Amazon, Inc.",C,Continuous,US
 SChannel,Microsoft,no,proprietary,Microsoft Inc.,," Windows 10, 2015-07-29",US
 Secure Transport,Apple Inc.,Yes,APSL 2.0,Apple Inc.,," 57337.20.44 (OS X 10.11.2), 2015-12-08",US

@@ -6,7 +6,7 @@ cdist,Python,GPLv3+,yes
 Chef," Ruby, Erlang",Apache 2.0,yes,yes,yes,no,yes,2009-01-15 0.5.0," 2019-01-28 14.10.9 (client), 2018-02-13 12.17.33 (server)"
 CFEngine,C,GPLv3,yes,yes,no,yes,1993,"  2020-06-23 3.16.0, 2020-06-02 3.15.2, 2020-06-02 3.12.5"
 ISconf,Python,GPL,yes,no,,,,1998,2006-08-13 4.2.8.233
-Juju," Python, Go",Affero General Public License,yes,2010-09-17,2020-06-04 2.8.0
+Juju," Python, Go",Affero General Public License,yes,2010-09-17,2020-10-07 2.8.5
 Local ConFiGuration system (LCFG),Perl,GPL,partial,partial,no,no,no,1994,Weekly Releases
 NOC,Python,BSD License 2.0,yes
 OCS Inventory NG with GLPI," Perl, PHP, C++",GPL,no,yes

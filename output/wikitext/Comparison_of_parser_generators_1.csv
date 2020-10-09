@@ -1,6 +1,7 @@
 Name,Lexer algorithm,Output languages," Grammar, code ",Development platform,License
 Alex,DFA,Haskell,Mixed,All," Free, BSD"
 AnnoFlex,DFA,Java,Mixed,Java virtual machine," Free, BSD"
+Astir," DFA table driven, with branching ",C++,Only grammar (actioned),All," Free, MIT"
 AustenX,DFA,Java,Separate,All," Free, BSD"
 C# Flex,DFA,C#,Mixed,.NET CLR," Free, GNU GPL"
 C# Lex,DFA,C#,Mixed,.NET CLR,?

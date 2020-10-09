@@ -1,0 +1,43 @@
+Name,Software license,Can reside in,,,,Can boot from,,,,,,,,Can boot,,,,,,,,
+,,EFI System partition (UEFI),Master boot record,Volume boot record,Floppy,Hard disk,Second Hard disk,Logical disk,CD-ROM,Floppy disk,Universal Serial Bus,Zip drive,Local area network,MS-DOS,Windows 9x/Windows 9x,Windows NT,Windows Vista/Windows Vista/Windows Vista/Windows Vista,Linux,ReactOS,MenuetOS,*BSD,Mac OS X
+Acronis Disk Director Suite,Proprietary software,?,?,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,?,?,Yes,Yes
+AiR-BOOT,GNU General Public License,?,Yes,No,?,?,?,?,?,?,?,?,?,Yes,Yes,Yes,Yes,Yes,?,?,?,?
+AKernelLoader (page does not exist),GNU General Public License,?,Yes,No,Yes,Yes,Yes,Yes,?,Yes,Yes,?,?,?,?,?,?,Yes,?,?,?,?
+Barebox,GNU General Public License,Yes,Yes,No,?,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,?,?,?,?,Yes,?,?,?,?
+BOOTBOOT,MIT licence,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,?,?,?,?
+Boot Manager,Proprietary software,No,No,No,No,Yes,Yes,Yes,No,No,?,?,No,Yes,Yes,Yes,Yes,Yes,?,?,?,?
+BootIt Bare Metal (formerly BootIt Next Generation),Proprietary software,?,?,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,?,?,?,?
+BootKey,Proprietary software,?,No,No,Yes,No,No,No,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,?,?,?,?
+Bootmanager,MIT License,?,Yes,No,No,Yes,?,?,?,?,?,?,No,Yes,Yes,Calls NTLDR,Calls Windows Boot Manager,Calls GRUB or GRUB,?,?,?,?
+BootX (Apple),Proprietary software,?,?,?,?,Yes,?,?,?,?,?,?,Yes,?,?,?,?,?,?,?,?,Yes
+BootX (Linux),Proprietary software,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,Yes,?,?,?,?
+Clover EFI bootloader (page does not exist) (fork of rEFIt),GNU General Public License/GNU General Public License,Yes,Yes,Yes,Yes,Yes,Yes,?,No,?,Yes,?,No,?,?,Yes,Yes,Yes,?,?,Yes,Yes
+Darwin Boot Loader,Apple Public Source License,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,Yes,Yes
+Das U-Boot,GNU General Public License,?,?,?,?,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,?,?,?,?,Yes,?,?,Yes (FreeBSD),?
+GAG (boot loader) (page does not exist),GNU General Public License+,?,Yes (SafeBoot),No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Calls NTLDR,Calls Windows Boot Manager,Calls GRUB or LILO,Calls bootloader,Calls bootloader,Calls bootloader,No
+GNU GRUB,GNU General Public License+,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Calls NTLDR,Calls Windows Boot Manager,Yes,Calls FreeLoader (page does not exist),Yes,Yes,Yes
+GNU GRUB,GNU General Public License,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Calls NTLDR,Calls Windows Boot Manager,Yes,Calls FreeLoader (page does not exist),Yes,Yes,Yes
+Grub2Win (page does not exist),GNU General Public License,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Calls NTLDR,Calls Windows Boot Manager,Yes,?,?,Yes (FreeBSD),Calls Clover
+GRUB4DOS,GNU General Public License+,?,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Calls NTLDR,Calls Windows Boot Manager,Yes,?,?,?,?
+Gujin Gujin,GNU General Public License,?,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Calls NTLDR,Yes,Yes,?,?,?,?
+Gummiboot (software),GNU Lesser General Public License,Yes,No,No,No,Yes,Yes,Yes,?,?,Yes,?,?,No,No,Windows Server 2013 64bits with UEFI only,Calls Windows Boot Manager[1],Yes,?,?,UEFI only,Yes[1]
+IBoot (Bootloader),Proprietary software,Yes,?,?,?,Yes,?,Yes,Yes,?,?,?,?,?,?,?,?,?,?,?,?,Yes
+LILO (boot loader),BSD licenses,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,?,Yes,Calls NTLDR,Yes,Yes,?,?," Calls biosboot (FreeBSD, PC-BSD, ...) ",?
+loader(8),BSD licenses,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,?,?,?,?,?,?,?," Yes (FreeBSD, FreeBSD) ",?
+Loadlin,GNU General Public License+,?,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No,No,?,?
+MasterBooter,Proprietary software,?,Yes,?,?,Yes,Yes,Yes,?,Yes,?,?,?,Yes,Yes,Yes,Yes,Yes,?,?,Yes,?
+NTLDR,Proprietary software,?,No,Yes,Yes,Yes,?,No,No,Yes,Yes,?,?,Yes,Yes,Yes,No,Calls GRUB4DOS,?,?,?,Calls Darwin bootloader[2]
+OSL2000 Boot Manager (page does not exist),Proprietary software,?,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Calls GRUB or LILO,?,?,?,?
+PLoP Bootmanager,Proprietary software,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Calls GRUB or LILO,?,?,?,?
+RedBoot,GNU General Public License+,?,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Calls NTLDR,Calls Windows Boot Manager,Yes,Calls FreeLoader (page does not exist),Yes,Yes,Yes
+REFInd (fork of rEFIt),GNU General Public License/GNU General Public License,Yes,No,No,No,Yes,Yes,?,Yes,?,Yes,?,Yes,?,?,Yes,Yes,Yes,?,?,Yes,Yes
+REFIt (not maintained),GNU General Public License/GNU General Public License,Yes,No,No,No,Yes,Yes,?,No,?,Yes,?,No,?,?,Yes,Yes,Yes,?,?,Yes,Yes
+Smart Boot Manager,GNU General Public License+,?,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,?,?,?,Yes,Yes,Yes,?,Yes,?,?,Yes,?
+SPFdisk,GNU General Public License+,?,Yes,Yes,Yes,Yes,Yes,?,?,Yes,?,?,?,Yes,Yes,?,?,?,?,?,?,?
+SYSLINUX,GNU General Public License+,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Calls NTLDR,Calls Windows Boot Manager,Yes,?,Yes,via mboot.c32 module [2],?
+Tianocore EDK II,BSD licenses,?,No,No,No,Yes,Yes,?,Yes,?,Yes,No,Yes,No,No,No,Yes,Yes,No,?," Yes (FreeBSD,OpenBSD) ",Yes
+XOSL,GNU General Public License,?,No,No,Yes,Yes,Yes,Yes,Yes,?,No,?,No,Yes,Yes,Yes,Yes,Yes,?,?,?,?
+Windows Boot Manager,Proprietary software,Yes,No,Yes,No,Yes,Yes,?,Yes,Yes,Yes,Yes,?,?,Yes,Calls NTLDR,Yes,Calls GRUB or LILO,?,?,?,?
+FreeLoader (page does not exist) (ReactOS Boot Loader),GNU General Public License+,?,No,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,?,Yes,Yes,Partial[3],Calls Windows Boot Manager,Yes,Yes,?,?,?
+Name,Software license,Can reside in,,,,Can boot from,,,,,,,,Can boot,,,,,,,,
+,,EFI System partition (UEFI),Master boot record,Volume boot record,Floppy,Hard disk,Second hard disk,Logical disk,CD-ROM,Floppy disk,Universal Serial Bus,Zip drive,Local area network,MS-DOS,Windows 9x/Windows 9x,Windows NT,Windows Vista/Windows Vista/Windows Vista,Linux,ReactOS,MenuetOS,*BSD,Mac OS X

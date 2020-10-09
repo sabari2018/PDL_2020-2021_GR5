@@ -1,0 +1,28 @@
+Audio player,Advanced Stream Redirector,M3U,PLS (file format),XML Shareable Playlist Format,Cue sheet (computing)
+AIMP,Yes,Yes,Yes,Yes,Yes
+Amarok (audio),Yes,Yes,Yes,Yes,Yes
+Audacious (software),Partial,Yes,Yes,Yes,Yes
+Audion (software),?,?,?,?,?
+Clementine (software),Yes,Yes,Yes,Yes,Yes
+Cmus,No,Yes,Yes,No,?
+Cog (software),?,?,?,?,?
+Exaile,Yes,Yes,Yes,Yes,?
+Foobar2000,Yes,Yes,Yes,Yes,Yes
+ITunes,No,Yes,?,?,No
+JRiver Media Center,Yes,Yes,Yes,Yes,Yes
+JuK,?,?,?,?,?
+MediaMonkey,?,Yes,?,No,?
+MPXPLAY,?,Yes,Yes,?,Yes
+MusicBee,Yes,Yes,Yes,Yes,Yes
+Musicmatch Jukebox,?,Yes,?,?,?
+MusikCube,?,?,?,?,?
+Quod Libet (software),Partial,Yes,Yes,No,?
+Rhapsody (online music service),?,?,?,?,?
+Rhythmbox,?,?,Yes,?,No
+Sayonara Player,?,Yes,?,?,?
+Sonique (media player),?,Yes,Yes,?,?
+SpotifySpotify,No,No,No,No,No
+Winamp,Yes,Yes,Yes,Yes,?
+XMMS,?,Yes,Yes,?,?
+Zinf,?,?,?,No,?
+Audio player,asx/wax/wvx,M3U,pls,XSPF,CUE

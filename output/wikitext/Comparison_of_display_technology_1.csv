@@ -20,7 +20,7 @@ LED,Flat,279.92,711,TV,yes
 SED,Flat,55,140," Computer monitor, TV",yes
 FED,Flat,dunno,dunno," Computer monitor, TV",yes
 EPD (e-paper),Flat (flexible),dunno,dunno,Electronic paper,yes
-OLED," Any, but most commonly flat rectangular with or without rounded edges, notch(es) and holes, circular, or curved (flexible)",88,195.58," Computer monitor, TV, Mobile phone",yes
+OLED," Any, but most commonly flat rectangular with or without rounded edges, notch(es) and holes, circular, or curved (flexible)",88,223.52," Computer monitor, TV, Mobile phone",yes
 LED LCD," Flat rectangular, circular, semi circle",80,203,"  TV,  Computer monitor",yes
 QLED LCD,Curved or Flat,80,203,"  TV,  Computer monitor",yes
 Telescopic pixel display,,,,,

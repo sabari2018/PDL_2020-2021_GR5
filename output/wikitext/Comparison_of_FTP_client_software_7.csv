@@ -1,4 +1,4 @@
-Client,FTP,FTP over SSH,SFTP,FTPS (FTP over SSL),FXP (Site2site transfer),DAV / HTTP(S),Compression,Remote Compression,API / Commandline available,Resume Download,Passive mode,Parallel Transfer,Segmented Downloads
+Client,FTP,FTP over SSH,SFTP,FTPS (FTP over SSL),FXP (Site2site transfer),DAV / HTTP(S),Compression,Mode Z / Remote Compression,API / Commandline available,Resume Download,Passive mode,Parallel Transfer,Segmented Downloads
 AbsoluteTelnet,no,no,yes,no,no,no,yes,yes,dunno,dunno,dunno,dunno,dunno
 ALFTP,yes,no,no,yes,no,no,no,dunno,dunno,dunno,dunno,dunno,dunno
 Beyond Compare,yes,no,yes (Pro only),yes (Pro only),no,yes (Pro only),yes,yes,yes,yes,yes,dunno,dunno
@@ -34,6 +34,7 @@ Macfusion,yes,dunno,yes,no,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno,dunno
 NcFTP,yes,no,no,dunno,dunno,dunno,no,dunno,yes,dunno,yes,dunno,dunno
 pbFtpClient,yes,yes,yes,yes,no,no,yes,no,dunno,dunno,dunno,dunno,dunno
 PSFTP (PuTTY),no,no,yes,no,no,no,no,no,yes,yes,dunno,dunno,dunno
+Rclone,yes,no,yes,yes,no,yes,yes,yes,yes,no,yes,yes,yes
 Secure FTP,yes,no,no,yes,no,no,yes,yes,yes,dunno,dunno,dunno,dunno
 SmartFTP,yes,yes,yes,yes,yes,yes,yes,no,yes,yes,yes,dunno,Yes
 Steed,yes,no,yes,yes,no,no,no,no,no,dunno,yes,dunno,dunno
@@ -46,4 +47,4 @@ WinSCP,yes,yes,yes,yes,no,yes,yes (SFTP only),yes (SCP command),yes,yes,yes,yes,
 WISE-FTP,yes,no,yes,yes,yes,no,yes,yes,dunno,dunno,dunno,dunno,dunno
 WS_FTP,yes,yes (Pro only),yes (Pro only),yes,yes (Pro only),yes,yes (Pro only),no,yes (Pro only),yes (Pro only),yes,dunno,dunno
 Yummy FTP,yes,no,yes,yes,yes,yes,yes,yes,yes (AppleScript),yes,yes,dunno,dunno
-Client,FTP,FTP over SSH,SFTP,FTPS (FTP over SSL),FXP (Site2site transfer),DAV / HTTP(S),Compression,Remote Compression,API / Commandline available,Resume Download,Passive mode,Parallel Transfer,Segmented Downloads
+Client,FTP,FTP over SSH,SFTP,FTPS (FTP over SSL),FXP (Site2site transfer),DAV / HTTP(S),Compression,Mode Z / Remote Compression,API / Commandline available,Resume Download,Passive mode,Parallel Transfer,Segmented Downloads

@@ -16,7 +16,7 @@ Fluxbox,C++,MIT,Stacking,yes,third-party,yes,yes,yes,yes,yes,16,2001-09-12,2015-
 FLWM,C++ (FLTK),GPL,Stacking,,no,yes,,There is a window list menu,no,No,,1998,
 FVWM,C,GPL,Dynamic,yes,no,yes,yes,yes,yes,third-party,4,1993-06-01,
 i3,C,BSD,Dynamic,no2no titlebar buttons,no,yes,yes,no,yes,yes,3,2009-03-15,
-IceWM,C++,LGPL,Stacking,yes,third-party,yes,yes,yes,no,yes,4.5,1997,2019-03-27
+IceWM,C++,LGPL,Stacking,yes,third-party,yes,yes,yes,no,yes,4.5,1997,2020-09-17
 Ion," C, Lua",LGPL with naming restrictions on modified versions,Tiling,no2no titlebar buttons,no,yes,,no,yes,yes,,2000,2009-01-10
 JWM,C,MIT (Formerly GPL),Stacking,yes,third-party,yes,EWMH,yes,no,yes,3,2003,
 KWin (KDE),Qt),GPL,Compositing,yes,yes,yes,yes,yes,yes,yes,41,,2019-01

@@ -1,0 +1,61 @@
+Programming language,Array data type,Specifiable index type[13],Specifiable base index,Bounds checking,Array data type,Dynamically-sized,Array programming
+Ada (programming language),index type[14],yes,yes,checked,yes,init[15]," some, others definable[16] "
+ALGOL 68,1,no[17],yes,varies,yes,yes,user definable
+APL (programming language),1,?,0 or 1[18],checked,yes,yes,yes
+AWK,1," yes, implicitly ",no,unchecked," yes, as delimited string "," yes, rehashed ",no
+BASIC,0,?,no,checked,no,init[15],?
+C (programming language),0,no,no[19],unchecked,partially," init,[15][20] heap[21] ",no
+Ch (computer programming),0,no,no,checked," yes, also array of array[22] "," init,[15][20] heap[21] ",yes
+C++C++,0,no,no[19],unchecked," yes, also array of array[22] ",heap[21],no
+C Sharp (programming language),0,no,partial[23],checked,yes,heap[21][24],yes (LINQ select)
+CFML,1,no,no,checked," yes, also array of array[22] ",yes,no
+COBOL,1,no[25],no,checked,array of array[22][26],no[27],some intrinsics
+Cobra (programming language),0,no,no,checked,array of array[22],heap,?
+Common Lisp,0,?,no,checked[28],yes,yes,yes (map or map-into)
+D (programming language),0,yes[29],no,varies[30],yes,yes,?
+F Sharp (programming language),0,no,partial[23],checked,yes,heap[21][24],yes (map)
+FreeBASIC,0,no,yes,checked,yes," init,[15] init[31] ",?
+Fortran,1,yes,yes,varies[32],yes,yes,yes
+FoxPro,1,?,no,checked,yes,yes,?
+Go (programming language),0,no,no,checked,array of array[22],no[33],no
+Hack (programming language),0,yes,yes,checked,yes,yes,yes
+Haskell (programming language),0,yes[34],yes,checked," yes, also array of array[22] ",init[15],?
+IDL (programming language),0,?,no,checked,yes,yes,yes
+ISLISP,0,?,no,checked,yes,init[15],yes (map or map-into)
+J (programming language),0,?,no,checked,yes,yes,yes
+Java (programming language)Java (programming language),0,no,no,checked,array of array[22],init[15],?
+JavaScript,0,no,no,checked[35],array of array[22],yes,yes
+Julia (programming language),1,yes,yes,checked,yes,yes,yes
+Lingo (programming language),1,?,?,unchecked,yes,yes,yes
+Lua (programming language),1,?,partial[36],checked,array of array[22],yes,?
+Mathematica,1,no,no,checked,yes,yes,yes
+MATLAB,1,?,no,checked,yes[37],yes,yes
+Nim (programming language),0,yes[38],yes,optional[39],array of array[22],yes,yes[40]
+Oberon (programming language),0,?,no,checked,yes,no,?
+Oberon-2,0,?,no,checked,yes,yes,?
+Objective-CObjective-C,0,no,no,checked,array of array[22],yes,no
+OCaml,0,no,no,checked by default,array of array[22],init[15],?
+" Pascal (programming language), Pascal (programming language) ",index type[14],yes,yes,varies[41],yes,varies[42],some
+Perl,0,no,yes ($[),checked[35],array of array[22],yes,no[43]
+Raku (programming language),0,no,no,checked[35],yes,yes,yes
+PHP,0,yes[44],yes[44],checked[44],yes,yes,yes
+PL/I,1,?,yes,checked,yes,no,?
+Python (programming language),0,no,no,checked,array of array[22],yes,no[45]
+IBM RPG,1,no,no,?,no,no,?
+R (programming language),1,?,?,?,?,?,?
+Ring (programming language) (page does not exist),1,?,partial[36],checked,array of array[22],yes,?
+Ruby (programming language),0,no,no,checked[35],array of array[22],yes,?
+Rust (programming language),0,no,no,checked,yes,?,?
+Sass (stylesheet language),1,no,no,checked,array of array[22],init[30],?
+S-Lang (programming library),0,?,no,checked,yes,yes,yes
+Scala (programming language),0,no,no,checked,array of array[22],init[15],yes (map)
+Scheme (programming language),0,?,no,checked,array of array[22],init[15],yes (map)
+SmalltalkSmalltalk,1,?,no,checked,array of array[22],yes[46],?
+Swift (programming language),0,no,no,checked,array of array[22],yes,?
+Visual Basic,0,no,yes,checked,yes,yes,?
+Visual Basic .NET,0,no,partial[23],checked,yes,yes,yes (LINQ select)
+Wolfram Language,1,no,no,checked,yes,yes,yes
+Windows PowerShell,0,no,no,checked,yes,heap,?
+Xojo,0,no,no,checked,yes,yes,no
+XPath/XPath,1,no,no,checked,array of array[4][22],yes,yes
+Programming language,Default base index,Specifiable index type[13],Specifiable base index,Bound check,Multidimensional,Dynamically-sized,Vectorized operations

@@ -1,0 +1,52 @@
+Client,Microsoft Windows,MacOS,Linux,BSD,Unix,DOS,Other
+Alpine (email client),Yes,Yes,Yes,Yes,Yes,No,No
+Apple Mail,No,Yes,No,No,No,No,No
+Balsa (email client),No,No,Yes,Yes,No,No,No
+Becky!,Yes,No,No,No,No,No,No
+Citadel/UX,No,Yes,Yes,Yes,Yes,No,No
+Claws Mail,Yes,Yes,Yes,Yes,Yes,No,No
+Cone (software),No,Yes,Yes,Yes,Yes,No,No
+Courier (email client),Yes,No,No,No,No,No,No
+Elm (email client),No,Yes,Yes,Yes,Yes,No,No
+EM Client,Yes,Yes,No,No,No,No,No
+EmailTray,Yes,No,No,No,No,No,No
+Eudora (email client),Yes,Yes,No,No,No,No,No
+Evolution (software),No [Note 1],No,Yes,Yes,Yes,No,No
+Forté Agent,Yes,No,No,No,No,No,No
+Geary (software),No,No,Yes,Yes,Yes,No,No
+Gnus,Yes,Yes,Yes,Yes,Yes,Yes,No
+GroupWise,Yes,Yes,Yes,Yes,No,No,No
+Hiri (email client),Yes,Yes,Yes,No,Yes,No,No
+Scribe Mail,Yes,Yes,Yes,No,No,No,No
+IBM Lotus Notes,Yes,Yes,Yes,No,Yes,No,No
+Internet Messaging Program,Yes,Yes,Yes,Yes,Yes,No,No
+KMail,No,Yes,Yes,Yes,Yes,No,No
+Mailbird,Yes,No,No,No,No,No,No
+Mailpile,Yes [Note 2],Yes [Note 2],Yes,Yes [Note 3],Yes [Note 3],No [Note 4],No [Note 4]
+Mailx,No,No,Yes,Yes,Yes,No,No
+Microsoft Entourage,No,Terminated (2008),No,No,No,No,No
+Microsoft Office Outlook,Yes,Yes,No,No,No,No,No
+Mozilla Mail &amp; Newsgroups,Terminated (1.7.13),,,,,No,No
+Mozilla Thunderbird,Yes,Yes,Yes,Yes,Yes,No,No
+Mulberry (email client),Yes,Yes,Yes,Yes,Yes,No,No
+Mutt (email client),Yes,Yes,Yes,Yes,Yes,Yes[23],No
+Netscape Messenger,Terminated (4.80),,,,,No,No
+Netscape Messenger 9,Terminated (9.0a1),,,,,No,No
+MH Message Handling System,No,Yes,Yes,Yes,Yes,No,No
+Opera Mail,Yes,Yes,Yes,Yes,?,No,No
+Outlook Express,Included (up to XP),No,No,No,No,No,No
+Pegasus Mail,Yes,No,No,No,No,Yes,NetWare NetWare
+Pine (email client),Yes,Yes,Yes,Yes,Yes,Terminated (3.96)[24],No
+Pocomail,Yes,No,No,No,No,No,No
+RoundCube,Yes,Yes,Yes,Yes,Yes,No,No
+SeaMonkey Mail &amp; Newsgroups,Yes,Yes,Yes,Yes,Yes,No,No
+Spicebird,Yes,planned,Yes,Yes,No,No,No
+SquirrelMail,Yes,Yes,Yes,Yes,Yes,No,No
+Sylpheed,Yes,Yes,Yes,Yes,Yes,No,No
+The Bat!,Yes,No,No,No,No,No,No
+Trojitá,Yes,Yes,Yes,Yes,Yes,No,MeeGo
+Turnpike (software),Yes,No,No,No,No,No,No
+Windows Live Mail,Yes,No,No,No,No,No,No
+Windows Mail,Included (Vista),No,No,No,No,No,No
+YAM (Yet Another Mailer),No,No,No,No,No,No,AmigaOS AmigaOS AmigaOS
+Zimbra,Yes,Yes,Yes,Yes,Yes,No,No

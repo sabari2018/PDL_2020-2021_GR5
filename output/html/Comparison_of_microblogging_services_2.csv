@@ -1,0 +1,9 @@
+Service,Tag (metadata)Tag (metadata),Groups,Conversation[Note 2],Private[Note 3],Private following list,RSS,Atom (standard),Bookmarklet
+Tumblr,Yes,No,No,Yes,Yes,Yes,No,?
+Facebook,Yes,Yes,Yes,Yes,?,Yes,No,?
+GNU social,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[8]
+Loforo (page does not exist) Loforo (page does not exist),Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[10]
+Twitter,Yes,No,Yes,Yes,Yes,No[11],No[11],No
+Mastodon Social,Yes,No,Yes,Yes,?,No,Yes,No
+Misskey,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+Micro.blog,Yes,No,Yes,No,?,Yes,No,No

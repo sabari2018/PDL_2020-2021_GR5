@@ -10,5 +10,6 @@ lftp,Alexander V. Lukyanov,1996 (August),Latest stable software release/lftp,GPL
 Macfusion,Michael Gorbach,0 ?,2.0.4,BSD,dunno,GUI
 NcFTP,NcFTP Software Inc.,1991,3.2.6  20161127,Clarified Artistic License,yes,CLI
 net2ftp,David C. Gartner,2003 (January),0.98 20130301,GPL,dunno,Web application
+Rclone,Nick Craig-Wood,2014 (July),1.53.1 20200913,MIT,yes,CLI
 tnftp,Luke Mewburn,1999,20151004 20151004,BSD,yes,CLI
 WinSCP,Martin Přikryl,2000,Latest stable software release/WinSCP,GPL,yes,GUI and CLI

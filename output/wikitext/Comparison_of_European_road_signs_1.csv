@@ -2,6 +2,7 @@ Country,Motorways,Expressways,Primary roads,," scope=""col""  Secondary roads","
 outside urban area,,,,,,
 ,,," scope=""row""  Austria",Salzburg,Wien,Villach,,style="background:#EAECF0; color:black" | n/a,| Salzkammergut,,,style="background:#FFF100; color:black" | Umleitung
 " scope=""row""  Czechia",BRNO,PRAHA,VYŠKOV,,n/a,SLOVANY,Letiště,Hrad Bouzov,style="background:#F6821F; color:black" | PRAHA
+"scope=""row""Denmark",Aarhus,Aarhus,Skanderborg,,,,Stadion,Himmelbjerget,style="background:#FFD90F; color:black; border: 2px solid black" | Nakskov
 " scope=""row""  Finland",HELSINKIHELSINGFORS,LAPPEENRANTA,PORVOOBORGÅ,,n/a,KYMINLINNA,Kirjasto,Hiidenkivi,style="background:#FFD90F; color:black" | TURKU
 " scope=""row""  France",PARIS,MARSEILLE,BEAUVAIS,TOULON,LA CHAPPELLE,n/a,Gare S.N.C.F.,PARC NATUREL,Déviation
 " scope=""row""  Germany",Hamburg,Freiburg,Lübeck,,n/a,,Bahnhof,Burg Eltz,style="background:#EFCA30; color:black" | Umleitung
@@ -11,7 +12,7 @@ outside urban area,,,,,,
 " scope=""row""  Liechtenstein",(CH) St. Gallen,(CH) Chur,Schaan,,Vaduz,n/a,Bahnhof," style=""background:#712E1A; color:white; font-family:Georgia, serif; font-style:italic; font-weight:500  Burg",style="background:#F68526; color:black; font-family:ASTRA-Frutiger; font-weight:600" | Umleitung
 " scope=""row""  Lithuania",KLAIPĖDA,KAUNAS,VILNIUS,,n/a,,CENTRAS,,style="background:#FFF021; color:black" | Apylanka
 " Scope=""row""  Netherlands",Amsterdam,Den Haag,Woerden,,n/a,,Centrum,,style="background:#FFDD00; color:black"| OMLEIDING<br>Volg A
-" scope=""row""  Norway",Nannestad,Lillestrøm,Trondheim,,n/a,,Sentrum,[icon] Kvitsand,style="background:#FC7800; color:black" |
+" scope=""row""  Norway",Nannestad,Lillestrøm,Trondheim,,n/a,,Sykehus,Kvitsand,style="background:#FF8200; color:black" |
 " scope=""row""  Poland",Wrocław,Poznań,Opole,,n/a,," style=""background:white; color:#2E4994  Stacja",Kraków,style="background:#FDBF2F; color:black" | Objazd
 " scope=""row""  Portugal",Lisboa,n/a,Portalegre,,Póvoa de Varzim,ALGARVE,centro,castelo,style="background:yellow; color:black" | Desvio
 " scope=""row""  Romania",București,n/a,Pitești,,n/a,n/a,Centru,Castelul Bran,style="background:#ffff00; color:black" | Ocolire

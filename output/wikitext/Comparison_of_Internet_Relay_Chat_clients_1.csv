@@ -19,6 +19,7 @@ ircII,Michael Sandrof,Free software,BSD,TUI,C
 Ircle,Onno Tijdgat," Commercial, 30-day trial",proprietary,GUI,C
 Irssi,Timo Sirainen,Free software,GPL,TUI,C
 KiwiIRC,Darren Whitlen,Free software,AGPL,Web,"JavaScript frontend, Node.js backend"
+kirc,Michael Czigler,Free software,GPL,TUI,C
 KVIrc,Szymon Stefanek,Free software,GPL,GUI,C++
 Konversation,KDE,Free software,GPL,GUI,C++
 LeafChat,Samuel Marshall,Free software,GPL,GUI,Java

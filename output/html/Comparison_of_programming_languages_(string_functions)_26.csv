@@ -1,0 +1,34 @@
+Format,Languages
+LCase( string ),Visual Basic
+lcase( string ),FreeBASIC
+lc( string )," Perl, Perl "
+string .lc,Raku (programming language)
+tolower( char ),C (programming language)C (programming language)
+std.string.toLower( string ),D (programming language)
+" transform( string .begin(),  string .end(),  result .begin(), ::tolower)[31] ",C++C++
+lowercase( string ),Object Pascal (Object Pascal)
+strtolower( string ),PHP
+lower( string ),Seed7
+" Echo (command) ""string"" | Echo (command) 'A-Z' 'a-z' ",Unix
+string .lower(),Python (programming language)
+downcase( string ),Pick Basic
+string .downcase,Ruby (programming language)Ruby (programming language)
+strings.ToLower( string ),Go (programming language)
+(string-downcase  string )," Scheme (programming language) (R6RS), Scheme (programming language) "
+(lower-case  string ),Clojure
+String.lowercase  string,OCaml
+String.map Char.toLower  string,Standard ML
+map Char.toLower  string,Haskell (programming language)
+string .toLowerCase()," Java (programming language), Java (programming language) "
+to_lower( string ),Erlang (programming language)
+string .ToLower()," Visual Basic .NET, Visual Basic .NET, Visual Basic .NET, Visual Basic .NET "
+string .lowercaseString," Objective-C (NSString * only), Objective-C (Foundation) "
+string.lower( string )   ( string ):lower(),Lua (programming language)
+string  asLowercase,Smalltalk
+LOWER( string ),SQL
+lowercase( string ),PL/IPL/I
+ToLowerCase[ string ],Mathematica
+«FUNCTION» LOWER-CASE( string ),COBOL
+string .toLower,Cobra (programming language)
+string tolower  string,Tcl
+string .to_lowercase(),Rust (programming language)Rust (programming language)

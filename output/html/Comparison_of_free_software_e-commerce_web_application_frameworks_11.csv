@@ -1,0 +1,15 @@
+,Authorize.Net,Authorize.Net,Barclaycard,Barclaycard,HSBC,HSBC,PayPal Standard
+Apache OFBiz,Yes,No,No,No,No,No,Yes
+Batavi (software),No,No,No,No,No,No,No
+Bigcommerce,Yes,Yes,No,No,No,No,Yes
+Drupal Commerce,Yes,No,No,No,No,No,Yes
+KonaKart,Yes,Yes,No,No,No,No,Yes
+Magento,Yes,3rd party,Yes,Yes,Yes,Yes,Yes
+NopCommerce,Yes,Yes,No,No,No,No,Yes
+OsCommerce,Yes,Yes,No,No,No,No,Yes
+Pimcore,No,No,No,No,No,No,No
+PrestaShop,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Shopify,Yes,Yes,No,Yes,No,No,Yes
+WooCommerce,Yes,Yes,No,No,No,No,Yes
+Zen Cart,Yes,Yes,No,No,No,No,Yes
+,Authorize.Net AIM,Authorize.Net SIM,Barclaycard CPI,Barclaycard MPI,HSBC API,HSBC CPI,PayPal Standard

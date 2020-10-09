@@ -1,0 +1,3 @@
+,Trident (layout engine),Gecko (layout engine),WebKit,Presto (layout engine)
+getContext,5.0,1.8,Yes,2.0
+toDataURL,,1.8[g 108],Yes[w 80],2.1[note 15]
